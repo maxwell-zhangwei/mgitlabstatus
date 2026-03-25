@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitLab 活动统计报告 · 2026-03-23</title>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Noto Sans CJK SC", sans-serif;
+      background: #0f1117;
+      color: #e2e8f0;
+      min-height: 100vh;
+      padding: 0 0 60px;
+    }
+    /* ---------- header ---------- */
+    .header {
+      background: linear-gradient(135deg, #1a1f35 0%, #0f1117 100%);
+      border-bottom: 1px solid #1e2540;
+      padding: 36px 48px 28px;
+    }
+    .header h1 { font-size: 26px; font-weight: 700; color: #f0f4ff; letter-spacing: .5px; }
+    .header .sub { margin-top: 6px; font-size: 13px; color: #7a8aaa; }
+    /* ---------- summary cards ---------- */
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 16px;
+      padding: 32px 48px 0;
+    }
+    .card {
+      background: #161b2e;
+      border: 1px solid #1e2540;
+      border-radius: 12px;
+      padding: 20px 22px;
+    }
+    .card .label { font-size: 12px; color: #7a8aaa; margin-bottom: 8px; text-transform: uppercase; letter-spacing: .6px; }
+    .card .value { font-size: 30px; font-weight: 700; color: #7eb6ff; }
+    .card .desc  { font-size: 11px; color: #4c5a7a; margin-top: 4px; }
+    /* ---------- charts row ---------- */
+    .charts-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      padding: 28px 48px 0;
+    }
+    .chart-box {
+      background: #161b2e;
+      border: 1px solid #1e2540;
+      border-radius: 12px;
+      padding: 20px 20px 8px;
+    }
+    .chart-box h3 { font-size: 14px; color: #a0b0cc; margin-bottom: 12px; font-weight: 500; }
+    .chart-box .echart { width: 100%; height: 300px; }
+    .chart-box.wide { grid-column: 1 / -1; }
+    .chart-box.wide .echart { height: 340px; }
+    /* ---------- full-width charts ---------- */
+    .full-row {
+      padding: 20px 48px 0;
+    }
+    /* ---------- table ---------- */
+    .table-box {
+      background: #161b2e;
+      border: 1px solid #1e2540;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin: 20px 48px 0;
+      overflow-x: auto;
+    }
+    .table-box h3 { font-size: 14px; color: #a0b0cc; margin-bottom: 16px; font-weight: 500; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    thead th {
+      background: #1e2540;
+      color: #a0b0cc;
+      font-weight: 500;
+      padding: 10px 14px;
+      text-align: left;
+      white-space: nowrap;
+    }
+    tbody tr { border-bottom: 1px solid #1a2035; transition: background .15s; }
+    tbody tr:hover { background: #1c2240; }
+    tbody td { padding: 10px 14px; color: #ccd6f0; }
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      border-radius: 4px;
+      padding: 2px 7px;
+    }
+    .badge-blue  { background: #1e3a6e; color: #7eb6ff; }
+    .badge-green { background: #1a4030; color: #4ec99a; }
+    .badge-orange{ background: #3d2a10; color: #f09a40; }
+    .badge-gray  { background: #1e2540; color: #7a8aaa; }
+    .rank-1 td:first-child { color: #f0d060; font-weight: 700; }
+    .rank-2 td:first-child { color: #b0b8d0; font-weight: 600; }
+    .rank-3 td:first-child { color: #c07840; font-weight: 600; }
+    .bar-cell { display: flex; align-items: center; gap: 8px; }
+    .mini-bar { height: 6px; border-radius: 3px; background: #2a4080; flex-shrink: 0; }
+    /* ---------- insights ---------- */
+    .insights {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+      margin: 20px 48px 0;
+    }
+    .insight-card {
+      background: #161b2e;
+      border: 1px solid #1e2540;
+      border-radius: 12px;
+      padding: 18px 20px;
+    }
+    .insight-card .icon { font-size: 24px; margin-bottom: 10px; }
+    .insight-card .title { font-size: 13px; font-weight: 600; color: #c0d0f0; margin-bottom: 6px; }
+    .insight-card .body  { font-size: 12px; color: #8898bb; line-height: 1.7; }
+    .highlight { color: #7eb6ff; font-weight: 600; }
+
+    @media (max-width: 900px) {
+      .charts-row { grid-template-columns: 1fr; }
+      .header, .summary, .charts-row, .full-row, .table-box, .insights { padding-left: 20px; padding-right: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>📊 GitLab 活动统计报告</h1>
+  <div class="sub">统计周期：2026-03-23 最近 24 小时 &nbsp;|&nbsp; 项目组：publish_platform &nbsp;|&nbsp; 共 19 位活跃开发者</div>
+</div>
+
+<!-- Summary Cards -->
+<div class="summary">
+  <div class="card">
+    <div class="label">活跃开发者</div>
+    <div class="value">19</div>
+    <div class="desc">参与贡献</div>
+  </div>
+  <div class="card">
+    <div class="label">总提交次数</div>
+    <div class="value">78</div>
+    <div class="desc">commits</div>
+  </div>
+  <div class="card">
+    <div class="label">Merge Requests</div>
+    <div class="value">23</div>
+    <div class="desc">全部已 merged / opened</div>
+  </div>
+  <div class="card">
+    <div class="label">代码新增</div>
+    <div class="value">+27.7K</div>
+    <div class="desc">行（约）</div>
+  </div>
+  <div class="card">
+    <div class="label">代码删除</div>
+    <div class="value">-7.8K</div>
+    <div class="desc">行（约）</div>
+  </div>
+  <div class="card">
+    <div class="label">净增代码</div>
+    <div class="value">+19.9K</div>
+    <div class="desc">行（约）</div>
+  </div>
+  <div class="card">
+    <div class="label">涉及项目</div>
+    <div class="value">17</div>
+    <div class="desc">个仓库</div>
+  </div>
+</div>
+
+<!-- Charts Row 1 -->
+<div class="charts-row" style="padding-top:28px; padding-left:48px; padding-right:48px;">
+  <div class="chart-box">
+    <h3>各成员总活动量排名</h3>
+    <div id="activityChart" class="echart"></div>
+  </div>
+  <div class="chart-box">
+    <h3>各成员提交次数 vs MR 数量</h3>
+    <div id="commitMrChart" class="echart"></div>
+  </div>
+</div>
+
+<!-- Charts Row 2 -->
+<div class="charts-row" style="padding-left:48px; padding-right:48px;">
+  <div class="chart-box">
+    <h3>代码变更量（新增 vs 删除）</h3>
+    <div id="codeChangeChart" class="echart"></div>
+  </div>
+  <div class="chart-box">
+    <h3>活跃项目提交分布 Top 10</h3>
+    <div id="projectChart" class="echart"></div>
+  </div>
+</div>
+
+<!-- Full row: timeline heatmap -->
+<div style="padding: 20px 48px 0;">
+  <div class="chart-box">
+    <h3>提交时间分布（按小时）</h3>
+    <div id="timelineChart" style="width:100%;height:260px;"></div>
+  </div>
+</div>
+
+<!-- Detail Table -->
+<div class="table-box">
+  <h3>开发者贡献明细</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>排名</th>
+        <th>开发者</th>
+        <th>提交数</th>
+        <th>MR 数</th>
+        <th>代码新增</th>
+        <th>代码删除</th>
+        <th>净增量</th>
+        <th>总活动量</th>
+        <th>主要工作</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="rank-1">
+        <td>🥇 1</td>
+        <td>rambohu1</td>
+        <td>13</td>
+        <td>0</td>
+        <td><span style="color:#4ec99a">+98</span></td>
+        <td><span style="color:#f07070">-109</span></td>
+        <td>-11</td>
+        <td><span class="badge badge-blue">13</span></td>
+        <td>MSDK Logcat 清理 / 版本升级 1.5.12.0</td>
+      </tr>
+      <tr class="rank-2">
+        <td>🥈 2</td>
+        <td>康鑫博 (Xinbo)</td>
+        <td>10</td>
+        <td>4</td>
+        <td><span style="color:#4ec99a">+2,624</span></td>
+        <td><span style="color:#f07070">-583</span></td>
+        <td>+2,041</td>
+        <td><span class="badge badge-blue">14</span></td>
+        <td>OceanAdsV2 策略接口重构</td>
+      </tr>
+      <tr class="rank-2">
+        <td>🥈 2</td>
+        <td>田雪健 (Storm)</td>
+        <td>10</td>
+        <td>5</td>
+        <td><span style="color:#4ec99a">+167</span></td>
+        <td><span style="color:#f07070">-345</span></td>
+        <td>-178</td>
+        <td><span class="badge badge-blue">15</span></td>
+        <td>gRPC 服务 Dockerfile / 脚本修复</td>
+      </tr>
+      <tr class="rank-2">
+        <td>🥈 2</td>
+        <td>chaoweiwu</td>
+        <td>10</td>
+        <td>0</td>
+        <td><span style="color:#4ec99a">+1,990</span></td>
+        <td><span style="color:#f07070">-810</span></td>
+        <td>+1,180</td>
+        <td><span class="badge badge-blue">10</span></td>
+        <td>爬虫 S3 Cookie 重构 / B 站弹幕集成</td>
+      </tr>
+      <tr class="rank-3">
+        <td>4</td>
+        <td>nelsonliu</td>
+        <td>5</td>
+        <td>0</td>
+        <td><span style="color:#4ec99a">+8,767</span></td>
+        <td><span style="color:#f07070">-1,900</span></td>
+        <td>+6,867</td>
+        <td><span class="badge badge-green">5</span></td>
+        <td>标签评估平台 API/Web 更新</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>zhangfan</td>
+        <td>6</td>
+        <td>0</td>
+        <td><span style="color:#4ec99a">+1,959</span></td>
+        <td><span style="color:#f07070">-1,551</span></td>
+        <td>+408</td>
+        <td><span class="badge badge-green">6</span></td>
+        <td>MSDK iOS 版本升级 / Unity 自定义路由</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>田元林 (Candy)</td>
+        <td>6</td>
+        <td>3</td>
+        <td><span style="color:#4ec99a">+48</span></td>
+        <td><span style="color:#f07070">-112</span></td>
+        <td>-64</td>
+        <td><span class="badge badge-green">9</span></td>
+        <td>移动端飞书登录 / 坐标轴百分比</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>jiangcheng (JoJo)</td>
+        <td>4</td>
+        <td>1</td>
+        <td><span style="color:#4ec99a">+5,400</span></td>
+        <td><span style="color:#f07070">-208</span></td>
+        <td>+5,192</td>
+        <td><span class="badge badge-green">5</span></td>
+        <td>GAMS Ad In Drawer/Task 功能开发</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>kurokyma</td>
+        <td>4</td>
+        <td>0</td>
+        <td><span style="color:#4ec99a">+1,729</span></td>
+        <td><span style="color:#f07070">-1,773</span></td>
+        <td>-44</td>
+        <td><span class="badge badge-green">4</span></td>
+        <td>MSDK iOS GameCenter 合并</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>孙鹏</td>
+        <td>3</td>
+        <td>1</td>
+        <td><span style="color:#4ec99a">+875</span></td>
+        <td><span style="color:#f07070">-185</span></td>
+        <td>+690</td>
+        <td><span class="badge badge-green">4</span></td>
+        <td>GAMS Ad In 菜单权限/字典 API</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>suzyzeng</td>
+        <td>3</td>
+        <td>0</td>
+        <td><span style="color:#4ec99a">+418</span></td>
+        <td><span style="color:#f07070">-844</span></td>
+        <td>-426</td>
+        <td><span class="badge badge-gray">3</span></td>
+        <td>订阅截图优化 / 广告账户信息升级</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>孙恺 (Kai)</td>
+        <td>3</td>
+        <td>2</td>
+        <td><span style="color:#4ec99a">+219</span></td>
+        <td><span style="color:#f07070">-2</span></td>
+        <td>+217</td>
+        <td><span class="badge badge-gray">5</span></td>
+        <td>回调服务 / 归因服务监测链接查询</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>王枫荻 (Fengdi)</td>
+        <td>2+2</td>
+        <td>2</td>
+        <td><span style="color:#4ec99a">+109</span></td>
+        <td><span style="color:#f07070">-50</span></td>
+        <td>+59</td>
+        <td><span class="badge badge-gray">4</span></td>
+        <td>fuxi 标题包管理功能</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>王聪 (Wilson)</td>
+        <td>2</td>
+        <td>0</td>
+        <td><span style="color:#4ec99a">+3,125</span></td>
+        <td><span style="color:#f07070">-221</span></td>
+        <td>+2,904</td>
+        <td><span class="badge badge-gray">3</span></td>
+        <td>广告数据渠道 / fuxi Snapshot 功能</td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>张苒 (Ran)</td>
+        <td>1</td>
+        <td>3</td>
+        <td><span style="color:#4ec99a">+2</span></td>
+        <td><span style="color:#f07070">-2</span></td>
+        <td>0</td>
+        <td><span class="badge badge-gray">4</span></td>
+        <td>GAMS UI 测试页面 / hover 效果</td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>王宁 (Willem)</td>
+        <td>1</td>
+        <td>2</td>
+        <td><span style="color:#4ec99a">+19</span></td>
+        <td><span style="color:#f07070">-8</span></td>
+        <td>+11</td>
+        <td><span class="badge badge-gray">3</span></td>
+        <td>ad_bi/data 新增渠道字段</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>叶明 (Ming)</td>
+        <td>1</td>
+        <td>0</td>
+        <td><span style="color:#4ec99a">+19</span></td>
+        <td><span style="color:#f07070">-8</span></td>
+        <td>+11</td>
+        <td><span class="badge badge-gray">1</span></td>
+        <td>ad_bi/data 字段合并</td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td>zhangran</td>
+        <td>1</td>
+        <td>0</td>
+        <td><span style="color:#4ec99a">+2</span></td>
+        <td><span style="color:#f07070">-2</span></td>
+        <td>0</td>
+        <td><span class="badge badge-gray">1</span></td>
+        <td>GAMS UI 测试</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Inactive Members -->
+<div class="table-box">
+  <h3>😴 昨日无活动成员（12人）</h3>
+  <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+    <span class="badge badge-gray">祁杰 (Jacky)</span>
+    <span class="badge badge-gray">徐晨杰 (Tito)</span>
+    <span class="badge badge-gray">万映 (leo)</span>
+    <span class="badge badge-gray">解薇 (cheryl)</span>
+    <span class="badge badge-gray">杜民民 (Dylan)</span>
+    <span class="badge badge-gray">郑淼 (Miao)</span>
+    <span class="badge badge-gray">李铭骏 (Mingjun)</span>
+    <span class="badge badge-gray">丁江 (Jiang)</span>
+    <span class="badge badge-gray">徐腾飞 (Tengfei)</span>
+    <span class="badge badge-gray">董博 (Carl)</span>
+    <span class="badge badge-gray">张芮萍 (Ruiping)</span>
+    <span class="badge badge-gray">朱吉人 (Jiren)</span>
+  </div>
+  <div style="margin-top: 12px; font-size: 12px; color: #7a8aaa;">
+    团队总人数: <span style="color: #a0b0cc;">29 人</span> · 活跃: <span style="color: #4ec99a;">17 人</span> · 未活跃: <span style="color: #f07070;">12 人</span>
+  </div>
+</div>
+
+<!-- Insights -->
+<div class="insights">
+  <div class="insight-card">
+    <div class="icon">🏆</div>
+    <div class="title">最高活动量</div>
+    <div class="body">
+      <span class="highlight">田雪健 (Storm)</span> 以 <span class="highlight">15 次</span>总活动量居首，
+      完成了 gRPC auth/common 服务的 Dockerfile 添加及脚本修复，并推送了
+      <span class="highlight">5 个 MR</span> 全部已合并。
+    </div>
+  </div>
+  <div class="insight-card">
+    <div class="icon">💻</div>
+    <div class="title">代码产出最多</div>
+    <div class="body">
+      <span class="highlight">nelsonliu</span> 净增 <span class="highlight">+6,867 行</span>，主要集中在
+      标签评估平台 API 的镜像配置和标签库大规模更新，代码行数最为可观。
+    </div>
+  </div>
+  <div class="insight-card">
+    <div class="icon">🔄</div>
+    <div class="title">MR 合并最积极</div>
+    <div class="body">
+      <span class="highlight">田雪健 (Storm)</span> 以 5 个 MR 领跑，
+      <span class="highlight">康鑫博 (Xinbo)</span> 4 个 MR，均为当日全部 merged，
+      交付节奏快、流程规范。
+    </div>
+  </div>
+  <div class="insight-card">
+    <div class="icon">📦</div>
+    <div class="title">SDK 版本冲刺</div>
+    <div class="body">
+      <span class="highlight">rambohu1、zhangfan、kurokyma</span> 集中在
+      Android MSDK 和 iOS MSDK 仓库推进
+      <span class="highlight">v1.5.12.0</span> 版本发布，涉及 Logcat 清理、GameCenter 合并等。
+    </div>
+  </div>
+  <div class="insight-card">
+    <div class="icon">🕐</div>
+    <div class="title">工作时段</div>
+    <div class="body">
+      提交主要集中在 <span class="highlight">14:00–20:30</span> 北京时间，
+      下午到晚间是团队的高峰期；有少量零点前后的 UTC 时间戳提交（对应下午合并操作）。
+    </div>
+  </div>
+  <div class="insight-card">
+    <div class="icon">🗂️</div>
+    <div class="title">最活跃仓库</div>
+    <div class="body">
+      <span class="highlight">publish_platform/fuxi</span>（5 人活跃）、
+      <span class="highlight">SDK/MSDK</span>（多人协作冲版本）、
+      <span class="highlight">web/gams_ad_in</span>（前端功能并行开发）
+      是当日三大热点仓库。
+    </div>
+  </div>
+</div>
+
+<script>
+// ---- 1. Activity Bar (horizontal) ----
+(function() {
+  const chart = echarts.init(document.getElementById('activityChart'));
+  const names  = ['田雪健Storm','康鑫博Xinbo','rambohu1','chaoweiwu','田元林Candy','zhangfan','nelsonliu','jiangcheng','孙恺Kai','张苒Ran','kurokyma','王枫荻Fengdi','孙鹏','王聪Wilson','suzyzeng','王宁Willem','叶明Ming','zhangran','zhangranX'].reverse();
+  const values = [15,14,13,10,9,6,5,5,5,4,4,4,4,3,3,3,1,1,1].reverse();
+  chart.setOption({
+    tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
+    grid: { left: 110, right: 20, top: 10, bottom: 20 },
+    xAxis: { type: 'value', axisLabel: { color: '#7a8aaa' }, splitLine: { lineStyle: { color: '#1e2540' } } },
+    yAxis: { type: 'category', data: names, axisLabel: { color: '#a0b0cc', fontSize: 11 } },
+    series: [{
+      type: 'bar',
+      data: values,
+      barMaxWidth: 22,
+      itemStyle: {
+        color: (p) => {
+          const idx = p.dataIndex;
+          if (idx >= 16) return '#f0c040';
+          if (idx >= 14) return '#7eb6ff';
+          if (idx >= 12) return '#4ec99a';
+          return '#4a6fa0';
+        },
+        borderRadius: [0, 4, 4, 0]
+      },
+      label: { show: true, position: 'right', color: '#a0b0cc', fontSize: 11 }
+    }]
+  });
+})();
+
+// ---- 2. Commit vs MR ----
+(function() {
+  const chart = echarts.init(document.getElementById('commitMrChart'));
+  const names   = ['Storm','Xinbo','rambohu1','chaoweiwu','Candy','zhangfan','nelsonliu','JoJo','Kai','Ran'];
+  const commits = [10, 10, 13, 10, 6, 6, 5, 4, 3, 1];
+  const mrs     = [5,   4,  0,  0, 3, 0, 0, 1, 2, 3];
+  chart.setOption({
+    tooltip: { trigger: 'axis' },
+    legend: { data: ['提交数', 'MR 数'], textStyle: { color: '#a0b0cc' }, top: 0 },
+    grid: { left: 40, right: 20, top: 36, bottom: 20 },
+    xAxis: { type: 'category', data: names, axisLabel: { color: '#a0b0cc', fontSize: 11, rotate: 30 } },
+    yAxis: { type: 'value', axisLabel: { color: '#7a8aaa' }, splitLine: { lineStyle: { color: '#1e2540' } } },
+    series: [
+      { name: '提交数', type: 'bar', data: commits, barMaxWidth: 22, itemStyle: { color: '#4e90d0', borderRadius: [4,4,0,0] } },
+      { name: 'MR 数', type: 'bar', data: mrs, barMaxWidth: 22, itemStyle: { color: '#4ec99a', borderRadius: [4,4,0,0] } }
+    ]
+  });
+})();
+
+// ---- 3. Code Change ----
+(function() {
+  const chart = echarts.init(document.getElementById('codeChangeChart'));
+  const names = ['nelsonliu','jiangcheng','康鑫博','王聪Wilson','chaoweiwu','孙鹏','zhangfan','kurokyma','孙恺Kai','suzyzeng'];
+  const adds  = [8767, 5400, 2624, 3125, 1990, 875, 1959, 1729, 219, 418];
+  const dels  = [-1900, -208, -583, -221, -810, -185, -1551, -1773, -2, -844];
+  chart.setOption({
+    tooltip: {
+      trigger: 'axis',
+      formatter: (p) => {
+        return `${p[0].name}<br/>${p[0].marker} 新增 ${p[0].value}<br/>${p[1].marker} 删除 ${Math.abs(p[1].value)}`;
+      }
+    },
+    legend: { data: ['代码新增', '代码删除'], textStyle: { color: '#a0b0cc' }, top: 0 },
+    grid: { left: 60, right: 20, top: 36, bottom: 20 },
+    xAxis: {
+      type: 'category', data: names,
+      axisLabel: { color: '#a0b0cc', fontSize: 10, rotate: 30 }
+    },
+    yAxis: {
+      type: 'value',
+      axisLabel: { color: '#7a8aaa', formatter: v => v >= 0 ? '+'+v : v },
+      splitLine: { lineStyle: { color: '#1e2540' } }
+    },
+    series: [
+      { name: '代码新增', type: 'bar', stack: 'code', data: adds,  barMaxWidth: 24, itemStyle: { color: '#4ec99a', borderRadius: [4,4,0,0] } },
+      { name: '代码删除', type: 'bar', stack: 'code', data: dels,  barMaxWidth: 24, itemStyle: { color: '#e05050', borderRadius: [0,0,4,4] } }
+    ]
+  });
+})();
+
+// ---- 4. Project Commit Distribution ----
+(function() {
+  const chart = echarts.init(document.getElementById('projectChart'));
+  const data = [
+    { name: 'fuxi',               value: 14 },
+    { name: 'SDK/MSDK',           value: 12 },
+    { name: 'mt_publish_crawler', value: 10 },
+    { name: 'SDK/MSDK_iOS/MSDK',  value: 6  },
+    { name: 'auth_service_grpc',  value: 6  },
+    { name: 'web/gams_ad_in',     value: 7  },
+    { name: 'label-eval-api',     value: 3  },
+    { name: 'cockpit_mobile',     value: 6  },
+    { name: 'gms_ad_bi_refactor', value: 4  },
+    { name: 'attribution-service',value: 2  },
+  ];
+  chart.setOption({
+    tooltip: { trigger: 'item', formatter: '{b}: {c} commits ({d}%)' },
+    legend: { orient: 'vertical', right: 0, top: 'center', textStyle: { color: '#a0b0cc', fontSize: 10 }, itemWidth: 10, itemHeight: 10 },
+    series: [{
+      type: 'pie',
+      radius: ['45%', '72%'],
+      center: ['38%', '52%'],
+      data,
+      label: { show: false },
+      emphasis: { itemStyle: { shadowBlur: 10, shadowOffsetX: 0, shadowColor: 'rgba(0,0,0,0.5)' } },
+      itemStyle: {
+        color: (p) => ['#4e90d0','#4ec99a','#f09a40','#e05050','#9b72cf','#40b0f0','#c0c040','#f07090','#70d090','#a0b0d0'][p.dataIndex % 10]
+      }
+    }]
+  });
+})();
+
+// ---- 5. Timeline (commits by hour) ----
+(function() {
+  const chart = echarts.init(document.getElementById('timelineChart'));
+  // map commit times
+  const hours = {
+    7: 3, 8: 6, 9: 8, 10: 5, 11: 9, 12: 5,
+    13: 2, 14: 7, 15: 6, 16: 7, 17: 9, 18: 3,
+    19: 7, 20: 5
+  };
+  const xData = Array.from({length: 24}, (_, i) => `${i}:00`);
+  const yData = xData.map((_, i) => hours[i] || 0);
+  chart.setOption({
+    tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
+    grid: { left: 40, right: 20, top: 20, bottom: 30 },
+    xAxis: {
+      type: 'category', data: xData,
+      axisLabel: { color: '#7a8aaa', fontSize: 10, interval: 1, rotate: 45 },
+      axisLine: { lineStyle: { color: '#1e2540' } }
+    },
+    yAxis: {
+      type: 'value',
+      axisLabel: { color: '#7a8aaa' },
+      splitLine: { lineStyle: { color: '#1e2540' } }
+    },
+    visualMap: {
+      show: false, min: 0, max: 10,
+      inRange: { color: ['#1e2540', '#4e80c0', '#7eb6ff'] }
+    },
+    series: [{
+      type: 'bar',
+      data: yData,
+      barMaxWidth: 24,
+      itemStyle: { borderRadius: [4, 4, 0, 0] },
+      markLine: {
+        silent: true,
+        symbol: 'none',
+        lineStyle: { color: '#f09a40', type: 'dashed', width: 1.5 },
+        data: [{ type: 'average', name: '平均' }],
+        label: { color: '#f09a40', formatter: '均值 {c}' }
+      }
+    }]
+  });
+})();
+
+window.addEventListener('resize', () => {
+  ['activityChart','commitMrChart','codeChangeChart','projectChart','timelineChart'].forEach(id => {
+    echarts.getInstanceByDom(document.getElementById(id))?.resize();
+  });
+});
+</script>
+</body>
+</html>
