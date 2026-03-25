@@ -493,12 +493,12 @@
            时间: 2026-03-24T12:36:36.000+08:00
            链接: http://lf.git.oa.mt/mirrorsphere/portal/-/commit/b1c2c088bddab7c94c7623b6a47e6662d14d57eb
            分支: test
-    • msdk/admin                                    提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:master, pre (+533 / -5)
+    • msdk/admin                                    提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:addImportCrowdFile_20260319, master, pre (+533 / -5)
       提交记录（按时间倒序）：
         1. 1a69c43e  Merge branch 'feat/lite_config_download' into 'master'
            时间: 2026-03-24T11:27:25.000+00:00
            链接: http://lf.git.oa.mt/msdk/admin/-/commit/1a69c43e2d316f71d5072029e80ec14362225ef0
-           分支: master
+           分支: addImportCrowdFile_20260319, master
         2. c38fed2a  Merge branch 'feat/lite_config_download' into pre
            时间: 2026-03-24T14:22:13.000+08:00
            链接: http://lf.git.oa.mt/msdk/admin/-/commit/c38fed2a1366306d83b919c34c92bbcd58296911
@@ -706,39 +706,47 @@
 用户: 田元林(Candy)
   识别: candytian@moonton.com
   出现过的名字: candytian, 田元林(Candy)
-  总提交    : 10 次
-  总新增/删除: +154 / -38
+  总提交    : 12 次
+  总新增/删除: +367 / -75
   Merge Requests: 5 个
   Commit 评论  : 0 条
   MR 评论      : 0 条
-  总活动量   : 15
+  总活动量   : 17
   按项目分布:
-    • publish_platform/web/cockpit                  提交:   6  MR:  3  Commit评论:  0  MR评论:  0 分支:main, tian/mobile (+128 / -28)
+    • publish_platform/web/cockpit                  提交:   8  MR:  3  Commit评论:  0  MR评论:  0 分支:main, tian/config, tian/mobile (+341 / -65)
       提交记录（按时间倒序）：
         1. ea8bdf74  Merge branch 'tian/mobile' into 'main'
            时间: 2026-03-24T10:01:19.000+00:00
            链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/ea8bdf746bcd05c9ee1efd2222cf42eaaecacada
-           分支: main
+           分支: main, tian/config
         2. 3cb56ceb  feat:m-6771194379
            时间: 2026-03-24T18:00:34.000+08:00
            链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/3cb56cebf8e149556574d2d77157353c7aab5e6f
-           分支: main, tian/mobile
+           分支: main, tian/config, tian/mobile
         3. 9f53dcb9  Merge branch 'tian/mobile' into 'main'
            时间: 2026-03-24T09:07:09.000+00:00
            链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/9f53dcb951ca6ad3dade141fdca7a5dd56d2ba9e
-           分支: main
+           分支: main, tian/config
         4. a5d19534  m-6771194379 ngnix不缓存html
            时间: 2026-03-24T17:04:13.000+08:00
            链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/a5d1953409b703a298630306071d3d5559ae0a12
-           分支: main, tian/mobile
+           分支: main, tian/config, tian/mobile
         5. f823a998  Merge branch 'tian/mobile' into 'main'
            时间: 2026-03-24T08:44:05.000+00:00
            链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/f823a9986cc92b6c1f268c8183a808be6a213857
-           分支: main
+           分支: main, tian/config
         6. d83a6cbd  m-6771194379 错误边界兜底
            时间: 2026-03-24T16:42:27.000+08:00
            链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/d83a6cbda55f10a52ddcaf1f924a282dda6dce3c
-           分支: main, tian/mobile
+           分支: main, tian/config, tian/mobile
+        7. c12aa338  Merge branch 'main' into tian/config
+           时间: 2026-03-24T19:27:21.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/c12aa3388f25981f0100ce8c5ae27fb655187fbf
+           分支: tian/config
+        8. c6a3dc4b  feat:init
+           时间: 2026-03-24T12:54:32.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/c6a3dc4b169b76c5a9ac4f368783eaed0960c83f
+           分支: tian/config
       MR记录（按时间倒序）：
         1. MR#691 feat:m-6771194379
            时间: 2026-03-24T10:01:04.661Z
@@ -1075,19 +1083,19 @@
         1. 49a9fd5e  [OceanAdsV2] refactor async task retry
            时间: 2026-03-24T21:18:46.000+08:00
            链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/49a9fd5efee9e6fd0c69fb4d094f0ef4417d5b83
-           分支: feature-xinbo-dev
+           分支: feature-xinbo-dev, master
         2. 48322677  [OceanAdsV2] refactor async task retry
            时间: 2026-03-24T12:06:11.000+08:00
            链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/48322677836c323c7d8532350b47ca2e2c3ad2e1
-           分支: feature-xinbo-dev
-        3. 9afdecef  [OceanAdsV2] refactor strategy edit api
+           分支: feature-xinbo-dev, master
+        3. c350bcd2  Merge branch 'feature-xinbo-dev' into 'master'
+           时间: 2026-03-24T02:52:37.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/c350bcd23826b2d0e514daee35c371c2b8af10ba
+           分支: feature-xinbo-dev, fengdi/master/title_package, master
+        4. 9afdecef  [OceanAdsV2] refactor strategy edit api
            时间: 2026-03-24T10:50:15.000+08:00
            链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/9afdecefe49495cb46f17da9c4949862a49c57d0
            分支: feature-xinbo-dev, fengdi/master/title_package, master
-        4. c350bcd2  Merge branch 'feature-xinbo-dev' into 'master'
-           时间: 2026-03-24T02:52:37.000+00:00
-           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/c350bcd23826b2d0e514daee35c371c2b8af10ba
-           分支: fengdi/master/title_package, master
       MR记录（按时间倒序）：
         1. MR#74 [OceanAdsV2] refactor strategy edit api
            时间: 2026-03-24T02:52:26.497Z
@@ -1110,32 +1118,32 @@
   MR 评论      : 0 条
   总活动量   : 6
   按项目分布:
-    • publish_platform/fuxi                         提交:   6  MR:  0  Commit评论:  0  MR评论:  0 分支:feature-snapshot, master (+6,447 / -792)
+    • publish_platform/fuxi                         提交:   6  MR:  0  Commit评论:  0  MR评论:  0 分支:feature-snapshot, feature-xinbo-dev, master (+6,447 / -792)
       提交记录（按时间倒序）：
         1. 6675fd39  [Test] document unit test scenarios
            时间: 2026-03-24T16:29:13.000+08:00
            链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/6675fd3906646421d248d44969e1f31a43443d1d
-           分支: feature-snapshot, master
+           分支: feature-snapshot, feature-xinbo-dev, master
         2. 5b6a7b6a  [AsyncTask] add DB fallback for Redis degradation
            时间: 2026-03-24T16:23:27.000+08:00
            链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/5b6a7b6aa737fcf56d0f369b24a56fec62d10469
-           分支: feature-snapshot, master
+           分支: feature-snapshot, feature-xinbo-dev, master
         3. 54d64ff6  [AsyncTask] expose mark in task page response
            时间: 2026-03-24T15:55:12.000+08:00
            链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/54d64ff626f964e7f18d5e6305c40f21cb00ca88
-           分支: feature-snapshot, master
+           分支: feature-snapshot, feature-xinbo-dev, master
         4. f9cbbc67  [AsyncTask] simplify task fields and align scheduling config
            时间: 2026-03-24T14:44:00.000+08:00
            链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/f9cbbc674196bfa6b767de1f53d4b2409a7e5757
-           分支: feature-snapshot, master
+           分支: feature-snapshot, feature-xinbo-dev, master
         5. ee7ee902  [AsyncTask] unify TOS media processing tasks
            时间: 2026-03-24T10:53:02.000+08:00
            链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/ee7ee9027930f2f8a8daefd520d476249bf9929e
-           分支: feature-snapshot, master
+           分支: feature-snapshot, feature-xinbo-dev, master
         6. c70d37e1  Merge branch 'feature-snapshot' into 'master'
            时间: 2026-03-24T09:52:18.000+00:00
            链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/c70d37e1508582d6eec0c56d1862af532436a0fb
-           分支: master
+           分支: feature-xinbo-dev, master
 
 用户: 孙鹏
   识别: v_sunpeng@moonton.com
@@ -1217,12 +1225,12 @@
   MR 评论      : 0 条
   总活动量   : 3
   按项目分布:
-    • publish_platform/fuxi                         提交:   1  MR:  1  Commit评论:  0  MR评论:  0 分支:master (+26 / -4)
+    • publish_platform/fuxi                         提交:   1  MR:  1  Commit评论:  0  MR评论:  0 分支:feature-xinbo-dev, master (+26 / -4)
       提交记录（按时间倒序）：
         1. 431737e9  Merge branch 'fengdi/master/title_package' into 'master'
            时间: 2026-03-24T04:10:06.000+00:00
            链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/431737e9928b2a6e79b517462fffcbd8c66d5cec
-           分支: master
+           分支: feature-xinbo-dev, master
       MR记录（按时间倒序）：
         1. MR#75 [标题包管理]修复删除问题
            时间: 2026-03-24T04:10:00.047Z
@@ -1277,12 +1285,12 @@
            时间: 2026-03-24T17:40:18.000+08:00
            链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/f3e3171438517cb4307338b355e7ad63182cef4d
            分支: fengdi/main/brand
-    • publish_platform/fuxi                         提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:fengdi/master/title_package, master (+26 / -4)
+    • publish_platform/fuxi                         提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:feature-xinbo-dev, fengdi/master/title_package, master (+26 / -4)
       提交记录（按时间倒序）：
         1. d571ceec  [标题包管理]修复删除问题
            时间: 2026-03-24T12:09:41.000+08:00
            链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/d571ceec2fea1d7a8833f636aea99eaba2ecf704
-           分支: fengdi/master/title_package, master
+           分支: feature-xinbo-dev, fengdi/master/title_package, master
 
 用户: admin
   识别: admin@admindemacbook-pro.local
