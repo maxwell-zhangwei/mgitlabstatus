@@ -65,6 +65,11 @@
   .diff-add { color:#3fb950; font-size:12px; }
   .diff-del { color:#f85149; font-size:12px; }
   .footer { text-align:center; padding:24px; color:#484f58; font-size:12px; border-top:1px solid #21262d; margin-top:8px; }
+  .ai-summary-card { background:linear-gradient(135deg,#1a1a2e,#16213e); border:1px solid #3a2a4a; margin-bottom:20px; }
+  .ai-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px; }
+  .ai-item { background:#161b22; border:1px solid #21262d; border-radius:8px; padding:12px 16px; }
+  .ai-user { font-size:13px; font-weight:600; color:#58a6ff; margin-bottom:6px; }
+  .ai-work { font-size:12px; color:#8b949e; line-height:1.5; }
 </style>
 </head>
 <body>
@@ -76,7 +81,7 @@
       <div class="header-sub">数据周期：2026-03-25（昨日全天）</div>
     </div>
   </div>
-  <div class="header-badge">🕙 自动生成 · 2026-03-26 12:13</div>
+  <div class="header-badge">🕙 自动生成 · 2026-03-26 13:08</div>
 </div>
 
 <div class="main">
@@ -119,6 +124,9 @@
       </div>
     </div>
   </div>
+
+  <!-- AI 智能总结卡片 -->
+  <div class="card ai-summary-card"><div class="card-header"><div class="card-icon" style="background:#2a1a3a">✨</div><div class="card-title">AI 智能总结 · 工作内容分析</div></div><div class="card-body"><div class="ai-grid"><div class="ai-item"><div class="ai-user">12. 孙鹏</div><div class="ai-work">优化多账号Tab和BatchWorkspace，合并feat/sun和feat/tencentChannel分支。</div></div><div class="ai-item"><div class="ai-user">13. 孙恺(Kai)</div><div class="ai-work">新增包名映射系列，Reapply "switch name"和"add rename converter"。</div></div><div class="ai-item"><div class="ai-user">8. 郑淼(Miao)</div><div class="ai-work">合并feat/lite_config_download分支，兼容配置下载，处理jsonpath规则。</div></div><div class="ai-item"><div class="ai-user">21. 杜民民(Dylan)</div><div class="ai-work">合并featuremingyecockpitmergeusmingye2026032...分支。</div></div><div class="ai-item"><div class="ai-user">6. 丁江(Jiang)</div><div class="ai-work">合并updateDevDbPwd_20260325分支，更新devdb密码，清理无效配置。</div></div><div class="ai-item"><div class="ai-user">2. 田元林(Candy)</div><div class="ai-work">合并tian/mobile和feat/app分支，优化移动设备权限重定向，处理合规信息。</div></div><div class="ai-item"><div class="ai-user">15. 王枫荻(Fengdi)</div><div class="ai-work">修复标题包管理删除问题，合并fengdi/master/title_package分支。</div></div><div class="ai-item"><div class="ai-user">7. 田雪健(Storm)</div><div class="ai-work">更新path white list api auth，合并dev分支，添加退出日志。</div></div><div class="ai-item"><div class="ai-user">3. 康鑫博(Xinbo)</div><div class="ai-work">频繁合并featurexinbodev分支，重构OceanAdsV2相关API。</div></div><div class="ai-item"><div class="ai-user">18. 胡海平(Rambo)</div><div class="ai-work">优化Code Clean，增加gitignore，更新Uinty导出工程。</div></div><div class="ai-item"><div class="ai-user">9. 张芮萍(Ruiping)</div><div class="ai-work">优化CPI出价和核减功能，合并feat/cpiReduction分支。</div></div><div class="ai-item"><div class="ai-user">1. 徐腾飞(Tengfei)</div><div class="ai-work">持续合并分支并新增项目stage_id，修改实现方案，更新阶段信息。</div></div><div class="ai-item"><div class="ai-user">10. 曾凡单(Suzy)</div><div class="ai-work">升级GetAdAccountList接口，迁移包名和媒体渠道映射表。</div></div><div class="ai-item"><div class="ai-user">11. 姜承(JoJo)</div><div class="ai-work">优化巨量第2期主流程，升级版本号，合并feat/0.0.2分支。</div></div><div class="ai-item"><div class="ai-user">17. 马亮亮(Kuroky)</div><div class="ai-work">优化console log显示和log打印，消除warning。</div></div><div class="ai-item"><div class="ai-user">16. 徐晨杰(Tito)</div><div class="ai-work">优化stage和通知推送功能，合并feat/stage分支。</div></div><div class="ai-item"><div class="ai-user">4. 李铭骏(Mingjun)</div><div class="ai-work">合并feat/stageid分支，优化代码，更新多个模块。</div></div><div class="ai-item"><div class="ai-user">20. 张苒(Ran)</div><div class="ai-work">Initial commit，m6925123666。</div></div><div class="ai-item"><div class="ai-user">14. 王聪(Wilson)</div><div class="ai-work">解决merge冲突，测试Docker相关单元测试。</div></div><div class="ai-item"><div class="ai-user">5. 吴超伟(Chaowei)</div><div class="ai-work">增强抖音搜索功能，优化数据抓取，改进错误处理。</div></div><div class="ai-item"><div class="ai-user">19. 叶明(Ming)</div><div class="ai-work">新增设备&账号口径的美国合规数据。</div></div></div></div></div>
 
   <div class="grid-2">
     <div class="card">
@@ -554,7 +562,7 @@
   </div>
 </div>
 
-<div class="footer">GitLab 活动日报 · 数据来源：GitLab API · 自动生成于 2026-03-26 12:13 · Publish Platform Team</div>
+<div class="footer">GitLab 活动日报 · 数据来源：GitLab API · 自动生成于 2026-03-26 13:08 · Publish Platform Team</div>
 
 <script>
 const timeChart = echarts.init(document.getElementById('timeChart'));
