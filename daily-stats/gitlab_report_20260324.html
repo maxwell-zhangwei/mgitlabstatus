@@ -65,6 +65,11 @@
   .diff-add { color:#3fb950; font-size:12px; }
   .diff-del { color:#f85149; font-size:12px; }
   .footer { text-align:center; padding:24px; color:#484f58; font-size:12px; border-top:1px solid #21262d; margin-top:8px; }
+  .ai-summary-card { background:linear-gradient(135deg,#1a1a2e,#16213e); border:1px solid #3a2a4a; margin-bottom:20px; }
+  .ai-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px; }
+  .ai-item { background:#161b22; border:1px solid #21262d; border-radius:8px; padding:12px 16px; }
+  .ai-user { font-size:13px; font-weight:600; color:#58a6ff; margin-bottom:6px; }
+  .ai-work { font-size:12px; color:#8b949e; line-height:1.5; }
 </style>
 </head>
 <body>
@@ -76,7 +81,7 @@
       <div class="header-sub">数据周期：2026-03-24（昨日全天）</div>
     </div>
   </div>
-  <div class="header-badge">🕙 自动生成 · 2026-03-26 12:58</div>
+  <div class="header-badge">🕙 自动生成 · 2026-03-26 13:02</div>
 </div>
 
 <div class="main">
@@ -119,6 +124,9 @@
       </div>
     </div>
   </div>
+
+  <!-- AI 智能总结卡片 -->
+  <div class="card ai-summary-card"><div class="card-header"><div class="card-icon" style="background:#2a1a3a">✨</div><div class="card-title">AI 智能总结 · 工作内容分析</div></div><div class="card-body"><div class="ai-grid"><div class="ai-item"><div class="ai-user">14. 王聪</div><div class="ai-work">添加数据库回退，简化任务字段，合并分支。</div></div><div class="ai-item"><div class="ai-user">15. 孙鹏</div><div class="ai-work">添加广告预览操作，更新API，合并分支。</div></div><div class="ai-item"><div class="ai-user">17. 王枫荻</div><div class="ai-work">修复标题包问题，实现下发接口，合并分支。</div></div><div class="ai-item"><div class="ai-user">1. 丁江</div><div class="ai-work">持续优化代码，合并分支，修复错误信息。</div></div><div class="ai-item"><div class="ai-user">4. 郑淼</div><div class="ai-work">修复数据统计，新增标签管理，合并分支。</div></div><div class="ai-item"><div class="ai-user">12. 吴超伟</div><div class="ai-work">修复订单解析错误，添加功能，合并分支。</div></div><div class="ai-item"><div class="ai-user">2. 徐腾飞</div><div class="ai-work">开发项目stage_id，优化性能。</div></div><div class="ai-item"><div class="ai-user">13. 康鑫博</div><div class="ai-work">优化异步任务，更新API，合并分支。</div></div><div class="ai-item"><div class="ai-user">18. 王宁</div><div class="ai-work">修复供应商问题，添加webhook。</div></div><div class="ai-item"><div class="ai-user">3. 田雪健</div><div class="ai-work">修复权限问题，更新文档，合并分支。</div></div><div class="ai-item"><div class="ai-user">10. 马亮亮</div><div class="ai-work">修复警告提示，优化日志，合并分支。</div></div><div class="ai-item"><div class="ai-user">16. 张芮萍</div><div class="ai-work">修复错误提示，更新功能，合并分支。</div></div><div class="ai-item"><div class="ai-user">5. 徐晨杰</div><div class="ai-work">优化交互，增加功能，合并分支。</div></div><div class="ai-item"><div class="ai-user">6. 张苒</div><div class="ai-work">更新文档，合并分支，进行测试。</div></div><div class="ai-item"><div class="ai-user">7. 田元林</div><div class="ai-work">优化配置，更新功能，合并分支。</div></div><div class="ai-item"><div class="ai-user">8. 李铭骏</div><div class="ai-work">更新数据，修复问题，合并分支。</div></div><div class="ai-item"><div class="ai-user">9. 曾凡单</div><div class="ai-work">优化数据，合并分支。</div></div><div class="ai-item"><div class="ai-user">11. 姜承</div><div class="ai-work">更新功能，合并分支。</div></div><div class="ai-item"><div class="ai-user">19. 祁杰</div><div class="ai-work">更新功能。</div></div></div></div></div>
 
   <div class="grid-2">
     <div class="card">
@@ -538,7 +546,7 @@
   </div>
 </div>
 
-<div class="footer">GitLab 活动日报 · 数据来源：GitLab API · 自动生成于 2026-03-26 12:58 · Publish Platform Team</div>
+<div class="footer">GitLab 活动日报 · 数据来源：GitLab API · 自动生成于 2026-03-26 13:02 · Publish Platform Team</div>
 
 <script>
 const timeChart = echarts.init(document.getElementById('timeChart'));
