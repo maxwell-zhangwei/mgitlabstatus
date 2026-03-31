@@ -1,7 +1,7 @@
 AI 工作总结 · 2026-03-30
 ==================================================
 
-生成时间：2026-03-31 15:29:31
+生成时间：2026-03-31 15:33:23
 团队成员数：30
 活跃人数：15
 未活跃人数：15
@@ -11,49 +11,49 @@ AI 工作总结 · 2026-03-30
 --------------------------------------------------
 
 1. 徐晨杰(Tito)
-   发布MSDK管理后台新版本，优化样式和文案。 【需求：6918881875([【MSDK管理后台】上传文件批量创建推送任务](https://project.feishu.cn/publishing/story/detail/6918881875)) 6872145972([【MSDK管理后台】新增项目stage_id](https://project.feishu.cn/publishing/story/detail/6872145972))】
+   发布MSDK管理后台版本，优化样式，处理配置类型问题。 【需求：6918881875([【MSDK管理后台】上传文件批量创建推送任务](https://project.feishu.cn/publishing/story/detail/6918881875)) 6872145972([【MSDK管理后台】新增项目stage_id](https://project.feishu.cn/publishing/story/detail/6872145972))】
 
 2. 田元林(Candy)
-   配置公告栏，初始化国服数据汇总。 【需求：6922987660([【驾驶舱】「公共」公告栏配置化改造](https://project.feishu.cn/publishing/story/detail/6922987660)) 6928762217([【驾驶舱】「国服」数据总览移动端适配](https://project.feishu.cn/publishing/story/detail/6928762217))】
+   配置公告栏，适配国服数据总览。 【需求：6922987660([【驾驶舱】「公共」公告栏配置化改造](https://project.feishu.cn/publishing/story/detail/6922987660)) 6928762217([【驾驶舱】「国服」数据总览移动端适配](https://project.feishu.cn/publishing/story/detail/6928762217))】
 
 3. 张芮萍(Ruiping)
-   优化国服BI包名和媒体渠道映射表，调整样式。 【需求：6893071028([【国服BI】包名和媒体渠道映射表--迁移至系统](https://project.feishu.cn/publishing/story/detail/6893071028))】
+   调整国服BI样式，变更管家账户接口，合并feat/pacakgeMedia分支。 【需求：6893071028([【国服BI】包名和媒体渠道映射表--迁移至系统](https://project.feishu.cn/publishing/story/detail/6893071028))】
 
 4. 姜承(JoJo)
-   修复广告平台创意组Bug，优化批量UI。 【需求：6861556707([【国服广告平台】巨量第一版第2期-主流程部分](https://project.feishu.cn/publishing/story/detail/6861556707))】
+   修复广告平台bug，重构循环方式配置，优化投放事件接口。 【需求：6861556707([【国服广告平台】巨量第一版第2期-主流程部分](https://project.feishu.cn/publishing/story/detail/6861556707))】
 
 5. 孙鹏
-   优化广告平台预览和任务api。 【需求：6861556707([【国服广告平台】巨量第一版第2期-主流程部分](https://project.feishu.cn/publishing/story/detail/6861556707))】
+   优化广告平台标题样式，处理广告预览和任务api对接。 【需求：6861556707([【国服广告平台】巨量第一版第2期-主流程部分](https://project.feishu.cn/publishing/story/detail/6861556707))】
 
 6. 康鑫博(Xinbo)
-   重构OceanAdsV2 API，添加功能，清理无用代码。
+   重构OceanAdsV2 API，优化任务页面，处理Ocean Ads相关功能。
 
 7. 叶明(Ming)
-   添加广告CPI与核减消耗功能，优化AI监控与告警逻辑。
+   新增广告CPI与消耗功能，优化AI数据质量分析功能，添加监控数据前缀字段。
 
 8. 曾凡单(Suzy)
-   修复bug，支持管家账户媒体渠道管理，优化消耗录入。
+   修复bug，优化管家账户媒体渠道管理，修复消耗录入bug。
 
-9. 郑淼(Miao)
+9. 丁江(Jiang)
+   优化代码，增加错误信息，处理下载模板文件，处理路由方法。
+
+10. 郑淼(Miao)
    安装netstat和curl命令，修改yum源。
 
-10. 丁江(Jiang)
-   持续优化代码，添加错误信息，处理重复代码。
-
 11. 王枫荻(Fengdi)
-   更新国服数据总览接口，处理标题包管理问题。
+   优化移动端数据总览接口，处理标题包管理编译问题。
 
 12. 田雪健(Storm)
-   优化grpc协议，支持grpc认证。
+   处理grpc协议服务，支持grpc认证服务名。
 
-13. 杜民民(Dylan)
-   合并分支，处理成本CPI与扣除。
+13. 孙恺(Kai)
+   去掉二级包名必填限制，处理包名映射。
 
-14. 孙恺(Kai)
-   调整包名映射限制，合并新功能。
+14. 杜民民(Dylan)
+   处理CPI与消耗功能分支。
 
 15. 胡海平(Rambo)
-   添加年龄门逻辑。
+   添加年龄门逻辑基本功能。
 
 --------------------------------------------------
 未活跃成员
