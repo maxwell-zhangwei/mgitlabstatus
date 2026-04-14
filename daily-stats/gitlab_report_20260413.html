@@ -70,6 +70,14 @@
   .ai-item { background:#161b22; border:1px solid #21262d; border-radius:8px; padding:12px 16px; }
   .ai-user { font-size:13px; font-weight:600; color:#58a6ff; margin-bottom:6px; }
   .ai-work { font-size:12px; color:#8b949e; line-height:1.5; }
+  .mr-comments-card { background:linear-gradient(135deg,#1a2a2e,#162e3e); border:1px solid #2a4a3a; margin-bottom:20px; }
+  .mr-comments-list { max-height:500px; overflow-y:auto; }
+  .mr-item { background:#161b22; border:1px solid #21262d; border-radius:8px; padding:12px 16px; margin-bottom:10px; }
+  .mr-title-line { font-size:13px; font-weight:600; color:#58a6ff; margin-bottom:8px; padding-bottom:6px; border-bottom:1px solid #21262d; }
+  .mr-comment { display:flex; gap:8px; padding:6px 0; font-size:12px; }
+  .mr-comment-author { color:#3fb950; font-weight:600; white-space:nowrap; min-width:100px; }
+  .mr-comment-time { color:#484f58; font-size:11px; white-space:nowrap; }
+  .mr-comment-body { color:#8b949e; line-height:1.4; }
 </style>
 </head>
 <body>
@@ -81,7 +89,7 @@
       <div class="header-sub">数据周期：2026-04-13（昨日全天）</div>
     </div>
   </div>
-  <div class="header-badge">🕙 自动生成 · 2026-04-14 11:03</div>
+  <div class="header-badge">🕙 自动生成 · 2026-04-14 11:22</div>
 </div>
 
 <div class="main">
@@ -126,31 +134,34 @@
   </div>
 
   <!-- AI 智能总结卡片 -->
-  <div class="card ai-summary-card"><div class="card-header"><div class="card-icon" style="background:#2a1a3a">✨</div><div class="card-title">AI 智能总结 · 工作内容分析</div></div><div class="card-body"><div class="ai-grid"><div class="ai-item"><div class="ai-user">李铭骏(Mingjun)</div><div class="ai-work">修复冲突，更新文档，开发MSDK Age Gate功能【m6928766508】 【需求：
-<br><br><a href="https://project.feishu.cn/publishing/story/detail/6928766508" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【MSDK】Age Gate 策略功能</a>】</div></div><div class="ai-item"><div class="ai-user">徐晨杰(Tito)</div><div class="ai-work">优化达人营销社媒发布功能【m 6928888567, m 6935163055, m 6935163055, m 6935163055, m 6928888567】 【需求：
+  <div class="card ai-summary-card"><div class="card-header"><div class="card-icon" style="background:#2a1a3a">✨</div><div class="card-title">AI 智能总结 · 工作内容分析</div></div><div class="card-body"><div class="ai-grid"><div class="ai-item"><div class="ai-user">李铭骏(Mingjun)</div><div class="ai-work">文档更新及【MSDK】Age Gate 策略功能开发 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6928766508" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【MSDK】Age Gate 策略功能</a>】</div></div><div class="ai-item"><div class="ai-user">徐晨杰(Tito)</div><div class="ai-work">达人营销社媒发布优化 【需求：
 <br><br><a href="https://project.feishu.cn/publishing/story/detail/6928888567" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【达人营销】社媒发布优化-20260326</a>
 <br><br><a href="https://project.feishu.cn/publishing/story/detail/6935163055" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【MSDK管理后台】证书管理二期</a>
-<br><br><a href="https://project.feishu.cn/publishing/issue/detail/6955860397" target="_blank" style="color:#1890ff;text-decoration:none;">📋 移动端编辑和添加时没传主页类型字段</a>】</div></div><div class="ai-item"><div class="ai-user">康鑫博(Xinbo)</div><div class="ai-work">修复OceanAdsV2多个bug，优化广告生成与上传流程【m6956216955, m6956318943, m6956293792, m6954390065】 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/issue/detail/6955860397" target="_blank" style="color:#1890ff;text-decoration:none;">📋 移动端编辑和添加时没传主页类型字段</a>】</div></div><div class="ai-item"><div class="ai-user">康鑫博(Xinbo)</div><div class="ai-work">修复OceanAdsV2多个bug 【需求：
 <br><br><a href="https://project.feishu.cn/publishing/issue/detail/6956216955" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【bug】多账户时，分账户选择原生锚点，generate接口返回的数据有问题，所有账号的原生锚点都一样</a>
 <br><br><a href="https://project.feishu.cn/publishing/issue/detail/6956318943" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【bug】广告内包含多个创意组时，部分创意组失败广告状态应该判断为失败</a>
 <br><br><a href="https://project.feishu.cn/publishing/issue/detail/6956293792" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【bug】多账户创建广告会报错：资产校验失败</a>
-<br><br><a href="https://project.feishu.cn/publishing/issue/detail/6954390065" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【bug】巨量拉回的项目/广告数据问题汇总（打包）该问题遗留一个P2的问题：巨量拉回的转化目标映射成本地的</a>】</div></div><div class="ai-item"><div class="ai-user">郑淼(Miao)</div><div class="ai-work">优化MirrorSphere UI自动化功能，优化AIChat 1.0功能【m6948242928, m6950014485, m6950014485, m6950014485, m6950014485, m6950014485, m6950014485, m6950014485, m6950014485, m6950014485】 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/issue/detail/6954390065" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【bug】巨量拉回的项目/广告数据问题汇总（打包）该问题遗留一个P2的问题：巨量拉回的转化目标映射成本地的</a>】</div></div><div class="ai-item"><div class="ai-user">郑淼(Miao)</div><div class="ai-work">MirrorSphere UI自动化功能优化及AIChat 1.0功能开发 【需求：
 <br><br><a href="https://project.feishu.cn/publishing/story/detail/6948242928" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【MirrorSphere】UI自动化功能</a>
-<br><br><a href="https://project.feishu.cn/publishing/story/detail/6950014485" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【MirrorSphere】AIChat 1.0功能</a>】</div></div><div class="ai-item"><div class="ai-user">徐腾飞(Tengfei)</div><div class="ai-work">优化达人营销社媒发布功能，校验用户权限【m 6928888567, m 6928888567, m 6928888567, m 6928888567, m 6928888567】 【需求：
-<br><br><a href="https://project.feishu.cn/publishing/story/detail/6928888567" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【达人营销】社媒发布优化-20260326</a>】</div></div><div class="ai-item"><div class="ai-user">丁江(Jiang)</div><div class="ai-work">优化MSDK管理后台证书管理功能【m6935163055, m6955869428, m6955869428】 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6950014485" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【MirrorSphere】AIChat 1.0功能</a>】</div></div><div class="ai-item"><div class="ai-user">徐腾飞(Tengfei)</div><div class="ai-work">达人营销社媒发布优化及权限校验 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6928888567" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【达人营销】社媒发布优化-20260326</a>】</div></div><div class="ai-item"><div class="ai-user">丁江(Jiang)</div><div class="ai-work">MSDK管理后台证书管理二期及支付容灾DB优化 【需求：
 <br><br><a href="https://project.feishu.cn/publishing/story/detail/6935163055" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【MSDK管理后台】证书管理二期</a>
-<br><br><a href="https://project.feishu.cn/publishing/story/detail/6955869428" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【MSDK】支付容灾DB优化 - 三期</a>】</div></div><div class="ai-item"><div class="ai-user">吴超伟(Chaowei)</div><div class="ai-work">重构爬虫，开发FB&INS数据获取功能【m6930690418, m6930690418, m6930690418, m6930690418】 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6955869428" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【MSDK】支付容灾DB优化 - 三期</a>】</div></div><div class="ai-item"><div class="ai-user">吴超伟(Chaowei)</div><div class="ai-work">FB&INS爬虫开发及爬虫重构 【需求：
 <br><br><a href="https://project.feishu.cn/publishing/story/detail/6955502693" target="_blank" style="color:#1890ff;text-decoration:none;">📋 爬虫重构-test</a>
-<br><br><a href="https://project.feishu.cn/publishing/story/detail/6930690418" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【数据】FB&INS提供帖子URL获取评论并分析</a>】</div></div><div class="ai-item"><div class="ai-user">祁杰(Jacky)</div><div class="ai-work">【需求：
-<br><br><a href="https://project.feishu.cn/publishing/story/detail/6924113603" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【海外】【投放BI】订阅管理增加多时段推送功能</a>】</div></div><div class="ai-item"><div class="ai-user">杜民民(Dylan)</div><div class="ai-work">优化自归因功能【m6954318202, m6954318202, m6954318202】 【需求：
-<br><br><a href="https://project.feishu.cn/publishing/story/detail/6954318202" target="_blank" style="color:#1890ff;text-decoration:none;">📋 自归因优化</a>】</div></div><div class="ai-item"><div class="ai-user">姜承(JoJo)</div><div class="ai-work">【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6930690418" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【数据】FB&INS提供帖子URL获取评论并分析</a>】</div></div><div class="ai-item"><div class="ai-user">祁杰(Jacky)</div><div class="ai-work">设置默认周期切换通知类型 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6924113603" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【海外】【投放BI】订阅管理增加多时段推送功能</a>】</div></div><div class="ai-item"><div class="ai-user">杜民民(Dylan)</div><div class="ai-work">自归因优化 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6954318202" target="_blank" style="color:#1890ff;text-decoration:none;">📋 自归因优化</a>】</div></div><div class="ai-item"><div class="ai-user">孙鹏</div><div class="ai-work">版本更新及任务详情优化</div></div><div class="ai-item"><div class="ai-user">姜承(JoJo)</div><div class="ai-work">多账户选择抽屉切Tab优化 【需求：
 <br><br><a href="https://project.feishu.cn/publishing/issue/detail/6956620491" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【bug】多个账户下，原生锚点选择器，初始进入选择抽屉时，在账户之间切换会清空账户的已选内容</a>
-<br><br><a href="https://project.feishu.cn/publishing/issue/detail/6956057639" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【bug】在配置了项目出价的策略的基础上修改，修改为不配出价，生成预览/保存策略时，项目bid依然会传之前的出价值</a>】</div></div><div class="ai-item"><div class="ai-user">王宁(Willem)</div><div class="ai-work">开发Steam数据拉取调研功能【m6925809214, m6925809214】 【需求：
-<br><br><a href="https://project.feishu.cn/publishing/story/detail/6925809214" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【数据】steam数据拉取调研</a>】</div></div><div class="ai-item"><div class="ai-user">孙恺(Kai)</div><div class="ai-work">规范化自归因常量，初始化飞书报警models【m6935204012】 【需求：
-<br><br><a href="https://project.feishu.cn/publishing/story/detail/6935204012" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【自归因】转化回传优化需求-20260331</a>】</div></div><div class="ai-item"><div class="ai-user">曾凡单(Suzy)</div><div class="ai-work">优化投放BI国服订阅功能【m6935185996】 【需求：
-<br><br><a href="https://project.feishu.cn/publishing/story/detail/6935185996" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【投放BI国服】订阅功能国服开放</a>】</div></div><div class="ai-item"><div class="ai-user">叶明(Ming)</div><div class="ai-work">【需求：
+<br><br><a href="https://project.feishu.cn/publishing/issue/detail/6956057639" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【bug】在配置了项目出价的策略的基础上修改，修改为不配出价，生成预览/保存策略时，项目bid依然会传之前的出价值</a>】</div></div><div class="ai-item"><div class="ai-user">王宁(Willem)</div><div class="ai-work">数据】steam数据拉取调研 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6925809214" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【数据】steam数据拉取调研</a>】</div></div><div class="ai-item"><div class="ai-user">孙恺(Kai)</div><div class="ai-work">自归因转化回传优化需求 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6935204012" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【自归因】转化回传优化需求-20260331</a>】</div></div><div class="ai-item"><div class="ai-user">曾凡单(Suzy)</div><div class="ai-work">【投放BI国服】订阅功能国服开放 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6935185996" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【投放BI国服】订阅功能国服开放</a>】</div></div><div class="ai-item"><div class="ai-user">刘松林(Nelson)</div><div class="ai-work">videozhparserv2及unified generator</div></div><div class="ai-item"><div class="ai-user">王聪(Wilson)</div><div class="ai-work">LGTM</div></div><div class="ai-item"><div class="ai-user">叶明(Ming)</div><div class="ai-work">【需求：
 <br><br><a href="https://project.feishu.cn/publishing/story/detail/6935218843" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【数据】驾驶舱消耗数据切换至核减后字段</a>】</div></div><div class="ai-item"><div class="ai-user">董博(Carl)</div><div class="ai-work">【需求：
 <br><br><a href="https://project.feishu.cn/publishing/story/detail/6638908378" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【投放BI国际服】实时数据对接moba日志平台</a>】</div></div></div></div></div>
+
+  <!-- MR 评论汇总卡片 -->
+  <div class="card mr-comments-card"><div class="card-header"><div class="card-icon" style="background:#1a3a3a">💬</div><div class="card-title">MR 评论汇总 · Code Review</div></div><div class="card-body"><div class="mr-comments-list"><div class="mr-item"><div class="mr-title-line">MR#2345 - Opt/publish m 6928888567</div><div class="mr-comment"><span class="mr-comment-author">郑淼(Miao)</span><span class="mr-comment-time">03:09:39</span><div class="mr-comment-body">UT的要求在过往的kol review已经提过很多次了，这次改动的代码过往的UT都能覆盖吗？这么多变更的文件不需要新增UT？</div></div><div class="mr-comment"><span class="mr-comment-author">郑淼(Miao)</span><span class="mr-comment-time">04:16:34</span><div class="mr-comment-body">这个break的位置有问题吧</div></div></div><div class="mr-item"><div class="mr-title-line">MR#464 - feat：dev steam channels m-6925809214</div><div class="mr-comment"><span class="mr-comment-author">王聪(Wilson)</span><span class="mr-comment-time">09:38:23</span><div class="mr-comment-body">LGTM</div></div></div></div></div></div>
 
   <div class="grid-2">
     <div class="card">
@@ -567,7 +578,7 @@
   </div>
 </div>
 
-<div class="footer">GitLab 活动日报 · 数据来源：GitLab API · 自动生成于 2026-04-14 11:03 · Publish Platform Team</div>
+<div class="footer">GitLab 活动日报 · 数据来源：GitLab API · 自动生成于 2026-04-14 11:22 · Publish Platform Team</div>
 
 <script>
 const timeChart = echarts.init(document.getElementById('timeChart'));
