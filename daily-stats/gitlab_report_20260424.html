@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitLab 活动日报 · 2026-04-24</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; background: #0f1117; color: #e1e4e8; }
+  .header { background: linear-gradient(135deg,#1a1f2e,#162032); border-bottom:1px solid #21262d; padding:24px 32px; display:flex; align-items:center; justify-content:space-between; }
+  .header-left { display:flex; align-items:center; gap:16px; }
+  .header-logo { width:48px; height:48px; background:linear-gradient(135deg,#fc6d26,#fca326); border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:24px; }
+  .header-title { font-size:22px; font-weight:700; color:#fff; }
+  .header-sub { font-size:13px; color:#8b949e; margin-top:2px; }
+  .header-badge { background:#21262d; border:1px solid #30363d; border-radius:20px; padding:6px 16px; font-size:13px; color:#58a6ff; }
+  .main { max-width:1400px; margin:0 auto; padding:24px 32px; }
+  .stats-row { display:grid; grid-template-columns:repeat(5,1fr); gap:16px; margin-bottom:24px; }
+  .stat-card { background:#161b22; border:1px solid #21262d; border-radius:12px; padding:20px; text-align:center; position:relative; overflow:hidden; transition:border-color .2s; }
+  .stat-card:hover { border-color:#388bfd; }
+  .stat-card::before { content:''; position:absolute; top:0; left:0; right:0; height:3px; border-radius:12px 12px 0 0; }
+  .stat-card.blue::before { background:linear-gradient(90deg,#388bfd,#58a6ff); }
+  .stat-card.green::before { background:linear-gradient(90deg,#2ea043,#3fb950); }
+  .stat-card.orange::before { background:linear-gradient(90deg,#d29922,#f0a733); }
+  .stat-card.red::before { background:linear-gradient(90deg,#da3633,#f85149); }
+  .stat-card.purple::before { background:linear-gradient(90deg,#8957e5,#a371f7); }
+  .stat-value { font-size:32px; font-weight:700; line-height:1; margin-bottom:6px; }
+  .stat-card.blue .stat-value { color:#58a6ff; }
+  .stat-card.green .stat-value { color:#3fb950; }
+  .stat-card.orange .stat-value { color:#f0a733; }
+  .stat-card.red .stat-value { color:#f85149; }
+  .stat-card.purple .stat-value { color:#a371f7; }
+  .stat-label { font-size:12px; color:#8b949e; }
+  .grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-bottom:20px; }
+  .card { background:#161b22; border:1px solid #21262d; border-radius:12px; overflow:hidden; }
+  .card-header { padding:16px 20px; border-bottom:1px solid #21262d; display:flex; align-items:center; gap:10px; }
+  .card-icon { width:28px; height:28px; border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:14px; }
+  .card-title { font-size:14px; font-weight:600; color:#c9d1d9; }
+  .card-body { padding:20px; }
+  table { width:100%; border-collapse:collapse; }
+  th { font-size:11px; font-weight:600; color:#8b949e; text-transform:uppercase; letter-spacing:.5px; padding:10px 12px; text-align:left; border-bottom:1px solid #21262d; }
+  td { padding:11px 12px; font-size:13px; border-bottom:1px solid #161b22; }
+  tr:last-child td { border-bottom:none; }
+  tr:hover td { background:#1c2130; }
+  .rank { color:#8b949e; font-size:12px; }
+  .rank-1 { color:#f0a733; font-weight:700; }
+  .rank-2 { color:#8b949e; font-weight:700; }
+  .rank-3 { color:#c67f3a; font-weight:700; }
+  .name-cell { display:flex; align-items:center; gap:8px; }
+  .avatar { width:28px; height:28px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:700; color:#fff; flex-shrink:0; }
+  .commits-bar { display:flex; align-items:center; gap:8px; }
+  .bar { height:6px; border-radius:3px; background:linear-gradient(90deg,#388bfd,#58a6ff); }
+  .tag { display:inline-flex; align-items:center; padding:2px 8px; border-radius:12px; font-size:11px; font-weight:500; }
+  .tag-green { background:rgba(46,160,67,.15); color:#3fb950; border:1px solid rgba(46,160,67,.3); }
+  .tag-blue  { background:rgba(56,139,253,.15); color:#58a6ff; border:1px solid rgba(56,139,253,.3); }
+  .tag-gray  { background:rgba(139,148,158,.15); color:#8b949e; border:1px solid rgba(139,148,158,.3); }
+  .inactive-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(140px,1fr)); gap:10px; }
+  .inactive-item { background:rgba(218,54,51,.08); border:1px solid rgba(218,54,51,.2); border-radius:8px; padding:10px 14px; display:flex; align-items:center; gap:8px; }
+  .inactive-dot { width:8px; height:8px; border-radius:50%; background:#f85149; flex-shrink:0; }
+  .inactive-name { font-size:13px; color:#c9d1d9; }
+  .inactive-en { font-size:11px; color:#8b949e; }
+  .section-alert { background:linear-gradient(90deg,rgba(218,54,51,.1),rgba(218,54,51,.05)); border:1px solid rgba(218,54,51,.3); border-radius:12px; padding:16px 20px; margin-bottom:20px; display:flex; align-items:center; gap:12px; }
+  .alert-text { font-size:14px; color:#f85149; font-weight:600; }
+  .alert-sub { font-size:12px; color:#8b949e; margin-top:2px; }
+  .diff-add { color:#3fb950; font-size:12px; }
+  .diff-del { color:#f85149; font-size:12px; }
+  .footer { text-align:center; padding:24px; color:#484f58; font-size:12px; border-top:1px solid #21262d; margin-top:8px; }
+  .ai-summary-card { background:linear-gradient(135deg,#1a1a2e,#16213e); border:1px solid #3a2a4a; margin-bottom:20px; }
+  .ai-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px; }
+  .ai-item { background:#161b22; border:1px solid #21262d; border-radius:8px; padding:12px 16px; }
+  .ai-user { font-size:13px; font-weight:600; color:#58a6ff; margin-bottom:6px; }
+  .ai-work { font-size:12px; color:#8b949e; line-height:1.5; }
+  .mr-comments-card { background:linear-gradient(135deg,#1a2a2e,#162e3e); border:1px solid #2a4a3a; margin-bottom:20px; }
+  .mr-comments-list { max-height:500px; overflow-y:auto; }
+  .mr-item { background:#161b22; border:1px solid #21262d; border-radius:8px; padding:12px 16px; margin-bottom:10px; }
+  .mr-title-line { font-size:13px; font-weight:600; color:#58a6ff; margin-bottom:8px; padding-bottom:6px; border-bottom:1px solid #21262d; }
+  .mr-comment { display:flex; gap:8px; padding:6px 0; font-size:12px; }
+  .mr-comment-author { color:#3fb950; font-weight:600; white-space:nowrap; min-width:100px; }
+  .mr-comment-time { color:#484f58; font-size:11px; white-space:nowrap; }
+  .mr-comment-body { color:#8b949e; line-height:1.4; }
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="header-left">
+    <div class="header-logo">🦊</div>
+    <div>
+      <div class="header-title">GitLab 活动日报</div>
+      <div class="header-sub">数据周期：2026-04-24（昨日全天）</div>
+    </div>
+  </div>
+  <div class="header-badge">🕙 自动生成 · 2026-04-25 09:35</div>
+</div>
+
+<div class="main">
+  <div class="stats-row">
+    <div class="stat-card blue"><div class="stat-value">122</div><div class="stat-label">总提交次数</div></div>
+    <div class="stat-card green"><div class="stat-value">22</div><div class="stat-label">Merge Requests</div></div>
+    <div class="stat-card orange"><div class="stat-value">+36,729</div><div class="stat-label">代码新增行数</div></div>
+    <div class="stat-card red"><div class="stat-value">-5,798</div><div class="stat-label">代码删除行数</div></div>
+    <div class="stat-card purple"><div class="stat-value">17 / 31</div><div class="stat-label">活跃 / 团队成员</div></div>
+  </div>
+
+  <!-- 最早/最晚提交卡片 -->
+  <div class="grid-2" style="margin-bottom:20px">
+    <div class="card" style="background:linear-gradient(135deg,#1a2a1a,#0f1a1f)">
+      <div class="card-body" style="padding:20px;display:flex;align-items:center;gap:16px">
+        <div style="font-size:32px">🌅</div>
+        <div>
+          <div style="font-size:12px;color:#8b949e;margin-bottom:4px">最早提交</div>
+          <div style="font-size:16px;font-weight:600;color:#3fb950">
+            祁杰(Jacky)
+          </div>
+          <div style="font-size:11px;color:#8b949e;margin-top:4px">
+            2026-04-24 00:25:09
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card" style="background:linear-gradient(135deg,#2a1a1a,#1f0f1a)">
+      <div class="card-body" style="padding:20px;display:flex;align-items:center;gap:16px">
+        <div style="font-size:32px">🌙</div>
+        <div>
+          <div style="font-size:12px;color:#8b949e;margin-bottom:4px">最晚提交</div>
+          <div style="font-size:16px;font-weight:600;color:#f85149">
+            吴超伟(Chaowei)
+          </div>
+          <div style="font-size:11px;color:#8b949e;margin-top:4px">
+            2026-04-24 23:01:50
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AI 智能总结卡片 -->
+  <div class="card ai-summary-card"><div class="card-header"><div class="card-icon" style="background:#2a1a3a">✨</div><div class="card-title">AI 智能总结 · 工作内容分析</div></div><div class="card-body"><div class="ai-grid"><div class="ai-item"><div class="ai-user">祁杰(Jacky)</div><div class="ai-work">优化驾驶舱海外接入卡片魔王项目，增加文档和功能。 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6977710521" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【驾驶舱】「海外」接入卡片魔王项目</a>
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6961862282" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【投放BI】「国服」广告账户批量导入&删除</a>】</div></div><div class="ai-item"><div class="ai-user">丁江(Jiang)</div><div class="ai-work">修复MSDK支付容灾DB优化三期中的逻辑错误，并优化代码。 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6955869428" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【MSDK】支付容灾DB优化 - 三期</a>】</div></div><div class="ai-item"><div class="ai-user">康鑫博(Xinbo)</div><div class="ai-work">生成OceanAdsV2广告数据，并优化相关功能。 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6955240991" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【国服广告平台】V0.4.0 巨量线上素材接入+批量操作+任务限频</a>】</div></div><div class="ai-item"><div class="ai-user">徐晨杰(Tito)</div><div class="ai-work">优化MirrorSphere测试用例管理功能，添加富文本编辑和接口。 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6976370116" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【MirrorSphere】测试用例管理功能</a>】</div></div><div class="ai-item"><div class="ai-user">姜承(JoJo)</div><div class="ai-work">优化海外广告管理平台视频库上传状态筛选，并更新素材来源。 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6952733808" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【海外】【广告管理平台】线上功能反馈优化</a>
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6952741658" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【国服广告平台】V0.3.0 巨量定向包模板和原生锚点模板管理</a>】</div></div><div class="ai-item"><div class="ai-user">孙鹏</div><div class="ai-work">更新国服广告平台版本。 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6952741658" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【国服广告平台】V0.3.0 巨量定向包模板和原生锚点模板管理</a>】</div></div><div class="ai-item"><div class="ai-user">孙恺(Kai)</div><div class="ai-work">接入新渠道摩投云、易推、人人影视，并增加宏参数判断。 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6961965390" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【自归因】转化回传接入新渠道：摩投云、易推、人人影视</a>】</div></div><div class="ai-item"><div class="ai-user">田雪健(Storm)</div><div class="ai-work">支持国服广告账号管理广告平台唯一ID。 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6961862282" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【投放BI】「国服」广告账户批量导入&删除</a>】</div></div><div class="ai-item"><div class="ai-user">吴超伟(Chaowei)</div><div class="ai-work">修复国服数据小米渠道反作弊问题，并添加QQ群舆情数据ODS层建表。 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6101485605" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【国服数据】国服渠道数据获取</a>
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6968584374" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【数据】国服舆情qq群聊天记录拉取</a>
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6952411398" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【自归因】反作弊规则探索-特征检测</a>】</div></div><div class="ai-item"><div class="ai-user">杜民民(Dylan)</div><div class="ai-work">新增自归因渠道，并支持zgame账号自归因。 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6962182830" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【自归因】归因匹配接入新渠道：摩投云、易推、人人影视</a>
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6935746325" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【数据】msdk增加stageid改造-实时</a>
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6961068626" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【自归因】支持实时账号口径-数据处理</a>】</div></div><div class="ai-item"><div class="ai-user">马亮亮(Kuroky)</div><div class="ai-work">优化MSDK覆盖安装时配置文件更新流程。 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6978074850" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【MSDK】优化覆盖安装时配置文件更新流程</a>】</div></div><div class="ai-item"><div class="ai-user">张芮萍(Ruiping)</div><div class="ai-work">新增广告账号新增三渠道ad_account_id校验。 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6948717467" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【投放BI】「海外」管家、广告账户增加新渠道&广告账户唯一id改造</a>】</div></div><div class="ai-item"><div class="ai-user">曾凡单(Suzy)</div><div class="ai-work">添加gms_ad_bi_overseas_ad_channel。 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6948717467" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【投放BI】「海外」管家、广告账户增加新渠道&广告账户唯一id改造</a>】</div></div><div class="ai-item"><div class="ai-user">刘松林(Nelson)</div><div class="ai-work">更新图片和视频素材打标跟进单配置。 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6953887362" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【AI素材农场】图片和视频素材打标 跟进单</a>】</div></div><div class="ai-item"><div class="ai-user">王枫荻(Fengdi)</div><div class="ai-work">梳理驾驶舱海外数据看板移动端适配逻辑到文档。 【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6968610961" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【驾驶舱】「海外」数据看板移动端适配 </a>】</div></div><div class="ai-item"><div class="ai-user">覃亮(Daniel)</div><div class="ai-work">【需求：
+<br><br><a href="https://project.feishu.cn/publishing/story/detail/6957139865" target="_blank" style="color:#1890ff;text-decoration:none;">📋 【广告管理】读广告账号和BM的时候用广告渠道ID</a>】</div></div></div></div></div>
+
+  <!-- MR 评论汇总卡片 -->
+  <div class="card mr-comments-card"><div class="card-header"><div class="card-icon" style="background:#1a3a3a">💬</div><div class="card-title">MR 评论汇总 · Code Review</div></div><div class="card-body"><div class="mr-comments-list"><div class="mr-item"><div class="mr-title-line">MR#130 - m-6957139865读广告账号和BM的时候用广告渠道ID 修改commonservice</div><div class="mr-comment"><span class="mr-comment-author">田雪健(Storm)</span><span class="mr-comment-time">18:25</span><div class="mr-comment-body">LGTM • publish_platform/nuwa                         提交:   0  MR:  0  Commit评论:  0  MR评论:  1</div></div></div><div class="mr-item"><div class="mr-title-line">MR#1377 - M 6957139865 nuwa</div><div class="mr-comment"><span class="mr-comment-author">曾凡单(Suzy)</span><span class="mr-comment-time">12:04</span><div class="mr-comment-body">这里需要 bi 前置发布，数据库中有数据，common_service 前置发布，建议加上逻辑开关控制 或者 版本概念，以免依赖发布不及时。</div></div><div class="mr-comment"><span class="mr-comment-author">田雪健(Storm)</span><span class="mr-comment-time">18:52</span><div class="mr-comment-body">这里考虑一下 platform 扩展的维护成本，减少在代码中 hardcode 业务扩展可能性比较大的字段。</div></div></div></div></div></div>
+
+  <div class="grid-2">
+    <div class="card">
+      <div class="card-header"><div class="card-icon" style="background:#1a2a4a">📊</div><div class="card-title">代码产出 TOP 10 · 提交量</div></div>
+      <div class="card-body" style="padding:0">
+        <table>
+          <thead><tr><th style="width:40px">#</th><th>开发者</th><th>提交</th><th>代码变更</th><th>MR</th></tr></thead>
+          <tbody>
+            <tr>
+              <td class="rank rank-1">🥇</td>
+              <td><div class="name-cell"><div class="avatar" style="background:#fc6d26">祁</div>祁杰(Jacky)</div></td>
+              <td><div class="commits-bar"><div class="bar" style="width:100px"></div>35</div></td>
+              <td><span class="diff-add">+13,113</span> <span class="diff-del">-313</span></td>
+              <td><span class="tag tag-green">1 MR</span></td>
+            </tr>
+            <tr>
+              <td class="rank rank-2">🥈</td>
+              <td><div class="name-cell"><div class="avatar" style="background:#8957e5">丁</div>丁江(Jiang)</div></td>
+              <td><div class="commits-bar"><div class="bar" style="width:48px"></div>17</div></td>
+              <td><span class="diff-add">+819</span> <span class="diff-del">-603</span></td>
+              <td><span class="tag tag-gray">0 MR</span></td>
+            </tr>
+            <tr>
+              <td class="rank rank-3">🥉</td>
+              <td><div class="name-cell"><div class="avatar" style="background:#388bfd">康</div>康鑫博(Xinbo)</div></td>
+              <td><div class="commits-bar"><div class="bar" style="width:28px"></div>10</div></td>
+              <td><span class="diff-add">+48</span> <span class="diff-del">-22</span></td>
+              <td><span class="tag tag-green">5 MR</span></td>
+            </tr>
+            <tr>
+              <td class="rank ">4</td>
+              <td><div class="name-cell"><div class="avatar" style="background:#2ea043">徐</div>徐晨杰(Tito)</div></td>
+              <td><div class="commits-bar"><div class="bar" style="width:22px"></div>8</div></td>
+              <td><span class="diff-add">+1,460</span> <span class="diff-del">-335</span></td>
+              <td><span class="tag tag-green">2 MR</span></td>
+            </tr>
+            <tr>
+              <td class="rank ">5</td>
+              <td><div class="name-cell"><div class="avatar" style="background:#d29922">姜</div>姜承(JoJo)</div></td>
+              <td><div class="commits-bar"><div class="bar" style="width:20px"></div>7</div></td>
+              <td><span class="diff-add">+735</span> <span class="diff-del">-18</span></td>
+              <td><span class="tag tag-green">2 MR</span></td>
+            </tr>
+            <tr>
+              <td class="rank ">6</td>
+              <td><div class="name-cell"><div class="avatar" style="background:#da3633">孙</div>孙鹏</div></td>
+              <td><div class="commits-bar"><div class="bar" style="width:11px"></div>4</div></td>
+              <td><span class="diff-add">+2</span> <span class="diff-del">-2</span></td>
+              <td><span class="tag tag-green">2 MR</span></td>
+            </tr>
+            <tr>
+              <td class="rank ">7</td>
+              <td><div class="name-cell"><div class="avatar" style="background:#1f6feb">孙</div>孙恺(Kai)</div></td>
+              <td><div class="commits-bar"><div class="bar" style="width:11px"></div>4</div></td>
+              <td><span class="diff-add">+1,032</span> <span class="diff-del">-44</span></td>
+              <td><span class="tag tag-green">2 MR</span></td>
+            </tr>
+            <tr>
+              <td class="rank ">8</td>
+              <td><div class="name-cell"><div class="avatar" style="background:#6e40c9">田</div>田雪健(Storm)</div></td>
+              <td><div class="commits-bar"><div class="bar" style="width:8px"></div>3</div></td>
+              <td><span class="diff-add">+1,635</span> <span class="diff-del">-1,400</span></td>
+              <td><span class="tag tag-green">1 MR</span></td>
+            </tr>
+            <tr>
+              <td class="rank ">9</td>
+              <td><div class="name-cell"><div class="avatar" style="background:#3d7bd8">吴</div>吴超伟(Chaowei)</div></td>
+              <td><div class="commits-bar"><div class="bar" style="width:8px"></div>3</div></td>
+              <td><span class="diff-add">+4,658</span> <span class="diff-del">-839</span></td>
+              <td><span class="tag tag-gray">0 MR</span></td>
+            </tr>
+            <tr>
+              <td class="rank ">10</td>
+              <td><div class="name-cell"><div class="avatar" style="background:#5a6ea8">杜</div>杜民民(Dylan)</div></td>
+              <td><div class="commits-bar"><div class="bar" style="width:8px"></div>3</div></td>
+              <td><span class="diff-add">+4,193</span> <span class="diff-del">-0</span></td>
+              <td><span class="tag tag-gray">0 MR</span></td>
+            </tr></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header"><div class="card-icon" style="background:#1a3a2a">⏰</div><div class="card-title">提交时间分布 · 24小时热力</div></div>
+      <div class="card-body"><div id="timeChart" style="height:320px"></div></div>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <div class="card">
+      <div class="card-header"><div class="card-icon" style="background:#2a1a3a">👥</div><div class="card-title">开发者活跃度分布</div></div>
+      <div class="card-body"><div id="devPieChart" style="height:300px"></div></div>
+    </div>
+    <div class="card">
+      <div class="card-header"><div class="card-icon" style="background:#1a2a1a">📁</div><div class="card-title">重点仓库 · 提交量排行</div></div>
+      <div class="card-body"><div id="repoChart" style="height:300px"></div></div>
+    </div>
+  </div>
+
+  <div class="section-alert">
+    <div style="font-size:20px">🔴</div>
+    <div>
+      <div class="alert-text">昨日无活动成员 · 共 14 人</div>
+      <div class="alert-sub">以下成员在 2026-04-24 全天未有 commit、MR 或评论记录</div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-bottom:20px">
+    <div class="card-header"><div class="card-icon" style="background:#3a1a1a">⚠️</div><div class="card-title">未活跃成员详情</div></div>
+    <div class="card-body">
+      <div class="inactive-grid">
+        <div class="inactive-item">
+          <div class="inactive-dot"></div>
+          <div><div class="inactive-name">李孔权</div><div class="inactive-en">Levir</div></div>
+        </div>
+
+        <div class="inactive-item">
+          <div class="inactive-dot"></div>
+          <div><div class="inactive-name">张帆</div><div class="inactive-en">Mlxg</div></div>
+        </div>
+
+        <div class="inactive-item">
+          <div class="inactive-dot"></div>
+          <div><div class="inactive-name">王聪</div><div class="inactive-en">Wilson</div></div>
+        </div>
+
+        <div class="inactive-item">
+          <div class="inactive-dot"></div>
+          <div><div class="inactive-name">万映</div><div class="inactive-en">leo</div></div>
+        </div>
+
+        <div class="inactive-item">
+          <div class="inactive-dot"></div>
+          <div><div class="inactive-name">解薇</div><div class="inactive-en">cheryl</div></div>
+        </div>
+
+        <div class="inactive-item">
+          <div class="inactive-dot"></div>
+          <div><div class="inactive-name">胡海平</div><div class="inactive-en">Rambo</div></div>
+        </div>
+
+        <div class="inactive-item">
+          <div class="inactive-dot"></div>
+          <div><div class="inactive-name">叶明</div><div class="inactive-en">Ming</div></div>
+        </div>
+
+        <div class="inactive-item">
+          <div class="inactive-dot"></div>
+          <div><div class="inactive-name">田元林</div><div class="inactive-en">Candy</div></div>
+        </div>
+
+        <div class="inactive-item">
+          <div class="inactive-dot"></div>
+          <div><div class="inactive-name">王宁</div><div class="inactive-en">Willem</div></div>
+        </div>
+
+        <div class="inactive-item">
+          <div class="inactive-dot"></div>
+          <div><div class="inactive-name">李铭骏</div><div class="inactive-en">Mingjun</div></div>
+        </div>
+
+        <div class="inactive-item">
+          <div class="inactive-dot"></div>
+          <div><div class="inactive-name">徐腾飞</div><div class="inactive-en">Tengfei</div></div>
+        </div>
+
+        <div class="inactive-item">
+          <div class="inactive-dot"></div>
+          <div><div class="inactive-name">张苒</div><div class="inactive-en">Ran</div></div>
+        </div>
+
+        <div class="inactive-item">
+          <div class="inactive-dot"></div>
+          <div><div class="inactive-name">董博</div><div class="inactive-en">Carl</div></div>
+        </div>
+
+        <div class="inactive-item">
+          <div class="inactive-dot"></div>
+          <div><div class="inactive-name">朱吉人</div><div class="inactive-en">Jiren</div></div>
+        </div></div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-bottom:20px">
+    <div class="card-header"><div class="card-icon" style="background:#1a3a1a">✅</div><div class="card-title">昨日活跃成员 · 完整列表（17人）</div></div>
+    <div class="card-body" style="padding:0">
+      <table>
+        <thead><tr><th>#</th><th>成员</th><th>总提交</th><th>新增行数</th><th>删除行数</th><th>MR数量</th><th>总活动量</th></tr></thead>
+        <tbody>
+          <tr>
+            <td class="rank rank-1">🥇</td>
+            <td><div class="name-cell">
+              <div class="avatar" style="background:#fc6d26">祁</div>
+              祁杰(Jacky)
+            </div></td>
+            <td>35</td>
+            <td class="diff-add">+13,113</td>
+            <td class="diff-del">-313</td>
+            <td><span class="tag tag-green">1</span></td>
+            <td>36</td>
+          </tr>
+
+          <tr>
+            <td class="rank rank-2">🥈</td>
+            <td><div class="name-cell">
+              <div class="avatar" style="background:#8957e5">丁</div>
+              丁江(Jiang)
+            </div></td>
+            <td>17</td>
+            <td class="diff-add">+819</td>
+            <td class="diff-del">-603</td>
+            <td><span class="tag tag-gray">0</span></td>
+            <td>17</td>
+          </tr>
+
+          <tr>
+            <td class="rank rank-3">🥉</td>
+            <td><div class="name-cell">
+              <div class="avatar" style="background:#388bfd">康</div>
+              康鑫博(Xinbo)
+            </div></td>
+            <td>10</td>
+            <td class="diff-add">+48</td>
+            <td class="diff-del">-22</td>
+            <td><span class="tag tag-green">5</span></td>
+            <td>15</td>
+          </tr>
+
+          <tr>
+            <td class="rank ">4</td>
+            <td><div class="name-cell">
+              <div class="avatar" style="background:#2ea043">徐</div>
+              徐晨杰(Tito)
+            </div></td>
+            <td>8</td>
+            <td class="diff-add">+1,460</td>
+            <td class="diff-del">-335</td>
+            <td><span class="tag tag-green">2</span></td>
+            <td>10</td>
+          </tr>
+
+          <tr>
+            <td class="rank ">5</td>
+            <td><div class="name-cell">
+              <div class="avatar" style="background:#d29922">姜</div>
+              姜承(JoJo)
+            </div></td>
+            <td>7</td>
+            <td class="diff-add">+735</td>
+            <td class="diff-del">-18</td>
+            <td><span class="tag tag-green">2</span></td>
+            <td>9</td>
+          </tr>
+
+          <tr>
+            <td class="rank ">6</td>
+            <td><div class="name-cell">
+              <div class="avatar" style="background:#da3633">孙</div>
+              孙鹏
+            </div></td>
+            <td>4</td>
+            <td class="diff-add">+2</td>
+            <td class="diff-del">-2</td>
+            <td><span class="tag tag-green">2</span></td>
+            <td>6</td>
+          </tr>
+
+          <tr>
+            <td class="rank ">6</td>
+            <td><div class="name-cell">
+              <div class="avatar" style="background:#1f6feb">孙</div>
+              孙恺(Kai)
+            </div></td>
+            <td>4</td>
+            <td class="diff-add">+1,032</td>
+            <td class="diff-del">-44</td>
+            <td><span class="tag tag-green">2</span></td>
+            <td>6</td>
+          </tr>
+
+          <tr>
+            <td class="rank ">8</td>
+            <td><div class="name-cell">
+              <div class="avatar" style="background:#6e40c9">田</div>
+              田雪健(Storm)
+            </div></td>
+            <td>3</td>
+            <td class="diff-add">+1,635</td>
+            <td class="diff-del">-1,400</td>
+            <td><span class="tag tag-green">1</span></td>
+            <td>6</td>
+          </tr>
+
+          <tr>
+            <td class="rank ">8</td>
+            <td><div class="name-cell">
+              <div class="avatar" style="background:#3d7bd8">吴</div>
+              吴超伟(Chaowei)
+            </div></td>
+            <td>3</td>
+            <td class="diff-add">+4,658</td>
+            <td class="diff-del">-839</td>
+            <td><span class="tag tag-gray">0</span></td>
+            <td>3</td>
+          </tr>
+
+          <tr>
+            <td class="rank ">8</td>
+            <td><div class="name-cell">
+              <div class="avatar" style="background:#5a6ea8">杜</div>
+              杜民民(Dylan)
+            </div></td>
+            <td>3</td>
+            <td class="diff-add">+4,193</td>
+            <td class="diff-del">-0</td>
+            <td><span class="tag tag-gray">0</span></td>
+            <td>3</td>
+          </tr>
+
+          <tr>
+            <td class="rank ">8</td>
+            <td><div class="name-cell">
+              <div class="avatar" style="background:#0075ca">马</div>
+              马亮亮(Kuroky)
+            </div></td>
+            <td>3</td>
+            <td class="diff-add">+173</td>
+            <td class="diff-del">-18</td>
+            <td><span class="tag tag-gray">0</span></td>
+            <td>3</td>
+          </tr>
+
+          <tr>
+            <td class="rank ">12</td>
+            <td><div class="name-cell">
+              <div class="avatar" style="background:#cf7514">郑</div>
+              郑淼(Miao)
+            </div></td>
+            <td>2</td>
+            <td class="diff-add">+0</td>
+            <td class="diff-del">-0</td>
+            <td><span class="tag tag-green">2</span></td>
+            <td>4</td>
+          </tr>
+
+          <tr>
+            <td class="rank ">12</td>
+            <td><div class="name-cell">
+              <div class="avatar" style="background:#b60205">张</div>
+              张芮萍(Ruiping)
+            </div></td>
+            <td>2</td>
+            <td class="diff-add">+46</td>
+            <td class="diff-del">-34</td>
+            <td><span class="tag tag-green">1</span></td>
+            <td>3</td>
+          </tr>
+
+          <tr>
+            <td class="rank ">12</td>
+            <td><div class="name-cell">
+              <div class="avatar" style="background:#1a7f37">曾</div>
+              曾凡单(Suzy)
+            </div></td>
+            <td>2</td>
+            <td class="diff-add">+488</td>
+            <td class="diff-del">-12</td>
+            <td><span class="tag tag-gray">0</span></td>
+            <td>3</td>
+          </tr>
+
+          <tr>
+            <td class="rank ">15</td>
+            <td><div class="name-cell">
+              <div class="avatar" style="background:#fc6d26">刘</div>
+              刘松林(Nelson)
+            </div></td>
+            <td>1</td>
+            <td class="diff-add">+2,605</td>
+            <td class="diff-del">-0</td>
+            <td><span class="tag tag-gray">0</span></td>
+            <td>1</td>
+          </tr>
+
+          <tr>
+            <td class="rank ">15</td>
+            <td><div class="name-cell">
+              <div class="avatar" style="background:#8957e5">王</div>
+              王枫荻(Fengdi)
+            </div></td>
+            <td>1</td>
+            <td class="diff-add">+418</td>
+            <td class="diff-del">-83</td>
+            <td><span class="tag tag-gray">0</span></td>
+            <td>1</td>
+          </tr>
+
+          <tr>
+            <td class="rank ">17</td>
+            <td><div class="name-cell">
+              <div class="avatar" style="background:#388bfd">覃</div>
+              覃亮(Daniel)
+            </div></td>
+            <td>0</td>
+            <td class="diff-add">+0</td>
+            <td class="diff-del">-0</td>
+            <td><span class="tag tag-green">4</span></td>
+            <td>4</td>
+          </tr></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="footer">GitLab 活动日报 · 数据来源：GitLab API · 自动生成于 2026-04-25 09:35 · Publish Platform Team</div>
+
+<script>
+const timeChart = echarts.init(document.getElementById('timeChart'));
+timeChart.setOption({
+  backgroundColor:'transparent',
+  tooltip:{trigger:'axis',formatter:function(p){return p[0].axisValue+'<br/>提交: <b>'+p[0].value+'</b>';}},
+  grid:{left:40,right:20,top:20,bottom:40},
+  xAxis:{type:'category',data:Array.from({length:24},(_,i)=>i+'时'),axisLine:{lineStyle:{color:'#21262d'}},axisLabel:{color:'#8b949e',fontSize:11,interval:1},axisTick:{show:false}},
+  yAxis:{type:'value',axisLine:{show:false},axisLabel:{color:'#8b949e',fontSize:11},splitLine:{lineStyle:{color:'#21262d'}}},
+  series:[{data:[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 8, 1, 0, 10, 11, 9, 21, 7, 7, 13, 10, 0, 1],type:'bar',barMaxWidth:24,itemStyle:{color:function(p){const v=p.value;if(v>=10)return'#f85149';if(v>=8)return'#f0a733';if(v>=5)return'#58a6ff';return'#388bfd66';},borderRadius:[3,3,0,0]}}]
+});
+
+const devPieChart = echarts.init(document.getElementById('devPieChart'));
+devPieChart.setOption({
+  backgroundColor:'transparent',
+  tooltip:{trigger:'item',formatter:'{b}: {c} commits ({d}%)'},
+  legend:{bottom:0,textStyle:{color:'#8b949e',fontSize:11},itemWidth:12,itemHeight:12},
+  series:[{type:'pie',radius:['35%','65%'],center:['50%','45%'],data:[{"value": 35, "name": "\u7941\u6770(Jacky)", "itemStyle": {"color": "#fc6d26"}}, {"value": 17, "name": "\u4e01\u6c5f(Jiang)", "itemStyle": {"color": "#8957e5"}}, {"value": 10, "name": "\u5eb7\u946b\u535a(Xinbo)", "itemStyle": {"color": "#388bfd"}}, {"value": 8, "name": "\u5f90\u6668\u6770(Tito)", "itemStyle": {"color": "#2ea043"}}, {"value": 7, "name": "\u59dc\u627f(JoJo)", "itemStyle": {"color": "#d29922"}}, {"value": 4, "name": "\u5b59\u9e4f", "itemStyle": {"color": "#da3633"}}, {"value": 4, "name": "\u5b59\u607a(Kai)", "itemStyle": {"color": "#1f6feb"}}, {"value": 9, "name": "\u5176\u4ed6\u6210\u5458", "itemStyle": {"color": "#30363d"}}],label:{show:false},emphasis:{itemStyle:{shadowBlur:10,shadowColor:'rgba(0,0,0,0.5)'}}}]
+});
+
+const repoChart = echarts.init(document.getElementById('repoChart'));
+const repoNames = ["steam-service", "pay", "fuxi", "pilot_web", "gams_ad_in", "portal", "material_management", "gms_ad_bi_refactor"];
+const repoCounts = [33, 17, 16, 8, 7, 7, 4, 4];
+repoChart.setOption({
+  backgroundColor:'transparent',
+  tooltip:{trigger:'axis',formatter:'{b}<br/>提交: <b>{c}</b>'},
+  grid:{left:130,right:20,top:10,bottom:20},
+  xAxis:{type:'value',axisLabel:{color:'#8b949e',fontSize:11},splitLine:{lineStyle:{color:'#21262d'}},axisLine:{show:false}},
+  yAxis:{type:'category',data:repoNames.slice().reverse(),axisLabel:{color:'#8b949e',fontSize:11},axisLine:{lineStyle:{color:'#21262d'}},axisTick:{show:false}},
+  series:[{data:repoCounts.slice().reverse(),type:'bar',barMaxWidth:18,itemStyle:{color:new echarts.graphic.LinearGradient(0,0,1,0,[{offset:0,color:'#1a3a6a'},{offset:1,color:'#388bfd'}]),borderRadius:[0,4,4,0]},label:{show:true,position:'right',color:'#8b949e',fontSize:11}}]
+});
+
+window.addEventListener('resize',()=>{timeChart.resize();devPieChart.resize();repoChart.resize();});
+</script>
+</body>
+</html>
