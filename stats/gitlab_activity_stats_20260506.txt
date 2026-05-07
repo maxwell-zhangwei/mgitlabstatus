@@ -1,0 +1,712 @@
+
+====================================================================================================
+最近 24 小时用户活动统计（不使用强制别名映射）
+====================================================================================================
+
+用户: jiangcheng
+  识别: chengjiang@moonton.com
+  出现过的名字: jiangcheng, 姜承(JoJo)
+  总提交    : 18 次
+  总新增/删除: +298 / -265
+  Merge Requests: 4 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 22
+  按项目分布:
+    • publish_platform/web/gams_ad_in               提交:  18  MR:  4  Commit评论:  0  MR评论:  0 分支:0.3.0_6952741658, main (+298 / -265)
+      提交记录（按时间倒序）：
+        1. fe9af414  feat: version
+           时间: 2026-05-06T20:01:55.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/fe9af414a7586bbc66385b1f00a453c14f6f3480
+           分支: 0.3.0_6952741658, main
+        2. efc3de1f  f-6980925626 fix(batch): 定向包按账户选择支持跨页并避免切换账号确认丢失
+           时间: 2026-05-06T20:01:29.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/efc3de1ff5a3473a4c481575c2f041e71224a180
+           分支: 0.3.0_6952741658, main
+        3. a7f18bf4  f-6980820830 fix(audience): 平台筛选默认空并支持清空，空值不传 type
+           时间: 2026-05-06T19:13:43.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/a7f18bf4c9b0db29eedcd615d7460824da0a589a
+           分支: 0.3.0_6952741658, main
+        4. a9c14790  feat: version
+           时间: 2026-05-06T17:58:50.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/a9c147903138a4b955bdf88b455f91d87073ceca
+           分支: 0.3.0_6952741658, main
+        5. a87733c8  f-6983849201 fix(audience): 已选人群包展示不再受搜索影响并屏蔽取消请求提示
+           时间: 2026-05-06T17:58:11.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/a87733c802d1b364cd036af366926835bdd0cc6b
+           分支: 0.3.0_6952741658, main
+        6. 4d1abf42  f-6980925626 fix(batch): 定向包按账户侧栏已选提示与草稿一致
+           时间: 2026-05-06T15:37:20.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/4d1abf428654322369d4b95f8bb337850df3cb4c
+           分支: 0.3.0_6952741658, main
+        7. 65300038  feat: version
+           时间: 2026-05-06T15:10:46.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/653000387e1970c07257c0f9907b3d73b5c2a515
+           分支: 0.3.0_6952741658, main
+        8. be7c99e1  m-6952741658 fix(batch): 选择抽屉表格不再插入已选首行
+           时间: 2026-05-06T15:09:46.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/be7c99e103a1132cd4f0775c865a295231949f83
+           分支: 0.3.0_6952741658, main
+        9. 5895337c  feat: version
+           时间: 2026-05-06T14:24:49.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/5895337cbd25bc93c6e1a76215656586211b8062
+           分支: 0.3.0_6952741658, main
+       10. 2f598b1d  Merge remote-tracking branch 'origin/main' into 0.3.0_6952741658
+           时间: 2026-05-06T14:23:52.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/2f598b1d0f2b2846bfb983c4caa5e5323fc2c712
+           分支: 0.3.0_6952741658, main
+       11. c05941de  f-6960986573 fix(batch): 已选项目顶部信息无需翻页即展示
+           时间: 2026-05-06T14:23:38.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/c05941decea9fdd11586164e4cc050131f977d66
+           分支: 0.3.0_6952741658, main
+       12. fb5f4363  f-6980944036 fix(batch): 按账户抖音号表格 dataSource 使用接口 pageData
+           时间: 2026-05-06T14:06:31.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/fb5f4363474adf177f256c13c1269dbbb7a93538
+           分支: 0.3.0_6952741658, main
+       13. 8090ef63  f-6980925626 fix(batch): 定向包按账户抽屉与 draft 已选一致
+           时间: 2026-05-06T12:01:47.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/8090ef6348d0609acb76430c9e9d96b0b74317ba
+           分支: 0.3.0_6952741658, main
+       14. b19ab71c  f-6980728933 fix(audience): 手机价格自定义规则对齐 PRD，不限 11000，切换清空
+           时间: 2026-05-06T11:52:01.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/b19ab71c991429542ccd414b68e45b2d80af7ccd
+           分支: 0.3.0_6952741658, main
+       15. e01d441f  Merge branch '0.3.0_6952741658' into 'main'
+           时间: 2026-05-06T12:02:29.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/e01d441f0ba10dc006f8d1fdd4b3255ed549149f
+           分支: main
+       16. 1937e0f8  Merge branch '0.3.0_6952741658' into 'main'
+           时间: 2026-05-06T09:59:18.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/1937e0f8b4181d416dbefa4b305c378f8f974506
+           分支: main
+       17. 0835cb83  Merge branch '0.3.0_6952741658' into 'main'
+           时间: 2026-05-06T07:11:12.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/0835cb8317c1501525b39ee0e4bf47df282acaeb
+           分支: main
+       18. cb03ac1b  Merge branch '0.3.0_6952741658' into 'main'
+           时间: 2026-05-06T06:25:48.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/cb03ac1bdf23aec9c7f5596d1715882860cdbf5c
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#157 f-6980820830 fix(audience): 平台筛选默认空并支持清空，空值不传 type
+           时间: 2026-05-06T12:02:14.909Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/merge_requests/157
+        2. MR#156 f-6980925626 fix(batch): 定向包按账户侧栏已选提示与草稿一致
+           时间: 2026-05-06T09:59:12.158Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/merge_requests/156
+        3. MR#155 m-6952741658 fix(batch): 选择抽屉表格不再插入已选首行
+           时间: 2026-05-06T07:11:03.012Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/merge_requests/155
+        4. MR#154 f-6980728933 fix(audience): 手机价格自定义规则对齐 PRD，不限 11000，切换清空
+           时间: 2026-05-06T06:25:42.752Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/merge_requests/154
+
+用户: 康鑫博(Xinbo)
+  识别: xinbokang@moonton.com
+  出现过的名字: xinbo, 康鑫博(Xinbo)
+  总提交    : 16 次
+  总新增/删除: +136 / -43
+  Merge Requests: 5 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 21
+  按项目分布:
+    • publish_platform/fuxi                         提交:  13  MR:  5  Commit评论:  0  MR评论:  0 分支:feature-xinbo-dev, master (+136 / -43)
+      提交记录（按时间倒序）：
+        1. a557604f  m-6980036568[OceanAdsV2] audience region fields config default
+           时间: 2026-05-06T19:50:19.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/a557604f226c0ee95e08c106874a3354fadab8e4
+           分支: feature-xinbo-dev, master
+        2. 8cb4c606  m-6979548566[OceanAdsV2] same batch,acc and anchor create one remote
+           时间: 2026-05-06T19:39:25.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/8cb4c606b002f2e33059cbbc01ce0180ffb16b9f
+           分支: feature-xinbo-dev, master
+        3. 4ccb6ae3  m-6979534620[OceanAdsV2] audience platform type
+           时间: 2026-05-06T19:22:53.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/4ccb6ae339e6fbaf832e92397db8d7ae5fcc4454
+           分支: feature-xinbo-dev, master
+        4. ab6f4880  m-6981819617[OceanAdsV2] asset source update
+           时间: 2026-05-06T16:39:06.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/ab6f48803be1fdeded5720c492060f500546a8b7
+           分支: feature-xinbo-dev, master
+        5. 3c90a080  m-6980940660[OceanAdsV2] audience launch price
+           时间: 2026-05-06T15:05:55.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/3c90a080a01952efa4c48ddf7874f43f1f26d53c
+           分支: feature-xinbo-dev, master
+        6. 1eb8f2b8  m-6981819617[OceanAdsV2] asset source check
+           时间: 2026-05-06T14:18:07.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/1eb8f2b884dabcdaf7377cea42b004aa0bc6d073
+           分支: feature-xinbo-dev, master
+        7. 21d543db  m-6980632889[OceanAdsV2] strategy detail api
+           时间: 2026-05-06T11:51:09.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/21d543db168afb36263c4547cc20a774e0a26f74
+           分支: feature-xinbo-dev, master
+        8. c7786b4e  m-6979542586[OceanAdsV2] update audience notify msg
+           时间: 2026-05-06T11:25:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/c7786b4e5120c25fb28510d1f8abc6967a386269
+           分支: feature-xinbo-dev, master
+        9. d1a61b0f  Merge branch 'feature-xinbo-dev' into 'master'
+           时间: 2026-05-06T11:50:38.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/d1a61b0f0eb6e4130f8f2a75650ff432dc02c746
+           分支: master
+       10. 0af6a23c  Merge branch 'feature-xinbo-dev' into 'master'
+           时间: 2026-05-06T11:40:57.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/0af6a23c3fb79788e40761e12358271c396da9f7
+           分支: master
+       11. dd90542f  Merge branch 'feature-xinbo-dev' into 'master'
+           时间: 2026-05-06T08:39:29.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/dd90542f628bc244fcac4802f05a1150785c2028
+           分支: master
+       12. 610cbfad  Merge branch 'feature-xinbo-dev' into 'master'
+           时间: 2026-05-06T07:06:19.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/610cbfadf9ce0a1115662d0a855d83b6849756b4
+           分支: master
+       13. 227c40bb  Merge branch 'feature-xinbo-dev' into 'master'
+           时间: 2026-05-06T06:23:44.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/227c40bb641a7c578843e15288e7c9a7416a1e9f
+           分支: master
+      MR记录（按时间倒序）：
+        1. MR#270 m-6980036568[OceanAdsV2] audience region fields config default
+           时间: 2026-05-06T11:50:35.692Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/270
+        2. MR#269 m-6979534620[OceanAdsV2] audience platform type
+           时间: 2026-05-06T11:40:53.537Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/269
+        3. MR#268 m-6981819617[OceanAdsV2] asset source update
+           时间: 2026-05-06T08:39:24.290Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/268
+        4. MR#267 m-6980940660[OceanAdsV2] audience launch price
+           时间: 2026-05-06T07:06:16.446Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/267
+        5. MR#266 m-6980632889[OceanAdsV2] strategy detail api
+           时间: 2026-05-06T06:23:32.927Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/266
+    • publish_platform/ad_bi/bi_cockpit             提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:main 
+      提交记录（按时间倒序）：
+        1. 6dffb968  Merge branch 'fengdi/main/web_dashboard' into 'main'
+           时间: 2026-05-06T11:59:05.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/6dffb9686f35b720be1380b5ba8a2fd985540b79
+           分支: main
+        2. f52dafe1  Merge branch 'fengdi/main/web_dashboard' into 'main'
+           时间: 2026-05-06T07:21:58.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/f52dafe19159fabe27b9a5813ebe1b4dbb358c3b
+           分支: main
+        3. 79444994  Merge branch 'fengdi/main/web_dashboard' into 'main'
+           时间: 2026-05-06T02:48:08.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/794449946ceb3fc03ea2cec146273c950b5f9a4b
+           分支: main
+
+用户: 吴超伟(Chaowei)
+  识别: chaoweiwu@moonton.com
+  出现过的名字: chaoweiwu, 吴超伟(Chaowei)
+  总提交    : 13 次
+  总新增/删除: +8,033 / -12,442
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 14
+  按项目分布:
+    • publish_platform/ad_bi/data                   提交:  13  MR:  1  Commit评论:  0  MR评论:  0 分支:007-rule-engine-tagging (+8,033 / -12,442)
+      提交记录（按时间倒序）：
+        1. 829b4dcb  m-6952411398 删除冗余文件
+           时间: 2026-05-06T23:43:58.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/829b4dcb94ef5f7bc55a5e5e7a0f454471b54929
+           分支: 007-rule-engine-tagging
+        2. b3ee8804  m-6952411398 删除冗余文件
+           时间: 2026-05-06T23:41:44.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/b3ee880443336e8fb31e7310b8c369699242ce62
+           分支: 007-rule-engine-tagging
+        3. c6a469c3  m-6952411398 docs: P3 完成最终报告 - 过滤功能 100% 交付
+           时间: 2026-05-06T15:42:12.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/c6a469c30df69d695964608bf8cc7ab39a3b6c61
+           分支: 007-rule-engine-tagging
+        4. f88cb681  m-6952411398 feat: P3 过滤功能实现 - 侧输出配置与 TOS 落地
+           时间: 2026-05-06T15:42:07.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/f88cb6813c8dfd9c37f4ff3a689c7f80b347b2db
+           分支: 007-rule-engine-tagging
+        5. 3dc0185c  m-6952411398 docs: P2 complete final report - 75% overall progress
+           时间: 2026-05-06T15:42:02.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/3dc0185c49be5e610d77b3c824304c80e41059d9
+           分支: 007-rule-engine-tagging
+        6. 2e4f90eb  m-6952411398 feat(007): complete P2 hot update integration tests (T013-T016)
+           时间: 2026-05-06T15:41:57.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/2e4f90eb2fca3a39b2fa4ad62a830dc2c7240ddc
+           分支: 007-rule-engine-tagging
+        7. 08afe007  m-6952411398 docs(007): P1 complete - 60% overall project progress
+           时间: 2026-05-06T15:41:52.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/08afe007d973f519cbaad424ac537536b806a1e4
+           分支: 007-rule-engine-tagging
+        8. 4db143a5  m-6952411398 feat(007): complete T010-T012 P1 unit and integration tests
+           时间: 2026-05-06T15:41:44.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/4db143a5b76460a3342b906fe592e0a51e4530ce
+           分支: 007-rule-engine-tagging
+        9. 3aa0f5d5  m-6952411398 feat(007): implement T006-T008 P1 integration
+           时间: 2026-05-06T15:41:36.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/3aa0f5d5468666cd3a5c997e44fe4ead5ecb9e68
+           分支: 007-rule-engine-tagging
+       10. 1b8e5844  m-6952411398  docs(007): add Phase 4 implementation progress report - 30% complete
+           时间: 2026-05-06T14:00:02.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/1b8e5844e6009e0d7574851a8223405eb00a04df
+           分支: 007-rule-engine-tagging
+       11. 8e29016f  m-6952411398 feat(007): implement Checkpoint recovery & tests - Phase 4 key tasks
+           时间: 2026-05-06T13:59:53.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/8e29016f7278ff31344e60b4d875a4dc85c3ad0e
+           分支: 007-rule-engine-tagging
+       12. 141b4a8b  m-6952411398 feat(007): generate tasks.md - Phase 3 task generation complete
+           时间: 2026-05-06T13:59:22.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/141b4a8b95a34810a4d9c15b2e335fc684aeef34
+           分支: 007-rule-engine-tagging
+       13. 27c3ba2b  m-6952411398 第一版规则引擎备份，目前支持所有的点击数据打tag
+           时间: 2026-05-06T11:24:13.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/27c3ba2b5f0527235438dc7ac16874be4e3c0163
+           分支: 007-rule-engine-tagging
+      MR记录（按时间倒序）：
+        1. MR#485 m-6952411398, feat: 反作弊flink 框架代码。代码比对使用 不要合并
+           时间: 2026-05-06T15:37:56.908Z
+           状态: closed
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/merge_requests/485
+
+用户: 曾凡单(Suzy)
+  识别: suzyzeng@moonton.com
+  出现过的名字: suzyzeng, 曾凡单(Suzy)
+  总提交    : 7 次
+  总新增/删除: +3,106 / -3,824
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 9
+  按项目分布:
+    • publish_platform/ad_bi/gms_ad_bi_refactor     提交:   7  MR:  2  Commit评论:  0  MR评论:  0 分支:feature/m-6948717467-addManagerAccount, main (+3,106 / -3,824)
+      提交记录（按时间倒序）：
+        1. a40254f8  Merge branch 'main' into feature/m-6948717467-addManagerAccount
+           时间: 2026-05-06T16:56:11.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/a40254f8f641cba5c933fd03f5e2ce456e5ed4b2
+           分支: feature/m-6948717467-addManagerAccount
+        2. e6b83737  m-6948717467, 管家账户字段的配置去掉 fields 字段, 前端直接使用configJson 来解析
+           时间: 2026-05-06T16:55:20.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/e6b837377aaaba642c61ed0f65943e2d05ffd4f1
+           分支: feature/m-6948717467-addManagerAccount
+        3. 59890bd4  Merge branch 'feature/m-6948717467-addManagerAccount' into 'main'
+           时间: 2026-05-06T08:17:36.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/59890bd4bf924e1c3fbd38519ba8a6d78d7309fa
+           分支: feature/m-6948717467-addManagerAccount, main
+        4. 96d29198  m-6948717467, 后端直接返回配置的管家账户字段的json串
+           时间: 2026-05-06T08:17:36.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/96d2919836db7bd0552e5e8b3e57a5a9a2db9e12
+           分支: feature/m-6948717467-addManagerAccount, main
+        5. 686fff3a  m-6948717467, 后端直接返回配置的管家账户字段的json串
+           时间: 2026-05-06T16:16:33.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/686fff3ac3433f5d840d553bf145de5b008e2f00
+           分支: feature/m-6948717467-addManagerAccount
+        6. f249d4a5  Merge branch 'feature/m-6948717467-addManagerAccount' into 'main'
+           时间: 2026-05-06T08:59:08.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/f249d4a51aac83e86121cebdb405526420afa1e8
+           分支: main
+        7. 84bb9568  m-6948717467, 管家账户字段的配置去掉 fields 字段, 前端直接使用configJson 来解析
+           时间: 2026-05-06T08:59:08.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/84bb95686594c8f143b6231ea257f48fb4eaa37d
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#2147 m-6948717467, 管家账户字段的配置去掉 fields 字段, 前端直接使用configJson 来解析
+           时间: 2026-05-06T08:58:55.394Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/merge_requests/2147
+        2. MR#2146 m-6948717467, 后端直接返回配置的管家账户字段的json串
+           时间: 2026-05-06T08:17:23.962Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/merge_requests/2146
+
+用户: jiangding
+  识别: jiangding@moonton.com
+  出现过的名字: jiangding, 丁江(jiang)
+  总提交    : 8 次
+  总新增/删除: +152 / -30
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 9
+  按项目分布:
+    • go-component/apple                            提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:iosRefundPreference_20260427-6979379247 (+134 / -23)
+      提交记录（按时间倒序）：
+        1. 51318676  增加退款信息字段
+           时间: 2026-05-06T14:55:02.000+08:00
+           链接: http://lf.git.oa.mt/go-component/apple/-/commit/513186769e473528b6345c2b0a0d5fce9a0c14d6
+           分支: iosRefundPreference_20260427-6979379247
+        2. 73c42080  增加退款信息字段
+           时间: 2026-05-06T14:25:24.000+08:00
+           链接: http://lf.git.oa.mt/go-component/apple/-/commit/73c42080e3a47ff6c82f83f377e3c675fa040403
+           分支: iosRefundPreference_20260427-6979379247
+        3. f356dc26  增加退款列表功能debug
+           时间: 2026-05-06T12:22:03.000+08:00
+           链接: http://lf.git.oa.mt/go-component/apple/-/commit/f356dc26da41ab8291aa0807a7330f8a02fbbb2a
+           分支: iosRefundPreference_20260427-6979379247
+    • go-component/google                           提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:addApiNote_20260506, master (+6 / -3)
+      提交记录（按时间倒序）：
+        1. 8d81170d  增加字段doc和注释含义（enum）
+           时间: 2026-05-06T17:23:47.000+08:00
+           链接: http://lf.git.oa.mt/go-component/google/-/commit/8d81170dbd19c2cecbb52fb9714ce19a929b430c
+           分支: addApiNote_20260506, master
+        2. 9412ef17  Merge branch 'addApiNote_20260506' into 'master'
+           时间: 2026-05-06T09:26:58.000+00:00
+           链接: http://lf.git.oa.mt/go-component/google/-/commit/9412ef17e187fa483a5308b8e1de9de59dc7fdd7
+           分支: master
+      MR记录（按时间倒序）：
+        1. MR#21 增加字段doc和注释含义（enum）
+           时间: 2026-05-06T09:24:27.662Z
+           状态: merged
+           链接: http://lf.git.oa.mt/go-component/google/-/merge_requests/21
+    • msdk/pay                                      提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:debugIosRefundConsumption_20260428, pre (+12 / -4)
+      提交记录（按时间倒序）：
+        1. c14ddee2  增加退款比例字段
+           时间: 2026-05-06T15:51:10.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/c14ddee2a3c113464ce0f99e74b8d38bb774c2e9
+           分支: debugIosRefundConsumption_20260428, pre
+        2. 66da26f6  增加退款比例字段
+           时间: 2026-05-06T15:00:53.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/66da26f61c0de5559a8cc3d3d719414a95a7bc6b
+           分支: debugIosRefundConsumption_20260428, pre
+        3. 308835a7  增加退款比例字段
+           时间: 2026-05-06T14:56:35.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/308835a7d5709d584a4930cdd5d4046c1de90385
+           分支: debugIosRefundConsumption_20260428, pre
+
+用户: 王枫荻(Fengdi)
+  识别: fengdi.wang@moonton.com
+  出现过的名字: fengdiwang, 王枫荻(Fengdi)
+  总提交    : 6 次
+  总新增/删除: +1,765 / -565
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 8
+  按项目分布:
+    • publish_platform/ad_bi/bi_cockpit             提交:   6  MR:  2  Commit评论:  0  MR评论:  0 分支:fengdi/main/web_dashboard, main (+1,765 / -565)
+      提交记录（按时间倒序）：
+        1. c8cc5ea9  m-6968610961[数据总览]增加汇总数据
+           时间: 2026-05-06T19:57:58.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/c8cc5ea9ed882379c8a2779852fcc1871fca72d6
+           分支: fengdi/main/web_dashboard, main
+        2. 5e172192  m-6968610961[数据总览]增加汇总数据
+           时间: 2026-05-06T15:57:45.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/5e1721924e40df05f6a68e099f4866a93546d7af
+           分支: fengdi/main/web_dashboard, main
+        3. 2e01dd0e  m-6968610961[数据总览]增加汇总数据
+           时间: 2026-05-06T15:39:08.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/2e01dd0ea382a74761d7b40a3d040c26586ec6aa
+           分支: fengdi/main/web_dashboard, main
+        4. 91165d15  m-6968610961[数据总览]增加汇总数据
+           时间: 2026-05-06T15:32:32.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/91165d15766d98fcd6646bac5a2b18ca7c6d1ab7
+           分支: fengdi/main/web_dashboard, main
+        5. 0a0c52a2  m-6948640140[ai]权限功能的代码文档整理
+           时间: 2026-05-06T14:14:48.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/0a0c52a2c5615bf01b80b8fdf6ee6e23f71818b8
+           分支: fengdi/main/web_dashboard, main
+        6. 146ee652  m-6948640140[ai]权限功能的代码文档整理
+           时间: 2026-05-06T10:59:21.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/146ee6528d24c20d76d2932754912a3cd3f36563
+           分支: fengdi/main/web_dashboard, main
+      MR记录（按时间倒序）：
+        1. MR#599 m-6968610961[数据总览]增加汇总数据
+           时间: 2026-05-06T07:32:50.297Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/merge_requests/599
+        2. MR#598 m-6948640140[ai]权限功能的代码文档整理
+           时间: 2026-05-06T02:59:41.921Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/merge_requests/598
+
+用户: kaisun@moonton.com
+  识别: kaisun@moonton.com
+  出现过的名字: kaisun@moonton.com, 孙恺(Kai)
+  总提交    : 5 次
+  总新增/删除: +770 / -528
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 7
+  按项目分布:
+    • publish_platform/ad_bi/gms_ad_bi_refactor     提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:feature/m-6948717467-addManagerAccount, m-6961862282-batchcreateadaccount, m-6975561880-自归因概率匹配支持IP+UA, main (+635 / -527)
+      提交记录（按时间倒序）：
+        1. f18fed39  Merge branch 'm-6975561880-自归因概率匹配支持IP+UA' into 'main'
+           时间: 2026-05-06T03:49:42.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/f18fed39d7cd385e49dad11071edc13f246b1ab6
+           分支: feature/m-6948717467-addManagerAccount, m-6961862282-batchcreateadaccount, main
+        2. fe7f70d1  m-6975561880-自归因增加probtype字段支持ip+ua
+           时间: 2026-05-06T11:47:52.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/fe7f70d14d2e614c122ee43832559cb9bc38d301
+           分支: feature/m-6948717467-addManagerAccount, m-6961862282-batchcreateadaccount, m-6975561880-自归因概率匹配支持IP+UA, main
+      MR记录（按时间倒序）：
+        1. MR#2144 m-6975561880-自归因增加probtype字段支持ip+ua
+           时间: 2026-05-06T03:49:33.634Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/merge_requests/2144
+    • publish_platform/attribution-service          提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:m-6975561880-概率匹配支持IP+UA, master (+23 / -1)
+      提交记录（按时间倒序）：
+        1. b6b21e6c  m-6975561880-自归因增加probtype字段支持ip+ua
+           时间: 2026-05-06T11:48:07.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/attribution-service/-/commit/b6b21e6c0611788a8873aac2634dda61abeb1b4f
+           分支: m-6975561880-概率匹配支持IP+UA, master
+        2. addc2ee3  Merge branch 'm-6975561880-概率匹配支持IP+UA' into 'master'
+           时间: 2026-05-06T03:49:19.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/attribution-service/-/commit/addc2ee3c210665e553700d08aabe55e2c84d54f
+           分支: master
+      MR记录（按时间倒序）：
+        1. MR#164 m-6975561880-自归因增加probtype字段支持ip+ua
+           时间: 2026-05-06T03:49:13.451Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/attribution-service/-/merge_requests/164
+    • publish_platform/ad_bi/data-tracker-service   提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:m-6956977895-增加链接追踪渠道唯一id (+112 / -0)
+      提交记录（按时间倒序）：
+        1. a5436e41  m-6956977895-新增自归因广告渠道的唯一id
+           时间: 2026-05-06T17:42:34.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data-tracker-service/-/commit/a5436e41fd47ac9b5b535b9fd52c2d9075c0d875
+           分支: m-6956977895-增加链接追踪渠道唯一id
+
+用户: 田元林(Candy)
+  识别: candytian@moonton.com
+  出现过的名字: candytian, 田元林(Candy)
+  总提交    : 5 次
+  总新增/删除: +193 / -366
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 7
+  按项目分布:
+    • publish_platform/web/cockpit_mobile           提交:   5  MR:  2  Commit评论:  0  MR评论:  0 分支:feat/m-6968610961, main (+193 / -366)
+      提交记录（按时间倒序）：
+        1. 704e800f  feat:m-6968610961 切换项目替换为ActionSheet/数据看板UE调整
+           时间: 2026-05-06T20:06:52.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit_mobile/-/commit/704e800f6a25c0dd0762c47469feba36d820de87
+           分支: feat/m-6968610961, main
+        2. 03f9e88b  feat:m-6968610961 修改UE样式
+           时间: 2026-05-06T16:46:14.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit_mobile/-/commit/03f9e88b4fe57e9a428f859d03e2232e0970a4d8
+           分支: feat/m-6968610961, main
+        3. 3bdf1d51  feat:m-6968610961 项目数据添加汇总/看板详情图表默认高亮最后一天
+           时间: 2026-05-06T16:00:46.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit_mobile/-/commit/3bdf1d515206aed066e39289f8e9020e9af0d284
+           分支: feat/m-6968610961, main
+        4. b584f5b3  Merge branch 'feat/m-6968610961' into 'main'
+           时间: 2026-05-06T12:09:00.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit_mobile/-/commit/b584f5b3ddba3ba145d94a1e899e0ad3c7c20855
+           分支: main
+        5. 0240ef91  Merge branch 'feat/m-6968610961' into 'main'
+           时间: 2026-05-06T08:49:01.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit_mobile/-/commit/0240ef91a20d42e70a376189699b36614af1a0af
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#43 feat:m-6968610961 切换项目替换为ActionSheet/数据看板UE调整
+           时间: 2026-05-06T12:08:38.137Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit_mobile/-/merge_requests/43
+        2. MR#42 feat:m-6968610961 项目数据添加汇总/看板详情图表默认高亮最后一天/UE调整
+           时间: 2026-05-06T08:48:11.799Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit_mobile/-/merge_requests/42
+
+用户: ruipingzhang
+  识别: ruipingzhang@moonton.com
+  出现过的名字: ruipingzhang, 张芮萍(Ruiping)
+  总提交    : 4 次
+  总新增/删除: +45 / -14
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 6
+  按项目分布:
+    • publish_platform/web/gams_ad_bi_in            提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:feat/addIPUA, main 
+      提交记录（按时间倒序）：
+        1. 1b68ba45  Merge branch 'main' into 'feat/addIPUA'
+           时间: 2026-05-06T07:02:11.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/1b68ba45c371c79735b3def727927569d17d8f16
+           分支: feat/addIPUA, main
+        2. a8387867  Merge branch 'feat/addIPUA' into 'main'
+           时间: 2026-05-06T07:02:18.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/a83878674652c1544315365af84c46a9d8321a0e
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#473 feat: 概率匹配支持IP+UA m-6975561880
+           时间: 2026-05-06T07:01:44.799Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/merge_requests/473
+    • publish_platform/web/gams_ad_bi               提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:feat/housekeeperAddChannel, main (+45 / -14)
+      提交记录（按时间倒序）：
+        1. 843b4c46  feat: fields改为configJson，json字符串格式 m-6948717467
+           时间: 2026-05-06T16:45:55.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/commit/843b4c4638eff3a35e7de6b3ae012e5fc0fd217b
+           分支: feat/housekeeperAddChannel, main
+        2. 22940f29  Merge branch 'feat/housekeeperAddChannel' into 'main'
+           时间: 2026-05-06T08:47:26.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/commit/22940f2990e5d8e91993e19279b172983b3c7c2b
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#1874 feat: fields改为configJson，json字符串格式 m-6948717467
+           时间: 2026-05-06T08:46:35.169Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/merge_requests/1874
+
+用户: 徐腾飞(Tengfei)
+  识别: tengfeixu@moonton.com
+  出现过的名字: tengfeixu, 徐腾飞(Tengfei)
+  总提交    : 4 次
+  总新增/删除: +2,943 / -786
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 6
+  按项目分布:
+    • publish_platform/kol                          提交:   4  MR:  2  Commit评论:  0  MR评论:  0 分支:dev, feat/m-6976939935 (+2,943 / -786)
+      提交记录（按时间倒序）：
+        1. edfd083e  Merge branch 'feat/m-6976939935' into 'dev'
+           时间: 2026-05-06T09:48:17.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/edfd083e2921700e57eeb39aee2efc143846f5d4
+           分支: dev
+        2. bf1524e5  校验TT封面图和视频尺寸是否匹配 m-6976939935
+           时间: 2026-05-06T17:47:44.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/bf1524e5b07735cd2282b6b565816012624cacfb
+           分支: dev, feat/m-6976939935
+        3. 168491b5  Merge branch 'feat/m-6976939935' into 'dev'
+           时间: 2026-05-06T08:34:22.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/168491b57be15c7857adf33cc0adaca0354938b7
+           分支: dev
+        4. c1957a09  社媒发布更换TTAPI m-6976939935
+           时间: 2026-05-06T16:32:58.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/c1957a093635c5e2a29df9392db3bf628fc30b23
+           分支: dev, feat/m-6976939935
+      MR记录（按时间倒序）：
+        1. MR#2385 校验TT封面图和视频尺寸是否匹配 m-6976939935
+           时间: 2026-05-06T09:48:05.431Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/merge_requests/2385
+        2. MR#2384 Feat/m 6976939935
+           时间: 2026-05-06T08:33:31.693Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/merge_requests/2384
+
+用户: 祁杰(Jacky)
+  识别: jackyqi@moonton.com
+  出现过的名字: 祁杰(Jacky)
+  总提交    : 4 次
+  总新增/删除: +12 / -11
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 5
+  按项目分布:
+    • publish_platform/web/gams_ad_bi_in            提交:   4  MR:  1  Commit评论:  0  MR评论:  0 分支:feat/addIPUA, main (+12 / -11)
+      提交记录（按时间倒序）：
+        1. d99e461e  chore: 版本更新5.19.6
+           时间: 2026-05-06T14:47:34.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/d99e461ec35d19c19cfeafe6f18a3098ab62235e
+           分支: feat/addIPUA, main
+        2. 797f8a3f  Merge branch 'fix/m-6961862282' into 'main'
+           时间: 2026-05-06T06:46:36.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/797f8a3f629db059c81f93b73db09da67ffdfd3d
+           分支: feat/addIPUA, main
+        3. e2b18f0d  fix: f-6980646496 m-6957176822 m-6961862282 修复广告账户编辑时的渠道展示错误
+           时间: 2026-05-06T14:46:06.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/e2b18f0dc1754106ee35c7d1a86200c7dd3eca42
+           分支: feat/addIPUA, main
+        4. 88dab8cd  Merge branch 'main' of lf.git.oa.mt:publish_platform/web/gams_ad_bi_in
+           时间: 2026-05-06T11:48:31.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/88dab8cdefef56d9417664f516fa468faed6f2bc
+           分支: feat/addIPUA, main
+      MR记录（按时间倒序）：
+        1. MR#472 Fix/m 6961862282
+           时间: 2026-05-06T06:46:31.851Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/merge_requests/472
+
+用户: 田雪健(Storm)
+  识别: stormtian@moonton.com
+  出现过的名字: 田雪健(Storm)
+  总提交    : 2 次
+  总新增/删除: +8 / -1
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 3
+  按项目分布:
+    • publish_platform/ad_bi/gms_ad_bi_refactor     提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:feature/m-6948717467-addManagerAccount, m-6961862282-batchcreateadaccount, main (+8 / -1)
+      提交记录（按时间倒序）：
+        1. d7b18f80  Merge branch 'm-6961862282-batchcreateadaccount' into 'main'
+           时间: 2026-05-06T07:34:04.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/d7b18f809dffd7b0ce23f7373ea818ca6e70e472
+           分支: feature/m-6948717467-addManagerAccount, main
+        2. ec66792e  m-6961862282:兼容 supplier id 为 0 的情况
+           时间: 2026-05-06T15:33:38.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/ec66792e8b2467a06bf1621c48a32714c2abc82f
+           分支: feature/m-6948717467-addManagerAccount, m-6961862282-batchcreateadaccount, main
+      MR记录（按时间倒序）：
+        1. MR#2145 m-6961862282:兼容 supplier id 为 0 的情况
+           时间: 2026-05-06T07:34:02.371Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/merge_requests/2145
+
+用户: 叶明(mingye)
+  识别: mingye@moonton.com
+  出现过的名字: 叶明(mingye)
+  总提交    : 2 次
+  总新增/删除: +8 / -8
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/ad_bi/data                   提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:bak/feature-bitmap-mingye-20241224 (+8 / -8)
+      提交记录（按时间倒序）：
+        1. 1b87664f  refactor: rename utility classes to include 'WithBitmap' for clarity
+           时间: 2026-05-06T14:42:08.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/1b87664f4fbcb1893efd0746f90fc1a6f8b58a46
+           分支: bak/feature-bitmap-mingye-20241224
+        2. 6501494f  Merge branch 'master' into feature-bitmap-mingye-20241224
+           时间: 2026-05-06T14:38:47.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/6501494f324845ddf0f909943b6ef2e9170f3f61
+           分支: bak/feature-bitmap-mingye-20241224
+
+用户: admin
+  识别: admin@admindemacbook-pro.local
+  出现过的名字: admin
+  总提交    : 1 次
+  总新增/删除: +237 / -0
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • publish_platform/ad_bi/data                   提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:feature_flink_17_carldong_generate_4340_history_pc_did (+237 / -0)
+      提交记录（按时间倒序）：
+        1. f0d799e5  4340历史windows设备did生成 m-6663192676
+           时间: 2026-05-06T18:11:21.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/f0d799e533f0d2ae40abf077290fb5671106cb3c
+           分支: feature_flink_17_carldong_generate_4340_history_pc_did
+
+用户: Willem
+  识别: willemwang@moonton.com
+  出现过的名字: Willem
+  总提交    : 1 次
+  总新增/删除: +1 / -1
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • publish_platform/ai                           提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:prod (+1 / -1)
+      提交记录（按时间倒序）：
+        1. 85428210  解决 SQL注入/引号/emoji/多语言问题
+           时间: 2026-05-06T11:10:26.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ai/-/commit/8542821025d0b0587162def6cb0e7e8dc2e6e6f5
+           分支: prod
+
+----------------------------------------------------------------------------------------------------
+共统计到 15 位活跃用户
