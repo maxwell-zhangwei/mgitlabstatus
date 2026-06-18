@@ -1,0 +1,301 @@
+
+====================================================================================================
+最近 24 小时用户活动统计（不使用强制别名映射）
+====================================================================================================
+
+用户: 覃亮(Daniel)
+  识别: danielqin@moonton.com
+  出现过的名字: danielqin, 覃亮(Daniel)
+  总提交    : 17 次
+  总新增/删除: +1,193 / -1,125
+  Merge Requests: 3 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 20
+  按项目分布:
+    • publish_platform/ad_bi/mt_mcp_hub             提交:  17  MR:  3  Commit评论:  0  MR评论:  0 分支:master, test (+1,193 / -1,125)
+      提交记录（按时间倒序）：
+        1. 4b099c9e  Merge branch 'test' into 'master'
+           时间: 2026-06-17T04:45:33.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/4b099c9e31b7f3d161f271a17a9a25e5749e696d
+           分支: master
+        2. 1eea90c8  Merge branch 'master' into test
+           时间: 2026-06-17T12:42:10.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/1eea90c8eef20e86b0a213b16579556a35982f50
+           分支: master, test
+        3. f62a47f5  Merge branch 'test' of lf.git.oa.mt:publish_platform/ad_bi/mt_mcp_hub into test
+           时间: 2026-06-17T12:34:45.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/f62a47f5aeecd1fb2de1e654044f0f53beaca27e
+           分支: master, test
+        4. 08386c75  Fix Dockerfile CMD: remove hardcoded stdio arg so conf.yaml transport=sse takes effect
+           时间: 2026-06-17T12:34:39.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/08386c755353f9daf4340e5a7ec1422caa59ac69
+           分支: master, test
+        5. bf07ac65  Merge branch 'test' into 'master'
+           时间: 2026-06-17T04:12:54.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/bf07ac65ca57449770c669e18e0c2c1720329b76
+           分支: master, test
+        6. 267b1f8d  Resolve merge conflict in campaign.py: restore data/tasks extraction from master
+           时间: 2026-06-17T12:10:46.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/267b1f8d7fab987c15a1b5879f7624e1662117dd
+           分支: master, test
+        7. b62c5f98  发布test
+           时间: 2026-06-17T12:07:42.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/b62c5f984dacb6485a2140ee9bb00a60f6597bc3
+           分支: master, test
+        8. 8873264b  feat: Mail 支持从请求 Header 动态传入，与 Moa-Token/App-Id 保持一致
+           时间: 2026-06-17T11:56:04.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/8873264b608ef60f77b36a8b39ead40926590019
+           分支: master, test
+        9. fe3f240d  docs: 所有工具参数表加入 app_id 字段说明
+           时间: 2026-06-17T11:41:17.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/fe3f240d6b5e18ca3f0b8ae573d2a45efa9d8cc0
+           分支: master, test
+       10. bf074df0  feat: 所有工具支持 app_id 参数，优先级工具参数 > Header > 配置文件
+           时间: 2026-06-17T11:38:50.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/bf074df05698b7b1aae26ad39f236dc67c02c0cb
+           分支: master, test
+       11. ba82fc0e  Merge branch 'test'
+           时间: 2026-06-17T11:26:39.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/ba82fc0e5c025154047967aa7f9bb3d9099a2180
+           分支: master, test
+       12. d74f69fe  feat: App-Id 支持从请求 Header 动态传入，未配置时报错
+           时间: 2026-06-17T11:26:01.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/d74f69fe8fadc76199c540bedc258c8c6f27f4dd
+           分支: master, test
+       13. f07ce634  Merge branch 'test' into 'master'
+           时间: 2026-06-17T03:15:34.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/f07ce6340b2af356732c283d0e98a61f1ca80892
+           分支: master, test
+       14. d5c56a30  发布test
+           时间: 2026-06-17T11:15:20.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/d5c56a30ee3edb85d6314cebc14d30bf0d727b7f
+           分支: master, test
+       15. 3ab4606d  fix: 优化错误返回格式，增加 suggestion 字段和 http_error/poll_timeout 类型
+           时间: 2026-06-17T11:08:37.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/3ab4606d72a8e7feeb57b9f204eec45dbf08653c
+           分支: master, test
+       16. 43f04471  docs: 典型调用流程改为文字说明，解释每步的原因和注意事项
+           时间: 2026-06-17T10:59:35.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/43f04471210fce6a3357811f30fa49ad3c46c5fa
+           分支: master, test
+       17. a503131e  docs: 添加代码注释，说明 ContextVar、Mount 路由、token 优先级等关键逻辑
+           时间: 2026-06-17T10:53:31.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/a503131e58d0b43a2545b23ae98379475e69168a
+           分支: master, test
+      MR记录（按时间倒序）：
+        1. MR#3 test发版
+           时间: 2026-06-17T04:45:28.091Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/merge_requests/3
+        2. MR#2 发布test
+           时间: 2026-06-17T04:07:54.537Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/merge_requests/2
+        3. MR#1 merge test
+           时间: 2026-06-17T03:13:00.482Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/merge_requests/1
+
+用户: 康鑫博(Xinbo)
+  识别: xinbokang@moonton.com
+  出现过的名字: xinbo, 康鑫博(Xinbo)
+  总提交    : 11 次
+  总新增/删除: +210 / -195
+  Merge Requests: 4 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 15
+  按项目分布:
+    • publish_platform/fuxi                         提交:   8  MR:  3  Commit评论:  0  MR评论:  0 分支:feature-xinbo-dev, master (+72 / -33)
+      提交记录（按时间倒序）：
+        1. b3c334c6  m-7008364437[OceanAds] add schedule time field in ad page api
+           时间: 2026-06-17T19:09:59.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/b3c334c65425588cd5a7de1addc7a65e1f6bee59
+           分支: feature-xinbo-dev, master
+        2. db935db6  m-7008364437[OceanAds] add schedule time field in ad page api
+           时间: 2026-06-17T17:46:53.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/db935db6bcc0c63c570f8c81cf9a64f6f977259a
+           分支: feature-xinbo-dev, master
+        3. 0c84deb9  Merge remote-tracking branch 'origin/master' into feature-xinbo-dev
+           时间: 2026-06-17T14:48:17.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/0c84deb9f41915d280425a5c3f3c8248f88886b8
+           分支: feature-xinbo-dev, master
+        4. 18aff990  m-7008364437[OceanAds] add schedule time field in ad page api
+           时间: 2026-06-17T14:48:04.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/18aff990200204f7ad3828b50d63dbb271da7c29
+           分支: feature-xinbo-dev, master
+        5. 0bb74ba3  m-7008364437[OceanAds] add schedule time field in ad page api
+           时间: 2026-06-17T11:30:16.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/0bb74ba3ff3fd201ea6673b3f333f3727757c5d1
+           分支: feature-xinbo-dev, master
+        6. 7291f58f  Merge branch 'feature-xinbo-dev' into 'master'
+           时间: 2026-06-17T11:10:35.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/7291f58f14bf1268979f61c8cd6acc047c509145
+           分支: master
+        7. f1e7b100  Merge branch 'feature-xinbo-dev' into 'master'
+           时间: 2026-06-17T09:47:15.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/f1e7b100015acbb04eeaba2706b05ab17c503d6c
+           分支: master
+        8. 6b9827ed  Merge branch 'feature-xinbo-dev' into 'master'
+           时间: 2026-06-17T06:48:48.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/6b9827ed7d0ae759fbd12764c7848ac6875c385c
+           分支: master
+      MR记录（按时间倒序）：
+        1. MR#461 m-7008364437[OceanAds] add schedule time field in ad page api
+           时间: 2026-06-17T11:10:31.262Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/461
+        2. MR#460 m-7008364437[OceanAds] add schedule time field in ad page api
+           时间: 2026-06-17T09:47:10.667Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/460
+        3. MR#459 m-7008364437[OceanAds] add schedule time field in ad page api
+           时间: 2026-06-17T06:48:43.314Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/459
+    • publish_platform/nuwa                         提交:   3  MR:  1  Commit评论:  0  MR评论:  0 分支:feature-xinbo-dev, main (+138 / -162)
+      提交记录（按时间倒序）：
+        1. e42d9cf8  Merge remote-tracking branch 'origin/main' into feature-xinbo-dev
+           时间: 2026-06-17T14:46:37.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/nuwa/-/commit/e42d9cf8dc906753f5796e9d0a11849b7aaff679
+           分支: feature-xinbo-dev, main
+        2. ba3a48ab  m-7015873374[GoogleAds] update version to v24
+           时间: 2026-06-17T14:46:13.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/nuwa/-/commit/ba3a48ab2499b90c3987277e157552c8778a1587
+           分支: feature-xinbo-dev, main
+        3. d65d28db  m-7015873374[GoogleAds] update version to v24
+           时间: 2026-06-17T14:44:12.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/nuwa/-/commit/d65d28dbb0a78743a16be67e69f81cf97c182cd4
+           分支: feature-xinbo-dev, main
+      MR记录（按时间倒序）：
+        1. MR#1399 m-7015873374[GoogleAds] update version to v24
+           时间: 2026-06-17T06:47:23.736Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/nuwa/-/merge_requests/1399
+
+用户: 曾凡单(Suzy)
+  识别: suzyzeng@moonton.com
+  出现过的名字: suzyzeng, 曾凡单(Suzy)
+  总提交    : 4 次
+  总新增/删除: +184 / -30
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 1 条
+  总活动量   : 7
+  按项目分布:
+    • publish_platform/ad_bi/gms_ad_bi_refactor     提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:feature/m-7006504469-analyze_v3, main (+184 / -30)
+      提交记录（按时间倒序）：
+        1. 3f68925e  m-7006504469, 调整分析建议访问算法的请求拆分规则
+           时间: 2026-06-17T16:58:31.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/3f68925ed0b2fa4e72a1c09fbfed0535c99b7501
+           分支: feature/m-7006504469-analyze_v3, main
+        2. 4179bc7c  Merge branch 'feature/m-7006504469-analyze_v3' into 'main'
+           时间: 2026-06-17T09:14:27.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/4179bc7ca929b6db1ca9ba6e3ab581ad5e236e68
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#2234 m-7006504469, 调整分析建议访问算法的请求拆分规则
+           时间: 2026-06-17T09:14:18.123Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/merge_requests/2234
+    • publish_platform/gateway                      提交:   1  MR:  1  Commit评论:  0  MR评论:  0 分支:test 
+      提交记录（按时间倒序）：
+        1. 3cf0c20e  Merge branch 'dev' into 'test'
+           时间: 2026-06-17T03:16:50.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/gateway/-/commit/3cf0c20ef6784aa371b09b0ec311655e0ed9be7f
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#313 m-7006504469, 加上分析建议下载的 socket
+           时间: 2026-06-17T03:16:13.711Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/gateway/-/merge_requests/313
+    • publish_platform/nuwa                         提交:   1  MR:  0  Commit评论:  0  MR评论:  1 分支:main 
+      提交记录（按时间倒序）：
+        1. 7649db10  Merge branch 'feature-xinbo-dev' into 'main'
+           时间: 2026-06-17T06:50:04.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/nuwa/-/commit/7649db100bb34616e7e502f9c6de69fda218c0ac
+           分支: main
+      MR评论记录：
+        1. 曾凡单(Suzy): LGTM
+           MR#: 1399 (m-7015873374[GoogleAds] update version to v24)
+           时间: 2026-06-17T06:50:02.035Z
+           链接: 
+
+用户: jackyqi
+  识别: jackyqi@moonton.com
+  出现过的名字: jackyqi
+  总提交    : 6 次
+  总新增/删除: +1,210 / -89
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 6
+  按项目分布:
+    • publish_platform/web/caravel                  提交:   6  MR:  0  Commit评论:  0  MR评论:  0 分支:main (+1,210 / -89)
+      提交记录（按时间倒序）：
+        1. 94bdfed4  feat(mastra): 新增BrowserAgent
+           时间: 2026-06-17T23:47:35.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/caravel/-/commit/94bdfed4236bf37dd337e1a2862c11cb8633ad22
+           分支: main
+        2. c5426ddf  feat(mastra): 增加可观测性
+           时间: 2026-06-17T20:05:14.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/caravel/-/commit/c5426ddfe0ff85af0435f09f1d695bad862ce4e5
+           分支: main
+        3. 1c8fddf4  feat(mastra): gitlab-agent支持memory和workspace
+           时间: 2026-06-17T17:32:02.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/caravel/-/commit/1c8fddf47e804d246e6a5ed100c64af27cab81dd
+           分支: main
+        4. b4733f81  chore(mastra): Dockerfile增加 --ignore-scripts参数
+           时间: 2026-06-17T17:30:58.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/caravel/-/commit/b4733f81c2eb27246257baa4154df1bbd554f487
+           分支: main
+        5. fda321b1  feat(mastra): 增加memory特性
+           时间: 2026-06-17T14:46:10.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/caravel/-/commit/fda321b171be8f2d27476da1f11293344a9092e1
+           分支: main
+        6. 03c32f9c  feat(mastra): 增加figma rest api工具能力
+           时间: 2026-06-17T11:35:30.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/caravel/-/commit/03c32f9c67aff3caf4a322b2eb971cc7a2606559
+           分支: main
+
+用户: 胡冬阳(Dongyang)
+  识别: dongyanghu@moonton.com
+  出现过的名字: 胡冬阳(Dongyang)
+  总提交    : 2 次
+  总新增/删除: +1 / -1
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/ad_bi/mt_mcp_hub             提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:master, test (+1 / -1)
+      提交记录（按时间倒序）：
+        1. a3822425  更新 README.md
+           时间: 2026-06-17T04:22:42.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/a3822425344d4c802de5048cf7b866835cc861d0
+           分支: master, test
+        2. e1210feb  更新 README.md
+           时间: 2026-06-17T04:20:26.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/e1210feb96ab0f7f03100bc0d2bffdd5cc5039f7
+           分支: master, test
+
+用户: 孙鹏
+  识别: v_sunpeng@moonton.com
+  出现过的名字: 孙鹏
+  总提交    : 1 次
+  总新增/删除: +332 / -18
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • publish_platform/web/gams_ad_in               提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:feat/timeSlotLimit (+332 / -18)
+      提交记录（按时间倒序）：
+        1. 54a9cd2d  feat: 批量修改时间段优化 m-7008364437
+           时间: 2026-06-17T18:29:20.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/54a9cd2d78fb7f648ae9353fb2d89ab2ef280a76
+           分支: feat/timeSlotLimit
+
+----------------------------------------------------------------------------------------------------
+共统计到 6 位活跃用户
