@@ -1,0 +1,1037 @@
+
+====================================================================================================
+最近 24 小时用户活动统计（不使用强制别名映射）
+====================================================================================================
+
+用户: 徐晨杰(Tito)
+  识别: titoxu@moonton.com
+  出现过的名字: tito, 徐晨杰(Tito)
+  总提交    : 34 次
+  总新增/删除: +10,973 / -1,492
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 35
+  按项目分布:
+    • publish_platform/web/lota                     提交:  34  MR:  0  Commit评论:  0  MR评论:  0 分支:init_m-7015867568 (+10,973 / -1,492)
+      提交记录（按时间倒序）：
+        1. 03752595  fix: 发布/放弃暂存保留时间戳字段，补充部署文档
+           时间: 2026-07-07T19:33:43.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/03752595dbce62faa7f6f09287b628c8053f14d2
+           分支: init_m-7015867568
+        2. cdaf5350  fix: 修复 sites.ts listSites 中 linkDelegate 联合类型编译错误
+           时间: 2026-07-07T19:18:45.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/cdaf5350836430940f416c934e2d50fdc6721921
+           分支: init_m-7015867568
+        3. cb549179  chore: 移除旧 SQLite 数据库模块与相关 webpack 配置
+           时间: 2026-07-07T19:16:42.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/cb54917912829861aa84cdc10047d2485e47d99c
+           分支: init_m-7015867568
+        4. 075dcf2e  refactor: 配置/审计日志/客户端 API 路由适配异步数据层
+           时间: 2026-07-07T19:13:40.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/075dcf2e65c4ef71c5fdfab4c3d7bb2ea156da36
+           分支: init_m-7015867568
+        5. 0b93bef0  refactor: 站点 Admin API 路由适配异步数据层
+           时间: 2026-07-07T19:11:13.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/0b93bef0fe5e2431d633890f471c56eb4f05c043
+           分支: init_m-7015867568
+        6. bce1ca24  refactor: 分组 Admin API 路由适配异步数据层
+           时间: 2026-07-07T19:09:18.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/bce1ca24fd4086ff75db6aa8bf9279fb3d78197a
+           分支: init_m-7015867568
+        7. e5e36fa4  refactor: config 数据层改用 Prisma 事务实现发布与放弃暂存
+           时间: 2026-07-07T19:06:22.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/e5e36fa492c490f8fe8ef3180c631f83297a36a7
+           分支: init_m-7015867568
+        8. 807fa8e8  refactor: metadata 数据层改用 Prisma 访问 MySQL
+           时间: 2026-07-07T19:03:08.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/807fa8e8fe7152f826a2f757ea3fd081b015b10a
+           分支: init_m-7015867568
+        9. a2daea7a  refactor: auditLogs 数据层改用 Prisma 访问 MySQL
+           时间: 2026-07-07T19:01:04.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/a2daea7a9a4bd957bfeb7b99904a4b6fa4060dcd
+           分支: init_m-7015867568
+       10. de27bf17  refactor: sites 与 siteGroups 数据层改用 Prisma 访问 MySQL
+           时间: 2026-07-07T18:53:21.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/de27bf178e5d1706fb46ce33c5dbcf3a0ffcb088
+           分支: init_m-7015867568
+       11. 12594eb9  refactor: groups 数据层改用 Prisma 访问 MySQL
+           时间: 2026-07-07T18:47:54.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/12594eb93bfcea802405d6c67386f739f3f3efd7
+           分支: init_m-7015867568
+       12. 2ed10f8b  feat: 添加 Prisma Client 单例与测试数据库重置工具
+           时间: 2026-07-07T18:44:54.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/2ed10f8b9f6fc97acc50da7e95c17073992fe8e8
+           分支: init_m-7015867568
+       13. 3fbb1682  feat: 添加 Prisma MySQL schema 与初始迁移
+           时间: 2026-07-07T18:40:06.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/3fbb1682cab9223230b2c93442860d4dccdeeaa9
+           分支: init_m-7015867568
+       14. c6547567  chore: 引入 Prisma 与本地 MySQL Docker 环境
+           时间: 2026-07-07T18:34:17.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/c6547567a47932edbecff15b5d30fdbc23c128b5
+           分支: init_m-7015867568
+       15. 34427837  docs: 添加 SQLite 到 MySQL 迁移实施计划
+           时间: 2026-07-07T18:17:49.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/34427837e82688409c8ce84a0f0383a026567c37
+           分支: init_m-7015867568
+       16. 7253a47e  docs: 添加 SQLite 到 MySQL 迁移设计规格
+           时间: 2026-07-07T18:06:34.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/7253a47e27959079a9daf11d2c0c538524267acd
+           分支: init_m-7015867568
+       17. 69044565  feat: 上传文件时设置 TOS object ACL 为公共读 m-7015867568
+           时间: 2026-07-07T17:13:32.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/69044565ccf4db3807b8f930b391d7984316a613
+           分支: init_m-7015867568
+       18. fac71b0e  chore(env): 更新 TOS endpoint 为上海区域 m-7015867568
+           时间: 2026-07-07T17:10:17.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/fac71b0e6b445a8afb2b76c85d0c6682e4580bc9
+           分支: init_m-7015867568
+       19. d2382353  feat: 上传改为服务端代理上传到火山云 TOS m-7015867568
+           时间: 2026-07-07T17:00:04.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/d2382353d2fd9225a7c5521bd8a513eb267df5d7
+           分支: init_m-7015867568
+       20. cb12bf29  feat: CDN_BASE_URL 为空时使用 TOS 默认访问域名 m-7015867568
+           时间: 2026-07-07T16:55:30.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/cb12bf299a3917c5e52f54657b2dd238cdccfe89
+           分支: init_m-7015867568
+       21. 8f28f2fa  chore(env): TOS endpoint 去掉协议头以兼容 SDK 虚拟主机样式 m-7015867568
+           时间: 2026-07-07T16:52:06.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/8f28f2faa7d5c9756b67c1cc4994b65cd019ddeb
+           分支: init_m-7015867568
+       22. 69f63720  chore(env): 设置默认 TOS bucket 为 adbi-static m-7015867568
+           时间: 2026-07-07T16:46:59.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/69f6372074431244001774db6f4a937ec2faef66
+           分支: init_m-7015867568
+       23. 7262ccce  refactor: 将 TOS 预签名上传逻辑内联到 API 路由，删除 s3.ts m-7015867568
+           时间: 2026-07-07T16:45:11.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/7262ccce7fabdeda5d998dcaf6a96655cf3f10e6
+           分支: init_m-7015867568
+       24. 200e1d6f  feat: 更新 TOS 上传文件路径为 lota/resource m-7015867568
+           时间: 2026-07-07T16:43:33.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/200e1d6fde90c3d0bdc37cde6af90b04eae5fe80
+           分支: init_m-7015867568
+       25. 9e2df0c2  feat: 重写上传库为火山云 TOS 预签名上传 m-7015867568
+           时间: 2026-07-07T16:35:07.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/9e2df0c2af077dc35673c3715df58fa391389994
+           分支: init_m-7015867568
+       26. 52781c6c  chore(env): 更新环境变量示例为火山云 TOS 配置 m-7015867568
+           时间: 2026-07-07T16:33:43.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/52781c6cfdff2f528f46ec26ea13804d6c229aa5
+           分支: init_m-7015867568
+       27. 88956640  chore(deps): 替换 AWS S3 SDK 为火山云 TOS SDK m-7015867568
+           时间: 2026-07-07T16:33:15.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/889566404bf329f1591f5130451e4f0a02759b40
+           分支: init_m-7015867568
+       28. d2b910d9  docs: 上传改为火山云 TOS 设计文档 m-7015867568
+           时间: 2026-07-07T16:21:45.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/d2b910d950b108def93c029761326e072b70c9c3
+           分支: init_m-7015867568
+       29. 03b81ebe  feat(admin): 分类和站点新增编辑改为 Drawer m-7015867568
+           时间: 2026-07-07T15:57:30.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/03b81ebea89a296cf8dc8ef28508240ace39c23f
+           分支: init_m-7015867568
+       30. 53a614af  fix(test): 禁用测试文件并行执行以避免共享数据库状态泄漏 m-7015867568
+           时间: 2026-07-07T14:28:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/53a614af6345dee3c50e7e5e4b41d5af99c47a8d
+           分支: init_m-7015867568
+       31. 77265460  feat: 移除预览页变更摘要侧边栏 m-7015867568
+           时间: 2026-07-07T14:16:26.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/7726546075258c8da311504595fd3ed5c7191581
+           分支: init_m-7015867568
+       32. d25194a1  feat: 管理台分组/站点列表改为可拖动表格，操作列常驻，排序单独列 m-7015867568
+           时间: 2026-07-07T13:20:36.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/d25194a14095f8f77751e4f6d17720617892753e
+           分支: init_m-7015867568
+       33. f1af3d4d  fix: 预览发布页不显示外层页头，移除全局面包屑保留标题 m-7015867568
+           时间: 2026-07-07T13:06:43.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/f1af3d4d27320fa0b51fffa65c0b22fb5af7a998
+           分支: init_m-7015867568
+       34. c9c95495  feat: 重设计预览发布页面 m-7015867568
+           时间: 2026-07-07T12:34:05.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/lota/-/commit/c9c9549528d92486bf472641a06e692cee7eb216
+           分支: init_m-7015867568
+    • publish_platform/web/kol                      提交:   0  MR:  1  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#809 Fix/video url f 6995678149
+           时间: 2026-07-07T07:27:59.366Z
+           状态: opened
+           链接: http://lf.git.oa.mt/publish_platform/web/kol/-/merge_requests/809
+
+用户: 胡海平(Rambo)
+  识别: rambohu1@moonton.com
+  出现过的名字: rambohu1, 胡海平(Rambo)
+  总提交    : 20 次
+  总新增/删除: +1,631,125 / -1,561,854
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 21
+  按项目分布:
+    • publish_platform/SDK/UnityDeltaFinder         提交:  19  MR:  1  Commit评论:  0  MR评论:  0 分支:develop_cc_java_helper, master (+1,766 / -3,734)
+      提交记录（按时间倒序）：
+        1. fce07f77  fix(android): 为 AndroidAgeGateBridge.cs 添加 UNITY_ANDROID 条件编译 -m 7036987274
+           时间: 2026-07-07T17:17:00.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/fce07f7782a3514a1d68a5f9e6961d7797d4595c
+           分支: develop_cc_java_helper, master
+        2. 58161322  +feat:更新本地ai配置
+           时间: 2026-07-07T17:12:47.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/58161322f04c54eca0125ac1f6b39820860dda38
+           分支: develop_cc_java_helper, master
+        3. 4a00b047  refactor(android): 使用 AndroidJniHelper 重构 LibNativeManager.External 模块
+           时间: 2026-07-07T15:34:26.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/4a00b047f1851cdcc993b672d00dcedee0072204
+           分支: develop_cc_java_helper, master
+        4. bea99928  refactor(android): 使用 AndroidJniHelper 重构 LibNativeManager.Analytics 模块
+           时间: 2026-07-07T15:34:19.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/bea99928d1767846c0b55975b986fe12f1db4274
+           分支: develop_cc_java_helper, master
+        5. 0c35454e  refactor(android): 使用 AndroidJniHelper 重构 LibNativeManager.DidAccount 模块
+           时间: 2026-07-07T15:34:09.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/0c35454eebcebda21f09a2e0f8f7837841f47619
+           分支: develop_cc_java_helper, master
+        6. c7d93bd0  refactor(android): 使用 AndroidJniHelper 重构 libNativeAPM 模块
+           时间: 2026-07-07T15:34:00.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/c7d93bd088d5d4b9d1ce0eff371e27238e7c020b
+           分支: develop_cc_java_helper, master
+        7. fb3fc844  refactor(android): 使用 AndroidJniHelper 重构 LibNativeManager.Lifecycle 模块
+           时间: 2026-07-07T15:33:53.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/fb3fc844c6ae6ab07c46b221ad3defdc409b3d1c
+           分支: develop_cc_java_helper, master
+        8. be6b47f6  refactor(android): 使用 AndroidJniHelper 重构 LibNativeManager.Capability 模块
+           时间: 2026-07-07T15:33:46.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/be6b47f624ec486ad02fecf10460a8c9eec4fcc3
+           分支: develop_cc_java_helper, master
+        9. e326efbc  refactor(android): 使用 AndroidJniHelper 重构 libNativeAiHelp 模块
+           时间: 2026-07-07T15:28:34.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/e326efbcc22244c9f93902c15c228cc5cfd943e0
+           分支: develop_cc_java_helper, master
+       10. 9b76a49b  fix(android): 恢复 libNativeShare.cs 中误删的 iOS extern 声明
+           时间: 2026-07-07T15:26:02.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/9b76a49bd26f216e1a6839971b6c499d9e95a91c
+           分支: develop_cc_java_helper, master
+       11. 5bc2b6ab  refactor(android): 使用 AndroidJniHelper 重构 libNativeShare 模块
+           时间: 2026-07-07T15:23:06.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/5bc2b6ab9ac9582b478ae76301c2b0229b0621a7
+           分支: develop_cc_java_helper, master
+       12. 387a85f3  refactor(android): 使用 AndroidJniHelper 重构 libLocalPush 模块
+           时间: 2026-07-07T15:22:09.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/387a85f36dd04463833b0fc34d7ac768b23c5fe3
+           分支: develop_cc_java_helper, master
+       13. 33c5f642  refactor(android): 使用 AndroidJniHelper 重构 libNativeDeviceLock 模块
+           时间: 2026-07-07T15:15:24.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/33c5f64297be97b3ace19784714af883f057f632
+           分支: develop_cc_java_helper, master
+       14. 015d52ff  refactor(android): 使用 AndroidJniHelper 重构 libNativeAccount 模块
+           时间: 2026-07-07T15:14:02.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/015d52ff9d6b5f14bc8a32f737d6c8dc0d272c39
+           分支: develop_cc_java_helper, master
+       15. 7de10913  docs: 添加 Android JNI 反射调用代码重构实施计划
+           时间: 2026-07-07T15:05:56.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/7de10913c73191e313dd366abdd987988ea09dc3
+           分支: develop_cc_java_helper, master
+       16. 6d5bdfe8  docs: 添加 Android JNI 反射调用代码重构设计文档
+           时间: 2026-07-07T14:57:35.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/6d5bdfe86d933352308b198dc35588630e9a1114
+           分支: develop_cc_java_helper, master
+       17. d9564db0  refactor: use AndroidJniHelper in AgeGate and GameCenter bridges
+           时间: 2026-07-07T14:30:32.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/d9564db019bcbd13c12fecbea8fff4105cb4a5ac
+           分支: develop_cc_java_helper, master
+       18. 3e5a55d9  test: update helloworld.md
+           时间: 2026-07-07T14:22:45.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/3e5a55d9569d16208cc701271518d54197b9dec1
+           分支: develop_cc_java_helper, master
+       19. a497742d  test: add helloworld.md for ai metrics
+           时间: 2026-07-07T14:13:09.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/a497742d05ead173e0ee6a80c3705efc8b60171b
+           分支: develop_cc_java_helper, master
+      MR记录（按时间倒序）：
+        1. MR#1 refactor: use AndroidJniHelper for C# to java
+           时间: 2026-07-07T11:01:18.915Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/merge_requests/1
+    • publish_platform/SDK/msdk_android_project     提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+1,629,359 / -1,558,120)
+      提交记录（按时间倒序）：
+        1. 5c482045  +feat:更新导出，Java反射代码C#调整 -m 7036987274
+           时间: 2026-07-07T17:50:10.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/msdk_android_project/-/commit/5c482045d14e05f3ed93fb9d1ad434d3f888c41e
+           分支: master
+
+用户: ruipingzhang
+  识别: ruipingzhang@moonton.com
+  出现过的名字: ruipingzhang, 张芮萍(Ruiping)
+  总提交    : 14 次
+  总新增/删除: +211 / -122
+  Merge Requests: 5 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 19
+  按项目分布:
+    • publish_platform/web/gams_ad_bi_in            提交:  12  MR:  4  Commit评论:  0  MR评论:  0 分支:feat/adTargets, feat/attributionanalysis, main (+209 / -120)
+      提交记录（按时间倒序）：
+        1. f734aa96  feat: 广告账户投放目标升级为广告投放目标 m-7028391907
+           时间: 2026-07-07T19:20:33.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/f734aa96cdd05eb27a003a36f492f840d68de723
+           分支: feat/adTargets, main
+        2. 36ef1d1d  feat: version update
+           时间: 2026-07-07T16:26:01.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/36ef1d1d737ad5b2c89e4770c1c8db0d293b230f
+           分支: feat/adTargets, main
+        3. ed576e77  feat: veri\tion upde
+           时间: 2026-07-07T16:10:57.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/ed576e77648e9c6dec63cb1201876755a9d868f9
+           分支: feat/adTargets, main
+        4. 5f98ca72  Merge branch 'feat/attributionanalysis' into 'main'
+           时间: 2026-07-07T08:04:27.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/5f98ca7290213829c78132e9a397e78593d2ad80
+           分支: feat/adTargets, main
+        5. b840f756  feat: 付费增加账号区服 m-7027007568
+           时间: 2026-07-07T16:01:06.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/b840f7568d9d5154662941dfa07a4dbf31f14350
+           分支: feat/adTargets, feat/attributionanalysis, main
+        6. ee5b68a3  fix: 样式调整 m-7027007568
+           时间: 2026-07-07T15:51:24.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/ee5b68a37c7986ead733028aba1a24d1f0391891
+           分支: feat/adTargets, feat/attributionanalysis, main
+        7. 64db3220  Merge branch 'feat/attributionanalysis' into 'main'
+           时间: 2026-07-07T05:54:13.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/64db32200e8dc65b7cf1806718506fc793f8bbf8
+           分支: feat/adTargets, main
+        8. 53e90abf  feat: version update
+           时间: 2026-07-07T13:53:50.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/53e90abfbd547be0a0927bee53c22edb544044dd
+           分支: feat/adTargets, main
+        9. 45c02c80  fix: 部分问题修复 m-7027007568
+           时间: 2026-07-07T13:53:21.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/45c02c8009568122fe306e5c015a6ded376eb496
+           分支: feat/adTargets, feat/attributionanalysis, main
+       10. ae3fa727  fix: hover第一次不显示问题 m-7027007568
+           时间: 2026-07-07T16:25:31.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/ae3fa727f82385bd6a5332c68e45bc1debe1f593
+           分支: feat/attributionanalysis, main
+       11. 8b369f44  Merge branch 'feat/adTargets' into 'main'
+           时间: 2026-07-07T11:20:53.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/8b369f440380ea806386c8e3939bad5e85731fd2
+           分支: main
+       12. e9060c23  Merge branch 'feat/attributionanalysis' into 'main'
+           时间: 2026-07-07T08:28:09.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/e9060c232b047f17a8983aa142687ded19455288
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#501 feat: 广告账户投放目标升级为广告投放目标 m-7028391907
+           时间: 2026-07-07T11:20:50.339Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/merge_requests/501
+        2. MR#500 fix: hover第一次不显示问题 m-7027007568
+           时间: 2026-07-07T08:27:52.795Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/merge_requests/500
+        3. MR#499 fix: 样式调整 m-7027007568
+           时间: 2026-07-07T08:04:13.381Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/merge_requests/499
+        4. MR#498 fix: 部分问题修复 m-7027007568
+           时间: 2026-07-07T05:54:09.973Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/merge_requests/498
+    • publish_platform/web/gams_ad_bi               提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:feat/adTargets, main (+2 / -2)
+      提交记录（按时间倒序）：
+        1. 2bc81ce0  feat: 广告账户投放目标升级为广告投放目标 m-7028391907
+           时间: 2026-07-07T19:19:29.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/commit/2bc81ce0da2deb7bc2c77adde4ee4e83ea535309
+           分支: feat/adTargets, main
+        2. 2574d17f  Merge branch 'feat/adTargets' into 'main'
+           时间: 2026-07-07T11:21:11.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/commit/2574d17fd987698cd16e08aab0221ce2f8af2407
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#1942 feat: 广告账户投放目标升级为广告投放目标 m-7028391907
+           时间: 2026-07-07T11:21:02.701Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/merge_requests/1942
+
+用户: jiangding
+  识别: jiangding@moonton.com
+  出现过的名字: jiangding, 丁江(jiang)
+  总提交    : 13 次
+  总新增/删除: +83 / -30
+  Merge Requests: 3 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 16
+  按项目分布:
+    • msdk/pay                                      提交:  11  MR:  2  Commit评论:  0  MR评论:  0 分支:add-ios-purchase-event-20260626-m-7029899036, debug-add-ios-purchase-event-20260626, test (+81 / -28)
+      提交记录（按时间倒序）：
+        1. c05c3a63  更新makefile
+           时间: 2026-07-07T16:49:54.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/c05c3a63b3d64ff1e248f0e37194fd5b7c8b9022
+           分支: add-ios-purchase-event-20260626-m-7029899036, test
+        2. dce4113e  分区comment乱码问题（不要写入中文）
+           时间: 2026-07-07T16:47:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/dce4113ee8ed5dcf57539d95ce94976e206b786d
+           分支: add-ios-purchase-event-20260626-m-7029899036, test
+        3. f0825d11  1. apple.price => local_price（除以1000）
+           时间: 2026-07-07T16:41:32.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/f0825d1197ec6f8832f34575bd97a21d3d402aa8
+           分支: add-ios-purchase-event-20260626-m-7029899036, test
+        4. 52f2683f  更新mcr版本
+           时间: 2026-07-07T16:25:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/52f2683fe660395134481cba9e178e18ecfe03cf
+           分支: add-ios-purchase-event-20260626-m-7029899036, test
+        5. 2943de75  更新存储过程，防止报错
+           时间: 2026-07-07T16:24:36.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/2943de755e82547b13b10506f30b97e715628311
+           分支: add-ios-purchase-event-20260626-m-7029899036, test
+        6. f7517c78  debug-feedback
+           时间: 2026-07-07T18:22:29.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/f7517c78d81364aaa39efbf0c841187fd4cf818f
+           分支: debug-add-ios-purchase-event-20260626
+        7. e1657fed  更新注释
+           时间: 2026-07-07T13:35:56.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/e1657fedfebeda5ad8a4b86b18f89fb849722568
+           分支: debug-add-ios-purchase-event-20260626
+        8. a1d81e38  更新ocr-version
+           时间: 2026-07-07T11:42:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/a1d81e38fca145d35ec78fd051730e2316d63473
+           分支: debug-add-ios-purchase-event-20260626
+        9. ef4ca944  debug-飞书通知日志
+           时间: 2026-07-07T11:39:42.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/ef4ca944601bb8c65031633950ea8b7905855cff
+           分支: debug-add-ios-purchase-event-20260626
+       10. 2a4a2080  Merge branch 'add-ios-purchase-event-20260626-m-7029899036' into 'test'
+           时间: 2026-07-07T09:00:27.000+00:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/2a4a20809554099d7df6ab478265dbe51dfc4791
+           分支: test
+       11. 919d71ae  Merge branch 'add-ios-purchase-event-20260626-m-7029899036' into 'test'
+           时间: 2026-07-07T08:29:31.000+00:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/919d71aed9e4eb6a0a01edd207b550795798cd9d
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#628 m-7029899036，移除分区comment中文（乱码）+ 适配上报local_price格式
+           时间: 2026-07-07T08:52:23.600Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/pay/-/merge_requests/628
+        2. MR#627 m-7029899036，修复分区定时任务+升级mcr
+           时间: 2026-07-07T08:26:20.521Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/pay/-/merge_requests/627
+    • go-component/apple                            提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:debugMcrNotify_20260707 (+2 / -2)
+      提交记录（按时间倒序）：
+        1. a1c83172  更新注释
+           时间: 2026-07-07T14:03:21.000+08:00
+           链接: http://lf.git.oa.mt/go-component/apple/-/commit/a1c831725c1c9830aa67eabead051ad0490ee2cf
+           分支: debugMcrNotify_20260707
+        2. 38bd57c8  debug-飞书通知
+           时间: 2026-07-07T12:03:35.000+08:00
+           链接: http://lf.git.oa.mt/go-component/apple/-/commit/38bd57c86afefdea946b9ffb4e2e96bc30320eda
+           分支: debugMcrNotify_20260707
+      MR记录（按时间倒序）：
+        1. MR#30 debug-飞书通知
+           时间: 2026-07-07T04:03:55.963Z
+           状态: opened
+           链接: http://lf.git.oa.mt/go-component/apple/-/merge_requests/30
+
+用户: kaisun@moonton.com
+  识别: kaisun@moonton.com
+  出现过的名字: kaisun@moonton.com, 孙恺(Kai)
+  总提交    : 11 次
+  总新增/删除: +467 / -348
+  Merge Requests: 4 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 15
+  按项目分布:
+    • publish_platform/attribution-service          提交:   6  MR:  2  Commit评论:  0  MR评论:  0 分支:m-7027007568-归因查询, master (+51 / -4)
+      提交记录（按时间倒序）：
+        1. 816c5d40  m-7027007568-取消activedays限制
+           时间: 2026-07-07T14:51:01.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/attribution-service/-/commit/816c5d4066ef9137db57c8437b3b0a2e4ed088d5
+           分支: m-7027007568-归因查询, master
+        2. f1553f36  m-7027007568-修复产品体验的一些问题
+           时间: 2026-07-07T12:41:53.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/attribution-service/-/commit/f1553f36533ba3d5653c76bb29ccc9336bf61b0b
+           分支: m-7027007568-归因查询, master
+        3. 8ae89258  m-7027007568
+           时间: 2026-07-07T11:02:12.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/attribution-service/-/commit/8ae892581fa8d972c4c59e830d2ac7d888e6a126
+           分支: m-7027007568-归因查询, master
+        4. 38c733a7  m-7027007568
+           时间: 2026-07-07T10:45:52.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/attribution-service/-/commit/38c733a7c93cdda2d5c90b14c54ad1760d8bdc3a
+           分支: m-7027007568-归因查询, master
+        5. fa2b8883  Merge branch 'm-7027007568-归因查询' into 'master'
+           时间: 2026-07-07T06:51:15.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/attribution-service/-/commit/fa2b88838381c3f2f537a5a9cdcff35035275156
+           分支: master
+        6. d689b391  Merge branch 'm-7027007568-归因查询' into 'master'
+           时间: 2026-07-07T04:42:04.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/attribution-service/-/commit/d689b3910e8a8a2efca875ac045bdb547f1047c9
+           分支: master
+      MR记录（按时间倒序）：
+        1. MR#181 m-7027007568-取消activedays限制
+           时间: 2026-07-07T06:51:12.815Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/attribution-service/-/merge_requests/181
+        2. MR#180 M 7027007568 归因查询
+           时间: 2026-07-07T04:42:01.589Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/attribution-service/-/merge_requests/180
+    • publish_platform/ad_bi/gms_ad_bi_refactor     提交:   5  MR:  2  Commit评论:  0  MR评论:  0 分支:feature/m-7028285863_cndb_isolation, m-7027007568-归因查询, main (+416 / -344)
+      提交记录（按时间倒序）：
+        1. 15230298  Merge branch 'm-7027007568-归因查询' into 'main'
+           时间: 2026-07-07T04:03:36.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/152302982b002d0340126f58da32f8e00a3262f4
+           分支: feature/m-7028285863_cndb_isolation, main
+        2. 15c51a5a  Revert "11"
+           时间: 2026-07-07T12:03:13.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/15c51a5ad7ca9d6a6014e87c993bda1e81d0b376
+           分支: feature/m-7028285863_cndb_isolation, m-7027007568-归因查询, main
+        3. f8c85bb5  Merge branch 'm-7027007568-归因查询' into 'main'
+           时间: 2026-07-07T04:00:55.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/f8c85bb5b9c8b0a9e1ba887b5bea473718ecff02
+           分支: feature/m-7028285863_cndb_isolation, main
+        4. aab4ad57  m-7027007568-修复产品体验的一些问题
+           时间: 2026-07-07T11:59:56.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/aab4ad57dd482636b9bad03b7f070e6118b32dbd
+           分支: feature/m-7028285863_cndb_isolation, m-7027007568-归因查询, main
+        5. e4268765  11
+           时间: 2026-07-07T11:13:11.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/e4268765211af7a07762dd8f714740b446dfa9d3
+           分支: feature/m-7028285863_cndb_isolation, m-7027007568-归因查询, main
+      MR记录（按时间倒序）：
+        1. MR#2260 Revert "11"
+           时间: 2026-07-07T04:03:32.671Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/merge_requests/2260
+        2. MR#2259 M 7027007568 归因查询
+           时间: 2026-07-07T04:00:50.024Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/merge_requests/2259
+
+用户: 田雪健(Storm)
+  识别: stormtian@moonton.com
+  出现过的名字: 田雪健(Storm)
+  总提交    : 9 次
+  总新增/删除: +29 / -10
+  Merge Requests: 5 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 14
+  按项目分布:
+    • publish_platform/ad_bi/auth_helper            提交:   9  MR:  5  Commit评论:  0  MR评论:  0 分支:dev, m-7002713021-moa-decouple, prod (+29 / -10)
+      提交记录（按时间倒序）：
+        1. eaab5582  Merge branch 'm-7002713021-moa-decouple' into 'dev'
+           时间: 2026-07-07T08:58:21.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/auth_helper/-/commit/eaab55824075295bc5142bff1438b72cd8ec8339
+           分支: dev, prod
+        2. 4b4ab293  Merge remote-tracking branch 'origin/m-7002713021-moa-decouple' into m-7002713021-moa-decouple
+           时间: 2026-07-07T16:57:58.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/auth_helper/-/commit/4b4ab2932bf0c6f9ac9168bf408e6054266aab97
+           分支: dev, m-7002713021-moa-decouple, prod
+        3. e16e4016  fix(build): 兼容线上旧启动二进制名
+           时间: 2026-07-07T16:52:42.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/auth_helper/-/commit/e16e4016242f5c6a165395bdcc8b597228bea0d9
+           分支: dev, m-7002713021-moa-decouple, prod
+        4. aa43e61c  Merge branch 'm-7002713021-moa-decouple' into 'dev'
+           时间: 2026-07-07T08:17:22.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/auth_helper/-/commit/aa43e61cb4322637ec059756ce58127d56a6e339
+           分支: dev, prod
+        5. 952e2903  Merge branch 'dev' into 'm-7002713021-moa-decouple'
+           时间: 2026-07-07T08:17:19.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/auth_helper/-/commit/952e2903710a7f28828a0a3d109cb671e079db2d
+           分支: dev, m-7002713021-moa-decouple, prod
+        6. bef8ad55  m-7002713021: 支持 AWS 中国区 Secret Manager 取密钥
+           时间: 2026-07-07T16:15:42.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/auth_helper/-/commit/bef8ad55b984de34389c4c322455ef53d8b79cc6
+           分支: dev, m-7002713021-moa-decouple, prod
+        7. 59336ea2  Merge branch 'dev' into 'prod'
+           时间: 2026-07-07T08:58:50.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/auth_helper/-/commit/59336ea2c70becfaf8366fe341a3960707492933
+           分支: prod
+        8. 8384ee4f  Merge branch 'dev' into 'prod'
+           时间: 2026-07-07T08:17:46.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/auth_helper/-/commit/8384ee4f797917d8812aa138f8854520c9294f9e
+           分支: prod
+        9. 05bc8048  Merge branch 'dev' into 'prod'
+           时间: 2026-07-07T06:26:26.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/auth_helper/-/commit/05bc80486d83fc564eb7a47beec6108fa80e8e9c
+           分支: prod
+      MR记录（按时间倒序）：
+        1. MR#154 fix(build): 兼容线上旧启动二进制名
+           时间: 2026-07-07T08:58:44.386Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/auth_helper/-/merge_requests/154
+        2. MR#153 fix(build): 兼容线上旧启动二进制名
+           时间: 2026-07-07T08:58:18.652Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/auth_helper/-/merge_requests/153
+        3. MR#152 m-7002713021: 支持 AWS 中国区 Secret Manager 取密钥
+           时间: 2026-07-07T08:17:37.441Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/auth_helper/-/merge_requests/152
+        4. MR#151 m-7002713021: 支持 AWS 中国区 Secret Manager 取密钥
+           时间: 2026-07-07T08:17:06.936Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/auth_helper/-/merge_requests/151
+        5. MR#150 Dev
+           时间: 2026-07-07T06:26:20.400Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/auth_helper/-/merge_requests/150
+
+用户: fengdiwang
+  识别: fengdi.wang@moonton.com
+  出现过的名字: fengdiwang
+  总提交    : 8 次
+  总新增/删除: +347 / -171
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 8
+  按项目分布:
+    • publish_platform/ad_bi/bi_cockpit             提交:   8  MR:  0  Commit评论:  0  MR评论:  0 分支:fengdi/main/pday (+347 / -171)
+      提交记录（按时间倒序）：
+        1. 40870ec9  m-7026563850[国家大盘]处理周/月的特殊逻辑
+           时间: 2026-07-07T21:15:50.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/40870ec92399c35d134526538cdbad0776a6c36f
+           分支: fengdi/main/pday
+        2. 765af740  m-7026563850[国家大盘]处理周/月的特殊逻辑
+           时间: 2026-07-07T20:25:51.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/765af740fac8020155a4524aa31db35f88000805
+           分支: fengdi/main/pday
+        3. 9512fcaf  m-7026563850[国家大盘]处理周/月的特殊逻辑
+           时间: 2026-07-07T19:25:00.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/9512fcaf81a4a85a092cda622c2111a4d32d228e
+           分支: fengdi/main/pday
+        4. 9f85c186  m-7026563850[国家大盘]处理周/月的特殊逻辑
+           时间: 2026-07-07T17:43:36.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/9f85c186a24f13611e6bc53b0b97f3770421fadf
+           分支: fengdi/main/pday
+        5. 230bdf64  m-7026563850[国家大盘]处理周/月的特殊逻辑
+           时间: 2026-07-07T15:23:06.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/230bdf64220529ab301f86f4c33b83b75faceeff
+           分支: fengdi/main/pday
+        6. c1356e4b  m-7026563850[国家大盘]处理周/月的特殊逻辑
+           时间: 2026-07-07T15:00:15.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/c1356e4b1ffd5e81882bd77b72125a51328693da
+           分支: fengdi/main/pday
+        7. 862acc39  m-7026563850[国家大盘]处理周/月的特殊逻辑
+           时间: 2026-07-07T11:49:01.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/862acc39245af735c872db00318396133f884c8e
+           分支: fengdi/main/pday
+        8. fc85b346  m-7026563850[国家大盘]处理周/月的特殊逻辑
+           时间: 2026-07-07T11:46:01.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/fc85b3468497870728ec64a2a58d580c2bbc77a5
+           分支: fengdi/main/pday
+
+用户: 曾凡单(Suzy)
+  识别: suzyzeng@moonton.com
+  出现过的名字: suzyzeng, 曾凡单(Suzy)
+  总提交    : 6 次
+  总新增/删除: +22 / -10
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 8
+  按项目分布:
+    • publish_platform/ad_bi/gms_ad_bi_refactor     提交:   6  MR:  2  Commit评论:  0  MR评论:  0 分支:feature/m-7028285863_cndb_isolation, main (+22 / -10)
+      提交记录（按时间倒序）：
+        1. 0bdc4313  Merge branch 'main' into feature/m-7028285863_cndb_isolation
+           时间: 2026-07-07T20:14:17.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/0bdc43137aeb13e5d765fdff8e86f983ebc8a6c0
+           分支: feature/m-7028285863_cndb_isolation, main
+        2. 774e6eb5  m-7040774231, fix 自定义维度-广告投放目标的bug
+           时间: 2026-07-07T20:13:14.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/774e6eb52792309a6244a6ecc504b5ac0dee9e64
+           分支: feature/m-7028285863_cndb_isolation, main
+        3. 9ea330f5  Merge branch 'feature/m-7028285863_cndb_isolation' into 'main'
+           时间: 2026-07-07T11:50:52.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/9ea330f5225bea187594d75a5f69622392380fd0
+           分支: feature/m-7028285863_cndb_isolation, main
+        4. e941abd4  Merge branch 'main' into feature/m-7028285863_cndb_isolation
+           时间: 2026-07-07T19:49:26.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/e941abd4de8d0e4250814d9c653237f3f8212d98
+           分支: feature/m-7028285863_cndb_isolation, main
+        5. bd738f53  m-7040774231, fix 自定义维度-广告投放目标的bug
+           时间: 2026-07-07T19:48:45.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/bd738f538b8e872b43d1ac18b09c9c0cb1594229
+           分支: feature/m-7028285863_cndb_isolation, main
+        6. af895a12  Merge branch 'feature/m-7028285863_cndb_isolation' into 'main'
+           时间: 2026-07-07T12:14:51.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/af895a12dd667d2ff5b7fcd7f3f31a05568458bd
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#2262 m-7040774231, fix 自定义维度-广告投放目标的bug
+           时间: 2026-07-07T12:14:46.233Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/merge_requests/2262
+        2. MR#2261 m-7040774231, fix 自定义维度-广告投放目标的bug
+           时间: 2026-07-07T11:50:39.743Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/merge_requests/2261
+
+用户: 徐腾飞(Tengfei)
+  识别: tengfeixu@moonton.com
+  出现过的名字: tengfeixu, 徐腾飞(Tengfei)
+  总提交    : 7 次
+  总新增/删除: +678 / -20
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 8
+  按项目分布:
+    • publish_platform/kol                          提交:   4  MR:  0  Commit评论:  0  MR评论:  0 分支:opt/202607-m-7036911081 (+678 / -20)
+      提交记录（按时间倒序）：
+        1. 1e17955a  [youtube封面] 设封面前轮询等待视频processed，修复间歇性403 m-7036911081
+           时间: 2026-07-07T17:00:37.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/1e17955a928646b205ab8fb1c07a3700ec3c1815
+           分支: opt/202607-m-7036911081
+        2. b06af26a  [批量改状态] 归档change并同步publish-batch-status-update spec m-7036911081
+           时间: 2026-07-07T14:21:49.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/b06af26aac8ec4cc4f367cf8dbb26d019f124cf2
+           分支: opt/202607-m-7036911081
+        3. 32d25a48  [批量改状态] 批量修改状态禁止同状态操作 m-7036911081
+           时间: 2026-07-07T14:13:11.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/32d25a48eb5c54207ff9c3e6044bb367988c518a
+           分支: opt/202607-m-7036911081
+        4. ed10c04f  KOL信息批量添加/批量编辑的错误信息反馈统一 m-7036911081
+           时间: 2026-07-07T11:05:38.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/ed10c04fcfabafea8a8a89950ed35aef7952b3b5
+           分支: opt/202607-m-7036911081
+    • mirrorsphere/perftest-agent                   提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:feat/perftest-m-7003307825, master 
+      提交记录（按时间倒序）：
+        1. da17c18c  更新三方包
+           时间: 2026-07-07T17:44:58.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/perftest-agent/-/commit/da17c18c6cb78092695e9d30999d93cae2d5e4e2
+           分支: feat/perftest-m-7003307825, master
+        2. 10329fbb  Merge branch 'feat/perftest-m-7003307825' into 'master'
+           时间: 2026-07-07T09:45:23.000+00:00
+           链接: http://lf.git.oa.mt/mirrorsphere/perftest-agent/-/commit/10329fbb31d36a40cc7c2d9b7605bd31914a711c
+           分支: master
+      MR记录（按时间倒序）：
+        1. MR#4 更新三方包
+           时间: 2026-07-07T09:45:16.632Z
+           状态: merged
+           链接: http://lf.git.oa.mt/mirrorsphere/perftest-agent/-/merge_requests/4
+    • mirrorsphere/portal                           提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:master 
+      提交记录（按时间倒序）：
+        1. 2d47e7cf  Merge branch 'feat/airtest-perftest-mcp-m-7003307825' into 'master'
+           时间: 2026-07-07T09:46:11.000+00:00
+           链接: http://lf.git.oa.mt/mirrorsphere/portal/-/commit/2d47e7cfbfd866d2f2ddf9379ee73abe4c804451
+           分支: master
+
+用户: 刘松林(Nelson)
+  识别: nelsonliu@moonton.com
+  出现过的名字: ada, nelsonliu, 刘松林(Nelson)
+  总提交    : 4 次
+  总新增/删除: +250 / -6
+  Merge Requests: 3 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 7
+  按项目分布:
+    • publish_platform/ad_bi/openviking             提交:   2  MR:  2  Commit评论:  0  MR评论:  0 分支:main (+185 / -0)
+      提交记录（按时间倒序）：
+        1. 9af9f52f  Merge branch 'ada-deploy/harbor-build' into 'main'
+           时间: 2026-07-07T03:58:04.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/openviking/-/commit/9af9f52f565b3fed12ae57c23d933c7595516cc3
+           分支: main
+        2. 00a81264  ada-deploy: 内网 Harbor 镜像构建/推送（独立 gms-ad-bi/openviking）+ GitLab CI
+           时间: 2026-07-07T11:53:26.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/openviking/-/commit/00a81264559be81bac634ff3b9ae5e28df0e6c36
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#2 ada-deploy: 内网 Harbor 镜像构建/推送（独立 gms-ad-bi/openviking）+ GitLab CI
+           时间: 2026-07-07T03:57:11.223Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/openviking/-/merge_requests/2
+        2. MR#1 feat(ragfs): optimize S3 head-object error message return and parallelize...
+           时间: 2026-07-07T03:54:27.198Z
+           状态: closed
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/openviking/-/merge_requests/1
+    • publish_platform/ad_bi/ada                    提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:test (+65 / -6)
+      提交记录（按时间倒序）：
+        1. 602df83d  Merge branch 'feat/openviking-harbor-image' into 'test'
+           时间: 2026-07-07T06:33:10.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/ada/-/commit/602df83d8435fd4a55f4e451a25b59a521daca1d
+           分支: test
+        2. f09380e5  openviking: 改为内网 Harbor 拉取镜像 + 生产 compose 补服务
+           时间: 2026-07-07T14:16:59.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/ada/-/commit/f09380e5fec8806087c1c2e2efe6aee8bb6c0ba2
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#2 openviking: 改为内网 Harbor 拉取镜像 + 生产 compose 补服务
+           时间: 2026-07-07T06:31:19.106Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/ada/-/merge_requests/2
+
+用户: dylan
+  识别: dylan@moonton.com
+  出现过的名字: dylan
+  总提交    : 7 次
+  总新增/删除: +397 / -26
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 7
+  按项目分布:
+    • publish_platform/ad_bi/data                   提交:   7  MR:  0  Commit评论:  0  MR评论:  0 分支:feature_cn_add_sgame_m-7034508839, feature_cn_mlbb_offline_m-7034429602, feature_query_m-7027007568 (+397 / -26)
+      提交记录（按时间倒序）：
+        1. eafd124b  sgame离线生成did m-7034508839
+           时间: 2026-07-07T11:35:36.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/eafd124bbd066f7c2c1ce3cf9cb45e817a424264
+           分支: feature_cn_add_sgame_m-7034508839
+        2. 942cadb1  win生成did过滤异常值 m-7034508839
+           时间: 2026-07-07T10:54:34.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/942cadb1eb0ba39c1103ea3f9923113fd687bd46
+           分支: feature_cn_add_sgame_m-7034508839
+        3. 1f89b856  mlbb离线sql m-7034429602
+           时间: 2026-07-07T19:51:06.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/1f89b8562dcee378155e140d21f6538ef38bd084
+           分支: feature_cn_mlbb_offline_m-7034429602
+        4. 3429b318  离线点击解析 m-7034429602
+           时间: 2026-07-07T19:19:37.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/3429b3185727f6c6dd86dfadc0417ffa5139dc7e
+           分支: feature_cn_mlbb_offline_m-7034429602
+        5. 1def6f80  所有系统都查询分包渠道 m-7027007568
+           时间: 2026-07-07T16:33:19.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/1def6f80e64f34451846c31b6d1ba4ab5ae35613
+           分支: feature_cn_mlbb_offline_m-7034429602, feature_query_m-7027007568
+        6. 87a1d75f  账号激活did来源为- m-7027007568
+           时间: 2026-07-07T16:32:26.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/87a1d75f52a227f11419de4645951c5bd000d7a1
+           分支: feature_cn_mlbb_offline_m-7034429602, feature_query_m-7027007568
+        7. e596f899  Merge remote-tracking branch 'origin/master' into feature_query_m-7027007568
+           时间: 2026-07-07T16:06:57.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/e596f8991f0a5d451f4c7e376f1874746a8d90d9
+           分支: feature_cn_mlbb_offline_m-7034429602, feature_query_m-7027007568
+
+用户: 覃亮(Daniel)
+  识别: danielqin@moonton.com
+  出现过的名字: danielqin, 覃亮(Daniel)
+  总提交    : 5 次
+  总新增/删除: +242 / -242
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 7
+  按项目分布:
+    • publish_platform/fuxi                         提交:   5  MR:  2  Commit评论:  0  MR评论:  0 分支:f-6999678581-fix-splitimage-ql-0701, master (+242 / -242)
+      提交记录（按时间倒序）：
+        1. 958d0972  Revert "Merge branch 'f-6999678581-fix-splitimage-ql-0701' into 'master'"
+           时间: 2026-07-07T15:29:33.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/958d0972cd395b16e0fc725d872234436ded247c
+           分支: f-6999678581-fix-splitimage-ql-0701, master
+        2. 83b99db2  Merge branch 'f-6999678581-fix-splitimage-ql-0701' into 'master'
+           时间: 2026-07-06T16:06:15.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/83b99db2a16e2366a08f4ddb7c49ea9d65f5f40d
+           分支: f-6999678581-fix-splitimage-ql-0701, master
+        3. f2754586  Merge branch 'master' into f-6999678581-fix-splitimage-ql-0701
+           时间: 2026-07-07T00:05:11.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/f275458644838fab0469fccb1c3a35c5367c2f4b
+           分支: f-6999678581-fix-splitimage-ql-0701, master
+        4. 091853b7  m-7036244178-bug转需求 广告管理平台操作日志逻辑优化
+           时间: 2026-07-07T00:04:43.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/091853b7e38a6c4cbdafb421c1913c161ba30a44
+           分支: f-6999678581-fix-splitimage-ql-0701, master
+        5. 7b7c0f71  Merge branch 'f-6999678581-fix-splitimage-ql-0701' into 'master'
+           时间: 2026-07-07T07:33:42.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/7b7c0f717feec3df4f2fd38fd649f4ad5ff4685b
+           分支: master
+      MR记录（按时间倒序）：
+        1. MR#508 m-7036244178-bug转需求 广告管理平台操作日志逻辑优化 回滚一下代码
+           时间: 2026-07-07T07:18:56.193Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/508
+        2. MR#507 m-7036244178-bug转需求 广告管理平台操作日志逻辑优化
+           时间: 2026-07-06T16:06:02.960Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/507
+
+用户: kurokyma
+  识别: kurokyma@moonton.com
+  出现过的名字: kurokyma
+  总提交    : 6 次
+  总新增/删除: +10,824 / -1,484
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 6
+  按项目分布:
+    • publish_platform/SDK/MSDKUPGResurce           提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:develop, feature/add-native-dependency-resource-repository_m-7039190199, master (+6,422 / -983)
+      提交记录（按时间倒序）：
+        1. ccd3eea7  feat：提交代码
+           时间: 2026-07-07T14:58:21.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKUPGResurce/-/commit/ccd3eea7931a68f1a859a4f5ea575be558f0f598
+           分支: develop, feature/add-native-dependency-resource-repository_m-7039190199, master
+        2. d267d377  feat: 更新文件 m-7039190199
+           时间: 2026-07-07T19:18:16.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKUPGResurce/-/commit/d267d37713ba46d7657fb0f282e4c22cc551ea23
+           分支: feature/add-native-dependency-resource-repository_m-7039190199, master
+        3. 7e254fa3  feat: 新增资源文件 m-7039190199
+           时间: 2026-07-07T18:39:23.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKUPGResurce/-/commit/7e254fa35b38b5d42708178390f5658638fdfa8f
+           分支: feature/add-native-dependency-resource-repository_m-7039190199, master
+    • publish_platform/SDK/UnityDeltaFinder         提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/Native-updater_m-7039190199 (+4,402 / -501)
+      提交记录（按时间倒序）：
+        1. 46efc2e1  feat: 新增忽略文件
+           时间: 2026-07-07T11:44:30.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/46efc2e1d83f110b128e19b132697a4cc253e308
+           分支: feature/Native-updater_m-7039190199
+        2. 1aaccd21  feat: relocate native feature module mapping
+           时间: 2026-07-07T11:38:09.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/1aaccd214f628a541b98118b39c43cbacda45abc
+           分支: feature/Native-updater_m-7039190199
+        3. a29b4cc2  feat: 上传代码
+           时间: 2026-07-07T10:41:36.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/a29b4cc220a26fdc7ac6f6d0e0e612274ba224a1
+           分支: feature/Native-updater_m-7039190199
+
+用户: 祁杰(Jacky)
+  识别: jackyqi@moonton.com
+  出现过的名字: jackyqi, 祁杰(Jacky)
+  总提交    : 5 次
+  总新增/删除: +2,601 / -44
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 6
+  按项目分布:
+    • publish_platform/web/authority_management     提交:   4  MR:  1  Commit评论:  0  MR评论:  0 分支:prod (+7 / -43)
+      提交记录（按时间倒序）：
+        1. 6a6dd4b1  Merge branch 'prod' of lf.git.oa.mt:publish_platform/web/authority_management into prod
+           时间: 2026-07-07T18:45:54.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/authority_management/-/commit/6a6dd4b19fb23b0ae7f7f1c0d7dc19e39e71a270
+           分支: prod
+        2. 379711e1  feat: m-7013240569 移除废弃ci代码
+           时间: 2026-07-07T18:44:59.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/authority_management/-/commit/379711e185044c318a95207dac48b03921789dab
+           分支: prod
+        3. 3f00f9e8  Merge branch 'feat/m-7013240569' into 'prod'
+           时间: 2026-07-07T10:25:15.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/authority_management/-/commit/3f00f9e82cc2235ba5df9e4ceb21776990cbf33a
+           分支: prod
+        4. d737e741  feat: m-7013240569 支持gamma-cn的auth前端界面发布
+           时间: 2026-07-07T18:18:43.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/authority_management/-/commit/d737e7417bd497bad435e8910af6d0dffe511456
+           分支: prod
+      MR记录（按时间倒序）：
+        1. MR#75 feat: m-7013240569 支持gamma-cn的auth前端界面发布
+           时间: 2026-07-07T10:20:52.154Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/authority_management/-/merge_requests/75
+    • publish_platform/web/caravel                  提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:main (+2,594 / -1)
+      提交记录（按时间倒序）：
+        1. e87e2f92  feat(www): 全链路工作流mock数据
+           时间: 2026-07-07T14:16:29.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/caravel/-/commit/e87e2f92493f21d8472f8a96edd877da009f86f7
+           分支: main
+
+用户: 孙鹏
+  识别: v_sunpeng@moonton.com
+  出现过的名字: 孙鹏
+  总提交    : 5 次
+  总新增/删除: +461 / -240
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 6
+  按项目分布:
+    • publish_platform/web/gams_ad_bi               提交:   3  MR:  1  Commit评论:  0  MR评论:  0 分支:fix/lineChartRender, main (+71 / -5)
+      提交记录（按时间倒序）：
+        1. 604abf56  fix: 图表渲染栈溢出优化 f-6880759672
+           时间: 2026-07-07T19:47:59.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/commit/604abf5604b69934d18374892b4d9ddbab6c1d15
+           分支: fix/lineChartRender, main
+        2. b4df47f2  fix: 图表渲染栈溢出优化 f-6880759672
+           时间: 2026-07-07T17:49:12.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/commit/b4df47f23c9ea9f187e90de93274c6997e238264
+           分支: fix/lineChartRender, main
+        3. fdb1ecd0  Merge branch 'fix/lineChartRender' into 'main'
+           时间: 2026-07-07T11:56:28.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/commit/fdb1ecd076fd49200d9275a87aa08477488a608c
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#1943 Fix/line chart render
+           时间: 2026-07-07T11:56:22.365Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/merge_requests/1943
+    • publish_platform/web/publish                  提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:main (+390 / -235)
+      提交记录（按时间倒序）：
+        1. b662f223  feat: 组合图副轴间距调整 f-6880297364
+           时间: 2026-07-07T14:20:55.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/publish/-/commit/b662f2234806c5b6e40c5ae8d2ed4a7cacc03bee
+           分支: main
+        2. 41290b35  feat: 辅助线延伸优化 f-6880297364
+           时间: 2026-07-07T12:42:22.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/publish/-/commit/41290b358961c2a1e7ff100addd11b23dc2d5990
+           分支: main
+
+用户: 姜承(JoJo)
+  识别: chengjiang@moonton.com
+  出现过的名字: JOJO, 姜承(JoJo)
+  总提交    : 2 次
+  总新增/删除: +4,347 / -2
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 3
+  按项目分布:
+    • publish_platform/web/material_management      提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:3.3.3_7011033481, main (+4,347 / -2)
+      提交记录（按时间倒序）：
+        1. 328b7658  m-7011033481 feat(ai-metrics): 素材平台YTB筛选 增加AI统计与Sentry配置
+           时间: 2026-07-07T11:20:31.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/material_management/-/commit/328b7658d364feca15e06850ed6477a384052ed0
+           分支: 3.3.3_7011033481, main
+        2. 671941a7  Merge branch '3.3.3_7011033481' into 'main'
+           时间: 2026-07-07T03:22:11.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/material_management/-/commit/671941a747f61be94e7ced4d3a57888e8dadd018
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#725 m-7011033481 feat(ai-metrics): 素材平台YTB筛选 增加AI统计与Sentry配置
+           时间: 2026-07-07T03:21:03.832Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/material_management/-/merge_requests/725
+
+用户: candytian
+  识别: candytian@moonton.com
+  出现过的名字: candytian
+  总提交    : 2 次
+  总新增/删除: +489 / -17
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/web/cockpit_mobile           提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:feat/m-7034457343 (+257 / -9)
+      提交记录（按时间倒序）：
+        1. 7d3ecf1f  feat: m-7034457343 海外看板支持 URL 深链筛选与项目切换
+           时间: 2026-07-07T16:19:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit_mobile/-/commit/7d3ecf1fc4b2973cdf5030070f2d49da004cc1ea
+           分支: feat/m-7034457343
+    • publish_platform/web/cockpit                  提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:feat/m-7034457343 (+232 / -8)
+      提交记录（按时间倒序）：
+        1. 768543a4  feat: m-7034457343 海外数据看板支持飞书深链跳转
+           时间: 2026-07-07T17:41:50.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/768543a40c8f8b99792dfc015f7efb4e5e2a8345
+           分支: feat/m-7034457343
+
+用户: 万映(leo)
+  识别: leowan@moonton.com
+  出现过的名字: 万映(leo)
+  总提交    : 1 次
+  总新增/删除: +0 / -0
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • publish_platform/SDK/UnityDeltaFinder         提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:master 
+      提交记录（按时间倒序）：
+        1. 746d9466  Merge branch 'develop_cc_java_helper' into 'master'
+           时间: 2026-07-07T11:34:44.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/746d94662f62cf36eba239af5a459f1d5f659928
+           分支: master
+
+----------------------------------------------------------------------------------------------------
+共统计到 18 位活跃用户
