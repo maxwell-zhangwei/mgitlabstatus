@@ -1,0 +1,752 @@
+
+====================================================================================================
+最近 24 小时用户活动统计（不使用强制别名映射）
+====================================================================================================
+
+用户: 徐腾飞(Tengfei)
+  识别: tengfeixu@moonton.com
+  出现过的名字: tengfeixu, 徐腾飞(Tengfei)
+  总提交    : 12 次
+  总新增/删除: +2,037 / -33
+  Merge Requests: 4 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 16
+  按项目分布:
+    • mirrorsphere/harness                          提交:   8  MR:  2  Commit评论:  0  MR评论:  0 分支:feat/ai_chat (+1,018 / -29)
+      提交记录（按时间倒序）：
+        1. ca86473c  测试
+           时间: 2026-07-08T19:12:44.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/ca86473c1d32793c39fa8d05cca3c9b12088286f
+           分支: feat/ai_chat
+        2. e0939c5a  fix: paginate query_perftest_results across all pages before stats
+           时间: 2026-07-08T14:06:13.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/e0939c5a02b247c8af0b6b1bc1928ca426611d2b
+           分支: feat/ai_chat
+        3. d9450361  docs: add implementation plan for perftest-only analysis branch
+           时间: 2026-07-08T11:31:58.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/d945036167b275a994b88778ac3a6d99d4ec44f9
+           分支: feat/ai_chat
+        4. 4ecec82c  docs: register get_perftest_exec and Branch C in knowledge/soul
+           时间: 2026-07-08T11:29:01.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/4ecec82c9b1f5c18df75197d9d9295f28e460cd2
+           分支: feat/ai_chat
+        5. 17816110  feat: wire Branch C (perftest-only) into test-analysis skill
+           时间: 2026-07-08T11:28:15.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/178161101d3184800a7bb4717e9675aa5dd1b5ee
+           分支: feat/ai_chat
+        6. 0c9b90d3  feat: add perftest-only report template and Branch C guide
+           时间: 2026-07-08T11:27:14.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/0c9b90d3f392069cb16267c2d87576a4372ac363
+           分支: feat/ai_chat
+        7. 3a6633bb  docs: add design spec for perftest-only analysis branch
+           时间: 2026-07-08T11:16:50.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/3a6633bb531ef1fb1db4a73dd60db7bce7c673e9
+           分支: feat/ai_chat
+        8. caa4bfa3  支持性能分析
+           时间: 2026-07-08T11:02:22.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/caa4bfa33de7cce5eb253a92986259fbdce8bb52
+           分支: feat/ai_chat
+      MR记录（按时间倒序）：
+        1. MR#30 测试
+           时间: 2026-07-08T11:13:06.588Z
+           状态: merged
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/merge_requests/30
+        2. MR#28 mirrorsphere-test-analysis
+           时间: 2026-07-08T06:42:56.239Z
+           状态: merged
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/merge_requests/28
+    • mirrorsphere/portal                           提交:   3  MR:  2  Commit评论:  0  MR评论:  0 分支:feat/airtest-perftest-mcp-m-7003307825, test (+3 / -1)
+      提交记录（按时间倒序）：
+        1. 93349ba8  添加调试日志
+           时间: 2026-07-08T16:55:23.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/portal/-/commit/93349ba8a1e036914796130e09b20b1eed619e92
+           分支: feat/airtest-perftest-mcp-m-7003307825, test
+        2. 0cefab42  Merge branch 'feat/airtest-perftest-mcp-m-7003307825' into 'test'
+           时间: 2026-07-08T08:55:50.000+00:00
+           链接: http://lf.git.oa.mt/mirrorsphere/portal/-/commit/0cefab425de36c2969ef7698ff10c5b04c731d7f
+           分支: test
+        3. 4945a91c  Merge branch 'feat/airtest-perftest-mcp-m-7003307825' into 'test'
+           时间: 2026-07-08T06:44:15.000+00:00
+           链接: http://lf.git.oa.mt/mirrorsphere/portal/-/commit/4945a91c577acdfa278b0ad07be0fc39414129fd
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#121 添加调试日志
+           时间: 2026-07-08T08:55:46.215Z
+           状态: merged
+           链接: http://lf.git.oa.mt/mirrorsphere/portal/-/merge_requests/121
+        2. MR#120 Feat/airtest perftest mcp m 7003307825
+           时间: 2026-07-08T06:44:09.842Z
+           状态: merged
+           链接: http://lf.git.oa.mt/mirrorsphere/portal/-/merge_requests/120
+    • publish_platform/kol                          提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:opt/202607-m-7036911081 (+1,016 / -3)
+      提交记录（按时间倒序）：
+        1. 64b6a90b  [地区排序] 发布看板数据明细默认排序增加按所属地区排序 m-7036911081
+           时间: 2026-07-08T15:17:42.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/64b6a90b41b21c3b51c331f491459f1e94d1cbc7
+           分支: opt/202607-m-7036911081
+
+用户: 田雪健(Storm)
+  识别: stormtian@moonton.com
+  出现过的名字: 田雪健(Storm)
+  总提交    : 7 次
+  总新增/删除: +1,231 / -23
+  Merge Requests: 4 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 11
+  按项目分布:
+    • publish_platform/ad_bi/ad_dataquery_mcp       提交:   5  MR:  2  Commit评论:  0  MR评论:  0 分支:m-7025649320-dqmcp, main (+1,231 / -23)
+      提交记录（按时间倒序）：
+        1. 87fcad5b  m-7025649320:更新ck数据配置逻辑
+           时间: 2026-07-08T14:57:38.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/ad_dataquery_mcp/-/commit/87fcad5be2bbd9294e002201d28641fe9c7754a7
+           分支: m-7025649320-dqmcp, main
+        2. 7ead9f64  add gitignore
+           时间: 2026-07-08T14:40:46.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/ad_dataquery_mcp/-/commit/7ead9f641435d6a4b02f274625fd4da621cafbd1
+           分支: m-7025649320-dqmcp, main
+        3. 05f17102  m-7025649320:修复自定义维度的相关逻辑
+           时间: 2026-07-08T11:03:26.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/ad_dataquery_mcp/-/commit/05f171020e377009e70263b06a1480b746db5673
+           分支: m-7025649320-dqmcp, main
+        4. 9cbbfce5  Merge branch 'm-7025649320-dqmcp' into 'main'
+           时间: 2026-07-08T06:59:41.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/ad_dataquery_mcp/-/commit/9cbbfce54448a1c0f4e0fe08920f567033954c41
+           分支: main
+        5. 298e4f27  Merge branch 'm-7025649320-dqmcp' into 'main'
+           时间: 2026-07-08T03:04:33.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/ad_dataquery_mcp/-/commit/298e4f270c5ab922832ecee06860b4e88560f32e
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#4 M 7025649320 dqmcp
+           时间: 2026-07-08T06:59:39.574Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/ad_dataquery_mcp/-/merge_requests/4
+        2. MR#3 m-7025649320:修复自定义维度的相关逻辑
+           时间: 2026-07-08T03:04:28.211Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/ad_dataquery_mcp/-/merge_requests/3
+    • publish_platform/gateway                      提交:   2  MR:  2  Commit评论:  0  MR评论:  0 分支:pre, test 
+      提交记录（按时间倒序）：
+        1. 02caab37  Merge branch 'test' into 'pre'
+           时间: 2026-07-08T11:18:31.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/gateway/-/commit/02caab37e6e4d0e1940d322631cec95782a22c29
+           分支: pre
+        2. 47ccc8a2  Merge branch 'dev' into 'test'
+           时间: 2026-07-08T11:08:09.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/gateway/-/commit/47ccc8a28e6592c2fd637d05fb7b4043dae555d3
+           分支: pre, test
+      MR记录（按时间倒序）：
+        1. MR#323 Test
+           时间: 2026-07-08T11:18:29.301Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/gateway/-/merge_requests/323
+        2. MR#322 Dev
+           时间: 2026-07-08T11:08:00.547Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/gateway/-/merge_requests/322
+
+用户: jiangcheng
+  识别: chengjiang@moonton.com
+  出现过的名字: jiangcheng, 姜承(JoJo)
+  总提交    : 7 次
+  总新增/删除: +4 / -7
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 9
+  按项目分布:
+    • publish_platform/web/gamma                    提交:   7  MR:  2  Commit评论:  0  MR评论:  0 分支:1.0.0_CN_7041053638, main-cn (+4 / -7)
+      提交记录（按时间倒序）：
+        1. cf6890dc  Merge branch 'main-cn' into '1.0.0_CN_7041053638'
+           时间: 2026-07-08T09:22:51.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gamma/-/commit/cf6890dca4b713d985e720fcf58cfd9e9799cf3a
+           分支: 1.0.0_CN_7041053638, main-cn
+        2. 538469b8  feat: version
+           时间: 2026-07-08T17:22:02.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gamma/-/commit/538469b8463d5b3e6df3f8259306e039e0d64f6a
+           分支: 1.0.0_CN_7041053638, main-cn
+        3. a6459e52  feat: version
+           时间: 2026-07-08T17:10:48.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gamma/-/commit/a6459e52e5baaf750bed01c448604160f56ea12b
+           分支: 1.0.0_CN_7041053638, main-cn
+        4. c58a836b  feat: version
+           时间: 2026-07-08T17:03:41.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gamma/-/commit/c58a836b719ba8d46275bbffdc4c93d32d0892ce
+           分支: 1.0.0_CN_7041053638, main-cn
+        5. 3956d2b6  Merge branch '1.0.0_CN_7041053638' into 'main-cn'
+           时间: 2026-07-08T08:59:58.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gamma/-/commit/3956d2b68c7f29de6e7a45caa1bb9b7574e73bf2
+           分支: 1.0.0_CN_7041053638, main-cn
+        6. 7077ea34  feat: gamma拆分国服
+           时间: 2026-07-08T16:58:54.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gamma/-/commit/7077ea343ca236be0967353a5966e5ff89203fac
+           分支: 1.0.0_CN_7041053638, main-cn
+        7. 187af37f  Merge branch '1.0.0_CN_7041053638' into 'main-cn'
+           时间: 2026-07-08T09:23:01.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gamma/-/commit/187af37fb0f143ad7503554cc9869161e5bb3515
+           分支: main-cn
+      MR记录（按时间倒序）：
+        1. MR#105 feat: version
+           时间: 2026-07-08T09:22:28.664Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gamma/-/merge_requests/105
+        2. MR#104 feat: gamma拆分国服
+           时间: 2026-07-08T08:59:44.266Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gamma/-/merge_requests/104
+
+用户: 孙鹏
+  识别: v_sunpeng@moonton.com
+  出现过的名字: 孙鹏
+  总提交    : 5 次
+  总新增/删除: +32 / -40
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 7
+  按项目分布:
+    • publish_platform/web/gams_ad_bi               提交:   4  MR:  2  Commit评论:  0  MR评论:  0 分支:fix/lineChartRender, main (+20 / -39)
+      提交记录（按时间倒序）：
+        1. 5e05f781  feat: update publish-chart version f-7042142039
+           时间: 2026-07-08T17:05:23.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/commit/5e05f781ab2ecbcdd1817fea37e9703d2bfbd8bb
+           分支: fix/lineChartRender, main
+        2. 382afcff  feat: 图表组件升级&图表数据最大阈值 f-6880759672
+           时间: 2026-07-08T12:01:28.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/commit/382afcff0674469a17f37bc0c098df16d200a925
+           分支: fix/lineChartRender, main
+        3. 8840830b  Merge branch 'fix/lineChartRender' into 'main'
+           时间: 2026-07-08T09:06:11.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/commit/8840830bce5f5eabd05ea9a4bdb79591114e7ecf
+           分支: main
+        4. 9fe5446c  Merge branch 'fix/lineChartRender' into 'main'
+           时间: 2026-07-08T04:02:32.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/commit/9fe5446ce1209e609cff4b7bab4b784f7dccf39d
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#1946 feat: update publish-chart version f-7042142039
+           时间: 2026-07-08T09:05:57.210Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/merge_requests/1946
+        2. MR#1945 feat: 图表组件升级&图表数据最大阈值 f-6880759672
+           时间: 2026-07-08T04:02:27.149Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/merge_requests/1945
+    • publish_platform/web/publish                  提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:main (+12 / -1)
+      提交记录（按时间倒序）：
+        1. 7c686382  feat(chart): 分组对比折线图切换分组时自定义图例逻辑处理 f-7042142039
+           时间: 2026-07-08T16:49:05.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/publish/-/commit/7c686382752aca5c5d6f1b66863a9845c375bd67
+           分支: main
+
+用户: fengdiwang
+  识别: fengdi.wang@moonton.com
+  出现过的名字: fengdiwang
+  总提交    : 6 次
+  总新增/删除: +123 / -66
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 6
+  按项目分布:
+    • publish_platform/ad_bi/bi_cockpit             提交:   6  MR:  0  Commit评论:  0  MR评论:  0 分支:fengdi/main/pday (+123 / -66)
+      提交记录（按时间倒序）：
+        1. 3c7a3c4a  m-7026563850[国家大盘]处理周/月的特殊逻辑
+           时间: 2026-07-08T20:19:43.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/3c7a3c4a1f32220528ac07a566e20076b7435b96
+           分支: fengdi/main/pday
+        2. b6845940  m-7026563850[国家大盘]处理周/月的特殊逻辑
+           时间: 2026-07-08T19:53:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/b6845940930ee8cb046ebae6348f61862ff19799
+           分支: fengdi/main/pday
+        3. 0c12b32d  m-7026563850[国家大盘]处理周/月的特殊逻辑
+           时间: 2026-07-08T19:20:21.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/0c12b32d2ca036e0e222be21415577484d377572
+           分支: fengdi/main/pday
+        4. 47102e33  m-7026563850[国家大盘]处理周/月的特殊逻辑
+           时间: 2026-07-08T17:59:04.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/47102e33d80bd0467c782a46cbd79f2103bfa746
+           分支: fengdi/main/pday
+        5. 18518c86  m-7026563850[国家大盘]处理周/月的特殊逻辑
+           时间: 2026-07-08T17:31:46.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/18518c86c09d612a267fd6ff83a020fd00a9cbf1
+           分支: fengdi/main/pday
+        6. 9d83cf0c  m-7026563850[国家大盘]处理周/月的特殊逻辑
+           时间: 2026-07-08T16:39:08.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/9d83cf0cc643b8e7db4fe46872e41afeeec01de2
+           分支: fengdi/main/pday
+
+用户: 叶明(Ming)
+  识别: mingye@moonton.com
+  出现过的名字: 叶明(Ming)
+  总提交    : 3 次
+  总新增/删除: +28 / -5
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 5
+  按项目分布:
+    • publish_platform/ad_bi/data                   提交:   3  MR:  2  Commit评论:  0  MR评论:  0 分支:feature-cn-mysql-change-mingye-20260622-m-7013142207, master (+28 / -5)
+      提交记录（按时间倒序）：
+        1. 113b9bd8  🔨 build: 更新 MySQL 主机地址并添加 exec-maven-plugin, m-7013142207
+           时间: 2026-07-08T17:35:54.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/113b9bd865610b5b3a51ef33f3603dba9d0c7954
+           分支: feature-cn-mysql-change-mingye-20260622-m-7013142207, master
+        2. 3c0b82a2  Merge branch 'master' into feature-cn-mysql-change-mingye-20260622-m-7013142207
+           时间: 2026-07-08T16:13:08.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/3c0b82a22d51508ad2985ee09e99f1f39adfe52e
+           分支: feature-cn-mysql-change-mingye-20260622-m-7013142207, master
+        3. 79e3af6f  🔨 chore: 更新ClickHouse连接配置, m-7041844760
+           时间: 2026-07-08T11:45:42.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/79e3af6f6a17d5f116551e94604ac832b667364c
+           分支: master
+      MR记录（按时间倒序）：
+        1. MR#535 🔨 build: 更新 MySQL 主机地址并添加 exec-maven-plugin, m-7013142207
+           时间: 2026-07-08T09:36:50.485Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/merge_requests/535
+        2. MR#534 🔨 chore: 更新ClickHouse连接配置, m-7041844760
+           时间: 2026-07-08T03:46:56.673Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/merge_requests/534
+
+用户: 李铭骏(Mingjun)
+  识别: mingjunli@moonton.com
+  出现过的名字: mingjunli, 李铭骏(Mingjun)
+  总提交    : 3 次
+  总新增/删除: +20 / -1
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 5
+  按项目分布:
+    • msdk/gateway                                  提交:   3  MR:  2  Commit评论:  0  MR评论:  0 分支:hotfix/skip_sdk_version_check, master, pre (+20 / -1)
+      提交记录（按时间倒序）：
+        1. 01a99ec7  fix: skip msdk version check for ACECRAFT when sdk_version is empty
+           时间: 2026-07-08T15:30:36.000+08:00
+           链接: http://lf.git.oa.mt/msdk/gateway/-/commit/01a99ec754d848367735c604047becd48d32eee2
+           分支: hotfix/skip_sdk_version_check, master, pre
+        2. 767a4e2f  Merge branch 'hotfix/skip_sdk_version_check' into 'master'
+           时间: 2026-07-08T08:03:47.000+00:00
+           链接: http://lf.git.oa.mt/msdk/gateway/-/commit/767a4e2f4dd9553fb6e4d6a7d0fb5f478e1fbb11
+           分支: master
+        3. 5a508eef  Merge branch 'hotfix/skip_sdk_version_check' into 'pre'
+           时间: 2026-07-08T07:55:07.000+00:00
+           链接: http://lf.git.oa.mt/msdk/gateway/-/commit/5a508eef29472b85015607f3d5500d066417e46a
+           分支: pre
+      MR记录（按时间倒序）：
+        1. MR#669 fix: skip msdk version check for ACECRAFT when sdk_version is empty
+           时间: 2026-07-08T07:56:45.095Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/gateway/-/merge_requests/669
+        2. MR#668 fix: skip msdk version check for ACECRAFT when sdk_version is empty
+           时间: 2026-07-08T07:32:00.563Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/gateway/-/merge_requests/668
+
+用户: CI/CD Bot
+  识别: ci@moonton.net
+  出现过的名字: CI/CD Bot
+  总提交    : 5 次
+  总新增/删除: +530 / -29
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 5
+  按项目分布:
+    • publish_platform/web/publish                  提交:   5  MR:  0  Commit评论:  0  MR评论:  0 分支:main (+530 / -29)
+      提交记录（按时间倒序）：
+        1. 4793b93e  chore: 版本更新和 CHANGELOG
+           时间: 2026-07-08T16:57:28.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/publish/-/commit/4793b93ebd737e750497c476c70dea3e65aa8b46
+           分支: main
+        2. ba5c3a1b  chore: 版本更新和 CHANGELOG
+           时间: 2026-07-08T11:17:38.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/publish/-/commit/ba5c3a1b268a104b37adc298833e91aebc76140a
+           分支: main
+        3. c3efe54d  feat(chart): 更新图表组件及发布脚本
+           时间: 2026-07-08T11:17:13.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/publish/-/commit/c3efe54dd3e640b72ea027815efd84b5d817f472
+           分支: main
+        4. ea3ff2f6  Merge branch 'main' of lf.git.oa.mt:publish_platform/web/publish
+           时间: 2026-07-08T11:15:03.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/publish/-/commit/ea3ff2f6cc3d1e76789888f1af023bae42044a17
+           分支: main
+        5. 661d6536  chore(chart): 版本更新至 2.1.43
+           时间: 2026-07-08T11:13:00.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/publish/-/commit/661d6536f0c5909973ae7df2ab8b5c0516417993
+           分支: main
+
+用户: ruipingzhang
+  识别: ruipingzhang@moonton.com
+  出现过的名字: ruipingzhang, 张芮萍(Ruiping)
+  总提交    : 3 次
+  总新增/删除: +9 / -3
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 5
+  按项目分布:
+    • publish_platform/web/gams_ad_bi               提交:   3  MR:  2  Commit评论:  0  MR评论:  0 分支:feat/adTargets, main (+9 / -3)
+      提交记录（按时间倒序）：
+        1. e75da277  feat: 广告投放目标增加flag m-7028391907
+           时间: 2026-07-08T11:26:15.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/commit/e75da277a737db724af55677af0b3f5c34853375
+           分支: feat/adTargets, main
+        2. d119f724  Merge branch 'feat/sentryIgnoreErr' into 'main'
+           时间: 2026-07-08T11:34:30.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/commit/d119f724f7631a81806a7da634af8ef1b485cd2c
+           分支: main
+        3. 068ef497  Merge branch 'feat/adTargets' into 'main'
+           时间: 2026-07-08T03:27:57.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/commit/068ef497f79518a6c9387f431104a010af5b16bc
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#1947 Feat/sentry ignore err
+           时间: 2026-07-08T11:34:22.066Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/merge_requests/1947
+        2. MR#1944 feat: 广告投放目标增加flag m-7028391907
+           时间: 2026-07-08T03:27:49.988Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/merge_requests/1944
+
+用户: kurokyma
+  识别: kurokyma@moonton.com
+  出现过的名字: kurokyma
+  总提交    : 4 次
+  总新增/删除: +2,281 / -902
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 4
+  按项目分布:
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKFileLog 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/1.2.0.8 (+3 / -3)
+      提交记录（按时间倒序）：
+        1. d53768cd  feat: 更新
+           时间: 2026-07-08T16:13:54.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKFileLog/-/commit/d53768cd8a2d749fb54205f79ebbb2cff1c800ed
+           分支: feature/1.2.0.8
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Account_Module 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/1.2.0.9 (+1 / -1)
+      提交记录（按时间倒序）：
+        1. 7c1cea5b  feat：增加调试
+           时间: 2026-07-08T16:07:07.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Account_Module/-/commit/7c1cea5b182c0e9e5c7c2d6a00d632c23fc29358
+           分支: feature/1.2.0.9
+    • publish_platform/SDK/MSDKUPGResurce           提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+39 / -0)
+      提交记录（按时间倒序）：
+        1. df198afd  feat: 新增文件 m-7039190199
+           时间: 2026-07-08T11:58:07.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKUPGResurce/-/commit/df198afdc44c57db0b4fd1781fd476f033abf23c
+           分支: master
+    • publish_platform/SDK/UnityDeltaFinder         提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/Native-updater_m-7039190199 (+2,238 / -898)
+      提交记录（按时间倒序）：
+        1. 2647bb55  feat: 提交代码 m-7039190199
+           时间: 2026-07-08T11:55:18.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/UnityDeltaFinder/-/commit/2647bb55d24d4fc3b7f8b0c57a2574099f79759c
+           分支: feature/Native-updater_m-7039190199
+
+用户: 王聪(Wilson)
+  识别: wilsonwang1@moonton.com
+  出现过的名字: 王聪(Wilson)
+  总提交    : 3 次
+  总新增/删除: +140 / -40
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 3
+  按项目分布:
+    • publish_platform/ad_bi/ada                    提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:test (+140 / -40)
+      提交记录（按时间倒序）：
+        1. e05823d1  fix(provisioner): single volume for shared PVC + correct user-data subPath
+           时间: 2026-07-08T19:14:35.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/ada/-/commit/e05823d13d6d6d8813c1a06d29273597600eab22
+           分支: test
+        2. e2b975b6  add some new config
+           时间: 2026-07-08T16:59:28.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/ada/-/commit/e2b975b64a59a48367128358f5c103fe1771055b
+           分支: test
+    • publish_platform/gateway                      提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:dev, pre, test 
+      提交记录（按时间倒序）：
+        1. b201b68b  Merge branch 'm-7013240569-gcn' into 'dev'
+           时间: 2026-07-08T11:06:51.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/gateway/-/commit/b201b68b16b43039e67b6923dde8fd70a9db9a98
+           分支: dev, pre, test
+
+用户: suzyzeng
+  识别: suzyzeng@moonton.com
+  出现过的名字: suzyzeng
+  总提交    : 3 次
+  总新增/删除: +576 / -101
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 3
+  按项目分布:
+    • publish_platform/ad_bi/common-service         提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/speedup_superset (+576 / -101)
+      提交记录（按时间倒序）：
+        1. 008b25ae  Merge branch 'dev' into feature/speedup_superset
+           时间: 2026-07-08T22:26:52.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/common-service/-/commit/008b25aeabc98dbde6ca1fcf8a21fee79c26935a
+           分支: feature/speedup_superset
+        2. 008d8ef6  m-7036072173, 解决国服 superset 看板不稳定的问题
+           时间: 2026-07-08T22:25:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/common-service/-/commit/008d8ef6ba34392ab9ca87e20f5dfaa5f3349e2a
+           分支: feature/speedup_superset
+        3. 5c3dd8ba  m-7036072173, 解决国服 superset 看板不稳定的问题
+           时间: 2026-07-08T15:30:34.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/common-service/-/commit/5c3dd8bae5d17978d170fb684fda4c8a52b0d6c7
+           分支: feature/speedup_superset
+
+用户: IECspace
+  识别: php_coder@163.com
+  出现过的名字: IECspace
+  总提交    : 3 次
+  总新增/删除: +206,703 / -13,701
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 3
+  按项目分布:
+    • mirrorsphere/deer-flow                        提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:feat/actually_forge_in_use, feat/actually_in_use (+206,703 / -13,701)
+      提交记录（按时间倒序）：
+        1. ed422356  合并官方截止到20260708日的main分支代码
+           时间: 2026-07-08T21:32:33.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/deer-flow/-/commit/ed422356b884da20735aed3ef7042a2035525159
+           分支: feat/actually_forge_in_use
+        2. 35544a07  Merge branch 'feat/actually_in_use' of lf.git.oa.mt:mirrorsphere/deer-flow into feat/actually_in_use
+           时间: 2026-07-08T20:46:51.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/deer-flow/-/commit/35544a0750d19a919e0be0669c404682e3e0f751
+           分支: feat/actually_in_use
+        3. 929e93fc  合并官方截止到20260708日的main分支代码
+           时间: 2026-07-08T20:43:41.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/deer-flow/-/commit/929e93fc9ff59ca7c99b9bba83f8dc5f3c5aeba7
+           分支: feat/actually_in_use
+
+用户: jackyqi
+  识别: jackyqi@moonton.com
+  出现过的名字: jackyqi
+  总提交    : 3 次
+  总新增/删除: +76 / -12
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 3
+  按项目分布:
+    • publish_platform/web/caravel                  提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:main (+76 / -12)
+      提交记录（按时间倒序）：
+        1. c9178dfb  fix(webhook): bump feishu thread id to v2 to avoid stale postgres resource conflicts
+           时间: 2026-07-08T20:01:54.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/caravel/-/commit/c9178dfb7b87547f65e295fbfd27ca69b265afd0
+           分支: main
+        2. 25b455dd  feat(webhook): configurable feishu thread mode (shared/isolated) per chat
+           时间: 2026-07-08T19:46:15.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/caravel/-/commit/25b455ddc96ace0b1ed8bb278cafec2045dd6906
+           分支: main
+        3. 424205ed  fix(webhook): inject current Beijing time context into feishu-bot agent messages
+           时间: 2026-07-08T18:28:23.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/caravel/-/commit/424205ed44e4cbc6b649a4347022c8d6af0da1f7
+           分支: main
+
+用户: 覃亮(Daniel)
+  识别: danielqin@moonton.com
+  出现过的名字: danielqin, 覃亮(Daniel)
+  总提交    : 2 次
+  总新增/删除: +163 / -79
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 3
+  按项目分布:
+    • publish_platform/fuxi                         提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:f-6999678581-fix-splitimage-ql-0701, master (+163 / -79)
+      提交记录（按时间倒序）：
+        1. ff3ffba8  Reapply "Merge branch 'f-6999678581-fix-splitimage-ql-0701' into 'master'"
+           时间: 2026-07-08T10:37:10.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/ff3ffba8f4be37e8967044933430c93dfa4710af
+           分支: f-6999678581-fix-splitimage-ql-0701, master
+        2. 1c6c5624  Merge branch 'f-6999678581-fix-splitimage-ql-0701' into 'master'
+           时间: 2026-07-08T02:38:26.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/1c6c5624c74a953838aea7b6f0a83406241db2b8
+           分支: master
+      MR记录（按时间倒序）：
+        1. MR#509 m-7036244178-bug转需求 广告管理平台操作日志逻辑优化
+           时间: 2026-07-08T02:37:59.554Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/509
+
+用户: 杜民民(Dylan)
+  识别: dylandu@moonton.com
+  出现过的名字: 杜民民(Dylan)
+  总提交    : 2 次
+  总新增/删除: +0 / -0
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/ad_bi/data                   提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:master 
+      提交记录（按时间倒序）：
+        1. bfe2282d  Merge branch 'feature-cn-mysql-change-mingye-20260622-m-7013142207' into 'master'
+           时间: 2026-07-08T09:40:56.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/bfe2282da30cb9b054486b6096b88e4ed42f2fc8
+           分支: master
+        2. dd962919  Merge branch 'feature-cn-dev-new-mingye-20260707-m-7041844760' into 'master'
+           时间: 2026-07-08T09:40:21.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/dd962919033e3e84284d4110ad2dde06ca840ac2
+           分支: master
+
+用户: 郑淼(Miao)
+  识别: miaozheng@moonton.com
+  出现过的名字: 郑淼(Miao)
+  总提交    : 0 次
+  总新增/删除: +0 / -0
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 1 条
+  总活动量   : 2
+  按项目分布:
+    • mirrorsphere/harness                          提交:   0  MR:  1  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#29 feat(k8s): auto-sync agent config on changes via checksum
+           时间: 2026-07-08T08:35:58.242Z
+           状态: merged
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/merge_requests/29
+    • msdk/gateway                                  提交:   0  MR:  0  Commit评论:  0  MR评论:  1 
+      MR评论记录：
+        1. 郑淼(Miao): wegame最早的接入sdk版本都比1.3.0.0大，可以上线
+           MR#: 668 (fix: skip msdk version check for ACECRAFT when sdk_version is empty)
+           时间: 2026-07-08T07:54:13.495Z
+           链接: 
+
+用户: zhangfan
+  识别: mxlgzhang@moonton.com
+  出现过的名字: zhangfan
+  总提交    : 2 次
+  总新增/删除: +100 / -14
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • mlxgzhang/MSDKPlatform                        提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/MSDKPlatform_m-7003307825 (+100 / -14)
+      提交记录（按时间倒序）：
+        1. c326ed03  m-7003307825 [feat] 为性能数据返回单位字段
+           时间: 2026-07-08T18:33:35.000+08:00
+           链接: http://lf.git.oa.mt/mlxgzhang/MSDKPlatform/-/commit/c326ed03af1f27a7d8672ea9e067b16d7dde8e63
+           分支: feature/MSDKPlatform_m-7003307825
+        2. bac9d2cb  m-7003307825 [feat] 为性能数据返回单位字段
+           时间: 2026-07-08T18:20:50.000+08:00
+           链接: http://lf.git.oa.mt/mlxgzhang/MSDKPlatform/-/commit/bac9d2cb1f867207d2d99292c371c130724f8096
+           分支: feature/MSDKPlatform_m-7003307825
+
+用户: 丁江(jiang)
+  识别: jiangding@moonton.com
+  出现过的名字: jiangding, 丁江(jiang)
+  总提交    : 1 次
+  总新增/删除: +1 / -1
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • msdk/pay                                      提交:   1  MR:  1  Commit评论:  0  MR评论:  0 分支:debug-add-ios-purchase-event-20260626 (+1 / -1)
+      提交记录（按时间倒序）：
+        1. cd0b2c7c  debug-feedback-version
+           时间: 2026-07-08T18:36:05.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/cd0b2c7ca7263694b3c9d25d7fb65efd53fef0fe
+           分支: debug-add-ios-purchase-event-20260626
+      MR记录（按时间倒序）：
+        1. MR#629 debug-feedback-version-log
+           时间: 2026-07-08T10:36:35.714Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/pay/-/merge_requests/629
+
+用户: 刘松林(Nelson)
+  识别: nelsonliu@moonton.com
+  出现过的名字: 刘松林(Nelson)
+  总提交    : 1 次
+  总新增/删除: +1 / -1
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • publish_platform/ad_bi/ada                    提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:test (+1 / -1)
+      提交记录（按时间倒序）：
+        1. e390f843  Update docker/provisioner/app.py
+           时间: 2026-07-08T07:56:20.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/ada/-/commit/e390f843b13149b83985620043d7678a75e8d205
+           分支: test
+
+用户: Willem
+  识别: willemwang@moonton.com
+  出现过的名字: Willem
+  总提交    : 1 次
+  总新增/删除: +15 / -6
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • publish_platform/ad_bi/data                   提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+15 / -6)
+      提交记录（按时间倒序）：
+        1. 4de5ea31  fix: SQLAlchemy 2.0 compatibility for raw SQL execution
+           时间: 2026-07-08T16:35:59.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/4de5ea314b0d72aae9720d97d8905ebbaaf8b705
+           分支: master
+
+用户: Ryker_Feng
+  识别: 90562015+18062706139fcz@users.noreply.github.com
+  出现过的名字: Ryker_Feng
+  总提交    : 1 次
+  总新增/删除: +925 / -43
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • mirrorsphere/deer-flow                        提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:feat/actually_forge_in_use, feat/actually_in_use, main (+925 / -43)
+      提交记录（按时间倒序）：
+        1. 01dc0679  feat: add composer input polishing (#3986)
+           时间: 2026-07-08T17:10:27.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/deer-flow/-/commit/01dc06799719df12e424c9790c92f890a3891be5
+           分支: feat/actually_forge_in_use, feat/actually_in_use, main
+
+用户: Vanzeren
+  识别: 53075619+vanzeren@users.noreply.github.com
+  出现过的名字: Vanzeren
+  总提交    : 1 次
+  总新增/删除: +848 / -119
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • mirrorsphere/deer-flow                        提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:feat/actually_forge_in_use, feat/actually_in_use, main (+848 / -119)
+      提交记录（按时间倒序）：
+        1. e3137b13  fix(provisioner): gate legacy skills mount by user visibility (#3985)
+           时间: 2026-07-08T14:41:16.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/deer-flow/-/commit/e3137b13cfc22acb5778e30adb2ed5c7964a4b53
+           分支: feat/actually_forge_in_use, feat/actually_in_use, main
+
+用户: rambohu1
+  识别: rambohu1@moonton.com
+  出现过的名字: rambohu1
+  总提交    : 1 次
+  总新增/删除: +1 / -1
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • publish_platform/SDK/MSDK                     提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:develop_v1.6.3.0 (+1 / -1)
+      提交记录（按时间倒序）：
+        1. 10ad050b  +feat:update to v1.6.3.0
+           时间: 2026-07-08T14:19:45.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK/-/commit/10ad050b6b6dfa623f5adbb15c2697632ee467c6
+           分支: develop_v1.6.3.0
+
+----------------------------------------------------------------------------------------------------
+共统计到 24 位活跃用户
