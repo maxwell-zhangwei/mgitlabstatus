@@ -1,0 +1,950 @@
+
+====================================================================================================
+最近 24 小时用户活动统计（不使用强制别名映射）
+====================================================================================================
+
+用户: 丁江(jiang)
+  识别: jiangding@moonton.com
+  出现过的名字: jiangding, 丁江(jiang)
+  总提交    : 30 次
+  总新增/删除: +74 / -50
+  Merge Requests: 18 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 48
+  按项目分布:
+    • msdk/pay                                      提交:  14  MR:  7  Commit评论:  0  MR评论:  0 分支:add-ios-purchase-event-20260626-m-7029899036, debug-add-ios-purchase-event-20260626, master, pre, test (+36 / -31)
+      提交记录（按时间倒序）：
+        1. 06c3965c  m-7029899036, 修复ios_one_time_charge_event字段int32溢出
+           时间: 2026-07-09T15:34:10.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/06c3965c78cc271ef10f4cd8ba295cdc88209bd8
+           分支: add-ios-purchase-event-20260626-m-7029899036, master, pre, test
+        2. ae50f9c8  m-7029899036, 1. mcr-latest版本，更名msdk-code-review
+           时间: 2026-07-09T15:26:56.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/ae50f9c8fa7b74428b7592763920c46aded62f30
+           分支: add-ios-purchase-event-20260626-m-7029899036, master, pre, test
+        3. 7c67f124  m-7029899036, 校准pre/prod的sqs-region
+           时间: 2026-07-09T03:08:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/7c67f124b790a41e4ce8a354b22340b6d042a30e
+           分支: add-ios-purchase-event-20260626-m-7029899036, master, pre, test
+        4. cee75fd5  更新mcr版本
+           时间: 2026-07-09T00:17:22.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/cee75fd5b4ae54e6e29620775f64d7569c9b1320
+           分支: add-ios-purchase-event-20260626-m-7029899036, master, pre, test
+        5. 5ce6a1f5  debug-dashboard（上报量化数据）
+           时间: 2026-07-09T16:06:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/5ce6a1f5f3f5ae8f7d10c599fa3c61fa349130d9
+           分支: debug-add-ios-purchase-event-20260626
+        6. 34026bd9  测试latest版本
+           时间: 2026-07-09T13:26:37.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/34026bd97210ed958f2039e1c0249a4f3be7acd4
+           分支: debug-add-ios-purchase-event-20260626
+        7. bf9aa022  .open-code-review替换为.msdk-code-review
+           时间: 2026-07-09T13:24:57.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/bf9aa02231fbd4aaea7b5769264423cb4886d50e
+           分支: debug-add-ios-purchase-event-20260626
+        8. 7a5458b9  .open-code-review替换为.msdk-code-review
+           时间: 2026-07-09T12:28:14.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/7a5458b9af3d1aa5606f0c9cf4ee53592cfc28ff
+           分支: debug-add-ios-purchase-event-20260626
+        9. 5d065a03  .open-code-review替换为.msdk-code-review
+           时间: 2026-07-09T11:36:43.000+08:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/5d065a03c341550b980e88fa440ab781c8dd36ad
+           分支: debug-add-ios-purchase-event-20260626
+       10. c917c870  Merge branch 'add-ios-purchase-event-20260626-m-7029899036' into 'master'
+           时间: 2026-07-09T10:55:43.000+00:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/c917c870d2f1fa4b5514cfb97b382f881ed234bc
+           分支: master
+       11. 8ec245d0  Merge branch 'add-ios-purchase-event-20260626-m-7029899036' into 'pre'
+           时间: 2026-07-09T07:46:08.000+00:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/8ec245d06609365e97786662788c62d7e298f77b
+           分支: pre
+       12. 19efe97e  Merge branch 'add-ios-purchase-event-20260626-m-7029899036' into 'pre'
+           时间: 2026-07-09T02:30:51.000+00:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/19efe97e28dc90d05c395aa75ffc20d08dd5d470
+           分支: pre
+       13. bd0bb9c2  Merge branch 'add-ios-purchase-event-20260626-m-7029899036' into 'test'
+           时间: 2026-07-09T07:52:32.000+00:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/bd0bb9c2d4b32ee779cf1da8e36c3749be324d44
+           分支: test
+       14. 96b0e5c9  Merge branch 'add-ios-purchase-event-20260626-m-7029899036' into 'test'
+           时间: 2026-07-08T16:26:30.000+00:00
+           链接: http://lf.git.oa.mt/msdk/pay/-/commit/96b0e5c9e7fe10a9b5be1a6c68ae41724c6e130b
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#636 MSDK1.6.3.0【PROD】
+           时间: 2026-07-09T10:49:30.800Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/pay/-/merge_requests/636
+        2. MR#635 Add ios purchase event 20260626 m 7029899036
+           时间: 2026-07-09T07:46:26.053Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/pay/-/merge_requests/635
+        3. MR#634 m-7029899036，修复appAppleId字段溢出问题
+           时间: 2026-07-09T07:43:09.756Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/pay/-/merge_requests/634
+        4. MR#633 feat: iOS支付成功事件记录 + charge事件上报 + 月级分区管理
+           时间: 2026-07-09T02:30:34.825Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/pay/-/merge_requests/633
+        5. MR#632 m-7029899036，更新mcr版本
+           时间: 2026-07-08T16:24:30.706Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/pay/-/merge_requests/632
+        6. MR#631 更新mcr版本
+           时间: 2026-07-08T16:20:24.248Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/pay/-/merge_requests/631
+        7. MR#630 feat: iOS支付成功事件记录 + charge事件上报 + 月级分区管理
+           时间: 2026-07-08T16:10:07.743Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/pay/-/merge_requests/630
+    • msdk/admin                                    提交:   8  MR:  6  Commit评论:  0  MR评论:  0 分支:add-ios-purchase-event-20260626-m-7029899036, master, pre, test (+9 / -9)
+      提交记录（按时间倒序）：
+        1. 498c6288  m-7029899036, 1. mcr-latest版本，更名msdk-code-review
+           时间: 2026-07-09T15:33:05.000+08:00
+           链接: http://lf.git.oa.mt/msdk/admin/-/commit/498c628814ecbf7c404dd4eae7b395c0845ce74e
+           分支: add-ios-purchase-event-20260626-m-7029899036, master, pre, test
+        2. cb976a3e  m-7029899036, 更新mcr版本
+           时间: 2026-07-09T00:18:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/admin/-/commit/cb976a3ee422259c95256e07196285af1e21365e
+           分支: add-ios-purchase-event-20260626-m-7029899036, master, pre, test
+        3. 05f10ac1  Merge branch 'add-ios-purchase-event-20260626-m-7029899036' into 'master'
+           时间: 2026-07-09T11:37:26.000+00:00
+           链接: http://lf.git.oa.mt/msdk/admin/-/commit/05f10ac12d31e79010f918b750cef749c7a0e6db
+           分支: master
+        4. 7ad422f8  Merge branch 'add-ios-purchase-event-20260626-m-7029899036' into 'pre'
+           时间: 2026-07-09T07:48:21.000+00:00
+           链接: http://lf.git.oa.mt/msdk/admin/-/commit/7ad422f81e8472e2e4832900d419a639179be9b7
+           分支: pre
+        5. b2cf9117  Merge branch 'add-ios-purchase-event-20260626-m-7029899036' into 'pre'
+           时间: 2026-07-08T16:20:08.000+00:00
+           链接: http://lf.git.oa.mt/msdk/admin/-/commit/b2cf91179127d6c384c8408fd3b07961de6bcc70
+           分支: pre
+        6. 48324871  Merge branch 'add-ios-purchase-event-20260626-m-7029899036' into 'pre'
+           时间: 2026-07-08T16:15:07.000+00:00
+           链接: http://lf.git.oa.mt/msdk/admin/-/commit/48324871d50ee2e4433feac089743a253fa31532
+           分支: pre
+        7. 907a7dd5  Merge branch 'add-ios-purchase-event-20260626-m-7029899036' into 'test'
+           时间: 2026-07-09T08:00:31.000+00:00
+           链接: http://lf.git.oa.mt/msdk/admin/-/commit/907a7dd5b69afff266a13b066d8bc5226fcf4d50
+           分支: test
+        8. 0ee4535d  Merge branch 'add-ios-purchase-event-20260626-m-7029899036' into 'test'
+           时间: 2026-07-08T16:26:49.000+00:00
+           链接: http://lf.git.oa.mt/msdk/admin/-/commit/0ee4535db3825203719e830d144e9fb6de1a1bb1
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#2166 MSDK1.6.3.0【PROD】
+           时间: 2026-07-09T10:51:29.527Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/admin/-/merge_requests/2166
+        2. MR#2165 m-7029899036, 1. mcr-latest版本，更名msdk-code-review
+           时间: 2026-07-09T07:53:56.183Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/admin/-/merge_requests/2165
+        3. MR#2164 m-7029899036, 1. mcr-latest版本，更名msdk-code-review
+           时间: 2026-07-09T07:45:20.544Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/admin/-/merge_requests/2164
+        4. MR#2163 m-7029899036, 更新mcr版本
+           时间: 2026-07-08T16:25:01.744Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/admin/-/merge_requests/2163
+        5. MR#2162 m-7029899036, 更新mcr版本
+           时间: 2026-07-08T16:19:15.497Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/admin/-/merge_requests/2162
+        6. MR#2161 MSDK1.6.3.0【PRE】
+           时间: 2026-07-08T16:11:17.405Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/admin/-/merge_requests/2161
+    • msdk/gateway                                  提交:   8  MR:  5  Commit评论:  0  MR评论:  0 分支:add-ios-purchase-event-20260626-m-7029899036, master, pre, test (+29 / -10)
+      提交记录（按时间倒序）：
+        1. ab54c3d5  m-7029899036, 1. mcr-latest版本，更名msdk-code-review
+           时间: 2026-07-09T15:29:49.000+08:00
+           链接: http://lf.git.oa.mt/msdk/gateway/-/commit/ab54c3d5a5f324006d47aa5d0c2f09b192ad658d
+           分支: add-ios-purchase-event-20260626-m-7029899036, master, pre, test
+        2. 2f730eb3  m-7029899036, Merge branch 'master' into add-ios-purchase-event-20260626-m-7029899036
+           时间: 2026-07-09T11:44:54.000+08:00
+           链接: http://lf.git.oa.mt/msdk/gateway/-/commit/2f730eb3479bfd97265fdc6685c69fd794c37180
+           分支: add-ios-purchase-event-20260626-m-7029899036, master, pre, test
+        3. 7255f87a  m-7029899036, 更新mcr版本
+           时间: 2026-07-09T00:18:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/gateway/-/commit/7255f87a5bca9b722328afd9dffa47b355d3659c
+           分支: add-ios-purchase-event-20260626-m-7029899036, master, pre, test
+        4. 8721040e  Merge branch 'add-ios-purchase-event-20260626-m-7029899036' into 'master'
+           时间: 2026-07-09T11:37:17.000+00:00
+           链接: http://lf.git.oa.mt/msdk/gateway/-/commit/8721040e245b97e5655f85fde807da2b565305f7
+           分支: master
+        5. 9f1bd543  Merge branch 'add-ios-purchase-event-20260626-m-7029899036' into 'pre'
+           时间: 2026-07-09T07:53:31.000+00:00
+           链接: http://lf.git.oa.mt/msdk/gateway/-/commit/9f1bd5434fce165c3ada7354c4b013795edf286c
+           分支: pre
+        6. 6273d50a  Merge branch 'add-ios-purchase-event-20260626-m-7029899036' into 'pre'
+           时间: 2026-07-08T16:19:36.000+00:00
+           链接: http://lf.git.oa.mt/msdk/gateway/-/commit/6273d50ab7a61b527e4dc9bd4f4daf8da35324f6
+           分支: pre
+        7. a091f90d  Merge branch 'add-ios-purchase-event-20260626-m-7029899036' into 'test'
+           时间: 2026-07-09T08:00:39.000+00:00
+           链接: http://lf.git.oa.mt/msdk/gateway/-/commit/a091f90d717dc9ab955c0a8960e54b13e03cedfa
+           分支: test
+        8. be963e12  Merge branch 'add-ios-purchase-event-20260626-m-7029899036' into 'test'
+           时间: 2026-07-08T16:26:55.000+00:00
+           链接: http://lf.git.oa.mt/msdk/gateway/-/commit/be963e1219986bd84138cd3fa652ea4f8327db3f
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#674 MSDK1.6.3.0【PROD】
+           时间: 2026-07-09T10:52:12.990Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/gateway/-/merge_requests/674
+        2. MR#673 Add ios purchase event 20260626 m 7029899036
+           时间: 2026-07-09T07:53:27.164Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/gateway/-/merge_requests/673
+        3. MR#672 Add ios purchase event 20260626 m 7029899036
+           时间: 2026-07-09T03:43:32.183Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/gateway/-/merge_requests/672
+        4. MR#671 m-7029899036, 更新mcr版本
+           时间: 2026-07-08T16:25:27.994Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/gateway/-/merge_requests/671
+        5. MR#670 MSDK1.6.3.0【PRE】
+           时间: 2026-07-08T16:12:44.048Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/gateway/-/merge_requests/670
+
+用户: 徐腾飞(Tengfei)
+  识别: tengfeixu@moonton.com
+  出现过的名字: tengfeixu, 徐腾飞(Tengfei)
+  总提交    : 14 次
+  总新增/删除: +1,897 / -180
+  Merge Requests: 6 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 20
+  按项目分布:
+    • publish_platform/kol                          提交:  10  MR:  5  Commit评论:  0  MR评论:  0 分支:dev, opt/202607-m-7036911081, test (+703 / -28)
+      提交记录（按时间倒序）：
+        1. a84b2749  Merge branch 'opt/202607-m-7036911081' into 'dev'
+           时间: 2026-07-09T08:08:54.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/a84b2749e051d60b489643d3fe782e23d572c89b
+           分支: dev
+        2. 3c0fc595  [视频KOL名校验] 归档变更并落地video-kol-name-validation spec m-7036911081
+           时间: 2026-07-09T16:07:34.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/3c0fc595191a2cc0bde0231108201c11fbb77768
+           分支: dev, opt/202607-m-7036911081, test
+        3. ae1b667a  [视频KOL名校验] 添加视频新建KOL时名称必填且拦占位符 m-7036911081
+           时间: 2026-07-09T15:58:04.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/ae1b667af1772019e85ba7df1edb2931b62f2b34
+           分支: dev, opt/202607-m-7036911081, test
+        4. 09901d71  去除tubular接口中多余字段 m-7036911081
+           时间: 2026-07-09T15:16:55.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/09901d71faea202b4883a43d1f00f40131367c52
+           分支: dev, opt/202607-m-7036911081, test
+        5. 7d83ee14  Merge branch 'opt/202607-m-7036911081' into 'dev'
+           时间: 2026-07-09T04:29:04.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/7d83ee14ebe919a61099a9c91682d5858d1d6b9f
+           分支: dev
+        6. 7eb552e5  提交.claude m-7036911081
+           时间: 2026-07-09T12:28:38.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/7eb552e5d52935ca7e9e34e804c19a2dd4b76909
+           分支: dev, opt/202607-m-7036911081, test
+        7. 12cb56c1  [ffmpeg] 改用apk安装ffmpeg修复CI下载失败 m-7036911081
+           时间: 2026-07-09T12:26:21.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/12cb56c1cd71beb84e073fb33482e9f767c5becf
+           分支: dev, opt/202607-m-7036911081, test
+        8. 35d22e23  Merge branch 'opt/202607-m-7036911081' into 'dev'
+           时间: 2026-07-09T02:49:05.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/35d22e23098bfe2063d25c4c6822870495371587
+           分支: dev
+        9. 9025d91a  Merge branch 'opt/202607-m-7036911081' into 'test'
+           时间: 2026-07-09T08:09:37.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/9025d91a749dcd4eac9a54ade12ba1208e641696
+           分支: test
+       10. 4d119404  Merge branch 'opt/202607-m-7036911081' into 'test'
+           时间: 2026-07-09T04:49:15.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/4d119404f6b7be8da31033b30efed1799662ab3e
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#2453 Opt/202607 m 7036911081
+           时间: 2026-07-09T08:09:18.558Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/merge_requests/2453
+        2. MR#2452 Opt/202607 m 7036911081
+           时间: 2026-07-09T08:08:50.239Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/merge_requests/2452
+        3. MR#2451 Opt/202607 m 7036911081
+           时间: 2026-07-09T04:48:50.705Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/merge_requests/2451
+        4. MR#2450 Opt/202607 m 7036911081
+           时间: 2026-07-09T04:28:56.437Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/merge_requests/2450
+        5. MR#2449 Opt/202607 m 7036911081
+           时间: 2026-07-09T02:48:43.864Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/merge_requests/2449
+    • mirrorsphere/portal                           提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:feat/memory_report-m-7003307825 (+1,194 / -152)
+      提交记录（按时间倒序）：
+        1. 7fdf386f  [perftest单位] 归档 change 并同步 baseline spec m-7003307825
+           时间: 2026-07-09T14:21:46.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/portal/-/commit/7fdf386f30642c8fde14e9737f0e97054a6c1e97
+           分支: feat/memory_report-m-7003307825
+        2. d10ecbc0  [perftest单位] 补充 verify 与 retrospective 文档 m-7003307825
+           时间: 2026-07-09T14:19:21.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/portal/-/commit/d10ecbc0cb1f2f42f97ef90d521346b0596d4604
+           分支: feat/memory_report-m-7003307825
+        3. 5eb08155  [perftest单位] SQLite 采样数据新增 unit 字段贯穿查询/导出/流 m-7003307825
+           时间: 2026-07-09T14:09:45.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/portal/-/commit/5eb08155d57a6a7e4283321175023c2d88574f68
+           分支: feat/memory_report-m-7003307825
+    • mirrorsphere/harness                          提交:   1  MR:  1  Commit评论:  0  MR评论:  0 分支:test 
+      提交记录（按时间倒序）：
+        1. 3f7ffedf  Merge branch 'feat/ai_chat' into 'test'
+           时间: 2026-07-09T08:26:13.000+00:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/3f7ffedf1bf2a2413a32bbb1b245658365c5f1e9
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#34 add UI + perf test combined analysis skill
+           时间: 2026-07-09T08:25:52.475Z
+           状态: merged
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/merge_requests/34
+
+用户: kurokyma
+  识别: kurokyma@moonton.com
+  出现过的名字: kurokyma
+  总提交    : 20 次
+  总新增/删除: +313,802 / -3,917
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 20
+  按项目分布:
+    • publish_platform/SDK/MSDKUPGResurce           提交:  10  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+313,155 / -3,775)
+      提交记录（按时间倒序）：
+        1. 2dd32f22  feat: 新增资源
+           时间: 2026-07-09T18:58:09.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKUPGResurce/-/commit/2dd32f22f847408544a638235158591611967215
+           分支: master
+        2. e12c91de  feat: 更新资源
+           时间: 2026-07-09T18:53:03.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKUPGResurce/-/commit/e12c91de668fb285294f570b1374680510b53d26
+           分支: master
+        3. 481b73cb  feat: 模块更新
+           时间: 2026-07-09T18:28:08.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKUPGResurce/-/commit/481b73cbf849f33aa71b98d5dae38b9ae8170b0a
+           分支: master
+        4. f09125a7  feat: 提交资源
+           时间: 2026-07-09T17:16:51.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKUPGResurce/-/commit/f09125a7d817ee8fe5cf45ea1ec44ea689aff56e
+           分支: master
+        5. 22c3f755  feat：新增lfs配置
+           时间: 2026-07-09T16:55:22.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKUPGResurce/-/commit/22c3f7556c50b4b7a37d30ddd6045c97927d681f
+           分支: master
+        6. 3199ad4d  feat: 提交更新
+           时间: 2026-07-09T16:28:34.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKUPGResurce/-/commit/3199ad4d79fecf9c886701407bf00631e65830c0
+           分支: master
+        7. d7d8447a  feat: 更新文档
+           时间: 2026-07-09T16:10:03.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKUPGResurce/-/commit/d7d8447a0e740429962813da7e2cd92003978c0e
+           分支: master
+        8. 5a8beb57  feat: 提交代码
+           时间: 2026-07-09T16:01:35.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKUPGResurce/-/commit/5a8beb57f980c782a15591b2bf404f85a05df076
+           分支: master
+        9. a02d5f04  feat: 提交代码
+           时间: 2026-07-09T12:26:01.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKUPGResurce/-/commit/a02d5f04ea02249e0dd43408c7533e1dfda0ad51
+           分支: master
+       10. 6db32eb6  feat: 提交文件
+           时间: 2026-07-09T11:58:29.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKUPGResurce/-/commit/6db32eb674f89ee33abacdef2bc42e2fc4b0a2d6
+           分支: master
+    • publish_platform/SDK/MSDK_iOS/MSDK            提交:   4  MR:  0  Commit评论:  0  MR评论:  0 分支:develop, feature/1.3.0.45_wegame, feature/1.6.2.0_sdkVer (+470 / -130)
+      提交记录（按时间倒序）：
+        1. 0485fae3  Merge branch 'test/1.6.2.0' of lf.git.oa.mt:publish_platform/SDK/MSDK_iOS/MSDK into develop
+           时间: 2026-07-09T14:12:13.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/MSDK/-/commit/0485fae357d6515328393ea47f61a063bf8c7343
+           分支: develop, feature/1.6.2.0_sdkVer
+        2. b20ab936  feat: 优化 sdk_version 设置
+           时间: 2026-07-09T14:11:05.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/MSDK/-/commit/b20ab936858def7a32d190274bbb6ab3b48d6559
+           分支: feature/1.3.0.45_wegame
+        3. 354611a5  feat: 合并 sdkversion 优化代码 m-7042495746
+           时间: 2026-07-09T15:38:16.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/MSDK/-/commit/354611a579ac333c57b9146b5ac133f2e15cbf62
+           分支: feature/1.6.2.0_sdkVer
+        4. ef223ccf  feat: 修复 sdk_version 未能正确赋值 m-7042495746
+           时间: 2026-07-09T15:24:39.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/MSDK/-/commit/ef223ccffbc27de910b534c75834998d7812066a
+           分支: feature/1.6.2.0_sdkVer
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKCoreKit 提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/sdkVer_m-7042495746, test/1.3.0.73 (+9 / -10)
+      提交记录（按时间倒序）：
+        1. b3fa69b7  feat: 优化 sdkVersion 赋值方式 m-7042495746
+           时间: 2026-07-09T15:33:59.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKCoreKit/-/commit/b3fa69b7cad330c0d399400b2b5340a2ff8e9ee3
+           分支: feature/sdkVer_m-7042495746
+        2. 1c4c160e  feat：1.3.0.45 sdkVer改成 静态参数
+           时间: 2026-07-09T11:22:33.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKCoreKit/-/commit/1c4c160e6be4bdff44359feb242ac2f8a3a32f7e
+           分支: test/1.3.0.73
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Push_Module 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:test/1.2.0.81 (+1 / -1)
+      提交记录（按时间倒序）：
+        1. fd1bcc30  feat: 1.2.0.82
+           时间: 2026-07-09T11:30:50.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Push_Module/-/commit/fd1bcc30488712a79b50c20cb520322345868fe5
+           分支: test/1.2.0.81
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKBaseKit 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/sdkVer_m-7042495746 (+18 / -0)
+      提交记录（按时间倒序）：
+        1. 04389a1f  feat: 优化 sdk_version 赋值 m-7042495746
+           时间: 2026-07-09T15:15:49.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKBaseKit/-/commit/04389a1ff6e8643aec6376fd331ec2e8334868d8
+           分支: feature/sdkVer_m-7042495746
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK-IAP-Module 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:test/1.2.0.43_fix (+1 / -1)
+      提交记录（按时间倒序）：
+        1. c1ff959b  feat: 1.2.0.44
+           时间: 2026-07-09T11:32:19.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK-IAP-Module/-/commit/c1ff959b1770e47a7891f3f34643c8c6c3906be4
+           分支: test/1.2.0.43_fix
+    • publish_platform/SDK/MSDK_iOS/MSDKPodSpec     提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+148 / -0)
+      提交记录（按时间倒序）：
+        1. ea1c5f56  feat: wegame 1.3.0.45
+           时间: 2026-07-09T11:33:28.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/MSDKPodSpec/-/commit/ea1c5f56ced01088181f7b1aa511f3873b49e001
+           分支: master
+
+用户: 郑淼(Miao)
+  识别: miaozheng@moonton.com
+  出现过的名字: 郑淼(Miao)
+  总提交    : 7 次
+  总新增/删除: +1 / -0
+  Merge Requests: 6 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 13
+  按项目分布:
+    • mirrorsphere/harness                          提交:   4  MR:  4  Commit评论:  0  MR评论:  0 分支:master, test 
+      提交记录（按时间倒序）：
+        1. 349c0e17  Merge branch 'fix/new_skill_load-m-7003307825' into 'master'
+           时间: 2026-07-09T08:38:52.000+00:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/349c0e1757d8c0ea6467a341ef137aaeaf012972
+           分支: master
+        2. b49f843b  Merge branch 'fix/new_skill_load-m-7003307825' into 'test'
+           时间: 2026-07-09T08:12:04.000+00:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/b49f843bd71098ee9fe51d5e5c66547cfdefbeb8
+           分支: test
+        3. 13c5c1a4  Merge branch 'fix/new_skill_load-m-7003307825' into 'test'
+           时间: 2026-07-09T07:35:53.000+00:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/13c5c1a458fea7dc2f2bce5823ac280bc5d66129
+           分支: test
+        4. 55700752  Merge branch 'fix/new_skill_load-m-7003307825' into 'test'
+           时间: 2026-07-09T07:10:25.000+00:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/557007526d2a2b2cbcba94d6154802f14dd495a7
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#35 feat(k8s): auto-sync agent config on changes via checksum
+           时间: 2026-07-09T08:38:35.151Z
+           状态: merged
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/merge_requests/35
+        2. MR#33 fix(k8s): bust Docker cache when deer-flow branch advances
+           时间: 2026-07-09T08:11:48.858Z
+           状态: merged
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/merge_requests/33
+        3. MR#32 feat(middleware): 移除硬编的moa信息
+           时间: 2026-07-09T07:35:40.399Z
+           状态: merged
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/merge_requests/32
+        4. MR#31 feat(k8s): auto-sync agent config on changes via checksum
+           时间: 2026-07-09T03:47:28.244Z
+           状态: merged
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/merge_requests/31
+    • mirrorsphere/forge                            提交:   2  MR:  2  Commit评论:  0  MR评论:  0 分支:master, test 
+      提交记录（按时间倒序）：
+        1. 905fa908  Merge branch 'feat/custom_m-7040560028' into 'master'
+           时间: 2026-07-09T13:09:51.000+00:00
+           链接: http://lf.git.oa.mt/mirrorsphere/forge/-/commit/905fa908d4fc699da27b178f8863e4a55ced0357
+           分支: master
+        2. d9b5c80b  Merge branch 'feat/custom_m-7040560028' into 'test'
+           时间: 2026-07-09T13:08:57.000+00:00
+           链接: http://lf.git.oa.mt/mirrorsphere/forge/-/commit/d9b5c80b51f28a7577206f6316120b170dd277ac
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#5 feat(skills): 新增 text2sql skill 并接入 msdk-ops agent
+           时间: 2026-07-09T13:09:49.047Z
+           状态: merged
+           链接: http://lf.git.oa.mt/mirrorsphere/forge/-/merge_requests/5
+        2. MR#4 feat(skills): 新增 text2sql skill 并接入 msdk-ops agent
+           时间: 2026-07-09T13:08:47.599Z
+           状态: merged
+           链接: http://lf.git.oa.mt/mirrorsphere/forge/-/merge_requests/4
+    • mirrorsphere/chaos-mesh                       提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:master, source-master (+1 / -0)
+      提交记录（按时间倒序）：
+        1. 92c3dbc8  Update README.md
+           时间: 2026-07-09T07:17:56.000+00:00
+           链接: http://lf.git.oa.mt/mirrorsphere/chaos-mesh/-/commit/92c3dbc8105fc988db7f1b753ab52e35fa67f534
+           分支: master, source-master
+
+用户: 李孔权(Levir)
+  识别: levirli@moonton.com
+  出现过的名字: likongquan, 李孔权(Levir)
+  总提交    : 7 次
+  总新增/删除: +4,695 / -53,817
+  Merge Requests: 4 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 11
+  按项目分布:
+    • mirrorsphere/chaos-mesh                       提交:   7  MR:  4  Commit评论:  0  MR评论:  0 分支:feat_dev, master, source-master (+4,695 / -53,817)
+      提交记录（按时间倒序）：
+        1. fa826b53  MOA登录与RBAC登录串联，并归档登录集成方案
+           时间: 2026-07-09T20:22:30.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/chaos-mesh/-/commit/fa826b5361b15a38c320943e63e13bf56a1c2e96
+           分支: feat_dev
+        2. b94e9a1e  AWS FIS接入调整，支持S3故障与模板页面优化
+           时间: 2026-07-09T20:22:18.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/chaos-mesh/-/commit/b94e9a1e8d513fdbdcbe2f92f515bfdc9d30f9c6
+           分支: feat_dev
+        3. 97a9dcf6  Merge branch 'master' into feat_dev
+           时间: 2026-07-09T15:57:19.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/chaos-mesh/-/commit/97a9dcf607d24d3c9a8338da38f796a38f914793
+           分支: feat_dev
+        4. 32e5ed82  AWS FIS接入调整，支持新增实验模版/开启实验
+           时间: 2026-07-09T15:24:40.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/chaos-mesh/-/commit/32e5ed824f97ab17f7cfb7b420d3545a2bc531a7
+           分支: feat_dev
+        5. 7fc88a19  Initial commit
+           时间: 2026-07-09T15:10:08.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/chaos-mesh/-/commit/7fc88a19fd1a0627f73cab04cc9904e6c772b6f1
+           分支: feat_dev
+        6. f3f1de84  Merge branch 'source-master' into 'master'
+           时间: 2026-07-09T08:14:18.000+00:00
+           链接: http://lf.git.oa.mt/mirrorsphere/chaos-mesh/-/commit/f3f1de8483f925fbf1194ade77c6edf096528a58
+           分支: master
+        7. a9b73d79  Merge branch 'master' into 'source-master'-Sync Source
+           时间: 2026-07-09T08:13:49.000+00:00
+           链接: http://lf.git.oa.mt/mirrorsphere/chaos-mesh/-/commit/a9b73d7904167b8131e4120ef1feb8fb45218554
+           分支: master, source-master
+      MR记录（按时间倒序）：
+        1. MR#4 同步github的chaos-mesh
+           时间: 2026-07-09T08:13:25.320Z
+           状态: merged
+           链接: http://lf.git.oa.mt/mirrorsphere/chaos-mesh/-/merge_requests/4
+        2. MR#3 清除二次开发的内容
+           时间: 2026-07-09T08:04:20.896Z
+           状态: merged
+           链接: http://lf.git.oa.mt/mirrorsphere/chaos-mesh/-/merge_requests/3
+        3. MR#2 Feat dev
+           时间: 2026-07-09T07:52:07.823Z
+           状态: opened
+           链接: http://lf.git.oa.mt/mirrorsphere/chaos-mesh/-/merge_requests/2
+        4. MR#1 init import
+           时间: 2026-07-09T07:28:24.842Z
+           状态: merged
+           链接: http://lf.git.oa.mt/mirrorsphere/chaos-mesh/-/merge_requests/1
+
+用户: 徐晨杰(Tito)
+  识别: titoxu@moonton.com
+  出现过的名字: tito, 徐晨杰(Tito)
+  总提交    : 8 次
+  总新增/删除: +4,939 / -3,659
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 9
+  按项目分布:
+    • publish_platform/web/kol_mobile               提交:   6  MR:  1  Commit评论:  0  MR评论:  0 分支:feat/sentry_m-7036911081, main (+4,918 / -3,653)
+      提交记录（按时间倒序）：
+        1. e8aec983  feat:移动端增加sentry支持 m-7036911081
+           时间: 2026-07-09T15:05:58.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/kol_mobile/-/commit/e8aec983366122b5f52ad31977effe4a60c69b13
+           分支: feat/sentry_m-7036911081, main
+        2. f97ce2b4  feat: 在入口初始化 Sentry 并包裹 ErrorBoundary m-7036911081
+           时间: 2026-07-09T12:12:14.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/kol_mobile/-/commit/f97ce2b47d696183fda99969a7da120f81e7cf0d
+           分支: feat/sentry_m-7036911081, main
+        3. 6a13ebe9  feat: 新增 Sentry 初始化模块，仅 pre/prod 启用 m-7036911081
+           时间: 2026-07-09T12:07:16.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/kol_mobile/-/commit/6a13ebe978b26f86cde977b4c161051b7d7fcbe9
+           分支: feat/sentry_m-7036911081, main
+        4. 99fedfb4  feat: 安装 @sentry/react 依赖 m-7036911081
+           时间: 2026-07-09T12:06:02.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/kol_mobile/-/commit/99fedfb4e28ae5a115759edd282a83c56bd959d9
+           分支: feat/sentry_m-7036911081, main
+        5. 81f696d6  docs: 新增 Sentry 接入设计文档 m-7036911081
+           时间: 2026-07-09T11:59:08.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/kol_mobile/-/commit/81f696d66b974b6606c03b436ea2cb58b6258ce0
+           分支: feat/sentry_m-7036911081, main
+        6. 216a1a09  Merge branch 'feat/sentry_m-7036911081' into 'main'
+           时间: 2026-07-09T07:07:25.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/kol_mobile/-/commit/216a1a099ecaa04c46a88bc10e789ae4175aa4e0
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#121 移动端增加sentry支持 m-7036911081
+           时间: 2026-07-09T07:06:35.224Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/kol_mobile/-/merge_requests/121
+    • publish_platform/web/kol                      提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:main (+21 / -6)
+      提交记录（按时间倒序）：
+        1. 0f9ce269  Merge branch 'fix/videoUrl_f-6995678149' into 'main'
+           时间: 2026-07-09T03:41:56.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/kol/-/commit/0f9ce26941864c7414a8657d2b5f19ea3c82c608
+           分支: main
+        2. 41d555b0  Fix/video url f 6995678149
+           时间: 2026-07-09T03:41:56.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/kol/-/commit/41d555b051efed48b0405ac3f1818b4e7144b46b
+           分支: main
+
+用户: 曾凡单(Suzy)
+  识别: suzyzeng@moonton.com
+  出现过的名字: suzyzeng, 曾凡单(Suzy)
+  总提交    : 5 次
+  总新增/删除: +675 / -125
+  Merge Requests: 3 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 8
+  按项目分布:
+    • publish_platform/ad_bi/gms_ad_bi_refactor     提交:   3  MR:  1  Commit评论:  0  MR评论:  0 分支:feature/m-7035328889-upgrade_cn_customdims, main (+113 / -21)
+      提交记录（按时间倒序）：
+        1. cc81da7a  m-7035328889, bi 国服自定义维度-按条件分组增加campaign_id、adestid、ad_id
+           时间: 2026-07-09T20:40:47.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/cc81da7a1993b0e035ceb65761b6e69ab7c7d5f3
+           分支: feature/m-7035328889-upgrade_cn_customdims, main
+        2. 0ea29006  m-7035328889, bi 国服自定义维度-按条件分组增加campaign_id、adestid、ad_id
+           时间: 2026-07-09T18:40:44.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/0ea29006ad3edf05cb109c709519167d04bb31dc
+           分支: feature/m-7035328889-upgrade_cn_customdims, main
+        3. 2bfbf53f  Merge branch 'feature/m-7035328889-upgrade_cn_customdims' into 'main'
+           时间: 2026-07-09T12:41:26.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/2bfbf53fe968df9080155f74345c621217f42403
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#2263 m-7035328889, bi 国服自定义维度-按条件分组增加campaign_id、adestid、ad_id
+           时间: 2026-07-09T12:41:20.106Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/merge_requests/2263
+    • publish_platform/bi_micro_service/common_service_grpc 提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:feature/m-7036072173speedup_superset, main (+562 / -104)
+      提交记录（按时间倒序）：
+        1. 27e3d3bc  m-7036072173, 解决国服 superset 看板不稳定的问题
+           时间: 2026-07-09T20:18:59.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/bi_micro_service/common_service_grpc/-/commit/27e3d3bc676f739e80c3a27ebeac37f2aa57e506
+           分支: feature/m-7036072173speedup_superset, main
+        2. d198c8a8  Merge branch 'feature/m-7036072173speedup_superset' into 'main'
+           时间: 2026-07-09T13:06:39.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/bi_micro_service/common_service_grpc/-/commit/d198c8a82a5ec5183de91a8ecf6d6c9c0661aa3d
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#17 m-7036072173, 解决国服 superset 看板不稳定的问题
+           时间: 2026-07-09T12:33:10.564Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/bi_micro_service/common_service_grpc/-/merge_requests/17
+    • publish_platform/ad_bi/common-service         提交:   0  MR:  1  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#147 m-7036072173, 解决国服 superset 看板不稳定的问题
+           时间: 2026-07-09T12:37:04.088Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/common-service/-/merge_requests/147
+
+用户: 祁杰(Jacky)
+  识别: jackyqi@moonton.com
+  出现过的名字: jackyqi, 祁杰(Jacky)
+  总提交    : 5 次
+  总新增/删除: +9,625 / -9,342
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 6
+  按项目分布:
+    • publish_platform/web/caravel                  提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:main (+9,602 / -9,333)
+      提交记录（按时间倒序）：
+        1. 0d13761d  chore(mastra): regenerate full pnpm-lock.yaml with pnpm@11
+           时间: 2026-07-09T12:47:52.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/caravel/-/commit/0d13761d91373f29c0d828941842ac9e5d4672ea
+           分支: main
+        2. 4c21bc4a  chore(mastra): regenerate pnpm-lock.yaml with pnpm@11
+           时间: 2026-07-09T12:44:51.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/caravel/-/commit/4c21bc4a6665755ad0ffbf3899ded52b87079742
+           分支: main
+        3. c3a97369  feat(mastra): scheduled DataFinder PV/UV workflow with Feishu notification
+           时间: 2026-07-09T12:38:34.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/caravel/-/commit/c3a973691e53fc07a8eaf6487fd77e776caf1bb5
+           分支: main
+    • publish_platform/web/gams_ad_bi               提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:main (+23 / -9)
+      提交记录（按时间倒序）：
+        1. 04086fac  Merge branch 'feat/m-7042533756' into 'main'
+           时间: 2026-07-09T09:57:12.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/commit/04086facf483d3f66e9b131593f48b4de22d1a1b
+           分支: main
+        2. 7f85f862  feat: m-7042533756 cpi出价操作列增加复制按钮
+           时间: 2026-07-09T17:56:28.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/commit/7f85f862bd5f1b59e345fee1f1564e51b464d926
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#1948 feat: m-7042533756 cpi出价操作列增加复制按钮
+           时间: 2026-07-09T09:56:59.682Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi/-/merge_requests/1948
+
+用户: IECspace
+  识别: php_coder@163.com
+  出现过的名字: IECspace
+  总提交    : 5 次
+  总新增/删除: +1,818 / -126
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 5
+  按项目分布:
+    • mirrorsphere/harness                          提交:   4  MR:  0  Commit评论:  0  MR评论:  0 分支:fix/new_skill_load-m-7003307825, master, test (+626 / -125)
+      提交记录（按时间倒序）：
+        1. e232a897  fix(k8s): bust Docker cache when deer-flow branch advances
+           时间: 2026-07-09T16:11:14.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/e232a8975d24bcb5f260c2547152f0bacb8aa3a3
+           分支: fix/new_skill_load-m-7003307825, master, test
+        2. 36eaba75  移出硬编的moa信息 m-7003307825
+           时间: 2026-07-09T15:33:24.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/36eaba759e93e9c262aa785fddbade04c87c7eef
+           分支: fix/new_skill_load-m-7003307825, master, test
+        3. 0cc3c79f  feat(k8s): de-hardcode agent seeding to support arbitrary custom agents
+           时间: 2026-07-09T14:16:49.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/0cc3c79ff125c40cf126df8af8e523eb7acec821
+           分支: fix/new_skill_load-m-7003307825, master, test
+        4. 31408344  feat(k8s): add Redis stream bridge for multi-replica Gateway + fix custom skill LEGACY classification
+           时间: 2026-07-09T11:45:19.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/3140834415c16287d9fe5ed2d0d0f5749cbbb9a1
+           分支: fix/new_skill_load-m-7003307825, master, test
+    • mirrorsphere/forge                            提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:feat/custom_m-7040560028, master, test (+1,192 / -1)
+      提交记录（按时间倒序）：
+        1. eaddab2b  feat(skills): 新增 text2sql skill 并接入 msdk-ops agent
+           时间: 2026-07-09T21:06:50.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/forge/-/commit/eaddab2b51d0c8db9ed3b9803ab3e4879d7c2c37
+           分支: feat/custom_m-7040560028, master, test
+
+用户: nelsonliu
+  识别: nelsonliu@moonton.com
+  出现过的名字: nelsonliu
+  总提交    : 3 次
+  总新增/删除: +0 / -0
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 3
+  按项目分布:
+    • publish_platform/ad_bi/openviking             提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:test 
+      提交记录（按时间倒序）：
+        1. 74260728  ci: smoke trigger on test (v3)
+           时间: 2026-07-09T17:39:37.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/openviking/-/commit/74260728e34c9f8b1f4ab12e02c5c179b7f7d8a8
+           分支: test
+        2. 895abe96  ci: smoke trigger on test (v2)
+           时间: 2026-07-09T17:36:44.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/openviking/-/commit/895abe96a46aa7c634a83cd78b8473253891c6c2
+           分支: test
+        3. 1a87e7ac  ci: smoke trigger on test
+           时间: 2026-07-09T17:33:29.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/openviking/-/commit/1a87e7ac0a2b6a8572f2537cdb60632d2cc31f28
+           分支: test
+
+用户: kaisun@moonton.com
+  识别: kaisun@moonton.com
+  出现过的名字: kaisun@moonton.com
+  总提交    : 3 次
+  总新增/删除: +11 / -3
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 3
+  按项目分布:
+    • publish_platform/attribution-service          提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:m-6975561880-概率匹配支持IP+UA (+9 / -1)
+      提交记录（按时间倒序）：
+        1. b6761915  Update HelloWorld.java
+           时间: 2026-07-09T15:41:39.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/attribution-service/-/commit/b676191529a8b1918645ddb28b799aa32d2bc582
+           分支: m-6975561880-概率匹配支持IP+UA
+        2. d4266f77  Create HelloWorld.java
+           时间: 2026-07-09T14:43:58.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/attribution-service/-/commit/d4266f774dbe46cfa414d92f021f5bc9cf273987
+           分支: m-6975561880-概率匹配支持IP+UA
+    • publish_platform/callback-service             提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+2 / -2)
+      提交记录（按时间倒序）：
+        1. 0f5fb216  fix local.yaml
+           时间: 2026-07-09T15:47:46.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/callback-service/-/commit/0f5fb216e0f6ad9fb861464cbc845630f180eac3
+           分支: master
+
+用户: 田元林(Candy)
+  识别: candytian@moonton.com
+  出现过的名字: candytian, 田元林(Candy)
+  总提交    : 2 次
+  总新增/删除: +13 / -13
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 3
+  按项目分布:
+    • publish_platform/web/cockpit                  提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:feat/m-7034534404, main (+13 / -13)
+      提交记录（按时间倒序）：
+        1. d99ba016  fix:m-7034534404 国家大盘区域设置中仅允许分组节点可拖拽/分组内子节点不可拖拽
+           时间: 2026-07-09T19:06:37.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/d99ba016d56b81862f408d1f58b5533e80dc201a
+           分支: feat/m-7034534404, main
+        2. 24b7f688  Merge branch 'feat/m-7034534404' into 'main'
+           时间: 2026-07-09T11:07:48.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/24b7f688bbd27d7b88b6d43e376baae59c8f70c2
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#774 fix:m-7034534404 国家大盘区域设置中仅允许分组节点可拖拽/分组内子节点不可拖拽
+           时间: 2026-07-09T11:07:43.479Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/merge_requests/774
+
+用户: 徐正强(Eoin)
+  识别: eoinxu@moonton.com
+  出现过的名字: 徐正强(Eoin)
+  总提交    : 2 次
+  总新增/删除: +2 / -2
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/ad_bi/openviking             提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:test (+2 / -2)
+      提交记录（按时间倒序）：
+        1. 31e72774  更新 Dockerfile
+           时间: 2026-07-09T09:52:53.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/openviking/-/commit/31e727743d3dae5aeb270f834a5979f7d9222b26
+           分支: test
+        2. af30b7c0  更新 README.md
+           时间: 2026-07-09T09:41:19.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/openviking/-/commit/af30b7c08c66d9408c11637f07e7db3a19481b65
+           分支: test
+
+用户: 解薇(cheryl)
+  识别: cherylxie@moonton.com
+  出现过的名字: cherylxie, 解薇(cheryl)
+  总提交    : 1 次
+  总新增/删除: +12,922 / -0
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/ad_bi/nuwa_alg_server        提交:   1  MR:  1  Commit评论:  0  MR评论:  0 分支:cheryl_dev, master (+12,922 / -0)
+      提交记录（按时间倒序）：
+        1. b919fc9e  m-7043811049, 图片打标服务化
+           时间: 2026-07-09T15:55:38.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/b919fc9e1e443b1e6dc2a3b9dc5ca3cf891dfe5f
+           分支: cheryl_dev, master
+      MR记录（按时间倒序）：
+        1. MR#1 m-7043811049, 图片打标服务化
+           时间: 2026-07-09T07:56:00.184Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/merge_requests/1
+
+用户: 王聪(Wilson)
+  识别: wilsonwang1@moonton.com
+  出现过的名字: 王聪(Wilson)
+  总提交    : 2 次
+  总新增/删除: +0 / -0
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/ad_bi/nuwa_alg_server        提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:master 
+      提交记录（按时间倒序）：
+        1. d9f867e6  Merge branch 'cheryl_dev' into 'master'
+           时间: 2026-07-09T12:48:13.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/d9f867e62a48f64f78e2dc9e527230681857e404
+           分支: master
+    • publish_platform/ad_bi/common-service         提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:dev 
+      提交记录（按时间倒序）：
+        1. 8357560a  Merge branch 'feature/speedup_superset' into 'dev'
+           时间: 2026-07-09T12:48:28.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/common-service/-/commit/8357560a37c9a6d25e9d5ce0e2b3ee398ea58146
+           分支: dev
+
+用户: fengdiwang
+  识别: fengdi.wang@moonton.com
+  出现过的名字: fengdiwang
+  总提交    : 2 次
+  总新增/删除: +7 / -3
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/ad_bi/bi_cockpit             提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:fengdi/main/pday (+7 / -3)
+      提交记录（按时间倒序）：
+        1. b003a418  m-7026563850[国家大盘]获取first_mt_country的趋势标签
+           时间: 2026-07-09T19:28:21.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/b003a4186446bba6dc0521285e393ad11990e428
+           分支: fengdi/main/pday
+        2. 92b1f1eb  m-7026563850[国家大盘]处理周/月的特殊逻辑
+           时间: 2026-07-09T18:56:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/92b1f1ebeba346d254b42ccdca1f7d96e9703667
+           分支: fengdi/main/pday
+
+用户: 叶明(Ming)
+  识别: mingye@moonton.com
+  出现过的名字: 叶明(Ming)
+  总提交    : 2 次
+  总新增/删除: +86 / -59
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/ad_bi/data                   提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+86 / -59)
+      提交记录（按时间倒序）：
+        1. b5991460  Merge branch 'feature-cn-mysql-change-mingye-20260622-m-7013142207'
+           时间: 2026-07-09T12:12:31.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/b5991460c55b06702d23c4df6482f6275fcdedfd
+           分支: master
+        2. efb30aa1  📝 docs: 更新 README 文档，添加项目组成和数据流信息, m-7013142207
+           时间: 2026-07-09T12:07:26.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/efb30aa19faee9c53a080ce68da37f533cc6859d
+           分支: master
+
+用户: dylan
+  识别: dylan@moonton.com
+  出现过的名字: dylan
+  总提交    : 1 次
+  总新增/删除: +6 / -0
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • publish_platform/ad_bi/data                   提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:feature_query_m-7027007568 (+6 / -0)
+      提交记录（按时间倒序）：
+        1. 62d25295  账号付费新增订单号 m-7027007568
+           时间: 2026-07-09T12:23:38.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/62d25295e6edb3add33f2d8fec596754171859af
+           分支: feature_query_m-7027007568
+
+用户: jiangcheng
+  识别: chengjiang@moonton.com
+  出现过的名字: jiangcheng
+  总提交    : 1 次
+  总新增/删除: +7 / -4
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • publish_platform/web/gamma                    提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:main-cn (+7 / -4)
+      提交记录（按时间倒序）：
+        1. e025392e  feat: version
+           时间: 2026-07-09T17:23:52.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gamma/-/commit/e025392e08d3b743bedecbc95a10593814c9fd0e
+           分支: main-cn
+
+----------------------------------------------------------------------------------------------------
+共统计到 19 位活跃用户
