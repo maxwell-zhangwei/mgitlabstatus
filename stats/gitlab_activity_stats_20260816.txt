@@ -1,0 +1,396 @@
+
+====================================================================================================
+最近 24 小时用户活动统计（不使用强制别名映射）
+====================================================================================================
+
+用户: 李铭骏(Mingjun)
+  识别: mingjunli@moonton.com
+  出现过的名字: 李铭骏(Mingjun)
+  总提交    : 61 次
+  总新增/删除: +17,483 / -987
+  Merge Requests: 6 个
+  Commit 评论  : 0 条
+  MR 评论      : 4 条
+  总活动量   : 71
+  按项目分布:
+    • msdk/rispari/server/im-access                 提交:  38  MR:  3  Commit评论:  0  MR评论:  4 分支:feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, feature/IA-M1-WS-SESSION-RUNTIME-session-lifecycle, milestone/M1 (+11,178 / -715)
+      提交记录（按时间倒序）：
+        1. 34e9ef61  docs(progress): 评审报告归档与 rebase 适配复跑段（IA-M1-S1-ENTRY）
+           时间: 2026-08-16T16:50:50.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/34e9ef618be0c156e8e141b4bbd38a09e2c61b23
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, milestone/M1
+        2. bf781df0  docs(progress): 追加合入前同步最终门禁复跑段（IA-M1-S1-ENTRY）
+           时间: 2026-08-16T16:48:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/bf781df09c5c9a0fc119142147719cc2c4ecbdf0
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, milestone/M1
+        3. 71063fb8  fix(conversation): 评审返工 Nit-1~4——枚举短名常量化、过期注释修正、路由测试补齐（IA-M1-S1-ENTRY）
+           时间: 2026-08-16T16:48:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/71063fb81490a1add6f3211ca366a66911f2ef42
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, milestone/M1
+        4. 4df276f9  docs(progress): IA-M1-S1-ENTRY 证据制品——门禁/契约测试/真实 RPC 冒烟/P0-10 透传说明
+           时间: 2026-08-16T16:48:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/4df276f986878b42bb93794d6b967df10fc1f09c
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, milestone/M1
+        5. 9a6691c8  test(conversation): H101/H107 HTTP/RPC 契约测试与映射单测（IA-M1-S1-ENTRY）
+           时间: 2026-08-16T16:48:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/9a6691c8675956400376f69d613b345bec57f615
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, milestone/M1
+        6. 2d6e4eed  feat(conversation): H101/H107 真实 Handler + im-logic RPC 映射（IA-M1-S1-ENTRY）
+           时间: 2026-08-16T16:48:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/2d6e4eeddd8af07c4f94e5478591bdca124de3d0
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, milestone/M1
+        7. 4d25b744  Merge branch 'feature/IA-M1-WS-SESSION-RUNTIME-session-lifecycle' into 'milestone/M1'
+           时间: 2026-08-16T08:27:26.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/4d25b744a2be5796644a6800c01253bba4f0cf1a
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, feature/IA-M1-WS-SESSION-RUNTIME-session-lifecycle, milestone/M1
+        8. 3cf8ab83  refactor(session): GitLab 评论返工——Redis 配置对齐 im-logic、Session 重命名、装配收敛（IA-M1-WS-SESSION-RUNTIME）
+           时间: 2026-08-16T16:21:11.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/3cf8ab831f88ed8862bccc4287b8801d39248cd0
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, feature/IA-M1-WS-SESSION-RUNTIME-session-lifecycle, milestone/M1
+        9. 47ecd4d9  test(session): 补 kicked 去重回归用例与文案润色（IA-M1-WS-SESSION-RUNTIME）
+           时间: 2026-08-16T14:17:04.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/47ecd4d95e414242457d7ac963c58bc9c679dff6
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, feature/IA-M1-WS-SESSION-RUNTIME-session-lifecycle, milestone/M1
+       10. b875a6cc  docs(evidence): 评审返工复跑段与 10 次稳定性输出（IA-M1-WS-SESSION-RUNTIME）
+           时间: 2026-08-16T14:05:20.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/b875a6ccb9f61a56ebabcd20339b08b3936862fe
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, feature/IA-M1-WS-SESSION-RUNTIME-session-lifecycle, milestone/M1
+       11. 3878889b  fix(session): 评审返工——B1 日志断言轮询化、S1 PingHandler 去重、S3 驱赶去重、S2 启动表述同步（IA-M1-WS-SESSION-RUNTIME）
+           时间: 2026-08-16T14:05:20.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/3878889b0b90723279d49279e1dbdf983a713284
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, feature/IA-M1-WS-SESSION-RUNTIME-session-lifecycle, milestone/M1
+       12. 93bd0b83  docs(evidence): 三件验收报告、选型记录、集成输出与门禁输出（IA-M1-WS-SESSION-RUNTIME）
+           时间: 2026-08-16T13:34:28.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/93bd0b83a38dcfdd120a256c1068dfd49fd15804
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, feature/IA-M1-WS-SESSION-RUNTIME-session-lifecycle, milestone/M1
+       13. e6be282f  fix(main): 移除未用的 sessionRedisCloser 占位变量（IA-M1-WS-SESSION-RUNTIME）
+           时间: 2026-08-16T13:23:25.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/e6be282fdb55eb9d83e20680d43340c41b233e3f
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, feature/IA-M1-WS-SESSION-RUNTIME-session-lifecycle, milestone/M1
+       14. 595a188c  test(session): 真实 dev Redis 集成——注册/TTL/清理、断网重连、撤销断连三件验收（IA-M1-WS-SESSION-RUNTIME）
+           时间: 2026-08-16T13:23:25.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/595a188cc3c95490117e031e1be708ff05e5b976
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, feature/IA-M1-WS-SESSION-RUNTIME-session-lifecycle, milestone/M1
+       15. 955341a7  refactor(dal): 导出 Cmdable adapter 契约面供集成测试复用（IA-M1-WS-SESSION-RUNTIME）
+           时间: 2026-08-16T13:23:25.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/955341a7a49fd21cc2cfb4ed224c16af6a101cd6
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, feature/IA-M1-WS-SESSION-RUNTIME-session-lifecycle, milestone/M1
+       16. 3e6f5e0c  feat(main): 会话运行时装配与项目文档同步（IA-M1-WS-SESSION-RUNTIME）
+           时间: 2026-08-16T13:16:06.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/3e6f5e0c9e393ec4e3e6812f2383a691ec68968a
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, feature/IA-M1-WS-SESSION-RUNTIME-session-lifecycle, milestone/M1
+       17. f7c8207b  feat(session): 会话管理器——注册/续期自愈/断连清理/撤销驱赶（IA-M1-WS-SESSION-RUNTIME）
+           时间: 2026-08-16T13:11:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/f7c8207b7b6fd627c43470492248b65fb868e1e2
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, feature/IA-M1-WS-SESSION-RUNTIME-session-lifecycle, milestone/M1
+       18. 93427765  feat(dal): Redis 客户端装配与会话/撤销 adapter（IA-M1-WS-SESSION-RUNTIME）
+           时间: 2026-08-16T13:01:08.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/93427765b7981bc528286eb7e3676f9a25d2d674
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, feature/IA-M1-WS-SESSION-RUNTIME-session-lifecycle, milestone/M1
+       19. f90dd668  feat(conf): redis 配置段与 dev 凭据引用解析（IA-M1-WS-SESSION-RUNTIME）
+           时间: 2026-08-16T12:58:05.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/f90dd668ac30548c00ec33bfaf2f29efd986b62a
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, feature/IA-M1-WS-SESSION-RUNTIME-session-lifecycle, milestone/M1
+       20. 7eff769b  feat(ws): 连接层会话扩展点——SessionBinder 钩子与服务端驱动关闭（IA-M1-WS-SESSION-RUNTIME）
+           时间: 2026-08-16T12:54:21.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/7eff769b1e33bb153f5f643642f1a30fc84a2261
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, feature/IA-M1-WS-SESSION-RUNTIME-session-lifecycle, milestone/M1
+       21. dd163dca  feat(session): 会话域 Record/RouteTTL 规则与 Store/RevocationStore 端口（IA-M1-WS-SESSION-RUNTIME）
+           时间: 2026-08-16T12:49:55.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/dd163dcae9e0c64b376e60ff3f9b08e6ce0669cc
+           分支: feature/IA-M1-S1-ENTRY-h101-h107-mapping, feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, feature/IA-M1-WS-SESSION-RUNTIME-session-lifecycle, milestone/M1
+       22. 8b894b60  docs(evidence): 评审返工与合入前同步最终门禁复跑段 (IA-M1-WS-DOWNLINK-RUNTIME)
+           时间: 2026-08-16T23:18:14.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/8b894b60b8d06092d540feb67ed2feade4734468
+           分支: feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch
+       23. 9beb9eca  fix(downlink): 评审返工 S-2/S-3——Stop 未启动守卫与 downlink/WS 端点配置联动校验 (IA-M1-WS-DOWNLINK-RUNTIME)
+           时间: 2026-08-16T23:15:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/9beb9ecaa3e01da0247e44e4aeca0e0398cefb85
+           分支: feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch
+       24. 1cc69b06  docs(evidence): 四件验收报告、选型记录、集成输出与门禁输出 (IA-M1-WS-DOWNLINK-RUNTIME)
+           时间: 2026-08-16T22:52:28.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/1cc69b06fbd0e0b2c1339013f28ff9c059c02590
+           分支: feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch
+       25. 9a4ee8f2  style: gofmt 规范化（IA-M1-WS-DOWNLINK-RUNTIME）
+           时间: 2026-08-16T22:43:42.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/9a4ee8f2f4c000cad23afee13bb8bb42588a8ec8
+           分支: feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch
+       26. 8794992b  test(downlink): 真实 dev Kafka+Redis 四件验收集成测试 (IA-M1-WS-DOWNLINK-RUNTIME)
+           时间: 2026-08-16T22:42:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/8794992bba3864a82324edf72fc7fcbc0a92ea3e
+           分支: feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch
+       27. 131a8b92  feat(downlink): Kafka 下行分发运行时与装配 (IA-M1-WS-DOWNLINK-RUNTIME)
+           时间: 2026-08-16T22:12:24.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/131a8b92d74ebec667209088f24fd7492d8349be
+           分支: feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch
+       28. 7e55b7db  feat(websocket): 会话就绪钩子与终态回调链式化 (IA-M1-WS-DOWNLINK-RUNTIME)
+           时间: 2026-08-16T22:01:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/7e55b7dbd3aff69dfebe215d0cdcdd27858e15d6
+           分支: feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch
+       29. 579b4fe2  feat(dal): Kafka 连接 adapter 与下行消费组工厂 (IA-M1-WS-DOWNLINK-RUNTIME)
+           时间: 2026-08-16T21:58:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/579b4fe2824ce952945100807e9fa62f440a473d
+           分支: feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch
+       30. 74ada003  feat(domain/dal): 下行分发域与 Redis 路由/去重 adapter (IA-M1-WS-DOWNLINK-RUNTIME)
+           时间: 2026-08-16T21:56:27.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/74ada0032720b16e028165041684a64256bcfe67
+           分支: feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch
+       31. 430c9643  feat(idl): DownlinkEvent proto 与 eventpb 生成物 (IA-M1-WS-DOWNLINK-RUNTIME)
+           时间: 2026-08-16T21:52:28.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/430c96432d6b217abf70ae813a3095db44882f6c
+           分支: feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch
+       32. 4a148471  feat(conf): Kafka/Downlink 配置段与生产 fail-closed 校验 (IA-M1-WS-DOWNLINK-RUNTIME)
+           时间: 2026-08-16T21:51:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/4a148471ab59fc33f0db979bfafe50893d7678ef
+           分支: feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch
+       33. 062d0438  chore(deps): 引入 sarama v1.46.0 Kafka 客户端基线 (IA-M1-WS-DOWNLINK-RUNTIME)
+           时间: 2026-08-16T21:46:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/062d04380577e318a2e8d8e231bd0880d10816f0
+           分支: feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch
+       34. 3184719d  docs(progress): 合入后回填 IA-M1-S1-ENTRY 勾选、完成证据与阶段上下文
+           时间: 2026-08-16T21:13:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/3184719d61ef8945209406ccbdcfa44f2a92cee9
+           分支: feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, milestone/M1
+       35. 8668b41a  Merge branch 'feature/IA-M1-S1-ENTRY-h101-h107-mapping' into 'milestone/M1'
+           时间: 2026-08-16T13:10:31.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/8668b41a7135dd98fc1a84feb76502a335bfd41d
+           分支: feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, milestone/M1
+       36. 7056e2d1  docs(progress): 合入后回填 IA-M1-WS-SESSION-RUNTIME 勾选、完成证据与阶段上下文
+           时间: 2026-08-16T16:51:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/7056e2d196023b34e3b259b27b713cf567b0f807
+           分支: feature/IA-M1-WS-DOWNLINK-RUNTIME-kafka-downlink-dispatch, milestone/M1
+       37. e9a569c7  refactor(dal): 移除 im-logic 对齐后未用的默认读/写超时常量（IA-M1-WS-SESSION-RUNTIME）
+           时间: 2026-08-16T16:35:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/e9a569c76a138de8d3ffe37a4411122d77f6cde7
+           分支: feature/IA-M1-WS-SESSION-RUNTIME-session-lifecycle
+       38. c5093b14  docs(session): 复审建议修正——启动节 dormant 口径与默认超时注释（IA-M1-WS-SESSION-RUNTIME）
+           时间: 2026-08-16T16:35:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/c5093b1423207a524b53022f72e9a9a8db8eaa1e
+           分支: feature/IA-M1-WS-SESSION-RUNTIME-session-lifecycle
+      MR记录（按时间倒序）：
+        1. MR#8 feat(downlink): Kafka im-downlink Consumer、actor→connections 路由与二进制下行 (IA-M1-WS-DOWNLINK-RUNTIME)
+           时间: 2026-08-16T14:53:01.277Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/merge_requests/8
+        2. MR#7 feat(ws-session): 连接会话生命周期——Redis 注册/TTL/清理、断网重连与撤销断连 (IA-M1-WS-SESSION-RUNTIME)
+           时间: 2026-08-16T05:35:03.688Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/merge_requests/7
+        3. MR#6 feat(conversation): H101/H107 真实 Handler + im-logic RPC 映射（IA-M1-S1-ENTRY）
+           时间: 2026-08-16T05:18:20.266Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/merge_requests/6
+      MR评论记录：
+        1. 李铭骏(Mingjun): 这些setup细节一定要放在main.go中吗？
+           MR#: 7 (feat(ws-session): 连接会话生命周期——Redis 注册/TTL/清理、断网重连与撤销断连 (IA-M1-WS-SESSION-RUNTIME))
+           时间: 2026-08-16T07:48:22.152Z
+           链接: 
+        2. 李铭骏(Mingjun): "Record"的命名是不是太宽泛了
+           MR#: 7 (feat(ws-session): 连接会话生命周期——Redis 注册/TTL/清理、断网重连与撤销断连 (IA-M1-WS-SESSION-RUNTIME))
+           时间: 2026-08-16T07:41:57.508Z
+           链接: 
+        3. 李铭骏(Mingjun): 读取配置的方式也不对，参考im-logic
+           MR#: 7 (feat(ws-session): 连接会话生命周期——Redis 注册/TTL/清理、断网重连与撤销断连 (IA-M1-WS-SESSION-RUNTIME))
+           时间: 2026-08-16T07:38:51.549Z
+           链接: 
+        4. 李铭骏(Mingjun): “redis_pay_config”命名不对，im-logic中已针对性处理，可以参考
+           MR#: 7 (feat(ws-session): 连接会话生命周期——Redis 注册/TTL/清理、断网重连与撤销断连 (IA-M1-WS-SESSION-RUNTIME))
+           时间: 2026-08-16T07:38:25.162Z
+           链接: 
+    • msdk/rispari/server/im-logic                  提交:  18  MR:  3  Commit评论:  0  MR评论:  0 分支:feature/IL-M1-S1-CONVERSATION-conversation-ticket-repo, feature/IL-M1-S1-P010-CONSUME-userinfo-fields, feature/IL-M1-S10A-DEVICE-device-validation-last-device-uid, feature/IL-M1-S12A-TICKET-QUERY-list-detail-player, milestone/M1 (+6,189 / -246)
+      提交记录（按时间倒序）：
+        1. 58d0dc40  docs(IL-M1-S1-CONVERSATION): 证据修订——game_version/zone_id 缺口定性升级为 HTTP↔RPC 契约不一致（user_info 有载体、RPC 断链、评审引文自相矛盾）
+           时间: 2026-08-16T11:21:08.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/58d0dc40c3e76b6702cc88cf3baae059750f167d
+           分支: feature/IL-M1-S1-CONVERSATION-conversation-ticket-repo, feature/IL-M1-S1-P010-CONSUME-userinfo-fields, feature/IL-M1-S10A-DEVICE-device-validation-last-device-uid, feature/IL-M1-S12A-TICKET-QUERY-list-detail-player, milestone/M1
+        2. 953dcd8d  docs(IL-M1-S1-P010-CONSUME): 合入前门禁复跑输出（Nit-1 修正后 gofmt/vet/build/go test 全过）
+           时间: 2026-08-16T12:41:04.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/953dcd8da54c7cf8ea25b97ac5d7dff09ec34ac0
+           分支: feature/IL-M1-S1-P010-CONSUME-userinfo-fields, feature/IL-M1-S10A-DEVICE-device-validation-last-device-uid, feature/IL-M1-S12A-TICKET-QUERY-list-detail-player, milestone/M1
+        3. 3c197386  fix(IL-M1-S1-P010-CONSUME): 独立评审 Nit-1 修正——006 migration SQL 去尾分号对齐 001-005 既有文件形态；评审报告（PASS，0 Blocker/0 Major/2 Nit）归档证据
+           时间: 2026-08-16T12:40:27.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/3c1973866f7ab98b8a190d488d734434051edee5
+           分支: feature/IL-M1-S1-P010-CONSUME-userinfo-fields, feature/IL-M1-S10A-DEVICE-device-validation-last-device-uid, feature/IL-M1-S12A-TICKET-QUERY-list-detail-player, milestone/M1
+        4. 6685f89e  docs(IL-M1-S1-P010-CONSUME): 验收证据——migration 与 tags 集成输出、service 校验输出、E2E 输出（P0-10 落库证据行）、门禁输出、语义口径登记（dal 拼接拆分裁决/空串口径/Down 幂等泛化）
+           时间: 2026-08-16T12:30:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/6685f89eb166679f8c2f90e6d8f2c4052d97e97c
+           分支: feature/IL-M1-S1-P010-CONSUME-userinfo-fields, feature/IL-M1-S10A-DEVICE-device-validation-last-device-uid, feature/IL-M1-S12A-TICKET-QUERY-list-detail-player, milestone/M1
+        5. da2cfe0b  test(IL-M1-S1-P010-CONSUME): 验收测试——migration 006 up/down 与 tags 列 schema 断言、tags 存储编码集成（原始逗号串核验/空值口径/往返回读，dev MySQL）、domain ValidateTags 边界与拒绝面、service 校验（含逗号/超 20 元素/超长→INVALID_ARGUMENT）与透传落库、契约测试 success-01 消费三新字段 fixture、E2E 落库证据行（game_version/zone_id/tags）
+           时间: 2026-08-16T12:30:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/da2cfe0b57cd1c4462f35260d00ecf98011efd2b
+           分支: feature/IL-M1-S1-P010-CONSUME-userinfo-fields, feature/IL-M1-S10A-DEVICE-device-validation-last-device-uid, feature/IL-M1-S12A-TICKET-QUERY-list-detail-player, milestone/M1
+        6. c369c4e8  feat(IL-M1-S1-P010-CONSUME): 消费 P0-10 契约修订——GetOrCreateConversationReq only-add game_version=8/zone_id=9/tags=10 接线落库（H101 user_info HTTP→RPC 断链闭环）：kitex_gen 再生成、migration 006 补 CONVERSATION.tags 列（VARCHAR(1024) 逗号分隔，D93 用户上下文组）、dal 层 joinTags/splitTags 拼接/拆分（domain 保持 []string，用户裁决）、service 校验（≤20 元素×≤32 字符×不含逗号→INVALID_ARGUMENT）、handler 透传；migration Down 幂等泛化（1146/1091 容忍，MySQL 8.0 无 DROP COLUMN IF EXISTS）
+           时间: 2026-08-16T12:29:44.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c369c4e8021cdf0732fbac0e06ddd9125ec55535
+           分支: feature/IL-M1-S1-P010-CONSUME-userinfo-fields, feature/IL-M1-S10A-DEVICE-device-validation-last-device-uid, feature/IL-M1-S12A-TICKET-QUERY-list-detail-player, milestone/M1
+        7. 0dbf655f  docs(IL-M1-S1-CONVERSATION): 合入后回填——tasks.md 勾选（MR !11/merge 353e7d6，mingjunli 2026-08-16 批准，验收四件+两轮评审证据）+ 登记 P0-10 消费后续任务 IL-M1-S1-P010-CONSUME；current.md 阶段上下文与证据导航同步
+           时间: 2026-08-16T12:09:09.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/0dbf655f319d96deb35eb9b5458f68926a6b615e
+           分支: feature/IL-M1-S1-P010-CONSUME-userinfo-fields, feature/IL-M1-S10A-DEVICE-device-validation-last-device-uid, feature/IL-M1-S12A-TICKET-QUERY-list-detail-player, milestone/M1
+        8. 353e7d6d  Merge branch 'feature/IL-M1-S1-CONVERSATION-conversation-ticket-repo' into 'milestone/M1'
+           时间: 2026-08-16T04:06:07.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/353e7d6d20e83fe8897bb5ac4cbd844a5ae35957
+           分支: feature/IL-M1-S1-P010-CONSUME-userinfo-fields, feature/IL-M1-S10A-DEVICE-device-validation-last-device-uid, feature/IL-M1-S12A-TICKET-QUERY-list-detail-player, milestone/M1
+        9. 62e6e577  docs(IL-M1-S10A-DEVICE): 合入前门禁复跑输出（rebase 无新合入，gofmt/vet/build/go test 全过）
+           时间: 2026-08-16T22:02:07.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/62e6e577c77b6034e34d697676b6c13ee8d430f6
+           分支: feature/IL-M1-S10A-DEVICE-device-validation-last-device-uid
+       10. aa2d831e  docs(IL-M1-S10A-DEVICE): 独立评审报告（PASS-WITH-NITS，0 Blocker/0 Major/4 Nit）归档与 Nit 处置
+           时间: 2026-08-16T22:01:10.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/aa2d831e67d43e34fa249d820ba8e48a28c05a58
+           分支: feature/IL-M1-S10A-DEVICE-device-validation-last-device-uid
+       11. f125ee4e  docs(IL-M1-S10A-DEVICE): 验收证据——三场景 Repository 集成、契约与 E2E 输出、门禁输出、语义口径登记
+           时间: 2026-08-16T21:48:36.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/f125ee4ec6f644590c1e2220b3edd24cad3bc11e
+           分支: feature/IL-M1-S10A-DEVICE-device-validation-last-device-uid
+       12. b99d8068  feat(IL-M1-S10A-DEVICE): 打开会话设备信息校验与 last_device_uid 记录（不生成变更消息）
+           时间: 2026-08-16T21:48:21.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/b99d806879f44781aeb01c9bfc9709702758e054
+           分支: feature/IL-M1-S10A-DEVICE-device-validation-last-device-uid
+       13. c1df3183  docs(IL-M1-S1-P010-CONSUME): 合入后回填——tasks.md 勾选（MR !12/merge fbc74e7，mingjunli 2026-08-16 批准，接线/幂等泛化/集成 E2E/评审证据）；current.md 阶段上下文与证据导航同步
+           时间: 2026-08-16T12:44:35.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c1df318367527ab1b9e17b0d435675ffed351a15
+           分支: feature/IL-M1-S10A-DEVICE-device-validation-last-device-uid, feature/IL-M1-S12A-TICKET-QUERY-list-detail-player, milestone/M1
+       14. fbc74e75  Merge branch 'feature/IL-M1-S1-P010-CONSUME-userinfo-fields' into 'milestone/M1'
+           时间: 2026-08-16T04:42:24.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/fbc74e75695957826e26dac49bf3410720201437
+           分支: feature/IL-M1-S10A-DEVICE-device-validation-last-device-uid, feature/IL-M1-S12A-TICKET-QUERY-list-detail-player, milestone/M1
+       15. e5cf0015  docs(IL-M1-S12A-TICKET-QUERY): 独立评审第二轮复审 PASS 结论归档（F-1..F-5 逐项复核通过、五包复跑全过）
+           时间: 2026-08-16T22:46:34.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/e5cf0015790844a3ee0391bb2a76e99a6c1deb1d
+           分支: feature/IL-M1-S12A-TICKET-QUERY-list-detail-player
+       16. ca4e6b40  fix(IL-M1-S12A-TICKET-QUERY): 独立评审返工——F-1 handler.go 拆分 handler_ticket_query.go（R1 §8 600 行上限，机械挪移无逻辑改动）；F-2 BusinessStatus 委托 BusinessStatusOf；F-3/F-4 DAL 半残游标/Limit 防御；评审报告与返工记录归档
+           时间: 2026-08-16T22:40:28.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/ca4e6b40038e0e1d89b016bcf5eb5ea2f0523ab6
+           分支: feature/IL-M1-S12A-TICKET-QUERY-list-detail-player
+       17. 36fba0f4  docs(IL-M1-S12A-TICKET-QUERY): 验收证据——分页/详情不存在/ListPlayerTickets 集成输出、契约输出、E2E 输出、门禁输出、语义口径登记（契约缺 app_id 缺口/next_cursor fixture 口径/D43 隔离延续）
+           时间: 2026-08-16T22:13:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/36fba0f42c1516162e34291619e1c2879f2029bc
+           分支: feature/IL-M1-S12A-TICKET-QUERY-list-detail-player
+       18. 8d5a0d2d  feat(IL-M1-S12A-TICKET-QUERY): ListAgentTickets/GetAgentTicketDetail/ListPlayerTickets 三方法真实实现
+           时间: 2026-08-16T22:13:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/8d5a0d2d1231f4dd991d2011ca7ff85a1be3d5d4
+           分支: feature/IL-M1-S12A-TICKET-QUERY-list-detail-player
+      MR记录（按时间倒序）：
+        1. MR#14 IL-M1-S12A-TICKET-QUERY: ListAgentTickets/GetAgentTicketDetail/ListPlayerTickets 真实实现
+           时间: 2026-08-16T14:13:44.815Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/14
+        2. MR#13 feat(IL-M1-S10A-DEVICE): 打开会话设备信息校验与 last_device_uid 记录（不生成变更消息）
+           时间: 2026-08-16T13:49:11.584Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/13
+        3. MR#12 IL-M1-S1-P010-CONSUME：消费 P0-10 契约修订——GetOrCreateConversation user_info 三字段（game_version/zone_id/tags）接线落库，HTTP→RPC 断链闭环
+           时间: 2026-08-16T04:30:30.736Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/12
+    • msdk/rispari/server/docs                      提交:   5  MR:  0  Commit评论:  0  MR评论:  0 分支:milestone/M1 (+116 / -26)
+      提交记录（按时间倒序）：
+        1. f598d4dc  docs(decisions): P0-10 口径修正——tags 空/未提供落空串（NULL 等价，im-logic 可空字符串列口径：写入侧空串、读回收敛 nil），与 CONVERSATION 其余可空字符串列行为一致；分册 B tags 行同步 (IL-M1-S1-CONVERSATION)
+           时间: 2026-08-16T12:26:37.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/f598d4dcb618d0ef6fc37874ae89cb855fb74d63
+           分支: milestone/M1
+        2. 9a278d08  feat(contracts): P0-10 扩展落地——GetOrCreateConversationReq only-add repeated string tags=10（user_info.tags 入契约，落 CONVERSATION.tags VARCHAR 逗号分隔列，dal 层拼接/拆分，用户裁决），fixture success-01 补 tags=[vip] 对齐 H101，契约测试全套 PASS；release-record §8 与 reports 同步扩展登记 (IL-M1-S1-CONVERSATION)
+           时间: 2026-08-16T12:03:29.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/9a278d08493ed541194f15ac37593d7a58ca57e1
+           分支: milestone/M1
+        3. daae4f4a  docs(decisions): P0-10 扩展纳入 user_info.tags——用户裁决落 CONVERSATION.tags 列（VARCHAR(1024) 逗号分隔存 string list，im-logic dal 层拼接/拆分，元素不得含逗号）；分册 B §6.2.1 D93/§6.2.2 补列、分册 C §S1 Req 清单补 game_version/zone_id/tags、分册 D §8.1 写入清单同步 (IL-M1-S1-CONVERSATION)
+           时间: 2026-08-16T12:01:43.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/daae4f4ad5d913c0e81de0bdb3cce09c4a44229c
+           分支: milestone/M1
+        4. 693d648f  feat(contracts): P0-10 落地——GetOrCreateConversationReq only-add game_version=8/zone_id=9（H101 user_info 字段 HTTP→RPC 断链修复，落 CONVERSATION 两列 D91-3），fixture success-01 补字段对齐 H101，契约测试全套 PASS（TC-P010-01 wire 往返）；release-record §8 修订登记，发布 tag 锚点不移动 (IL-M1-S1-CONVERSATION)
+           时间: 2026-08-16T11:41:35.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/693d648ff8c9458d6c1eb0ea29514458ff75d086
+           分支: milestone/M1
+        5. 83e140b4  docs(decisions): P0-10 冻结 GetOrCreateConversationReq only-add game_version/zone_id——关闭 H101 user_info 字段 HTTP→RPC 断链（用户 2026-08-16 指令修复）；按 P0-09 先例就地修订 im-rpc v0.1.0 制品、发布 tag 锚点不移动 (IL-M1-S1-CONVERSATION)
+           时间: 2026-08-16T11:38:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/83e140b4b6d265bbe2d45ab3f2d9494bc24bf3a8
+           分支: milestone/M1
+
+用户: 丁江(jiang)
+  识别: jiangding@moonton.com
+  出现过的名字: jiangding, 丁江(jiang)
+  总提交    : 4 次
+  总新增/删除: +79 / -44
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 6
+  按项目分布:
+    • msdk/paas                                     提交:   4  MR:  2  Commit评论:  0  MR评论:  0 分支:add-mcr-tools-20260716, test (+79 / -44)
+      提交记录（按时间倒序）：
+        1. b2a69a56  fix(mcr-review): 修复 MR !117 核实后的采纳项
+           时间: 2026-08-16T21:32:57.000+08:00
+           链接: http://lf.git.oa.mt/msdk/paas/-/commit/b2a69a56e046e231f6b956cac5f7e437d9c1cad1
+           分支: add-mcr-tools-20260716
+        2. fd58f271  fix(mcr-review): 修复 MR !116 核实后的采纳项
+           时间: 2026-08-16T18:20:37.000+08:00
+           链接: http://lf.git.oa.mt/msdk/paas/-/commit/fd58f2712311e6e40875c7537cc33d6c4b69b6b0
+           分支: add-mcr-tools-20260716, test
+        3. c44d7d7f  Merge branch 'add-mcr-tools-20260716' into 'test'
+           时间: 2026-08-16T13:04:08.000+00:00
+           链接: http://lf.git.oa.mt/msdk/paas/-/commit/c44d7d7fca4a51554d2c3775094f5d02d2d21ded
+           分支: test
+        4. 851c2f4d  Merge branch 'add-mcr-tools-20260716' into 'test'
+           时间: 2026-08-16T10:02:25.000+00:00
+           链接: http://lf.git.oa.mt/msdk/paas/-/commit/851c2f4d4d10ffacf67000f5609d3faaf590d014
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#117 fix(mcr-review): 修复 MR !116 核实后的采纳项
+           时间: 2026-08-16T12:58:26.057Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/paas/-/merge_requests/117
+        2. MR#116 feat(pay): 支付漏斗多维表格移除 S01/S02 并默认锚定支付-新增订单
+           时间: 2026-08-16T09:27:49.692Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/paas/-/merge_requests/116
+
+用户: 郑淼(Miao)
+  识别: miaozheng@moonton.com
+  出现过的名字: miao, 郑淼(Miao)
+  总提交    : 3 次
+  总新增/删除: +0 / -1
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 4
+  按项目分布:
+    • mirrorsphere/forge                            提交:   3  MR:  1  Commit评论:  0  MR评论:  0 分支:feat/custom_m-7040560028, master, test (+0 / -1)
+      提交记录（按时间倒序）：
+        1. 544b8511  fix(skill): 删除 msdk-paas-quality-report 失效的 allowed-tools 字段
+           时间: 2026-08-16T00:11:34.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/forge/-/commit/544b85113cc5dce989067b7964a0030f08415543
+           分支: feat/custom_m-7040560028, master, test
+        2. caa08b27  Merge branch 'feat/custom_m-7040560028' into 'master'
+           时间: 2026-08-15T16:17:59.000+00:00
+           链接: http://lf.git.oa.mt/mirrorsphere/forge/-/commit/caa08b27e58ae57d39d738d8e11de48dbc384181
+           分支: master
+        3. 38460474  Merge branch 'feat/custom_m-7040560028' into 'test'
+           时间: 2026-08-15T16:22:04.000+00:00
+           链接: http://lf.git.oa.mt/mirrorsphere/forge/-/commit/3846047452e80ad239f2a490c567d384280dc98e
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#32 refactor(skill): 收窄 msdk-text2sql description 并补路由边界与 evals
+           时间: 2026-08-15T16:18:38.666Z
+           状态: merged
+           链接: http://lf.git.oa.mt/mirrorsphere/forge/-/merge_requests/32
+
+用户: 吴超伟(Chaowei)
+  识别: chaoweiwu@moonton.com
+  出现过的名字: 吴超伟(Chaowei)
+  总提交    : 1 次
+  总新增/删除: +16 / -5
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • publish_platform/mt_publish_crawler           提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+16 / -5)
+      提交记录（按时间倒序）：
+        1. 645c874e  m-6857843035 小米/华为渠道修复
+           时间: 2026-08-16T10:28:58.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/mt_publish_crawler/-/commit/645c874ec0fbd2a0ce3db21d4d20e24647feadd9
+           分支: master
+
+----------------------------------------------------------------------------------------------------
+共统计到 4 位活跃用户
