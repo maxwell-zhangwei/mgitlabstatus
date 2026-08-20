@@ -1,0 +1,1763 @@
+
+====================================================================================================
+最近 24 小时用户活动统计（不使用强制别名映射）
+====================================================================================================
+
+用户: 李铭骏(Mingjun)
+  识别: mingjunli@moonton.com
+  出现过的名字: 李铭骏(Mingjun)
+  总提交    : 149 次
+  总新增/删除: +42,053 / -1,518
+  Merge Requests: 17 个
+  Commit 评论  : 0 条
+  MR 评论      : 16 条
+  总活动量   : 182
+  按项目分布:
+    • msdk/rispari/server/im-logic                  提交:  59  MR:  5  Commit评论:  0  MR评论:  7 分支:feature/IL-M1-S17A-OBJECT-STORAGE-oss-presign-adapter, feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1 (+14,949 / -353)
+      提交记录（按时间倒序）：
+        1. 6cc266fe  fix(attachment): 三轮复审建议闭合——R3-S1 domain port 注释中性化（CDN/签名双形态）、R3-S2 集成测试头注释同步、R3-S3 补 CDN 形态空 key 拒收+lifetime=0 仍成功两条钉死用例；三轮复审报告归档（PASS 0 阻塞）(IL-M1-S17A-OBJECT-STORAGE)
+           时间: 2026-08-19T12:05:41.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/6cc266fe40bf6204197574292ea8086f7d9021fa
+           分支: feature/IL-M1-S17A-OBJECT-STORAGE-oss-presign-adapter, feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1
+        2. 3a8e0827  feat(oss): 配置补 endpoint(oss-accelerate 传输加速) + cdn_domain(attach.rispari.moontontech.com)；resource_url cdn_domain 配置时切 CDN 公开地址形态（未配回落签名 GET）(IL-M1-S17A-OBJECT-STORAGE)
+           时间: 2026-08-19T11:54:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/3a8e08279e9eaf90f3e1b1df8eea25c399d863a2
+           分支: feature/IL-M1-S17A-OBJECT-STORAGE-oss-presign-adapter, feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1
+        3. f340dc7d  docs(progress): 二轮复审建议闭合——R2-S1 tasks.md 编排表述对齐代码实际顺序、R2-S2 service.go INTERNAL_ERROR 注释口径、R2-S3 selection-records 交叉引用 IL-23、R2-S4 commit 链更新为 rebase 后 793ced3–02efa81 并补 MR !25/评审两行；二轮复审报告归档（PASS 0 阻塞）(IL-M1-S17A-OBJECT-STORAGE)
+           时间: 2026-08-19T11:54:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/f340dc7d6f8f0564dc61ffbe8b7c6085a46c975c
+           分支: feature/IL-M1-S17A-OBJECT-STORAGE-oss-presign-adapter, feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1
+        4. c13aa402  chore(attachment): 合入前同步——装配日志串对齐 R1 §4 错误信息纪律（去 S17/R5 编号，dc4bd16 口径）+ gate-output 合入前同步复跑段（rebase 后门禁四项全过）(IL-M1-S17A-OBJECT-STORAGE)
+           时间: 2026-08-19T11:54:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c13aa402751d38b8d6fae2405d67421e6bd37b0e
+           分支: feature/IL-M1-S17A-OBJECT-STORAGE-oss-presign-adapter, feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1
+        5. 194dc732  docs(progress): 独立评审报告归档（有条件 PASS：1 阻塞 B-1/6 建议 S-1~S-6）与 gate-output 返工复跑段补全 (IL-M1-S17A-OBJECT-STORAGE)
+           时间: 2026-08-19T11:54:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/194dc732df03da90c76537819d754d32ac087c62
+           分支: feature/IL-M1-S17A-OBJECT-STORAGE-oss-presign-adapter, feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1
+        6. c1e300a3  fix(attachment): 评审返工——B-1 handler.go 拆分满足 R1 §8 行数上限（623→558，S17 三函数移至 handler_attachment.go）+ S-1 编排顺序注释如实化 + S-2 INTERNAL_ERROR 注释修正 + S-3 域常量复用 + S-4 基础设施失败路径两用例 (IL-M1-S17A-OBJECT-STORAGE)
+           时间: 2026-08-19T11:54:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c1e300a37ece3c9d99a92bf430d255bd15613cf6
+           分支: feature/IL-M1-S17A-OBJECT-STORAGE-oss-presign-adapter, feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1
+        7. 97c66c72  docs(progress): IL-M1-S17A-OBJECT-STORAGE 任务条目登记与证据归档（门禁/测试/厂商适配报告/探测呈报）(IL-M1-S17A-OBJECT-STORAGE)
+           时间: 2026-08-19T11:54:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/97c66c727b5fdc310ddb7110897257f502827feb
+           分支: feature/IL-M1-S17A-OBJECT-STORAGE-oss-presign-adapter, feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1
+        8. 0dccaf2a  test(attachment): S17 三层测试（单元内存 fake + 真实 OSS 集成探测 + 契约 wire 链路）(IL-M1-S17A-OBJECT-STORAGE)
+           时间: 2026-08-19T11:54:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/0dccaf2afe4f5bd50743f071e9974ddbe25fbf08
+           分支: feature/IL-M1-S17A-OBJECT-STORAGE-oss-presign-adapter, feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1
+        9. 536b709c  feat(attachment): S17 附件上传凭证签发用例 + handler 替换 + main.go 接线（R5=300s）(IL-M1-S17A-OBJECT-STORAGE)
+           时间: 2026-08-19T11:54:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/536b709c572f5648cd4b28fce4dccf3eb32ea9a4
+           分支: feature/IL-M1-S17A-OBJECT-STORAGE-oss-presign-adapter, feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1
+       10. 97f15128  feat(attachment): S17 对象存储 domain port + 阿里云 OSS 预签名 adapter（content-type 绑定）(IL-M1-S17A-OBJECT-STORAGE)
+           时间: 2026-08-19T11:54:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/97f151283d2ba2623a179f0a859317a118f9f068
+           分支: feature/IL-M1-S17A-OBJECT-STORAGE-oss-presign-adapter, feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1
+       11. 18e6d564  docs(rules): CLAUDE.md 提交门禁段同步 R1 §6 分级门禁（docs 4a2522e）——G1 静态基线/G2 定向/G3 全量档位指引，门禁命令块标注 G3 全量与 G2 定向口径
+           时间: 2026-08-19T11:13:55.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/18e6d56450ba54e23ed7fb29d2071195beffd139
+           分支: feature/IL-M1-S17A-OBJECT-STORAGE-oss-presign-adapter, feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1
+       12. df15d073  docs(progress): IL-M1-S4-PULL 合入前同步——rebase 至 7a0a1ca（MR !26 基线，零冲突），G3 全量门禁复跑全过 (IL-M1-S4-PULL)
+           时间: 2026-08-19T15:30:09.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/df15d073e46fe6d6aa15fcf70814659e887f46c3
+           分支: feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, milestone/M1
+       13. 3719ea8a  fix(progress): 评审返工——S-1 IL-17 行内 has_prev 派生备忘就地标注失效（删除线 + IL-24 ③ 对账指针）；独立评审 PASS（0 阻塞/3 建议，review-report.md），S-2/S-3 登记不返工，门禁 G1 复跑全过 (IL-M1-S4-PULL)
+           时间: 2026-08-19T15:28:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/3719ea8a59f5d76f6f7ef555f333dc66f269dece
+           分支: feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, milestone/M1
+       14. 118c468d  docs(progress): IL-M1-S4-PULL 完成证据补记 MR !27 链接 (IL-M1-S4-PULL)
+           时间: 2026-08-19T15:28:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/118c468dc1bc8514de30da259d892ec99c87f768
+           分支: feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, milestone/M1
+       15. f8306aad  docs(progress): IL-M1-S4-PULL 任务条目登记与门禁证据归档——tasks.md 勾选+完成证据、语义口径（D101/D75/D24/D81 落点、mark_read 留白、has_prev 对账结论）；交接表 IL-17 S4-PULL 分段翻转与 IL-24 登记（mark_read 留白/S5 观察项/has_prev 差异） (IL-M1-S4-PULL)
+           时间: 2026-08-19T15:28:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/f8306aadc940c75358f8da9ad7b00d832e4904a5
+           分支: feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, milestone/M1
+       16. 28a23231  test(message): C 端补拉验收四件——领域规则单测/用例假 port 矩阵/契约 RealImpl 信封/集成分页收敛防呆环/断线恢复 trace e2e (IL-M1-S4-PULL)
+           时间: 2026-08-19T15:28:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/28a23231144b82fdac7790dc6037cbf254ac837f
+           分支: feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, milestone/M1
+       17. 51a2c18e  feat(message): C 端补拉 PullMessages 真实实现——玩家可见集合扫描 + cursor/limit/direction 领域规则 + 装配接线 (IL-M1-S4-PULL)
+           时间: 2026-08-19T15:28:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/51a2c18ed7933c8cf2fb5073ab1e93c8a7fe831b
+           分支: feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, milestone/M1
+       18. 7a0a1ca5  Merge branch 'feature/claude-rules-inline-import' into 'milestone/M1'
+           时间: 2026-08-19T07:16:52.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/7a0a1ca52a00146496ad9ce15d68f3ad724cf91f
+           分支: feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, milestone/M1
+       19. b7c3cc98  docs(rules): CLAUDE.md 规则段再简化——移除 skill 指引表述，仅保留目录指向与按需读取
+           时间: 2026-08-19T15:14:40.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/b7c3cc989e073c00e6a39d726b124de0f682fc1f
+           分支: feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1
+       20. ec390817  docs(skills): 同批重构增补——git-worktree-workflow worktree 操作 runbook skill 落库（wt-new/sync/backfill/cleanup 四脚本+坑位清单），im-task-playbook 增 r6-progress-modes.md（R6 进度模式全文）及其参考引用，gitlab-mr-comments 增 set-desc 安全更新 MR 描述子命令（GET 留痕→PUT→独立回读核验、空内容拒绝，结构性防描述误清空）
+           时间: 2026-08-19T14:55:28.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/ec3908178f5c99fda4fb83cbc566a570841e35f0
+           分支: feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1
+       21. c30adae0  docs(rules): CLAUDE.md 规则段简化——移除 docs 仓权威文本表述与 @import 文件列举，仅指向仓内 .claude/rules/ 目录（用户裁决：不再跨目录引用；规则文件动态变化不逐一列举；规则按需读取）
+           时间: 2026-08-19T14:49:46.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c30adae077a9f30adfc45d15d9d608618f6740df
+           分支: feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1
+       22. c9ffeff1  docs(rules): 评审返工——R6 精简版头部悬空指针修复（MR !26 评审 B-1：im-task-playbook references/r6-progress-modes.md 未入库，改指 docs 仓 R6 权威文本 §4–§7）
+           时间: 2026-08-19T14:47:07.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c9ffeff13e835946a95f62e2bf318118495104f3
+           分支: feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1
+       23. afce21c9  docs(rules): 仓内精简版规则落地 + CLAUDE.md @import 全量加载——.claude/rules/ 五件（R1-go/R2-git/R3-arch/R5-test/R6-progress，自 docs 仓权威文本精简，只保留时刻生效约束；R1-go 含已同步的 §6 分级门禁 docs 4a2522e 与 §4 错误信息纪律），CLAUDE.md 规则引用段改 @import 声明；流程化内容不复制仍归 skill；规则变更流程：先改 docs 仓权威文本再同步本文件
+           时间: 2026-08-19T14:31:23.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/afce21c9cd9aed90c07363c691be1bfcbae95c5c
+           分支: feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1
+       24. ed10cb8c  docs(skills): im-task-playbook 门禁分级化同步 R1 §6（docs 4a2522e）——SKILL.md frontmatter/第 3 步/参考列表改分级表述，gates-and-commands 重构为 G1 静态基线/G2 定向（锚定 grep+定向测试）/G3 全量命令模板，mr-evidence-templates MR 描述模板与 gate-output/完成证据骨架同步档位字段
+           时间: 2026-08-19T13:21:27.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/ed10cb8cbaf6302f81751c6a03ddf1a067599a9d
+           分支: feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1
+       25. 0cdb5ea3  docs(progress): IL-M1-S17A-OBJECT-STORAGE 合入回填（MR !25，merge aa111d4）——tasks.md 完成证据补 merge commit/三轮评审/批准人与 endpoint/cdn_domain 配置补齐口径、current.md 阶段目标追加合入条目、下一步更新（EXT-OBJECT-STORAGE 关闭/IA-M1-S17A-ATTACHMENT 解锁/S17B·S2S3 依赖解锁）与证据导航
+           时间: 2026-08-19T13:11:21.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/0cdb5ea3b0940cb2137cb16bc6ef855ee3efdacc
+           分支: feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1
+       26. aa111d42  Merge branch 'feature/IL-M1-S17A-OBJECT-STORAGE-oss-presign-adapter' into 'milestone/M1'
+           时间: 2026-08-19T05:06:28.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/aa111d423709c55c195ec5e1cafe9d82a39bf1eb
+           分支: feature/IL-M1-S4-PULL-c-pull-visibility-scan, feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, feature/claude-rules-inline-import, milestone/M1
+       27. 8d578cb0  docs(progress): IL-M1-S5-READ-CURSOR 投递口径留痕——IL-31 ③ 与完成证据范围说明补记 READ_CURSOR_UPDATED 端到端投递现状（生产链路验证通过、im-access 消费侧 targets 空零投递留痕）与打通机制指针（WS 连接级会话订阅，docs EXT-CONV-SUBSCRIPTION 待办/提案 MR !30，落地后本事件零改动生效）(IL-M1-S5-READ-CURSOR)
+           时间: 2026-08-19T22:05:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/8d578cb0885dc309591230f68cde3c2d60646084
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, milestone/M1
+       28. e3e45005  feat(IL-M1-S5-READ-CURSOR): 用户裁决——mark_read 服务端硬编码恒 true（默认拉取即已读，D20 评审裁定无 markRead 参数，契约字段为语义位；后续考虑简化或移除 hardcode，D-S5-11）；单测/e2e 对照会话更新为防退化锚定；证据与 tasks.md 同步；G3 门禁复跑全过（gate-output.txt 返工复跑段 4）
+           时间: 2026-08-19T18:48:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/e3e450058f7071284654daf3089e848f9b080336
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, milestone/M1
+       29. a4b134eb  docs(progress): IL-M1-S5-READ-CURSOR 合入前同步门禁复跑证据（G3 全量全过，基线 7ea5106 含 S7）(IL-M1-S5-READ-CURSOR)
+           时间: 2026-08-19T18:48:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/a4b134eb4f42234423439c56323efef3675590c2
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, milestone/M1
+       30. 65609978  docs(progress): IL-M1-S5-READ-CURSOR 合入前同步——交接行改号 IL-25→IL-31（S7-CLOSE-STATE 先合入占 IL-25~30，R6 表尾顺延口径；handoffs 冲突解决 + tasks.md/证据引用全量同步）(IL-M1-S5-READ-CURSOR)
+           时间: 2026-08-19T18:48:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/6560997847f739565976bdcbc452caa4ff8585ff
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, milestone/M1
+       31. 50778a18  docs(progress): IL-M1-S5-READ-CURSOR 完成证据补记用户 GitLab 评审 3 评论处置（评论 1/2 澄清回复、评论 3 返工 c8d3911）(IL-M1-S5-READ-CURSOR)
+           时间: 2026-08-19T18:48:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/50778a183c71e745f3f9988c866945b2854aa9b3
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, milestone/M1
+       32. 702d50e6  fix(IL-M1-S5-READ-CURSOR): MR !29 评论 3 返工——装配日志串移除决策编号 D20（开发信息引用归代码注释，R1 §4 纪律统一）；G3 门禁复跑全过（gate-output.txt 返工复跑段 2）
+           时间: 2026-08-19T18:48:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/702d50e6a519d2e6036cb0ba53b517a7c4a97bea
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, milestone/M1
+       33. 269e5d66  fix(progress): 评审返工——B-1 gofmt 三处注释格式修复（门禁快照后编辑引入）+ G3 全量门禁复跑全过（gate-output.txt 返工复跑段）；独立评审有条件 PASS（1 阻塞/4 建议）review-report.md 归档；S-3 e2e 负断言稳定窗豁免登记 D-S5-10、S-2/S-4 登记不返工 (IL-M1-S5-READ-CURSOR)
+           时间: 2026-08-19T18:48:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/269e5d6672639ba16673e4512dc409af42704315
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, milestone/M1
+       34. db501f9a  docs(progress): IL-M1-S5-READ-CURSOR 完成证据补记 MR !29 链接 (IL-M1-S5-READ-CURSOR)
+           时间: 2026-08-19T18:48:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/db501f9ad90b9088de6e43e25fee7eb5ffcbbee5
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, milestone/M1
+       35. 26a06b90  docs(progress): IL-M1-S5-READ-CURSOR 任务条目登记与门禁证据归档——tasks.md 勾选+完成证据（验收四要素映射、观察项复核结论=接受）；交接表 IL-24 S5 分段翻转与 IL-25 登记（推进内核复用口径/坐席面接缝/event_id 派生/targets 空白名单）；G3 全量门禁证据 gate-output.txt（含并发与 e2e 详细锚点）
+           时间: 2026-08-19T18:48:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/26a06b90aee62486958c484b726012b47089f986
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, milestone/M1
+       36. 3762f7c5  test(IL-M1-S5-READ-CURSOR): 验收四要素测试——成功推进（wire→DB 联动/H107 未读口径）/失败不推进（三失败路径+mark_read=false）/并发游标（dev MySQL 3 轮×16 终值=最大无回退）/事件生产（形状断言+dev Kafka partition/offset 读回+P0-05 失败矩阵）+S5 观察项实测锚定（IL-24 ②）；contracttest 假 ReadCursorWriter 接入信封零改动
+           时间: 2026-08-19T18:48:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/3762f7c5509c514c69dcac75500111c237f734b5
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, milestone/M1
+       37. 917af2cf  feat(IL-M1-S5-READ-CURSOR): 拉取即已读——玩家已读游标 GREATEST 条件推进（D20/D21，TX3 单行原子）+ READ_CURSOR_UPDATED 事件接线（领域层 AdvanceReadSeq 规则与 ReadCursorWriter 窄 port / DAL 条件 UPDATE 存在性探针先例口径 / downlink envelope 扩展点 / PullMessages mark_read=true 成功路径编排，推进与事件失败不失败化拉取 P0-05 同源）
+           时间: 2026-08-19T18:48:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/917af2cf0ae2f7f006c5ce6595af7d6b6bb4f6fe
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, milestone/M1
+       38. 9d1df00a  docs(rules): R1 §8 同步 docs 仓权威文本新增三条（e1025ba）——重复规则抽取（子领域公共方法单一事实源）/适当内聚与收敛边界/登记不预建；提炼自 MR !28 评论处置实践（conversation_id 校验抽取 ValidateConversationID + closer_type 扩展性登记不预建）
+           时间: 2026-08-19T18:40:51.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/9d1df00a1e04f1d7802ee1b3e536770befa92307
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, milestone/M1
+       39. 54bb6282  docs(progress): IL-M1-S7-CLOSE-STATE 合入回填（MR !28，merge 7ea5106）——tasks.md 勾选+完成证据（实现位置/D-S7-1~12 选型要点/证据制品清单/G3 门禁/两轮评论处置/交接 IL-25~28 登记/范围说明），current.md 阶段目标追加合入条目、下一步更新（S7-CLOSE-EVENT 解锁/S9A-SUBMIT 与 S13-HISTORY 部分解锁/S5-READ-CURSOR 可执行）与证据导航 (IL-M1-S7-CLOSE-STATE)
+           时间: 2026-08-19T18:32:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/54bb6282839c142fc34d9e72a5fb8cf8901e2e33
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, milestone/M1
+       40. 7ea5106b  Merge branch 'feature/IL-M1-S7-CLOSE-STATE-close-reject-state' into 'milestone/M1'
+           时间: 2026-08-19T10:25:52.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/7ea5106b482128c803ce604efb768947c6a4d0fb
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, milestone/M1
+       41. 33350113  docs(progress): MR !28 评论 2 处置留痕——selection-records D-S7-12（conversation_id 校验收敛范围与不收敛点边界）+ 交接表 IL-30（message/attachment 域 2 处与应用层 4 处收敛机会登记，消费方=后续触及相关域任务）+ gate-output 评论返工复跑段（G3 全量四项全过） (IL-M1-S7-CLOSE-STATE)
+           时间: 2026-08-19T18:11:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/33350113a8fc94acc327525b43bbb418564e4417
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, milestone/M1
+       42. 45df46d3  refactor(conversation): MR !28 评论返工——conversation_id triplet 校验（非空/≤36/ASCII，重复 9 处）抽取子领域公共方法 convdomain.ValidateConversationID（biz/domain/conversation/id.go，conversation_id 概念属主域，前缀无关消息体保持既有错误串口径），conversation 域内 Conversation/Ticket/CloseTicketCommand 三处 Validate 委托收敛 + 专项单测 6 用例；空值判定统一 TrimSpace 口径（较 Ticket 原 == 更严，fail-closed）；message/attachment 域 2 处因域层零互依赖现状不引入首个跨域 import、应用层 4 处 fail-fast 职责不同——收敛机会登记 IL-30 (IL-M1-S7-CLOSE-STATE)
+           时间: 2026-08-19T18:11:34.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/45df46d3cc874b2eda4b362b3442693bcf3ce366
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, milestone/M1
+       43. d8781045  docs(progress): MR !28 评论处置——RejectTicket 应用层不预建 closer_type 字段（D-S7-11 登记：扩展瓶颈在冻结契约 RejectTicketReq 无该字段，预建纯占位；真正扩展面已有预留——TICKET.closer_type 短名列/CloserType 枚举含 SYSTEM；未来 Bot/系统拒绝变更点集中契约 only-add+handler 映射+domain 配对放开三处），交接表登记 IL-29 回绝方扩展接缝（缺口 open，消费方=契约变更流程，登记不预建先例 D43/IL-7） (IL-M1-S7-CLOSE-STATE)
+           时间: 2026-08-19T17:59:11.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/d87810455d3fa6838e899c1252357e7da283243a
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, milestone/M1
+       44. ec5978de  docs(progress): IL-M1-S7-CLOSE-STATE 证据归档与交接登记——selection-records（D-S7-1 SATISFACTION_CARD 生产归属判定归 S7-CLOSE-EVENT 接缝/D-S7-2 TX2 会话行锁先行锁序结论/D-S7-3~10 幂等键族与错误通道等口径，G-S7-1 summary 列注释歧义呈报）+ review-report（独立评审 PASS：0 阻塞/3 建议，S-1~S-3 返工闭合）+ gate-output（G3 全量四项全过含返工复跑段与合入前同步复跑段，真实 dev MySQL/Redis）；cross-task-handoffs 登记 IL-25（事件生产接缝含卡片归属结论）/IL-26（满意度内联给 S9-A TX5）/IL-27（timeout 消费面给 S8）/IL-28（IL-19 锁面评估闭环）——合入序顺延：S4-PULL 先合入占 IL-24，IL-11/IL-19 状态更新已消费 (IL-M1-S7-CLOSE-STATE)
+           时间: 2026-08-19T16:39:28.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/ec5978defc7f1a605b09073e4abdc5301dc41548
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, milestone/M1
+       45. 2052e0dc  test(ticketclose): S7 验收三要素全覆盖（含独立评审建议项 S-1~S-3 返工闭合）——三关闭路径（玩家/坐席/回绝，DB 断言 closer_id+满意度内联分支钉死：close 路径 PENDING/expires=closed_at+30d、reject 路径 NULL）+ 并发首个生效（DAL 8 路×3 轮恰 1 生效 + E2E 双路 wire 面）+ 幂等测试（同键 deduplicated 回放首次结果/异键 conflict/同键并发竞态 re-Lookup 收敛）+ 边界（PENDING/ACTIVE 起始态、ARCHIVED 终态 conflict 且 closed_at 不被回写、NOT_FOUND/PERMISSION_DENIED/INVALID_ARGUMENT gRPC 状态、timeout 兼容）+ IL-19 死锁面 30 轮 TX1×TX2 压测零死锁；契约测试 fixture 三用例 wire proto.Equal + gRPC 负例；关闭幂等窗口专属单测与兄弟 IdempotencyStore 同族（S-1）；假 port 拆分 service_fakes_test.go（S-3，R1 §8） (IL-M1-S7-CLOSE-STATE)
+           时间: 2026-08-19T16:37:48.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/2052e0dc1b8a059f795092c19023f98b7c1ce439
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, milestone/M1
+       46. 46952e11  feat(ticketclose): S7 关闭/回绝状态面交付——TX2 条件更新并发首个生效（D54 不做乐观锁，会话行锁先行锁序对齐 TX1 消除 IL-19 交叉面）+ 关闭四列/满意度内联初始化（D96-1，reject 例外不初始化 D29/D88）+ CONVERSATION.closed_at 同事务回写（active_flag 释放）+ 关闭幂等窗口 im:idem:CloseTicket/RejectTicket（D54 重复请求返回首次结果，Redis 故障降级条件更新收敛）；CloseTicket/RejectTicket handler stub 替换真实实现，业务错误走 gRPC 状态（Resp 无带内错误字段），timeout reason 兼容 S8 消费面；合入前同步 rebase 至 S4-PULL 合入后基线（PullMessages 接线冲突双方保留） (IL-M1-S7-CLOSE-STATE)
+           时间: 2026-08-19T16:37:35.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/46952e113b36295ed50e6f04a84def3ce0fb982a
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, milestone/M1
+       47. 3a18942f  docs(progress): IL-M1-S4-PULL 合入回填（MR !27，merge 95eda33）——tasks.md 完成证据补 merge 信息与批准人，current.md 阶段上下文与证据导航同步 (IL-M1-S4-PULL)
+           时间: 2026-08-19T15:38:20.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/3a18942f8c85d95b711c3eae776447a5edee5987
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, milestone/M1
+       48. 95eda336  Merge branch 'feature/IL-M1-S4-PULL-c-pull-visibility-scan' into 'milestone/M1'
+           时间: 2026-08-19T07:30:38.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/95eda3366bc0a6de073ade118342b351fcf23068
+           分支: feature/IL-M1-S5-READ-CURSOR-pull-read-advance, feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, feature/IL-M1-S7-CLOSE-STATE-close-reject-state, milestone/M1
+       49. 70d09244  docs(IL-M1-S7-CLOSE-EVENT): gate-output 追加合入前二次同步复跑段（S5 回填后 IL-31 碰撞解决，G3 全绿）
+           时间: 2026-08-19T22:18:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/70d092446907e3381527de49e22ff479bd01fc0d
+           分支: feature/IL-M1-S7-CLOSE-EVENT-close-msg-event
+       50. 73d0ea56  docs(IL-M1-S7-CLOSE-EVENT): gate-output 追加合入前同步复跑段（rebase 653fb45 后 G3 全绿）
+           时间: 2026-08-19T22:15:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/73d0ea560bb4db1cbd8e3d3118abc703c1aee0a3
+           分支: feature/IL-M1-S7-CLOSE-EVENT-close-msg-event
+       51. 3fd332c8  docs(IL-M1-S7-CLOSE-EVENT): 评审证据归档与 MR 评论处置
+           时间: 2026-08-19T22:15:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/3fd332c8b581411f8bf6519697510e7472abe6ca
+           分支: feature/IL-M1-S7-CLOSE-EVENT-close-msg-event
+       52. 0c120b09  docs(IL-M1-S7-CLOSE-EVENT): tasks.md 完成证据补记 MR !30 链接
+           时间: 2026-08-19T22:15:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/0c120b097cae8d1e004706246e8678a80587a0d1
+           分支: feature/IL-M1-S7-CLOSE-EVENT-close-msg-event
+       53. ce209337  docs(IL-M1-S7-CLOSE-EVENT): tasks.md 勾选、交接表 IL-25/IL-15 翻 ✅ 与 IL-32~36 登记、证据归档
+           时间: 2026-08-19T22:15:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/ce20933709422bdbd16b536081c3655720c639a4
+           分支: feature/IL-M1-S7-CLOSE-EVENT-close-msg-event
+       54. 77cfbb23  test(IL-M1-S7-CLOSE-EVENT): 系统消息/事件 payload/失败重试三层验收测试
+           时间: 2026-08-19T22:15:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/77cfbb235d809471ef70c75a8676f4b13c0d3e08
+           分支: feature/IL-M1-S7-CLOSE-EVENT-close-msg-event
+       55. 0a2e4a42  feat(IL-M1-S7-CLOSE-EVENT): 关闭链生产编排与 envelope 扩展点装配
+           时间: 2026-08-19T22:15:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/0a2e4a426c74104bfdcc7f2ab1d94e8862d11542
+           分支: feature/IL-M1-S7-CLOSE-EVENT-close-msg-event
+       56. a714bdef  feat(IL-M1-S7-CLOSE-EVENT): 关闭链系统消息领域规则与已关闭会话 seq 分配口
+           时间: 2026-08-19T22:15:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/a714bdef8ba2a111fb5102f4183aecb81d1fdaa9
+           分支: feature/IL-M1-S7-CLOSE-EVENT-close-msg-event
+       57. bce0b0eb  docs(progress): IL-M1-S5-READ-CURSOR 合入回填（MR !29，merge 4071045）——tasks.md 完成证据补 commit 链/merge 信息与批准人，current.md 阶段目标追加合入条目（含 mark_read 硬编码裁决/观察项复核接受/投递口径留痕）、下一步与当前阻塞更新（EXT-CONV-SUBSCRIPTION 坐席侧实时下行待办）、证据导航同步 (IL-M1-S5-READ-CURSOR)
+           时间: 2026-08-19T22:13:29.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/bce0b0eba9d6762735768abd27dcae1b942f15f3
+           分支: feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, milestone/M1
+       58. 4071045e  Merge branch 'feature/IL-M1-S5-READ-CURSOR-pull-read-advance' into 'milestone/M1'
+           时间: 2026-08-19T14:08:40.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/4071045ed8df48496ec4d824ad2701e71420a1ef
+           分支: feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, milestone/M1
+       59. 653fb452  docs(rules): R1 §8 同步 docs 仓权威文本新增条款（ea8d3ca）——命名不携带开发信息（标识符按业务语义命名，禁任务/端点/决策/MR/用例编号；生成代码豁免、溯源引用放注释、存量随包改动或专门重构清理）
+           时间: 2026-08-19T21:37:49.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/653fb452f2e7e7e6f2f1a1090a7f48cffba49099
+           分支: feature/IL-M1-S7-CLOSE-EVENT-close-msg-event, milestone/M1
+      MR记录（按时间倒序）：
+        1. MR#30 feat(ticket-close-event): 交付关闭系统消息与关闭事件生产 (IL-M1-S7-CLOSE-EVENT)
+           时间: 2026-08-19T13:49:06.126Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/30
+        2. MR#29 feat(read-cursor): 拉取即已读——玩家已读游标条件推进与 READ_CURSOR_UPDATED 事件 (IL-M1-S5-READ-CURSOR)
+           时间: 2026-08-19T09:15:45.035Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/29
+        3. MR#28 feat(ticketclose): S7 玩家关闭、坐席关闭/回绝与并发条件更新 (IL-M1-S7-CLOSE-STATE)
+           时间: 2026-08-19T08:00:09.246Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/28
+        4. MR#27 feat(message): C 端补拉 PullMessages 真实实现——可见性过滤 + cursor/scannedThroughSeq + 范围扫描 (IL-M1-S4-PULL)
+           时间: 2026-08-19T07:08:42.815Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/27
+        5. MR#26 docs(rules): 仓内精简版规则落地 + CLAUDE.md @import 全量加载
+           时间: 2026-08-19T06:31:24.992Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/26
+      MR评论记录：
+        1. 李铭骏(Mingjun): 这个接口处理的逻辑合理吗？
+           MR#: 30 (feat(ticket-close-event): 交付关闭系统消息与关闭事件生产 (IL-M1-S7-CLOSE-EVENT))
+           时间: 2026-08-19T13:56:19.805Z
+           链接: 
+        2. 李铭骏(Mingjun): 备注文案后续会考虑国际化
+           MR#: 30 (feat(ticket-close-event): 交付关闭系统消息与关闭事件生产 (IL-M1-S7-CLOSE-EVENT))
+           时间: 2026-08-19T13:51:33.625Z
+           链接: 
+        3. 李铭骏(Mingjun): 错误信息中不要出现开发信息（“D20”），rule中是否有此条约束？
+           MR#: 29 (feat(read-cursor): 拉取即已读——玩家已读游标条件推进与 READ_CURSOR_UPDATED 事件 (IL-M1-S5-READ-CURSOR))
+           时间: 2026-08-19T10:10:48.077Z
+           链接: 
+        4. 李铭骏(Mingjun): 此处publish event做什么用？
+           MR#: 29 (feat(read-cursor): 拉取即已读——玩家已读游标条件推进与 READ_CURSOR_UPDATED 事件 (IL-M1-S5-READ-CURSOR))
+           时间: 2026-08-19T10:09:57.074Z
+           链接: 
+        5. 李铭骏(Mingjun): 这个MarkRead默认是true吗？
+           MR#: 29 (feat(read-cursor): 拉取即已读——玩家已读游标条件推进与 READ_CURSOR_UPDATED 事件 (IL-M1-S5-READ-CURSOR))
+           时间: 2026-08-19T10:07:22.451Z
+           链接: 
+        6. 李铭骏(Mingjun): 针对conversationId的校验在多处存在吗？是否可以抽取子领域为公共方法？
+           MR#: 28 (feat(ticketclose): S7 玩家关闭、坐席关闭/回绝与并发条件更新 (IL-M1-S7-CLOSE-STATE))
+           时间: 2026-08-19T10:02:04.938Z
+           链接: 
+        7. 李铭骏(Mingjun): 考虑拓展性，是否新增closer_type字段？后续可能有System、Bot/机器人拒绝
+           MR#: 28 (feat(ticketclose): S7 玩家关闭、坐席关闭/回绝与并发条件更新 (IL-M1-S7-CLOSE-STATE))
+           时间: 2026-08-19T08:11:31.422Z
+           链接: 
+    • msdk/rispari/server/im-access                 提交:  47  MR:  4  Commit评论:  0  MR评论:  9 分支:feature/IA-M1-QUICK-REPLY-ws-downlink-mapping, feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S17A-ATTACHMENT-h106-h313-issue-handler, feature/IA-M1-S4-PULL-h102-pull-handler, feature/claude-rules-inline-import, feature/error-message-cleanup-no-dev-info, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1 (+14,249 / -967)
+      提交记录（按时间倒序）：
+        1. 0731dbfd  fix(setup): MR !16 评论处置——setupLogicClient 装配日志去除 real_methods 计数与方法枚举（保留连接坐标），main() 调用处与函数文档注释同步收敛，真实方法清单权威归 biz/rpcclient.Client 文档注释（随接线同提交更新，后续任务不再修订 main.go）；G2 门禁全过，证据追加评论处置留痕 (IA-M1-QUICK-REPLY)
+           时间: 2026-08-19T14:20:44.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/0731dbfd1c5c36bb83540fac9f18785ab263add1
+           分支: feature/IA-M1-QUICK-REPLY-ws-downlink-mapping, feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S17A-ATTACHMENT-h106-h313-issue-handler, feature/IA-M1-S4-PULL-h102-pull-handler, feature/claude-rules-inline-import, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+        2. 24598b92  docs(progress): 合入前同步留痕——rebase 至 milestone/M1 最新（0692cca，零冲突）后门禁五项复跑全过，gate-output 追加复跑段 (IA-M1-QUICK-REPLY)
+           时间: 2026-08-19T13:25:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/24598b928747b3013252b5b7418dde2aaa80c47e
+           分支: feature/IA-M1-QUICK-REPLY-ws-downlink-mapping, feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S17A-ATTACHMENT-h106-h313-issue-handler, feature/IA-M1-S4-PULL-h102-pull-handler, feature/claude-rules-inline-import, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+        3. c6e36c8f  fix(quickreply): 评审返工——S-1 补 satisfactionCardFromKitex/attachmentFromKitex/body.attachments 三条逆向映射正路径单测；S-2 selection-records D-QR-5③ 去重前缀表述修订为扁平前缀替换（承 S2/S3 先例）；S-3 message_contract_test.go 孤立注释归并；门禁五项复跑全过、review-report 追加返工复核段 (IA-M1-QUICK-REPLY)
+           时间: 2026-08-19T13:24:13.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/c6e36c8f6c5f2f80f40b4eb182f3805b5999b4f3
+           分支: feature/IA-M1-QUICK-REPLY-ws-downlink-mapping, feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S17A-ATTACHMENT-h106-h313-issue-handler, feature/IA-M1-S4-PULL-h102-pull-handler, feature/claude-rules-inline-import, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+        4. c5d4cc58  docs(progress): IA-M1-QUICK-REPLY 证据归档与文档同步——门禁输出(五项全过 34 包)/WS 契约测试输出/RPC 契约测试输出/trace 输出(H-13 三纪律留痕，-count=2 全绿)/选型记录 D-QR-1~6；tasks.md 勾选与完成证据；handoffs H-11/H-12/H-13 消费标记与 H-14 登记（IL-21 消费+W4 复用口径）；CLAUDE.md rpcclient 段同步十三方法 (IA-M1-QUICK-REPLY)
+           时间: 2026-08-19T13:24:13.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/c5d4cc58595d34b48ad70ce5cf467d528bb9924a
+           分支: feature/IA-M1-QUICK-REPLY-ws-downlink-mapping, feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S17A-ATTACHMENT-h106-h313-issue-handler, feature/IA-M1-S4-PULL-h102-pull-handler, feature/claude-rules-inline-import, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+        5. 79ff03b7  feat(quickreply): ListConversationMessages 真实 RPC 映射 + QUICK_REPLY 消息透传——MessageListClient 全形状映射（quick_reply 字段 12/三种卡片/枚举逐值，D-QR-1）供 W4 H102/H319 复用；WS 下行 runtime 零改动（envelope 字节透传天然携带 quick_reply，契约测试四用例双层实证，D-QR-2）；端到端 trace 八步链路（关键词触发产卡→QUICK_REPLY 帧下行→补拉回放→点击上行回归普通 UpMessage，H-13 三纪律隔离，D-QR-5） (IA-M1-QUICK-REPLY)
+           时间: 2026-08-19T13:24:13.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/79ff03b7cfece4b7cedd3404ce00c8a2be98eb87
+           分支: feature/IA-M1-QUICK-REPLY-ws-downlink-mapping, feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S17A-ATTACHMENT-h106-h313-issue-handler, feature/IA-M1-S4-PULL-h102-pull-handler, feature/claude-rules-inline-import, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+        6. 0692cca3  docs(skills): im-task-playbook 门禁分级化同步 R1 §6（docs 4a2522e）——SKILL.md frontmatter/第 3 步/参考列表改分级表述，gates-and-commands 重构为 G1 静态基线/G2 定向（锚定 grep+定向测试）/G3 全量命令模板，mr-evidence-templates MR 描述模板与 gate-output/完成证据骨架同步档位字段
+           时间: 2026-08-19T13:21:31.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/0692cca31504947381edcf65d8d374ded6588658
+           分支: feature/IA-M1-QUICK-REPLY-ws-downlink-mapping, feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S17A-ATTACHMENT-h106-h313-issue-handler, feature/IA-M1-S4-PULL-h102-pull-handler, feature/claude-rules-inline-import, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+        7. 93aafec8  docs(rules): CLAUDE.md 提交门禁段同步 R1 §6 分级门禁（docs 4a2522e）——G1 静态基线（含 golangci-lint）/G2 定向/G3 全量档位指引
+           时间: 2026-08-19T11:13:58.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/93aafec883d60507b52d44f8ad52609c9be8c235
+           分支: feature/IA-M1-QUICK-REPLY-ws-downlink-mapping, feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S17A-ATTACHMENT-h106-h313-issue-handler, feature/IA-M1-S4-PULL-h102-pull-handler, feature/claude-rules-inline-import, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+        8. 02df2d33  Merge branch 'feature/error-message-cleanup-no-dev-info' into 'milestone/M1'
+           时间: 2026-08-19T03:06:11.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/02df2d33ab673ad6f83ff64aee1ef6c20b30b92c
+           分支: feature/IA-M1-QUICK-REPLY-ws-downlink-mapping, feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S17A-ATTACHMENT-h106-h313-issue-handler, feature/IA-M1-S4-PULL-h102-pull-handler, feature/claude-rules-inline-import, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+        9. fb5cdf6b  chore: 评审返工——conn.go 三条失败观测日志移除评审决策编号 R1/R2/R4（MR !15 评审 B-1：handshake/silence timeout 与 frame too large 日志串去标签改 window/threshold/limit 语义名，R1/R2 依据就近入注释）；测试锚定核查无断言依赖，门禁五项复跑全绿（34 包 ok + golangci-lint 0 issues）
+           时间: 2026-08-19T00:13:15.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/fb5cdf6b93a87dd0350ba93b2006e8385477a63c
+           分支: feature/IA-M1-QUICK-REPLY-ws-downlink-mapping, feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S17A-ATTACHMENT-h106-h313-issue-handler, feature/IA-M1-S4-PULL-h102-pull-handler, feature/claude-rules-inline-import, feature/error-message-cleanup-no-dev-info, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       10. 9e2ea3f4  fix(workbench): IA-M1-S12B-WORKBENCH MR !19 评审评论返工与合入前同步二轮——命名业务化（h318Data→unloadTicketCountData / h319Data→messagePageData / buildH319Message→buildMessageItem / buildH319Attachment→buildAttachmentRef / h319Limit*→messageListLimit*）+ im-http 枚举短名收敛切换 biz/component/contractenum（S4-PULL 已合入先例，MR !20 评审口径；常量+映射函数单一事实源，R1 §8 新条款；CloserType 保留 workbench_service 独立定义，direction 归用例文件；废弃 biz/consts/imhttp.go）；交接表 H-18 登记（原拟 H-15→H-16→H-18 两次顺延）；门禁五项复跑全过 (IA-M1-S12B-WORKBENCH)
+           时间: 2026-08-19T21:08:09.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/9e2ea3f4f2865c2481c1ce31768223065d697055
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       11. 49db8c1d  fix(workbench): IA-M1-S12B-WORKBENCH 合入前 rebase 同步收尾——biz/stub/http_test.go 冲突解决误留冗余右括号修复、main.go/http_test.go 端点清单补 H106/H313（16 真实端点，S17A 基线未同步此两处）、合入前同步门禁复跑段追加（五项全过；biz/websocket 既有时序 flake 留痕，本任务范围外未改） (IA-M1-S12B-WORKBENCH)
+           时间: 2026-08-19T20:59:29.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/49db8c1de8a135d22e9f3d1ea46ae18218fc5c51
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       12. a5ebddd4  docs(progress): IA-M1-S12B-WORKBENCH 评审复验段归档——PASS 可合入（B-1/S-1/S-2/S-3 全闭环，独立复跑 G3 全量 34 包全绿 + golangci-lint 0 issues，无新发现问题） (IA-M1-S12B-WORKBENCH)
+           时间: 2026-08-19T20:58:06.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/a5ebddd49a0a6f0277c5b38dfe3df6e85a3ac5f0
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       13. df6e220a  fix(workbench): IA-M1-S12B-WORKBENCH 评审返工——B-1 satisfaction_card 删 RPC 面 message_id（openapi SatisfactionCard 三字段面 additionalProperties=false）+ IDL 再生成 + SATISFACTION_CARD 序列化形状锚点；S-1 契约测试证据重录去截断；门禁复跑段追加 (IA-M1-S12B-WORKBENCH)
+           时间: 2026-08-19T20:58:05.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/df6e220a6ed4446a3429960fc146838e92f12062
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       14. b1424b23  docs(progress): IA-M1-S12B-WORKBENCH 证据归档与文档同步——方法映射表/冒烟输出(15 步 28 断言全 PASS)/契约测试输出/门禁输出(G3 五项全过)/选型记录 D-S12B-1~8；tasks.md 勾选与完成证据；handoffs H-14 消费翻转与 H-16 登记（原拟 H-15，合入前 rebase 遇 IA-M1-S17A-ATTACHMENT 已登记 H-15 按合入序顺延改号）；CLAUDE.md 同步 H318/H319 与 H106/H313 真实端点及十五方法口径 (IA-M1-S12B-WORKBENCH)
+           时间: 2026-08-19T20:58:05.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/b1424b23fe35bece6dbcf8e4fe50802ff85c0ff3
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       15. c0ba6bac  feat(workbench): H318/H319 坐席未拉取数与消息补拉真实 Handler/RPC 映射——IDL First 生成 + GetUnreadTicketCount workbench 第五方法 + ListConversationMessages 复用 MessageListClient（零新建）+ mark_read 恒 true + AGENT_ONLY 透传 (IA-M1-S12B-WORKBENCH)
+           时间: 2026-08-19T20:52:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/c0ba6bace7e4fd36c03e755355b258d833d7d048
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       16. b7cbb9ee  docs(progress): IA-M1-S4-PULL 合入回填（MR !20，merge 9a797bd）——tasks.md 完成证据补 commit 链/merge commit/MR 链接/评审与评论处置/批准人；current.md 阶段上下文同步（W4 波次展开：S4-PULL 合入、S12B 进行中；证据导航补 IA-M1-S4-PULL）（协调方串行回填，用户 2026-08-19 批准合入）
+           时间: 2026-08-19T20:43:50.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/b7cbb9ee89701e8f9bb24d781d48b28397ad4fe8
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       17. 9a797bde  Merge branch 'feature/IA-M1-S4-PULL-h102-pull-handler' into 'milestone/M1'
+           时间: 2026-08-19T12:37:15.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/9a797bdeca2508fbf13fb9009e48c8985bfc3604
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       18. 60cb28b5  refactor(conversation): IA-M1-S4-PULL MR 评审评论返工——标识符去开发信息（MR !20 discussion pull_mapping.go:52）
+           时间: 2026-08-19T20:32:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/60cb28b51d78d7a888c37f089f8c22f10080802b
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S4-PULL-h102-pull-handler, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       19. d117d805  docs(evidence): IA-M1-S4-PULL 评审返工后二次 rebase 门禁复跑段——基线仅 R1-go.md 文档前进（e1025ba 三条新规则），代码零改动，G3 五项全 PASS
+           时间: 2026-08-19T19:55:32.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/d117d80502fda8d760750468db9ccb2d388dc294
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S4-PULL-h102-pull-handler, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       20. b86f8229  refactor(component): IA-M1-S4-PULL MR 评审评论返工——契约枚举 HTTP wire 短名收敛 biz/component/contractenum（MR !20 discussion pull_mapping.go:218）
+           时间: 2026-08-19T19:54:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/b86f82290618f352e78c9ec36d978fb8adeca7e3
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S4-PULL-h102-pull-handler, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       21. 52f99217  docs(evidence): IA-M1-S4-PULL 合入前 rebase 复跑段——G3 五项门禁全 PASS（gofmt/vet/build/test/golangci-lint，GOTOOLCHAIN=go1.24.9）
+           时间: 2026-08-19T19:54:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/52f992173cd3000a8564d94a21afc754585f74c8
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S4-PULL-h102-pull-handler, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       22. 0293911c  docs(claude): IA-M1-S4-PULL 合入前 rebase 计数口径同步——RealImplementedOps 15 / 真实 RPC 十五方法 / fallback 12 / Stub 其余 13 端点（SDK 3 / Admin 10）；并补 IA-M1-S17A-ATTACHMENT 并行合入遗漏的 CLAUDE.md 条目（intro/biz-service/biz-rpcclient/IDL First/契约真实端点/生成边界 + main.go 注释）
+           时间: 2026-08-19T19:54:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/0293911c32875cad3df42915dfd9bfa3b4946b6b
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S4-PULL-h102-pull-handler, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       23. 5d81d3ed  docs(review): IA-M1-S4-PULL 独立评审 PASS 与建议项返工——review-report 归档；CLAUDE.md logic client 计数同步十四；H-14 消费态措辞精化
+           时间: 2026-08-19T19:54:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/5d81d3ed9d157370850ad91df9fab989ae2a407b
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S4-PULL-h102-pull-handler, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       24. 3acad501  test(conversation): IA-M1-S4-PULL H102 断线恢复补拉真实 trace（验收件）
+           时间: 2026-08-19T19:54:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/3acad501fac6939f7915bdda1abf9681b497102d
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S4-PULL-h102-pull-handler, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       25. 14a0e602  docs(progress): IA-M1-S4-PULL 证据归档与交接登记——门禁输出/契约测试输出/选型记录；cross-task-handoffs H-14 消费态更新 + H-15 登记 IL-24 消费；CLAUDE.md 同步 H102 真实端点
+           时间: 2026-08-19T19:54:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/14a0e602917fc4f9bccd412f522ea4b83c92843e
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S4-PULL-h102-pull-handler, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       26. fd2462de  feat(conversation): IA-M1-S4-PULL H102 C 端补拉真实映射——IDL First 生成 + PullMessages RPC 接入 + 契约测试
+           时间: 2026-08-19T19:54:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/fd2462deb7d6111616a66538ecab77932c91aab6
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S4-PULL-h102-pull-handler, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       27. fb2da08a  docs(rules): R1 §8 同步 docs 仓权威文本新增三条（e1025ba）——重复规则抽取（子领域公共方法单一事实源）/适当内聚与收敛边界/登记不预建；提炼自 im-logic MR !28 评论处置实践（conversation_id 校验抽取 + closer_type 扩展性登记）
+           时间: 2026-08-19T19:51:59.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/fb2da08aa901387e7db9e5e26b9f61230b626b7d
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S4-PULL-h102-pull-handler, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       28. db6d975c  docs(progress): IA-M1-S17A-ATTACHMENT 合入回填（MR !18，merge 0951a54）——tasks.md 完成证据补 commit 链/merge commit/MR 链接/评审结论/批准人；current.md 阶段上下文同步（W3 波次本仓全部任务合入、下一步 W3-RC-PROMOTE → W3 E2E → G-W3、S-2 docs fixture expires_in 勘误缺口登记、证据导航）（协调方串行回填，用户 2026-08-19 批准合入）
+           时间: 2026-08-19T18:02:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/db6d975c3ebd1fb53bb465a00c33b910a59150ee
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S4-PULL-h102-pull-handler, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       29. 0951a54c  Merge branch 'feature/IA-M1-S17A-ATTACHMENT-h106-h313-issue-handler' into 'milestone/M1'
+           时间: 2026-08-19T09:56:51.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/0951a54c98354c7f390fdfa2395f75c65e65f18e
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S4-PULL-h102-pull-handler, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       30. 7b80b9e8  fix(attachment): IA-M1-S17A-ATTACHMENT 评审返工——gofmt 修复、注释表述同步与门禁证据重录
+           时间: 2026-08-19T16:55:37.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/7b80b9e84e6fb049737ef59d808ec340cf8c1abc
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S17A-ATTACHMENT-h106-h313-issue-handler, feature/IA-M1-S4-PULL-h102-pull-handler, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       31. 6a11f83d  docs(progress): IA-M1-S17A-ATTACHMENT 证据归档与交接登记
+           时间: 2026-08-19T16:27:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/6a11f83de567cf71a693d721aed974992c425870
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S17A-ATTACHMENT-h106-h313-issue-handler, feature/IA-M1-S4-PULL-h102-pull-handler, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       32. 6f44c2ed  test(attachment): IA-M1-S17A-ATTACHMENT H106/H313 HTTP/RPC 契约测试
+           时间: 2026-08-19T16:26:56.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/6f44c2ed2eb01892d0d5f4501fc346b2f0c82f62
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S17A-ATTACHMENT-h106-h313-issue-handler, feature/IA-M1-S4-PULL-h102-pull-handler, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       33. d028a0d9  feat(attachment): IA-M1-S17A-ATTACHMENT H106/H313 C/B 附件签发真实映射（IDL First + actor_id 鉴权切面注入）
+           时间: 2026-08-19T16:25:53.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/d028a0d911afe57b8464b361f0185055fec145f1
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S17A-ATTACHMENT-h106-h313-issue-handler, feature/IA-M1-S4-PULL-h102-pull-handler, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       34. 99f0c751  Merge branch 'feature/claude-rules-inline-import' into 'milestone/M1'
+           时间: 2026-08-19T07:16:58.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/99f0c751dd23692a9b96811654a1fb12b407c332
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S4-PULL-h102-pull-handler, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       35. 4fe71837  docs(rules): CLAUDE.md 规则段再简化——移除 skill 指引表述，仅保留目录指向与按需读取
+           时间: 2026-08-19T15:14:42.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/4fe71837d0ffdf8fb8625fc643527297cfb1960f
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S4-PULL-h102-pull-handler, feature/claude-rules-inline-import, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       36. 6336a76e  docs(skills): 同批重构增补——git-worktree-workflow worktree 操作 runbook skill 落库（wt-new/sync/backfill/cleanup 四脚本+坑位清单），im-task-playbook 增 r6-progress-modes.md（R6 进度模式全文）及其参考引用，gitlab-mr-comments 增 set-desc 安全更新 MR 描述子命令（GET 留痕→PUT→独立回读核验、空内容拒绝，结构性防描述误清空）；docs/INDEX.md 规则基线更新（R1-AI 已并入 R1 表述）
+           时间: 2026-08-19T14:56:29.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/6336a76e1e4857b517f0cbef4510f313c82dd1fc
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S4-PULL-h102-pull-handler, feature/claude-rules-inline-import, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       37. 16814d36  docs(rules): CLAUDE.md 规则段简化——移除 docs 仓权威文本表述与 @import 文件列举，仅指向仓内 .claude/rules/ 目录（用户裁决：不再跨目录引用；规则文件动态变化不逐一列举；规则按需读取）
+           时间: 2026-08-19T14:49:48.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/16814d369fd86d49328f545f83d56b4288a22a9e
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S4-PULL-h102-pull-handler, feature/claude-rules-inline-import, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       38. f8b4bad9  docs(rules): 评审返工——R6 精简版头部悬空指针修复（MR !17 评审 B-1：im-task-playbook references/r6-progress-modes.md 未入库，改指 docs 仓 R6 权威文本 §4–§7）
+           时间: 2026-08-19T14:47:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/f8b4bad96fe18f0113677801f7afa3ed3b1ea10f
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S4-PULL-h102-pull-handler, feature/claude-rules-inline-import, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       39. c03b73b0  docs(rules): 仓内精简版规则落地 + CLAUDE.md @import 全量加载——.claude/rules/ 五件（R1-go/R2-git/R3-arch/R5-test/R6-progress，自 docs 仓权威文本精简，只保留时刻生效约束；R1-go 含已同步的 §6 分级门禁 docs 4a2522e 与 §4 错误信息纪律），CLAUDE.md 规则引用段改 @import 声明；流程化内容不复制仍归 skill；规则变更流程：先改 docs 仓权威文本再同步本文件
+           时间: 2026-08-19T14:31:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/c03b73b06442d8f8747abcb5cd0a00ab8259ebcd
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S4-PULL-h102-pull-handler, feature/claude-rules-inline-import, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       40. ff248127  docs(progress): IA-M1-QUICK-REPLY 合入回填（MR !16，merge f40156d）——tasks.md 完成证据补 commit 链/merge commit/评审与 MR 评论处置/批准人；current.md 阶段上下文同步（W3 波次 QUICK-REPLY 合入、下一步 W4 复用口径、G-QR-3~6 缺口登记、证据导航）
+           时间: 2026-08-19T14:25:37.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/ff2481278f09a94509fbf9df6f8275fbb4e2d5f6
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S17A-ATTACHMENT-h106-h313-issue-handler, feature/IA-M1-S4-PULL-h102-pull-handler, feature/claude-rules-inline-import, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       41. f40156da  Merge branch 'feature/IA-M1-QUICK-REPLY-ws-downlink-mapping' into 'milestone/M1'
+           时间: 2026-08-19T06:21:56.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/f40156dacf2cd432202670fbf177e705cd12d2dd
+           分支: feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping, feature/IA-M1-S17A-ATTACHMENT-h106-h313-issue-handler, feature/IA-M1-S4-PULL-h102-pull-handler, feature/claude-rules-inline-import, feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       42. df085020  refactor(naming): H-17 消费——存量 hNNN 开发信息标识符业务语义化清理（R1 §8 新条款落地）：conversation_service h101Data→conversationEntryData / buildH101Data→buildConversationEntryData / h107Data→unreadCountData / h101FixtureRequest→entryFixtureRequest；workbench_service h307Data→projectListData / h308Data→ticketListData / h309Data→ticketDetailData / h317Data→playerTicketListData / buildH308TicketItem→buildTicketItem / buildH317TicketItem→buildPlayerTicketItem / h308Limit*→ticketListLimit* / h317Limit*→playerTicketListLimit*；middleware h314Path/h314Method→agentImTokenPath/agentImTokenMethod；注释保留 H 编号溯源（§4 口径）；纯重命名零行为变更，门禁 G3 五项全过（GOTOOLCHAIN=go1.24.9）；handoffs H-17 状态翻转已清理
+           时间: 2026-08-19T21:34:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/df085020ff1885ead2bb808eb2b1d2b0c85a0005
+           分支: feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       43. 4428c495  docs(rules): 仓内精简版 R1-go.md 同步 §8 新条款——命名不携带开发信息（docs 仓权威文本 ea8d3ca；标识符按业务语义命名，禁任务/端点/决策/MR/用例编号，生成代码豁免、溯源引用放注释、存量随包改动或专门重构清理）
+           时间: 2026-08-19T21:34:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/4428c495e7c0388f868574b19d5debe7c1893565
+           分支: feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       44. 2efd4933  docs(progress): IA-M1-S12B-WORKBENCH 合入回填（MR !19，merge dd78f6c）——tasks.md 完成证据补 commit 链/merge commit/MR 链接/评审结论/批准人（含 MR 评审五条处置与 H-18 两次顺延登记）、计数口径修正（十六方法真实/十一 fallback、RealImplementedOps 15→17）；current.md 阶段上下文同步（W4 H 面任务全部合入、下一步 S5-READ-CURSOR 与 H-17 命名清理机会、证据导航）（协调方串行回填，用户 2026-08-19 批准合入）
+           时间: 2026-08-19T21:24:44.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/2efd4933ef85defe85f76858d19a050198cb2b50
+           分支: feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       45. dd78f6c2  Merge branch 'feature/IA-M1-S12B-WORKBENCH-h318-h319-mapping' into 'milestone/M1'
+           时间: 2026-08-19T13:20:13.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/dd78f6c2ab57c0d7c7c6a80b5ae3016dbce97fcc
+           分支: feature/handoff-H-17-hnnn-naming-cleanup, milestone/M1
+       46. 3970129d  docs(progress): H-17 命名清理合入回填（MR !21，merge f3faa86）——current.md 阶段上下文同步（R1 §8「命名不携带开发信息」条款四仓落地 + 本仓 13 族 hNNN 标识符业务语义化，H-17 移出下一步）（协调方串行回填，用户 2026-08-19 批准合入）
+           时间: 2026-08-19T21:41:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/3970129dd0bc071b2877dfbc05c1e5f9d47de93f
+           分支: milestone/M1
+       47. f3faa862  Merge branch 'feature/handoff-H-17-hnnn-naming-cleanup' into 'milestone/M1'
+           时间: 2026-08-19T13:39:16.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/f3faa862968609df5c2ae095d9bd6d3f937a0caa
+           分支: milestone/M1
+      MR记录（按时间倒序）：
+        1. MR#21 refactor(naming): H-17 消费——存量 hNNN 开发信息标识符业务语义化清理 + R1 §8 命名不携带开发信息条款同步
+           时间: 2026-08-19T13:34:50.985Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/merge_requests/21
+        2. MR#19 feat(workbench): H318/H319 坐席未拉取数与消息补拉真实 Handler/RPC 映射 (IA-M1-S12B-WORKBENCH)
+           时间: 2026-08-19T09:50:13.089Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/merge_requests/19
+        3. MR#17 docs(rules): 仓内精简版规则落地 + CLAUDE.md @import 全量加载
+           时间: 2026-08-19T06:31:40.310Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/merge_requests/17
+        4. MR#16 feat(quickreply): Quick Reply 卡片 WS 下行与 HTTP/RPC 消息映射 (IA-M1-QUICK-REPLY)
+           时间: 2026-08-19T05:03:38.731Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/merge_requests/16
+      MR评论记录：
+        1. 李铭骏(Mingjun): 变量或方法命名中不要出现开发信息
+           MR#: 20 (feat(conversation): IA-M1-S4-PULL H102 C 端补拉真实映射（PullMessages RPC 接入 + 契约测试 + 断线恢复 trace）)
+           时间: 2026-08-19T12:17:38.613Z
+           链接: 
+        2. 李铭骏(Mingjun): 这些常量信息有没有多处出现？是否可以考虑内聚、仅一处配置？（别急着改，先探讨）
+           MR#: 20 (feat(conversation): IA-M1-S4-PULL H102 C 端补拉真实映射（PullMessages RPC 接入 + 契约测试 + 断线恢复 trace）)
+           时间: 2026-08-19T10:18:58.083Z
+           链接: 
+        3. 李铭骏(Mingjun): 这个返回字段ScannedThroughSeq做什么用？
+           MR#: 20 (feat(conversation): IA-M1-S4-PULL H102 C 端补拉真实映射（PullMessages RPC 接入 + 契约测试 + 断线恢复 trace）)
+           时间: 2026-08-19T10:15:32.593Z
+           链接: 
+        4. 李铭骏(Mingjun): 命名不要用开发信息，而是基于业务信息
+           MR#: 19 (feat(workbench): H318/H319 坐席未拉取数与消息补拉真实 Handler/RPC 映射 (IA-M1-S12B-WORKBENCH))
+           时间: 2026-08-19T11:37:30.636Z
+           链接: 
+        5. 李铭骏(Mingjun): struct命名不要用开发信息，而是基于业务信息
+           MR#: 19 (feat(workbench): H318/H319 坐席未拉取数与消息补拉真实 Handler/RPC 映射 (IA-M1-S12B-WORKBENCH))
+           时间: 2026-08-19T11:37:18.776Z
+           链接: 
+        6. 李铭骏(Mingjun): struct命名不要用开发信息，而是基于业务信息
+           MR#: 19 (feat(workbench): H318/H319 坐席未拉取数与消息补拉真实 Handler/RPC 映射 (IA-M1-S12B-WORKBENCH))
+           时间: 2026-08-19T11:37:13.702Z
+           链接: 
+        7. 李铭骏(Mingjun): 感觉到处都有这些常量，是否应该统一管理？
+           MR#: 19 (feat(workbench): H318/H319 坐席未拉取数与消息补拉真实 Handler/RPC 映射 (IA-M1-S12B-WORKBENCH))
+           时间: 2026-08-19T11:36:27.917Z
+           链接: 
+        8. 李铭骏(Mingjun): 这两个参数命名不规范，不要用开发信息，而是使用业务信息
+           MR#: 19 (feat(workbench): H318/H319 坐席未拉取数与消息补拉真实 Handler/RPC 映射 (IA-M1-S12B-WORKBENCH))
+           时间: 2026-08-19T11:35:47.215Z
+           链接: 
+        9. 李铭骏(Mingjun): 优化超长日志（后续一直增长），是否可以简化，无需频繁更新real_methods数
+           MR#: 16 (feat(quickreply): Quick Reply 卡片 WS 下行与 HTTP/RPC 消息映射 (IA-M1-QUICK-REPLY))
+           时间: 2026-08-19T06:14:47.754Z
+           链接: 
+    • msdk/rispari/server/docs                      提交:  33  MR:  7  Commit评论:  0  MR评论:  0 分支:feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S1-conversation-create-resume, feature/BASE-M1-E2E-S10A-device-report, feature/BASE-M1-E2E-S12A-workbench-h317, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-F01-CURSOR-WORDING, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1 (+11,922 / -150)
+      提交记录（按时间倒序）：
+        1. 8fa041f8  feat(e2e): BASE-M1-E2E-QUICK-REPLY 验收 Quick Reply 全链——8 用例全部 PASS
+           时间: 2026-08-19T23:37:58.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/8fa041f8c85c34a4f811b21541dec43eec19487b
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay
+        2. 207651b4  Merge branch 'feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy' into 'milestone/M1'
+           时间: 2026-08-19T13:59:54.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/207651b4e8fd9d899983ac2f0be83971ce978bf6
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, milestone/M1
+        3. 7e90be9e  docs(progress): BASE-M1-W3-RC-PROMOTE 合入后串行回填——MR !29 merge 52ddad2 已合入 milestone/M1；current.md RC 运行态切 W3 制品（im-access b7cbb9ee / im-logic 9d1df00a / im-scheduler c77ef0ce，部署 pid 32772/26020/33864，pids.json 落 rc-w3-promote/runtime/）；冒烟 65/65 + FIX-DOWNLINK-PARTITION 消费组专项 3/3 + 回退验证双 PASS + manifest 更新（im-access 15 Real / im-logic 19 Real / im-scheduler 口径不变）与事件呈报回填（dev 库第五次清空候选用户批准恢复、conf kafka/oss 段补齐闭环 W2 接线缺口、构建窗口 origin 推进锚点留存）；G-W3 上下文同步（前置已合入、11 项 depends_on 齐、W3 E2E 四任务 S2A/S3A/QUICK-REPLY/S17A 依赖满足可派发）；证据导航补 rc-w3-promote/ 与 .progress/evidence/BASE-M1-W3-RC-PROMOTE/（协调方串行回填，用户 2026-08-19 批准合入）
+           时间: 2026-08-19T21:57:24.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/7e90be9ef85e1aa3e4a979054ce99096ae0664d9
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, milestone/M1
+        4. ea2c0f10  docs(rc-promote): BASE-M1-W3-RC-PROMOTE 独立评审返工（Yes-with-nits 0 阻塞/1 重要/4 次要，采纳 4 项）——重要 I-1：构建窗口 origin 推进补独立锚点留存 precheck-origin-2026-08-19.txt（git log 提交时间客观锚点链：fb2da08a 定格 ~20:10 → MR !20 merge 9a797bd 20:37:15 → 回填 b7cbb9e 20:43:50 → build-all 首跑 20:56:33，复现命令随附，事件 README 同步指向）；次要 S-1：manifest im-access logic client ListConversationMessages 归属表述澄清（客户端实现随 IA-M1-QUICK-REPLY 合入，H319 HTTP 面仍归 W4 当前 STUB）；次要 S-3：prep 前后快照墙钟时间入 report；次要 S-4：smoke 直跑路径密钥 env 显式断言；建议 A-2：deploy 日志分流锚点注释固化；S-2 不采纳（manifest 已含实证引用）、A-1/A-3/A-4 登记不采纳；tasks.md 完成证据补独立评审记录；返工后门禁复跑 PASS（语法 0 错误、凭据扫描 5 样本×4 文件 0 泄漏）(BASE-M1-W3-RC-PROMOTE)
+           时间: 2026-08-19T21:53:23.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/ea2c0f108d6320cc78792660a631b266c7f43637
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, milestone/M1
+        5. 52ddad2a  Merge branch 'feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy' into 'milestone/M1'
+           时间: 2026-08-19T13:45:27.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/52ddad2a624d6599a77e78cb159c385627639138
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, milestone/M1
+        6. 089a817d  Merge branch 'feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal' into 'milestone/M1'
+           时间: 2026-08-19T13:43:12.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/089a817d0abb0e3af6a546b270f2a51f5993a83a
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, milestone/M1
+        7. 58a469d2  docs(proposal): WS 连接级会话订阅决策提案草稿入库——坐席侧实时下行（源自 IL-M1-S5-READ-CURSOR MR !29 评审讨论：坐席侧实时下行缺口根因=无 conversation 维度订阅结构；方案=im:conv:{conversation_id}→Set(connection_id) 连接级订阅、Hello only-add conversation_id（用户裁决选项 A，无 Watch 帧）、纯订阅投递+visible_scope 强制闸门（实时投递⊆拉取可见）、DownlinkEvent target_actor_ids 移除由 visible_scope 路由元数据替代、玩家坐席对称订阅；含契约变更清单/风险/五项会签决策点，讨论稿未冻结）
+           时间: 2026-08-19T21:41:41.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/58a469d2d6ec85ec0642c84fdb31afb95999d72f
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+        8. ea8d3ca4  docs(rules): R1 §8 编码风格新增一条——命名不携带开发信息（标识符按业务语义命名，禁任务/端点/决策/MR/用例编号等开发过程信息；生成代码豁免、溯源引用放注释、存量随包改动或专门重构清理）；提炼自 im-access MR !19 评审评论处置实践（hNNNData 系列命名业务化 + H-17 跨任务命名清理机会登记）
+           时间: 2026-08-19T21:30:22.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/ea8d3ca4ed07d9a81de8ccdde56e59e7d66f2082
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+        9. 69036b3e  docs(rc-promote): BASE-M1-W3-RC-PROMOTE 三服务 W3 真实制品晋级 Real Candidate——部署入口 rc-w3-promote/（rc-w2-promote/ 脚本形态沿用按本波修订：构建基准 origin/milestone/M1、11 usecase 就绪断言、冒烟矩阵增补 W3 面、新增 smoke-kafka-partition FIX-DOWNLINK-PARTITION 消费组专项观测）；制品 im-access b7cbb9ee / im-logic 9d1df00a / im-scheduler c77ef0ce（GOTOOLCHAIN go1.24.9，契约 v0.1.0 tag contracts-v0.1.0）；prep-db 标准恢复（prep 前置快照检出第五次清空事件候选，用户批准后 down→up 重建 + ag-rc-w3-0001 种子）；回退验证 S2==S0/S3==S1 双 PASS；冒烟 65/65 PASS（im-access 28/28 含 W3 消息 ACK 全链路 Ack(ACK_OK)/ACK_DEDUP_HIT、H301→WS 下行、QUICK_REPLY 卡片、H106/H313 真实 OSS 预签名 expires_in=300 + H102 补拉（基线 W4 S4-PULL MR !20 构建时点合入）；im-logic 24/24 含 IssueAttachmentUploadUrl/PullMessages/CloseTicket/RejectTicket；im-scheduler 10/10 口径不变；消费组专项 3/3 派生组单 member + 12/12 分区 assignment 无停滞）；manifest 三服务更新（im-access 15 Real/13 STUB + logic client 15 Real、im-logic 19 Real/12 STUB、im-scheduler 口径不变）；证据归档 .progress/evidence/BASE-M1-W3-RC-PROMOTE/；凭据纪律扫描 0 泄漏（签名串按 ? 截断）；tasks.md 条目勾选与完成证据回填 (BASE-M1-W3-RC-PROMOTE)
+           时间: 2026-08-19T21:30:05.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/69036b3eb7384cb038f7a33246c435f61f63dd10
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, milestone/M1
+       10. e1025ba1  docs(rules): R1 §8 编码风格新增三条——重复规则抽取（子领域公共方法单一事实源）/适当内聚与收敛边界（不为收敛引入首个跨包依赖、改变对外可见行为先登记）/登记不预建（无真实需求且扩展瓶颈在上下游的占位不预建，随真实需求落地）；提炼自 im-logic MR !28 评论处置（conversation_id 校验抽取 + closer_type 扩展性登记）
+           时间: 2026-08-19T18:38:54.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/e1025ba131cf662f4045cf10571ab4c27a9063a0
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       11. 7a897aeb  docs(progress): G-W2 Gate 收口回填——Gate 跟踪表 G-W2→通过（2026-08-19：12/12 成员 [x]（冻结基线 §5）+ BASE-M1-W2-RC-PROMOTE MR !24 + W2 E2E×3 全 PASS（S1 MR !25 / S10A 22/22 MR !27 / S12A 19/19 MR !26）；W2 无涉及 EXT；发现呈报（dev 库清空环境事件经 prep-db 恢复留痕、F-01 契约文案 MR !28 裁决落地）不阻塞）；current.md Gate 上下文同步（次一收口目标 G-W3，前置 W3-RC-PROMOTE depends_on 为 IA-M1-QUICK-REPLY（开发中）与 IA-M1-S17A-ATTACHMENT（可派发，EXT-OBJECT-STORAGE 已关闭））（协调方串行回填，用户 2026-08-19 批准）
+           时间: 2026-08-19T13:26:04.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/7a897aebd0c1ce3ef1a25ba7c725fe37021e5ec8
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       12. 36494c5a  docs(decisions): P0-13 完成证据补录——EXT-OBJECT-STORAGE 正式关闭（IL-M1-S17A-OBJECT-STORAGE 合入 im-logic MR !25 merge aa111d4）：content-type 绑定实测强制、content-length-range 探测证实预签名 PUT 无法强制后用户裁决简化实现（显式裁决非静默放宽）；tasks.md EXT 表关闭状态列更新、current.md 阻塞段同步、变更记录 v1.7（协调方串行回填，比照 P0-09/EXT-SVR-SIGNATURE 关闭先例）
+           时间: 2026-08-19T13:15:46.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/36494c5a1f921bc422ace1d542d6adff3f4e07f5
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       13. b0a2508e  docs(progress): BASE-M1-F01-CURSOR-WORDING 合入后串行回填——MR !28 merge 0ad13de 已合入 milestone/M1；tasks.md 完成证据补录 MR 链接/commit 链（7cac05a..4022405）/merge commit/独立评审结论（Needs-rework 2 重要 1 次要全采纳返工）/批准人；current.md 回填 F-01 裁决落地闭环（decisions.md v1.6、纯文案澄清无 schema/服务代码变更、contracttest 24/24 PASS）与证据导航 (BASE-M1-F01-CURSOR-WORDING)
+           时间: 2026-08-19T13:09:06.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/b0a2508efdbabdc2fe543e1070b1465932071b6d
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       14. 0ad13de9  Merge branch 'feature/BASE-M1-F01-CURSOR-WORDING' into 'milestone/M1'
+           时间: 2026-08-19T05:06:59.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/0ad13de9a0b346b8251ab8f867f634eac4e6c53c
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       15. 40224051  docs(contracts): BASE-M1-F01-CURSOR-WORDING 评审返工（MR !28 独立评审 Needs-rework：2 重要/1 次要全采纳）——分册 A H308/H317 响应表 next_cursor 措辞同步（P0-12 分册同步纪律，评审重要 1）；gen/http types.gen.go 随 oapi-codegen v2.4.1 重建（comment-only diff——description 逐字嵌入字段注释，证据 README「无需重建」表述修正，评审重要 2）；release-record §8 制品清单修正（复跑记录指向证据路径，补记分册 A/gen/H317 fixture，评审次要 1）；tasks.md 完成证据补返工记录；返工后 contracttest 复跑 24/24 PASS (BASE-M1-F01-CURSOR-WORDING)
+           时间: 2026-08-19T12:20:51.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/40224051034faba55e7ed5ed1aaadb10516a4c2d
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-F01-CURSOR-WORDING, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       16. 7cac05af  docs(contracts): BASE-M1-F01-CURSOR-WORDING F-01 裁决落地（选项 A）——next_cursor 文案修订对齐冻结 fixture 信封口径：openapi H308Data/H317Data 描述与 P0-12 §2 措辞改为「非空页恒为末行游标，空页（无更多）为空」（HTTP fixture H308-success-02 规范信封口径、RPC fixture 与实现一致，原「无更多为空」为 P0-12 修订时文案残留）；同根因修订 H317-success-01 next_cursor 空串→末行游标；decisions.md v1.6 + release-record §8 登记；纯文案/fixture 澄清无 schema/proto/服务代码变更；contracttest 复跑 24/24 PASS (BASE-M1-F01-CURSOR-WORDING)
+           时间: 2026-08-19T12:09:19.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/7cac05af0d0bd0038917392327e5678ba9b6cc91
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-F01-CURSOR-WORDING, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       17. 2c6bebc5  docs(progress): BASE-M1-E2E-S1 合入后串行回填——MR !25 merge 7d77d4b 已合入 milestone/M1；tasks.md 完成证据补录 MR 链接/commit 链（4172ce5..6c65459）/merge commit/独立评审结论（Yes-with-nits 0 阻塞 0 重要 5 次要 3 建议全部采纳返工）/批准人/范围边界；current.md 回填 W2 E2E 进度（S1 完成、三任务全部完成并合入）、G-W2 Gate 上下文与 S1 证据导航（F-E2ES1-01 整库清空事件经 prep-db 标准恢复已留痕）(BASE-M1-E2E-S1)
+           时间: 2026-08-19T11:59:40.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/2c6bebc5d99c4383f2167cc35cefcea976203721
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-F01-CURSOR-WORDING, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       18. 7d77d4b6  Merge branch 'feature/BASE-M1-E2E-S1-conversation-create-resume' into 'milestone/M1'
+           时间: 2026-08-19T03:56:27.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/7d77d4b65190bf4034add8ecdfeb5b52ff58a110
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-F01-CURSOR-WORDING, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       19. b42f8fcf  docs(progress): BASE-M1-E2E-S12A 合入后串行回填——MR !26 merge 6fc9da1 已合入 milestone/M1；tasks.md 完成证据补录 MR 链接/commit 链/merge commit/独立评审结论（Yes-with-nits 0 阻塞采纳 4 项返工）/批准人；current.md 回填 W2 E2E 进度（S12A 完成、余 S1 待执行）、G-W2 Gate 上下文与 S12-A 证据导航（F-01 契约文案口径呈报待裁决已纳入下一步上下文）(BASE-M1-E2E-S12A)
+           时间: 2026-08-19T11:55:42.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/b42f8fcf5a92210b61e67acfbba55f506e008b17
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-F01-CURSOR-WORDING, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       20. 6c654590  docs(e2e): BASE-M1-E2E-S1 评审返工（0 阻塞 / 5 次要 + 3 建议全部采纳）——TC 计数口径 13→12（用例 4 由响应+D-04 承载）、TC-N4 无数据分支 [PASS]→[SKIP] 与 D-05 计数口径一致（HTTP 11 PASS+1 SKIP · DB 8 PASS+1 SKIP）、TC-N1 history_enabled 断言存在→值 true、证据文件名带运行戳防同日覆盖、版本行按服务标注 repo_commit、证据 README 前置检查记录补全（悬空引用修复）+运行历史 4 次全归档、run2 输出补录、F-E2ES1-01 引用出处修正+并行会话重建观察补记 (BASE-M1-E2E-S1)
+           时间: 2026-08-19T11:53:54.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/6c65459059d30b51099ce0161a797a8576d57cd1
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S1-conversation-create-resume, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-F01-CURSOR-WORDING, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       21. cd6f7d72  docs(progress): BASE-M1-E2E-S1 tasks.md 条目勾选与完成证据（任务分支侧勾选；MR/评审/批准字段合入后串行回填）
+           时间: 2026-08-19T11:53:54.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/cd6f7d729370bfcc59c0278da66a60cbc9fb2295
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S1-conversation-create-resume, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-F01-CURSOR-WORDING, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       22. 4172ce58  test(e2e): BASE-M1-E2E-S1 Real Candidate 验收 S1 会话创建/续接与活跃会话未读数——HTTP 矩阵 12/12 + DB 断言 8/8 全 PASS（含消息分支按口径留痕 SKIP）
+           时间: 2026-08-19T11:53:54.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/4172ce58745642de81d19f5a297a2cc248ee200c
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S1-conversation-create-resume, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-F01-CURSOR-WORDING, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       23. 6fc9da1f  Merge branch 'feature/BASE-M1-E2E-S12A-workbench-h317' into 'milestone/M1'
+           时间: 2026-08-19T03:52:59.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/6fc9da1f6bc95dc876f348823fff0986ec365a54
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S1-conversation-create-resume, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-F01-CURSOR-WORDING, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       24. 7a82d88b  docs(e2e): BASE-M1-E2E-S12A rebase 至 milestone/M1 最新（221b24c，S10A 合入后）门禁复跑 PASS（R2 §1.2；凭据 7 样本 6 对象无敏感值、结果统计 19/0 与阶段标记齐备）(BASE-M1-E2E-S12A)
+           时间: 2026-08-19T11:51:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/7a82d88b91303e4e98c17e3b4ff1037d42346cc4
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S1-conversation-create-resume, feature/BASE-M1-E2E-S12A-workbench-h317, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-F01-CURSOR-WORDING, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       25. d89a05dc  docs(progress): BASE-M1-E2E-S10A 合入后串行回填——MR !27 merge 221b24c 已合入 milestone/M1；tasks.md 完成证据补录 MR 链接/评审结论（PASS-WITH-NITS）/批准人；current.md 回填 W2 E2E 进度（S10A 完成、S1/S12A 待执行）、G-W2 Gate 上下文与 S10-A 证据导航
+           时间: 2026-08-19T11:50:49.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/d89a05dc388c78baef4f3bd76562ff3b04a7de98
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S1-conversation-create-resume, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-F01-CURSOR-WORDING, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       26. 7c4d1082  test(e2e): BASE-M1-E2E-S12A 评审返工（MR !26 独立评审 Yes-with-nits：0 阻塞/0 重要/6 次要，采纳 4 项）——断言补强：末页 next_cursor 口径按冻结 fixture 规范信封（H308-success-02 非空页恒为末行游标）修正并新增空页续拉验证（无更多为空）、device os_version 回读、未关闭单 closed 族省略反向断言；措辞精确化：limit 缺省证明力边界（O-04）、19/19 组成口径说明。返工首跑暴露契约文案口径分歧并立 F-01 呈报（next_cursor「无更多为空」openapi/P0-12 文案 vs 冻结 fixture 信封口径，实现与 fixture 一致，待裁决）；环境事件 E-01 留痕（dev 库第四次清空，前缀 seed 幂等重建、未恢复他任务数据）。Run 4 复跑 19/19 PASS + 门禁 7 样本复扫 PASS (BASE-M1-E2E-S12A)
+           时间: 2026-08-19T11:49:43.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/7c4d1082eb4073c9f92296a0648f93f80816a078
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S1-conversation-create-resume, feature/BASE-M1-E2E-S12A-workbench-h317, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-F01-CURSOR-WORDING, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       27. b5a799f3  test(e2e): BASE-M1-E2E-S12A Real Candidate 验收 S12-A 坐席工作台查询与 H317 玩家历史 Ticket——三阶段 explore/seed/main HTTP→RPC 全链路 + DB 只读抽样断言 19/19 全 PASS（RC W2 运行态黑盒只读：H307 全项目 D43/H308 游标模型无 total+翻页排序核对/H309 详情 DB 回读一致+summary 观察项空串非缺陷+跨项目与不存在统一 1002 防枚举/H317 (app_id,player_id) 直查 P0-11/异常族 1001 双域 CP-016；数据准备 e2e-s12a- 前缀最小行集幂等无空窗；服务缺陷呈报 0，驱动侧修正 2 项+观察项 3 项如实留痕；凭据门禁 7 样本 PASS）(BASE-M1-E2E-S12A)
+           时间: 2026-08-19T11:49:43.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/b5a799f35cf31311b0b3e81e50927feb16a0d982
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S1-conversation-create-resume, feature/BASE-M1-E2E-S12A-workbench-h317, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-F01-CURSOR-WORDING, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       28. 221b24ce  Merge branch 'feature/BASE-M1-E2E-S10A-device-report' into 'milestone/M1'
+           时间: 2026-08-19T03:47:06.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/221b24ce2cb8a6c0e271feb3a389fb6a084b61db
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S1-conversation-create-resume, feature/BASE-M1-E2E-S12A-workbench-h317, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-F01-CURSOR-WORDING, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       29. 857a3887  docs(e2e): BASE-M1-E2E-S10A 合入前门禁复跑（R2 §1.2-7）——rebase 至 milestone/M1 最新后复跑 PASS
+           时间: 2026-08-19T11:44:14.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/857a3887869c2b6bd894555711610dbecdbd1dd1
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S1-conversation-create-resume, feature/BASE-M1-E2E-S10A-device-report, feature/BASE-M1-E2E-S12A-workbench-h317, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-F01-CURSOR-WORDING, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       30. 272a3eeb  docs(e2e): BASE-M1-E2E-S10A RC 前置环境验收 S10-A 设备上报 22/22 PASS
+           时间: 2026-08-19T11:43:41.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/272a3eeb1df61c4489199bc07e9fae194671896c
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S1-conversation-create-resume, feature/BASE-M1-E2E-S10A-device-report, feature/BASE-M1-E2E-S12A-workbench-h317, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-F01-CURSOR-WORDING, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       31. 4a2522e6  docs(rules): R1 §6 提交门禁分级化——G1 静态基线（gofmt/vet/build/lint，永不豁免）/G2 定向（纯字符串·注释·格式改动：改动包+锚定 grep 命中包定向测试）/G3 全量（其余一切情形）；档位按可机械核查属性判定——联合 diff 基准、存疑升 G3、跨进程可见字符串锚定 grep 覆盖消费仓、MR 记录档位+评审可升级补跑；动因：小范围纯字符串改动全量门禁成本与拦截收益失衡（im-access MR !15 返工 3 行日志串跑全量 34 包为典型案例）
+           时间: 2026-08-19T11:00:28.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/4a2522e6c4104920a095d9daa2f4ccc0697fd9eb
+           分支: feature/BASE-M1-E2E-QUICK-REPLY-card-downlink-replay, feature/BASE-M1-E2E-S1-conversation-create-resume, feature/BASE-M1-E2E-S10A-device-report, feature/BASE-M1-E2E-S12A-workbench-h317, feature/BASE-M1-E2E-S17A-attachment-issue-upload, feature/BASE-M1-E2E-S3A-agent-send-activate, feature/BASE-M1-F01-CURSOR-WORDING, feature/BASE-M1-W3-RC-PROMOTE-w3-real-deploy, feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal, milestone/M1
+       32. 11ad861e  docs(evidence): BASE-M1-E2E-S3A 验收通过——S3-A 坐席发送与状态迁移 E2E 12/12 PASS
+           时间: 2026-08-19T23:43:10.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/11ad861e9c9a3e512ee8a5a4215d2a5e4bf0241f
+           分支: feature/BASE-M1-E2E-S3A-agent-send-activate
+       33. bf839452  docs(tasks): EXT-CONV-SUBSCRIPTION 优化待办登记——坐席侧下行实时投递依赖 WS 连接级会话订阅机制（非阻塞：各任务以拉取兜底可交付；影响面 READ_CURSOR_UPDATED/S7-CLOSE-EVENT/W6 设备事件/QUICK_REPLY 坐席面 G-QR-3/S11 REMARK/玩家消息坐席实时；提案 docs MR !30 已登记，三端会签后沉淀决策与契约变更，拆 IA/IL 实施任务）
+           时间: 2026-08-19T22:04:22.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/bf839452902ccc31a24224a653e3e6124c8abbf7
+           分支: feature/IL-M1-S5-READ-CURSOR-ws-subscription-proposal
+      MR记录（按时间倒序）：
+        1. MR#31 docs(rc-promote): BASE-M1-W3-RC-PROMOTE 独立评审返工（Yes-with-nits 0 阻塞/1 重要/4 次要，采纳...
+           时间: 2026-08-19T13:59:49.693Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/31
+        2. MR#30 docs(proposal): WS 连接级会话订阅决策提案草稿（坐席侧实时下行）
+           时间: 2026-08-19T13:41:59.130Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/30
+        3. MR#29 BASE-M1-W3-RC-PROMOTE 三服务 W3 真实制品晋级 Real Candidate（W2 先例脚本形态沿用，新增 FIX-DOWNLINK-PARTITION 消费组专项）
+           时间: 2026-08-19T13:30:48.370Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/29
+        4. MR#28 docs(contracts): BASE-M1-F01-CURSOR-WORDING F-01 裁决落地（选项 A）——next_cursor 文案对齐冻结 fixture 信封口径
+           时间: 2026-08-19T04:09:20.603Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/28
+        5. MR#27 docs(e2e): RC 验收 S10-A 设备上报 22/22 PASS (BASE-M1-E2E-S10A)
+           时间: 2026-08-19T03:33:40.461Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/27
+        6. MR#26 test(e2e): BASE-M1-E2E-S12A Real Candidate 验收 S12-A 坐席工作台查询与 H317 玩家历史 Ticket E2E（19/19 PASS）
+           时间: 2026-08-19T03:22:58.778Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/26
+        7. MR#25 test(e2e): BASE-M1-E2E-S1 Real Candidate 验收 S1 会话创建/续接与活跃会话未读数——HTTP 11 PASS + 1 SKIP · DB 断言 8 PASS + 1 SKIP（0 FAIL，SKIP 为 dev 库空窗事件口径留痕）
+           时间: 2026-08-19T03:16:33.895Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/25
+    • msdk/rispari/server/im-scheduler              提交:  10  MR:  1  Commit评论:  0  MR评论:  0 分支:feature/claude-rules-inline-import, milestone/M1 (+933 / -48)
+      提交记录（按时间倒序）：
+        1. 794ca4f4  docs(rules): CLAUDE.md 规则段再简化——移除 skill 指引表述，仅保留目录指向与按需读取
+           时间: 2026-08-19T15:14:44.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/794ca4f4e39521d670ea82cdb56de848394df9a2
+           分支: feature/claude-rules-inline-import, milestone/M1
+        2. 3ebe2a13  docs(skills): 同批重构增补——git-worktree-workflow worktree 操作 runbook skill 落库（wt-new/sync/backfill/cleanup 四脚本+坑位清单），im-task-playbook 增 r6-progress-modes.md（R6 进度模式全文）及其参考引用，gitlab-mr-comments 增 set-desc 安全更新 MR 描述子命令（GET 留痕→PUT→独立回读核验、空内容拒绝，结构性防描述误清空）；docs/INDEX.md 规则基线更新（R1-AI 已并入 R1 表述）
+           时间: 2026-08-19T14:56:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/3ebe2a1370b61e8277ef380e6513c5ecc8417162
+           分支: feature/claude-rules-inline-import, milestone/M1
+        3. 9129fc56  docs(rules): CLAUDE.md 规则段简化——移除 docs 仓权威文本表述与 @import 文件列举，仅指向仓内 .claude/rules/ 目录（用户裁决：不再跨目录引用；规则文件动态变化不逐一列举；规则按需读取）
+           时间: 2026-08-19T14:49:51.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/9129fc56ccffab4c80feee68a149503f82c9677b
+           分支: feature/claude-rules-inline-import, milestone/M1
+        4. 1ade880d  docs(rules): 评审返工——R6 精简版头部悬空指针修复（MR !4 评审 B-1：im-task-playbook references/r6-progress-modes.md 未入库，改指 docs 仓 R6 权威文本 §4–§7）
+           时间: 2026-08-19T14:47:21.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/1ade880db4eae00161aa772554306fda6f4a976b
+           分支: feature/claude-rules-inline-import, milestone/M1
+        5. 52459d37  docs(rules): 仓内精简版规则落地 + CLAUDE.md @import 全量加载——.claude/rules/ 五件（R1-go/R2-git/R3-arch/R5-test/R6-progress，自 docs 仓权威文本精简，只保留时刻生效约束；R1-go 含已同步的 §6 分级门禁 docs 4a2522e 与 §4 错误信息纪律），CLAUDE.md 规则引用段改 @import 声明；流程化内容不复制仍归 skill；规则变更流程：先改 docs 仓权威文本再同步本文件
+           时间: 2026-08-19T14:31:46.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/52459d37667b95f148a0e2f662e1da5903795854
+           分支: feature/claude-rules-inline-import, milestone/M1
+        6. 1620e727  docs(skills): im-task-playbook 门禁分级化同步 R1 §6（docs 4a2522e）——SKILL.md frontmatter/第 3 步/参考列表改分级表述，gates-and-commands 重构为 G1 静态基线/G2 定向（锚定 grep+定向测试）/G3 全量命令模板，mr-evidence-templates MR 描述模板与 gate-output/完成证据骨架同步档位字段
+           时间: 2026-08-19T13:21:35.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/1620e727ea00abb28273d480a90bafeb7cd987cf
+           分支: feature/claude-rules-inline-import, milestone/M1
+        7. 01c04729  docs(rules): CLAUDE.md 常用命令门禁注释同步 R1 §6 分级门禁（docs 4a2522e）——G1 静态/G2 定向/G3 全量，make check 标注 G3 聚合
+           时间: 2026-08-19T11:14:00.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/01c0472980f4e1c220bedca97e7529028e9a3204
+           分支: feature/claude-rules-inline-import, milestone/M1
+        8. 1390557b  docs(rules): R1 §8 同步 docs 仓权威文本新增条款（ea8d3ca）——命名不携带开发信息（标识符按业务语义命名，禁任务/端点/决策/MR/用例编号；生成代码豁免、溯源引用放注释、存量随包改动或专门重构清理）
+           时间: 2026-08-19T21:37:06.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/1390557bd20660b5beb852cf11815bdc435c401e
+           分支: milestone/M1
+        9. c77ef0ce  docs(rules): R1 §8 同步 docs 仓权威文本新增三条（e1025ba）——重复规则抽取（子领域公共方法单一事实源）/适当内聚与收敛边界/登记不预建；提炼自 im-logic MR !28 评论处置实践（conversation_id 校验抽取 + closer_type 扩展性登记）
+           时间: 2026-08-19T20:00:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/c77ef0cea730b9da060affaee2b8728efb08e33f
+           分支: milestone/M1
+       10. 65f502f9  Merge branch 'feature/claude-rules-inline-import' into 'milestone/M1'
+           时间: 2026-08-19T07:17:02.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/65f502f9dfbc8e355ec65d883b0f5b4bb83d66c0
+           分支: milestone/M1
+      MR记录（按时间倒序）：
+        1. MR#4 docs(rules): 仓内精简版规则落地 + CLAUDE.md @import 全量加载
+           时间: 2026-08-19T06:31:47.379Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/merge_requests/4
+
+用户: tito
+  识别: titoxu@moonton.com
+  出现过的名字: tito
+  总提交    : 53 次
+  总新增/删除: +18,844 / -1,642
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 53
+  按项目分布:
+    • msdk/rispari/web/im-agent                     提交:  23  MR:  0  Commit评论:  0  MR评论:  0 分支:feat/im-agent-phase23-business (+5,422 / -1,481)
+      提交记录（按时间倒序）：
+        1. 67396cc3  fix(agent): AudioPlayer play() 守卫 playPromise 未定义情况
+           时间: 2026-08-19T17:57:14.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/67396cc3f37240d9a51e8e19ff6fa5b73358ee5e
+           分支: feat/im-agent-phase23-business
+        2. c5dc0af9  feat(agent): 图片/音频气泡对齐设计稿（1:8750 / 1:8328）
+           时间: 2026-08-19T17:21:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/c5dc0af95f3e1c795bb5de8d93216ee07a9d5266
+           分支: feat/im-agent-phase23-business
+        3. 6165c908  feat(agent): 多图 2 列网格排布（音频跨整行）
+           时间: 2026-08-19T16:55:05.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/6165c9087fe3991d16eb731ab8c055fd2654d1bd
+           分支: feat/im-agent-phase23-business
+        4. 65222f8d  fix(agent): 上传中的附件不可移除（避免孤儿附件）
+           时间: 2026-08-19T16:54:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/65222f8da25bfa1610011f45c4eb289fdb157030
+           分支: feat/im-agent-phase23-business
+        5. 99d0530e  fix(agent): 上传中禁发（含快捷键路径）+ 全局串行上传链
+           时间: 2026-08-19T16:42:49.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/99d0530ed906c33fc5dd54277d289658c3e23ff3
+           分支: feat/im-agent-phase23-business
+        6. bb7fe0b7  feat(agent): 多附件选择 + 上传队列 + 底部附件条，与文本一起发送
+           时间: 2026-08-19T16:38:31.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/bb7fe0b73c7d57196abd6c7b064df3dbe3120685
+           分支: feat/im-agent-phase23-business
+        7. 6c2098af  feat(agent): 复合气泡渲染——文本与多附件（图片/音频）混排
+           时间: 2026-08-19T16:28:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/6c2098af22638027c0f2dd4b21787eb4b6a7f01e
+           分支: feat/im-agent-phase23-business
+        8. f6d28503  fix(agent): 音频互斥按实例 key + 补 pause 监听同步播放状态
+           时间: 2026-08-19T16:23:10.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/f6d285036a14cbe9602db70a986c655dbfcd7fc0
+           分支: feat/im-agent-phase23-business
+        9. c5a2b4bc  feat(agent): 音频播放器（全局互斥 AudioManager + useAudioPlayer + AudioPlayer）
+           时间: 2026-08-19T16:17:58.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/c5a2b4bca55873e08995a49b116d01653438199c
+           分支: feat/im-agent-phase23-business
+       10. 6b8656a9  docs(agent): 附件复合气泡实现计划（SDK 映射 + 音频互斥 + 多附件发送）
+           时间: 2026-08-19T16:06:24.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/6b8656a92d0c12af7dc391078c7bfbf479ca2355
+           分支: feat/im-agent-phase23-business
+       11. 1062de9e  docs(agent): 附件复合气泡设计（音频/图片完整功能 + 多附件发送）
+           时间: 2026-08-19T16:01:00.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/1062de9ed640f1d99d266d6dba35ac323884a535
+           分支: feat/im-agent-phase23-business
+       12. 3bbd6d5f  fix(agent): mock 环境改走 dev-token 免 Web Crypto（修复 crypto.subtle undefined）
+           时间: 2026-08-19T15:39:43.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/3bbd6d5fe200f61b429edd8a165d4e9ac8dcd04c
+           分支: feat/im-agent-phase23-business
+       13. 51d9aae8  feat(agent): 环境切换支持 mock + 补上 axios 依赖
+           时间: 2026-08-19T15:36:10.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/51d9aae81282952a057c75b38cc900722f4834af
+           分支: feat/im-agent-phase23-business
+       14. 276c9aeb  refactor(agent): 项目设置保存失败提示交拦截器，移除重复展示
+           时间: 2026-08-19T15:16:40.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/276c9aebaeded54172840efd3f7ba8508132f4aa
+           分支: feat/im-agent-phase23-business
+       15. 61d9b2a6  refactor(agent): API 层 fetch 改 axios + 拦截器统一错误提示
+           时间: 2026-08-19T14:53:32.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/61d9b2a6cdd94aceedc17927fad8bf49263bc938
+           分支: feat/im-agent-phase23-business
+       16. fa7b5e28  refactor(agent): body 字体也收敛进 tokens.ts 单一事实源
+           时间: 2026-08-19T14:35:37.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/fa7b5e28e67e440f61607fc6b62e8e5f4361b1de
+           分支: feat/im-agent-phase23-business
+       17. 65c33ac8  refactor(agent): 全部组件样式迁入 .module.scss，App.css 仅留骨架
+           时间: 2026-08-19T14:34:11.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/65c33ac8bf386a7086a125f3b43deb42dd7a62a5
+           分支: feat/im-agent-phase23-business
+       18. 730bbb99  refactor(agent): 试点样式升级 SCSS 嵌套(.module.scss)
+           时间: 2026-08-19T14:25:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/730bbb99efef9694141de17ab2a1c103e4e56ec4
+           分支: feat/im-agent-phase23-business
+       19. 06b9c779  refactor(agent): 设计令牌收敛为单一事实源(tokens.ts)
+           时间: 2026-08-19T14:22:51.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/06b9c7797aae92d557da7a930051a9137d5ec961
+           分支: feat/im-agent-phase23-business
+       20. e781d244  refactor(agent): 样式体系试点迁移 CSS Modules（TicketCard + SideNav）
+           时间: 2026-08-19T14:18:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/e781d24436d6e84dcee8697f2d6304e3d26bda0e
+           分支: feat/im-agent-phase23-business
+       21. 5cd8826d  feat(agent): 侧边导航两级联动 + 项目配置页对齐设计稿
+           时间: 2026-08-19T12:02:46.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/5cd8826d491161f489e1d2057755960afadc752e
+           分支: feat/im-agent-phase23-business
+       22. aa5267fe  feat(agent): 可折叠侧边导航 + 项目空间配置页(H315/H316)
+           时间: 2026-08-19T11:44:20.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/aa5267fe6fb85f2e1442e9b2f1a74053f4ff4aa6
+           分支: feat/im-agent-phase23-business
+       23. 938ce261  feat(agent): 客诉列表 UI 对齐设计稿
+           时间: 2026-08-19T11:17:22.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/938ce2611c51f5f00bd6be307b499835f7736bbc
+           分支: feat/im-agent-phase23-business
+    • msdk/rispari/web/im-mock                      提交:  16  MR:  0  Commit评论:  0  MR评论:  0 分支:feat/im-agent-phase23-business (+3,807 / -72)
+      提交记录（按时间倒序）：
+        1. 54b5a460  docs(mock): 更新 README 用户侧接口与 WS 说明
+           时间: 2026-08-19T18:35:27.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-mock/-/commit/54b5a460c2beca10590830cad3da21ba98d030d5
+           分支: feat/im-agent-phase23-business
+        2. 3e5908da  feat(mock): WS Hello 鉴权 + 玩家 UpMessage/Ack 处理
+           时间: 2026-08-19T18:33:06.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-mock/-/commit/3e5908dab9f56a911be13489934d897c43d4e4c8
+           分支: feat/im-agent-phase23-business
+        3. 187d65df  feat(mock): 用户侧 SDK/SVR HTTP 接口（H101-H107 + H901 + dev-token/player）
+           时间: 2026-08-19T18:26:20.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-mock/-/commit/187d65df4d12f2b18b8e9bdd12c5efaba7765c49
+           分支: feat/im-agent-phase23-business
+        4. 46ac5c94  feat(mock): store 用户侧领域方法（会话/满意度/历史/未读/token）
+           时间: 2026-08-19T18:23:14.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-mock/-/commit/46ac5c945e7dca4e8d674825cc47ce3d129f876b
+           分支: feat/im-agent-phase23-business
+        5. ce9112d6  feat(mock): store 增加玩家已读游标与 ticket 建模
+           时间: 2026-08-19T18:20:00.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-mock/-/commit/ce9112d6b71e92520d81dddd507dc5fd526f4545
+           分支: feat/im-agent-phase23-business
+        6. 6ba7e650  docs(mock): im-mock 用户侧接口实施计划
+           时间: 2026-08-19T18:14:56.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-mock/-/commit/6ba7e650c44110c83543f978fe12cd7d97d58d90
+           分支: feat/im-agent-phase23-business
+        7. 84edcc63  docs: im-mock 用户侧接口设计（H101-H107 + H901 + WS UpMessage）
+           时间: 2026-08-19T18:09:43.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-mock/-/commit/84edcc631a6c739bc07de068d72ef87175344596
+           分支: feat/im-agent-phase23-business
+        8. 9141469a  feat(mock): 扩充 seed 数据（6 会话覆盖多平台/多关闭原因/多图）
+           时间: 2026-08-19T17:59:54.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-mock/-/commit/9141469a446baf36fb3334d07bae5584a90008b6
+           分支: feat/im-agent-phase23-business
+        9. 182a62bf  feat(mock): seed 附件接入公网示例文件（真实渲染/播放）
+           时间: 2026-08-19T17:57:10.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-mock/-/commit/182a62bf91520a8b8a59d39de4dc4d6cd0d084df
+           分支: feat/im-agent-phase23-business
+       10. 69b28167  feat(mock): seed 附件消息 + H319 补全附件 resource_url
+           时间: 2026-08-19T17:20:57.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-mock/-/commit/69b2816783dc113c3ee8d6f83778d2242a881aae
+           分支: feat/im-agent-phase23-business
+       11. 43814e6a  feat(mock): H301 下行附件回填 resource_url + mock GET 附件端点（多附件端到端）
+           时间: 2026-08-19T16:47:21.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-mock/-/commit/43814e6ae42ec738e017a1a103e0c6ddd6e86c4e
+           分支: feat/im-agent-phase23-business
+       12. 7086d550  feat(mock): 新增 /dev-token/agent 兼容端点
+           时间: 2026-08-19T15:39:47.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-mock/-/commit/7086d55037e3697e9e3907789258c61ebdead3ee
+           分支: feat/im-agent-phase23-business
+       13. 6f4d0f4a  fix(mock): CORS 放行全部请求头（axios 自定义头）
+           时间: 2026-08-19T15:36:15.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-mock/-/commit/6f4d0f4a871339766c7297b162e50b0a8c16062a
+           分支: feat/im-agent-phase23-business
+       14. 5ee1fea2  fix(mock): 项目配置默认坐席语言对齐联调环境(zh)
+           时间: 2026-08-19T12:02:42.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-mock/-/commit/5ee1fea25791c3c29896a169b7ffc922e20be5e1
+           分支: feat/im-agent-phase23-business
+       15. 17a7dc72  feat(mock): H315/H316 项目配置接口（查询/更新，last-write-wins）
+           时间: 2026-08-19T11:44:20.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-mock/-/commit/17a7dc72dab2c9f47f8594a771ade1543cc9825e
+           分支: feat/im-agent-phase23-business
+       16. 0dba3800  test(mock): H308 响应补充 updated_at（客诉列表时间展示）
+           时间: 2026-08-19T11:17:22.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-mock/-/commit/0dba38007168991b6eba21c4e97b2d7167bba623
+           分支: feat/im-agent-phase23-business
+    • msdk/rispari/web/im-user                      提交:  10  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+9,353 / -83)
+      提交记录（按时间倒序）：
+        1. 49e6a97a  docs: im-user 完整 C 端设计文档与实施计划 m-7067524588
+           时间: 2026-08-19T20:48:58.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-user/-/commit/49e6a97aee203399fd86abcacf5eacc97136f6f4
+           分支: master
+        2. 82cf4d97  fix: check 脚本改为 tsc+vitest 直接执行（避免 corepack 子进程 pnpm 版本冲突） m-7067524588
+           时间: 2026-08-19T20:48:58.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-user/-/commit/82cf4d97cff60cc67ce1bcc88fe7ab7754d17286
+           分支: master
+        3. 79c69b09  feat: im-user 完整会话闭环与 PC 兼容 m-7067524588
+           时间: 2026-08-19T20:40:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-user/-/commit/79c69b098c96a0772f84881b1346486cef0b3564
+           分支: master
+        4. 32c19df0  feat: im-user 业务组件（快捷回复/满意度/历史/关闭态） m-7067524588
+           时间: 2026-08-19T20:07:59.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-user/-/commit/32c19df09326c92039c1edd57eb7f80156096fe8
+           分支: master
+        5. c4621269  fix: SystemMessage 从 payload 正确提取文本 m-7067524588
+           时间: 2026-08-19T20:03:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-user/-/commit/c46212697594bccb87009c2087383425dd742060
+           分支: master
+        6. e3ec4927  feat: im-user 会话页核心组件（消息流/气泡/输入） m-7067524588
+           时间: 2026-08-19T20:00:55.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-user/-/commit/e3ec4927ebbb7b5cf465ae1781f7b0281d03d601
+           分支: master
+        7. ee2f6f1c  fix: requestJson 校验 res.ok 防 4xx 错误静默透传 m-7067524588
+           时间: 2026-08-19T19:54:36.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-user/-/commit/ee2f6f1ccbaa6de89ba0814273ea97c2590302c6
+           分支: master
+        8. 515321b4  feat: im-user 接入层（core/hooks/api/store） m-7067524588
+           时间: 2026-08-19T19:51:15.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-user/-/commit/515321b412e6709cc01dc79d9d54d3c8bb723ff4
+           分支: master
+        9. 59298623  chore: 纳入 pnpm-lock.yaml（对齐 im-agent/im-mock/im-sdk） m-7067524588
+           时间: 2026-08-19T19:47:59.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-user/-/commit/592986234e43816e53ceccd0b3e64fc5b67a9c07
+           分支: master
+       10. 554c9bc2  chore: im-user 项目脚手架（SCSS 令牌体系） m-7067524588
+           时间: 2026-08-19T19:47:35.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-user/-/commit/554c9bc28f024411384114a9442af7a88e3617fc
+           分支: master
+    • msdk/rispari/web/im-sdk                       提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:feat/im-agent-phase23-business (+238 / -6)
+      提交记录（按时间倒序）：
+        1. af035206  fix(sdk): 补导出 MessageAttachment（index 类型出口遗漏）
+           时间: 2026-08-19T16:28:50.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-sdk/-/commit/af0352062834609c195c5356b2654b1276270067
+           分支: feat/im-agent-phase23-business
+        2. 07d8df20  feat(sdk): H102/H319 补拉路径附件映射补全（resourceUrl 等字段）
+           时间: 2026-08-19T16:12:56.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-sdk/-/commit/07d8df20cd427fe903d0b6d6e52c77c7f927eaac
+           分支: feat/im-agent-phase23-business
+        3. 2133de16  feat(sdk): 补全下行附件领域映射（MessageAttachment + contentType 字符串化）
+           时间: 2026-08-19T16:11:00.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-sdk/-/commit/2133de16e0693d42b6c93c7583cfcfa931ee0cf0
+           分支: feat/im-agent-phase23-business
+    • msdk/rispari/web/im-docs                      提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+24 / -0)
+      提交记录（按时间倒序）：
+        1. 63e28981  docs: 新增 M1 需求范围决策记录（音频转文字本期不做）
+           时间: 2026-08-19T15:47:00.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-docs/-/commit/63e28981c0bdcc1c618deb6f1cba02ee9ca50826
+           分支: master
+
+用户: kaisun@moonton.com
+  识别: kaisun@moonton.com
+  出现过的名字: kaisun@moonton.com, 孙恺(Kai)
+  总提交    : 15 次
+  总新增/删除: +73 / -42
+  Merge Requests: 5 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 20
+  按项目分布:
+    • publish_platform/fuxi                         提交:  13  MR:  5  Commit评论:  0  MR评论:  0 分支:m-7058918998-直播功能添加, master (+67 / -41)
+      提交记录（按时间倒序）：
+        1. a798e387  m-7058918998-状态修改
+           时间: 2026-08-19T19:05:35.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/a798e3870ecfe473b9f4aac1f1b482b11835f81e
+           分支: m-7058918998-直播功能添加, master
+        2. e3eec2d6  m-7058918998-f-7075670218-fix图文状态
+           时间: 2026-08-19T18:23:15.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/e3eec2d6dc7f206809c467cc63285fa077994fce
+           分支: m-7058918998-直播功能添加, master
+        3. db719899  m-7058918998-7075670218-fix线上素材和巨量不一致
+           时间: 2026-08-19T17:35:34.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/db71989976de63c6d6ad12cd5277c3406d4d4c27
+           分支: m-7058918998-直播功能添加, master
+        4. 27cc3c11  m-7058918998-f-7077009432-fix存库素材类型不对
+           时间: 2026-08-19T17:34:44.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/27cc3c11efb14fe32b5b8633cc55159391c8b65a
+           分支: m-7058918998-直播功能添加, master
+        5. 50e2454c  m-7058918998-直播功能fix
+           时间: 2026-08-19T14:57:28.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/50e2454c3605dbdf1612779a5d7aa287b897c324
+           分支: m-7058918998-直播功能添加, master
+        6. 52c1ced4  Merge branch 'm-7058918998-直播功能添加' into 'master'
+           时间: 2026-08-19T03:54:19.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/52c1ced465bc70c07b4f439b3c0ca1da8e09de89
+           分支: m-7058918998-直播功能添加, master
+        7. ab094273  m-7058918998-解决上传视频空串问题
+           时间: 2026-08-19T11:53:51.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/ab094273d81fd8079b692ab0322f70e85230e9dd
+           分支: m-7058918998-直播功能添加, master
+        8. 2e51960c  addlog
+           时间: 2026-08-19T11:14:48.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/2e51960cbbe2292e6904dd9761dc5ec083c5c43a
+           分支: m-7058918998-直播功能添加, master
+        9. fae02d40  m-7058918998-截断问题
+           时间: 2026-08-19T22:36:06.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/fae02d40330444ae7dcf274fafa06f2b6d083afc
+           分支: master
+       10. 1172e6f8  Merge branch 'm-7058918998-直播功能添加' into 'master'
+           时间: 2026-08-19T11:05:47.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/1172e6f869118f75879ffb3a6cbf5706c75f1882
+           分支: master
+       11. 10c2f29a  Merge branch 'm-7058918998-直播功能添加' into 'master'
+           时间: 2026-08-19T10:23:37.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/10c2f29a7460ce1478a75e518dd27930f985bb6d
+           分支: master
+       12. 0d3b4cb0  Merge branch 'm-7058918998-直播功能添加' into 'master'
+           时间: 2026-08-19T09:35:54.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/0d3b4cb02e37e37ba78769c25edbd31a62b6a597
+           分支: master
+       13. 0c39fdb4  Merge branch 'm-7058918998-直播功能添加' into 'master'
+           时间: 2026-08-19T07:23:10.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/0c39fdb472a9cf60a2aac3060920a85adb6c9c7d
+           分支: master
+      MR记录（按时间倒序）：
+        1. MR#573 m-7058918998-状态修改
+           时间: 2026-08-19T11:05:43.692Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/573
+        2. MR#572 m-7058918998-f-7075670218-fix图文状态
+           时间: 2026-08-19T10:23:32.887Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/572
+        3. MR#571 M 7058918998 直播功能添加
+           时间: 2026-08-19T09:35:50.954Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/571
+        4. MR#568 m-7058918998-直播功能fix
+           时间: 2026-08-19T07:23:06.708Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/568
+        5. MR#567 m-7058918998-解决上传视频空串问题
+           时间: 2026-08-19T03:54:15.116Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/567
+    • publish_platform/callback-service             提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+6 / -1)
+      提交记录（按时间倒序）：
+        1. cee18533  m-7065577164-bugfix
+           时间: 2026-08-19T22:59:45.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/callback-service/-/commit/cee18533dc1a029777ec57df519040b4df2bff9c
+           分支: master
+        2. b49e28e6  m-7065577164-添加gdt关键行为参数
+           时间: 2026-08-19T22:16:59.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/callback-service/-/commit/b49e28e62321c7574e342e0a8b3c75236033e764
+           分支: master
+
+用户: 叶明(Ming)
+  识别: mingye@moonton.com
+  出现过的名字: 叶明(Ming)
+  总提交    : 14 次
+  总新增/删除: +1,649 / -357
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 14
+  按项目分布:
+    • publish_platform/ad_bi/data                   提交:  14  MR:  0  Commit评论:  0  MR评论:  0 分支:feat-cockpit-realtime-mingye-20260725-m-7056369006, master (+1,649 / -357)
+      提交记录（按时间倒序）：
+        1. ab11924a  fix(m-7056369006): 修复订单号设置逻辑导致的空值问题, m-7056369006
+           时间: 2026-08-19T11:41:44.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/ab11924aef5fec2a161bf97871b50bcc7a6bcf30
+           分支: feat-cockpit-realtime-mingye-20260725-m-7056369006
+        2. cbcaf443  fix(m-7056369006): 更正完整性至今快捷日期, m-7056369006
+           时间: 2026-08-19T01:55:00.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/cbcaf443b6abf0524d7bc957213b38e54e8e2745
+           分支: feat-cockpit-realtime-mingye-20260725-m-7056369006
+        3. 05e72722  docs(m-7056369006): 添加驾驶舱增强实施计划, m-7056369006
+           时间: 2026-08-19T01:53:13.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/05e7272272cb1c934c29619316a9d4d95fff3214
+           分支: feat-cockpit-realtime-mingye-20260725-m-7056369006
+        4. b0fe5832  feat(m-7056369006): 支持完整性分项目图表展示, m-7056369006
+           时间: 2026-08-19T01:50:35.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/b0fe5832d67d41451cb684cc2ee3c81f79eb7a66
+           分支: feat-cockpit-realtime-mingye-20260725-m-7056369006
+        5. 563d9f46  feat(m-7056369006): 增强完整性项目和时间筛选, m-7056369006
+           时间: 2026-08-19T01:49:38.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/563d9f46d125957a1e259a0b41b7ae334a9d1338
+           分支: feat-cockpit-realtime-mingye-20260725-m-7056369006
+        6. 74df18a6  feat(m-7056369006): 支持驾驶舱日期快捷与无对比展示, m-7056369006
+           时间: 2026-08-19T01:49:01.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/74df18a619a8ed0c2e71a9b1d439dcfef62ce98d
+           分支: feat-cockpit-realtime-mingye-20260725-m-7056369006
+        7. faa7faee  feat(m-7056369006): 增加驾驶舱全局模式与四列布局, m-7056369006
+           时间: 2026-08-19T01:42:47.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/faa7faee978ed6666b9a892b75e61677bb787e89
+           分支: feat-cockpit-realtime-mingye-20260725-m-7056369006
+        8. 063c1702  test(m-7056369006): 覆盖驾驶舱与完整性筛选参数, m-7056369006
+           时间: 2026-08-19T01:42:03.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/063c1702e9b9c4383d617efd01dfb1b2e8430cea
+           分支: feat-cockpit-realtime-mingye-20260725-m-7056369006
+        9. 5cd420d2  feat(m-7056369006): 按模式查询驾驶舱与完整性数据, m-7056369006
+           时间: 2026-08-19T01:41:25.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/5cd420d2e9486d64b22aee412f8aec0de9f33762
+           分支: feat-cockpit-realtime-mingye-20260725-m-7056369006
+       10. f497d308  feat(m-7056369006): 支持驾驶舱无对比与完整性多项目筛选, m-7056369006
+           时间: 2026-08-19T01:40:15.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/f497d308d2488c4a4c68e27078baa687074ffdb7
+           分支: feat-cockpit-realtime-mingye-20260725-m-7056369006
+       11. 0e68c588  feat(m-7056369006): 优化设备归因计算逻辑，合并重复维度聚合步骤, m-7056369006
+           时间: 2026-08-19T01:35:46.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/0e68c58807551c85eb13c96d607315d5359bdffa
+           分支: feat-cockpit-realtime-mingye-20260725-m-7056369006
+       12. 3dd23577  docs(m-7056369006): 补充驾驶舱增强设计, m-7056369006
+           时间: 2026-08-19T01:34:44.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/3dd235778e5792f0108d81cfe08d1fcbbbb23ea5
+           分支: feat-cockpit-realtime-mingye-20260725-m-7056369006
+       13. 74e1390b  feat(m-7056369006): 优化设备归因计算逻辑，合并重复维度聚合步骤, m-7056369006
+           时间: 2026-08-19T00:07:36.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/74e1390bfc1352a5d8a2a832949e79f0c0ceb064
+           分支: feat-cockpit-realtime-mingye-20260725-m-7056369006
+       14. 91308734  Merge branch 'feature-flink-cn-carldong-douyin-postback' into 'master'
+           时间: 2026-08-19T07:09:51.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/913087347150c3fb7053465d9c5d181f6ca3349c
+           分支: master
+
+用户: 李孔权(Levir)
+  识别: levirli@moonton.com
+  出现过的名字: likongquan, 李孔权(Levir)
+  总提交    : 8 次
+  总新增/删除: +25 / -15
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 10
+  按项目分布:
+    • msdk/admin                                    提交:   8  MR:  2  Commit评论:  0  MR评论:  0 分支:develop, feat/ipa_sign-m-7065301787, test (+25 / -15)
+      提交记录（按时间倒序）：
+        1. a1c6404c  Merge branch 'feat/ipa_sign-m-7065301787' into develop
+           时间: 2026-08-19T19:01:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/admin/-/commit/a1c6404cfae0ff27517c5948ce695546787a7a2e
+           分支: develop
+        2. 717f08b6  m-7065301787, iOS重签：package-list 标签筛选支持多标签 AND 全部命中（ios-resign-package 能力）
+           时间: 2026-08-19T19:00:23.000+08:00
+           链接: http://lf.git.oa.mt/msdk/admin/-/commit/717f08b604489fb9cc0f7eef8012929c5a9d4232
+           分支: develop, feat/ipa_sign-m-7065301787, test
+        3. e7bf5719  Merge branch 'feat/ipa_sign-m-7065301787' into develop
+           时间: 2026-08-19T14:32:41.000+08:00
+           链接: http://lf.git.oa.mt/msdk/admin/-/commit/e7bf57199f629d433950d4e40e2f521073e1a87b
+           分支: develop
+        4. fa1e270f  m-7065301787  修改dev环境DBLogConf为模版连接
+           时间: 2026-08-19T14:32:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/admin/-/commit/fa1e270f025bcb69e7d4cf984ba43bfe10fe6664
+           分支: develop, feat/ipa_sign-m-7065301787, test
+        5. c8d957fa  Merge branch 'feat/ipa_sign-m-7065301787' into develop
+           时间: 2026-08-19T14:29:15.000+08:00
+           链接: http://lf.git.oa.mt/msdk/admin/-/commit/c8d957fae5febe17f1d105d9f74f27aa31de542e
+           分支: develop
+        6. 865858d4  m-7065301787  修改dev环境的mysql连接
+           时间: 2026-08-19T14:28:51.000+08:00
+           链接: http://lf.git.oa.mt/msdk/admin/-/commit/865858d4b5363b3627c1e6d9ded3d4d7ab506ea8
+           分支: develop, feat/ipa_sign-m-7065301787, test
+        7. 3114957f  Merge branch 'feat/ipa_sign-m-7065301787' into 'test'
+           时间: 2026-08-19T11:04:52.000+00:00
+           链接: http://lf.git.oa.mt/msdk/admin/-/commit/3114957f5e99647b89cffcaa0509cd22bf9c05dc
+           分支: test
+        8. 55ae07c8  Merge branch 'feat/ipa_sign-m-7065301787' into 'test'
+           时间: 2026-08-19T08:10:17.000+00:00
+           链接: http://lf.git.oa.mt/msdk/admin/-/commit/55ae07c8c1e6ea71da6e3bba54944e684dfe03e5
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#2180 m-7065301787, iOS重签：package-list 标签筛选支持多标签 AND 全部命中（ios-resign-package 能力）
+           时间: 2026-08-19T11:03:27.840Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/admin/-/merge_requests/2180
+        2. MR#2179 m-7065301787, iOS重签：修复 Worker 上报覆盖 update_user（Agent 入口清除注入的系统服务会话）（ios-resign-agent能力）
+           时间: 2026-08-19T08:06:33.360Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/admin/-/merge_requests/2179
+
+用户: 田元林(Candy)
+  识别: candytian@moonton.com
+  出现过的名字: candytian, 田元林(Candy)
+  总提交    : 6 次
+  总新增/删除: +179 / -5
+  Merge Requests: 3 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 9
+  按项目分布:
+    • publish_platform/web/cockpit                  提交:   6  MR:  3  Commit评论:  0  MR评论:  0 分支:feat/m-7062007056, feat/m-7064742065, main (+179 / -5)
+      提交记录（按时间倒序）：
+        1. 3581d373  fix: m-7062007056 统一实时数据分时累时控件样式
+           时间: 2026-08-19T19:42:01.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/3581d373992bc59aa76a6ec340f5c43cbe74fbeb
+           分支: feat/m-7062007056, main
+        2. b2af98da  fix: m-7064742065 更新 Moonton Logo 资源
+           时间: 2026-08-19T19:23:30.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/b2af98daac406e563fd8405fb815b454b7908f28
+           分支: feat/m-7064742065, main
+        3. e7eaa59a  docs: m-7064742065 归档统一导航变更并同步规格
+           时间: 2026-08-19T18:13:55.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/e7eaa59ab762839d4e399a293fd1a9f52755319b
+           分支: feat/m-7064742065, main
+        4. b063b745  Merge branch 'feat/m-7062007056' into 'main'
+           时间: 2026-08-19T11:42:46.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/b063b745f736fc38702199a059a7b45b12b0a7cc
+           分支: main
+        5. 247d151f  Merge branch 'feat/m-7064742065' into 'main'
+           时间: 2026-08-19T11:28:17.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/247d151f7f43ee816dc27e0f651097f2b7a6807e
+           分支: main
+        6. 737d9d10  Merge branch 'feat/m-7064742065' into 'main'
+           时间: 2026-08-19T10:15:13.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/737d9d103aaccbc5584a7f6f72685913fe9475f6
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#803 fix: m-7062007056 统一实时数据分时累时控件样式
+           时间: 2026-08-19T11:42:36.112Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/merge_requests/803
+        2. MR#802 fix: m-7064742065 更新 Moonton Logo 资源
+           时间: 2026-08-19T11:24:17.895Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/merge_requests/802
+        3. MR#801 feat: m-7064742065 侧边栏接入统一导航并扩展功能引导
+           时间: 2026-08-19T10:15:01.230Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/merge_requests/801
+
+用户: 徐腾飞(Tengfei)
+  识别: tengfeixu@moonton.com
+  出现过的名字: tengfeixu, 徐腾飞(Tengfei)
+  总提交    : 6 次
+  总新增/删除: +1,310 / -144
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 7
+  按项目分布:
+    • mirrorsphere/harness                          提交:   6  MR:  1  Commit评论:  0  MR评论:  0 分支:feat/test-case-m-6950014485, test (+1,310 / -144)
+      提交记录（按时间倒序）：
+        1. 18e76732  Merge branch 'master' into feat/test-case-m-6950014485
+           时间: 2026-08-19T16:53:09.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/18e76732f81fa9f898abd0327768ab7c7ba0a6f9
+           分支: feat/test-case-m-6950014485, test
+        2. b54efc4d  feat(test-design): enforce req_biz confirmation and expose skipped-source notices
+           时间: 2026-08-19T16:50:00.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/b54efc4de3b3cee990afb2d40767fefb0f606228
+           分支: feat/test-case-m-6950014485, test
+        3. ba168bbc  feat(test-design): add remote OpenViking auth and k8s/helm config
+           时间: 2026-08-19T15:13:23.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/ba168bbc31147e65ca0f3cfc0bab60846c374d3a
+           分支: feat/test-case-m-6950014485, test
+        4. 15463b1a  docs(test-design): guide render-cases usage and structured portal mapping
+           时间: 2026-08-19T14:19:18.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/15463b1af830104b4f38a75b56f5ac331f31289c
+           分支: feat/test-case-m-6950014485, test
+        5. bad3cb34  feat(test-design): fix openviking knowledge recall and enable auto-apply
+           时间: 2026-08-19T11:29:59.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/bad3cb34ffcc649277f842da4b8c790dc006ff53
+           分支: feat/test-case-m-6950014485, test
+        6. ce39770e  Merge branch 'feat/test-case-m-6950014485' into 'test'
+           时间: 2026-08-19T09:47:20.000+00:00
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/commit/ce39770ece34cae7490d0f7289c0a7b85f8331be
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#57 docs: add design spec for GitLab branch diff as test-case context
+           时间: 2026-08-19T09:30:20.007Z
+           状态: merged
+           链接: http://lf.git.oa.mt/mirrorsphere/harness/-/merge_requests/57
+
+用户: leowan
+  识别: leowan@moonton.com
+  出现过的名字: leowan
+  总提交    : 6 次
+  总新增/删除: +2,705 / -353
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 6
+  按项目分布:
+    • publish_platform/SDK/msdk_docs_project        提交:   6  MR:  0  Commit评论:  0  MR评论:  0 分支:feat/docs-site-all-services-nav (+2,705 / -353)
+      提交记录（按时间倒序）：
+        1. f25e9287  m-7074859873: auto-scan all services sidebar and card list from frontmatter
+           时间: 2026-08-19T18:38:44.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/msdk_docs_project/-/commit/f25e92876aeb5f21f8f3eaf93ba60b5ceed96497
+           分支: feat/docs-site-all-services-nav
+        2. 1e1a65d4  m-7074859873: rename integration docs to Chinese filenames and auto-scan sidebar
+           时间: 2026-08-19T17:46:08.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/msdk_docs_project/-/commit/1e1a65d45ff9e16badaf3581484eb2804b125aeb
+           分支: feat/docs-site-all-services-nav
+        3. 0d76164d  m-7074859873: default platform docs to overview and keep platform context
+           时间: 2026-08-19T16:21:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/msdk_docs_project/-/commit/0d76164d076ed6e45c8a7472edee5e94949e3d0b
+           分支: feat/docs-site-all-services-nav
+        4. 0e513cc7  m-7074859873: remove footer from docs site
+           时间: 2026-08-19T16:09:36.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/msdk_docs_project/-/commit/0e513cc7bc167488f028a1648e5fc39033156188
+           分支: feat/docs-site-all-services-nav
+        5. ec7f8ad7  m-7074859873: add platform-aware sidebar filtering for services docs
+           时间: 2026-08-19T16:09:36.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/msdk_docs_project/-/commit/ec7f8ad754f3fe74e28c135b98dcd1d31daf87b5
+           分支: feat/docs-site-all-services-nav
+        6. dd539b43  feat: unify native and unity platform navigation
+           时间: 2026-08-19T14:28:17.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/msdk_docs_project/-/commit/dd539b4302561647f3793dc0aef71c05047bae5b
+           分支: feat/docs-site-all-services-nav
+
+用户: 覃亮(Daniel)
+  识别: danielqin@moonton.com
+  出现过的名字: danielqin, 覃亮(Daniel)
+  总提交    : 4 次
+  总新增/删除: +34 / -1
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 6
+  按项目分布:
+    • publish_platform/fuxi                         提交:   4  MR:  2  Commit评论:  0  MR评论:  0 分支:m-7058918998-直播功能添加, master (+34 / -1)
+      提交记录（按时间倒序）：
+        1. cb55bc32  m-7058918998-直播功能fix
+           时间: 2026-08-19T17:29:20.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/cb55bc32dabb8053b017dc82eca44ae6e728cd31
+           分支: m-7058918998-直播功能添加, master
+        2. 0e867412  m-7058918998-直播功能fix
+           时间: 2026-08-19T16:26:38.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/0e8674126d33ffa7bd8d64d7420ec9b0bd83e288
+           分支: m-7058918998-直播功能添加, master
+        3. 18a21584  Merge branch 'm-7058918998-直播功能添加' into 'master'
+           时间: 2026-08-19T09:29:40.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/18a21584ad4dcfcb8f770e0d14d19d742c4e51c4
+           分支: master
+        4. 3c15232c  Merge branch 'm-7058918998-直播功能添加' into 'master'
+           时间: 2026-08-19T08:27:32.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/3c15232ce37016ae145d15a79c5b22ca2c5aa947
+           分支: master
+      MR记录（按时间倒序）：
+        1. MR#570 m-7058918998-直播功能fix
+           时间: 2026-08-19T09:29:37.786Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/570
+        2. MR#569 m-7058918998-直播功能fix
+           时间: 2026-08-19T08:26:49.667Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/569
+
+用户: jiangcheng
+  识别: chengjiang@moonton.com
+  出现过的名字: jiangcheng, 姜承(JoJo)
+  总提交    : 4 次
+  总新增/删除: +48 / -15
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 6
+  按项目分布:
+    • publish_platform/web/gams_ad_in               提交:   4  MR:  2  Commit评论:  0  MR评论:  0 分支:1.0.0.0_7058918998, main (+48 / -15)
+      提交记录（按时间倒序）：
+        1. 1f408024  m-7058918998 fix(batch): 混投创意组复制按账户隔离并限制线上素材复制
+           时间: 2026-08-19T20:41:39.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/1f408024d7e7a7516ba198159395a3c635881131
+           分支: 1.0.0.0_7058918998, main
+        2. 293f7a55  m-7058918998 fix(app): 修复登录回调后请求使用旧 Token
+           时间: 2026-08-19T15:34:42.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/293f7a55340c0d008b89cfa934bb16125f17905e
+           分支: 1.0.0.0_7058918998, main
+        3. 1c656a02  Merge branch '1.0.0.0_7058918998' into 'main'
+           时间: 2026-08-19T12:42:52.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/1c656a02c1be562b9eed8b2543cab144543c0f8b
+           分支: main
+        4. d3e10634  Merge branch '1.0.0.0_7058918998' into 'main'
+           时间: 2026-08-19T07:35:08.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/d3e106345d61c867cb5b919630d984be42497ac7
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#260 m-7058918998 fix(batch): 混投创意组复制按账户隔离并限制线上素材复制
+           时间: 2026-08-19T12:42:31.027Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/merge_requests/260
+        2. MR#259 m-7058918998 fix(app): 修复登录回调后请求使用旧 Token
+           时间: 2026-08-19T07:35:01.780Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/merge_requests/259
+
+用户: 孙鹏
+  识别: v_sunpeng@moonton.com
+  出现过的名字: 孙鹏
+  总提交    : 4 次
+  总新增/删除: +116 / -39
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 6
+  按项目分布:
+    • publish_platform/web/msdk_management          提交:   4  MR:  2  Commit评论:  0  MR评论:  0 分支:feat/ipa, main (+116 / -39)
+      提交记录（按时间倒序）：
+        1. 24d909a2  feat: 标签最长字数限制&暂无可用应用校验 m-7065301787
+           时间: 2026-08-19T21:32:48.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/msdk_management/-/commit/24d909a22dec533602d08755864b6b1af87c4fd7
+           分支: feat/ipa, main
+        2. cded0bba  feat: 限制标签个数&修改重签上限提示 m-7065301787
+           时间: 2026-08-19T18:28:38.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/msdk_management/-/commit/cded0bba95087498292964b845cacf178f74125d
+           分支: feat/ipa, main
+        3. 71cd50fb  Merge branch 'feat/ipa' into 'main'
+           时间: 2026-08-19T13:35:01.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/msdk_management/-/commit/71cd50fb06145ac65debea4ce9dd64276d080644
+           分支: main
+        4. c462f983  Merge branch 'feat/ipa' into 'main'
+           时间: 2026-08-19T10:29:56.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/msdk_management/-/commit/c462f983a14bce58f2b3e57015efa7ff18a8ee28
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#1743 feat: 标签最长字数限制&暂无可用应用校验 m-7065301787
+           时间: 2026-08-19T13:34:35.484Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/msdk_management/-/merge_requests/1743
+        2. MR#1742 feat: 限制标签个数&修改重签上限提示 m-7065301787
+           时间: 2026-08-19T10:29:33.349Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/msdk_management/-/merge_requests/1742
+
+用户: fengdiwang
+  识别: fengdi.wang@moonton.com
+  出现过的名字: fengdiwang
+  总提交    : 5 次
+  总新增/删除: +599 / -112
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 5
+  按项目分布:
+    • publish_platform/ad_bi/bi_cockpit             提交:   5  MR:  0  Commit评论:  0  MR评论:  0 分支:fengdi/main/peak_push, fengdi/main/realtime, main (+599 / -112)
+      提交记录（按时间倒序）：
+        1. 5b7baa52  m-7071915058[推送]增加DAU异常规则
+           时间: 2026-08-19T17:24:01.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/5b7baa52d837e8b9b9dfe3caa08a3c21b000593d
+           分支: fengdi/main/peak_push
+        2. 54671462  m-7071915058[推送]增加DAU异常规则
+           时间: 2026-08-19T17:09:03.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/546714620f4de6876639c0a3f629e845b36275c4
+           分支: fengdi/main/peak_push
+        3. c5dbc7ae  m-7071915058[推送]增加DAU异常规则
+           时间: 2026-08-19T16:36:15.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/c5dbc7ae2fa4276f88460b8742264e949d29c62c
+           分支: fengdi/main/peak_push
+        4. 42cc0445  m-7074808934[推送]优化归因传参
+           时间: 2026-08-19T14:35:04.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/42cc044505077bd7b51aa193904d83cb2f118103
+           分支: fengdi/main/peak_push, fengdi/main/realtime, main
+        5. ac250685  m-7074808934[推送]优化归因传参
+           时间: 2026-08-19T14:33:36.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/ac250685106e45896d57c194c26969f598883c75
+           分支: fengdi/main/peak_push, fengdi/main/realtime, main
+
+用户: rambohu1
+  识别: rambohu1@moonton.com
+  出现过的名字: rambohu1
+  总提交    : 5 次
+  总新增/删除: +931 / -175
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 5
+  按项目分布:
+    • msdk/rispari/sdk/Android                      提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+603 / -53)
+      提交记录（按时间倒序）：
+        1. 8fc59508  fix: 移除客户端本地生成的主动结束提示和满意度卡片，改为等待服务端推送 -m 7067524588
+           时间: 2026-08-19T16:01:28.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/Android/-/commit/8fc59508313049eae42cd32414605ac6331c5f65
+           分支: master
+        2. 2c9b0261  feat: 阶段10 UI交互完善 — 时间分割线（5分钟阈值）、系统提示（客服接入/主动结束）、上下文卡片（来源场景+玩家ID），自动滚动到底部 -m 7067524588
+           时间: 2026-08-19T15:44:20.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/Android/-/commit/2c9b0261b910126851b452bf2dd72ae541ef2d08
+           分支: master
+        3. be94f428  feat: 阶段9满意度评价功能（真实 API + 重复检查 + 状态管理） -m 7067524588
+           时间: 2026-08-19T11:26:05.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/Android/-/commit/be94f428aa46c2f6d6df25fb5aa9e87234506ce7
+           分支: master
+    • msdk/rispari/sdk/Docs                         提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+328 / -122)
+      提交记录（按时间倒序）：
+        1. 12f56f43  +feat:Delete Android 临时方案文档 -7067524588
+           时间: 2026-08-19T11:36:15.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/Docs/-/commit/12f56f4378ca6930782cdfbd3b0ee7590f1c3813
+           分支: master
+        2. 39703c89  docs: 阶段9满意度评价实现说明（Mock方案与真实场景对比）
+           时间: 2026-08-19T11:31:58.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/Docs/-/commit/39703c899883264ed488bd77dd125a99fb642154
+           分支: master
+
+用户: 王枫荻(Fengdi)
+  识别: fengdiwang@moonton.com
+  出现过的名字: 王枫荻(Fengdi)
+  总提交    : 2 次
+  总新增/删除: +0 / -0
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 4
+  按项目分布:
+    • publish_platform/ad_bi/bi_cockpit             提交:   2  MR:  2  Commit评论:  0  MR评论:  0 分支:fengdi/main/peak_push, main 
+      提交记录（按时间倒序）：
+        1. 60a3609f  Merge branch 'fengdi/main/realtime' into 'main'
+           时间: 2026-08-19T08:01:40.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/60a3609f091d8c9058fc42a6367d3b10f51b8d1b
+           分支: fengdi/main/peak_push, main
+        2. 00c8ef0b  Merge branch 'fengdi/main/realtime' into 'main'
+           时间: 2026-08-19T06:30:02.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/00c8ef0b9d06c1a8873feacb8d4fe0cf0f31c0fe
+           分支: fengdi/main/peak_push, main
+      MR记录（按时间倒序）：
+        1. MR#660 m-7071915058[推送]增加DAU异常规则
+           时间: 2026-08-19T08:36:36.791Z
+           状态: opened
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/merge_requests/660
+        2. MR#659 m-7074808934[推送]优化归因传参
+           时间: 2026-08-19T06:33:49.988Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/merge_requests/659
+
+用户: 刘松林(Nelson)
+  识别: nelsonliu@moonton.com
+  出现过的名字: nelsonliu, 刘松林(Nelson)
+  总提交    : 2 次
+  总新增/删除: +82 / -19
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 3
+  按项目分布:
+    • publish_platform/ad_bi/nuwa_alg_server        提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:master (+82 / -19)
+      提交记录（按时间倒序）：
+        1. 40a8077a  Merge branch 'codex/optimize-video-tagging-memory' into 'master'
+           时间: 2026-08-19T03:52:58.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/40a8077ae9142b0a3c4cad83373bd5427533c523
+           分支: master
+        2. f6fc04c5  perf: reduce video tagging memory churn -m 7070000957
+           时间: 2026-08-19T11:52:24.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/f6fc04c5fc46a9f1445e0f12912b39233f66cbdf
+           分支: master
+      MR记录（按时间倒序）：
+        1. MR#73 perf: reduce video tagging memory churn -m 7070000957
+           时间: 2026-08-19T03:52:49.598Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/merge_requests/73
+
+用户: jiangding
+  识别: jiangding@moonton.com
+  出现过的名字: jiangding
+  总提交    : 3 次
+  总新增/删除: +2,854 / -30
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 3
+  按项目分布:
+    • go-component/apple                            提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:ios-device-status-m-7072926792 (+9 / -9)
+      提交记录（按时间倒序）：
+        1. f7a04698  m-7072926792, 更新设备status为可选
+           时间: 2026-08-19T19:39:19.000+08:00
+           链接: http://lf.git.oa.mt/go-component/apple/-/commit/f7a046983700ed149e6e321dd9ad44ffd224303d
+           分支: ios-device-status-m-7072926792
+    • msdk/paas                                     提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:biz-reporter-20260811 (+2,469 / -16)
+      提交记录（按时间倒序）：
+        1. 80eb35ec  更新paas-biz-reporter
+           时间: 2026-08-19T17:00:20.000+08:00
+           链接: http://lf.git.oa.mt/msdk/paas/-/commit/80eb35ec034e933db5fc36e556730e8ab79f7689
+           分支: biz-reporter-20260811
+    • msdk/admin                                    提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:ios-device-status-m-7072926792 (+376 / -5)
+      提交记录（按时间倒序）：
+        1. 83a276cf  m-7072926792, 更新apple版本
+           时间: 2026-08-19T19:42:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/admin/-/commit/83a276cf1f5e33633cecbe0825bf79df769b93fe
+           分支: ios-device-status-m-7072926792
+
+用户: code-development
+  识别: group_508_bot8@moonton.com
+  出现过的名字: code-development
+  总提交    : 0 次
+  总新增/删除: +0 / -0
+  Merge Requests: 3 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 3
+  按项目分布:
+    • msdk/rispari/server/im-access                 提交:   0  MR:  2  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#20 feat(conversation): IA-M1-S4-PULL H102 C 端补拉真实映射（PullMessages RPC 接入 + 契约测试 + 断线恢复 trace）
+           时间: 2026-08-19T10:05:17.406Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/merge_requests/20
+        2. MR#18 feat(attachment): H106/H313 C/B 附件签发真实映射 (IA-M1-S17A-ATTACHMENT)
+           时间: 2026-08-19T08:30:58.705Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/merge_requests/18
+    • msdk/rispari/server/docs                      提交:   0  MR:  1  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#32 BASE-M1-E2E-S3A S3-A 坐席发送与状态迁移 E2E 验收 12/12 PASS
+           时间: 2026-08-19T15:44:03.253Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/32
+
+用户: ruipingzhang
+  识别: ruipingzhang@moonton.com
+  出现过的名字: ruipingzhang, 张芮萍(Ruiping)
+  总提交    : 2 次
+  总新增/删除: +5 / -3
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 3
+  按项目分布:
+    • publish_platform/web/gams_ad_bi_in            提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:feat/testCollectionEvent, main (+5 / -3)
+      提交记录（按时间倒序）：
+        1. eac2039a  feat: 采集事件切换时设置默认值 m-7065577164
+           时间: 2026-08-19T17:56:31.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/eac2039adeaf006f061e3c10e0972c6b52fb151e
+           分支: feat/testCollectionEvent, main
+        2. 7ff9b3da  Merge branch 'feat/testCollectionEvent' into 'main'
+           时间: 2026-08-19T09:56:54.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/7ff9b3da41c65be3002aa0ada6c946bd291aa8fe
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#527 feat: 采集事件切换时设置默认值 m-7065577164
+           时间: 2026-08-19T09:56:48.739Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/merge_requests/527
+
+用户: Willem
+  识别: willemwang@moonton.com
+  出现过的名字: Willem
+  总提交    : 2 次
+  总新增/删除: +26 / -0
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/ad_bi/data                   提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+26 / -0)
+      提交记录（按时间倒序）：
+        1. e820bffb  Merge remote-tracking branch 'origin/master'
+           时间: 2026-08-19T19:35:38.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/e820bffb5a21ede3e6df0d45f026bb8706cf4d53
+           分支: master
+        2. 5a68c9be  feat：增加通用方法 m-7051150754
+           时间: 2026-08-19T19:35:34.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/5a68c9be31360a42be6beebddd1c20a597068c89
+           分支: master
+
+用户: 董博(Carl)
+  识别: carldong@moonton.com
+  出现过的名字: 董博(Carl)
+  总提交    : 1 次
+  总新增/删除: +2 / -12
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/ad_bi/data                   提交:   1  MR:  1  Commit评论:  0  MR评论:  0 分支:master (+2 / -12)
+      提交记录（按时间倒序）：
+        1. e0cf6dc8  使用公共flink env启动模版  m-7075089687
+           时间: 2026-08-19T15:07:17.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/e0cf6dc8dc63a33f547d60dc430f0877f583c886
+           分支: master
+      MR记录（按时间倒序）：
+        1. MR#570 Feature flink cn carldong douyin postback
+           时间: 2026-08-19T07:08:52.387Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/merge_requests/570
+
+用户: 田雪健(Storm)
+  识别: stormtian@moonton.com
+  出现过的名字: 田雪健(Storm)
+  总提交    : 2 次
+  总新增/删除: +959 / -446
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/ad_bi/gms_ad_bi_refactor     提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:m-7071843945-addcustind (+959 / -446)
+      提交记录（按时间倒序）：
+        1. 9126e1bf  m-7071843945 docs(agent): 分层整理仓库开发指南
+           时间: 2026-08-19T11:45:35.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/9126e1bf29fdf9e445077265f8f506d645b410ab
+           分支: m-7071843945-addcustind
+        2. ad30e049  m-7071843945 feat(indicator): 补齐国服自定义指标初始化脚本
+           时间: 2026-08-19T11:45:16.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/ad30e0490f2d81d7fc2e3f38a7bd00acf82c74fe
+           分支: m-7071843945-addcustind
+
+用户: kurokyma
+  识别: kurokyma@moonton.com
+  出现过的名字: kurokyma
+  总提交    : 2 次
+  总新增/删除: +4,819 / -213
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • msdk/rispari/sdk/iOS                          提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:develop (+4,819 / -213)
+      提交记录（按时间倒序）：
+        1. 03392773  feat: implement iOS IM customer lifecycle terminal handling
+           时间: 2026-08-19T18:06:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/iOS/-/commit/0339277353b19dd3ef4795f4f06012d1b97585b6
+           分支: develop
+        2. 27614462  feat: implement iOS IM audio file messages and archive
+           时间: 2026-08-19T15:56:06.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/iOS/-/commit/276144626b9e6f228663c0f6009943169996d2d8
+           分支: develop
+
+用户: Dylan
+  识别: dylandu@moonton.com
+  出现过的名字: Dylan
+  总提交    : 1 次
+  总新增/删除: +442 / -237
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • publish_platform/ad_bi/data                   提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:feature_cn_skip_click_m-7075256889 (+442 / -237)
+      提交记录（按时间倒序）：
+        1. d130cae9  m-7075256889: 异常点击处理
+           时间: 2026-08-19T18:35:53.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/d130cae9f96bfb85369a977a1df8421458ffa5dc
+           分支: feature_cn_skip_click_m-7075256889
+
+----------------------------------------------------------------------------------------------------
+共统计到 23 位活跃用户
