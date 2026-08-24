@@ -1,0 +1,481 @@
+
+====================================================================================================
+最近 24 小时用户活动统计（不使用强制别名映射）
+====================================================================================================
+
+用户: zhangfan
+  识别: mxlgzhang@moonton.com
+  出现过的名字: zhangfan
+  总提交    : 74 次
+  总新增/删除: +72,793 / -3,102
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 74
+  按项目分布:
+    • publish_platform/SDK/MSDKNativePackage        提交:   8  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-artifact-closure, codex/ios-v3-baseline-bootstrap, codex/ios-v3-release-assembly (+23,338 / -1,342)
+      提交记录（按时间倒序）：
+        1. 38afa24f  [merge] 合入 iOS 基线 Catalog 初始化
+           时间: 2026-08-23T23:55:52.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKNativePackage/-/commit/38afa24fe6826ed82c963b888cb72055e7ce01e4
+           分支: codex/ios-v3-artifact-closure, codex/ios-v3-release-assembly
+        2. 8feb6b3f  [fix] 使用浅 fetch 获取基线组件源码
+           时间: 2026-08-23T23:41:56.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKNativePackage/-/commit/8feb6b3f8d6afbfa1708676f153a32550325d902
+           分支: codex/ios-v3-artifact-closure, codex/ios-v3-baseline-bootstrap, codex/ios-v3-release-assembly
+        3. 60554e0d  [fix] 按源码提交生成 iOS 基线组件归档
+           时间: 2026-08-23T23:28:54.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKNativePackage/-/commit/60554e0dd14270c8826ba2f1648388ee0ab6401d
+           分支: codex/ios-v3-artifact-closure, codex/ios-v3-baseline-bootstrap, codex/ios-v3-release-assembly
+        4. efa90f62  [feat] 增加 iOS 1.6.2.0 基线 Catalog bootstrap
+           时间: 2026-08-23T23:16:38.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKNativePackage/-/commit/efa90f62026826d9c13d99b4b67cc3aefb79a3c3
+           分支: codex/ios-v3-artifact-closure, codex/ios-v3-baseline-bootstrap, codex/ios-v3-release-assembly
+        5. 6f5a13e9  [docs] 更新 OpenSpec iOS 任务进度
+           时间: 2026-08-23T23:04:33.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKNativePackage/-/commit/6f5a13e91519dd2151194b7a570477b3c888c64f
+           分支: codex/ios-v3-artifact-closure, codex/ios-v3-release-assembly
+        6. 010ced3a  [fix] 收口 iOS 组件推广冻结核验
+           时间: 2026-08-23T22:59:32.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKNativePackage/-/commit/010ced3a10d3f165552e2066d11bdb307a1626af
+           分支: codex/ios-v3-artifact-closure, codex/ios-v3-release-assembly
+        7. 72a0cd34  [fix] 修复 Catalog Authority HTTPS 健康检查
+           时间: 2026-08-23T22:27:47.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKNativePackage/-/commit/72a0cd344bc0f338d5e8cbada51e7da8002e68c6
+           分支: codex/ios-v3-artifact-closure, codex/ios-v3-baseline-bootstrap, codex/ios-v3-release-assembly
+        8. 105b1a82  [feat] 落库 iOS V3 发布组装与权威目录实现
+           时间: 2026-08-23T22:16:05.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDKNativePackage/-/commit/105b1a828ae699d808b3d4da8abf5f64bbdc7610
+           分支: codex/ios-v3-artifact-closure, codex/ios-v3-baseline-bootstrap, codex/ios-v3-release-assembly
+    • publish_platform/SDK/MSDK_iOS/MSDK            提交:   7  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-runner-stage-diagnostic, codex/ios-v3-assembly-pipeline, codex/ios-v3-phase-a-baseline-release (+20,548 / -236)
+      提交记录（按时间倒序）：
+        1. 90dbb4b6  [feat] 建立 iOS Phase A 基线发布分支
+           时间: 2026-08-23T23:39:30.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/MSDK/-/commit/90dbb4b65e17077d498e4e6554643cb952258c6e
+           分支: codex/ios-runner-stage-diagnostic, codex/ios-v3-phase-a-baseline-release
+        2. d4f0b75b  [fix] 清理 iOS Runner 残留构建目录
+           时间: 2026-08-23T23:25:33.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/MSDK/-/commit/d4f0b75bcefd5163557db464f63dd9df7be33fe5
+           分支: codex/ios-v3-assembly-pipeline
+        3. 64d91f81  [feat] 拆分 Account 静态 XCFramework
+           时间: 2026-08-23T22:47:06.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/MSDK/-/commit/64d91f811706f5952ed40a1e32cf12f422965e66
+           分支: codex/ios-v3-assembly-pipeline
+        4. 018fd1ff  [feat] 实现 iOS Facade/Core 静态组件分层
+           时间: 2026-08-23T22:10:57.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/MSDK/-/commit/018fd1ff4da680736557d7c95d93c500850c2372
+           分支: codex/ios-v3-assembly-pipeline
+        5. 191c010b  [feat] 完善 iOS Phase A Full 自动签名与产物契约
+           时间: 2026-08-23T21:08:08.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/MSDK/-/commit/191c010b593b5da0804b15f34684ee5311bdfa57
+           分支: codex/ios-v3-assembly-pipeline
+        6. 58c1b0bd  [fix] 让 PackageCheck 发布从权威 Catalog 自举
+           时间: 2026-08-23T20:34:53.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/MSDK/-/commit/58c1b0bdea5baa07772992a6f7479d7db662d5a6
+           分支: codex/ios-v3-assembly-pipeline
+        7. 13984de8  [feat] 完成 iOS 组件组合发布与组装流水线
+           时间: 2026-08-23T20:11:00.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/MSDK/-/commit/13984de81ae41bfea853649a6ff154d6c7884d04
+           分支: codex/ios-v3-assembly-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKInnerBridge 提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+937 / -78)
+      提交记录（按时间倒序）：
+        1. 2ff1b957  [docs] 补充 InnerBridge 发布说明
+           时间: 2026-08-23T22:33:47.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKInnerBridge/-/commit/2ff1b957e3b79f60f3f4a95cdfca45170209be0e
+           分支: codex/ios-v3-component-release-pipeline
+        2. 3098183e  [fix] 补齐组件发布代次契约测试
+           时间: 2026-08-23T21:45:00.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKInnerBridge/-/commit/3098183e287c736887f5f6adbe15a2b8fe96abd8
+           分支: codex/ios-v3-component-release-pipeline
+        3. 925cb262  [feat] 建立组件 Release Tag 发布流水线
+           时间: 2026-08-23T21:32:31.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKInnerBridge/-/commit/925cb262c3dfb4d4ef686012d518938109415514
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Account_Module 提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+871 / -118)
+      提交记录（按时间倒序）：
+        1. ea3dbda1  [fix] 让 Account 契约测试仓内自包含
+           时间: 2026-08-23T22:33:20.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Account_Module/-/commit/ea3dbda1dd47b97fbb53f57a132cdc0f8eba47ac
+           分支: codex/ios-v3-component-release-pipeline
+        2. 9ef3498d  [fix] 统一 Account 组件发布身份并修正 Tag 契约测试
+           时间: 2026-08-23T21:13:41.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Account_Module/-/commit/9ef3498dd503b90b47f94e8e8c3d811a40999976
+           分支: codex/ios-v3-component-release-pipeline
+        3. 40ee597e  [feat] 建立 Account 组件 Release Tag 发布流水线
+           时间: 2026-08-23T20:11:04.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Account_Module/-/commit/40ee597ecfb623df679b65e808dfd7e9c0d867cd
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKBridgeKit 提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+887 / -78)
+      提交记录（按时间倒序）：
+        1. 3cafcd76  [fix] 补齐组件发布代次契约测试
+           时间: 2026-08-23T21:44:56.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKBridgeKit/-/commit/3cafcd765c6c31b536310af7ccd394c895570ccf
+           分支: codex/ios-v3-component-release-pipeline
+        2. 1a4a6747  [feat] 建立组件 Release Tag 发布流水线
+           时间: 2026-08-23T21:32:25.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKBridgeKit/-/commit/1a4a6747f3aff3f5e4b6d1d49059032a2b656e23
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKAgeRanger 提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+887 / -78)
+      提交记录（按时间倒序）：
+        1. dd27d392  [fix] 补齐组件发布代次契约测试
+           时间: 2026-08-23T21:44:52.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKAgeRanger/-/commit/dd27d392f5ef3493aeb4b6d58bf66aedc599f0b4
+           分支: codex/ios-v3-component-release-pipeline
+        2. 8fd71016  [feat] 建立组件 Release Tag 发布流水线
+           时间: 2026-08-23T21:32:21.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKAgeRanger/-/commit/8fd71016058c46059dcc5e3c6e4f625d44684885
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKPerformanceKit_ByteGameSafe 提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+891 / -78)
+      提交记录（按时间倒序）：
+        1. 78eb2426  [fix] 补齐组件发布代次契约测试
+           时间: 2026-08-23T21:45:04.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKPerformanceKit_ByteGameSafe/-/commit/78eb2426368d87c3b0aa9566507a99c364101dc9
+           分支: codex/ios-v3-component-release-pipeline
+        2. 402d2ea7  [feat] 建立组件 Release Tag 发布流水线
+           时间: 2026-08-23T21:32:35.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKPerformanceKit_ByteGameSafe/-/commit/402d2ea7e245ccd8cebec5e10da0c0a74c5562f9
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKPerformanceKit_MTR 提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+887 / -78)
+      提交记录（按时间倒序）：
+        1. e2d80afb  [fix] 补齐组件发布代次契约测试
+           时间: 2026-08-23T21:45:05.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKPerformanceKit_MTR/-/commit/e2d80afbedadfd7c9fe51b436a6b7f2379b5678b
+           分支: codex/ios-v3-component-release-pipeline
+        2. 92dad93d  [feat] 建立组件 Release Tag 发布流水线
+           时间: 2026-08-23T21:32:37.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKPerformanceKit_MTR/-/commit/92dad93dc43a444c6f5a4e2ced447522fb51932a
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKCAID 提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+887 / -78)
+      提交记录（按时间倒序）：
+        1. d3f9b0a1  [fix] 补齐组件发布代次契约测试
+           时间: 2026-08-23T21:44:57.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKCAID/-/commit/d3f9b0a186e2d77097df4a74658fec6cbba5401d
+           分支: codex/ios-v3-component-release-pipeline
+        2. 7d73ba16  [feat] 建立组件 Release Tag 发布流水线
+           时间: 2026-08-23T21:32:26.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKCAID/-/commit/7d73ba16ec391dcf83023d79c85e93d1348e846d
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKReCaptcha 提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+887 / -78)
+      提交记录（按时间倒序）：
+        1. c4a106e8  [fix] 补齐组件发布代次契约测试
+           时间: 2026-08-23T21:45:06.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKReCaptcha/-/commit/c4a106e8813557ee886edfd7082419551e937665
+           分支: codex/ios-v3-component-release-pipeline
+        2. 3c466b07  [feat] 建立组件 Release Tag 发布流水线
+           时间: 2026-08-23T21:32:38.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKReCaptcha/-/commit/3c466b07d947c25826bb1139f798890d2298826e
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKAccountNaver 提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+887 / -78)
+      提交记录（按时间倒序）：
+        1. 952a8754  [fix] 补齐组件发布代次契约测试
+           时间: 2026-08-23T21:44:51.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKAccountNaver/-/commit/952a875493c7d27485cd6092e4009efc6081c3b4
+           分支: codex/ios-v3-component-release-pipeline
+        2. 963e86d9  [feat] 建立组件 Release Tag 发布流水线
+           时间: 2026-08-23T21:32:20.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKAccountNaver/-/commit/963e86d9879cb9ef606ba7932bde54408a9c52a6
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKAccountLine 提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+887 / -78)
+      提交记录（按时间倒序）：
+        1. f19adabb  [fix] 补齐组件发布代次契约测试
+           时间: 2026-08-23T21:44:49.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKAccountLine/-/commit/f19adabb7dd13d94bade05c9e53d430b886ea4f1
+           分支: codex/ios-v3-component-release-pipeline
+        2. a0e4a1a6  [feat] 建立组件 Release Tag 发布流水线
+           时间: 2026-08-23T21:32:19.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKAccountLine/-/commit/a0e4a1a6623c562c77e00f71328425c49c940b91
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Web_Container 提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+887 / -78)
+      提交记录（按时间倒序）：
+        1. d6e8e252  [fix] 补齐组件发布代次契约测试
+           时间: 2026-08-23T21:44:45.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Web_Container/-/commit/d6e8e252a8c766d824785dfd7debe045e99a66b5
+           分支: codex/ios-v3-component-release-pipeline
+        2. f8ad71f3  [feat] 建立组件 Release Tag 发布流水线
+           时间: 2026-08-23T21:32:16.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Web_Container/-/commit/f8ad71f3e5793350779967b75ddf501fdf88a6e0
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKFirebaseLib 提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+887 / -78)
+      提交记录（按时间倒序）：
+        1. d62c7c8c  [fix] 补齐组件发布代次契约测试
+           时间: 2026-08-23T21:44:59.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKFirebaseLib/-/commit/d62c7c8c0183344ca9b946297d1564a0ef59eb2b
+           分支: codex/ios-v3-component-release-pipeline
+        2. 0e9d2332  [feat] 建立组件 Release Tag 发布流水线
+           时间: 2026-08-23T21:32:30.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKFirebaseLib/-/commit/0e9d2332fbc2a8a8a5b72b9a35f17ccf2ec5ec9c
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKTikTokModule 提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+887 / -78)
+      提交记录（按时间倒序）：
+        1. 6291d166  [fix] 补齐组件发布代次契约测试
+           时间: 2026-08-23T21:45:07.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKTikTokModule/-/commit/6291d166308abbb9e23be86734d33e1cd5270f3c
+           分支: codex/ios-v3-component-release-pipeline
+        2. b8cce78c  [feat] 建立组件 Release Tag 发布流水线
+           时间: 2026-08-23T21:32:39.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKTikTokModule/-/commit/b8cce78cb5f938d14f7ef3a6292f3a9a97fc0a23
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKAccountDiscord 提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+887 / -78)
+      提交记录（按时间倒序）：
+        1. c4b947d9  [fix] 补齐组件发布代次契约测试
+           时间: 2026-08-23T21:44:46.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKAccountDiscord/-/commit/c4b947d9a73031417fea8e64b63fb4b78ca5d41c
+           分支: codex/ios-v3-component-release-pipeline
+        2. 2aaad112  [feat] 建立组件 Release Tag 发布流水线
+           时间: 2026-08-23T21:32:18.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKAccountDiscord/-/commit/2aaad11205b12c1efe70fd7ea7111e9beeda7869
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKPerformanceKit 提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+887 / -78)
+      提交记录（按时间倒序）：
+        1. 5328e32c  [fix] 补齐组件发布代次契约测试
+           时间: 2026-08-23T21:45:01.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKPerformanceKit/-/commit/5328e32cf3b332925e1f98e61f9215a378e6efd1
+           分支: codex/ios-v3-component-release-pipeline
+        2. 82a9c43e  [feat] 建立组件 Release Tag 发布流水线
+           时间: 2026-08-23T21:32:33.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKPerformanceKit/-/commit/82a9c43ee0a14c05363ad54943c9e5f3be57be01
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKBridge 提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+887 / -78)
+      提交记录（按时间倒序）：
+        1. d2524ac6  [fix] 补齐组件发布代次契约测试
+           时间: 2026-08-23T21:44:54.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKBridge/-/commit/d2524ac6deb2f5b8fa95f33ce9b185488b819ab2
+           分支: codex/ios-v3-component-release-pipeline
+        2. d4007bdd  [feat] 建立组件 Release Tag 发布流水线
+           时间: 2026-08-23T21:32:23.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKBridge/-/commit/d4007bdd9ac0a75c99a440fc769340505fb7ab57
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKBaseKit 提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+887 / -78)
+      提交记录（按时间倒序）：
+        1. 515913d3  [fix] 补齐组件发布代次契约测试
+           时间: 2026-08-23T21:44:53.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKBaseKit/-/commit/515913d3d907d48b06341238f640ba1fa39af1b8
+           分支: codex/ios-v3-component-release-pipeline
+        2. db6dc462  [feat] 建立组件 Release Tag 发布流水线
+           时间: 2026-08-23T21:32:22.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKBaseKit/-/commit/db6dc4624311a281e4cdcd7f07033f6a7909964e
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKCoreKit 提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+887 / -78)
+      提交记录（按时间倒序）：
+        1. b27d4b1a  [fix] 补齐组件发布代次契约测试
+           时间: 2026-08-23T21:44:58.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKCoreKit/-/commit/b27d4b1a027bdd079b39c5426a0deec717491b9a
+           分支: codex/ios-v3-component-release-pipeline
+        2. 9d4774f6  [feat] 建立组件 Release Tag 发布流水线
+           时间: 2026-08-23T21:32:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKCoreKit/-/commit/9d4774f642bdbe8c36ba1e5c193be1e13c1f7e40
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKTools 提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+887 / -78)
+      提交记录（按时间倒序）：
+        1. 48ea912d  [fix] 补齐组件发布代次契约测试
+           时间: 2026-08-23T21:45:10.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKTools/-/commit/48ea912d0abb358e4120ef5ef76ca0408021bad3
+           分支: codex/ios-v3-component-release-pipeline
+        2. d1ad5b8d  [feat] 建立组件 Release Tag 发布流水线
+           时间: 2026-08-23T21:32:41.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDKTools/-/commit/d1ad5b8d73fce5027e7a7fb41041b5b3eadd7b87
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK-Analytics-Firebase 提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+715 / -2)
+      提交记录（按时间倒序）：
+        1. 4d032943  [docs] 补充 Analytics Firebase 发布说明
+           时间: 2026-08-23T22:33:47.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK-Analytics-Firebase/-/commit/4d032943327fa7c6a1b96a0b9cd48f5e6cd28141
+           分支: codex/ios-v3-component-release-pipeline
+        2. 4a0b170f  [feat] 建立组件 Release Tag 自包含发布流水线
+           时间: 2026-08-23T21:55:26.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK-Analytics-Firebase/-/commit/4a0b170fcc8c93c72c96e0275385e9f342d7dafc
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Push_LocalPush 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+663 / -0)
+      提交记录（按时间倒序）：
+        1. 48a8a577  [feat] 建立组件 Release Tag 自包含发布流水线
+           时间: 2026-08-23T21:55:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Push_LocalPush/-/commit/48a8a5772ef5c02734173ec314945938f7780bfe
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_App_Score_Module 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+684 / -0)
+      提交记录（按时间倒序）：
+        1. fa711b5a  [feat] 建立 App Score 组件自包含发布流水线
+           时间: 2026-08-23T22:32:40.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_App_Score_Module/-/commit/fa711b5a26bffaf17c1269178bd7ee6eaf6465aa
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK-Social-Module 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+663 / -0)
+      提交记录（按时间倒序）：
+        1. eda4b7f9  [feat] 建立组件 Release Tag 自包含发布流水线
+           时间: 2026-08-23T21:55:28.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK-Social-Module/-/commit/eda4b7f9b4245b76f90c4fe8034112c6d09525f7
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK-Social-Facebook 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+667 / -0)
+      提交记录（按时间倒序）：
+        1. ba70e56a  [feat] 建立组件 Release Tag 自包含发布流水线
+           时间: 2026-08-23T21:55:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK-Social-Facebook/-/commit/ba70e56ae6293e4bc3555dfc94b3688936025552
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Perf_GPM 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+663 / -0)
+      提交记录（按时间倒序）：
+        1. 2c3e8c0a  [feat] 建立组件 Release Tag 自包含发布流水线
+           时间: 2026-08-23T21:55:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Perf_GPM/-/commit/2c3e8c0a02406a14c87650997ffdb870ff8ccaed
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_AIHelp 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+663 / -0)
+      提交记录（按时间倒序）：
+        1. b83dd9c8  [feat] 建立组件 Release Tag 自包含发布流水线
+           时间: 2026-08-23T21:55:26.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_AIHelp/-/commit/b83dd9c84a37bc84191dbce0e70998ef89e787bc
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Push_Module 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+667 / -0)
+      提交记录（按时间倒序）：
+        1. d8cb4ed4  [feat] 建立组件 Release Tag 自包含发布流水线
+           时间: 2026-08-23T21:55:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Push_Module/-/commit/d8cb4ed4a07ba09ec1c5d29efe5a6b1b6acc7a36
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/msdk_cpp_data_report_module 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+644 / -0)
+      提交记录（按时间倒序）：
+        1. 119204ce  [feat] 建立组件 Release Tag 自包含发布流水线
+           时间: 2026-08-23T21:55:26.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/msdk_cpp_data_report_module/-/commit/119204ceee1594b28de3dda048ba7967a6090e84
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Crash_Module 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+663 / -0)
+      提交记录（按时间倒序）：
+        1. ea15b3fd  [feat] 建立组件 Release Tag 自包含发布流水线
+           时间: 2026-08-23T21:55:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Crash_Module/-/commit/ea15b3fd425395f5ea2aeff35d8c2bd87a4dc148
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Analytics_Module 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+663 / -0)
+      提交记录（按时间倒序）：
+        1. 894372ad  [feat] 建立组件 Release Tag 自包含发布流水线
+           时间: 2026-08-23T21:55:26.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Analytics_Module/-/commit/894372adfbff9369976c703b3c6c478366ce7787
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Account_Sub_FB 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+667 / -0)
+      提交记录（按时间倒序）：
+        1. ffc125a9  [feat] 建立组件 Release Tag 自包含发布流水线
+           时间: 2026-08-23T21:55:26.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Account_Sub_FB/-/commit/ffc125a90e3e10c961f5c62a55f41851d9bf5d85
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Account_Sub_SIWA 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+663 / -0)
+      提交记录（按时间倒序）：
+        1. 413ac306  [feat] 建立组件 Release Tag 自包含发布流水线
+           时间: 2026-08-23T21:55:26.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK_Account_Sub_SIWA/-/commit/413ac306309d09d0d7793437f482b4e0fe8a0fd8
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK-IAP-Module 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+667 / -0)
+      提交记录（按时间倒序）：
+        1. 97e1acc3  [feat] 建立组件 Release Tag 自包含发布流水线
+           时间: 2026-08-23T21:55:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK-IAP-Module/-/commit/97e1acc3f55f13a865812c2485e03b35ea2ecc1d
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK-Crashlytics-Firebase 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+667 / -0)
+      提交记录（按时间倒序）：
+        1. 84b799f3  [feat] 建立组件 Release Tag 自包含发布流水线
+           时间: 2026-08-23T21:55:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK-Crashlytics-Firebase/-/commit/84b799f36bf8355e5d3a95687eb9a4e4099f44a6
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK-Crashlytics-Bugly 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+667 / -0)
+      提交记录（按时间倒序）：
+        1. 48ed9e52  [feat] 建立组件 Release Tag 自包含发布流水线
+           时间: 2026-08-23T21:55:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK-Crashlytics-Bugly/-/commit/48ed9e528cdf44a65d03ad397da6591161811e03
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK-Analytics-Facebook 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+667 / -0)
+      提交记录（按时间倒序）：
+        1. 84b89636  [feat] 建立组件 Release Tag 自包含发布流水线
+           时间: 2026-08-23T21:55:26.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK-Analytics-Facebook/-/commit/84b89636855bced745385c0c35fd4946ba8f374b
+           分支: codex/ios-v3-component-release-pipeline
+    • publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK-Analytics-Adjust 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-v3-component-release-pipeline (+663 / -0)
+      提交记录（按时间倒序）：
+        1. fb2bfb39  [feat] 建立组件 Release Tag 自包含发布流水线
+           时间: 2026-08-23T21:55:26.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/SDK/MSDK_iOS/msdk_ios_pod_Component/MSDK-Analytics-Adjust/-/commit/fb2bfb39648d6a1b32ed47d0ddf5831dc3d1887a
+           分支: codex/ios-v3-component-release-pipeline
+
+用户: 李铭骏(Mingjun)
+  识别: mingjunli@moonton.com
+  出现过的名字: 李铭骏(Mingjun)
+  总提交    : 10 次
+  总新增/删除: +1,151 / -20
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 11
+  按项目分布:
+    • msdk/rispari/server/im-access                 提交:   6  MR:  1  Commit评论:  0  MR评论:  0 分支:feature/IA-M1-FIX-P014-ORIGIN-MAP-sender-connection-id, milestone/M1 (+593 / -9)
+      提交记录（按时间倒序）：
+        1. cdf7e0d3  docs(evidence): IA-M1-FIX-P014-ORIGIN-MAP 评审 S-1 返工——D-OM-3 排查表补录 IssueImTokenReq.TimestampMs 行（P0-09 注释口径，映射无缺口）+ 门禁五项复跑全绿复跑段
+           时间: 2026-08-23T15:49:47.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/cdf7e0d3c05bbd0526616821d9ba40eaef3200ec
+           分支: feature/IA-M1-FIX-P014-ORIGIN-MAP-sender-connection-id, milestone/M1
+        2. 81c77914  docs(progress): IA-M1-FIX-P014-ORIGIN-MAP 独立子 agent 评审报告归档（PASS，0 阻塞 / 2 建议）
+           时间: 2026-08-23T15:46:40.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/81c7791443920a753e4782b47994d1200db365e2
+           分支: feature/IA-M1-FIX-P014-ORIGIN-MAP-sender-connection-id, milestone/M1
+        3. 6b9b56e8  docs(progress): IA-M1-FIX-P014-ORIGIN-MAP tasks.md 自登记勾选 + cross-task-handoffs 交接行登记（修复面就绪 + 同族排查口径 + 解锁面）+ 证据 selection-records/gate-output 归档
+           时间: 2026-08-23T15:30:36.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/6b9b56e86cb49c2b6a581b18549472e4ec7895ee
+           分支: feature/IA-M1-FIX-P014-ORIGIN-MAP-sender-connection-id, milestone/M1
+        4. d888eb2c  fix(rpcclient): IA-M1-FIX-P014-ORIGIN-MAP SendMessage 映射补漏 SenderConnectionId，修复 P0-14 v2.4 源连接回显排除运行时失效
+           时间: 2026-08-23T15:27:40.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/d888eb2ced8870cbd339a7b4a54f2140f8d9436a
+           分支: feature/IA-M1-FIX-P014-ORIGIN-MAP-sender-connection-id, milestone/M1
+        5. 47a88d51  docs(progress): IA-M1-FIX-P014-ORIGIN-MAP 合入回填（MR !43，merge 863c65e）——tasks.md 完成证据补 merge commit/MR/评审/批准人 + current.md 阶段目标与证据导航追加本任务交付段
+           时间: 2026-08-23T16:14:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/47a88d511b035d73083637f2bd18375838ac33ff
+           分支: milestone/M1
+        6. 863c65e2  Merge branch 'feature/IA-M1-FIX-P014-ORIGIN-MAP-sender-connection-id' into 'milestone/M1'
+           时间: 2026-08-23T08:11:20.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/commit/863c65e27dfe1be7d3dea3ed58e52e1628081e2d
+           分支: milestone/M1
+      MR记录（按时间倒序）：
+        1. MR#43 fix(rpcclient): SendMessage 映射补漏 SenderConnectionId，恢复 P0-14 v2.4 源连接回显排除（IA-M1-FIX-P014-ORIGIN-MAP）
+           时间: 2026-08-23T07:31:20.046Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-access/-/merge_requests/43
+    • msdk/rispari/server/docs                      提交:   4  MR:  0  Commit评论:  0  MR评论:  0 分支:milestone/M1 (+558 / -11)
+      提交记录（按时间倒序）：
+        1. 271e02bd  docs(progress): BASE-M1-W6-RC-PROMOTE 复验闭环证据归档补录——2026-08-23 复验产物 7 份（versions 修复基线 47a88d5/843d53c/1909d14 + prep-db + deploy-startup + 冒烟四份：im-access 85/85 翻正 / im-logic 64/64 / im-scheduler 29/29 / kafka-partition 3/3；前次提交归档落点误写任务 worktree，本提交补入主目录证据面，凭据扫描 0 命中）
+           时间: 2026-08-23T16:33:53.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/271e02bda4f513bd1ffa1e47105954cf82661783
+           分支: milestone/M1
+        2. 4235964d  docs(progress): BASE-M1-W6-RC-PROMOTE 缺陷修复复验闭环勾选回填（F-W6-P014-ORIGIN-MAP）——im-access IA-M1-FIX-P014-ORIGIN-MAP 合入（MR !43 merge 863c65e）后 rc-w6-promote 链重部署（im-access 47a88d5 pid 32172 / im-logic 843d53c pid 43792 / im-scheduler 1909d14 pid 42600），复验冒烟全绿：im-access 85/85 翻正（源连接回显断言 PASS）+ im-logic 64/64 + im-scheduler 29/29 + kafka-partition 3/3 + metrics source_skipped=4 跳过判据运行时实证；tasks.md BASE-M1-W6-RC-PROMOTE 勾选（完成证据补修复闭环段）；current.md RC 现态切修复版制品、阻塞段改已解除、九个 W6 E2E 与 CONV-SUBSCRIPTION 专项解锁；证据补 §7 复验闭环记录 + 2026-08-23 复验产物 7 份归档
+           时间: 2026-08-23T16:32:43.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/4235964d42c8ceae2115128db4de34c0382844bb
+           分支: milestone/M1
+        3. 1019f9e9  docs(progress): BASE-M1-W6-RC-PROMOTE 合入后串行回填（MR !54，merge f0b269b）——current.md：RC 现态切 W6 制品运行态（S3：im-access d279854 pid 38776 / im-logic 843d53c pid 10232 / im-scheduler 1909d14 pid 40440）+ 冒烟口径（im-logic 64/64、im-scheduler 29/29、kafka-partition 3/3 全 PASS，im-access 84 PASS/1 FAIL=制品缺陷）+ manifest W6 重写计数（28/0、31/0、4 REAL-SCAN）+ 当前阻塞登记制品缺陷 F-W6-P014-ORIGIN-MAP（阻塞九个 W6 E2E 与 CONV-SUBSCRIPTION 专项派发）+ Gate 上下文 G-W6 更新（RC-PROMOTE 已合入、E2E 暂缓）+ 证据导航补 rc-w6-promote/；p014-origin-map-defect.md 增补 §6 修复方案（IA-M1-FIX-P014-ORIGIN-MAP：一行映射修复 + 契约测试锚定 + only-add 字段同族排查，G3 门禁，合入后 RC 复验链 85/85 翻正判据，协调方 2026-08-23 出具）
+           时间: 2026-08-23T11:27:44.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/1019f9e98f56938d2b0170303ce7a997bc3dd4fa
+           分支: milestone/M1
+        4. f0b269b7  Merge branch 'feature/BASE-M1-W6-RC-PROMOTE-w6-real-deploy' into 'milestone/M1'
+           时间: 2026-08-23T02:50:07.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/f0b269b7b2a004b4581a73e76ff740f6003f4fb4
+           分支: milestone/M1
+
+用户: likongquan
+  识别: levirli@moonton.com
+  出现过的名字: likongquan
+  总提交    : 4 次
+  总新增/删除: +2,295 / -54
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 4
+  按项目分布:
+    • mirrorsphere/forge                            提交:   4  MR:  0  Commit评论:  0  MR评论:  0 分支:msdk-workspace (+2,295 / -54)
+      提交记录（按时间倒序）：
+        1. 2de9b1ef  chore(openspec): archive msdk-ops-query-parity 并 sync spec
+           时间: 2026-08-23T11:23:45.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/forge/-/commit/2de9b1ef39256885c0c5654c025a9901a9e10ec7
+           分支: msdk-workspace
+        2. a74844e2  docs(msdk-ops): 记录指标模板查询能力与动态 step 采样参数
+           时间: 2026-08-23T11:05:08.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/forge/-/commit/a74844e2a6e75af633f383e575fc7163ae381453
+           分支: msdk-workspace
+        3. fd5b464f  feat(msdk-ops): query-metrics.py 支持模板模式 qps/p99/p95/errors/sockets/cpu/memory
+           时间: 2026-08-23T10:50:50.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/forge/-/commit/fd5b464facee4d6f0c685ee4cf60bdfef5b3836a
+           分支: msdk-workspace
+        4. 4e1b0c54  feat(msdk-ops): Grafana 请求体统一由 QueryPlan 采样参数驱动
+           时间: 2026-08-23T10:28:51.000+08:00
+           链接: http://lf.git.oa.mt/mirrorsphere/forge/-/commit/4e1b0c547eec2701b21e334f9e15d4e05a067a60
+           分支: msdk-workspace
+
+----------------------------------------------------------------------------------------------------
+共统计到 3 位活跃用户
