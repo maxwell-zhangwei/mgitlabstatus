@@ -1,0 +1,139 @@
+
+====================================================================================================
+最近 24 小时用户活动统计（不使用强制别名映射）
+====================================================================================================
+
+用户: 吴超伟(Chaowei)
+  识别: chaoweiwu@moonton.com
+  出现过的名字: 吴超伟(Chaowei)
+  总提交    : 4 次
+  总新增/删除: +15 / -10
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 6
+  按项目分布:
+    • publish_platform/ai                           提交:   3  MR:  2  Commit评论:  0  MR评论:  0 分支:prod (+2 / -2)
+      提交记录（按时间倒序）：
+        1. d916b205  Merge branch 'feature/switch_google_20260829' into 'prod'
+           时间: 2026-08-29T04:39:57.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ai/-/commit/d916b2057879a801bcd3ca64b4d570c7bb515042
+           分支: prod
+        2. 0a825e4a  切回 google
+           时间: 2026-08-29T12:38:25.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ai/-/commit/0a825e4a91cdca5ccf35a00b22b2d5c7ad86b8c4
+           分支: prod
+        3. 265cd4c0  Merge branch 'feature/switch_fx_llm_20260828' into 'prod'
+           时间: 2026-08-29T02:06:43.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ai/-/commit/265cd4c08456c2219ac668d7ecbe18c63fd8e852
+           分支: prod
+      MR记录（按时间倒序）：
+        1. MR#154 切回 google
+           时间: 2026-08-29T04:39:55.016Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ai/-/merge_requests/154
+        2. MR#153 m-7033223685 提高大模型并发度
+           时间: 2026-08-29T02:06:39.962Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ai/-/merge_requests/153
+    • publish_platform/mt_publish_crawler           提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+13 / -8)
+      提交记录（按时间倒序）：
+        1. a4637662  m-7069339699 增加onesight 数据的拉取 将全量数据的拉取放到最后
+           时间: 2026-08-29T10:22:14.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/mt_publish_crawler/-/commit/a4637662cae73cbe4a5313054d3f8db890ea2c16
+           分支: master
+
+用户: jackyqi
+  识别: jackyqi@moonton.com
+  出现过的名字: jackyqi
+  总提交    : 5 次
+  总新增/删除: +2,962 / -0
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 5
+  按项目分布:
+    • publish_platform/web/team-knowledge           提交:   5  MR:  0  Commit评论:  0  MR评论:  0 分支:main (+2,962 / -0)
+      提交记录（按时间倒序）：
+        1. 8b3ece46  chore: k8s manifest 收录到 deploy/——与线上实际状态一致（kubectl diff 校验）
+           时间: 2026-08-29T08:20:39.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/team-knowledge/-/commit/8b3ece4633e158a01037b92843f84792689ad8d9
+           分支: main
+        2. 9690f598  feat: 静态站点部署到 K8s（kappa-dev 域名 /knowledge/ 路径）
+           时间: 2026-08-29T02:15:29.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/team-knowledge/-/commit/9690f59821d5d72f1b0118923b3feb3abb4e4653
+           分支: main
+        3. 66eeeb09  fix: CI alpine 镜像补装 git——VitePress lastUpdated 依赖 git log
+           时间: 2026-08-29T02:04:33.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/team-knowledge/-/commit/66eeeb09beb03e97a474f9c129523bf6492188fc
+           分支: main
+        4. 8fa61971  feat: 接入 VitePress 静态站点——sidebar 按 frontmatter 自动生成 + GitLab Pages CI
+           时间: 2026-08-29T02:00:43.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/team-knowledge/-/commit/8fa61971f83ba33735d022181b641def7f4a73dc
+           分支: main
+        5. 1f2d6467  feat: 初始化团队知识库——moonma 导出 14 条知识条目
+           时间: 2026-08-29T01:25:15.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/team-knowledge/-/commit/1f2d64679442ead2225923b752decc412a3b6aaa
+           分支: main
+
+用户: suzyzeng
+  识别: suzyzeng@moonton.com
+  出现过的名字: suzyzeng
+  总提交    : 3 次
+  总新增/删除: +2,150 / -1,269
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 3
+  按项目分布:
+    • publish_platform/ad_bi/gms_ad_bi_refactor     提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/m-7067251698_cn_add_realtimeAlert (+2,150 / -1,269)
+      提交记录（按时间倒序）：
+        1. 042f289c  m-7067251698, upgrade the logic of rule-exec-logs
+           时间: 2026-08-29T11:47:57.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/042f289cb0498fe5f34f1cbe7cb7718ce2d868f0
+           分支: feature/m-7067251698_cn_add_realtimeAlert
+        2. 1354bbb9  m-7067251698, add the logic of pre-check-scope and upgrade the logic of downloading exec-logs csv
+           时间: 2026-08-29T10:38:45.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/1354bbb9450214d9303d233bc3b0c4738d87a16c
+           分支: feature/m-7067251698_cn_add_realtimeAlert
+        3. 9528f7e5  m-7067251698, fix the logic of run-cnAlert-cronjob
+           时间: 2026-08-29T00:09:04.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_refactor/-/commit/9528f7e51673f609c135c125aaf46c2b8c127f7b
+           分支: feature/m-7067251698_cn_add_realtimeAlert
+
+用户: 李铭骏(Mingjun)
+  识别: mingjunli@moonton.com
+  出现过的名字: 李铭骏(Mingjun)
+  总提交    : 1 次
+  总新增/删除: +69 / -0
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • msdk/rispari/server/im-logic                  提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/IL-M1-P027-H308-SORT-CREATED-AT (+69 / -0)
+      提交记录（按时间倒序）：
+        1. 81cb9f38  docs(evidence): round 5 复核报告归档——PASS 返工闭合（0 阻塞/0 建议，IL-M1-P027-H308-SORT-CREATED-AT）
+           时间: 2026-08-29T00:09:48.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/81cb9f3888dc103a245769a8460b8767435a7b93
+           分支: feature/IL-M1-P027-H308-SORT-CREATED-AT
+
+用户: 李孔权(Levir)
+  识别: levirli@moonton.com
+  出现过的名字: 李孔权(Levir)
+  总提交    : 1 次
+  总新增/删除: +0 / -0
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • msdk/report                                   提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:test 
+      提交记录（按时间倒序）：
+        1. 929f8c6a  Merge branch 'feat/vector_mfw-m-7076999931' into 'test'
+           时间: 2026-08-29T12:57:53.000+00:00
+           链接: http://lf.git.oa.mt/msdk/report/-/commit/929f8c6aab001121c1c3391f2e0b897c1fd5d963
+           分支: test
+
+----------------------------------------------------------------------------------------------------
+共统计到 5 位活跃用户
