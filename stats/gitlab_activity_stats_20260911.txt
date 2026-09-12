@@ -1,0 +1,934 @@
+
+====================================================================================================
+最近 24 小时用户活动统计（不使用强制别名映射）
+====================================================================================================
+
+用户: 李铭骏(Mingjun)
+  识别: mingjunli@moonton.com
+  出现过的名字: 李铭骏(Mingjun)
+  总提交    : 32 次
+  总新增/删除: +5,124 / -1,599
+  Merge Requests: 4 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 36
+  按项目分布:
+    • msdk/rispari/server/docs                      提交:  32  MR:  4  Commit评论:  0  MR评论:  0 分支:chore/archive-top-docs-dirs, feature/PROC-M1-CONTRACT-V020-RUNTIME, feature/PROC-M1-EVIDENCE-COUNT-SECTION-count-section, feature/PROC-M1-RC-ARCHIVE-top-level-cleanup, feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove, milestone/M1 (+5,124 / -1,599)
+      提交记录（按时间倒序）：
+        1. 36022ca3  refactor(rules): R3 §6.3 恢复实测路径、§6.4 回指——规则面点名按规范/实测分档（用户裁定 A）
+           时间: 2026-09-11T15:44:48.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/36022ca35a90cb13a877505d876f0a46ff2831a3
+           分支: chore/archive-top-docs-dirs, feature/PROC-M1-CONTRACT-V020-RUNTIME, feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove, milestone/M1
+        2. 36564fb7  refactor(rules): R1/R3 去点名 contract-sandbox，规则面不耦合归档布局（用户裁定，简化改动行）
+           时间: 2026-09-11T15:29:50.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/36564fb75a25c88216af9183f55d26de2c0c1a9b
+           分支: chore/archive-top-docs-dirs, feature/PROC-M1-CONTRACT-V020-RUNTIME, feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove, milestone/M1
+        3. ebd2e06e  refactor(rules): 移除 R6 §10 preparation 清单边界条（用户裁定，承接本 MR 归档）
+           时间: 2026-09-11T15:02:13.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/ebd2e06eebb4389ad8dfff0068fc9bab23e0e6ea
+           分支: chore/archive-top-docs-dirs, feature/PROC-M1-CONTRACT-V020-RUNTIME, feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove, milestone/M1
+        4. fd059324  chore(archive): 顶层四文档目录归档至 archive/M1/（用户裁定 2026-09-11，简化流程无任务编号）
+           时间: 2026-09-11T14:44:53.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/fd0593240c27dd2db1ae8838021e56f045bdd6aa
+           分支: chore/archive-top-docs-dirs, feature/PROC-M1-CONTRACT-V020-RUNTIME, feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove, milestone/M1
+        5. 1af5d156  docs(progress): PROC-M1-RC-ARCHIVE 合入回填（MR !149，merge ab94159）——current.md 五处：证据导航 L76/77 指针改 archive/M1/ 路径、F3 行追加 D-RA5 contract-sandbox 对照指针项、交付登记五行（母行+消费面与评审+残留收口+欠账①D-RA3 跨仓指针②D-RA6 工具判据③im-logic 注释④根层模板已直改，评审 S'-7 显式承载）、导航例外续行；残留清理已按 README 第 6 条序列完成（6 处 runtime/ 移档+删空壳，check-ignore 覆盖验证过），根 .gitignore 兜底行保留作前向防御；ledger_edit.py 五编辑+check 结构健康、新增行宽全 ≤500
+           时间: 2026-09-11T13:23:27.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/1af5d156ce1df1b26c15f83559839c1683e04c93
+           分支: chore/archive-top-docs-dirs, feature/PROC-M1-CONTRACT-V020-RUNTIME, feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove, milestone/M1
+        6. ab94159b  Merge branch 'feature/PROC-M1-RC-ARCHIVE-top-level-cleanup' into 'milestone/M1'
+           时间: 2026-09-11T05:13:26.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/ab94159bb4248906b72e5d9f2a47ee21f2d9e629
+           分支: chore/archive-top-docs-dirs, feature/PROC-M1-CONTRACT-V020-RUNTIME, feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove, milestone/M1
+        7. 9e75d1cb  docs(evidence): PROC-M1-RC-ARCHIVE 处置轮 precheck 复跑制品（全绿，覆盖落盘）
+           时间: 2026-09-11T12:39:51.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/9e75d1cbb15cdee25ec77f3455935bdb396fb01d
+           分支: chore/archive-top-docs-dirs, feature/PROC-M1-CONTRACT-V020-RUNTIME, feature/PROC-M1-RC-ARCHIVE-top-level-cleanup, feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove, milestone/M1
+        8. c4884098  chore(archive): PROC-M1-RC-ARCHIVE 第 2 轮复核建议处置——README 六处修正（S'-1~S'-6）+ §6 处置记录（S'-7/备忘归回填轮与 set-desc）
+           时间: 2026-09-11T12:39:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/c48840983579807f5a862adf3da3d34dc245b44d
+           分支: chore/archive-top-docs-dirs, feature/PROC-M1-CONTRACT-V020-RUNTIME, feature/PROC-M1-RC-ARCHIVE-top-level-cleanup, feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove, milestone/M1
+        9. 4b4afef8  docs(evidence): PROC-M1-RC-ARCHIVE 返工轮制品——precheck 复跑全绿（覆盖落盘，首版锚定 a78a02e 存 git 历史）+ B-1/B-2 修复断言 rework-assertions.txt
+           时间: 2026-09-11T12:14:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/4b4afef835a96cd23bdce618d08458c2539a38c1
+           分支: chore/archive-top-docs-dirs, feature/PROC-M1-CONTRACT-V020-RUNTIME, feature/PROC-M1-RC-ARCHIVE-top-level-cleanup, feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove, milestone/M1
+       10. 78019a04  chore(archive): PROC-M1-RC-ARCHIVE 返工——B-1 忽略面兜底 + B-2 失效面登记与活体断言条件式化
+           时间: 2026-09-11T12:13:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/78019a0482b05cd6f68b5b949e7222aae920dfd2
+           分支: chore/archive-top-docs-dirs, feature/PROC-M1-CONTRACT-V020-RUNTIME, feature/PROC-M1-RC-ARCHIVE-top-level-cleanup, feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove, milestone/M1
+       11. a052acfe  docs(evidence): PROC-M1-RC-ARCHIVE 提交后八段预检制品（全绿，锚定 a78a02e）
+           时间: 2026-09-11T11:31:37.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/a052acfe25656417adc36623db49f366f3fd87d5
+           分支: chore/archive-top-docs-dirs, feature/PROC-M1-CONTRACT-V020-RUNTIME, feature/PROC-M1-RC-ARCHIVE-top-level-cleanup, feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove, milestone/M1
+       12. a78a02ec  chore(archive): PROC-M1-RC-ARCHIVE 36 个顶层 rc-* 目录归档至 archive/M1/ 分类布局
+           时间: 2026-09-11T11:30:29.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/a78a02ecc2836778e9f54561eaca439e5d554ade
+           分支: chore/archive-top-docs-dirs, feature/PROC-M1-CONTRACT-V020-RUNTIME, feature/PROC-M1-RC-ARCHIVE-top-level-cleanup, feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove, milestone/M1
+       13. fda13113  docs(evidence): PROC-M1-CONTRACT-V020-RUNTIME 二轮返工证据制品
+           时间: 2026-09-11T21:15:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/fda131132734c8bb8cf59613fdde3f0982fc3c1a
+           分支: feature/PROC-M1-CONTRACT-V020-RUNTIME
+       14. afc4c51a  fix(contracts): PROC-M1-CONTRACT-V020-RUNTIME 二轮返工——复核轮阻塞项 B-4 收口 + S-6/S-7/M-14 同批
+           时间: 2026-09-11T21:14:41.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/afc4c51a69dbbac024387d55ac4a0d393e708d04
+           分支: feature/PROC-M1-CONTRACT-V020-RUNTIME
+       15. 1b79ece7  docs(evidence): PROC-M1-CONTRACT-V020-RUNTIME 返工轮证据制品
+           时间: 2026-09-11T20:27:28.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/1b79ece7896c069476e6d0876a8b07778e8ebeca
+           分支: feature/PROC-M1-CONTRACT-V020-RUNTIME
+       16. 30a7298a  fix(contracts): PROC-M1-CONTRACT-V020-RUNTIME 返工连带面——proposal.md 清单自哈希同步
+           时间: 2026-09-11T20:23:00.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/30a7298ae8b1acfbb1714e530942a4d77ad581c4
+           分支: feature/PROC-M1-CONTRACT-V020-RUNTIME
+       17. 20a24fb5  fix(contracts): PROC-M1-CONTRACT-V020-RUNTIME 评审阻塞项 B-1~B-3 与建议项 S-1~S-3 同批返工
+           时间: 2026-09-11T20:16:55.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/20a24fb5cab8fafafbc2b88cea73d935e86311b1
+           分支: feature/PROC-M1-CONTRACT-V020-RUNTIME
+       18. 78d9b13d  docs(evidence): PROC-M1-CONTRACT-V020-RUNTIME 预检制品与取舍记录
+           时间: 2026-09-11T16:28:36.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/78d9b13dd2538968e6150bb1a1b5f5ec673600f6
+           分支: feature/PROC-M1-CONTRACT-V020-RUNTIME
+       19. 8761f6d0  docs(contracts): v0.2.0 上线态版本锚点 + 运行期契约机制简化（PROC-M1-CONTRACT-V020-RUNTIME）
+           时间: 2026-09-11T16:21:00.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/8761f6d0117f18a4a0bdf93fdeea6499d0953dc6
+           分支: feature/PROC-M1-CONTRACT-V020-RUNTIME
+       20. 3b5689a9  chore(gitattributes): 补钉 json/yaml/ps1/go.mod/go.sum 行尾为 LF（PROC-M1-CONTRACT-V020-RUNTIME）
+           时间: 2026-09-11T16:18:55.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/3b5689a917012a66ede727ae7e66d8f0f4694c8d
+           分支: feature/PROC-M1-CONTRACT-V020-RUNTIME
+       21. 4e35a6fb  Merge branch 'chore/archive-top-docs-dirs' into 'milestone/M1'
+           时间: 2026-09-11T07:59:16.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/4e35a6fb0102bb13ee7ca66934ef64b33edf6198
+           分支: feature/PROC-M1-CONTRACT-V020-RUNTIME, feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove, milestone/M1
+       22. cd22fb1d  docs(evidence): PROC-M1-EVIDENCE-COUNT-SECTION 削减后复跑制品落盘——precheck 全绿（150 行 / 8 段 / 锚定 4382a06 / ⑧ OK 27 词）+ 合并断言 64/64 全过
+           时间: 2026-09-11T11:57:37.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/cd22fb1d1e3ab450d6918ce0fdadff1e34935c6d
+           分支: feature/PROC-M1-EVIDENCE-COUNT-SECTION-count-section
+       23. 4382a068  chore(evidence): PROC-M1-EVIDENCE-COUNT-SECTION 制品削减（用户 2026-09-11 裁定）——17 件 → 9 件、台账 557 → 495 行、净删 976 行制品
+           时间: 2026-09-11T11:55:46.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/4382a068cc2eda9ccfc3a3e9618aeac6a38d5107
+           分支: feature/PROC-M1-EVIDENCE-COUNT-SECTION-count-section
+       24. d99017d6  docs(evidence): PROC-M1-EVIDENCE-COUNT-SECTION 独立确认轮的 precheck 双制品落盘 + ledger §12.5——⑧ 首跑 FAIL 的成因与两制品并存关系
+           时间: 2026-09-11T10:23:56.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/d99017d6069ceba293a929d2c010aab25d95e874
+           分支: feature/PROC-M1-EVIDENCE-COUNT-SECTION-count-section
+       25. a7e6233b  fix(rules): PROC-M1-EVIDENCE-COUNT-SECTION 单文件独立确认后的 5 项建议全修——doc-gov 三套记号辨明 + :52 穷举冲突消解 + 同构补齐
+           时间: 2026-09-11T10:19:55.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/a7e6233b9dcdacfde853d11af6ed16e09d94827d
+           分支: feature/PROC-M1-EVIDENCE-COUNT-SECTION-count-section
+       26. 6fb12ed8  docs(evidence): PROC-M1-SCRIPTS-GATE-RETIRE rebase 后制品锚定刷新——precheck 复跑全绿（251 行/8 段/锚定 8b11482，--copies-debt 语义+检索词 6 个）、断言制品重生成（权威面口径随新基线 4e35a6f 归档收窄：flows/proposals/preparation 移入 archive/M1/ 归历史面；A9 固定串测量模式订正；A1-A9 全过）、评审报告头部加锚定映射说明（正文未动）
+           时间: 2026-09-11T16:14:58.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/6fb12ed8050672f1ff4d81f0ce7134ee7b8f03fb
+           分支: feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove, milestone/M1
+       27. 8b11482d  fix(evidence): PROC-M1-SCRIPTS-GATE-RETIRE 评审建议项 S-1~S-5 同批落地（L2 单轮，返工后不再派评审）——处置块四处修订：①补指名失实测量第二承载处（冻结 spec 文首「现状核实时点」句，不回溯改写、处置块为订正承载，S-4）；②枚举读法订正 08-26 至 08-28 区间逐日计数（备忘）；③副本收敛三分——四仓 apply 分发轮（有边界承载+窗口内一律 --copies-debt 防无关 MR 外溢误判，S-5）、联邦根不经 apply 改直改收敛（TARGET_REPOS 不含根，归分发轮会静默长存，S-1）、current.md L39 订正列为回填义务（S-2）；④补 p3-render-assert 对新权威复跑必报同构 FAIL 的预期形态与禁消红口径（S-3）
+           时间: 2026-09-11T16:11:34.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/8b11482d10ea538dde4a92a050f7616d28db8c42
+           分支: feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove, milestone/M1
+       28. 201bb677  fix(evidence): PROC-M1-SCRIPTS-GATE-RETIRE A6 补充段测量模式订正——首版 grep -c 把结论行字面 MISSING 词计入得 1，改项级模式（^ *MISSING）复核，制品内留订正说明不抹首版错误
+           时间: 2026-09-11T16:11:34.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/201bb677612d98875909ab9347733178851dd11b
+           分支: feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove, milestone/M1
+       29. 9c9b9ceb  docs(evidence): PROC-M1-SCRIPTS-GATE-RETIRE 机械核查制品——precheck 全绿（--copies-debt 过渡轮语义显式登记，237 行/8 段/锚定 0044fda；档位 L2/B 类权威文本面/可执行子面=是；⑧ 检索词完备性 OK 3/3）+ 移除断言制品 A1-A8（权威面「两份同名/docs/scripts/跨仓驱动」三词零命中且工具面仅 1 处登记式注释、scripts/ 不存在、EXPECT_COUNTS excluded=4 + selftest 24/24、check DRIFT 恰 8 项 MISSING 0、冻结面零触碰 diff 恰 6 文件、四仓 6 件使用痕迹制品复核与处置块①订正一致）
+           时间: 2026-09-11T16:11:34.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/9c9b9cebb3c8e90ca45c4776d551436bd178e007
+           分支: feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove, milestone/M1
+       30. 10c0dc45  chore(process): PROC-M1-SCRIPTS-GATE-RETIRE 移除跨仓驱动版 docs/scripts/gate.sh（用户裁定=直接移除）——操作面五处同批收敛：gates-and-commands.md 区分节收敛为单一 gate.sh 口径（补协调方跨仓门禁的等效操作句）、R2 §1.3 删「两份同名」区分指针、agents/README.md 删同款括注、sync_copies.py EXCLUDED_FILES 5→4 + EXPECT_COUNTS 同批（selftest 24/24）、manifest 制品排除面登记式订正 +「两份 gate.sh 区分」节追加处置块；处置块含对 P3 制品「零使用痕迹/非脚本产出」两句的实测订正——全联邦检索脚本特有头部命中四仓 6 件 evidence 制品（08-26/27/28，均早于 P3 Task 9 自跑版分发，系在任务 worktree 内执行故 .tmpfiles 残留随清理消失），移除结论不受影响（功能被仓内自跑版替代+分发后两周零使用）；四仓副本与联邦根副本 DRIFT 恰 8 项，按用户裁定「docs 侧先行、四仓延后」留待分发轮收敛；冻结断言面 p3-render-assert.py 不动（零命中仍 PASS）
+           时间: 2026-09-11T16:11:34.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/10c0dc45a392c9cbbfc10997e955ec29fe91bdaa
+           分支: feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove, milestone/M1
+       31. 1e0ac2fb  docs(progress): PROC-M1-SCRIPTS-GATE-RETIRE 合入回填（MR !151，merge a4b07c6）——current.md 三处：① L39「脚本面口径修正」行后追加订正子行（评审 S-2：「docs/scripts/gate.sh …仍为 docs 专属不分发」现在时表述已失实，排除面 5→4 项）；② 未收口跟进项段新增母行+3 子行（收敛面与理据 / 处置块① 事实订正 6 件使用痕迹 / 承接项 S-1+S-5 有边界）；③ 证据导航例外续行（无 Backlog 条目形态）；新增 6 行字符宽 184-264 全 ≤300 推荐值，ledger_edit insert 三锚点唯一命中 + check 结构健康；另联邦根 .claude/agents/README.md 副本已直改收敛（评审 S-1：TARGET_REPOS 不含联邦根、不经 apply，未版本化面按 RC-ARCHIVE 先例直改；blob 8db885f3→3eaf178c 与 docs 权威逐字节一致）；四仓副本 DRIFT 8 项按用户裁定留待 apply 分发轮，延后窗口内 precheck ③ 一律显式传 --copies-debt
+           时间: 2026-09-11T16:47:53.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/1e0ac2fb8ce62f8db61da8333c5272dad9c58308
+           分支: milestone/M1
+       32. a4b07c6b  Merge branch 'feature/PROC-M1-SCRIPTS-GATE-RETIRE-scripts-gate-remove' into 'milestone/M1'
+           时间: 2026-09-11T08:39:20.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/a4b07c6ba6cca436e7cc62d6401a38b37cd5daf1
+           分支: milestone/M1
+      MR记录（按时间倒序）：
+        1. MR#152 docs(contracts): v0.2.0 上线态版本锚点与运行期机制简化 (PROC-M1-CONTRACT-V020-RUNTIME)
+           时间: 2026-09-11T08:29:27.861Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/152
+        2. MR#151 chore(process): 移除跨仓驱动版 docs/scripts/gate.sh 并收敛权威口径面（PROC-M1-SCRIPTS-GATE-RETIRE）
+           时间: 2026-09-11T07:40:04.578Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/151
+        3. MR#150 chore(archive): 顶层四文档目录（proposals/preparation/flows/contract-sandbox）归档至 archive/M1/
+           时间: 2026-09-11T06:45:28.522Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/150
+        4. MR#149 chore(archive): 36 个顶层 rc-* 目录归档至 archive/M1/ 分类布局 (PROC-M1-RC-ARCHIVE)
+           时间: 2026-09-11T03:33:23.893Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/149
+
+用户: 刘松林(Nelson)
+  识别: nelsonliu@moonton.com
+  出现过的名字: nelsonliu, 刘松林(Nelson)
+  总提交    : 15 次
+  总新增/删除: +12,932 / -320
+  Merge Requests: 4 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 19
+  按项目分布:
+    • publish_platform/ad_bi/nuwa_alg_server        提交:  14  MR:  4  Commit评论:  0  MR评论:  0 分支:codex/short-drama-contract-alignment, codex/video-agent-timeout-recovery, master (+8,296 / -320)
+      提交记录（按时间倒序）：
+        1. 4ee70d76  docs(video): record aligned live contracts and release checks
+           时间: 2026-09-11T18:47:20.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/4ee70d76343bb643aa7f6d821bdc45b88dc89f96
+           分支: codex/short-drama-contract-alignment, codex/video-agent-timeout-recovery, master
+        2. a84ee02e  fix(video): align short drama plans with multi-view execution contracts
+           时间: 2026-09-11T18:45:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/a84ee02ea04a752bc470f90bff536cd950420f2a
+           分支: codex/short-drama-contract-alignment, codex/video-agent-timeout-recovery, master
+        3. e2b1d373  fix(video): enforce source usage and recover malformed audio evidence
+           时间: 2026-09-11T18:45:20.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/e2b1d37377e76967f42946fe33533a09f4aa9681
+           分支: codex/short-drama-contract-alignment, codex/video-agent-timeout-recovery, master
+        4. f75353cc  test: verify actor crops and image-only story generation
+           时间: 2026-09-11T17:51:44.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/f75353cca20f6d0609d07c66999a5d074942d133
+           分支: codex/short-drama-contract-alignment, codex/video-agent-timeout-recovery, master
+        5. dbc103ba  fix: give script agents explicit control of reference roles and source motion
+           时间: 2026-09-11T17:39:30.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/dbc103baf06d10a08ea6db2995ad48b92a4475d0
+           分支: codex/short-drama-contract-alignment, codex/video-agent-timeout-recovery, master
+        6. f7133a0c  test: verify script-role recovery and preserve interrupted response evidence
+           时间: 2026-09-11T17:18:21.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/f7133a0c039f9aca9b8b270c233e67cd7d288fa1
+           分支: codex/short-drama-contract-alignment, codex/video-agent-timeout-recovery, master
+        7. 778e26df  test: record visual regressions and distinguish model refusal responses
+           时间: 2026-09-11T17:13:45.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/778e26df26e374ec2001b53dbe32787289bd3cb0
+           分支: codex/short-drama-contract-alignment, codex/video-agent-timeout-recovery, master
+        8. 61a439e8  fix: bind video script roles to verified image references
+           时间: 2026-09-11T17:08:53.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/61a439e8d8ed66e0264c64ead386f0606b5b89fa
+           分支: codex/short-drama-contract-alignment, codex/video-agent-timeout-recovery, master
+        9. 2e7d5343  Merge branch 'codex/gpt6-video-agent-soul-hardening' into 'master'
+           时间: 2026-09-11T06:09:57.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/2e7d53431a05ec2262bcff2838831588c05ac77e
+           分支: codex/short-drama-contract-alignment, codex/video-agent-timeout-recovery, master
+       10. 1dab1741  fix: harden video agent noninteractive outputs
+           时间: 2026-09-11T14:05:30.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/1dab17410635a020e611f061db9d7b13725e5420
+           分支: codex/short-drama-contract-alignment, codex/video-agent-timeout-recovery, master
+       11. 68e5b9bd  fix(agent): recover completed runs after lost wait responses
+           时间: 2026-09-11T21:12:01.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/68e5b9bd063d5c69adfeeeee43901dc32896c925
+           分支: codex/video-agent-timeout-recovery, master
+       12. 6388e648  Merge branch 'codex/short-drama-contract-alignment' into 'master'
+           时间: 2026-09-11T10:49:43.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/6388e648bcb8355bd78b63123262fd9a9bc1d8b9
+           分支: codex/video-agent-timeout-recovery, master
+       13. 7cb9a6c3  Merge branch 'codex/video-visual-handoff-role-binding' into 'master'
+           时间: 2026-09-11T10:49:28.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/7cb9a6c3938aff38364560ddcf2f15902e974cfe
+           分支: codex/video-agent-timeout-recovery, master
+       14. bb1d5c18  Merge branch 'codex/video-agent-timeout-recovery' into 'master'
+           时间: 2026-09-11T13:56:41.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/bb1d5c1864fecbf144b468c295f53a2da60d8b7a
+           分支: master
+      MR记录（按时间倒序）：
+        1. MR#112 修复 Ada 已成功任务被等待响应超时误判并重复执行
+           时间: 2026-09-11T13:12:13.002Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/merge_requests/112
+        2. MR#110 修复短剧无对白、角色多视图与执行契约不一致
+           时间: 2026-09-11T10:47:25.119Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/merge_requests/110
+        3. MR#109 Codex/video visual handoff role binding
+           时间: 2026-09-11T10:25:49.320Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/merge_requests/109
+        4. MR#106 fix: harden video agent noninteractive outputs
+           时间: 2026-09-11T06:09:45.656Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/merge_requests/106
+    • publish_platform/web/theta                    提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/gpt6-video-agent-soul-evidence (+4,636 / -0)
+      提交记录（按时间倒序）：
+        1. 49a1ee9a  docs: record GPT-6 video agent soul rollout
+           时间: 2026-09-11T14:05:36.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/49a1ee9ae996d97bb6c7d86266a74c3b85ebba0f
+           分支: codex/gpt6-video-agent-soul-evidence
+
+用户: 覃亮(Daniel)
+  识别: danielqin@moonton.com
+  出现过的名字: danielqin, 覃亮(Daniel)
+  总提交    : 11 次
+  总新增/删除: +213 / -77
+  Merge Requests: 5 个
+  Commit 评论  : 0 条
+  MR 评论      : 1 条
+  总活动量   : 17
+  按项目分布:
+    • publish_platform/web/theta                    提交:  10  MR:  5  Commit评论:  0  MR评论:  0 分支:codex/gpt6-video-agent-soul-evidence, main (+213 / -77)
+      提交记录（按时间倒序）：
+        1. 589dcd95  Merge branch 'm-7040706228-asset-proddada-0715' into 'main'
+           时间: 2026-09-11T03:52:26.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/589dcd95b70a895d8fb9fe121dae0ffface84654
+           分支: codex/gpt6-video-agent-soul-evidence, main
+        2. 9b6ec7cd  m-7078463913 【素材农场】4期用户反馈 功能优化
+           时间: 2026-09-11T11:52:04.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/9b6ec7cd3a55da88347a6065bcd1412ee5127258
+           分支: codex/gpt6-video-agent-soul-evidence, main
+        3. 96841d27  Merge branch 'm-7040706228-asset-proddada-0715' into 'main'
+           时间: 2026-09-11T09:39:19.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/96841d27bdde2e5f84f762a3cfae266ac992d5e9
+           分支: main
+        4. a6357801  m-7078463913 hotfix
+           时间: 2026-09-11T17:39:01.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/a63578012e5411b28a58d5f0b693184c2e631638
+           分支: main
+        5. 6e2e1591  Merge branch 'm-7040706228-asset-proddada-0715' into 'main'
+           时间: 2026-09-11T09:31:27.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/6e2e1591f6e5284b366280429d0047b1e19c0ca0
+           分支: main
+        6. bd47f21a  m-7078463913 hotfix
+           时间: 2026-09-11T17:30:28.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/bd47f21ae1ccae59ecd8d295c598445ee91dac35
+           分支: main
+        7. b47d9805  Merge branch 'm-7040706228-asset-proddada-0715' into 'main'
+           时间: 2026-09-11T08:24:45.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/b47d9805268fa23986316979c71c9c40424e0173
+           分支: main
+        8. f1897275  m-7078463913 【素材农场】4期用户反馈 功能优化
+           时间: 2026-09-11T16:21:23.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/f1897275dc1da2a7a4ee8676e42021e620c7574d
+           分支: main
+        9. 13f8468b  Merge branch 'm-7040706228-asset-proddada-0715' into 'main'
+           时间: 2026-09-11T06:40:33.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/13f8468bb66220ce18715f502822bf6a81b66d09
+           分支: main
+       10. fe750968  m-7078463913 【素材农场】4期用户反馈 功能优化
+           时间: 2026-09-11T14:40:16.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/fe750968331fc60e20b1ed84479958c77ee4790f
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#122 m-7078463913 hotfix
+           时间: 2026-09-11T09:39:13.925Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/merge_requests/122
+        2. MR#121 m-7078463913 hotfix
+           时间: 2026-09-11T09:31:19.145Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/merge_requests/121
+        3. MR#120 m-7078463913 【素材农场】4期用户反馈 功能优化
+           时间: 2026-09-11T08:24:36.883Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/merge_requests/120
+        4. MR#119 m-7078463913 【素材农场】4期用户反馈 功能优化
+           时间: 2026-09-11T06:40:29.978Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/merge_requests/119
+        5. MR#118 m-7078463913 【素材农场】4期用户反馈 功能优化
+           时间: 2026-09-11T03:52:17.234Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/merge_requests/118
+    • publish_platform/fuxi                         提交:   1  MR:  0  Commit评论:  0  MR评论:  1 分支:m-7106896785-素材封面问题修复, m-7112479797, master 
+      提交记录（按时间倒序）：
+        1. 697d873c  Merge branch 'm-7106896785-素材封面问题修复' into 'master'
+           时间: 2026-09-11T06:58:39.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/697d873ceb40a88dd95b5ee898e41dcbfb6c3b7c
+           分支: m-7106896785-素材封面问题修复, m-7112479797, master
+      MR评论记录：
+        1. 覃亮(Daniel): +2
+           MR#: 624 (m-7106896785-新增线上素材封面写入)
+           时间: 2026-09-11T06:58:37.074Z
+           链接: 
+
+用户: jiangding
+  识别: jiangding@moonton.com
+  出现过的名字: jiangding
+  总提交    : 16 次
+  总新增/删除: +830 / -429
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 16
+  按项目分布:
+    • msdk/rispari/server/vip                       提交:  16  MR:  0  Commit评论:  0  MR评论:  0 分支:v1-20260902-m-7099777299 (+830 / -429)
+      提交记录（按时间倒序）：
+        1. da49a861  m-7099777299, C12 回归修复：operator 清单补 gte/lte（vip_center.sql/02-Data-Schema/04-API-Breakdown 5 处）
+           时间: 2026-09-11T17:44:41.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/da49a861e9dccd80b228d120c6a5caf09a88523c
+           分支: v1-20260902-m-7099777299
+        2. eb9dc6a7  m-7099777299, 契约对齐补漏：04 契约 operator 补 gte/lte + threshold 整数约束 + xcheck 扩 C12
+           时间: 2026-09-11T17:37:36.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/eb9dc6a7545a695c1d472c7eb3a4ab94c82682d7
+           分支: v1-20260902-m-7099777299
+        3. b410e7b0  m-7099777299, 告警表达式设计原则落档：metric_field 语义 key + 2 层转化 + mom_up/mom_down 区分（否决统一带符号）
+           时间: 2026-09-11T16:20:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/b410e7b0f9af4ba99dbc1c38a2c4e0f31d1bf763
+           分支: v1-20260902-m-7099777299
+        4. 6e341640  m-7099777299, 告警阈值约束修正：环比（%）无上限可 >100（owner 拍板 2026-09-11）
+           时间: 2026-09-11T15:53:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/6e3416400b65909b9f5d749284c242202fb35a29
+           分支: v1-20260902-m-7099777299
+        5. a7821fd7  m-7099777299, 告警阈值约束：必须整数 + 环比（%）1~100（owner 拍板 2026-09-11）
+           时间: 2026-09-11T15:51:13.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/a7821fd7dde18faee23f38dd5af3563a3a0285e1
+           分支: v1-20260902-m-7099777299
+        6. 9896417a  m-7099777299, 告警规则 Catalog：阈值列标注「参考示例，实际以客服录入为准」（owner 拍板 2026-09-11）
+           时间: 2026-09-11T15:50:02.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/9896417a448ced4b5316d1aafa57703fb18c9bf2
+           分支: v1-20260902-m-7099777299
+        7. aca1157e  m-7099777299, 告警规则运算符扩 gte/lte + 规则组合 Catalog（D-36 修订，以产品要求为准）
+           时间: 2026-09-11T15:47:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/aca1157e454861342623ae9f396d58e00471ceed
+           分支: v1-20260902-m-7099777299
+        8. 0b9fb9d2  m-7099777299, 告警指标点查模型落档：CK 增 inactive_days/no_recharge_days 列 + 02-Alert §4.3a 列化 + scan case1 vip_player 链路纠正
+           时间: 2026-09-11T15:14:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/0b9fb9d2a8d832fd2eb4dfc960a6d8ddc198d63e
+           分支: v1-20260902-m-7099777299
+        9. e83f84be  m-7099777299, 告警规则查询范围互斥模型落档（D-38）：scope_cond_type 互斥二选一 + cond1 CSV/cond2 游戏+vip_level + scope_accounts 移除
+           时间: 2026-09-11T13:19:57.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/e83f84be507f9c39f67640e29b3a9ee96bdf6ddb
+           分支: v1-20260902-m-7099777299
+       10. fc1b3b6a  m-7099777299, 契约审计补漏：vip_1/04-API-Breakdown 对齐（枚举 int/删 alert_type_name/3API/notes 分页/content 100/phone-address）+ xcheck 修复
+           时间: 2026-09-11T00:45:26.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/fc1b3b6a9972c1b33d0512befdd3e5da3177603d
+           分支: v1-20260902-m-7099777299
+       11. 7bc81ce4  m-7099777299, 沉淀：vip-contract-check 陷阱清单补 10/11（operate_logs 插件固定结构 + 双契约面并行）+ 十一项更新
+           时间: 2026-09-11T00:38:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/7bc81ce442c1bb1ff8474be901086fb5d20b459a
+           分支: v1-20260902-m-7099777299
+       12. 9724e02f  m-7099777299, 沉淀：CLAUDE.md 加沉淀自检步骤 + xcheck 扩 C8~C11（十一项回归门）+ P1P2 枚举 int 补漏
+           时间: 2026-09-11T00:38:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/9724e02f8dd7581ab5a30b323b4f4dc1b4392aa6
+           分支: v1-20260902-m-7099777299
+       13. 8395c0f8  m-7099777299, 字段口径全库统一（D-A）：vip_id→vip_uid + 审计字段 create_user_id/create_user
+           时间: 2026-09-11T00:32:37.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/8395c0f8ef310100e65bd6c4bc5dcda634176c58
+           分支: v1-20260902-m-7099777299
+       14. d90d83d5  m-7099777299, 文档任务卡补全：meta/options 09 任务卡（01-E §11）+ 阶段 0 F0-AC 验收卡（D-B）
+           时间: 2026-09-11T00:18:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/d90d83d55261812f6f6f67b7fe54d6328901d0df
+           分支: v1-20260902-m-7099777299
+       15. 9061ab77  m-7099777299, 契约对齐：notes[] 出参统一 operator_id/operator_name（D 轮）
+           时间: 2026-09-11T00:00:53.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/9061ab77e6181131ce3e4f64faaafd8fb7d1e85d
+           分支: v1-20260902-m-7099777299
+       16. cdb42766  m-7099777299, 口径修正：dm_vip_sub_account_metric_df = 绑定 VIP 关联子账号天级聚合表（1500w→50w）
+           时间: 2026-09-11T00:00:00.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/cdb42766ab670a394ef92773a113a748e21332f3
+           分支: v1-20260902-m-7099777299
+
+用户: 田雪健(Storm)
+  识别: stormtian@moonton.com
+  出现过的名字: 田雪健(Storm)
+  总提交    : 8 次
+  总新增/删除: +247 / -56
+  Merge Requests: 4 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 12
+  按项目分布:
+    • publish_platform/bi_micro_service/auth_service_mcp 提交:   6  MR:  3  Commit评论:  0  MR评论:  0 分支:dev-init, test (+196 / -48)
+      提交记录（按时间倒序）：
+        1. d73dac59  fix(mcp-authz): 修复 allow 时身份 header 被 HeadersToRemove 抵消导致下游收不到 mail
+           时间: 2026-09-11T22:23:25.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/bi_micro_service/auth_service_mcp/-/commit/d73dac597f135ae27ae89668386f0a80edee839c
+           分支: dev-init, test
+        2. b96afdb0  feat(mcp-authz): 审计日志记录透传给下游的身份 header
+           时间: 2026-09-11T19:51:50.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/bi_micro_service/auth_service_mcp/-/commit/b96afdb095bb2a1bd5be27bfaee7a031eed3e810
+           分支: dev-init, test
+        3. 54007921  feat(mcp-authz): Allow 时注入已验证用户身份 header 并加固配置校验
+           时间: 2026-09-11T18:42:04.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/bi_micro_service/auth_service_mcp/-/commit/540079219b84d0ab42b67eb3e7e4976e54f38fa4
+           分支: dev-init, test
+        4. ac70496a  Merge branch 'dev-init' into 'test'
+           时间: 2026-09-11T14:24:17.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/bi_micro_service/auth_service_mcp/-/commit/ac70496a2d29cb08ba3440e19f2d370f8d9a021b
+           分支: test
+        5. 1c461d64  Merge branch 'dev-init' into 'test'
+           时间: 2026-09-11T11:53:32.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/bi_micro_service/auth_service_mcp/-/commit/1c461d6456a121c28b8382c76f0fa9efe2b431be
+           分支: test
+        6. 390b6492  Merge branch 'dev-init' into 'test'
+           时间: 2026-09-11T11:04:56.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/bi_micro_service/auth_service_mcp/-/commit/390b6492b09929a5adc555c27091edda4120a343
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#12 fix(mcp-authz): 修复 allow 时身份 header 被 HeadersToRemove 抵消导致下游收不到 mail
+           时间: 2026-09-11T14:24:03.156Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/bi_micro_service/auth_service_mcp/-/merge_requests/12
+        2. MR#11 feat(mcp-authz): 审计日志记录透传给下游的身份 header
+           时间: 2026-09-11T11:53:30.219Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/bi_micro_service/auth_service_mcp/-/merge_requests/11
+        3. MR#10 feat(mcp-authz): Allow 时注入已验证用户身份 header 并加固配置校验
+           时间: 2026-09-11T11:04:53.421Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/bi_micro_service/auth_service_mcp/-/merge_requests/10
+    • publish_platform/ad_bi/mt_mcp_hub             提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:m-7082218776-nuwamcpauth, test (+51 / -8)
+      提交记录（按时间倒序）：
+        1. e24db534  feat(identity): mail 必须经由请求头传入并拼接 @ada 后缀
+           时间: 2026-09-11T19:03:17.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/e24db534525c67b78a11653a40059d88105a2825
+           分支: m-7082218776-nuwamcpauth, test
+        2. b7a0699c  Merge branch 'm-7082218776-nuwamcpauth' into 'test'
+           时间: 2026-09-11T11:07:57.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/commit/b7a0699c8064f7c6779006f74d171c7ebedd2f83
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#16 feat(identity): mail 必须经由请求头传入并拼接 @ada 后缀
+           时间: 2026-09-11T11:07:52.858Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/mt_mcp_hub/-/merge_requests/16
+
+用户: 祁杰(Jacky)
+  识别: jackyqi@moonton.com
+  出现过的名字: jackyqi, 祁杰(Jacky)
+  总提交    : 9 次
+  总新增/删除: +3,481 / -114
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 10
+  按项目分布:
+    • publish_platform/web/experiment/stonex        提交:   9  MR:  1  Commit评论:  0  MR评论:  0 分支:feat/backend-config-phase0, master (+3,481 / -114)
+      提交记录（按时间倒序）：
+        1. 083d00db  feat: featureFlags 平台化写入（Phase 1） m-main
+           时间: 2026-09-11T14:53:13.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/experiment/stonex/-/commit/083d00db76166757329d4a4c31969d72b25a4f4b
+           分支: feat/backend-config-phase0, master
+        2. a66f7afa  feat: 接入后端 YAML 配置的只读视图（Phase 0） m-main
+           时间: 2026-09-11T14:20:21.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/experiment/stonex/-/commit/a66f7afa9a3c155ba28981ac336dddfb5457937a
+           分支: feat/backend-config-phase0, master
+        3. 2811dd9b  fix: 收紧 CORS 为来源白名单并隐藏 Express 指纹 m-main
+           时间: 2026-09-11T23:46:26.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/experiment/stonex/-/commit/2811dd9bb80211fba010318314655fa9dea13ecb
+           分支: master
+        4. 2bc94528  feat: 审计链加固——操作者取自已验证身份并写入 GitLab 提交作者 m-main
+           时间: 2026-09-11T23:40:45.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/experiment/stonex/-/commit/2bc94528bf163e968f5a05f87c5d79248579d7a5
+           分支: master
+        5. ec5f8a17  feat: 接入 MOA 登录态校验（全局 Guard + checktoken）m-main
+           时间: 2026-09-11T23:40:45.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/experiment/stonex/-/commit/ec5f8a1733ecc4e394849c978fea98fdc7d73b3b
+           分支: master
+        6. 33f78082  feat: 新增免鉴权健康端点并切换 k8s 探针路径 m-main
+           时间: 2026-09-11T23:40:45.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/experiment/stonex/-/commit/33f7808288f902297fc6120edd006810ea3dc98f
+           分支: master
+        7. fa7529a9  Merge branch 'feat/header-warning-banner' into 'master'
+           时间: 2026-09-11T11:00:58.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/experiment/stonex/-/commit/fa7529a947c7edb8453062f5586080ba2dc74bdb
+           分支: master
+        8. dd5d37c4  feat: Header 版本号前增加线上部署警示文字（带渐变动画） m-main
+           时间: 2026-09-11T18:45:54.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/experiment/stonex/-/commit/dd5d37c499b01a2969b07293ea1ae8d5707f3e08
+           分支: master
+        9. 848f90d9  chore: 镜像仓库迁移 harbor.k8s-internal → sh-harbor m-main
+           时间: 2026-09-11T16:09:31.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/experiment/stonex/-/commit/848f90d97fb0881bc7d4292aff78ba1f1f05936e
+           分支: master
+      MR记录（按时间倒序）：
+        1. MR#6 feat: Header 版本号前增加线上部署警示文字（带渐变动画） m-main
+           时间: 2026-09-11T11:00:55.094Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/experiment/stonex/-/merge_requests/6
+
+用户: 解薇(cheryl)
+  识别: cherylxie@moonton.com
+  出现过的名字: cherylxie, 解薇(cheryl)
+  总提交    : 6 次
+  总新增/删除: +1,423 / -84
+  Merge Requests: 3 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 9
+  按项目分布:
+    • publish_platform/ad_bi/nuwa_alg_server        提交:   6  MR:  3  Commit评论:  0  MR评论:  0 分支:codex/short-drama-contract-alignment, codex/video-agent-timeout-recovery, master (+1,423 / -84)
+      提交记录（按时间倒序）：
+        1. dc778894  Merge branch 'fix/planner-skip-false-partial' into 'master'
+           时间: 2026-09-11T07:19:18.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/dc7788940a2d023f8136bd9733084140793978ed
+           分支: codex/short-drama-contract-alignment, codex/video-agent-timeout-recovery, master
+        2. 927a9704  m-7078463913, fix: treat planner L2 skip as business skip to avoid false partial  and add error reason
+           时间: 2026-09-11T07:19:18.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/927a97046e4f257a62eb695bb120de0c3437a2c9
+           分支: codex/short-drama-contract-alignment, codex/video-agent-timeout-recovery, master
+        3. adbec576  Merge branch 'feat/image-size-contract' into 'master'
+           时间: 2026-09-11T11:22:46.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/adbec5762849f4fd674833c481c19f1a4a753be0
+           分支: codex/video-agent-timeout-recovery, master
+        4. 0dd33f14  m-7078463913, helper提示优化
+           时间: 2026-09-11T19:22:23.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/0dd33f141b2b3555ddf771317998ca32045579ae
+           分支: codex/video-agent-timeout-recovery, master
+        5. e1e1920a  Merge branch 'feat/image-size-contract' into 'master'
+           时间: 2026-09-11T11:21:35.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/e1e1920a4ee637861603fd5ea59882841f230a89
+           分支: codex/video-agent-timeout-recovery, master
+        6. ad461098  m-7078463913, feat(image): 生图与排版共用一份尺寸决议，变窄时改为分段裁扩
+           时间: 2026-09-11T17:43:17.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/ad4610985e401b50c009a1356ae0a0ee4cdcc7f8
+           分支: codex/video-agent-timeout-recovery, master
+      MR记录（按时间倒序）：
+        1. MR#111 m-7078463913, helper提示优化
+           时间: 2026-09-11T11:22:38.073Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/merge_requests/111
+        2. MR#108 m-7078463913, feat(image): 生图与排版共用一份尺寸决议，变窄时改为分段裁扩
+           时间: 2026-09-11T09:52:31.159Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/merge_requests/108
+        3. MR#107 m-7078463913, fix: treat planner L2 skip as business skip to avoid false partial  and add error reason
+           时间: 2026-09-11T07:19:04.385Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/merge_requests/107
+
+用户: fengdiwang
+  识别: fengdi.wang@moonton.com
+  出现过的名字: fengdiwang
+  总提交    : 8 次
+  总新增/删除: +1,331 / -833
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 8
+  按项目分布:
+    • publish_platform/ad_bi/bi_cockpit             提交:   8  MR:  0  Commit评论:  0  MR评论:  0 分支:fengdi/main/cohort, main (+1,331 / -833)
+      提交记录（按时间倒序）：
+        1. af89fb06  m-7105208054[期群]查询结果修复
+           时间: 2026-09-11T18:02:42.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/af89fb06c3daf304d727f0499680b910de93cbd2
+           分支: fengdi/main/cohort
+        2. ffa5be6e  m-7105208054[期群]查询结果修复
+           时间: 2026-09-11T17:42:42.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/ffa5be6edb71a58ae7b526736a707e0f8037d6b6
+           分支: fengdi/main/cohort
+        3. e1d0282a  m-7105208054[期群]查询结果修复
+           时间: 2026-09-11T17:05:33.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/e1d0282ae25d27bf0fc309271d7babb54b627fba
+           分支: fengdi/main/cohort
+        4. 67e004dd  m-7105208054[期群]查询结果修复
+           时间: 2026-09-11T16:09:55.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/67e004dd1384864ae1f9651928e455be12f36a34
+           分支: fengdi/main/cohort
+        5. f5e9ae62  m-7105208054[期群]导出接口实现
+           时间: 2026-09-11T14:51:15.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/f5e9ae62ca7272558fce72ff57e1a8abb7eab2f4
+           分支: fengdi/main/cohort, main
+        6. 281583b0  m-7105208054[期群]查询接口实现
+           时间: 2026-09-11T14:02:49.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/281583b065fbc432fbe4e073cf91b11981eee69c
+           分支: fengdi/main/cohort, main
+        7. dfb991b6  m-7105208054[期群]查询接口实现
+           时间: 2026-09-11T12:15:16.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/dfb991b62d1965c0df2bc7f62ed87ad449b95c5b
+           分支: fengdi/main/cohort, main
+        8. 61a2d219  m-7105208054[期群]查询接口实现
+           时间: 2026-09-11T11:32:03.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/61a2d21939c141a2c52e172d21aa0adc6f3b9e08
+           分支: fengdi/main/cohort, main
+
+用户: 王枫荻(Fengdi)
+  识别: fengdiwang@moonton.com
+  出现过的名字: 王枫荻(Fengdi)
+  总提交    : 3 次
+  总新增/删除: +0 / -0
+  Merge Requests: 4 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 7
+  按项目分布:
+    • publish_platform/ad_bi/bi_cockpit             提交:   3  MR:  4  Commit评论:  0  MR评论:  0 分支:main 
+      提交记录（按时间倒序）：
+        1. d2fbc802  Merge branch 'fengdi/main/cohort' into 'main'
+           时间: 2026-09-11T06:52:03.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/d2fbc8020a023f4906d7ef356fc826d671b16cb6
+           分支: main
+        2. ea900815  Merge branch 'fengdi/main/cohort' into 'main'
+           时间: 2026-09-11T06:03:30.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/ea9008157753baddb7f7e53140d9ce550ac53ce3
+           分支: main
+        3. 091043d5  Merge branch 'fengdi/main/cohort' into 'main'
+           时间: 2026-09-11T03:32:47.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/commit/091043d50d70365cb464e890c3233ecb98392718
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#677 m-7105208054[期群]查询结果修复
+           时间: 2026-09-11T08:10:10.740Z
+           状态: opened
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/merge_requests/677
+        2. MR#676 m-7105208054[期群]导出接口实现
+           时间: 2026-09-11T06:51:50.300Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/merge_requests/676
+        3. MR#675 m-7105208054[期群]候选项查询接口实现
+           时间: 2026-09-11T04:15:28.593Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/merge_requests/675
+        4. MR#674 m-7105208054[期群]查询接口实现
+           时间: 2026-09-11T03:32:21.326Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/bi_cockpit/-/merge_requests/674
+
+用户: 田元林(Candy)
+  识别: candytian@moonton.com
+  出现过的名字: candytian, 田元林(Candy)
+  总提交    : 4 次
+  总新增/删除: +282 / -131
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 6
+  按项目分布:
+    • publish_platform/web/cockpit                  提交:   4  MR:  2  Commit评论:  0  MR评论:  0 分支:feat/m-7105208054, main (+282 / -131)
+      提交记录（按时间倒序）：
+        1. c1d3017e  fix: m-7105208054 对齐期群分析详情字段与分页默认值
+           时间: 2026-09-11T18:48:34.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/c1d3017ed985ed67543b32ad0c34b9a11303ff09
+           分支: feat/m-7105208054, main
+        2. 2585de21  fix: m-7105208054 对齐国服期群分析接口契约
+           时间: 2026-09-11T18:02:19.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/2585de21acb71ffbc7d723a1c3198792599ad1cc
+           分支: feat/m-7105208054, main
+        3. 451ece1a  Merge branch 'feat/m-7105208054' into 'main'
+           时间: 2026-09-11T10:50:25.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/451ece1a08e1d9175e6cf6002d480ebef50e8cbd
+           分支: main
+        4. 5dc74c05  Merge branch 'feat/m-7105208054' into 'main'
+           时间: 2026-09-11T10:13:46.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/5dc74c059490b53c9f09027141b8abcb3a33422c
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#813 fix: m-7105208054 对齐期群分析详情字段与分页默认值
+           时间: 2026-09-11T10:50:22.857Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/merge_requests/813
+        2. MR#812 docs: m-7105208054 国服期群分析
+           时间: 2026-09-11T10:11:17.513Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/merge_requests/812
+
+用户: kaisun@moonton.com
+  识别: kaisun@moonton.com
+  出现过的名字: kaisun@moonton.com, 孙恺(Kai)
+  总提交    : 3 次
+  总新增/删除: +768 / -77
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 5
+  按项目分布:
+    • publish_platform/fuxi                         提交:   3  MR:  2  Commit评论:  0  MR评论:  0 分支:m-7106896785-素材封面问题修复, m-7112479797, master (+768 / -77)
+      提交记录（按时间倒序）：
+        1. e66a3131  m-7106896785-线上素材封面修复
+           时间: 2026-09-11T17:21:29.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/e66a313186b30b7a97228866b86bdc0ff44fa4ee
+           分支: m-7106896785-素材封面问题修复, master
+        2. a0fc2706  m-7106896785-新增线上素材封面写入
+           时间: 2026-09-11T11:56:13.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/a0fc2706ae75faab27c6f4fa5ca288b2dfa146a7
+           分支: m-7106896785-素材封面问题修复, m-7112479797, master
+        3. 15480b3c  Merge branch 'm-7106896785-素材封面问题修复' into 'master'
+           时间: 2026-09-11T09:26:49.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/15480b3c16d7fd1af782334a5b2053eb198cffde
+           分支: master
+      MR记录（按时间倒序）：
+        1. MR#625 m-7106896785-线上素材封面修复
+           时间: 2026-09-11T09:26:43.932Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/625
+        2. MR#624 m-7106896785-新增线上素材封面写入
+           时间: 2026-09-11T06:27:49.184Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/merge_requests/624
+
+用户: 孙鹏
+  识别: v_sunpeng@moonton.com
+  出现过的名字: 孙鹏
+  总提交    : 3 次
+  总新增/删除: +2 / -2
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 5
+  按项目分布:
+    • publish_platform/web/msdk_management          提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:feat/m-7080669957, main (+1 / -1)
+      提交记录（按时间倒序）：
+        1. fc1d73bc  chore: update version m-7080669957
+           时间: 2026-09-11T18:20:08.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/msdk_management/-/commit/fc1d73bce2258ad305cc84cbba801e7562500728
+           分支: feat/m-7080669957, main
+        2. 5b2dd846  Merge branch 'feat/m-7080669957' into 'main'
+           时间: 2026-09-11T10:21:15.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/msdk_management/-/commit/5b2dd846d63911e27e30bed12860cac09de3921e
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#1751 chore: update version m-7080669957
+           时间: 2026-09-11T10:20:41.023Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/msdk_management/-/merge_requests/1751
+    • publish_platform/web/material_management      提交:   1  MR:  1  Commit评论:  0  MR评论:  0 分支:feat/m-7102836073, main (+1 / -1)
+      提交记录（按时间倒序）：
+        1. b760e08d  chore: update version m-7102836073
+           时间: 2026-09-11T17:22:55.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/material_management/-/commit/b760e08dce31ae3e279ee6eb5a1e5041078b6861
+           分支: feat/m-7102836073, main
+      MR记录（按时间倒序）：
+        1. MR#735 chore: update version m-7102836073
+           时间: 2026-09-11T09:23:26.387Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/material_management/-/merge_requests/735
+
+用户: leowan
+  识别: leowan@moonton.com
+  出现过的名字: leowan
+  总提交    : 4 次
+  总新增/删除: +978 / -238
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 4
+  按项目分布:
+    • msdk/rispari/web/im-docs                      提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:feat/im_vip_develop-m-7105124249 (+151 / -38)
+      提交记录（按时间倒序）：
+        1. 45de654b  docs: 07 号文新增 §3.9 图表视觉风格规范 + §1 补记第三数据源 m-7105124249
+           时间: 2026-09-11T12:30:59.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-docs/-/commit/45de654b3c7a0ff3253debde54faf784bc505f74
+           分支: feat/im_vip_develop-m-7105124249
+        2. c0343b7b  docs: CF-11 解除——「推荐话术」Tab 为核销误计，同步更正 13 份文档 m-7105124249
+           时间: 2026-09-11T11:21:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-docs/-/commit/c0343b7ba2cf9d5ac402e73b9b706cd4c22f7ec4
+           分支: feat/im_vip_develop-m-7105124249
+    • msdk/rispari/web/im-agent                     提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:feat/im-vip_m-7105124249 (+827 / -200)
+      提交记录（按时间倒序）：
+        1. 77683cba  feat(vip): 监控面板 UI 对齐 Figma 第七~九轮（三栏外框 / 图表视觉 / 走查三处） m-7105124249
+           时间: 2026-09-11T12:30:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/77683cbaf02f38fa7c787a3e1b6405bb8e3ffe6d
+           分支: feat/im-vip_m-7105124249
+        2. 435957e6  feat(vip): 绑定/批量弹窗按 Figma 对齐（确认清单改表格 / CSV 弹窗文案） m-7105124249
+           时间: 2026-09-11T10:30:15.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/435957e68d8a9a4ede8620b301980c80fe113cb8
+           分支: feat/im-vip_m-7105124249
+
+用户: rambohu1
+  识别: rambohu1@moonton.com
+  出现过的名字: rambohu1
+  总提交    : 4 次
+  总新增/删除: +1,408 / -627
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 4
+  按项目分布:
+    • msdk/rispari/sdk/Android                      提交:   4  MR:  0  Commit评论:  0  MR评论:  0 分支:develop, feature/code-quality-review-fixes (+1,408 / -627)
+      提交记录（按时间倒序）：
+        1. b7687ccd  refactor: SDK 资源全量加 rispari_im_ 前缀+resourcePrefix 门禁(59 文件型资源 git mv+139 values 条目定义名加前缀+53 引用文件同步替换;lint MissingPrefix 0/122 单测绿/真机冒烟通过/release AAR 解包核查 100%带前缀)[rename-android-im-resources] -m 7067524588
+           时间: 2026-09-11T16:39:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/Android/-/commit/b7687ccd7e6b18e7066da1ae7144a9df4aa4feed
+           分支: develop
+        2. aba67874  docs: 归档 implement-android-im-h107-pending-satisfaction-count(代码 1ed7607 已提交,2026-09-10 真机验证通过,追溯归档)+roadmap 同步 -m 7067524588
+           时间: 2026-09-11T16:39:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/Android/-/commit/aba67874bd4c4f670f19157944b4bb7e142211d3
+           分支: develop
+        3. 31f6710d  docs: 归档 fix-android-im-attachment-status-and-duration-guard + roadmap 状态转 Archived(场景C真机未构造已登记遗留,用户确认归档) -m 7067524588
+           时间: 2026-09-11T15:48:29.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/Android/-/commit/31f6710dffa942b2d9d4ab1782adf5861dcc769b
+           分支: develop, feature/code-quality-review-fixes
+        4. f23ff29b  fix: 图片/音频气泡改由消息状态轴渲染三态(修上传成功但发送失败误报已送达)+音频时长三级取值与复用守卫+历史消息重试删除拦截 [fix-android-im-attachment-status-and-duration-guard] -m 7067524588
+           时间: 2026-09-11T15:43:42.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/Android/-/commit/f23ff29b596bea98c56dc4d3eadb670e3459af23
+           分支: develop, feature/code-quality-review-fixes
+
+用户: 徐腾飞(Tengfei)
+  识别: tengfeixu@moonton.com
+  出现过的名字: 徐腾飞(Tengfei)
+  总提交    : 1 次
+  总新增/删除: +0 / -0
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/kol                          提交:   1  MR:  1  Commit评论:  0  MR评论:  0 分支:dev 
+      提交记录（按时间倒序）：
+        1. edbffaa0  Merge branch 'feat/sync-schedule-post-m-7102854003' into 'dev'
+           时间: 2026-09-11T01:32:25.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/edbffaa0427eefe100a78d0972b12d8c429d00ff
+           分支: dev
+      MR记录（按时间倒序）：
+        1. MR#2492 [fix-video-stream-pick] 跳过内嵌封面流并取第一个真实视频流解析素材
+           时间: 2026-09-11T01:32:14.014Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/merge_requests/2492
+
+用户: 王聪(Wilson)
+  识别: wilsonwang1@moonton.com
+  出现过的名字: 王聪(Wilson)
+  总提交    : 1 次
+  总新增/删除: +92 / -0
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • publish_platform/ad_bi/gms_ad_bi_cn           提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+92 / -0)
+      提交记录（按时间倒序）：
+        1. 3352bbef  Initial commit
+           时间: 2026-09-11T08:17:11.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/3352bbefc5a214975f228afd3db5ea85990f2269
+           分支: master
+
+用户: likongquan
+  识别: levirli@moonton.com
+  出现过的名字: likongquan
+  总提交    : 1 次
+  总新增/删除: +105 / -18
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • msdk/paas                                     提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:levir_dev_ai_metrics (+105 / -18)
+      提交记录（按时间倒序）：
+        1. 2214f347  feat(hello): 实现 GET /hello 接口并接入根路由
+           时间: 2026-09-11T19:58:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/paas/-/commit/2214f3472bda088e6928eb1f8afc93697ae0bc74
+           分支: levir_dev_ai_metrics
+
+用户: wangYK
+  识别: yuankangwang@moonton.com
+  出现过的名字: wangYK
+  总提交    : 1 次
+  总新增/删除: +4 / -4
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • publish_platform/fuxi                         提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:m-7094845997-ocean-std-spi (+4 / -4)
+      提交记录（按时间倒序）：
+        1. 89c2b4a1  fix: 更新智擎sql 文件
+           时间: 2026-09-11T18:16:21.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/89c2b4a16a151846282b5e5303f95af590e90da0
+           分支: m-7094845997-ocean-std-spi
+
+用户: 姜承(JoJo)
+  识别: chengjiang@moonton.com
+  出现过的名字: 姜承(JoJo)
+  总提交    : 1 次
+  总新增/删除: +0 / -0
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • publish_platform/web/material_management      提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:main 
+      提交记录（按时间倒序）：
+        1. 66ff033f  Merge branch 'feat/m-7102836073' into 'main'
+           时间: 2026-09-11T09:25:00.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/material_management/-/commit/66ff033f6b83b0e98d0656e4bc28d0940929b7fc
+           分支: main
+
+----------------------------------------------------------------------------------------------------
+共统计到 19 位活跃用户
