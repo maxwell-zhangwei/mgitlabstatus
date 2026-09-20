@@ -1,0 +1,566 @@
+
+====================================================================================================
+最近 24 小时用户活动统计（不使用强制别名映射）
+====================================================================================================
+
+用户: 李铭骏(Mingjun)
+  识别: mingjunli@moonton.com
+  出现过的名字: 李铭骏(Mingjun)
+  总提交    : 82 次
+  总新增/删除: +3,798 / -1,247
+  Merge Requests: 8 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 90
+  按项目分布:
+    • msdk/rispari/server/docs                      提交:  27  MR:  4  Commit评论:  0  MR评论:  0 分支:REQ-admin-migration, feature/BASE-AM-0-CHANGE-backfill, feature/BASE-AM-0-change, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/PROC-M1-PORTABLE-PATHS-RESIDUAL-portable-paths-residual, feature/REQ-WORK-UNIT-MODEL-absorb-backlog, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-WORK-UNIT-MODEL-ops-generalize, feature/REQ-WORK-UNIT-MODEL-work-unit-model, feature/REQ-admin-migration-0-change, master (+1,647 / -439)
+      提交记录（按时间倒序）：
+        1. 3dc17b12  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix' into 'master'
+           时间: 2026-09-19T14:59:14.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/3dc17b12f4bb0bbc6409e2c8cd695a9560dac1a5
+           分支: REQ-admin-migration, feature/REQ-admin-migration-0-change, master
+        2. a4e0656d  docs(governance): REQ-WORK-UNIT-MODEL-downstream-generalize 骨架模板 change 目录占位化（m1-server-delivery→<change目录>）
+           时间: 2026-09-19T22:51:51.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/a4e0656d5d2a15387b41a01340ad33619a1ce55a
+           分支: REQ-admin-migration, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-admin-migration-0-change, master
+        3. c1e515bf  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'master'
+           时间: 2026-09-19T13:36:59.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/c1e515bf3ec794450f706ddd8eabebe468744e43
+           分支: REQ-admin-migration, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-admin-migration-0-change, master
+        4. bee317a7  docs(governance): REQ-WORK-UNIT-MODEL-downstream-generalize 返工——副本欠账登记(copies-drift-debt.txt) + R2:79 decisions.md 口径对齐 + wt-backfill.sh 对称解析
+           时间: 2026-09-19T21:33:36.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/bee317a746999b58e3c7bb833acc7bba18fa3d0f
+           分支: REQ-admin-migration, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-admin-migration-0-change, master
+        5. c3aabe15  docs(governance): REQ-WORK-UNIT-MODEL-downstream-generalize 下游面泛化——脚本 base 按档位取、决策台账指针、agents 合入目标表述（去 milestone/M1 硬编码）
+           时间: 2026-09-19T21:09:49.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/c3aabe15f6545b5a5ffde09f91ed9a827fd3ffed
+           分支: REQ-admin-migration, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-admin-migration-0-change, master
+        6. b78524ea  Merge branch 'feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune' into 'master'
+           时间: 2026-09-19T12:21:25.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/b78524ead6513de0d61e7d1a7eb1273cc6dfed9a
+           分支: REQ-admin-migration, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-admin-migration-0-change, master
+        7. 58f19b98  docs(governance): PROC-M1-DEVENVFACTS-PRUNE 移除 docs/dev-env-facts.md 分发面引用
+           时间: 2026-09-19T20:18:56.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/58f19b987648a67432f8cf66761f43d47c5a9cda
+           分支: REQ-admin-migration, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-admin-migration-0-change, master
+        8. 27ed34da  Merge branch 'feature/PROC-M1-PORTABLE-PATHS-RESIDUAL-portable-paths-residual' into 'master'
+           时间: 2026-09-19T11:21:52.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/27ed34dae3a879235a610472f6f96fda8f5fd98d
+           分支: REQ-admin-migration, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-admin-migration-0-change, master
+        9. cf460d23  docs(governance): PROC-M1-PORTABLE-PATHS-RESIDUAL 补清活体文件残留绝对路径
+           时间: 2026-09-19T19:20:43.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/cf460d23d00ca69f2dc21789e1d242956c9a0702
+           分支: REQ-admin-migration, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/PROC-M1-PORTABLE-PATHS-RESIDUAL-portable-paths-residual, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-admin-migration-0-change, master
+       10. fdbe23c4  Merge branch 'feature/REQ-WORK-UNIT-MODEL-ops-generalize' into 'master'
+           时间: 2026-09-19T11:20:42.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/fdbe23c4fb1076a2c5663dbf6b2bf378f33a6674
+           分支: REQ-admin-migration, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-admin-migration-0-change, master
+       11. cd4c8d7e  docs(rules): 修复评审阻塞——R6 §3.3 台账路径参数化 + mr-evidence-templates 占位符统一为 <合入目标>（REQ-WORK-UNIT-MODEL）
+           时间: 2026-09-19T19:13:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/cd4c8d7e1a9c755713e3abc052e0f237ac20bab5
+           分支: REQ-admin-migration, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-WORK-UNIT-MODEL-ops-generalize, feature/REQ-admin-migration-0-change, master
+       12. 1032337b  update .gitignore
+           时间: 2026-09-19T19:12:42.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/1032337b6d09727f0f9e8466072a2ddc46e81854
+           分支: REQ-admin-migration, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/PROC-M1-PORTABLE-PATHS-RESIDUAL-portable-paths-residual, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-admin-migration-0-change, master
+       13. bae90f9f  docs(runbook): bootstrap 步骤 4 改按 spec §5 取 base——去 env 覆盖与全局事实文件（REQ-WORK-UNIT-MODEL）
+           时间: 2026-09-19T18:55:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/bae90f9fafc32162de4a27f96833d6b0d11f73bd
+           分支: REQ-admin-migration, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-WORK-UNIT-MODEL-ops-generalize, feature/REQ-admin-migration-0-change, master
+       14. 3f35b3f4  docs(skill): im-task-playbook 泛化——去 M1 硬编码，需求单元四档参数化（REQ-WORK-UNIT-MODEL）
+           时间: 2026-09-19T18:54:58.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/3f35b3f43d72a50b9c3b7d56abd557072cc1322b
+           分支: REQ-admin-migration, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-WORK-UNIT-MODEL-ops-generalize, feature/REQ-admin-migration-0-change, master
+       15. 7e15e1e8  Merge branch 'feature/REQ-WORK-UNIT-MODEL-absorb-backlog' into 'master'
+           时间: 2026-09-19T10:30:24.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/7e15e1e8d9b0e036569676b36c8af0173bc719c2
+           分支: REQ-admin-migration, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/PROC-M1-PORTABLE-PATHS-RESIDUAL-portable-paths-residual, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-WORK-UNIT-MODEL-ops-generalize, feature/REQ-admin-migration-0-change, master
+       16. daab9664  docs(spec): 登记 R2 §1 下游吸收待办——五仓副本同步独立派发（REQ-WORK-UNIT-MODEL）
+           时间: 2026-09-19T18:29:28.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/daab9664ff775388cf8383ba83a89b98a881af0d
+           分支: REQ-admin-migration, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/PROC-M1-PORTABLE-PATHS-RESIDUAL-portable-paths-residual, feature/REQ-WORK-UNIT-MODEL-absorb-backlog, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-WORK-UNIT-MODEL-ops-generalize, feature/REQ-admin-migration-0-change, master
+       17. 5e726d34  Merge branch 'feature/REQ-WORK-UNIT-MODEL-work-unit-model' into 'master'
+           时间: 2026-09-19T10:20:04.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/5e726d341ad9cc80c2ddda12ae2254d1ab767ed8
+           分支: REQ-admin-migration, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/PROC-M1-PORTABLE-PATHS-RESIDUAL-portable-paths-residual, feature/REQ-WORK-UNIT-MODEL-absorb-backlog, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-WORK-UNIT-MODEL-ops-generalize, feature/REQ-admin-migration-0-change, master
+       18. d5153e21  docs(script): review-precheck.sh 基线改为必填 -b（取消 stale 固定默认 milestone/M1；M1 收口后合入目标随规模而变）
+           时间: 2026-09-19T18:11:57.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/d5153e21412b0f0a6d9c83ea6516a9d3488e3f94
+           分支: REQ-admin-migration, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/PROC-M1-PORTABLE-PATHS-RESIDUAL-portable-paths-residual, feature/REQ-WORK-UNIT-MODEL-absorb-backlog, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-WORK-UNIT-MODEL-ops-generalize, feature/REQ-WORK-UNIT-MODEL-work-unit-model, feature/REQ-admin-migration-0-change, master
+       19. 0b391318  docs(rules): R2 §1 需求单元模型落地 + runbook/CLAUDE.md 配套 + 旧术语悬空收口（REQ-WORK-UNIT-MODEL）
+           时间: 2026-09-19T18:11:57.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/0b39131821f5af70a1797a70b6281eefc32b17d1
+           分支: REQ-admin-migration, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/PROC-M1-PORTABLE-PATHS-RESIDUAL-portable-paths-residual, feature/REQ-WORK-UNIT-MODEL-absorb-backlog, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-WORK-UNIT-MODEL-ops-generalize, feature/REQ-WORK-UNIT-MODEL-work-unit-model, feature/REQ-admin-migration-0-change, master
+       20. 7d1d674a  docs(spec): 需求单元模型设计——非 milestone 需求一等公民化（REQ-WORK-UNIT-MODEL）
+           时间: 2026-09-19T18:11:57.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/7d1d674a9f2df755e9e2bccfa9fd5553f647d991
+           分支: REQ-admin-migration, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/PROC-M1-PORTABLE-PATHS-RESIDUAL-portable-paths-residual, feature/REQ-WORK-UNIT-MODEL-absorb-backlog, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-WORK-UNIT-MODEL-ops-generalize, feature/REQ-WORK-UNIT-MODEL-work-unit-model, feature/REQ-admin-migration-0-change, master
+       21. aa9d1954  Merge branch 'feature/BASE-AM-0-CHANGE-backfill' into 'master'
+           时间: 2026-09-19T08:41:29.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/aa9d1954fece0277e8723ab625e9b0e241e1a7d3
+           分支: REQ-admin-migration, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/PROC-M1-PORTABLE-PATHS-RESIDUAL-portable-paths-residual, feature/REQ-WORK-UNIT-MODEL-absorb-backlog, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-WORK-UNIT-MODEL-ops-generalize, feature/REQ-WORK-UNIT-MODEL-work-unit-model, feature/REQ-admin-migration-0-change, master
+       22. 996a27c2  docs(progress): BASE-AM-0-CHANGE 合入回填（MR !187，merge 47c4cdf）
+           时间: 2026-09-19T16:40:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/996a27c2519c8649a3ad2b1323c32dabf9a0387a
+           分支: REQ-admin-migration, feature/BASE-AM-0-CHANGE-backfill, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/PROC-M1-PORTABLE-PATHS-RESIDUAL-portable-paths-residual, feature/REQ-WORK-UNIT-MODEL-absorb-backlog, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-WORK-UNIT-MODEL-ops-generalize, feature/REQ-WORK-UNIT-MODEL-work-unit-model, feature/REQ-admin-migration-0-change, master
+       23. 47c4cdfb  Merge branch 'feature/BASE-AM-0-change' into 'master'
+           时间: 2026-09-19T08:33:41.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/47c4cdfbded937d325fc00cff429e552cd2b1d78
+           分支: REQ-admin-migration, feature/BASE-AM-0-CHANGE-backfill, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/PROC-M1-PORTABLE-PATHS-RESIDUAL-portable-paths-residual, feature/REQ-WORK-UNIT-MODEL-absorb-backlog, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-WORK-UNIT-MODEL-ops-generalize, feature/REQ-WORK-UNIT-MODEL-work-unit-model, feature/REQ-admin-migration-0-change, master
+       24. c4a29e18  docs(review): BASE-AM-0-CHANGE 评审报告纳入（docs-task-reviewer PASS）
+           时间: 2026-09-19T15:31:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/c4a29e18d86de08d4d6d4d8f06aca90755dcfe94
+           分支: REQ-admin-migration, feature/BASE-AM-0-CHANGE-backfill, feature/BASE-AM-0-change, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/PROC-M1-PORTABLE-PATHS-RESIDUAL-portable-paths-residual, feature/REQ-WORK-UNIT-MODEL-absorb-backlog, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-WORK-UNIT-MODEL-ops-generalize, feature/REQ-WORK-UNIT-MODEL-work-unit-model, feature/REQ-admin-migration-0-change, master
+       25. 37e14562  docs(change): BASE-AM-0-CHANGE 开立联邦 change imlogic-admin-migration
+           时间: 2026-09-19T15:20:35.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/37e14562694888e77d367cc61863a4c99daba662
+           分支: REQ-admin-migration, feature/BASE-AM-0-CHANGE-backfill, feature/BASE-AM-0-change, feature/PROC-M1-DEVENVFACTS-PRUNE-dev-env-facts-prune, feature/PROC-M1-PORTABLE-PATHS-RESIDUAL-portable-paths-residual, feature/REQ-WORK-UNIT-MODEL-absorb-backlog, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, feature/REQ-WORK-UNIT-MODEL-downstream-generalize-skeleton-fix, feature/REQ-WORK-UNIT-MODEL-ops-generalize, feature/REQ-WORK-UNIT-MODEL-work-unit-model, feature/REQ-admin-migration-0-change, master
+       26. d8fecba1  docs(review): REQ-admin-migration-0-CHANGE 需求单元模型对齐评审报告（docs-task-reviewer PASS）
+           时间: 2026-09-19T23:29:48.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/d8fecba10b172c64917621f267286308b580ba35
+           分支: feature/REQ-admin-migration-0-change
+       27. 06b7ab44  docs(change): REQ-admin-migration-0-CHANGE 需求单元模型对齐
+           时间: 2026-09-19T23:22:09.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/06b7ab44fec5919d6bc2cf47ec0b554a018f0c49
+           分支: feature/REQ-admin-migration-0-change
+      MR记录（按时间倒序）：
+        1. MR#194 docs(governance): REQ-WORK-UNIT-MODEL-downstream-generalize 下游面泛化（脚本 base 按档位取/台账指针/agents 合入目标）
+           时间: 2026-09-19T13:13:54.603Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/194
+        2. MR#191 docs(skill): im-task-playbook 泛化——去 M1 硬编码，需求单元四档参数化（REQ-WORK-UNIT-MODEL）
+           时间: 2026-09-19T10:55:26.484Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/191
+        3. MR#190 docs(spec): 登记 R2 §1 下游吸收待办——五仓副本同步独立派发
+           时间: 2026-09-19T10:29:50.944Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/190
+        4. MR#189 docs(governance): 需求单元模型——非 milestone 需求一等公民化（REQ-WORK-UNIT-MODEL）
+           时间: 2026-09-19T09:17:02.590Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/189
+    • msdk/rispari/server/admin-ws-gateway          提交:  15  MR:  4  Commit评论:  0  MR评论:  0 分支:develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test (+1,385 / -361)
+      提交记录（按时间倒序）：
+        1. 0e20ee71  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'develop'
+           时间: 2026-09-19T15:00:12.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/0e20ee71818c51b2d8d67a2f874f467b03af03a7
+           分支: develop
+        2. 8ef7ae2f  chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 骨架模板 change 目录占位化（写死目录→<change目录>）
+           时间: 2026-09-19T22:55:37.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/8ef7ae2f0fe6a88a5f949fc836d9d5691fc36b3b
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        3. c83ce3c2  chore(sync): 补 admin-ws-gateway 缺失的 skills 文件（对齐 admin-gateway）
+           时间: 2026-09-19T22:47:36.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/c83ce3c238e82e4842497cb3183895b887ecaae3
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        4. 536717b6  chore(sync): R6-progress.md change 目录名泛化（admin-ws-split → <change目录>）
+           时间: 2026-09-19T22:39:26.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/536717b672c7148aea192a374153ec45a95d6df9
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        5. cafec65e  chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步
+           时间: 2026-09-19T22:10:40.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/cafec65e5d24d3b6a07aeb37d95275e0894b6907
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        6. a59c2bbf  Merge branch 'feature/REQ-WORK-UNIT-MODEL-copy-sync' into 'develop'
+           时间: 2026-09-19T12:29:08.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/a59c2bbf7a0ec01867e67f72f0e509a7e2ff2ade
+           分支: develop
+        7. 22b32abc  chore(sync): 分发面漂移再生至 docs 权威（sync_copies.py --apply，dev-env-facts 剪除）
+           时间: 2026-09-19T20:23:06.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/22b32abce5b1285371754773c3996d2a986ace0d
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        8. 3f4399e2  chore(sync): 分发面漂移再生至 docs 权威（sync_copies.py --apply）
+           时间: 2026-09-19T19:54:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/3f4399e2b1426c23c53e6174cbb9cbf4d474a15b
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        9. 1e96843f  docs(rules): R2-git.md 副本同步需求单元模型四档口径
+           时间: 2026-09-19T19:54:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/1e96843ffdab2a8f8600cd0990fb1075b876bd20
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+       10. 31778270  Merge branch 'integration/admin-ws-split' into 'master'
+           时间: 2026-09-19T11:34:07.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/31778270b2efc53e388bbc6cd97318c729d90fe5
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+       11. 6e12e150  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'master'
+           时间: 2026-09-19T15:08:37.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/6e12e15023606c8513d75b6b0836c10d8518d68f
+           分支: master
+       12. ecf58b6a  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'pre'
+           时间: 2026-09-19T15:08:22.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/ecf58b6a64fb75c2129431d1b5d723cdeee4ecf6
+           分支: pre
+       13. ab7eb853  Merge branch 'integration/admin-ws-split' into 'pre'
+           时间: 2026-09-19T11:33:57.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/ab7eb853c48b96e3c1986d3db5bafb1735000d4e
+           分支: pre
+       14. 05f8e768  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'test'
+           时间: 2026-09-19T15:08:09.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/05f8e7685c5ce12d8cf2c75b5d93bf79ea342dbd
+           分支: test
+       15. 9751570b  Merge branch 'integration/admin-ws-split' into 'test'
+           时间: 2026-09-19T11:33:47.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/9751570bb29d70aab47bed029f73dbbe266b1c01
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#9 Integration/admin ws split
+           时间: 2026-09-19T11:34:03.953Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/merge_requests/9
+        2. MR#8 Integration/admin ws split
+           时间: 2026-09-19T11:33:55.542Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/merge_requests/8
+        3. MR#7 Integration/admin ws split
+           时间: 2026-09-19T11:33:45.293Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/merge_requests/7
+        4. MR#6 Integration/admin ws split
+           时间: 2026-09-19T11:33:30.460Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/merge_requests/6
+    • msdk/rispari/server/admin-gateway             提交:  10  MR:  0  Commit评论:  0  MR评论:  0 分支:develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test (+191 / -109)
+      提交记录（按时间倒序）：
+        1. 8eb9dbff  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'develop'
+           时间: 2026-09-19T15:00:07.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/8eb9dbff10abcac73445a67f14a0052c5fae1e8f
+           分支: develop
+        2. bc4b35d3  chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 骨架模板 change 目录占位化（写死目录→<change目录>）
+           时间: 2026-09-19T22:51:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/bc4b35d3e7db2807ec5f2b8a643a46e2574b8285
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        3. c600ff62  chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步
+           时间: 2026-09-19T22:10:40.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/c600ff62ab83a064c85061ffd287a0e884bf48e7
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        4. e3f7171b  Merge branch 'feature/REQ-WORK-UNIT-MODEL-copy-sync' into 'develop'
+           时间: 2026-09-19T12:29:05.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/e3f7171bd3ed2082387935dc819f9ff17bec90e4
+           分支: develop
+        5. 0302a461  chore(sync): 分发面漂移再生至 docs 权威（sync_copies.py --apply，dev-env-facts 剪除）
+           时间: 2026-09-19T20:23:06.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/0302a461ec12be08a13f6ff0b657bf6e5f277ff6
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        6. e3e2e7be  chore(sync): 分发面漂移再生至 docs 权威（sync_copies.py --apply）
+           时间: 2026-09-19T19:54:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/e3e2e7be61e8c7f4591e8030f6d713f078f067ff
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        7. 3697c525  docs(rules): R2-git.md 副本同步需求单元模型四档口径
+           时间: 2026-09-19T19:54:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/3697c525a131dc405871d111cf62c289a2ee12ed
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        8. 9350cec7  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'master'
+           时间: 2026-09-19T15:08:34.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/9350cec790039456141f100381ffec4be0462cf8
+           分支: master
+        9. 0858ef13  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'pre'
+           时间: 2026-09-19T15:08:21.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/0858ef138a0b47d31ea80ba4676eb9557215113c
+           分支: pre
+       10. 75ab783d  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'test'
+           时间: 2026-09-19T15:08:08.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/75ab783dbd3c7579d2284885e5014a6a7185686e
+           分支: test
+    • msdk/rispari/server/player-gateway            提交:  10  MR:  0  Commit评论:  0  MR评论:  0 分支:develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test (+191 / -109)
+      提交记录（按时间倒序）：
+        1. dc2d9f65  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'develop'
+           时间: 2026-09-19T15:00:04.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/dc2d9f65939108aba1277d20fad4a3b551abb42a
+           分支: develop
+        2. d25c2498  chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 骨架模板 change 目录占位化（写死目录→<change目录>）
+           时间: 2026-09-19T22:51:51.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/d25c24981d394ae3235d9b0e6fc4dc0fa3e04c7d
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        3. 7e75f1c4  chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步
+           时间: 2026-09-19T22:10:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/7e75f1c406dbe9e7d6512cec36107f303295fb61
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        4. b8311f13  Merge branch 'feature/REQ-WORK-UNIT-MODEL-copy-sync' into 'develop'
+           时间: 2026-09-19T12:29:02.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/b8311f139dc12a1289ec9bafa088a2186c1acb17
+           分支: develop
+        5. 0b34929b  chore(sync): 分发面漂移再生至 docs 权威（sync_copies.py --apply，dev-env-facts 剪除）
+           时间: 2026-09-19T20:23:06.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/0b34929bce30914d5eb548bdabe54977f03e9498
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        6. 83c9f948  chore(sync): 分发面漂移再生至 docs 权威（sync_copies.py --apply）
+           时间: 2026-09-19T19:54:15.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/83c9f948e596970e3d6365d79e1cf9c4f860a275
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        7. 23a200cc  docs(rules): R2-git.md 副本同步需求单元模型四档口径
+           时间: 2026-09-19T19:54:15.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/23a200cc0e7df40956aa7e2b0db61de05cd8da17
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        8. fc27f719  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'master'
+           时间: 2026-09-19T15:08:33.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/fc27f719513418d3cee50fd69bc9ebbe939a64f8
+           分支: master
+        9. 787be12f  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'pre'
+           时间: 2026-09-19T15:08:20.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/787be12f67047fdc9b0399999f477bc8bedda2bf
+           分支: pre
+       10. 9630f02e  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'test'
+           时间: 2026-09-19T15:08:08.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/9630f02ebac16c69e55b618611957b8e8306e1ae
+           分支: test
+    • msdk/rispari/server/im-scheduler              提交:  10  MR:  0  Commit评论:  0  MR评论:  0 分支:develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test (+191 / -109)
+      提交记录（按时间倒序）：
+        1. 10ec30d8  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'develop'
+           时间: 2026-09-19T15:00:02.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/10ec30d894f327134ec989300fdba83957eeef3f
+           分支: develop
+        2. b5425f1e  chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 骨架模板 change 目录占位化（写死目录→<change目录>）
+           时间: 2026-09-19T22:51:51.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/b5425f1e39bc0347d273d9e0a4a83e44e02a1bc9
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        3. 4210db76  chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步
+           时间: 2026-09-19T22:10:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/4210db76b74ffe9e91d30aa844d64d8d7ff76ed8
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        4. eee0d538  Merge branch 'feature/REQ-WORK-UNIT-MODEL-copy-sync' into 'develop'
+           时间: 2026-09-19T12:29:11.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/eee0d5380449ee92f133d4f379ae65175235eac3
+           分支: develop
+        5. cbd801b2  chore(sync): 分发面漂移再生至 docs 权威（sync_copies.py --apply，dev-env-facts 剪除）
+           时间: 2026-09-19T20:23:06.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/cbd801b28190a489186070f1193789da645a31d4
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        6. aeb77a8a  chore(sync): 分发面漂移再生至 docs 权威（sync_copies.py --apply）
+           时间: 2026-09-19T19:54:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/aeb77a8a196f14e78578835ced37996c25e9db7f
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        7. 47ae27b4  docs(rules): R2-git.md 副本同步需求单元模型四档口径
+           时间: 2026-09-19T19:54:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/47ae27b43c8b87bfb6382a20cc9bcad537699e0b
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        8. 776d9885  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'master'
+           时间: 2026-09-19T15:08:32.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/776d98850e781e418b7fd8c4ea883690d4e7ba9b
+           分支: master
+        9. 458babc1  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'pre'
+           时间: 2026-09-19T15:08:19.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/458babc10016b3e883db8b4103a3e5dd0a9df0cd
+           分支: pre
+       10. 8b662a74  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'test'
+           时间: 2026-09-19T15:08:03.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/8b662a7408693ce10a57c2ce4294283606770152
+           分支: test
+    • msdk/rispari/server/im-logic                  提交:  10  MR:  0  Commit评论:  0  MR评论:  0 分支:develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test (+193 / -120)
+      提交记录（按时间倒序）：
+        1. dfe41650  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'develop'
+           时间: 2026-09-19T14:59:59.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/dfe41650a079159015889906841323b60d542f83
+           分支: develop
+        2. 7d5602a9  chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 骨架模板 change 目录占位化（写死目录→<change目录>）
+           时间: 2026-09-19T22:51:51.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/7d5602a958e56b45e654bf6473e7fc64ec2bcaf6
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        3. c1b2fe7d  chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步
+           时间: 2026-09-19T22:10:37.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c1b2fe7d9a388d42c77cff250a98736e2b488c00
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        4. ff15172b  Merge branch 'feature/REQ-WORK-UNIT-MODEL-copy-sync' into 'develop'
+           时间: 2026-09-19T12:28:54.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/ff15172bb162ced5e3ecf10e1864428496b0b0ea
+           分支: develop
+        5. a76936e8  chore(sync): 分发面漂移再生至 docs 权威（sync_copies.py --apply，dev-env-facts 剪除）
+           时间: 2026-09-19T20:23:06.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/a76936e8b9ce02fe1b17bf6cb98954c3981f0cbe
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        6. 8da770fc  chore(sync): 分发面漂移再生至 docs 权威（sync_copies.py --apply）
+           时间: 2026-09-19T19:54:15.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/8da770fc3a33932ed9913530d9e48948d401607d
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        7. 6c56f694  docs(rules): R2-git.md 副本同步需求单元模型四档口径
+           时间: 2026-09-19T19:54:15.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/6c56f69488eb6a852b7a3ba0b6e51048d2310667
+           分支: develop, feature/REQ-WORK-UNIT-MODEL-copy-sync, feature/REQ-WORK-UNIT-MODEL-downstream-generalize, master, pre, test
+        8. 007bfc48  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'master'
+           时间: 2026-09-19T15:08:30.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/007bfc48c7b50d2e4baad9766887d774d1bbc26b
+           分支: master
+        9. d223be79  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'pre'
+           时间: 2026-09-19T15:08:17.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/d223be798a29158e04a8c7ce56e98ba810acf127
+           分支: pre
+       10. e9290a44  Merge branch 'feature/REQ-WORK-UNIT-MODEL-downstream-generalize' into 'test'
+           时间: 2026-09-19T15:07:30.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/e9290a442fa71129e1d33e8966851c42427d188d
+           分支: test
+
+用户: code-development
+  识别: group_508_bot8@moonton.com
+  出现过的名字: code-development
+  总提交    : 0 次
+  总新增/删除: +0 / -0
+  Merge Requests: 31 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 31
+  按项目分布:
+    • msdk/rispari/server/docs                      提交:   0  MR:  6  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#196 REQ-admin-migration-0-CHANGE 需求单元模型对齐（change 目录/编号/台账）
+           时间: 2026-09-19T15:22:37.602Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/196
+        2. MR#195 docs(governance): REQ-WORK-UNIT-MODEL-downstream-generalize 骨架模板 change 目录占位化
+           时间: 2026-09-19T14:53:00.305Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/195
+        3. MR#193 docs(governance): PROC-M1-DEVENVFACTS-PRUNE 移除 docs/dev-env-facts.md 分发面引用
+           时间: 2026-09-19T12:20:18.515Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/193
+        4. MR#192 docs(governance): 补清活体文件残留绝对路径（PROC-M1-PORTABLE-PATHS-RESIDUAL）
+           时间: 2026-09-19T11:08:27.261Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/192
+        5. MR#188 BASE-AM-0-CHANGE 合入回填（MR !187，merge 47c4cdf）
+           时间: 2026-09-19T08:40:11.830Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/188
+        6. MR#187 BASE-AM-0-CHANGE 开立联邦 change imlogic-admin-migration
+           时间: 2026-09-19T07:22:36.474Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/187
+    • msdk/rispari/server/admin-ws-gateway          提交:   0  MR:  5  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#14 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步 → master
+           时间: 2026-09-19T15:07:09.230Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/merge_requests/14
+        2. MR#13 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步 → pre
+           时间: 2026-09-19T15:06:59.389Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/merge_requests/13
+        3. MR#12 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步 → test
+           时间: 2026-09-19T15:06:49.748Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/merge_requests/12
+        4. MR#11 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步（feature/REQ-WORK-UNIT-MODEL-downstream-generalize → develop）
+           时间: 2026-09-19T14:14:33.526Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/merge_requests/11
+        5. MR#10 docs(rules): admin-ws-gateway 副本同步至 docs 权威（R2 需求单元模型 + 分发面漂移）
+           时间: 2026-09-19T12:02:31.615Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/merge_requests/10
+    • msdk/rispari/server/admin-gateway             提交:   0  MR:  5  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#94 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步 → master
+           时间: 2026-09-19T15:07:09.041Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/94
+        2. MR#93 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步 → pre
+           时间: 2026-09-19T15:06:59.168Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/93
+        3. MR#92 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步 → test
+           时间: 2026-09-19T15:06:49.174Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/92
+        4. MR#91 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步（feature/REQ-WORK-UNIT-MODEL-downstream-generalize → develop）
+           时间: 2026-09-19T14:14:33.266Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/91
+        5. MR#90 docs(rules): admin-gateway 副本同步至 docs 权威（R2 需求单元模型 + 分发面漂移）
+           时间: 2026-09-19T12:02:31.244Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/90
+    • msdk/rispari/server/player-gateway            提交:   0  MR:  5  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#71 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步 → master
+           时间: 2026-09-19T15:07:08.851Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/merge_requests/71
+        2. MR#70 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步 → pre
+           时间: 2026-09-19T15:06:58.954Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/merge_requests/70
+        3. MR#69 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步 → test
+           时间: 2026-09-19T15:06:48.962Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/merge_requests/69
+        4. MR#68 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步（feature/REQ-WORK-UNIT-MODEL-downstream-generalize → develop）
+           时间: 2026-09-19T14:14:32.733Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/merge_requests/68
+        5. MR#67 docs(rules): player-gateway 副本同步至 docs 权威（R2 需求单元模型 + 分发面漂移）
+           时间: 2026-09-19T12:02:31.003Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/merge_requests/67
+    • msdk/rispari/server/im-scheduler              提交:   0  MR:  5  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#73 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步 → master
+           时间: 2026-09-19T15:07:08.659Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/merge_requests/73
+        2. MR#72 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步 → pre
+           时间: 2026-09-19T15:06:58.699Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/merge_requests/72
+        3. MR#71 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步 → test
+           时间: 2026-09-19T15:06:48.728Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/merge_requests/71
+        4. MR#70 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步（feature/REQ-WORK-UNIT-MODEL-downstream-generalize → develop）
+           时间: 2026-09-19T14:14:32.117Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/merge_requests/70
+        5. MR#69 docs(rules): im-scheduler 副本同步至 docs 权威（R2 需求单元模型 + 分发面漂移）
+           时间: 2026-09-19T12:02:31.955Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/merge_requests/69
+    • msdk/rispari/server/im-logic                  提交:   0  MR:  5  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#172 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步 → master
+           时间: 2026-09-19T15:07:08.277Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/172
+        2. MR#171 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步 → pre
+           时间: 2026-09-19T15:06:58.319Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/171
+        3. MR#170 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步 → test
+           时间: 2026-09-19T15:06:48.287Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/170
+        4. MR#169 chore(sync): REQ-WORK-UNIT-MODEL-downstream-generalize 副本泛化同步（feature/REQ-WORK-UNIT-MODEL-downstream-generalize → develop）
+           时间: 2026-09-19T14:14:31.813Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/169
+        5. MR#168 docs(rules): im-logic 副本同步至 docs 权威（R2 需求单元模型 + 分发面漂移）
+           时间: 2026-09-19T12:02:30.714Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/168
+
+用户: 吴超伟(Chaowei)
+  识别: chaoweiwu@moonton.com
+  出现过的名字: 吴超伟(Chaowei)
+  总提交    : 3 次
+  总新增/删除: +1,173 / -31
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 3
+  按项目分布:
+    • publish_platform/mt_publish_crawler           提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+590 / -16)
+      提交记录（按时间倒序）：
+        1. ded70b22  m-7075412480 onesight 增加update time控制的功能
+           时间: 2026-09-19T21:23:28.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/mt_publish_crawler/-/commit/ded70b22975c07ac3b6fc1f06366ea7b7f34f7bb
+           分支: master
+        2. 2cbbbc1b  m-7056252340 修复wegame推荐率提取失败阻塞评论拉取+tiktok缺列KeyError
+           时间: 2026-09-19T21:16:42.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/mt_publish_crawler/-/commit/2cbbbc1b26b0c94b01d632b59705b6e1c0491a8e
+           分支: master
+    • publish_platform/global-competitor-intelligence 提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:test (+583 / -15)
+      提交记录（按时间倒序）：
+        1. 2b17b91f  m-7075412480 打标缓存增加哈希冲突防碰撞测试
+           时间: 2026-09-19T11:37:48.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/global-competitor-intelligence/-/commit/2b17b91f3b563844a88b3197b8d1fcdc9a2af4f9
+           分支: test
+
+----------------------------------------------------------------------------------------------------
+共统计到 3 位活跃用户
