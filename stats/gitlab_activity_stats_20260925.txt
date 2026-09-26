@@ -1,0 +1,65 @@
+
+====================================================================================================
+最近 24 小时用户活动统计（不使用强制别名映射）
+====================================================================================================
+
+用户: jiangding
+  识别: jiangding@moonton.com
+  出现过的名字: jiangding
+  总提交    : 4 次
+  总新增/删除: +92 / -504
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 4
+  按项目分布:
+    • msdk/rispari/server/vip                       提交:   4  MR:  0  Commit评论:  0  MR评论:  0 分支:develop, test, v1-common-m-7099777299, v1-sess-oplog83-m-7099777299 (+92 / -504)
+      提交记录（按时间倒序）：
+        1. 9444b72a  m-7099777299, Merge branch 'v1-common-m-7099777299' into develop（D-83 operate_logs 全字段留痕同步）
+           时间: 2026-09-25T02:39:00.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/9444b72a8a3229922b0a9ae4313e0b7a4102941e
+           分支: develop
+        2. 8ca0d6ac  m-7099777299, Merge branch 'v1-sess-oplog83-m-7099777299' into v1-common-m-7099777299（D-83 operate_logs 全字段留痕，废除 O-AC-04 剔除机制）
+           时间: 2026-09-25T02:38:13.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/8ca0d6ac56889afbdaa0b8861a6aa3d1f0af6122
+           分支: develop, test, v1-common-m-7099777299
+        3. b350335a  m-7099777299, D-83 operate_logs 全字段留痕：废除 O-AC-04 业务内容剔除机制（用户拍板 2026-09-25「不要轻易过滤任何字段，操作日志表不存在审核用的日志」）——删 HookConfig.IgnoreFields/Hook.ignore/stripIgnoredFields/containsString（oplog 包）+ hook_internal_test.go 整文件；oplog_test 用例翻转为 TestHook_VipNoteContentLogged 正向回归门（含 content_after_extend 四字段——连带修正原断言空过缺陷：create 新行走 commbase getCreateLog ExtendAfter 通道，content_after 恒 {}）；文档：00 D 表登记 D-83 + 04-oplog §8 O-AC-04 行改写全字段留痕 + T-F5 卡空过注记 + 13 断点；验证：oplog 包 go test 绿（真实 mysql 集成）/go build ./... 绿/dcheck PASS/taskboard html 刷新
+           时间: 2026-09-25T01:16:44.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/b350335af82c4018fdb1c271db74bc7f6634d3ef
+           分支: develop, test, v1-common-m-7099777299, v1-sess-oplog83-m-7099777299
+        4. fd6d65f8  m-7099777299, Merge branch 'v1-common-m-7099777299' into test（D-83 全字段留痕 dev 发布同步）
+           时间: 2026-09-25T02:39:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/fd6d65f8dda244f5aa0fe98bbb8b59d6c346a213
+           分支: test
+
+用户: 吴超伟(Chaowei)
+  识别: chaoweiwu@moonton.com
+  出现过的名字: 吴超伟(Chaowei)
+  总提交    : 4 次
+  总新增/删除: +88 / -51
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 4
+  按项目分布:
+    • publish_platform/mt_publish_crawler           提交:   4  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+88 / -51)
+      提交记录（按时间倒序）：
+        1. d7d5e23c  m-7056252340 失败渠道自动补跑:run()返回成败状态,main.py全渠道跑完后对失败渠道冷却10分钟补跑2轮,补跑成功发自动恢复通知,覆盖prod2风控/限流类暂时性故障
+           时间: 2026-09-25T21:21:33.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/mt_publish_crawler/-/commit/d7d5e23c78e4d6a0b44ac2173a282feffedf6288
+           分支: master
+        2. 27840bec  m-7056252340 233登录态改走storage_state:登录态存localStorage几乎不落cookie,S3无cookie致无头启动即未登录拦不到233auth(FIX-20260925-01)
+           时间: 2026-09-25T13:47:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/mt_publish_crawler/-/commit/27840bec3f9dc8f671410fbe4b2c5f41f7cf221b
+           分支: master
+        3. 6663cbf1  m-7056252340 bilibili登录改版适配:去掉失效的sleep120+Fred2018文本断言,改为用户名可见或数据接口实调验证cookie(FIX-20260924-01)
+           时间: 2026-09-25T11:33:13.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/mt_publish_crawler/-/commit/6663cbf14ce21f8eb3d1ac79861cd85836b3727a
+           分支: master
+        4. f375b825  m-7039235426 CI镜像压平:docker-squash解决127层超overlay2上限致prod2无法pull
+           时间: 2026-09-25T11:16:54.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/mt_publish_crawler/-/commit/f375b825d4a07c5f140202c2a05b25267928ff1d
+           分支: master
+
+----------------------------------------------------------------------------------------------------
+共统计到 2 位活跃用户
