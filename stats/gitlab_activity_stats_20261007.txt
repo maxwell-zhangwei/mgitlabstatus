@@ -1,0 +1,213 @@
+
+====================================================================================================
+最近 24 小时用户活动统计（不使用强制别名映射）
+====================================================================================================
+
+用户: likongquan
+  识别: levirli@moonton.com
+  出现过的名字: likongquan
+  总提交    : 13 次
+  总新增/删除: +4,787 / -57
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 13
+  按项目分布:
+    • msdk/rispari/server/docs                      提交:   7  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/knowledge_base_m-7123357177 (+1,654 / -32)
+      提交记录（按时间倒序）：
+        1. 19a0dc2e  docs(scene-config): 补建 HTTP 生成物并登记 oapi-codegen 命名漂移（BASE-SC-CONTRACT）
+           时间: 2026-10-07T23:37:21.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/19a0dc2e050b36246e021a624f645a9f88bd2f3a
+           分支: feature/knowledge_base_m-7123357177
+        2. df460322  docs(scene-config): 修正 H328 请求体表述勘误（scene_code 不接受客户端指定）
+           时间: 2026-10-07T23:32:32.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/df46032291bac8714e87b2135d1da201081f7299
+           分支: feature/knowledge_base_m-7123357177
+        3. edcb15dc  docs(scene-config): 补充场景配置三端点 fixture（BASE-SC-FIXTURE） m-7123357177
+           时间: 2026-10-07T23:25:22.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/edcb15dc11553c72bfab611b4dd1972a5812dd04
+           分支: feature/knowledge_base_m-7123357177
+        4. f5dbf596  docs(scene-config): 落地契约变更 BASE-SC-CONTRACT（三端点 + 四错误码）
+           时间: 2026-10-07T17:31:57.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/f5dbf596801fca8fedeeb5fc067daabcf755e778
+           分支: feature/knowledge_base_m-7123357177
+        5. f1e28d30  chore(gitignore): 忽略本地 IDE 与 macOS 产物
+           时间: 2026-10-07T16:56:59.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/f1e28d30e0539279df7a531aef3dec5b81d64e7e
+           分支: feature/knowledge_base_m-7123357177
+        6. 02128a1f  docs(scene-config): 登记 P0 冻结决策与契约变更记录
+           时间: 2026-10-07T16:54:53.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/02128a1f7a6c297fcf67656ce9b3c1d4700d14a6
+           分支: feature/knowledge_base_m-7123357177
+        7. 80f9dedd  docs(scene-config): 开立 change 与任务注册表
+           时间: 2026-10-07T16:54:50.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/80f9dedd6c559c65600b37a0ccc405f147345213
+           分支: feature/knowledge_base_m-7123357177
+    • msdk/rispari/server/admin-gateway             提交:   6  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/knowledge_base_m-7123357177 (+3,133 / -25)
+      提交记录（按时间倒序）：
+        1. 3991a745  feat(scene-config): 实现场景列表/新建/启停用例（SC-6/SC-7/SC-8） m-7123357177
+           时间: 2026-10-07T23:13:56.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/3991a7454afcaf3eb24c90e7c6d2896f45fbd608
+           分支: feature/knowledge_base_m-7123357177
+        2. eaab9140  feat(scene-config): 实现默认场景惰性创建（SC-5-DEFAULT-SCENE） m-7123357177
+           时间: 2026-10-07T23:13:21.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/eaab9140199b1bbdc3fd655c039636e72d72ec9e
+           分支: feature/knowledge_base_m-7123357177
+        3. af147299  feat(scene-config): 新增 entry_scene MySQL adapter（SC-4-REPO） m-7123357177
+           时间: 2026-10-07T17:54:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/af147299161ab400693078719d8d80be7c21d2aa
+           分支: feature/knowledge_base_m-7123357177
+        4. 0860a661  feat(scene-config): 新增场景领域实体与 port 接口（SC-3-DOMAIN） m-7123357177
+           时间: 2026-10-07T17:44:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/0860a661e4229743db696c03c55c47635e08ff85
+           分支: feature/knowledge_base_m-7123357177
+        5. 032f9b45  docs(scene-config): 对齐 child change 与已落地的契约变更
+           时间: 2026-10-07T17:31:59.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/032f9b4586b43cd56bd190ef59d0272c53e03dc5
+           分支: feature/knowledge_base_m-7123357177
+        6. 6d12525d  docs(scene-config): 开立 child change 与实现面台账
+           时间: 2026-10-07T16:56:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/6d12525d31d5a06d521f2f0fde2417f88c1bc2ed
+           分支: feature/knowledge_base_m-7123357177
+
+用户: 李铭骏(Mingjun)
+  识别: mingjunli@moonton.com
+  出现过的名字: 李铭骏(Mingjun)
+  总提交    : 9 次
+  总新增/删除: +4,189 / -35
+  Merge Requests: 3 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 12
+  按项目分布:
+    • msdk/rispari/server/docs                      提交:   9  MR:  3  Commit评论:  0  MR评论:  0 分支:docs/M2-README-module-index, feature/M2-DOC-ADD-ticket-lifecycle-message-crosscutting, feature/M2-TICKET-SERVER-DELIVERY-DESIGN, milestone/M2 (+4,189 / -35)
+      提交记录（按时间倒序）：
+        1. da74e016  docs(M2): README rebase 增补——覆盖 milestone/M2 前移新增面：后续三模块（ticket-lifecycle/ticket-message/ticket-alert-collaboration，M2-DOC-ADD 入库、不在 Phase1 范围冻结内）与 cross-cutting 横切公共件（error-codes 错误码分配登记点 + message-contract-delta 归并申报）各立一节；双权威口径限定为 Phase1 七模块（后续模块无该文头声明，实测 grep 核实）；同步纪律扩为 M2-DOC-ADD 首入库 + M2-DOC-SYNC 增量同步两形态并覆盖 cross-cutting
+           时间: 2026-10-07T19:10:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/da74e0164638b93d0cbb4ffd5ee3aa2573120177
+           分支: docs/M2-README-module-index, milestone/M2
+        2. e4ba6c40  docs(M2): README 评审修订——双权威口径补「冲突」二字，与各模块 design.md 文头声明逐字对照（MR !257 评审 suggestion 2 采纳；suggestion 1 时态表述按评审论证不采纳：改文会引入时点快照违反本 README 不承载状态的定位）
+           时间: 2026-10-07T19:09:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/e4ba6c4007737d6867c5dbc636ff9ca1708eff17
+           分支: docs/M2-README-module-index, milestone/M2
+        3. 4963cd30  docs(M2): M2 目录 README 导览开篇——目录结构与文档分工说明（顶层三文件、七模块目录、design/分册双权威口径、tech-docs/M2 字节级同步纪律）；显式声明本仓 M2/decisions.md 为开发阶段决策文件不参与同步、与需求工作区 tech-docs/M2/decisions.md（D-M2-xx 裁定源）分立防混淆；README 本身为 docs 仓单侧维护不纳入同步；不承载任务状态（R6 状态权威在 .progress）
+           时间: 2026-10-07T19:09:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/4963cd3091b68d917caea59e55ab06577ac303ac
+           分支: docs/M2-README-module-index, milestone/M2
+        4. 4a62919c  Merge branch 'feature/M2-DOC-ADD-ticket-lifecycle-message-crosscutting' into 'milestone/M2'
+           时间: 2026-10-07T11:03:00.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/4a62919c20dcd1a4fbc291979621618194cc4dff
+           分支: docs/M2-README-module-index, milestone/M2
+        5. def60dcb  docs(M2): M2-DOC-ADD 告警模块评审修订轮——按需求工作区源头修复（D-M2-171 裁定 + error-codes 规则收编）重新同步九文件，源字节级一致（git hash-object 核验）。M-1 署名模型分叉：新裁定 D-M2-171 补全 D-M2-156 适用面——is_batch_reply=true 为 C 端「客服团队」渲染唯一锚，sender_agent_id/sender_display_name 批量回复均空（不捕获，fail-closed 不适用），sender_agent_id 取值规则完备无例外（仅 sender_type=AGENT 非空）、不承载审计，发起人溯源走告警侧 attempt operator_id；发送侧 sender_type=CUSTOMER_SERVICE_TEAM 仅传输/路由/幂等组分语义不参与渲染，两者正交分工同批会签互注——双侧同步修复：ticket-message 四文档 + message-contract-delta Delta A2/A4/Delta B + 告警 rpc/schema 对应行。M-2 映射矛盾复发：告警 http 错误表依赖类 fail closed 由 500/502/504 拆出独立 503 候选行（rpc 已申报 DEPENDENCY_UNAVAILABLE/2014，映射候选以 error-codes.md 为准），:349 分配面表述补权威声明；error-codes.md 新增「HTTP 映射候选同表唯一」规则行（依赖 fail closed 不得并入 500/502/504，收编 ticket-lifecycle 与告警两起同构冲突先例），TA-CD-09 行补「依赖失败复用 2014」。B 端批量回复署名规则登记为待定项（候选固定「客服团队」，随 M3 定案见 open-items）
+           时间: 2026-10-07T19:01:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/def60dcbbd4de0a22d2643b3c46b6742dae5b499
+           分支: docs/M2-README-module-index, feature/M2-DOC-ADD-ticket-lifecycle-message-crosscutting, milestone/M2
+        6. 9848e906  docs(M2): M2-DOC-ADD 增补轮——ticket-alert-collaboration（客诉告警/批量告警与响应）模块四文档首入库（design / http / rpc / schema，从需求工作区源拷贝，git hash-object 字节级核验一致）。术语口径：PRD 2647 原名 batch_alert，展示名统一「客诉告警」，代码标识沿用 TicketAlert/ticket_alert，batch_reply 为批量回复动作；状态 review_ready（2026-10-07 formal-design 授权后经定稿一致性自查转段，含 D-M2-166~169 批量回复语义）；不新增跨服务 CRUD RPC（TA-03 五仓取证定论），四表落位 admin-gateway 本地 MySQL（TA-02 定稿）；冻结待 contract-delta 经 Phase 4 归并与编号/契约评审。同步面：error-codes.md 既有 TA-CD-09 行（内容拦截 TICKET_ALERT_CONTENT_BLOCKED 归并候选复用 2012）与本模块对应。源目录 contract-delta/discussion-log/handoff/status 等工作区过程文件按既有同步先例（ticket-lifecycle/ticket-message 同构）不入库
+           时间: 2026-10-07T18:25:48.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/9848e906fd612616bd641f5b68c444980ca38b84
+           分支: docs/M2-README-module-index, feature/M2-DOC-ADD-ticket-lifecycle-message-crosscutting, milestone/M2
+        7. 9cb217e5  docs(M2): M2-DOC-ADD 评审修订轮——从需求工作区重新同步三文件（源字节级一致，git hash-object 核验）。M-1：ticket-lifecycle-http TL 错误映射表 2014 DEPENDENCY_UNAVAILABLE 由 502/500 修正为 503 候选，并显式声明「HTTP 映射候选以 cross-cutting/error-codes.md 为准」消除与登记表的分配面矛盾；M-2：ticket-message design.md system_tip_type 出口表述由「三向随消息出网」修正为「落库 + H102/H319 HTTP 读面返回、不进 DownMessage」，与 rpc/schema/http 三份细节文件及 message-contract-delta Delta A4 归并口径对齐（D-M2-164）；error-codes.md 同步源新增：TA-CD-09 补内容拦截 TICKET_ALERT_CONTENT_BLOCKED 归并候选复用 2012、新增 evaluation-satisfaction（EVAL-CD）行（M1 冻结码 2009/2005 直引 + 2013 复用，待评价线归并批次）。其余八文件与源哈希一致未动；reply-guideline D-M2-139 回填经源 decisions.md:1909 核实准确
+           时间: 2026-10-07T18:22:34.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/9cb217e59397e8d94de6ce10d03c3d4f316ee067
+           分支: docs/M2-README-module-index, feature/M2-DOC-ADD-ticket-lifecycle-message-crosscutting, milestone/M2
+        8. 5bd22889  docs(M2): M2-DOC-ADD ticket-lifecycle / ticket-message 两模块设计文档与 cross-cutting 横切公共件首入库。ticket-lifecycle 四文档（design/http/rpc/schema，客诉接待与 ticket 生命周期，formal-design 初稿，快照 M2-GATE-C-20260920-2647-01、PRD 2647）；ticket-message 四文档（客诉消息 C/B 收发、历史/未读/附件/系统消息/署名快照/定时发送，同快照）；cross-cutting 两公共件：error-codes.md（M2 设计期错误码数值分配唯一登记点，M1 冻结码引用区+候选码分配区，含 D-M2-165 撤销 2011 并入 1003 场景扩展留痕）与 message-contract-delta.md（Phase 4 ticket-message 批次 TM-CD-01~09 归并申报，全部结论引用既有 D-M2-145/154~157/159~164，无新裁定）。附带 reply-guideline/design.md PENDING-RG-12 补落 D-M2-139 决策编号回填（2026-10-07，编号散落登记模式与 D-M2-136 同构）。均为设计期 candidate/aggregated 状态，不构成冻结契约
+           时间: 2026-10-07T18:01:14.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/5bd228896cfeb6779da79177b4978f118fa5bd88
+           分支: docs/M2-README-module-index, feature/M2-DOC-ADD-ticket-lifecycle-message-crosscutting, milestone/M2
+        9. ff4630e4  docs(M2): design ticket server delivery
+           时间: 2026-10-07T21:42:06.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/ff4630e420e0639a2211a4f142549c5824dda165
+           分支: feature/M2-TICKET-SERVER-DELIVERY-DESIGN
+      MR记录（按时间倒序）：
+        1. MR#258 docs(M2): design ticket server delivery
+           时间: 2026-10-07T13:42:22.582Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/258
+        2. MR#257 docs(M2): M2 目录 README 导览开篇
+           时间: 2026-10-07T11:07:31.826Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/257
+        3. MR#256 docs(M2): M2-DOC-ADD ticket-lifecycle / ticket-message 两模块设计文档与 cross-cutting 横切公共件首入库
+           时间: 2026-10-07T10:01:21.471Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/256
+
+用户: suzyzeng
+  识别: suzyzeng@moonton.com
+  出现过的名字: suzyzeng
+  总提交    : 2 次
+  总新增/删除: +406 / -16
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/ad_bi/gms_ad_bi_cn           提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/m-7117317371-cn_alert2 (+406 / -16)
+      提交记录（按时间倒序）：
+        1. 1dd71799  m-7117317371，规则改成sql定义
+           时间: 2026-10-07T23:21:37.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/1dd71799e3cf998710834e2a046ba125c22c7c7f
+           分支: feature/m-7117317371-cn_alert2
+        2. 76921a06  m-7117317371，取消同app_id下的标题查重
+           时间: 2026-10-07T22:42:22.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/76921a06c882c43a2cdd6679ac78fb13e8c0fdc6
+           分支: feature/m-7117317371-cn_alert2
+
+用户: 王宁(Willem)
+  识别: willemwang@moonton.com
+  出现过的名字: Willem, 王宁(Willem)
+  总提交    : 1 次
+  总新增/删除: +2 / -2
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/ad_bi/data                   提交:   1  MR:  1  Commit评论:  0  MR评论:  0 分支:fix-ocean-package-name, master (+2 / -2)
+      提交记录（按时间倒序）：
+        1. 767d32ff  fix：巨量报表去掉package_name维度
+           时间: 2026-10-07T09:43:53.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/767d32ff325fdccd2ddd855c96ab2ddbeda42761
+           分支: fix-ocean-package-name, master
+      MR记录（按时间倒序）：
+        1. MR#602 fix：巨量报表去掉package_name维度
+           时间: 2026-10-07T01:44:47.821Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/merge_requests/602
+
+用户: 王聪(Wilson)
+  识别: wilsonwang1@moonton.com
+  出现过的名字: 王聪(Wilson)
+  总提交    : 1 次
+  总新增/删除: +0 / -0
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • publish_platform/ad_bi/data                   提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:master 
+      提交记录（按时间倒序）：
+        1. b2d66ab3  Merge branch 'fix-ocean-package-name' into 'master'
+           时间: 2026-10-07T01:46:06.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/b2d66ab37d53812b5cd2b08c3f55ca357c722489
+           分支: master
+
+用户: code-development
+  识别: group508_bot8@noreply.lf.git.oa.mt
+  出现过的名字: code-development
+  总提交    : 1 次
+  总新增/删除: +0 / -0
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • msdk/rispari/server/docs                      提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:milestone/M2 
+      提交记录（按时间倒序）：
+        1. 4c5f20bd  Merge branch 'docs/M2-README-module-index' into 'milestone/M2'
+           时间: 2026-10-07T11:13:19.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/4c5f20bdab1d69a25a6d0779bd1edc5a52db1d8c
+           分支: milestone/M2
+
+----------------------------------------------------------------------------------------------------
+共统计到 6 位活跃用户
