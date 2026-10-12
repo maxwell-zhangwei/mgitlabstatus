@@ -1,0 +1,842 @@
+
+====================================================================================================
+最近 24 小时用户活动统计（不使用强制别名映射）
+====================================================================================================
+
+用户: 李铭骏(Mingjun)
+  识别: mingjunli@moonton.com
+  出现过的名字: 李铭骏(Mingjun)
+  总提交    : 160 次
+  总新增/删除: +26,994 / -3,078
+  Merge Requests: 22 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 182
+  按项目分布:
+    • msdk/rispari/server/im-logic                  提交:  49  MR:  6  Commit评论:  0  MR评论:  0 分支:feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-ATTACHMENT-REF, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-MESSAGE-CORE, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2 (+8,426 / -1,521)
+      提交记录（按时间倒序）：
+        1. c5093cc7  chore(evidence): IL-M2-DELAY-MSG-CARRIER 增量复核收口——review-rework-report 落盘（PASS：B-1 修复成立/判别力红态独立复现/无新问题）+ SR 评审结论闭合
+           时间: 2026-10-11T18:44:43.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c5093cc77cd770b322a2a56f55dd6d4cb13c00f5
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, milestone/M2
+        2. 9cca6a5b  chore(evidence): IL-M2-DELAY-MSG-CARRIER 返工后门禁复跑覆盖写（g2/g3 PASS 锚定 d5ab300，41 包零 FAIL）
+           时间: 2026-10-11T18:41:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/9cca6a5b249e573a5a5d8d096c1bb32bed6cc22c
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, milestone/M2
+        3. d5ab3006  fix(ticketmessage): IL-M2-DELAY-MSG-CARRIER 评审返工——B-1 has_more 探测谓词补齐（$in [nil,""] 挂部分可见端探测分支，与软删行对称）+ 探测用例重写为页满判别性场景（谓词摘除实测红/在位绿）+ M-1 kernel 校验对齐 D4 无守卫直调 + M-2 SR 锚定口径订正 + review-report 落盘
+           时间: 2026-10-11T18:37:43.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/d5ab30067193f7b9befa4f3c7156cf8a93f7d0f8
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, milestone/M2
+        4. 76a66e66  chore(evidence): IL-M2-DELAY-MSG-CARRIER 门禁三档输出（g1/g2/g3 PASS 锚定 def7c35）+ selection-records（C 端过滤挂点裁定=扫描内核/D3 推送抑制交接/载体清单四约定）
+           时间: 2026-10-11T18:25:51.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/76a66e6676c844681c339ef5fbe41305102ba219
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, milestone/M2
+        5. def7c353  feat(ticketmessage): IL-M2-DELAY-MSG-CARRIER 最小实现——候选字段 18 delayed_failure_reason 载体八件（D-M2-159）：domain 三值闭集名册常量+值域校验、SendAgentTextRequest 入参通道（非法值带内 1004）、messageDoc 候选列双向映射、TM-SEND 透传、TM-READ B 端投影、扫描内核 C 端过滤（玩家可见集合消息级过滤+has_more 探测排除，与软删行同构）、候选镜像 proto 补 18+kitex_gen 重生成；空值路径与 M1 逐字节零变化
+           时间: 2026-10-11T18:20:47.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/def7c353c882bbd25a2a83df21bbc888c07c928d
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, milestone/M2
+        6. 6a969597  test(ticketmessage): IL-M2-DELAY-MSG-CARRIER 失败测试先行——候选字段 18 载体断言全套（domain 三值闭集/内核写路径三态/TM-SEND 透传/TM-READ B 端投影/Mongo 落库往返与 omitempty/C 端过滤扫描三态含 has_more 探测/wire tag 18 与往返/DownMessage 负向）+ failing-tests-first 红态落盘（五包 build failed，载体未实现非恒绿）
+           时间: 2026-10-11T18:20:41.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/6a96959769cb0f982cf627c127c62a60506fd4ef
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, milestone/M2
+        7. 1a856b7c  Merge branch 'feature/IL-M2-DELAY-SCHEMA-ASSERT' into 'milestone/M2'
+           时间: 2026-10-11T09:01:40.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/1a856b7c2b36be773e48e854dc3532d755885d57
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, milestone/M2
+        8. 7771a878  chore(evidence): IL-M2-DELAY-SCHEMA-ASSERT 评审收口——review-report 落盘（PASS，0 阻塞/1 建议/5 备忘）+ SR 订正评审 S-1（g2 指针指向 g3 全量段）与备忘 1（探针断面注记）
+           时间: 2026-10-11T16:35:46.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/7771a878457ed9de7e2ae38e2563c8075ef4f9a3
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, milestone/M2
+        9. 92b2e76a  chore(evidence): IL-M2-DELAY-SCHEMA-ASSERT 门禁三档输出（g1/g2/g3 PASS 锚定 0fad4a5）+ selection-records（解锁 DELAY-TASK dev ALTER 声明 + 验证姿势与机制核实留痕）
+           时间: 2026-10-11T16:26:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/92b2e76a9ffd516bee0102b318b0bb264140636c
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, milestone/M2
+       10. 0fad4a5a  test(dal): IL-M2-DELAY-SCHEMA-ASSERT delay_task schema 断言条件化——M2 三列（sender_display_name/failure_reason/retry_count）存在性条件断言（存在校形状/缺失 skip 带注记），解除与 admin-gateway WP-M2-TM-DELAY-TASK 的跨仓 ALTER 时序死锁；12 列核心断言保留不动
+           时间: 2026-10-11T16:21:13.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/0fad4a5aaccf2e1a34732ef95de527710a445123
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, milestone/M2
+       11. 1c999ad0  Merge branch 'feature/SEAM-M2-TM-READAUTH' into 'milestone/M2'
+           时间: 2026-10-11T05:50:38.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/1c999ad0e9dbd64f6feeb3e721b37558b3912521
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, milestone/M2
+       12. c682ef3a  docs(evidence): SEAM-M2-TM-READAUTH 评审报告与返工处置落盘——review-report（PASS 0 阻塞/1 建议/3 备忘）+ S-1 收敛修订处置记 SR + g1 复跑 PASS 锚定 e022057
+           时间: 2026-10-11T13:48:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c682ef3ab13a81f0486aafc98f4a67d020acc5bf
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, milestone/M2
+       13. e0220574  refactor(conversation): SEAM-M2-TM-READAUTH 评审 S-1 收敛——用户裁定全文收敛至 actorDataPermissionSecondLine doc comment 单一权威源（R1 §13 churn 面），GuardReadMessage 头注改一句引用
+           时间: 2026-10-11T13:48:04.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/e02205740b3732345b8bd59d96f088c2abead2e3
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, milestone/M2
+       14. 8b17dcf8  docs(evidence): SEAM-M2-TM-READAUTH 判档终态复判追加——MR 最终联合 diff（df8634c）L2 维持，B/C 类搭车不降 A 类档位，未归类 tasks.md 派发方确认归 C
+           时间: 2026-10-11T13:42:21.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/8b17dcf8c7e6c0d7298b8b9ce7fb23c0ab624fbb
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, milestone/M2
+       15. df8634c9  docs(evidence): SEAM-M2-TM-READAUTH 证据与登记落盘——selection-records（SR 口径订正 supersede HISTORY-CURSOR 不预建口径 + 向 WP-M2-TM-ADMIN-API 交付接缝面 + mark_read 游标前置裁定项登记）+ TDD 红态与 g1/g2/g3 门禁制品锚定 91bfef0 + review_tier 判档 L2 + tasks.md 窄接口登记节接缝登记行（非勾选行）
+           时间: 2026-10-11T13:39:35.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/df8634c93d122b723f7bdcdfc3b2aef695310a4d
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, milestone/M2
+       16. 91bfef0e  feat(conversation): SEAM-M2-TM-READAUTH 二线数据权限校验接缝空方法——actorDataPermissionSecondLine 接缝期恒 false（一线语义，用户 2026-10-11 裁定承载）+ GuardReadMessage 坐席匹配检查之前接线（读取行为零变化）+ 接缝谓词恒 false 与拒绝路径不变断言测试
+           时间: 2026-10-11T13:32:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/91bfef0ed4f99854637d6c0491770919f842a353
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, milestone/M2
+       17. 13f3b9d6  Merge branch 'feature/WP-M2-TM-HISTORY-CURSOR' into 'milestone/M2'
+           时间: 2026-10-11T03:48:21.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/13f3b9d6ccd9eade9519b8945617e0a56e70db3c
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, milestone/M2
+       18. de222efb  docs(evidence): WP-M2-TM-HISTORY-CURSOR 合入前同步收口——rebase 到 milestone/M2（冲突面 current.md/tasks.md 纯 .md 保双方解决，ATTACHMENT-REF 姊妹合入态保留）+ g2/g3 门禁复跑 PASS 锚定 c768d96 + 旧新哈希映射表与锚定行刷新
+           时间: 2026-10-11T11:41:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/de222efbbc288bb5c31a19d95ed16c866509b4cf
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-HISTORY-CURSOR, milestone/M2
+       19. c768d96d  docs(ticketmessage): WP-M2-TM-HISTORY-CURSOR 坐席数据权限分级扩展意图伪代码——GuardReadMessage 钉死权限分支插入位置（匹配检查之前，二线全量放行/一线落 assignee/everHeld 匹配），载体落地前不预建分支（R1 §8），缺口登记同步承载说明
+           时间: 2026-10-11T11:31:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c768d96d19878e7a9d260f8e456a5c413e06d6dc
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-HISTORY-CURSOR, milestone/M2
+       20. 46208ea9  docs(evidence): WP-M2-TM-HISTORY-CURSOR 登记二线/全局可见角色授权面缺口（用户质询发现——设计权威无该授权面且无权限载体，M1 H319 既有面不受影响，Task 11 接线前置裁决警示）
+           时间: 2026-10-11T11:31:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/46208ea9589991cd0bd520cb4d72c15783de9afe
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-HISTORY-CURSOR, milestone/M2
+       21. e440b922  docs(evidence): WP-M2-TM-HISTORY-CURSOR 增量复核 PASS 结论留痕 + N-1 查无路径日志级别细分缺口登记（低建议不阻塞，随下次触达处置）
+           时间: 2026-10-11T11:31:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/e440b922b8bf9ce642accdde602e1cfbadaa7da1
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-HISTORY-CURSOR, milestone/M2
+       22. df35c64e  docs(evidence): WP-M2-TM-HISTORY-CURSOR 返工后证据更新——review-report 落盘 + selection-records 返工叙事与建议项处置（2/2 采纳）+ 门禁复跑覆盖（g2+g3 PASS 锚定 9267282）
+           时间: 2026-10-11T11:31:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/df35c64e79ae4211bcd9174465849af5b43106fd
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-HISTORY-CURSOR, milestone/M2
+       23. fc025a46  fix(ticketmessage): WP-M2-TM-HISTORY-CURSOR 评审建议项采纳——S-1 拒绝路径服务端留痕（infra 失败 Warn 带错误链/业务拒绝 Info，design §9 观测约束，不改变对外同形）+ S-2 玩家面游标零触达防御断言（fake 计数）
+           时间: 2026-10-11T11:31:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/fc025a4661cbc072aa29fdb16e468c8e350113e2
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-HISTORY-CURSOR, milestone/M2
+       24. bdfa4dfd  docs(evidence): WP-M2-TM-HISTORY-CURSOR 门禁证据落盘（g1+g2 定向 PASS 锚定 66a62b6/75d5047 + g3 全量 41 包 PASS 锚定 75d5047）+ selection-records（TM-READ-v1=consumer-test-only 留痕与 Task 11/Task 12/姊妹 child 交接）+ tasks.md 勾选与指针 + current.md 刷新
+           时间: 2026-10-11T11:31:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/bdfa4dfd884a90bb6deff30505e7afe8bff13514
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-HISTORY-CURSOR, milestone/M2
+       25. 6f56fee9  fix(server): WP-M2-TM-HISTORY-CURSOR Deps 无 wire 面排除表登记 TicketMessageRead 槽位 + 补齐 ticket-message 排除表时效性守卫（g2 守卫拦截项）
+           时间: 2026-10-11T11:29:09.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/6f56fee978a19756b63ef7615cd8585511e90834
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-HISTORY-CURSOR, milestone/M2
+       26. d0f3ede5  feat(ticketmessage): WP-M2-TM-HISTORY-CURSOR 最小实现——MessageReadPort/TM-READ-v1（历史署名透出/分页两向/seq 空洞扫描上界/D-M2-154 单一会话维度游标 mark_read 推进/读失败不推进）+ GuardReadMessage 授权谓词（当前坐席/原坐席终态历史只读）+ AssignmentHistoryReader port 与 mysql adapter + 装配接线
+           时间: 2026-10-11T11:29:09.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/d0f3ede5393d1916012b57dc01d6c3f612d388f7
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-HISTORY-CURSOR, milestone/M2
+       27. f470e264  test(ticketmessage): WP-M2-TM-HISTORY-CURSOR 失败测试先行——read 契约面（历史署名透出/分页两向/seq 空洞扫描上界/D-M2-154 单一游标并发收敛/读失败不推进/授权防枚举 fail closed）+ GuardReadMessage 谓词 + EverHeldAssignment 真实 adapter 集成 + 装配期望面
+           时间: 2026-10-11T11:29:09.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/f470e26493865b236e162cd9816090936fe7d47f
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-HISTORY-CURSOR, milestone/M2
+       28. 7e5a807e  Merge branch 'feature/WP-M2-TM-SYSTEM-MESSAGE' into 'milestone/M2'
+           时间: 2026-10-11T03:18:30.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/7e5a807e3ace7e2d62217005779c32f9e10a445b
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-HISTORY-CURSOR, milestone/M2
+       29. 780aace3  docs(evidence): WP-M2-TM-SYSTEM-MESSAGE 评审结论与 S-1/S-2/S-3 处置留痕 + 门禁复跑制品锚定 54479ae
+           时间: 2026-10-11T10:42:20.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/780aace30341dd1a279d144d0a729c098af0adf0
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2
+       30. 4ea7e259  chore(ticketmessage): 评审建议 S-1 处置——删除迭代遗留孤儿生成物 kitex_gen/im/edge/v1/（最终候选 proto 零 import、Makefile 无路径产出、仓内零消费）+ Makefile 注释更正为自包含口径 + selection-records 处置留痕
+           时间: 2026-10-11T10:42:20.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/4ea7e259b8b0c870029ccd8f7c8776bb4a857030
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2
+       31. 861113ef  fix(evidence): WP-M2-TM-SYSTEM-MESSAGE 完成证据指针行收窄为纯目录两段格式（check-pointer 六项全 PASS——括号注记归 selection-records，R6 §3.1 指针化口径）
+           时间: 2026-10-11T10:42:20.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/861113ef09aa426257590e4f2b309af0015ec99d
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2
+       32. 96c4d35c  docs(evidence): WP-M2-TM-SYSTEM-MESSAGE 门禁证据落盘（g1/g2/g3 三档全 PASS 锚定 4814129）+ tasks.md 勾选与完成证据指针 + current.md 刷新 + selection-records（五项交接与候选字段号清单）
+           时间: 2026-10-11T10:42:20.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/96c4d35c8f1513dbec7618b464edbbd915931a16
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2
+       33. c4d14036  feat(ticketmessage): WP-M2-TM-SYSTEM-MESSAGE 最小实现——五类 system tip 封闭名册（domain 常量+耦合不变量+Mongo system_tip_type 落库）、SystemTipService 窄生成 port（幂等回放/best-effort 放弃/下行复用）、transfer+notify_player 直调 A1 载体（D5 幂等键复用）、envelope SYSTEM_TIP 分支（候选值 6 经冻结通道，Delta A4 不携 system_tip_type）、装配 tip→lifecycle→message
+           时间: 2026-10-11T10:41:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c4d1403641565e168cf1e122d94eb49662dcaab2
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2
+       34. 495f7677  test(ticketmessage): WP-M2-TM-SYSTEM-MESSAGE 失败测试先行——domain tip 名册/构造器单测 + SystemTipService 表驱动 + transfer Tips 触发 + envelope SYSTEM_TIP + edge 候选 wire 断言 + Mongo 往返集成测试 + TL-CD-05 形状包候选 proto（im.edge.v1c）生成
+           时间: 2026-10-11T10:41:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/495f7677ccc36139746449cd1c4970d703cee268
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2
+       35. 30da7617  Merge branch 'feature/WP-M2-TM-ATTACHMENT-REF' into 'milestone/M2'
+           时间: 2026-10-11T02:24:02.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/30da76175adf6e296629efa04bee48282fab18a0
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2
+       36. c521817c  docs(evidence): 裁定登记轮证据收尾——gate-output 复跑覆盖（g1/g2 PASS 锚定 a896bbf）+ SR 提交链补全（commit 5/6）+ tasks.md 指针锚定双点标注（g3 行为面 6c0e775 / 注释增量 a896bbf）
+           时间: 2026-10-11T09:53:40.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c521817c333559f83bf06add163c0577bc2a5e46
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-ATTACHMENT-REF, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2
+       37. a896bbf4  docs(ticketmessage): 工单附件总量额度取消裁定登记（用户 2026-10-11，supersede D-M2-27 decision-count/decision-release）——SR 缺口登记改写（连带 D-M2-98 relationship 失效/TM-FLAG-02 待附件 owner 收敛/单引用与 0..9 不受影响）+ 注释口径订正（「成功绑定才计数」框架退役为单引用绑定事实/引用审计语义，纯注释零行为改动）
+           时间: 2026-10-11T09:49:58.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/a896bbf48c8331f178ef6d22ef863388a4794fe2
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-ATTACHMENT-REF, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2
+       38. 4388a1e7  docs(evidence): WP-M2-TM-ATTACHMENT-REF 返工后证据收尾——评审报告落盘（L2 PASS 0 阻塞 2 建议 3 备忘）+ 门禁制品复跑覆盖（三档 PASS 锚定 6c0e775）+ tasks.md 指针锚定订正 + selection-records 返工叙事（S-1/S-2/N-2 采纳、N-3 复核反驳）
+           时间: 2026-10-11T01:45:26.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/4388a1e76753ee3b388e4ba340f07e28eaa511ba
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-ATTACHMENT-REF, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2
+       39. 6c0e775f  fix(ticketmessage): WP-M2-TM-ATTACHMENT-REF 评审建议处置——S-1 字段注释按 R1 §13 收敛为引用（口径全文归文件头注附件引用段）；S-2 e2e 补被拒请求 Mongo 计数=0 直接断言（六条被拒 cmid 全覆盖，不以 latest_seq 间接推导）；SR 补 SenderConnectionID 交接缺口登记（评审备忘 N-2）
+           时间: 2026-10-11T01:36:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/6c0e775f4a91b6d89cd985c19f66e609f3447534
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-ATTACHMENT-REF, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2
+       40. 1e951079  docs(evidence): WP-M2-TM-ATTACHMENT-REF 门禁证据落盘（g1/g2/g3 三档 PASS 锚定 73c9d8b）+ tasks.md 勾选与完成证据指针 + current.md 刷新 + selection-records（MESSAGE-CORE 契约面回执 + Task 11/12 交接 + FILE/额度/统一资产三缺口登记）
+           时间: 2026-10-11T01:22:58.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/1e951079eed49fc254fdfa02146da3543efcbc1b
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-ATTACHMENT-REF, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2
+       41. 73c9d8b5  feat(ticketmessage): WP-M2-TM-ATTACHMENT-REF 最小实现——SendRequest 附件引用通道（AttachmentIDs 0..9）+ 透传 M1 发送内核：归属校验/单 attachment_id 单引用条件占用/服务端权威快照回填/失败 TX1 整体回滚不计数由内核事务原子承担（D-M2-27/28，本层不重定义）
+           时间: 2026-10-11T01:13:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/73c9d8b508faf67a704fc47b39fa87a769469d84
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-ATTACHMENT-REF, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2
+       42. 34ad6031  test(ticketmessage): WP-M2-TM-ATTACHMENT-REF 失败测试先行——附件引用通道单元 3 用例（透传/守卫先行零内核调用/幂等回放）+ ticket 维度 e2e 矩阵（归属/快照/越权三态 2007/Guard 三态 1002/1003/计数锚点/DEDUP_HIT 保持首次引用）+ 红色断面落盘
+           时间: 2026-10-11T01:13:08.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/34ad6031947dfaaa11ca1d63daf36a4dd0815c95
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-ATTACHMENT-REF, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2
+       43. 5825cf71  Merge branch 'feature/WP-M2-TM-MESSAGE-CORE' into 'milestone/M2'
+           时间: 2026-10-10T16:56:45.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/5825cf71e057eed37cd7acdaf829ac06a326f748
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-ATTACHMENT-REF, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2
+       44. 715ba466  docs(evidence): 增量复核 PASS 结论与 N-1 清理留痕（门禁三档复跑锚定 c48e3e9）
+           时间: 2026-10-11T00:27:10.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/715ba466567ab9621e84144d56567d9251486d97
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-ATTACHMENT-REF, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-MESSAGE-CORE, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2
+       45. c48e3e95  chore(ticketmessage): 清理 TicketGuardQuery doc comment 首轮注释改写残留悬空行（增量复核 N-1）
+           时间: 2026-10-11T00:21:37.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c48e3e951b89123e07eb4d84a3834472730ad9c7
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-ATTACHMENT-REF, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-MESSAGE-CORE, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2
+       46. 35163b72  docs(evidence): 评审返工后证据更新——review-report 落盘 + 门禁制品复跑覆盖（三档 PASS 锚定 7e95002）+ selection-records 返工叙事 + tasks.md 锚定订正
+           时间: 2026-10-11T00:17:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/35163b726a7e0aac23ec15bb0bc16d9c8ad19f99
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-ATTACHMENT-REF, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-MESSAGE-CORE, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2
+       47. 7e950025  fix(ticketmessage): 评审返工——B-1 SEND_MESSAGE 接入真实 Guard 判定面（GuardSendMessage 谓词+路由分支+四向判别力测试）；S-1 wire tag 补 6/7/8/10/11/12 断言；S-2 移除 IsBatchReply 死参数通道；M-1 错误串措辞对齐；M-2 AGENT+batch 组合钉死用例
+           时间: 2026-10-11T00:08:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/7e9500251b8d0245058ae635945799b480650bc3
+           分支: feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier, feature/IL-M2-DELAY-SCHEMA-ASSERT, feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, feature/SEAM-M2-TM-READAUTH, feature/WP-M2-TM-ATTACHMENT-REF, feature/WP-M2-TM-HISTORY-CURSOR, feature/WP-M2-TM-MESSAGE-CORE, feature/WP-M2-TM-SYSTEM-MESSAGE, milestone/M2
+       48. 0e6f18f1  docs(idl): IL-M2-LIFECYCLE-PROTO-ANNOTATION lifecycle proto L127「409」token 订正对齐 docs rpc.md 镜像表述 + tasks.md DELAY 两行块陈旧归属指针注记订正
+           时间: 2026-10-11T23:58:47.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/0e6f18f12276e26a30666d9d01f0e1e72d040fc9
+           分支: feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, milestone/M2
+       49. b17a447c  Merge branch 'feature/IL-M2-DELAY-MSG-CARRIER-delay-msg-carrier' into 'milestone/M2'
+           时间: 2026-10-11T10:50:08.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/b17a447c25b8619e6010ba5731b5661670fcff24
+           分支: feature/IL-M2-LIFECYCLE-PROTO-ANNOTATION-proto-409-token, milestone/M2
+      MR记录（按时间倒序）：
+        1. MR#210 feat(ticketmessage): 候选字段 18 delayed_failure_reason 载体 (IL-M2-DELAY-MSG-CARRIER)
+           时间: 2026-10-11T10:26:21.672Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/210
+        2. MR#209 test(dal): IL-M2-DELAY-SCHEMA-ASSERT delay_task schema 断言条件化（M2 三列存在性条件断言）
+           时间: 2026-10-11T08:26:51.852Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/209
+        3. MR#208 feat(conversation): 二线数据权限校验接缝空方法与 GuardReadMessage 接线（行为零变化） (SEAM-M2-TM-READAUTH)
+           时间: 2026-10-11T05:40:16.578Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/208
+        4. MR#207 feat(ticketmessage): 历史读取用例 MessageReadPort/TM-READ-v1 落地（历史/分页/seq 空洞/游标/未读已读） (WP-M2-TM-HISTORY-CURSOR)
+           时间: 2026-10-10T17:28:53.533Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/207
+        5. MR#206 feat(ticketmessage): 五类 system tip 名册 + 转接提示 A1 载体 + TL-CD-05 envelope 候选（WP-M2-TM-SYSTEM-MESSAGE）
+           时间: 2026-10-10T17:26:53.367Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/206
+        6. MR#205 feat(ticketmessage): 附件引用通道——归属/单引用/快照透传 M1 内核 (WP-M2-TM-ATTACHMENT-REF)
+           时间: 2026-10-10T17:23:19.182Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/205
+    • msdk/rispari/server/admin-gateway             提交:  46  MR:  6  Commit评论:  0  MR评论:  0 分支:feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/OPT-ANN-ID-PREFIX-id-prefix, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-ADMIN-API, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, feature/WP-M2-TM-DELAY-TASK, milestone/M2 (+10,736 / -1,127)
+      提交记录（按时间倒序）：
+        1. 207224a0  docs(evidence): AG-M2-CG-HITID-REMOVE 评审收口——code-change-reviewer L2 PASS（0 阻塞/4 建议/5 备忘）+ 四建议全采纳修复与门禁双档复跑 PASS 锚定 ce5140a + 备忘处置留痕（循环变量消歧顺手处置、四条登记不实现）+ 返工不派 rework-re-reviewer 口径（L2 档，R2 §1.3 档位分叉）
+           时间: 2026-10-11T19:31:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/207224a0d1bcdf6d112d928209a09ac4e9db966c
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+        2. ce5140af  fix(blocklisthit): AG-M2-CG-HITID-REMOVE 评审建议采纳——S-1 集成测试跨项目隔离断言改用真实自增 id 探测（原探测 id=201 不存在，断言退化为普通 not-found，防枚举隔离面失去判别力）+ S-2 CG-H08 入参错误分支拆分（缺失 required / 非数字与非正 invalid，wire 文案不再误导旧形状客户端）+ S-3 补非数字/0/负值/溢出解析分支测试覆盖 + S-4 三处陈旧备注触达即修（hit_id 碰撞重试与决胜口径改 D-M2-212 现态，tie-break 循环变量 id→opTail 消歧）
+           时间: 2026-10-11T19:30:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/ce5140af2a092df8062bcedbebd5338f9967f26e
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+        3. d6197c11  docs(evidence): AG-M2-CG-HITID-REMOVE 门禁制品——g1 + g3 双档 PASS 锚定 683a195（review_tier L2·A 类，无 L3 触发，微改通道未命中；fast lane 可用走最小断面）+ selection-records（docs 契约分册 hit_id 形状同步缺口登记）+ current.md 交付条目与证据导航
+           时间: 2026-10-11T19:18:15.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/d6197c11df5bddee80f65cfb3d579e0a1cfdd092
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+        4. 683a1958  refactor(blocklisthit): AG-M2-CG-HITID-REMOVE 命中记录业务标识全链路移除（D-M2-212 用户裁定 2026-10-11）——命中由用户数据触发的高频流水、无业务 id 需求，按 D-M2-149 出网自增代理主键：实体 HitID string→ID int64、GenerateHitID 生成器/ErrHitIDExists/冲突重试上限消除、migration 001 删 hit_id 列与 uk_blocklist_hit_app_hit_id、contentgov HitRecordResult 与出网 hit_id 字段值改 int64（字段名沿用）、看板 FindByHitID→FindHitByID 按 (app_id,id) 点查
+           时间: 2026-10-11T19:16:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/683a1958eab93d56c9270b1aeb0f703f14cce6b4
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+        5. b6b7208e  Merge branch 'feature/OPT-ANN-ID-PREFIX-id-prefix' into 'milestone/M2'
+           时间: 2026-10-11T10:54:31.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/b6b7208e969622ee2cbcc0ccb6d3c30b441fe8c2
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+        6. 95846c60  docs(evidence): OPT-ANN-ID-PREFIX 返工门禁复跑——g3 全量 PASS 锚定 bd04adb（临时 worktree 隔离复跑：主目录工作区同期承载 D-M2-212 blocklisthit 进行中改动、共享树上全仓 vet/build 面被其未完成消费方打挂，与本 MR 改动无关；返工面 S-1 注释订正+S-2 测试增强，announcement 包定向亦 PASS）
+           时间: 2026-10-11T18:49:42.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/95846c6099070a316a40490068d4c6f40781014c
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/OPT-ANN-ID-PREFIX-id-prefix, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+        7. bd04adb3  fix(announcement): OPT-ANN-ID-PREFIX 评审建议采纳——S-1 ValidateAnnouncementID 头注陈旧「UUID 形状」订正为前缀口径（R1 §13 同源②触达即修，对齐 grouptag.ValidateTagID 措辞）+ S-2 生成测试补小样本唯一性断言（seen map 200 样本，对齐 grouptag 先例）+ 评审报告 L2 PASS 0 阻塞/2 建议/4 备忘入库
+           时间: 2026-10-11T18:45:28.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/bd04adb3de17a72c8a7f352ea11a6b42cc50740e
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/OPT-ANN-ID-PREFIX-id-prefix, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+        8. daeb0f5e  docs(evidence): OPT-ANN-ID-PREFIX 门禁制品——g1+g3 双档 PASS 锚定 aef850b（review_tier L2·A 类，无 L3 触发，微改通道未命中；fast lane 可用走最小断面）
+           时间: 2026-10-11T18:36:29.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/daeb0f5efd18b919859d8caea42c837974d1ff15
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/OPT-ANN-ID-PREFIX-id-prefix, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+        9. aef850b8  refactor(announcement): OPT-ANN-ID-PREFIX 业务标识前缀化——GenerateAnnouncementID 由 36 位 UUID 改 ann_+6 位 base62 随机段（crypto/rand 逐字符拒绝采样消除模偏差，对齐 gt_/bw_ 先例；2026-10-11 前缀化裁定，id-prefix-registry ann_ 行 assigned）+ 形状与生成测试同步
+           时间: 2026-10-11T18:35:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/aef850b819c6053656c3e24361d226210023308f
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/OPT-ANN-ID-PREFIX-id-prefix, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+       10. 325f3a51  Merge branch 'feature/WP-M2-TM-DELAY-TASK' into 'milestone/M2'
+           时间: 2026-10-11T09:36:58.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/325f3a514f431d221975a500527293fa8935640e
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/OPT-ANN-ID-PREFIX-id-prefix, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+       11. ee729aab  docs(evidence): WP-M2-TM-DELAY-TASK 评审收口——code-change-reviewer L3 PASS（0 阻塞/2 建议/4 备忘）+ S-1/S-2 采纳修复与门禁三档复跑 PASS 锚定 00d5538 + 备忘四条处置留痕 + 返工不派 rework-re-reviewer 口径（0 阻塞建议级，§3 纪律）
+           时间: 2026-10-11T17:25:21.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/ee729aab4dd9d0981c4905527a3e1556802917da
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/OPT-ANN-ID-PREFIX-id-prefix, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, feature/WP-M2-TM-DELAY-TASK, milestone/M2
+       12. 00d55386  refactor(delaytask): WP-M2-TM-DELAY-TASK 评审建议采纳——S-1 service_deliver 头注陈旧订正（「retry_count 已按评审移除」改 M2 已恢复持久化计次现态，R1 §13 触达即修）+ S-2 集成测试 defer 改 Down→Up 恢复 dev 终态（纯 Down 会静默撤销 WC-05 已落三列、破坏下游 H304/DELAY-DELIVERY 依赖，偏离样板理由已备注；独立核验测试跑完三列保有）
+           时间: 2026-10-11T17:23:32.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/00d55386cf6a09f24dfe98ba90e61c59bdffb9c1
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/OPT-ANN-ID-PREFIX-id-prefix, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, feature/WP-M2-TM-DELAY-TASK, milestone/M2
+       13. e8623f35  docs(evidence): WP-M2-TM-DELAY-TASK 前置解锁后全量收口——IL-M2-DELAY-SCHEMA-ASSERT 合入核实（1a856b7）+ dev 库三列终态落列执行留痕 + g2 定向六包/g3 全量 79 包 PASS 覆盖锚定 93f91ce + selection-records §6 阻塞解除与判档 L3（并发原语组）+ tasks.md 勾选与完成证据回填 + current.md 已交付条目
+           时间: 2026-10-11T17:11:31.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/e8623f3585b5ec551e505ca86aa4c78254c9a736
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/OPT-ANN-ID-PREFIX-id-prefix, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, feature/WP-M2-TM-DELAY-TASK, milestone/M2
+       14. 93f91ce6  fix(delaytask): WP-M2-TM-DELAY-TASK 集成测试 information_schema 断言修复——SELECT 列头 AS snake_case alias（本仓 gorm 版本字段映射对列头大小写敏感，COLUMN_TYPE 原样返回不命中期望名）+ 整数类型显示宽度后缀归一（int(11)→int，im-logic normalizeColumnType 同口径）+ TableExists 同改 Raw 形态
+           时间: 2026-10-11T17:07:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/93f91ce62a789a6798ccc10cdda08bc783306f5a
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/OPT-ANN-ID-PREFIX-id-prefix, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, feature/WP-M2-TM-DELAY-TASK, milestone/M2
+       15. ad1106e1  docs(evidence): WP-M2-TM-DELAY-TASK 代码面收口证据——TDD 红态先行 + g1 PASS（锚定 0d260a2）+ selection-records（设计决策留痕八条/三列原语交付清单向 DELIVERY-DELIVERY 与 DELAY-HTTP/阻塞登记：dev migration 执行与 g2/g3 门禁待 im-logic IL-M2-DELAY-SCHEMA-ASSERT 合入解锁，跨仓时序纪律）+ child tasks.md W3 段新增 DELAY-TASK 行（未勾选）+ current.md 交付中条目与证据导航
+           时间: 2026-10-11T16:30:31.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/ad1106e1b7af4cf066f065fc5db32f7feb6f06b2
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/OPT-ANN-ID-PREFIX-id-prefix, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, feature/WP-M2-TM-DELAY-TASK, milestone/M2
+       16. 0d260a2f  feat(delaytask): WP-M2-TM-DELAY-TASK 延迟任务 M2 三列增量——migration/delaytask 001 三列 additive ALTER（sender_display_name/failure_reason/retry_count，WC-05 先行实施）+ domain FailureReason 三类枚举与实体不变量（D-M2-159 非空即 FAILED）+ Repository port 增 MarkFailedWithReason/IncrRetry 条件更新原语 + 创建链署名快照捕获（D-M2-162 提交入库时）+ 投递重试计次持久化挂点（分册 B TX4 欠账还债，编排语义零改动）+ 集成测试（dev 库双向/存量兼容/并发自增/D-M2-160 行保留）与三处 fake 增补
+           时间: 2026-10-11T16:28:28.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/0d260a2fcefa51b144c02d118489a442f4dd8390
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/OPT-ANN-ID-PREFIX-id-prefix, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, feature/WP-M2-TM-DELAY-TASK, milestone/M2
+       17. 6a29d573  Merge branch 'feature/WP-M2-TM-ADMIN-API' into 'milestone/M2'
+           时间: 2026-10-11T08:00:55.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/6a29d5736fb69464040dbfef2c0d3ad935c21a2e
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/OPT-ANN-ID-PREFIX-id-prefix, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, feature/WP-M2-TM-DELAY-TASK, milestone/M2
+       18. 76c121e1  docs(evidence): WP-M2-TM-ADMIN-API 评审处置后门禁复跑覆盖（g1+g2 PASS 锚定 526e2b6，注释面增量不触发 g3 全量面）
+           时间: 2026-10-11T15:59:28.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/76c121e1706b1a2a7a30c2b51d24ce202bdb8a38
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/OPT-ANN-ID-PREFIX-id-prefix, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-ADMIN-API, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, feature/WP-M2-TM-DELAY-TASK, milestone/M2
+       19. 526e2b68  test(agentmessage): WP-M2-TM-ADMIN-API 评审建议 S-1 采纳——三向一致断言注释表述收敛（本用例两向举证、H319 第三向跨包由 workbench candidate 测试承载）+ review-report 落盘（PASS 0 阻塞/2 建议/5 备忘）+ selection-records 评审处置节与 S-2 登记
+           时间: 2026-10-11T15:59:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/526e2b68990cf37dfdae69105834e7dc116fc502
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/OPT-ANN-ID-PREFIX-id-prefix, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-ADMIN-API, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, feature/WP-M2-TM-DELAY-TASK, milestone/M2
+       20. dcb4ef36  docs(evidence): WP-M2-TM-ADMIN-API 门禁与验证证据落盘（g1+g2 定向 5 包+g3 全量 79 包零 FAIL，均锚定 e63f8c7）+ selection-records（现状锚点复核含 PLAYER-FLOW 已合入漂移留痕 + D1 契约测试锚点漂移适配 + C 节候选 RPC 申报设计段 + 接缝消费回执 + 六项后续约定）+ tasks.md 勾选与完成证据回填 + current.md 阶段刷新
+           时间: 2026-10-11T15:46:56.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/dcb4ef36339e848bc0c3579c17d4613ed7dee450
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/OPT-ANN-ID-PREFIX-id-prefix, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-ADMIN-API, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, feature/WP-M2-TM-DELAY-TASK, milestone/M2
+       21. e63f8c7c  test(agentmessage): WP-M2-TM-ADMIN-API H301 契约测试期望面叠加 WC-01 候选 sender_agent_id 键（fixture 文件冻结零改动、比对仍逐字、值取 fixture X-Agent-Id 头推导）——生产 actor 注入出口与逐字比对锚点漂移的适配留痕
+           时间: 2026-10-11T15:43:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/e63f8c7c5c1895cd489474103fcbd5eb821dcd59
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/OPT-ANN-ID-PREFIX-id-prefix, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-ADMIN-API, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, feature/WP-M2-TM-DELAY-TASK, milestone/M2
+       22. 6f3749b2  feat(ticketmessage): WP-M2-TM-ADMIN-API H301/H319 WC-01 候选出口——B 端读写面消费（候选镜像 im.logic.v1c 1~18 + unknown 直读接缝 + DisplayType SYSTEM_TIP 分支 + H301 手写响应 DTO 署名三字段 + consumer-test 断言面，TDD 红先行）
+           时间: 2026-10-11T15:39:10.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/6f3749b22ed6ccf6a987d6a6e7b3377b8a8633e8
+           分支: feature/AG-M2-CG-HITID-REMOVE-hitid-remove, feature/OPT-ANN-ID-PREFIX-id-prefix, feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-ADMIN-API, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, feature/WP-M2-TM-DELAY-TASK, milestone/M2
+       23. 3ff3ecd9  Merge branch 'feature/WP-M2-TA-ALERT-CORE-alert-core' into 'milestone/M2'
+           时间: 2026-10-11T15:45:36.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/3ff3ecd922dd7fbc414135585935a03e8d7ec013
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, milestone/M2
+       24. ca9df69d  docs(evidence): WP-M2-TA-ALERT-CORE 增量复核收口——rework-re-reviewer PASS（S-1~S-4 四条修复成立，0 新问题）+ 复核报告追加段随证据提交 + 复核备忘两条登记（closed_at 非 nil 断言归 TA-CLOSE、分页 0 值跨模块口径归后续触达收敛）
+           时间: 2026-10-11T23:10:09.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/ca9df69d8b63375f6dc27abd12a689bed80e9b04
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, milestone/M2
+       25. 63378f47  docs(evidence): WP-M2-TA-ALERT-CORE SR D-2 时钟基准表述同步订正（评审 S-1 吸收——消除文档内部矛盾）
+           时间: 2026-10-11T23:06:35.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/63378f47246da1ae1d5a9a0f474b092b3593ad50
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, milestone/M2
+       26. 71d45626  docs(evidence): WP-M2-TA-ALERT-CORE selection-records 评审结论段——PASS 0 阻塞/4 建议/7 备忘 + 四建议处置留痕 + 备忘七条处置
+           时间: 2026-10-11T23:06:24.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/71d456260ff2e07b4a1e499c0bea64095774964c
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, milestone/M2
+       27. 2251d428  docs(evidence): WP-M2-TA-ALERT-CORE 评审收口——code-change-reviewer L3 PASS（0 阻塞/4 建议/7 备忘）+ 四建议全采纳修复与门禁三档复跑 PASS 锚定 ec318a2 + 备忘七条处置留痕（见 review-report.md 与 selection-records）
+           时间: 2026-10-11T23:06:08.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/2251d42815a49dae595829da04fe615be4cb0334
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, milestone/M2
+       28. ec318a22  fix(alert): WP-M2-TA-ALERT-CORE 评审建议采纳——S-1 派生谓词时钟基准注释订正（实际绑应用时钟 time.Now，与读面呈现同源；原注释误称 SQL NOW(3)）+ S-2 TA-H02 closed_at 字段映射补齐（原声明未赋值恒 null，WP-M2-TA-CLOSE 落地后将静默漏呈现）+ S-3 ticket_ids 去重后上界校验（maxCreateTicketIDs=100，逐单 RPC 放大面防御 + 边界测试）+ S-4 page_index/page_size 显式提交 <1 拒绝（对齐 replyguideline 兄弟模块口径 + 边界测试）
+           时间: 2026-10-11T23:04:40.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/ec318a2242d4b77b413c42a6a0a5daec1ac08f82
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, milestone/M2
+       29. c6d8bdf1  docs(evidence): WP-M2-TA-ALERT-CORE 证据收口——门禁三档输出（g1/g2 定向七包/g3 全量，锚定 45975bc）+ migration 集成实跑 + wire 零 diff 断言 + TDD 红→绿留痕 + selection-records（D-1~D-4 决策留痕与 W4 后续任务实体面约定）+ tasks.md L61 勾选与完成证据回填
+           时间: 2026-10-11T22:54:41.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/c6d8bdf154a4b8c424c1690c2fc93e73b73d1adb
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, milestone/M2
+       30. 45975bc0  feat(alert): WP-M2-TA-ALERT-CORE 客诉告警实体与查询/创建面——TICKET_ALERT+TICKET_ALERT_TICKET_REF 两表迁移（18+7 列、五+三索引、auto_dedup_flag NULL 豁免）+ TA-H01/H02/H03 三端点（多值状态筛选/派生 EXPIRED 读面/手动创建四字段响应）+ TicketReadPort 候选 port（GetAgentTicketDetail 逐单适配，新增跨服务 RPC=0）+ window_end_at 按配置物化（D-M2-140）+ app_id 全链路隔离（D-M2-30）
+           时间: 2026-10-11T22:51:00.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/45975bc0db08f9a14484982c46a3d2ae6166aca9
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, milestone/M2
+       31. af4fc4ad  Merge branch 'feature/WP-M2-TM-DELAY-HTTP' into 'milestone/M2'
+           时间: 2026-10-11T13:02:59.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/af4fc4add55a3ad4927b581f3a33bb863b974023
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, milestone/M2
+       32. 6c0d9128  docs(evidence): WP-M2-TM-DELAY-HTTP 评审收口——code-change-reviewer L2 PASS（0 阻塞/1 建议/3 备忘）+ S-1 D34 陈旧注释采纳修复与门禁三档复跑 PASS 锚定 7ee21e1 + 备忘三条处置留痕（措辞口径偏差按备忘不改台账、maxCreatorIDBytes 命名错位登记后续收敛、1006 兜底文案断言不补）+ 返工不派 rework-re-reviewer 口径（L2 档，R2 §1.3 档位分叉）
+           时间: 2026-10-11T20:14:47.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/6c0d9128f191fa80268feffead58f4ee7341778b
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+       33. 7ee21e1b  docs(delaytask): WP-M2-TM-DELAY-HTTP 评审建议采纳——S-1 两处 D34 陈旧注释订正（StatusRevoked 与 Task.CreatorID 的『仅本人可撤销』表述改 D-M2-161 现态，supersede 溯源留痕）——评审 S-1（中）：该两处为 D34 授权条款在仓内非测试代码的最后残留
+           时间: 2026-10-11T20:13:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/7ee21e1b7f3b7281d2a67e740440d3e894a238fa
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+       34. c1fe7004  docs(evidence): WP-M2-TM-DELAY-HTTP 证据与收口登记——selection-records（现状锚点复核含领取前置 DELIVERY 合入核实 2578b55 与 SR 约定 1 交接核对无漂移、基线刷新 b6b7208→fd31fd7、D1~D7 设计决策留痕含幂等键组分重标注依据与 2012 现状不可达锚点、与后续任务五条约定含 WC-03 状态回告与 content-governance 挂点形状交接）+ wire 零 diff 断言（WC-03）+ tasks.md DELAY-HTTP 行勾选与完成证据回填（depends_on 陈旧前缀订正 + implementation_prerequisite WC-03 落地态/WC-05 先行态订正，经 ledger_edit 受控改写）+ current.md 任务条目与证据导航（顺带补 DELIVERY 导航缺行）
+           时间: 2026-10-11T20:04:10.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/c1fe7004289718a6ec7311ae387d06dd6125ebe9
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+       35. 0fc0d7d8  test(bootstrap): WP-M2-TM-DELAY-HTTP Deps.ContentGate candidate 形态登记与锚定断言——delayMsgDepsOptionalFields 登记（nil=创建不做内容校验维持现状）+ TestDelayMsgDeps_ContentGateNil_CandidateForm（content-governance 接入前误接线先红），沿 FailedWriter 先例（WP-M2-TM-DELAY-DELIVERY）
+           时间: 2026-10-11T19:59:37.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/0fc0d7d87bf05ad9e8444ad5fcdd06218306f4e7
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+       36. 007ae8e9  feat(delaymsg): WP-M2-TM-DELAY-HTTP H306 取消授权开放（D-M2-161 supersede D34——创建者比对替换为坐席身份存在性+对象权限面，RevokeRequest.CreatorID→ActorID 语义重标注，wire 零改动 WC-03）+ H304 创建链 2012 CONTENT_BLOCKED 内容校验挂点（OutboundContentGate candidate port，现状不可达经 fake 注入式防御测试）+ H305 四态全返/三列零出口维持面回归 + mapCreateInBandError 2012 增量映射 + bootstrap candidate 形态锚定断言（沿 FailedWriter 先例）
+           时间: 2026-10-11T19:58:06.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/007ae8e934c8ac5805ae44ebebccfbecd5f60581
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+       37. fd31fd7f  Merge branch 'feature/AG-M2-CG-HITID-REMOVE-hitid-remove' into 'milestone/M2'
+           时间: 2026-10-11T11:36:54.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/fd31fd7f6b2123617d8fd8d6f74d862e99ec0f32
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+       38. 2578b550  Merge branch 'feature/WP-M2-TM-DELAY-DELIVERY' into 'milestone/M2'
+           时间: 2026-10-11T11:35:52.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/2578b5506c32eed295f9836270af142f5f40db6c
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+       39. 3fbe337f  chore(evidence): WP-M2-TM-DELAY-DELIVERY 合入前 rebase 同步（milestone/M2 前进 5 提交·OPT-ANN-ID-PREFIX，零冲突）后门禁三档复跑覆盖写（g1/g2/g3 PASS 锚定 rebase 后头）
+           时间: 2026-10-11T19:30:19.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/3fbe337fa131529e473de822027a66bf0482e531
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+       40. 70c5bd5b  docs(evidence): WP-M2-TM-DELAY-DELIVERY 评审收口——code-change-reviewer L3 PASS（0 阻塞/3 建议/5 备忘）+ S-1/S-2/S-3 采纳修复与门禁三档复跑 + 备忘五条处置留痕 + 返工不派 rework-re-reviewer 口径（0 阻塞建议级，§3 纪律）
+           时间: 2026-10-11T19:28:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/70c5bd5b11d95673df9af199748049b7b5e59fa3
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+       41. 83e158f3  fix(delaymsg): WP-M2-TM-DELAY-DELIVERY 评审建议采纳——S-1 failTaskWithReason 第二返回值语义改 applied（settle-to-FAILED 边角现态回显不再附加 2004/带内文案，M1「终态回显不重复携带」语义恢复 + 补并发先行 FAILED 用例）+ S-2 writeFailedMessage 非法 reason 防御用例（触库前拒绝不触达 port）+ S-3 handlerFakeRepo 补 PENDING 条件判定对齐 service 层 fake
+           时间: 2026-10-11T19:28:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/83e158f300123f4327611c0708897d3adf0b054b
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+       42. e1278040  docs(evidence): WP-M2-TM-DELAY-DELIVERY 证据与收口登记——selection-records（现状锚点复核含 CARRIER 双轮核实与载体清单引用、D1~D8 设计决策留痕含幂等键派生规则与 1002/1004 映射口径与预算入口预读编排、与后续任务五条约定含 Phase 4 缺口链三项更新）+ tasks.md 新增 W3 DELAY-DELIVERY 行勾选与完成证据（标题计数 2→3 经 ledger_edit 受控订正）+ current.md 任务条目
+           时间: 2026-10-11T19:28:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/e12780405b742736e404fb32e7320cc6cf868c0d
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+       43. 7aa8eca0  chore(delaymsg): WP-M2-TM-DELAY-DELIVERY gofmt 订正（handler fake 修复提交的格式遗漏）
+           时间: 2026-10-11T19:28:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/7aa8eca020e30870fd9715a950f6d3c2351144d8
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+       44. 8fb9c721  fix(delaymsg): WP-M2-TM-DELAY-DELIVERY handler 边界 fake 补 MarkFailedWithReason 实现——1003 端点测试面三类分流后经此收敛（原 DELAY-TASK 时注记「端点测试面不触达」随本任务分流改动失效，R1 §13 触达即修），fake 语义同 service 层（PENDING→FAILED+reason 同句），IncrRetry 边界面维持不触达
+           时间: 2026-10-11T19:28:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/8fb9c721e4dc60207990a888627f9e78de3b3140
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+       45. 9e04379e  feat(delaymsg): WP-M2-TM-DELAY-DELIVERY 三类失败分流与 FAILED 原位写消息流（candidate 形态）——四处裸 MarkFailed 收敛为 failTaskWithReason（先写 FAILED 原位消息后标记，Option-X/D-M2-157，写失败透传保持 PENDING 由重放收敛）+ 2012 CONTENT_BLOCKED 新分支（注入式契约面落地，im-logic 现无内容治理接入面现状不可达 SR 留痕）+ 1002/1004 映射 BUSINESS_REJECTED（三类闭集下业务层永久拒绝收敛，口径 SR 留痕）+ attempt 起点消费持久化 retry_count（剩余预算=maxDeliveryRetries−持久化值，下限 0 即时耗尽收敛，退避档位自持久化计数续位）+ FAILED 消息幂等键独立派生（任务列值+failed 后缀，与正常投递键结构性隔离防 DEDUP_HIT 误判 DELIVERED）+ FailedDeliveryMessageWriter port（形状与 CARRIER 18 载体清单对齐）生产装配不接线（M1 静默取消维持，Phase 4 候选 18 通道缺口登记）
+           时间: 2026-10-11T19:28:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/9e04379e07da3f5280a01659cc13ba553595a838
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+       46. 12e45de1  test(delaymsg): WP-M2-TM-DELAY-DELIVERY 失败测试先行——三类失败分流表驱动（1003/2012/1002/1004/耗尽→reason 落库与回包形状）+ FAILED 原位写消息流用例（Option-X 时序/参数映射/独立派生幂等键/crash window 重放幂等收敛/键不混淆/写失败保持 PENDING）+ 跨调用重放预算续计三态 + fake writer port（复刻 im-logic 幂等键语义）与装配 candidate 形态断言（红态 build failed 锚定 failing-tests-first.txt）
+           时间: 2026-10-11T19:28:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/12e45de14f97ef90cdc16f52f12359b5a0dc2315
+           分支: feature/WP-M2-TA-AGGREGATION-CORE, feature/WP-M2-TA-ALERT-CORE-alert-core, feature/WP-M2-TA-BATCH-EXECUTION-batch-reply-execution, feature/WP-M2-TA-BATCH-PREFLIGHT, feature/WP-M2-TA-CLOSE-close-guard, feature/WP-M2-TA-GUIDELINE-LINK, feature/WP-M2-TM-DELAY-DELIVERY, feature/WP-M2-TM-DELAY-HTTP, milestone/M2
+      MR记录（按时间倒序）：
+        1. MR#192 feat(alert): 客诉告警实体与查询/创建面——两表迁移+TA-H01/H02/H03+TicketReadPort 候选 port (WP-M2-TA-ALERT-CORE)
+           时间: 2026-10-11T14:54:58.370Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/192
+        2. MR#191 feat(delaymsg): H306 取消授权开放（D-M2-161）+ H304 创建链 2012 挂点 + H305 维持面回归 (WP-M2-TM-DELAY-HTTP)
+           时间: 2026-10-11T12:04:45.407Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/191
+        3. MR#190 refactor(blocklisthit): 命中记录业务标识全链路移除，出网改自增主键 (AG-M2-CG-HITID-REMOVE)
+           时间: 2026-10-11T11:18:23.310Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/190
+        4. MR#189 feat(delaymsg): 投递三类失败分流与 FAILED 原位写消息流 candidate 形态 (WP-M2-TM-DELAY-DELIVERY)
+           时间: 2026-10-11T11:15:10.692Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/189
+        5. MR#188 refactor(announcement): OPT-ANN-ID-PREFIX 业务标识前缀化——UUID 改 ann_+6 位 base62
+           时间: 2026-10-11T10:36:38.186Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/188
+        6. MR#186 feat(ticketmessage): WP-M2-TM-ADMIN-API B 端读写面 WC-01 候选出口（H301/H319）
+           时间: 2026-10-11T07:47:09.356Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/186
+    • msdk/rispari/server/docs                      提交:  31  MR:  7  Commit评论:  0  MR评论:  0 分支:feature/BASE-M2-DELAY-OWNER-REVISION, feature/BASE-M2-REG-ADJUST-BATCH, feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r7, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, feature/WP-M2-TM-E2E-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2 (+2,691 / -158)
+      提交记录（按时间倒序）：
+        1. f51e89ea  evidence(BASE-M2-DELAY-OWNER-REVISION): SR 终态计数对齐返工后联合 diff（6 文件 18/18，锚定提交时点防自指漂移）
+           时间: 2026-10-11T16:34:09.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/f51e89eaa42bd3a7db3a6294ce05c6694b59cfa2
+           分支: feature/BASE-M2-DELAY-OWNER-REVISION, feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+        2. 2fa424a4  evidence(BASE-M2-DELAY-OWNER-REVISION): 返工轮复跑——tier L2/B（6 文件 18+18-）、precheck 覆盖写（锚定 5979c54，FAIL 仅两段环境假 FAIL）、B-1 正向断言 2 命中、旧口径零命中复跑、S-1 债核实 1 处、SR 返工处置与约定登记
+           时间: 2026-10-11T16:33:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/2fa424a4841b3b1305f816871e853803319d0e37
+           分支: feature/BASE-M2-DELAY-OWNER-REVISION, feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+        3. 5979c541  fix(BASE-M2-DELAY-OWNER-REVISION): 评审 B-1+S-2 返工——http.md §2 分类表 delay 四端点鉴权 carve-out（消息半面 im-logic capability 保留）+ 文头概括句例外指针 + design.md §1.2 对象/动作最终授权行补 delay 例外（P0-53）
+           时间: 2026-10-11T16:33:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/5979c541cc8936aa2af76eb9666280c8e1af7082
+           分支: feature/BASE-M2-DELAY-OWNER-REVISION, feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+        4. 1deee1cf  evidence(BASE-M2-DELAY-OWNER-REVISION): 档位判定（B 类 L2）+ precheck 八段（两段环境假 FAIL 绝对路径复跑留痕）+ 零命中检索断言 + ledger check 结构健康 + SR 裁定承载
+           时间: 2026-10-11T16:21:55.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/1deee1cf3f41168da2675ece8e44b1efb4f864ec
+           分支: feature/BASE-M2-DELAY-OWNER-REVISION, feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+        5. b6f6cea4  docs(M2): delay 仓归属订正 admin-gateway（BASE-M2-DELAY-OWNER-REVISION）——用户 2026-10-11 第二十一轮裁定：plan tasks.md WP-M2-TM-DELAY-TASK/DELAY-DELIVERY 两行目标仓 im-logic→admin-gateway（括注留痕）+ Backlog §8.3 两行同款订正 + ticket-message rpc/design/schema 五处（ImLogic 30/5 方法计数订正 23/3/2+AdminInternal 2、delay 四态迁 admin-gateway 内部承载非 RPC、DeliverDelayedMessage 归 AdminInternal、§3 producer/consumer 与 §4.3 写入点两跳链路、design §1.2/§6.3 承载归属）——原 im-logic 系模块文档未吸收 BASE-AM-CONTRACT 迁移漂移
+           时间: 2026-10-11T16:19:48.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/b6f6cea485ffabe68eefef6b2ed57e2c252291eb
+           分支: feature/BASE-M2-DELAY-OWNER-REVISION, feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+        6. 38470804  Merge branch 'feature/BASE-M2-REG-ADJUST-BATCH' into 'milestone/M2'
+           时间: 2026-10-11T06:25:47.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/384708049f0115fb0ff22276a35121f88f1bd55a
+           分支: feature/BASE-M2-DELAY-OWNER-REVISION, feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, feature/WP-M2-TM-E2E-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+        7. 8393bff8  docs(M2): BASE-M2-REG-ADJUST-BATCH 独立评审报告（PASS · 阻塞0/建议0/备忘3——六件逐条符合、承重引用抽验3处全过、lint 零新增 blocking 机械成立）
+           时间: 2026-10-11T13:57:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/8393bff88bc06f3fff662eb724f2c5e2c48dcc1b
+           分支: feature/BASE-M2-DELAY-OWNER-REVISION, feature/BASE-M2-REG-ADJUST-BATCH, feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, feature/WP-M2-TM-E2E-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+        8. bbc5413f  docs(M2): BASE-M2-REG-ADJUST-BATCH 登记面五件并批——D-M2-155 翻转注记（!206 7e5a807 合入达成，blocking 解除 supersede）+ D-M2-22/163/165 第五批裁定 §8 追加节三行订正 + 二线授权面 design.md §3.2/§10 双面登记与 pending-register 注记（用户方案 A 裁定：不占设计侧编号，锚 SEAM-M2-TM-READAUTH——派发预分配 D-M2-194 与设计侧已占用号撞车改道）+ M2/decisions.md 防混注记（开发阶段决策记录，非设计侧 tech-docs/M2/decisions.md 副本，编号空间不共享）。原表与 §1–§7 零改写；lint 零新增 blocking（6=基线持平）
+           时间: 2026-10-11T13:49:41.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/bbc5413fd8b246ea1243de2378f35f2292c642ba
+           分支: feature/BASE-M2-DELAY-OWNER-REVISION, feature/BASE-M2-REG-ADJUST-BATCH, feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, feature/WP-M2-TM-E2E-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+        9. 8ffad50f  Merge branch 'feature/M2-module-docs-sync-r7' into 'milestone/M2'
+           时间: 2026-10-11T02:34:33.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/8ffad50f310b8084722d1479a2e9fe6ccdf3f06e
+           分支: feature/BASE-M2-DELAY-OWNER-REVISION, feature/BASE-M2-REG-ADJUST-BATCH, feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, feature/WP-M2-TM-E2E-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       10. b2391273  docs(M2): 模块文档同步 r7——TF-H05 恢复接口 §4 前置状态 409 残留改恒 200 冲突类信封码候选（§7 恒 200 表头注 r6 轮已合入、§4 该处补齐）+ ticket-message design/schema quota（额度）字样移除（范围排除行 owner/ref/quota→owner/ref、引用审计与成功引用表述去额度面）；排除 ticket-lifecycle design/http 两文件——上游源经比对为 TLCD05 形状裁定落地与 2002 投影废止订正前旧版（零增量），同步即回退已合入裁定，不采纳
+           时间: 2026-10-11T10:22:35.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/b23912734f5ebd4d72b4b96e0cf01c32b5481de5
+           分支: feature/BASE-M2-DELAY-OWNER-REVISION, feature/BASE-M2-REG-ADJUST-BATCH, feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r7, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, feature/WP-M2-TM-E2E-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       11. fe4e0711  Merge branch 'feature/M2-id-prefix-registry' into 'milestone/M2'
+           时间: 2026-10-11T15:13:33.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/fe4e0711e93acd5547354dcdfe299399a6d79a8b
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-module-docs-sync-r10, feature/WP-M2-TA-E2E-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       12. 50149faa  evidence(M2-ID-PREFIX-REGISTRY): 评审预检与档位判定留痕——precheck 八段全绿（锚定主 commit 8209a72）+ review_tier L2 判定（未归类路径 M2/id-prefix-registry.md 按存疑升档 B，清单待派发方确认）
+           时间: 2026-10-11T23:12:22.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/50149faa9e903516a7c7a9cf285a8e1f2390967d
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/WP-M2-TA-E2E-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       13. 8209a727  docs(M2): 新增 string 业务标识前缀注册表 id-prefix-registry.md（M2-ID-PREFIX-REGISTRY）——同步自上游 tech-docs：D-M2-117 默认格式规则 + D-M2-75 例外族（含 rgl- 2026-10-11 修订入例外族）+ D-M2-213 wo_ 混合形态 + D-M2-212/139 两项撤销登记 + 随机段选长原则（2026-10-11 用户裁定）
+           时间: 2026-10-11T23:11:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/8209a727959a188982fce8b9d7cb76371599d8fd
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/WP-M2-TA-E2E-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       14. 55236a2a  Merge branch 'feature/WP-M2-TICKET-REALTIME-EVIDENCE' into 'milestone/M2'
+           时间: 2026-10-11T13:40:32.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/55236a2ac92d756f8d116f5cff3451ccd929cd31
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/WP-M2-TA-E2E-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       15. fe46c60e  docs(evidence): WP-M2-TICKET-REALTIME-EVIDENCE 评审返工 B-1 处置——plan 任务编号订正 Task 17→Task 14（权威 plan L510：W3 realtime docs evidence child；两处）+ selection-records 返工留痕节（检索词断言四制品 Task 17 零命中 / plan Task 14 两处全命中）+ review-report 落盘（FAIL 1 阻塞 0 建议 3 备忘；独立核实面全绿，备忘三项零动作）
+           时间: 2026-10-11T21:36:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/fe46c60ed29875e17d3c2a11d315da0f8e0bab1b
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       16. 11ee3ca3  docs(evidence): WP-M2-TICKET-REALTIME-EVIDENCE 证据制品落盘——selection-records（覆盖审计留痕 + W4/Task19/归并轮三向约定）+ assert-checks（验收断言 1-7 全 PASS，断言 2 = 41 路径五仓核验 41 OK/0 FAIL）+ gate-output（g1 普通档锚定主 commit 47d1b2f + DOWNACK-DOCS 承载段）
+           时间: 2026-10-11T21:25:19.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/11ee3ca374b0583f4e0b7dbfeffeb1412ff03f18
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       17. 47d1b2f5  docs(M2): WP-M2-TICKET-REALTIME-EVIDENCE W3 收口证据索引——验收四项（downlink/漏推回源/FAILED 可见性/跨端）+ Gate 六项逐项映射 realtime-index；W3 Gate 审计六项全通过，tasks.md L193 勾选 + L198 Gate 行随本 MR 翻转（随任务 MR 机制，W2 先例）
+           时间: 2026-10-11T21:24:48.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/47d1b2f5c7e2af61a4744bea20a31cb97f8b6d6d
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       18. a3b7f772  Merge branch 'feature/M2-module-docs-sync-r8' into 'milestone/M2'
+           时间: 2026-10-11T12:36:30.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/a3b7f77279d705eac224500625d9bc5b910d45e2
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       19. fd4f67e9  docs(evidence): M2-MODULE-DOCS-SYNC-R8 r9 增量轮评审报告落盘（L2 单轮 PASS · 阻塞0/建议0/备忘3；上游一致性 25/25 全量 blob 逐字节比对 + 43 文件完备性扫面零遗漏；备忘①行数口径订正为实测 121+/92-，MR 描述同步订正）
+           时间: 2026-10-11T19:50:09.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/fd4f67e9c8db97441c420ad42833551f9ade31fe
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       20. 342f7e5b  docs(evidence): M2-MODULE-DOCS-SYNC-R8 r9 轮证据制品落盘（diff-r9/precheck-r9 全绿 8 段）+ r8 制品 rebase 哈希映射刷新（edd1f91→a851b38、aaf526c→4bebd12；评审报告仅头部加映射说明，先例口径）——r9 增量 28 文件 B 类 L2 判定输出（122+/93-，无 L3 触发）
+           时间: 2026-10-11T19:39:56.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/342f7e5b152f9bff34b0f9e22f86e57791817f58
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       21. 3d936243  docs(M2): 模块文档同步 r9（批次二已提交态增量）——上游 910b809→ec2337e 四提交对 10 已存在模块 + cross-cutting 三件同步：D-M2-207/208/209 PENDING 闭环落盘（scheduler 统一触发协议/引用登记补偿/非会话域零实时事件）、D-M2-210 X-Agent-Id 非必填不使用（9 个 http 面）、D-M2-211 delay port 归属订正 AdminInternal（ticket-message 四件+message-contract-delta）、D-M2-212 hit_id int64 出网（content-governance 四件）、定名批次决策 6 错误码 2019~2025 分配落表（error-codes +32-13，OT/PSC/TF/RG/TA http 错误表）、operator_id→actor_id 并入（TA rpc/schema + ticket-message 引用 + message-contract-delta）、ann_/ta_ 前缀 assigned 定长（announcement-schema/TA-schema）；反向回退排除留痕——ticket-lifecycle design（TLCD05 裁定领先）、ticket-lifecycle http 投影废止两处（BASE-M2-TL-PROJECTION-REVOKE 领先，仅同步 X-Agent-Id 行）、ticket-message design 二线授权面段（SEAM-M2-TM-READAUTH docs 侧已落盘）；wire-changes 编号分叉处置——上游批次二 WC-13/14 与 docs 侧 WC-13（SystemEvent 形状包）撞号，重编号 WC-15/16 落入并留痕
+           时间: 2026-10-11T19:38:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/3d936243cea5158451205700a5fc5413694515e1
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       22. 4bebd120  docs(evidence): M2-MODULE-DOCS-SYNC-R8 评审报告与机械核查制品落盘（L2 全档 PASS · 阻塞0/建议2/备忘3；上游一致性核 HEAD 已提交态 910b809 blob 逐字节一致，工作区差异为切点后未提交批次二增量；S-1 证据随分支提交处置）
+           时间: 2026-10-11T19:32:44.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/4bebd120c0d5ff92b613f1b7734c7750ab04e45b
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       23. a851b387  docs(M2): 模块文档同步 r8——error-codes 三处增量（①恒 200 口径边界澄清：业务错误承载约束，网关/框架层 404/429 等非业务错误以真实 HTTP status 返回不进本表，2026-10-10 用户澄清 ②2013 IDEMPOTENCY_CONFLICT 适用面增 workorder-lifecycle WO-CD-08（WO-H16 同键异请求，D-M2-185）③WOM-CD-07 申报行：ATTACHMENT_QUOTA_EXCEEDED→ATTACHMENT_COUNT_EXCEEDED 改名语义收窄 WOM-H08 单次数量超限（2026-10-11 D-M2-199）+ CONTENT_REJECTED 撤回申报（与 2012 CONTENT_BLOCKED 同义））；排除面甄别留痕——wire-changes 上游 blob=849bea3 精确命中 e8c29ab（TLCD05 裁定前旧版，零增量）、ticket-lifecycle design/http 与 ticket-message design 均为 docs 已合入裁定的反向回退（blob 级验证），上游对 10 已存在模块 40 文档零增量
+           时间: 2026-10-11T19:32:44.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/a851b387aff32df07dbf1a59a74ef017ad0f8752
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       24. 275b88a3  Merge branch 'feature/BASE-M2-DELAY-OWNER-REVISION' into 'milestone/M2'
+           时间: 2026-10-11T09:05:18.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/275b88a31a1050ef7aea8561c306130bcc780a01
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       25. 62b7ba05  Merge branch 'feature/WP-M2-TM-E2E-EVIDENCE' into 'milestone/M2'
+           时间: 2026-10-11T09:03:53.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/62b7ba05e457c128c692e06d49f4dda0abe0151e
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       26. ab349b1a  docs(M2): WP-M2-TM-E2E-EVIDENCE 返工叙事二订——撤回「断言 2 = 41」形态零命中主张（断言文本自身引用该短语，自指不可满足），I-1 检索词断言收敛为实例数断言（3 命中均引述性）+ 活计数主张面唯一口径 40 断言
+           时间: 2026-10-11T17:01:10.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/ab349b1ad572dae001152e86ad6c4d16656e5540
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, feature/WP-M2-TM-E2E-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       27. 936e681c  docs(M2): WP-M2-TM-E2E-EVIDENCE 返工叙事订正——I-1 检索词断言撤回零命中主张改实例数断言（41 路径全目录 3 命中均为引述性文本：review-report 冻结制品 2 行 + 处置叙事 1 行；登记文本自指命中坑位防复发），叙事与制品实测对齐
+           时间: 2026-10-11T17:00:37.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/936e681c72936767826d23d0e191632a86e9afa3
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, feature/WP-M2-TM-E2E-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       28. df0763dc  docs(M2): WP-M2-TM-E2E-EVIDENCE 独立评审返工（有条件 PASS：阻塞1/建议1/备忘4）——I-1 断言2路径计数 41→40（孤例错值，检索词零命中断言附）+ M-1 提交链补 commit 3 留痕 + review-report 落盘 + 备忘四项 MR 描述记处置零动作
+           时间: 2026-10-11T16:59:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/df0763dcdbf8f86cbd8f1312bb7910f67b1032d5
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, feature/WP-M2-TM-E2E-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       29. aa20696c  docs(M2): WP-M2-TM-E2E-EVIDENCE 完成证据行门禁口径订正——md-only 锚定改 DOWNACK-DOCS 承载（证据制品含 .txt 使 R1 §6 md-only 判据不可满足，普通 g1 锚定 50bd422，见 gate-output 注记）
+           时间: 2026-10-11T16:52:00.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/aa20696c4a0eaddee4f516d3f45089ec13ea053d
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, feature/WP-M2-TM-E2E-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       30. 8ea1f600  docs(M2): WP-M2-TM-E2E-EVIDENCE 证据制品落盘——g1（DOWNACK-DOCS 承载，md-only 对含 .txt 证据面结构性不适用注记）+ 断言 1-7 全 PASS（child 路径 40/40 可解析）+ selection-records（覆盖审计留痕与后续约定：W3/Task 19/归并轮/W4）
+           时间: 2026-10-11T16:50:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/8ea1f6004eb531e4424f827a6cae6436448215f5
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, feature/WP-M2-TM-E2E-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+       31. 50bd4229  docs(M2): WP-M2-TM-E2E-EVIDENCE W2 message evidence index 收口——验收八项映射零缺口（落库/域真实锚点与 consumer-test 断言分载标注）+ W2 Gate 审计七项全通过（additive compatibility 按三棒分棒口径记载）+ 生产装配缺口五项汇总与候选镜像归并交接节 + tasks.md L163 勾选与 L168 W2 Gate 行翻转（随任务 MR 机制，用户 2026-10-11 第二十三轮裁定）
+           时间: 2026-10-11T16:48:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/50bd42295102030b4c6f1615de2bbd65442d3055
+           分支: feature/BASE-M2-TICKET-COVERAGE-AUDIT, feature/BASE-M2-TICKET-DOC-ALIGN-doc-align, feature/BASE-M2-WO-DECISION-REGISTER-decision-register, feature/BASE-M2-WO-EXTERNAL-BASELINE-external-baseline, feature/BASE-M2-WO-SCOPE-scope-baseline, feature/BASE-M2-WORKORDER-BACKLOG-DESIGN-backlog, feature/M2-DOC-ADD-WORKORDER-doc-sync, feature/M2-id-prefix-registry, feature/M2-module-docs-sync-r10, feature/M2-module-docs-sync-r8, feature/WP-M2-TA-E2E-EVIDENCE, feature/WP-M2-TICKET-REALTIME-EVIDENCE, feature/WP-M2-TM-E2E-EVIDENCE, fix/FIX-M2-WO-D06-TYPO-backlog-typo, milestone/M2
+      MR记录（按时间倒序）：
+        1. MR#292 docs(M2): 新增 string 业务标识前缀注册表 id-prefix-registry.md
+           时间: 2026-10-11T15:11:09.115Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/292
+        2. MR#291 docs(M2): WP-M2-TICKET-REALTIME-EVIDENCE W3 收口证据索引 + Gate 审计六项通过翻转 L198
+           时间: 2026-10-11T13:25:44.063Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/291
+        3. MR#290 docs(M2): WP-M2-TM-E2E-EVIDENCE W2 message evidence index 收口 (WP-M2-TM-E2E-EVIDENCE)
+           时间: 2026-10-11T08:51:18.635Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/290
+        4. MR#289 docs(M2): delay 仓归属订正 admin-gateway (BASE-M2-DELAY-OWNER-REVISION)
+           时间: 2026-10-11T08:22:03.354Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/289
+        5. MR#288 docs(M2): 模块文档同步 r8——error-codes 三处增量（恒200口径边界澄清 + 2013 workorder-lifecycle 登记 + D-M2-199 改名/撤回申报）
+           时间: 2026-10-11T07:54:16.702Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/288
+        6. MR#287 docs(M2): BASE-M2-REG-ADJUST-BATCH 登记面五件并批（第四/五批裁定承载）
+           时间: 2026-10-11T05:49:54.149Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/287
+        7. MR#286 docs(M2): 模块文档同步 r7——TF 恒200残留补齐 + ticket-message quota 移除（排除 TL 旧版回退面）
+           时间: 2026-10-11T02:23:26.652Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/286
+    • msdk/rispari/tools/server-coordination        提交:  16  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+1,600 / -79)
+      提交记录（按时间倒序）：
+        1. 17e9d7e1  docs(dispatch): 第三十轮——docs 归并轮开窗两件派发（BASE-M2-TICKET-DOC-ALIGN docs 五件 + IL-M2-LIFECYCLE-PROTO-ANNOTATION im-logic 姊妹件）Prompt 归档：快评两轮——第一轮双 FAIL（docs 3 阻塞：B-1 ②机理失实〔63a50c8 10-10 22:45 BASE-M2-TLCD05-SHAPE-FILING 已将 contract-gates 两行 candidate→locked，第 26 轮登记未感知翻转故误报，非「零改动」〕/ B-2 ④层面混淆方向反打〔D-M2-151 双面语义：HTTP 信封面投影废止〔!180 空对象〕vs RPC 带内面维持〔im-logic handler conflict 分支仍携带最小投影三字段 + http.md L180 交叉指针明文〕，初版将废止越层推广致 RPC 真表述险被改错〕/ B-3 检索词断言不可执行〔全树零命中类断言空洞 + 合法保留面三处〕；im-logic 1 阻塞：B-1 订正方向 RPC 面语义反置〔真实漂移面仅 proto L127「409」token 过时，四处权威证据收敛〕）→ 全部采纳修订（docs ④收窄仅处 2 括注用途面+处 1/3 维持+同批核对 §2 L118/http.md L180；im-logic ⑤a token 订正对齐 rpc.md §2 L118 镜像+⑤b 缩窄 409 族+范围外新增 RPC 投影语义零改动；检索词改按文件定界+白名单豁免；②机理改写）→ 第二轮复审 PASS（docs 0阻塞/1建议/3备忘 S-1 括注措辞限定 ticket_id〔D-M2-91 全路径不透出〕采纳；im-logic 0阻塞/0建议/1备忘），4 阻塞修复成立无绕过+新断言 19 项实测吻合。档位订正：im-logic 件预期 L3（.proto 路径触发契约形状判据先短路，微改免审通道不适用——派发方向用户订正此前 L0 候选误判）。台账：第三十轮状态总览重写 + 基线行刷新（docs fe4e071 含 M2-ID-PREFIX-REGISTRY 收口核实：registry 实存+ta_ 8 位 assigned+三模块 schema 引用转有效）+ 第 30 派发行 ×2 + 归并轮待办行更新为已派发态（⑥ 划收口 + ② 机理订正 + ④ 收窄注记 + ③ 实读结论）。快评报告 .tmpfiles 不入库
+           时间: 2026-10-11T23:50:50.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/17e9d7e1ee283bb0deb8cd0d7962b53d107627c7
+           分支: master
+        2. 5baeff4f  docs(ledger): 第二十九轮补充——真实权限载体 WP 立项窗口用户裁决留痕：挂至 M2 ticket 全链（W4+P3）收口后处理，W4 期间沿线接缝过渡形态（一线语义）交付，二线角色读取 M2 ticket 期内不激活，mark_read 游标语义前置裁定项随之冻结（SEAM SR 登记在案）——状态总览行与二线授权待办行两处同批
+           时间: 2026-10-11T23:24:07.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/5baeff4f326104f8571b31c35333641e1641f707
+           分支: master
+        3. d08df59b  docs(dispatch): 第二十九轮——REALTIME-EVIDENCE !291 55236a2 合入收口（W3 全波次收口 + W3 Gate 行翻转「当前通过」随 MR；执行期评审 B-1 plan 任务编号 Task 17→14 返工闭环 fe46c60 + B 类检索词断言）→ W4 链首 WP-M2-TA-ALERT-CORE 派发 Prompt 归档：快评 PASS 52/52（0阻塞/1建议/4备忘/0待裁决——S-1 TICKET_ALERT_TICKET_REF 列数 6→7 含代理主键口径统一 + M-1 announcement.go 行号订正 L379-396 与先例 ann_ 6 位/本任务 8 位位数差异注记 + M-2 契约测试件计数表述三处修订采纳；M-3 素材②落位细化注记并入 SR 要求；M-4 id-prefix-registry.md 引用悬空归并轮登记第⑥件）。Prompt 关键设计：全新子域（alert 域零存量）——两表迁移〔TICKET_ALERT 18 列五索引 + TICKET_REF 7 列三索引，REPLY_RECORD/ATTEMPT 归 BATCH-EXECUTION〕+ TA-H01/H02/H03 三端点 + ta_+8位 base62 ID 生成（用户 2026-10-11 裁定定长 8）+ TicketReadPort candidate（既有能力=GetAgentTicketDetail 单查 M1 23 方法无批量读实测；lifecycle.go 候选 port 组织先例；新增跨服务 RPC=0 wire 零 diff 断言）+ 配置面已就绪（batch_alert_threshold/window_minutes 两列 projectconfig 001 已落库实测）；四设计决策留痕 D-1~D-4（客诉读取形态/EXPIRED 读时派生/ticket_ids 校验失败语义/reply_summary 零口径形态）；WC-06 零消费注记（TA 端点 source_channel 均 alert 自身列，客诉表列未落归 TL-CD-07）+ 二线授权载体不预建（第四批裁定先例）；SR 向 W4 后续五任务交付实体面（DELAY-TASK SR §5 约定 1 先例）。台账：第二十九轮状态总览重写 + 第 28 派发行收口（!291 已合入）+ 第 29 派发行新增 + 待办三行刷新（W3 起跑行收束勾选、二线授权③立项前置已满足待用户裁窗、归并轮积欠增至六件）。快评报告 .tmpfiles 不入库
+           时间: 2026-10-11T21:59:13.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/d08df59be25dc5946713c55fae8078c48e13b09b
+           分支: master
+        4. c6aa14a4  docs(dispatch): 第二十八轮——W3 三棒齐合入（DELAY-HTTP !191 af4fc4a 三面齐收口）→ WP-M2-TICKET-REALTIME-EVIDENCE 派发 Prompt 归档：快评 PASS 9/9（0阻塞/2建议/3备忘，十项核验全过——九依赖 merge-base --is-ancestor 实测全合入 + 10 输入路径全可解析 + SR 引用抽验逐字一致 + Gate 翻转随 MR 裁定先例双证；S-1 PLAYER-FLOW 延迟字段 C 端零出口与 H102 读出口张力消解 + S-2 范围外补 DELIVERY SR 约定 5 登记源——均采纳修订）。Prompt 关键设计：realtime-index 六节（验收四项映射〔downlink/漏推回源/FAILED 可见性/跨端〕+ W3 Gate 六项审计〔delay 状态/message-task 收敛/crash-replay/重复扫描/scheduler trigger/downlink 回源闭环〕+ 证据索引公共字段 + mapping 零布尔 + Phase 4 缺口汇总〔DELIVERY 4a/4b/4c 与 W2 五项合并视角〕+ W4 解锁交接节）；W3 Gate 行 L198 翻转随任务 MR（二十三轮 R-1 先例）；判读口径=W3 落库面真实锚点（三列 dev migration/三类分流直写/扫描重锚定）vs candidate 形态面（FAILED 原位消息 port/H319 夹具/候选 18 生产出口 Phase 4）沿用户第二十四轮形态裁决 A；C 端 FAILED 零出口=D-M2-159 设计语义非缺口；范围外七条（新 transport/生产验证 Backlog 明示等）。台账：第二十八轮状态总览 + 基线行刷新（admin-gateway af4fc4a）+ 第 27/28 派发行新增 + HTTP 派发行收口改写 + W3 待办行刷新（三棒齐+REALTIME-EVIDENCE 已派发）。快评报告 .tmpfiles 不入库
+           时间: 2026-10-11T21:14:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/c6aa14a4bc65cae4df5b361e487d229f92e0de3a
+           分支: master
+        5. 1469a47e  docs(ledger): 第二十七轮刷新——W3 四棒三收口核验（DELAY-DELIVERY !189 2578b55〔admin-gateway 三面齐：merge + tasks.md L46 勾选 + SR 落盘；评审 L3 PASS 0阻塞/3建议/5备忘 S-1/S-2/S-3 采纳 83e158f + rebase 零冲突 + 门禁三档复跑 3fbe337；SR 五约定=下游两线交接面兑现——HTTP 约定 1 核对无漂移 + TRIGGER 约定 2 核对一致〕+ DELAY-TRIGGER !88 990307a〔im-scheduler 三面齐：评审 L3 有条件 PASS 阻塞 1 经 B-1 闭合，档位偏离 L2 留痕——测试 fake sync.Mutex 存疑升档；三 blocking 参数回填 D-M2-157 解锁链闭环〕）→ 唯一剩余 DELAY-HTTP !191 opened 待用户合入（执行收口完成：评审 L2 PASS 0阻塞/1建议/3备忘 S-1 D34 订正采纳 + 基线刷新 b6b7208→fd31fd7 + tasks.md 已勾选）；合入后三棒齐立即组装 REALTIME-EVIDENCE。基线前进：admin-gateway fd31fd7 + im-scheduler 990307a + docs a3b7f77（!288 模块文档同步 r8+r9——D-M2-207~212/operator_id→actor_id/D-M2-211 delay port 归属订正）。docs 归并轮积欠五件实读复核：①schema L139 漂移仍挂/②contract-gates 两行实测已 locked 不成立收缩/③P0 Gate 共享行待开窗实读/④rpc L161 括注仍挂/⑤proto 注释 L125→L127 漂移；开窗与否仍待用户裁决。台账：状态总览第二十七轮重写 + 基线行刷新 + 三派发行收口改写 + W3 待办行刷新 + 归并轮待办行新增
+           时间: 2026-10-11T20:57:10.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/1469a47e099ffa929cd2501bb1e1b3e85ad67b72
+           分支: master
+        6. f49247ca  docs(dispatch): 第二十六轮——W3 下游两线提前组装派发（WP-M2-TM-DELAY-HTTP admin-gateway 第三棒 + WP-M2-TM-DELAY-TRIGGER im-scheduler 第四棒，同窗派发先例第三用——DELAY-DELIVERY 在途期提前组装，领取前置写成硬核实条款）+ IL-M2-DELAY-MSG-CARRIER !210 b17a447 合入收口（SR 载体清单四约定落盘，DELAY-DELIVERY 领取前置达成）。HTTP 快评 FAIL 1阻塞→机械修复闭环（B-1 H305 现状断言失实——pending task projection 系延迟任务投影四态全返非 PENDING 过滤，实码 L34/L194 实测订正/S-1 Backlog 行号 L197/S-2 H306 测试两层拆分/S-3 幂等键组分=语义重标注非机械变更/M-3 2012/1006 断言非 fixtures 载体——均采纳）+ R-1 用户裁决=H305 维持全状态返回（四态全返 M1 冻结行为零变化，FAILED 呈现走 H102/H319，schema.md L139 漂移登记归 docs 归并轮）。TRIGGER 快评 PASS 9/9（0阻塞/3建议/3备忘/0待裁决；S-1 行号 L198/S-2 blocking 登记理由改锚 PENDING 载体冲突〔D-M2-157 定案 5bd2288 早于骨架登记 97f618d〕/S-3 tasks.md L69 行同批处置——均采纳）。台账：第二十六轮状态总览 + MSG-CARRIER 行收口更新 + 第 26 派发行 ×2 + W3 待办行刷新（在途 DELIVERY 执行中 + 两线已派发待领取 + schema L139 漂移登记）。快评报告 .tmpfiles 不入库
+           时间: 2026-10-11T19:19:58.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/f49247ca86b7c4456815e07b4c66eb1e513c2839
+           分支: master
+        7. 37194f84  docs(dispatch): 第二十五轮——WP-M2-TM-DELAY-DELIVERY（W3 第二棒，admin-gateway 投递收敛）派发 Prompt 归档：快评 PASS 9/9（0阻塞/3建议/2备忘/1裁决；S-1 W2 Gate 行号 L168→L169 订正〔tasks.md 实际行号，台账侧沿用漂移本轮注记〕/S-2 L3 触发表述精确化〔并发原语机械判据=并发测试形态触发，沿 DELAY-TASK 判例〕/S-3 映射 SR 双注记——均采纳）+ R-1 用户裁决：1002/1004 永久业务失败族→BUSINESS_REJECTED（design §5.5 三类闭集排除法收敛，分支理论不可达〔M1 创建时已拦截〕防御性落地）。Prompt 三关键设计点：三类分流真实落库（2012→CONTENT_BLOCKED 新增分支，现状不可达留痕——im-logic 零内容治理接入实测，内容门归 content-governance 模块独立任务）/ FAILED 原位写=port 候选形态（形态 A 裁决承载，幂等键独立派生防 DEDUP_HIT 误判 DELIVERED 竞态——快评核推理链代码锚点自洽）/ crash-replay-reconcile（crash window 重放收敛+attempt 消费持久化 retry_count 续计）。领取前置=IL-M2-DELAY-MSG-CARRIER 合入（两 Prompt 同窗派发）。台账：第二十五轮状态总览 + 第 25 派发行新增 + W3 待办行刷新（在途两线+行号漂移注记）。快评报告 .tmpfiles 不入库
+           时间: 2026-10-11T18:20:14.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/37194f84e28bc3dab54762b55861aea8169ebaef
+           分支: master
+        8. 00689887  docs(dispatch): 第二十四轮——四线合入收口核验（Task 12 !290 62b7ba0〔三面齐，W2 全波次收口——W2 Gate 行 tasks.md L168 随 MR 翻转「当前通过」机制首用，评审有条件 PASS 返工二轮闭环〕/ WP-M2-TM-DELAY-TASK !187 325f3a5〔三面齐，L3 评审 PASS 0/2/4 + dev 三列终态落列，SR 三列原语清单=DELAY-DELIVERY 组装素材〕/ IL-M2-DELAY-SCHEMA-ASSERT !209 1a856b7 / BASE-M2-DELAY-OWNER-REVISION !289 275b88a）+ IL-M2-DELAY-MSG-CARRIER（im-logic 候选字段 18 delayed_failure_reason 载体微任务，DELAY-DELIVERY 唯一剩余前置）派发 Prompt 归档：快评 PASS 9/9（0阻塞/4建议/3备忘，S-1 沿革漂移〔DELAY-TASK 实已合入〕/S-2 批轮双称/S-3 候选 proto 头注 17 缺位/M-1 注入精度/M-2 行号口径五处修订采纳）+ 用户两项裁决留痕：承载形态=A · candidate 形态（跨进程真实写出与生产出口装配归 Phase 4 缺口登记、W3 FAILED 可见性证据沿 W2 consumer-test-only 闭环先例）+ 真实权限载体 WP=W3 链优先（REALTIME-EVIDENCE 收口后再排）。台账：第二十四轮状态总览 + 基线行（docs 275b88a / im-logic 1a856b7 / admin-gateway 325f3a5）+ 四派发行收口更新 + 第 24 派发行新增 + 待办三行刷新（Task 12 勾选收口 / 二线③立项口径 / W3 窗口行——含 im-logic tasks.md DELAY 行陈旧 prerequisite 漂移登记）。快评报告 .tmpfiles 不入库
+           时间: 2026-10-11T17:52:09.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/00689887fdf94d78dc5827059375d9ef916b1888
+           分支: master
+        9. a756a4cb  docs(dispatch): 第二十三轮——Task 12（WP-M2-TM-E2E-EVIDENCE，docs evidence 索引收口）派发 Prompt 归档：快评一轮 FAIL 1阻塞修复闭环（B-1 判读口径第三条 DOWNLINK 失实——admin-ws-gateway 无 M1Compat JSON 键面断言，其 additive-compatibility 锚定=wire 字段号闭集断言〔Delta A4 负向〕+ DownMessage 字节级 round-trip → 订正分棒表述）+ S-1 交接指称可核对化 + S-2 随 R-1 裁定定稿；R-1 W2 Gate 行翻转机制用户裁定=随任务 MR（MR 留痕审计依据、合入即 Gate 通过态成立，共享行例外留痕原则与 W1 同源）。台账：第二十三轮状态总览 + E2E-EVIDENCE 派发行 + Task 12 待办行刷新。快评报告 .tmpfiles 不入库
+           时间: 2026-10-11T16:29:14.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/a756a4cbcd42d2243c934ca6518d6ee2144f31d3
+           分支: master
+       10. 25d6d6dd  docs(ledger): 第二十二轮刷新——Task 11 三棒全收口核验（PLAYER-FLOW !96 1f4f0cb〔三面齐〕+ ADMIN-API !186 6a29d57〔L3 评审 PASS 0/2/5 + 门禁复跑 + 三面齐〕，W2 服务仓任务面全清）→ Task 12（E2E evidence，docs）解锁待派（待办行新增）；DELAY-TASK Prompt 基线刷新 f502ac0→6a29d57（ADMIN-API diff 与其目标面零交集实测、无同仓并行竞争，沿革注记同批订正）。台账：基线行/状态总览/两合入行/DELAY-TASK 派发行/Task 11 待办行勾选收口
+           时间: 2026-10-11T16:07:14.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/25d6d6dd286430bf30248faab609eb0941cc593f
+           分支: master
+       11. d15c69db  docs(dispatch): 第二十一轮——用户第六批裁定（W3 开窗双裁定）落账 + W3 链首三 Prompt 派发归档：① WP-M2-TM-DELAY-TASK（admin-gateway，目标仓订正承载——原 plan 派 im-logic 系 docs 模块文档未吸收 AM 迁移漂移；三列 migration+domain/repo/service 增量+快照捕获+存量兼容；快评 PASS 9/9：S-1 DELAY-HTTP 行 depends_on 陈旧前缀处置归属=归 DELAY-HTTP 派发时订正、S-2 D-M2-192 跨模块口径依据补留痕）② IL-M2-DELAY-SCHEMA-ASSERT（im-logic 断言测试 12 列精确→条件化微任务，跨仓 ALTER 时序死锁解除前置，须先合入；零快评内联核实）③ BASE-M2-DELAY-OWNER-REVISION（docs 五处漂移订正：plan 两行目标仓+rpc §1 方法计数 30+5→23+3+2+§2.1 归属+design §6.3+schema §4.3；零快评五处实测）。裁定留痕：WC-05 先行实施授权（沿 WC-04×MESSAGE-CORE 先例，会签义务不豁免）+ delay 仓归属订正 admin-gateway（P0-53 表唯一写者+IL-AM-TICKET-CASCADE）+ 真实权限载体 WP 暂不立项。台账：第六批裁定行+三派发行+W3 待办行刷新（链路 DELAY-DELIVERY 前置含 im-logic 候选 18 载体微任务）。快评报告 .tmpfiles 不入库
+           时间: 2026-10-11T16:02:24.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/d15c69dbe620bcd2680e9cadad7e6464d936fad6
+           分支: master
+       12. fbf6c365  docs(ledger): 第二十轮刷新——在途四线收口三线合入核验（TM-DOWNLINK AWG !25 f85b7be〔三面齐：merge+证据七制品+L36 勾选，评审 PASS 0/1已处置/4〕/ SEAM im-logic !208 1c999ad〔证据七制品，ADMIN-API 前置达成〕/ REG-ADJUST-BATCH docs !287 3847080〔证据五制品，D-M2-155 翻转收口+D-M2-194 落地〕）+ PLAYER-FLOW !96 opened can_be_merged 待用户合入；WP-M2-TM-ADMIN-API（Task 11 第三棒）派发 Prompt 归档（快评 PASS 9/9：0阻塞/2建议/4备忘，S-1 采纳 SR 全路径、S-2 归 R-1；R-1 SenderConnectionID 通道裁定经用户裁定=维持 M1 既有 wire 通道、ATTACHMENT-REF SR N-2 缺口闭合）；待办三行刷新（Task 11 跟踪/二线三件/D-M2-155 勾选收口）。快评报告 .tmpfiles 不入库
+           时间: 2026-10-11T15:05:20.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/fbf6c365784406622a516d286389fff064a777b1
+           分支: master
+       13. 1c1a500a  docs(dispatch): 第十九轮裁定承载三 Prompt 派发归档——① SEAM-M2-TM-READAUTH（im-logic 校验接缝空方法，用户第四批裁定承载，ADMIN-API 前置，零快评=S 档事实内联核实先例）② WP-M2-TM-PLAYER-FLOW（player-gateway，用户第五批裁定方案 A 承载，快评 FAIL 1阻塞〔display_type 经 contractenum 映射面非透传，静默空串风险〕+2建议 修复闭环）③ BASE-M2-REG-ADJUST-BATCH（docs 登记面五件并批：155 翻转〔落法订正=追加节承载原表零改写〕+ 22/163/165 三行订正 + 二线授权面 D-M2-194 登记 + 权限载体注记，快评 FAIL 3阻塞+4建议 修复闭环）。台账：三派发行新增 + 待办三行更新（ADMIN-API 待 SEAM 合入后派发、155 翻转落法订正）。快评报告 .tmpfiles 不入库。
+           时间: 2026-10-11T13:23:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/1c1a500a58f664090c62bffb5ea9f77203271bdf
+           分支: master
+       14. 04c15458  docs(ledger): 用户第五批裁定落账（Task 11 前置议题 b PLAYER-FLOW 三决策消费口径=方案 A 按语义面已锁定口径实施）——D-M2-22/163 注册态 blocking 系载体冲突登记态、语义面已锁（WC-01 locked·可先行实施），Prompt 实施条款：eval_status 出口 unknown-透传不校验值域（值域权在 evaluation-satisfaction）+ 展示范围门控查询期读 project-space-config 投影 fail-closed（http.md L199 现文）+ D-M2-165 复用 M1 冻结码 1003 兼容断言（2011 退役）；注册面三行订正清欠归 docs pending-register 追加节微任务（与 D-M2-155 翻转 + 二线授权面登记同批五件并批协调）。Task 11 派发前置全清：PLAYER-FLOW 可写 Prompt，ADMIN-API 待 im-logic 接缝微任务。
+           时间: 2026-10-11T12:54:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/04c15458ba193ff130f6baeea31f5ae84b6d01df
+           分支: master
+       15. d882ede6  docs(ledger): 用户第四批裁定落账（Task 11 前置议题 a 二线授权面）——二线角色=真实业务角色且 M2 必须支持，现状认定为暂时欠缺非终态设计；M2 过渡=校验接缝空方法化（GuardReadMessage 伪代码升级可调用空方法、默认一线语义零行为变化、R1 §8 例外留痕）；依赖任务必须含校验空操作条款；旁观 mark_read 游标语义随真实载体任务裁定。落地三件登记：im-logic 接缝微任务（ADMIN-API 前置）+ docs 授权面登记微任务 + 真实权限载体后续独立 WP。议题 (b) PLAYER-FLOW 仍待裁定。
+           时间: 2026-10-11T12:32:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/d882ede636f038e4045f1c88bbbf262c01662c09
+           分支: master
+       16. 20ae6e6f  docs(ledger): 第十八轮刷新——Task 10 四 child 全收口核验（MESSAGE-CORE !204 5825cf7 / ATTACHMENT-REF !205 30da761 / SYSTEM-MESSAGE !206 7e5a807 / HISTORY-CURSOR !207 13f3b9d，Task 10 状态面全闭合）+ TLCD05 申报落地 !285 9cd3a71 与伴生微改 !185 f502ac0 合入核销 + Task 11 起跑：WP-M2-TM-DOWNLINK（admin-ws-gateway @ec9bebc）Prompt 归档与派发（快评 FAIL 2阻塞/3建议 修复闭环：B-1 署名三字段 envelope 生产侧未落→consumer-test-only 订正 + D-M2-156 WS 出口生产缺口登记 / B-2 !207 合入语境订正 / S-1~S-3 全处置）+ 待办三线登记（Task 11 跟踪含二线授权面裁决议题、D-M2-155 翻转条件达成待收口、W3 并行窗口待裁定）。快评报告 .tmpfiles 不入库。
+           时间: 2026-10-11T12:07:10.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/20ae6e6fb814669c2a32e8fbe3300d07c32a3f8c
+           分支: master
+    • msdk/rispari/server/im-scheduler              提交:   7  MR:  1  Commit评论:  0  MR评论:  0 分支:feature/WP-M2-TA-AGGREGATION-TRIGGER-alert-poll, feature/WP-M2-TM-DELAY-TRIGGER, milestone/M2 (+935 / -122)
+      提交记录（按时间倒序）：
+        1. 990307ac  Merge branch 'feature/WP-M2-TM-DELAY-TRIGGER' into 'milestone/M2'
+           时间: 2026-10-11T12:40:23.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/990307ac43e19169d86fdf97b2b0875f5ea9e6c4
+           分支: feature/WP-M2-TA-AGGREGATION-TRIGGER-alert-poll, milestone/M2
+        2. d51b7e3d  docs(evidence): WP-M2-TM-DELAY-TRIGGER 评审收口——code-change-reviewer L3 有条件 PASS（阻塞 1/建议 2/备忘 5）+ B-1 收口欠账闭合（tasks.md 勾选与完成证据两段指针回填，check-pointer 全 PASS）+ SR 评审结论留痕与备忘 M-1 计数触达即修（13→17 测试函数）+ S-1 登记不实现（负值校验归治理轮）+ S-2 登记回告（docs DELIVERY 目标仓行归并轮订正）+ review-report 落盘
+           时间: 2026-10-11T20:17:49.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/d51b7e3dfc0ea9810db0632fa258ebce385ee75b
+           分支: feature/WP-M2-TA-AGGREGATION-TRIGGER-alert-poll, feature/WP-M2-TM-DELAY-TRIGGER, milestone/M2
+        3. b489d8bd  docs(evidence): WP-M2-TM-DELAY-TRIGGER SR 补档位判定留痕——review_tier L3·A 类（并发原语触发：diff 新增行含测试 fake sync.Mutex，A 类门控对全 diff + 行 grep；生产面零并发原语新增），存疑升档纪律按 L3 执行（报告上限 400 行·允许一轮增量复核），偏离派发预期 L2 已留痕
+           时间: 2026-10-11T19:59:43.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/b489d8bd93a6e82b0bf4255260a4786949cdc1b4
+           分支: feature/WP-M2-TA-AGGREGATION-TRIGGER-alert-poll, feature/WP-M2-TM-DELAY-TRIGGER, milestone/M2
+        4. 8e2002ed  docs(evidence): WP-M2-TM-DELAY-TRIGGER 门禁三制品与 selection-records 落盘——g1+g2（三改动包）+make test 全 PASS 锚定 4bd6a25 + SR（现状锚点复核含 DELIVERY 合入核实与 SR 约定 2 现文核对·重放语义增强留痕、D1~D8 设计决策留痕含参数段形态取舍与 RunTriggerItems 不收敛形态取舍与三 blocking 解锁依据、与后续任务四条约定、范围外九条回执）
+           时间: 2026-10-11T19:58:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/8e2002ed5f4ebacaa0407b5d4ab43ed52bb63b5e
+           分支: feature/WP-M2-TA-AGGREGATION-TRIGGER-alert-poll, feature/WP-M2-TM-DELAY-TRIGGER, milestone/M2
+        5. 4bd6a254  docs(evidence): WP-M2-TM-DELAY-TRIGGER blocking 参数回填与台账订正——tasks.md 三 blocking 行（超时/延迟容忍/单项隔离）回填实际来源（D-M2-157 定案 + DELIVERY SR 约定 2 现文核对）+ L69 定向阻塞决策行订正为已解锁（消除同条目自相矛盾）+ 批量行守卫收编登记（BatchSizeOrDefault 消除）+ L63 depends_on 陈旧前缀订正（im-logic → admin-gateway，BASE-M2-DELAY-OWNER-REVISION 订正面）+ L64 prerequisite 现态表述订正 + param-source-registry delay 段终态回告（阻塞报告第 3 条解锁 + 复用来源行接入落定）+ trigger 测试 gofmt 订正（经 ledger_edit replace-anchored 受控替换 7 处，check 结构健康）
+           时间: 2026-10-11T19:56:09.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/4bd6a25416e9173873b5c303c246118168745966
+           分支: feature/WP-M2-TA-AGGREGATION-TRIGGER-alert-poll, feature/WP-M2-TM-DELAY-TRIGGER, milestone/M2
+        6. fdc0b3f3  feat(delaydeliver): WP-M2-TM-DELAY-TRIGGER 扫描载体经接入门面重锚定 + 参数来源守卫收编——jobs.NewDelayDeliverTrigger（DelayDeliverScanner 直传零改动 + NewTicketTrigger 装配：scenario/method 静态绑定 DeliverDelayedMessage + trusted context 每轮装配）+ conf.DelayDeliverConfig.TicketScanConfig 派生（周期=全局 interval flag 运行时值注入/批量原样透传无缺省/轮超时维持 5min M1 缺省/MaxRetries 恒 0 零重试层）+ 消除 BatchSizeOrDefault 缺省回退（未配置批量即 Ready 守卫接入失败，defaultDelayBatchSize 删除）+ worker 装配 buildDelayDeliverTrigger（DSN 未配置降级占位/已配置批量缺来源接入失败分级处置）+ 集成测试扩展门面装配路径（build tag 隔离）+ 既有测试订正（扫描谓词/游标/三态处置/六计数器零改动全绿维持）
+           时间: 2026-10-11T19:52:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/fdc0b3f3923a73d5daee1e01d7822ec51d5814e0
+           分支: feature/WP-M2-TA-AGGREGATION-TRIGGER-alert-poll, feature/WP-M2-TM-DELAY-TRIGGER, milestone/M2
+        7. 516c13c0  test(delaydeliver): WP-M2-TM-DELAY-TRIGGER 失败测试先行——门面装配面（NewDelayDeliverTrigger 装配守卫负向 nil 依赖/参数来源守卫负向批量周期未配置/Entry 绑定/批量分批游标推进/单项传输层错误批中止重放收敛/重复轮自头部重扫/trusted context 每轮装配/外部伪造覆盖）+ 参数段派生（DelayDeliverConfig.TicketScanConfig 周期 flag 注入/批量透传无缺省/轮超时 M1 缺省维持/MaxRetries 恒 0）+ worker 装配（buildDelayDeliverTrigger DSN 分级/未配置批量接入失败负向/Entry 绑定周期派生）（红态三包 build failed 锚定 failing-tests-first.txt）
+           时间: 2026-10-11T19:48:50.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/516c13c011003a024ea6160e14e6f85072f29ca4
+           分支: feature/WP-M2-TA-AGGREGATION-TRIGGER-alert-poll, feature/WP-M2-TM-DELAY-TRIGGER, milestone/M2
+      MR记录（按时间倒序）：
+        1. MR#88 feat(delaydeliver): 既有 delay_deliver 扫描载体经接入门面重锚定 + 参数来源守卫收编 + blocking 参数回填 (WP-M2-TM-DELAY-TRIGGER)
+           时间: 2026-10-11T11:59:57.546Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/merge_requests/88
+    • msdk/rispari/server/admin-ws-gateway          提交:   6  MR:  1  Commit评论:  0  MR评论:  0 分支:feature/WP-M2-TM-DOWNLINK, milestone/M2 (+990 / -39)
+      提交记录（按时间倒序）：
+        1. ab77cc24  docs(evidence): WP-M2-TM-DOWNLINK 评审收口——review-report 落盘（PASS 0 阻塞/1 建议/4 备忘）+ 建议项处置（抽取 consumeEvents 共享装配 b10f810）+ 门禁复跑覆盖（g1 锚定 b10f810 + 定向 + 全量零 FAIL）
+           时间: 2026-10-11T12:55:07.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/ab77cc24a8e5c0d1c5111203505ee6ec85af8037
+           分支: feature/WP-M2-TM-DOWNLINK, milestone/M2
+        2. b10f810e  test(downlink): WP-M2-TM-DOWNLINK 评审建议 1 采纳——两 stage 的 consume 装配抽取共享 consumeEvents（R1 §8 重复规则，消除近字重复）
+           时间: 2026-10-11T12:52:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/b10f810ef23947c9d0af161ce6852cd738b531bb
+           分支: feature/WP-M2-TM-DOWNLINK, milestone/M2
+        3. b638bd16  docs(evidence): WP-M2-TM-DOWNLINK 门禁与验证证据落盘（g1 PASS 锚定 5154613 + downlink 定向 + 全量 10 包零 FAIL + red-failing-tests）+ selection-records（透出路径核实 D1/候选承载取舍 D2/生产侧写出缺口登记 D3/四项交接约定 + G2 锚定 grep 留痕）+ tasks.md 勾选与完成证据 + current.md 阶段刷新
+           时间: 2026-10-11T12:36:29.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/b638bd16c0c04b6b11b913b717e460eadac57bda
+           分支: feature/WP-M2-TM-DOWNLINK, milestone/M2
+        4. 51546136  feat(contracts): WP-M2-TM-DOWNLINK im.edge.v1c DownMessage 候选镜像（types-only，WC-01 署名三字段 11~13 only-add，候选态头注待三端会签；零 import 自包含，kitex 生成）+ 红灯证据落盘
+           时间: 2026-10-11T12:31:20.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/51546136ff7807f3504467fca3dfa51d244a1a3c
+           分支: feature/WP-M2-TM-DOWNLINK, milestone/M2
+        5. 37c7967a  test(downlink): WP-M2-TM-DOWNLINK 红灯先行——WC-01 署名三字段消费与 system tip 下行样板测试（候选镜像承载引用，consumer-test-only 形态）
+           时间: 2026-10-11T12:29:22.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/37c7967ab4c456a553741ceb4ab4c3f26cfcdd13
+           分支: feature/WP-M2-TM-DOWNLINK, milestone/M2
+        6. f85b7be8  Merge branch 'feature/WP-M2-TM-DOWNLINK' into 'milestone/M2'
+           时间: 2026-10-11T05:07:53.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/f85b7be8b64ef3416eadffb3a419ccd616be8021
+           分支: milestone/M2
+      MR记录（按时间倒序）：
+        1. MR#25 feat(downlink): WP-M2-TM-DOWNLINK WC-01 署名三字段消费验证 + system tip 下行投递 (WP-M2-TM-DOWNLINK)
+           时间: 2026-10-11T04:37:27.975Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/merge_requests/25
+    • msdk/rispari/server/player-gateway            提交:   5  MR:  1  Commit评论:  0  MR评论:  0 分支:feature/WP-M2-TM-PLAYER-FLOW, milestone/M2 (+1,616 / -32)
+      提交记录（按时间倒序）：
+        1. 34271195  chore(evidence): WP-M2-TM-PLAYER-FLOW 评审处置收尾——门禁复跑覆盖写（g1+g2 PASS 锚定 cb054b0）+ 评审 agent 运行残留 pycache 清理（.gitignore 补 __pycache__/ 防再入）
+           时间: 2026-10-11T14:07:24.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/342711952410ccd30c8a04c1fbec07354f4dcf32
+           分支: feature/WP-M2-TM-PLAYER-FLOW, milestone/M2
+        2. cb054b04  test(ticketmessage): WP-M2-TM-PLAYER-FLOW 评审建议 S-1 采纳——logic 候选镜像 wire 锚定补齐 6/8/9/13 四标量 tag 用例（标量面 9/9 全覆盖对齐 edge 镜像体例）+ review-report 落盘（PASS 0 阻塞/2 建议/3 备忘）+ selection-records 评审结论叙事与 S-2 登记不径行（门控接缝收敛归 Phase 4）
+           时间: 2026-10-11T14:06:04.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/cb054b0444f7ad23d5673d62ae861fe8b1d59390
+           分支: feature/WP-M2-TM-PLAYER-FLOW, milestone/M2
+        3. bb1a7e5c  docs(evidence): WP-M2-TM-PLAYER-FLOW 门禁与验证证据落盘（g1 PASS + g2 定向 5 包 + g3 全量 36 包零 FAIL，均锚定 5adfd35）+ selection-records（unknown 直读接缝选型 7 条 + 现状锚点复核 + 四项交接约定 + 三项生产装配缺口登记 + 九条范围外回执）+ child tasks.md 勾选与 D-M2-22/163/165 待裁决订正（用户 2026-10-11 第五批裁定·方案 A）+ current.md 阶段刷新
+           时间: 2026-10-11T13:52:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/bb1a7e5c2844c9f3382e849ffcbe8725b1e4616c
+           分支: feature/WP-M2-TM-PLAYER-FLOW, milestone/M2
+        4. 5adfd35b  feat(ticketmessage): WP-M2-TM-PLAYER-FLOW H102/H105 WC-01 候选字段出口 + 展示范围门控接缝 + WS round-trip 断言
+           时间: 2026-10-11T13:49:53.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/5adfd35bf3a885f4ea132937915a26be43630b4d
+           分支: feature/WP-M2-TM-PLAYER-FLOW, milestone/M2
+        5. 1f4f0cb4  Merge branch 'feature/WP-M2-TM-PLAYER-FLOW' into 'milestone/M2'
+           时间: 2026-10-11T06:42:00.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/1f4f0cb4884ca935c36181dcc27fd9303d222781
+           分支: milestone/M2
+      MR记录（按时间倒序）：
+        1. MR#96 feat(ticketmessage): W2 玩家面 WC-01 候选字段出口与门控接缝 (WP-M2-TM-PLAYER-FLOW)
+           时间: 2026-10-11T05:53:12.726Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/merge_requests/96
+
+用户: kurokyma
+  识别: kurokyma@moonton.com
+  出现过的名字: kurokyma
+  总提交    : 3 次
+  总新增/删除: +2,842 / -620
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 3
+  按项目分布:
+    • msdk/rispari/sdk/iOS                          提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/feature-token-changes (+2,842 / -620)
+      提交记录（按时间倒序）：
+        1. 0741d109  按接口文档 rev81 修复工单模块五项差异
+           时间: 2026-10-11T23:41:23.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/iOS/-/commit/0741d109a6c8302daab368a3abd04a2d2288539e
+           分支: codex/feature-token-changes
+        2. dc4b5c2d  整理二期工单范围与任务归属
+           时间: 2026-10-11T19:28:53.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/iOS/-/commit/dc4b5c2d644ad6be6e609b7d0760131e926c60c5
+           分支: codex/feature-token-changes
+        3. 0eef355b  修复关闭终态收敛并更新二阶段范围与归档
+           时间: 2026-10-11T17:00:41.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/iOS/-/commit/0eef355b33203539f4ce30f68522127c9669cc29
+           分支: codex/feature-token-changes
+
+用户: likongquan
+  识别: levirli@moonton.com
+  出现过的名字: likongquan
+  总提交    : 1 次
+  总新增/删除: +31 / -29
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • msdk/rispari/server/admin-gateway             提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:milestone/M2_levir (+31 / -29)
+      提交记录（按时间倒序）：
+        1. 98f63290  fix(dal,cli): 修复集成分支编译破坏（列名常量重声明 + Feishu 字段名引用）
+           时间: 2026-10-11T18:11:15.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/98f63290ea0603a055d757c130f450930c89bfe6
+           分支: milestone/M2_levir
+
+用户: code-development
+  识别: group_508_bot8@moonton.com
+  出现过的名字: code-development
+  总提交    : 0 次
+  总新增/删除: +0 / -0
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • msdk/rispari/server/admin-gateway             提交:   0  MR:  1  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#187 feat(delaytask): DELAY_TASK M2 三列增量与条件更新原语 (WP-M2-TM-DELAY-TASK)
+           时间: 2026-10-11T09:12:24.509Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/187
+
+用户: 吴超伟(Chaowei)
+  识别: chaoweiwu@moonton.com
+  出现过的名字: 吴超伟(Chaowei)
+  总提交    : 1 次
+  总新增/删除: +60 / -14
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • publish_platform/ai                           提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/domestic_media_batch_offline (+60 / -14)
+      提交记录（按时间倒序）：
+        1. 3274f26a  m-7075470775 十周年打标：补跑批也按 tier 拆，修批内混 tier 断言崩溃
+           时间: 2026-10-11T16:38:10.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ai/-/commit/3274f26a7b601b5bed8477b6917a24913b73f420
+           分支: feature/domestic_media_batch_offline
+
+----------------------------------------------------------------------------------------------------
+共统计到 5 位活跃用户
