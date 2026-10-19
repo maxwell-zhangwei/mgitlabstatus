@@ -1,0 +1,964 @@
+
+====================================================================================================
+最近 24 小时用户活动统计（不使用强制别名映射）
+====================================================================================================
+
+用户: 李铭骏(Mingjun)
+  识别: mingjunli@moonton.com
+  出现过的名字: mingjunli, 李铭骏(Mingjun)
+  总提交    : 183 次
+  总新增/删除: +29,768 / -6,353
+  Merge Requests: 11 个
+  Commit 评论  : 0 条
+  MR 评论      : 1 条
+  总活动量   : 195
+  按项目分布:
+    • msdk/rispari/server/im-logic                  提交:  63  MR:  6  Commit评论:  0  MR评论:  1 分支:develop, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-EVAL-PENDING-COUNT-pending-count, feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-EVAL-TICKET-QUALIFICATION-ticket-qualification, feature/IL-M2-EVAL-WO-READ-PROJECTION-read-projection, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2 (+14,820 / -3,152)
+      提交记录（按时间倒序）：
+        1. 46467981  Merge branch 'milestone/M2' into 'develop'
+           时间: 2026-10-17T17:09:16.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/46467981ec6b1687a2cb2d4846413e5b547500af
+           分支: develop
+        2. e1f7a4af  Merge branch 'feature/IL-M2-EVAL-WO-READ-PROJECTION-read-projection' into 'milestone/M2'
+           时间: 2026-10-17T16:03:44.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/e1f7a4af97c3b13baaca5e669df0ea71bf10defa
+           分支: develop, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-EVAL-PENDING-COUNT-pending-count, feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-EVAL-TICKET-QUALIFICATION-ticket-qualification, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+        3. c18c2bad  evidence(m2): FIX-M2-ERRCODE-DECL-CONVERGE IL 首轮独立评审 PASS 入档（0 阻塞/2 建议/5 备忘，L2 档，锚定 7415239）——仅注释面边界逐 hunk 机械核验通过（非注释行命中 0）、2013 活跃面零改动、同名不同物排除、验收逐条全过；S-1【中】/S-2【低】（R1 §13 doc comment 出处与复述边界）不阻塞、归后续收敛轮跨仓统一处置
+           时间: 2026-10-18T01:42:32.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c18c2bad70434e1cc29c00f05e49169da00ab7a9
+           分支: feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+        4. 7415239c  evidence(m2): FIX-M2-ERRCODE-DECL-CONVERGE IL g3 门禁与证据落盘——锚定 f3bca24（g3 PASS 116 行含全量测试第三跑全绿、tier L2/A 类 5 文件 +14/-9；SR：仅注释面逐 hunk 验证、I-1~I-5 六处订正清单+扫全无第七处、ErrAckReadCursorInvalidArgument 同名不同物排除、2013 活跃面零改动声明、首轮测试 flaky 现象如实登记〔重跑+第三跑均全绿〕、rebase 映射 3ff9ac9→f3bca24）
+           时间: 2026-10-18T01:31:08.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/7415239cc0e0350915e981fe00517875ad70aa11
+           分支: feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+        5. f3bca247  docs(m2): FIX-M2-ERRCODE-DECL-CONVERGE 「2017 归 W4 网关」注释订正——五文件六处（query.go×2/handler_workorder_lifecycle/service.go/service_test/workorder_query_integration_test）全部订正为裁定后口径（域层 ErrInvalidCursor 经 handler InvalidArgument 上 wire、网关信封统一 1004；2026-10-17 用户裁定 4：AG 不再细分、原 2017 复用扩域口径已废止、全仓无生产点）；仅注释面——常量/业务逻辑/错误映射/测试断言零改动（IL 的 2013 常量与 EVAL 发射点不动）
+           时间: 2026-10-18T01:25:00.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/f3bca247526bdca1490aa459eeef484c139a7574
+           分支: feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+        6. a3ccc652  chore(evidence): 评审 PASS 收口——gate-output 重锚定 3aca46f + review-report 落盘 + selection-records §7 评审结论与 S-1/S-2 处置登记
+           时间: 2026-10-18T02:07:02.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/a3ccc652b5583df2ea5c531c2a0bba6c3c2ae4bf
+           分支: feature/IL-M2-EVAL-PENDING-COUNT-pending-count, feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-EVAL-TICKET-QUALIFICATION-ticket-qualification, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+        7. 3aca46f0  fix(review): 评审 S-1/S-2 返工——repo 头注移 import 后维护者面槽（package comment 槽归位，§13 触达即收敛）+ EXPLAIN 用例补 ANALYZE TABLE 统计确定性防护（对齐 workorder_query_explain 先例，防优化器统计漂移假红）
+           时间: 2026-10-18T01:57:57.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/3aca46f0bd5563aa0b49851b6e58b7d4a58ad32a
+           分支: feature/IL-M2-EVAL-PENDING-COUNT-pending-count, feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-EVAL-TICKET-QUALIFICATION-ticket-qualification, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+        8. f7a8c7ca  chore(evidence): IL-M2-EVAL-PENDING-COUNT 门禁制品重锚定 e535f18（g2 闭包 24 包全绿）+ tasks.md 勾选 + selection-records 根因订正（gorm 共享注册表回调缺陷实锤替换初诊互扰误判）+ test-output.txt 断面落盘
+           时间: 2026-10-18T01:46:41.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/f7a8c7caa52556aca0c21cd46b6fd20e9414ae6c
+           分支: feature/IL-M2-EVAL-PENDING-COUNT-pending-count, feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-EVAL-TICKET-QUALIFICATION-ticket-qualification, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+        9. e535f188  fix(test): EXPLAIN 捕获回调改独立连接——共享注册表第 4 捕获周期触发 gorm v1.24.5 Remove 残留排序约束缺陷（conflicting callback + p.fns 失效致同包后续查询静默空返回，全包 28 FAIL 雪崩），沿 IL-M2-WOL-QUERY 先例 openCaptureWorkorderRepo 零共享注册；全包复跑 biz/dal/mysql 绿（红→绿判别力验证）
+           时间: 2026-10-18T01:28:50.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/e535f188805557bb45d52a4c19d355437026cca7
+           分支: feature/IL-M2-EVAL-PENDING-COUNT-pending-count, feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-EVAL-TICKET-QUALIFICATION-ticket-qualification, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+       10. 4e8de677  feat(conversation): IL-M2-EVAL-PENDING-COUNT H107 待评价计数扩展双源聚合（有效 ticket + 可见工单应用层合计）
+           时间: 2026-10-18T00:41:49.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/4e8de6777ffcad40bd49acfaa5e9ae76b6968b6a
+           分支: feature/IL-M2-EVAL-PENDING-COUNT-pending-count, feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-EVAL-TICKET-QUALIFICATION-ticket-qualification, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+       11. 45e0fa2d  Merge branch 'feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools' into 'milestone/M2'
+           时间: 2026-10-18T14:39:52.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/45e0fa2d744d08c719736efd5eebdd45dbd2f547
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, milestone/M2
+       12. 47cd8330  chore(evidence): OPT-CONTRACT-SYNC-BASELINE-TOOL 首轮评审报告与返工增量复核报告落盘（B 类 L3：首轮 1 阻塞 3 建议经 e32381ae 处置；增量复核 PASS 无阻塞，建议级残余由作者处置自证）
+           时间: 2026-10-18T22:24:28.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/47cd83303be33a05e09ccc072978b1c8121a97ac
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, milestone/M2
+       13. 600e4b82  fix(contracts): OPT-CONTRACT-SYNC-BASELINE-TOOL 增量复核建议级残余处置——rebuild 两处裸 next() 闭括号扫描换 find_line(start=) 子区间语义（订正上提交『全部换』声明：实换 11/13，本件补齐 13/13）；比对 FAIL 前缀边界（一侧为另一侧前缀）也打 FAIL 头、成因排查提示移出差异行分支两形态共用（S-3①）；absorb 漂移 AssertionError 携带 [docs@sha] tag（漂移恰是最需留痕 ref 的场景）+ docstring 措辞对齐实际 + 用法示例补必填 --docs-ref；全分支实测：前缀边界 FAIL exit=1 / 漂移报错带 tag / find_line start 语义与失配报错 / 两工具回归 PASS
+           时间: 2026-10-18T22:24:28.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/600e4b82aeae539cb541d66314d78d0842913622
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, milestone/M2
+       14. b5b6a682  Merge branch 'feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred' into 'milestone/M2'
+           时间: 2026-10-18T14:08:05.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/b5b6a682568a9d77005e40957c97a7bd6b00a1b1
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, milestone/M2
+       15. e32381ae  fix(contracts): OPT-CONTRACT-SYNC-BASELINE-TOOL 首轮评审处置（B-1 阻塞 + S-1/S-2/S-3 建议全采纳）——B-1 absorb --docs-ref 改必填 + docstring 钉定快照警示 + 全部输出回显解析 SHA（消自家 README「勿用浮动最新」与缺省浮动 ref 的自相矛盾）+ 移除失引用常量；S-1 两工具裸 next() 全部换 find_line 带锚点语义报错（fail-loud 完备对称）；S-2 fixture 名路径成分防御（拒 ../ 触达 http 等子树）；S-3 rebuild FAIL 成因提示两分支（含 compare-ref 缺省比工作区属预期 FAIL 场景）；防御分支与端到端全复验过
+           时间: 2026-10-18T22:05:22.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/e32381ae43760089915d582d631a1c450995b040
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, milestone/M2
+       16. f26dd294  chore(evidence): IL-M2-TL-ASSIGNEE-SCOPE-CORE rebase 后三档门禁重锚定 1e1dc988（基线前进 9 提交含 WC-30 姊妹件合入；contracts/README.md 与 rpc INDEX.md 加法型冲突保双方，pb.go 自动合并经 contracttest+e2e 实跑验证；g1/g2 闭包/g3 全量复跑全绿，集成面 e2e 126s + dal/mysql 178s 非 Skip 实跑）
+           时间: 2026-10-18T22:04:36.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/f26dd29444f256496f5876de4727d2e82fb2c2a9
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, milestone/M2
+       17. 1e1dc988  chore(ticket): IL-M2-TL-ASSIGNEE-SCOPE-CORE §13 备注面收敛轮（用户指示）——churn 面机械普查（口径短语计数）后引用面收敛七文件：service×3 字段注释删域层口径复述（三值 OR/空值/fail-closed/网关展开过程/零命中——保留 mine 主体注入点与 P0-48 面差异 + 引用导航）；handler×3 域层行为复述收敛到 sort_by 先例短形态「域层归一防御」；dal applyAssigneeScopePredicates 头注空值口径段删除（与分支注释双层重复），SQL IN () 非法理据归位分支注释；纯注释 G1 面，受影响六包定向测试全绿
+           时间: 2026-10-18T21:56:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/1e1dc98877d31ae524be33bc107eb76fa37a27c4
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, milestone/M2
+       18. f5f01891  chore(ticket): IL-M2-TL-ASSIGNEE-SCOPE-CORE 增量复核备忘 M-R1 处置——workbench Errorf 断言串剥离 D-M2-251（§13 断言串非豁免面）+ SR 补记复核结论（0 阻塞/0 建议/3 备忘，S-1/S-2/S-3 修复成立）
+           时间: 2026-10-18T21:56:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/f5f0189198082f6812879a77b92e817efb8d2196
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, milestone/M2
+       19. 40eb62e9  chore(evidence): IL-M2-TL-ASSIGNEE-SCOPE-CORE 返工后三档门禁重锚定 e24eda88（g1/g2 闭包/g3 全量复跑全绿）+ review-report 入档
+           时间: 2026-10-18T21:56:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/40eb62e9fd487d17237cb4a8beb3ce60ff54bb36
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, milestone/M2
+       20. 16dafd8e  fix(ticket): IL-M2-TL-ASSIGNEE-SCOPE-CORE 首轮评审建议项处置（S-1/S-2/S-3 全采纳，0 阻塞）——S-1 服务层谓词同源测试扩展 AssigneeScope 面（批量主体=Actor.AgentID/H324 主体=AgentID/布尔面与值集同源断言，验收③服务层缺位补齐）；S-2 D-M2-251 自 godoc 可见注释面移出（常量组 doc + 新增字段注释，IL-M2-* 保留，维护者面头注允许携带）；S-3 ticket_unread_repo/ticket_query_repo 文件头注自 package comment 槽移至 import 后（§13 触达即收敛，纯注释移位）
+           时间: 2026-10-18T21:56:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/16dafd8e35c5fad98a787135ab03c234715de53d
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, milestone/M2
+       21. 568316f8  evidence(ticket): IL-M2-TL-ASSIGNEE-SCOPE-CORE 门禁与证据落盘——g1/g2 闭包/g3 全量三档 PASS + review_tier L3（契约形状翻转机械触发）锚定 3c457ba + selection-records（领取基线漂移 cba1924 留痕/REPLYSTATUS 姊妹件 0 超前未合入声明/契约同步对照含 WC-28 键剔除与不吸收面/assignee 空值双形态三源订正/mine 空主体 1004 定夺/H318 接线取舍/检索词断言/docs INDEX success-08 陈旧引用呈报/AG 下游约定）+ 测试输出断面（验收 1-6）
+           时间: 2026-10-18T21:56:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/568316f8a879f0a909ad8071077d1329315868e1
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, milestone/M2
+       22. 70434a20  feat(ticket): IL-M2-TL-ASSIGNEE-SCOPE-CORE 归属筛选三值谓词 + 标签集值集匹配——域层 NormalizeAssigneeScopeFilter 归一（mine/my_groups/unassigned 三布尔 + Present 空值口径 + mine 空主体 INVALID_ARGUMENT 防御）+ applyAssigneeScopePredicates 共享谓词（多值 OR 分组、my_groups 空值集显式 false 谓词、unassigned 双形态 IS NULL OR 空串——建单 Create 落空串与收回 nilIfEmpty 落 NULL 并存、全未知编码 fail-closed）；三消费面接线：agentTicketFilterPredicates（列表/批量/H324 共享）+ H318 CountUnreadTickets 独立谓词面直调共享 helper（接线非收敛取舍见实现注）+ 批量面 mine 主体=外层 actor_id；验收面：谓词矩阵/空值集分叉/四面 parity（列表/H324/批量/H318）/unassigned 双形态实测/DryRun SQL 形态六断言 + contracttest 两新例（ListAgentTickets-success-09 fake 镜像谓词语义 + GetUnreadTicketCount-success-09 下推归一断言）；dal/mysql 全包零回归
+           时间: 2026-10-18T21:56:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/70434a200718f02000b2e689da4d3bbfffb7740d
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, milestone/M2
+       23. 9259fdd6  feat(contracts): IL-M2-TL-ASSIGNEE-SCOPE-CORE 契约副本吸收 WC-29 归属筛选面——四 message 八字段 only-add（ListAgentTicketsReq 10/11 + GetUnreadTicketCountReq 补 agent_id=9 + 10/11 + BatchTargetFilter 6/7 + CountAgentTicketsRequest 补 agent_id=6 + 7/8，D-M2-251）；重建合并 proto 非整文件拷贝：基线 = docs a65dba3b 现文 + 自持接入配置块（IL-RDC 分支 2c29824d 逐字）+ GetAgentTicketDetailResp 字段序交换（TL-BATCH-CORE 合并形态，WO-SUBMIT 同款），基线版 protoc 生成与本仓副本逐字节零 diff 自证；make gen 两轮幂等，漂移收敛恰为两件 pb.go；fixtures rpc 六件新例吸收（ListAgentTickets-success-09 剔除 WC-28 replyStatus/pendingSince 期望键——姊妹面未吸收）+ BatchAssignTickets-success-02 既有改写 + INDEX 六行 WC-29 段追加；不吸收面：WC-28（REPLYSTATUS 分支 0 超前未合入）/WC-30（TRANSFER-CARD 链）/WC-REALIGN 注释改号行/http 镜像子树
+           时间: 2026-10-18T21:56:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/9259fdd60c964c567ca3feae0a871564faac827b
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, milestone/M2
+       24. 4c528215  feat(contracts): OPT-CONTRACT-SYNC-BASELINE-TOOL 契约同步稳定半边工具化——rebuild_contract_baseline.py（基线重建+逐字节自证：docs base-ref + 自持接入配置块 + 字段序交换 → protoc → 与仓内 pb.go 比对，产物不落盘仓内副本）+ absorb_rpc_fixture.py（fixture 选择性吸收：check/append/replace 三模式 + 姊妹面期望键剔除 + 共有用例自证与 replace 豁免）；端到端回放锚定 IL-M2-TL-ASSIGNEE-SCOPE-CORE（基线零 diff 自证 + 吸收面产物一致）；源起复盘改进项 2（方法论考古 ~10 分钟/任务，收益 15-20 分钟/任务）；README 增工具节
+           时间: 2026-10-18T21:52:07.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/4c52821594c639e340930c337694de4fc30b5267
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, milestone/M2
+       25. f37b9f48  Merge branch 'feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth' into 'milestone/M2'
+           时间: 2026-10-18T13:38:47.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/f37b9f484e4486699ca70e524f0c18662ff58fd8
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, milestone/M2
+       26. f3923e88  chore(evidence): IL-M2-TL-TRANSFER-CARD-CORE 备注规范核查轮记录与 g1 制品落盘（锚定 6de91752，兑现复核建议 R-1 锚定关系口径）
+           时间: 2026-10-18T21:37:31.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/f3923e8850596407be6af525070bb7950e71e0ab
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, milestone/M2
+       27. 6de91752  refactor(comments): IL-M2-TL-TRANSFER-CARD-CORE 备注规范全量核查轮（R1 §13 三探针，用户指令追加）——槽位收敛两文件维护者面注归位 import 后（ticket_transfer_read.go 新建文件 + ticket_repo_assignment.go 触达即收敛，package comment 槽释放）+ handler 组装循环内联注释与 assembly 接线注释收敛引用式（去 D-id 与边界复述，权威归 synthesizeTransferCards）+ 见文件头引用口径统一；纯注释收敛属 G1 面零逻辑改动
+           时间: 2026-10-18T21:36:56.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/6de9175250a28f491313ae10acad59b8dee6c8b0
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, milestone/M2
+       28. a44a6ba1  Merge branch 'feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies' into 'milestone/M2'
+           时间: 2026-10-18T13:28:52.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/a44a6ba1a739541608970dfb0de18c276eb42f87
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, milestone/M2
+       29. f8dfd150  chore(evidence): IL-M2-TL-TRANSFER-CARD-CORE 返工增量复核结论落盘——rework-re-reviewer 判返工闭合（S-1/S-2/S-4 修复成立、S-3 处置合理、无新问题），可推进合入流程；报告追加至 review-report.md 复核节
+           时间: 2026-10-18T21:24:27.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/f8dfd150f55a71832a9c670d53649e570842909c
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, milestone/M2
+       30. 26f379b1  chore(sync): SYNC-OPT-RULES-SPLIT-REVIEW 副本分发——R4-评审rules 新增 + R1-go 变更 + 前序欠账核销
+           时间: 2026-10-18T21:24:13.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/26f379b169f928013bbf7b195fdd3b147231e53e
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+       31. 72eafbf7  fix(review): IL-M2-TL-TRANSFER-CARD-CORE 首轮评审建议处置——S-1 H319.json 误带 docs 相邻 invalid-01 重复块删除（终态纯新增 success-04，agentId 口径修订面与本仓 rpc 侧同口径不吸收）+ S-2 导出符号 doc comment D-M2-* 11 处归位（溯源移维护者面块，用户 2026-10-16 裁定）+ S-4 SR §8 补空页短路 AG 交接；S-3 归仓级治理备忘
+           时间: 2026-10-18T21:18:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/72eafbf779e326939af3ede75c6a9ca7a0771a45
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, milestone/M2
+       32. 2d0a7a36  chore(evidence): IL-M2-TL-TRANSFER-CARD-CORE 三档门禁与证据落盘——g1/g2 闭包 29 包/g3 全量全 PASS 锚定 f418b04 + review_tier L3（契约形状翻转）+ make gen 三次幂等 + 验收 1-8 定向测试输出 + selection-records（时间窗谓词设计/契约同步对照/检索词断言/AG 件交接）
+           时间: 2026-10-18T20:59:05.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/2d0a7a363cf8207862beee191e085f76af79f9a7
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, milestone/M2
+       33. f418b042  feat(workbench): IL-M2-TL-TRANSFER-CARD-CORE H319 转接卡读时合成（D-M2-252，WC-30）——契约消费同步（TransferCardItem + transfer_cards=6，重建合并 proto 两步自证）+ TransferHistoryReader 窄 port（TICKET uk 点查 + idx 前缀 TRANSFER 行 SQL 谓词过滤）+ workbench 时间窗合成内核（(−∞, 页末消息时间] 闭含同刻 + 最新端抵达页 +∞ + 空页短路）+ contracttest success-02 对拍与字段集/C 端零承载守卫；不落消息库不占 seq，C 端读路径与写面零改动
+           时间: 2026-10-18T20:51:11.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/f418b042547081268633e23ea0f130efe5c54650
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, milestone/M2
+       34. cba1924f  Merge branch 'feature/IL-M2-EVAL-TICKET-QUALIFICATION-ticket-qualification' into 'milestone/M2'
+           时间: 2026-10-18T11:03:29.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/cba1924f3d606553f3e34fcf36cce5b51472a5b8
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+       35. 4aa7fca7  Merge branch 'feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge' into 'milestone/M2'
+           时间: 2026-10-18T10:56:59.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/4aa7fca77c5f78522b2834aa2c5e251e609e614e
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+       36. 85db99a2  chore(evaluation): IL-M2-EVAL-TICKET-QUALIFICATION 合入前 rebase 收口——PENDING-COUNT faa3a0d 基线同步（过程文档加法型合并，Go 零冲突）+ 三档门禁全量重跑重锚定（g1/g2/G3 @ 新头，G3 62 包零失败）+ review_tier 重判维持 L2 + SR §12 rebase 留痕
+           时间: 2026-10-18T18:48:34.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/85db99a243a6f0c411b84e372b582c1eee70d112
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-EVAL-TICKET-QUALIFICATION-ticket-qualification, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+       37. 76aebea3  chore(evaluation): IL-M2-EVAL-TICKET-QUALIFICATION selection-records 补记 MR 评论处置（备注面清理 6edd35a）
+           时间: 2026-10-18T18:40:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/76aebea322764c7285a54233ae64600506d8f554
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-EVAL-TICKET-QUALIFICATION-ticket-qualification, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+       38. ea2edb05  fix(evaluation): IL-M2-EVAL-TICKET-QUALIFICATION MR 评论处置——备注面按 R1 §13 优化
+           时间: 2026-10-18T18:40:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/ea2edb05e3e7649bf5bf6133492b43549ea584f0
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-EVAL-TICKET-QUALIFICATION-ticket-qualification, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+       39. 32e545ed  chore(evaluation): IL-M2-EVAL-TICKET-QUALIFICATION 评审 S-1 处置——三档门禁分支头复跑重锚定落盘（g1/g2/g3 @ 12446f6，G3 全量 62 包零失败）+ selection-records 补记评审结论与建议处置
+           时间: 2026-10-18T18:40:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/32e545ed859de0a53a4541c501d5441976ec425f
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-EVAL-TICKET-QUALIFICATION-ticket-qualification, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+       40. 72fd5b81  fix(evaluation): IL-M2-EVAL-TICKET-QUALIFICATION 评审建议处置（S-2/S-3）
+           时间: 2026-10-18T18:40:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/72fd5b81cb0a46d5ba6ddb9a765f71532ea9e10e
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-EVAL-TICKET-QUALIFICATION-ticket-qualification, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+       41. 555ffb23  chore(evaluation): IL-M2-EVAL-TICKET-QUALIFICATION 补落 review_tier 档位判定输出（L2 · A 类 · 无 L3 触发）
+           时间: 2026-10-18T18:40:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/555ffb2318163439eb7cd06c477bae88fc210deb
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-EVAL-TICKET-QUALIFICATION-ticket-qualification, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+       42. 7880396c  feat(evaluation): IL-M2-EVAL-TICKET-QUALIFICATION 客诉关闭链评价资格迁移
+           时间: 2026-10-18T18:40:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/7880396c192814bad811ad55afa95ffcd21ff183
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-EVAL-TICKET-QUALIFICATION-ticket-qualification, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+       43. faa3a0db  Merge branch 'feature/IL-M2-EVAL-PENDING-COUNT-pending-count' into 'milestone/M2'
+           时间: 2026-10-18T10:38:09.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/faa3a0db46dbe8cc82c50d8569e9a87d109d9021
+           分支: feature/IL-M2-EVAL-TICKET-DELAY-DELIVERY-delay-delivery, feature/IL-M2-EVAL-TICKET-QUALIFICATION-ticket-qualification, feature/IL-M2-TL-ASSIGNEE-SCOPE-CORE-assignee-scope-pred, feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, feature/IL-M2-TL-TRANSFER-CARD-CORE-transfer-card-synth, feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, feature/OPT-CONTRACT-SYNC-BASELINE-TOOL-contract-sync-tools, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+       44. 3134b39e  docs(evidence): IL-M2-EVAL-WO-READ-PROJECTION 合入前 rebase 后门禁终次重跑落盘
+           时间: 2026-10-18T00:08:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/3134b39e487362544c42b4ebd574573acb70cf0c
+           分支: feature/IL-M2-EVAL-WO-READ-PROJECTION-read-projection
+       45. d1b514a4  chore(evidence): IL-M2-TL-REPLYSTATUS-CORE 备注核查轮门禁落盘（G3 PASS 锚定 8097b646）+ SR §8R 核查轮留痕
+           时间: 2026-10-18T23:49:21.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/d1b514a4ec82350a8b9da9daa0c34cf5b0873750
+           分支: feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, milestone/M2
+       46. 8097b646  chore(comments): IL-M2-TL-REPLYSTATUS-CORE 备注规范核查轮（R1 §13，用户指令追加）——槽位收敛 + godoc 面 D-M2 剥除 + doc-body 去重
+           时间: 2026-10-18T23:41:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/8097b6465ab675833171b9ce3755fb0e474c76df
+           分支: feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, milestone/M2
+       47. e60f8a6a  chore(evidence): IL-M2-TL-REPLYSTATUS-CORE rebase 后门禁与档位终判落盘（G3 PASS 锚定 14a47777 + review_tier L3）
+           时间: 2026-10-18T23:32:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/e60f8a6a0a369f0a45bfc5145bd76b76ff3b32bc
+           分支: feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, milestone/M2
+       48. 14a47777  style(contracttest): IL-M2-TL-REPLYSTATUS-CORE gofmt 收口（rebase 合并区对齐）
+           时间: 2026-10-18T23:29:07.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/14a477774e8121312165ce1e726fbcd6d3dbb173
+           分支: feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, milestone/M2
+       49. b469e6dd  chore(sync): IL-M2-TL-REPLYSTATUS-CORE rebase 同步——基线前进 18 提交（WC-29/30 姊妹件合入）契约面合并 + 全量 regen
+           时间: 2026-10-18T23:28:47.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/b469e6dddda7299916a418cabefb793e68ca3aa7
+           分支: feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, milestone/M2
+       50. 71ba7445  chore(ticket): IL-M2-TL-REPLYSTATUS-CORE 增量复核建议处置（S-R1/S-R2/S-R3）
+           时间: 2026-10-18T22:58:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/71ba7445c82ad69e667d4af0f22cdd403c52b49a
+           分支: feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, milestone/M2
+       51. e799e586  docs(evidence): IL-M2-TL-REPLYSTATUS-CORE SR 补记门禁偶发 FAIL 复跑 PASS 留痕
+           时间: 2026-10-18T22:58:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/e799e586f49a3484e12b466ab086aa34597644ed
+           分支: feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, milestone/M2
+       52. bc0a21ac  chore(evidence): IL-M2-TL-REPLYSTATUS-CORE 返工后门禁与档位重判落盘（G3 PASS 锚定 e1ee02ac + review_tier L3 重判）
+           时间: 2026-10-18T22:58:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/bc0a21ac2c38047f80b12620042530aa4c50f59b
+           分支: feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, milestone/M2
+       53. fa538d6f  fix(ticket): IL-M2-TL-REPLYSTATUS-CORE 独立评审返工（B-1 FAILED 载体门控 + S-1~S-6 处置）
+           时间: 2026-10-18T22:58:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/fa538d6f7e2c8b3807a7bc22363f074a46ca827e
+           分支: feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, milestone/M2
+       54. a6346b75  chore(evidence): IL-M2-TL-REPLYSTATUS-CORE 门禁与档位判定落盘（G3 PASS 锚定 a65ebe1b + review_tier L3）
+           时间: 2026-10-18T22:56:26.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/a6346b75ae4fe78b32887349167d9694df17a6b2
+           分支: feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, milestone/M2
+       55. 07e1569b  feat(contract): IL-M2-TL-REPLYSTATUS-CORE 契约消费同步（WC-28 四字段 + sort_by 两注释）+ handler wire 组装 + fixtures/contracttest 吸收
+           时间: 2026-10-18T22:56:26.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/07e1569b8a8f8a29ad742610e90b0752b8f11c2f
+           分支: feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, milestone/M2
+       56. 5f8df4c3  fix(ticket): IL-M2-TL-REPLYSTATUS-CORE 负毫秒用例 createdAt 改弃值消费（SA4006 收口）
+           时间: 2026-10-18T22:50:34.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/5f8df4c39e77799ce6494a39246078d26bf3350f
+           分支: feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, milestone/M2
+       57. 820b3bde  fix(ticket): IL-M2-TL-REPLYSTATUS-CORE SA4006 订正（跨排序用例变量改值消费）
+           时间: 2026-10-18T22:50:34.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/820b3bde59972559f4ff2dd33af32b32ea8f7da9
+           分支: feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, milestone/M2
+       58. 692970e0  style(ticket): IL-M2-TL-REPLYSTATUS-CORE gofmt 收口（集成测试文件对齐）
+           时间: 2026-10-18T22:50:34.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/692970e02feb66959f48dfe1e39ea54eee658ec2
+           分支: feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, milestone/M2
+       59. a498657a  feat(ticket): IL-M2-TL-REPLYSTATUS-CORE 回复状态两列 + 写触发四事件 + 读链路与排序扩值（待契约 regen）
+           时间: 2026-10-18T22:50:34.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/a498657a9470b7b45dbe56dc4932fb708fc89273
+           分支: feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core, milestone/M2
+       60. 89fec32c  chore(evidence): IL-OPT-TEST-SHARD-PER-CHECKOUT 门禁与证据落盘——G3 重锚定 de338c12 + 跨检出并行实测
+           时间: 2026-10-18T23:53:11.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/89fec32cd6ce6834250c1b18306e95c94d68ab78
+           分支: feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, milestone/M2
+       61. de338c12  refactor(test): IL-OPT-TEST-SHARD-PER-CHECKOUT 评审返工——doc 面溯源归位 / 越界 fail-loud / 口径收敛
+           时间: 2026-10-18T23:48:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/de338c127f7348171b9cbc4b282d3cc754bbd34a
+           分支: feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, milestone/M2
+       62. 2ea540ab  test(integration): IL-OPT-TEST-SHARD-PER-CHECKOUT 集成测试分片与回环端口按检出派生 + 锁超时不得静默降级
+           时间: 2026-10-18T23:23:56.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/2ea540ab244156ced2381c03ee424714b3777d30
+           分支: feature/IL-OPT-TEST-SHARD-PER-CHECKOUT-shard-per-checkout, milestone/M2
+       63. 26a49816  Merge branch 'feature/IL-M2-TL-REPLYSTATUS-CORE-replystatus-core' into 'milestone/M2'
+           时间: 2026-10-18T15:50:29.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/26a49816f3d4355c2781dfc0f2b0318b45054a7f
+           分支: milestone/M2
+      MR记录（按时间倒序）：
+        1. MR#335 test(integration): IL-OPT-TEST-SHARD-PER-CHECKOUT 集成测试分片与回环端口按检出派生 + 锁超时不得静默降级
+           时间: 2026-10-18T15:24:04.391Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/335
+        2. MR#334 feat(contracts): OPT-CONTRACT-SYNC-BASELINE-TOOL 契约同步稳定半边工具化 (OPT-CONTRACT-SYNC-BASELINE-TOOL)
+           时间: 2026-10-18T13:52:20.511Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/334
+        3. MR#333 feat(ticket): IL-M2-TL-REPLYSTATUS-CORE 回复状态两列 + 写触发四事件 + 读链路 + 排序扩值翻默认 + H318 计数切换（D-M2-250/WC-28）
+           时间: 2026-10-18T13:37:01.825Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/333
+        4. MR#331 feat(workbench): IL-M2-TL-TRANSFER-CARD-CORE H319 转接卡读时合成（D-M2-252，WC-30）
+           时间: 2026-10-18T12:59:14.017Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/331
+        5. MR#330 feat(ticket): IL-M2-TL-ASSIGNEE-SCOPE-CORE 客诉归属筛选三值谓词 + 标签集值集匹配 (IL-M2-TL-ASSIGNEE-SCOPE-CORE)
+           时间: 2026-10-18T12:52:00.579Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/330
+        6. MR#325 feat(workorder): IL-M2-EVAL-WO-READ-PROJECTION 三挂载位评价只读投影
+           时间: 2026-10-17T16:10:02.649Z
+           状态: closed
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/325
+      MR评论记录：
+        1. 李铭骏(Mingjun): 为什么这里加备注
+           MR#: 329 (feat(evaluation): IL-M2-EVAL-TICKET-QUALIFICATION 客诉关闭链评价资格迁移（W4 首件）)
+           时间: 2026-10-18T10:30:02.141Z
+           链接: 
+    • msdk/rispari/tools/server-coordination        提交:  44  MR:  1  Commit评论:  0  MR评论:  0 分支:feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master (+1,165 / -269)
+      提交记录（按时间倒序）：
+        1. 3717668c  Merge branch 'fix-checklist-ref' into 'master'
+           时间: 2026-10-18T15:11:21.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/3717668c43a178986b73f46872d298652ca2d53d
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, master
+        2. 64e70aec  fix(playbook): 评审建议返工——S-1 services 槽位引导句补仓缺文件限定（admin-ws-gateway 无 docs/ 目录，内联形态为准）+ C-13 注释扩注第 5 仓；S-2 补内联镜像与权威版第 6 条同批维护义务
+           时间: 2026-10-18T23:10:05.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/64e70aec1471bb0611820065a13d5fcb7f438c25
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, fix-checklist-ref, master
+        3. 1523f3e0  fix(playbook): SKILL.md services 槽位构造点条目自含化——消除对 checklist 第 6 条的悬空引用（该清单在服务仓为各仓自治 fork/缺失，引用落点不存在），双通道 grep 与执行注意内联（各仓可达）
+           时间: 2026-10-18T23:02:26.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/1523f3e0a60a8ddf2a0640394c62a51a5dde27de
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, fix-checklist-ref, master
+        4. 1b721756  Merge branch 'feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency' into 'master'
+           时间: 2026-10-18T14:58:35.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/1b721756c152888ba55b7752cf4994c1ad03bcf3
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, fix-checklist-ref, master
+        5. 41bc11f2  docs(playbook): checklist 第 6 条出处行去复盘归档指针与量化值——压至与第 4/5 条同体量
+           时间: 2026-10-18T22:57:53.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/41bc11f20aeaf2b9c80736a50abf50fad48afcd1
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, fix-checklist-ref, master
+        6. 05128447  docs(playbook): SKILL.md 条款②删溯源括号——规则文本不携带任务来源叙事
+           时间: 2026-10-18T22:57:25.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/051284472833638feb15b6af83fb79cc6840f1c1
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, fix-checklist-ref, master
+        7. 96040ba7  docs(playbook): 去过程性描述——SKILL.md 条款②括号叙事收敛为任务号+日期（对齐既有体例）+ 槽位短句去量化引用；checklist 第 6 条删跨仓复测时点计数（量化值归 MR 描述与归档，不入长生命周期清单），保留 grep 双通道命令与过报/零命中执行提示
+           时间: 2026-10-18T22:44:08.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/96040ba78a89886fe522296bdd5b7d3bfa3d7bb8
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, fix-checklist-ref, master
+        8. 80274436  Merge branch 'feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority' into 'master'
+           时间: 2026-10-18T14:39:23.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/802744361213223a9f1529515233360505d83e8e
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, fix-checklist-ref, master
+        9. 59072771  docs(governance): OPT-GOV-EXT-STATE-AUTHORITY 评审建议处置——S-1 定位句表述按实测 17/26 订正 + S-2 引用面测量口径锚定；评审报告入 evidence（PASS 0 阻塞/2 建议/5 备忘）
+           时间: 2026-10-18T22:35:22.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/59072771db5e0c5593022d6f749892c410311dd1
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, fix-checklist-ref, master
+       10. 5429c368  docs(playbook): checklist 第 6 条补双通道跨仓复测结论——通道 B 过报形态提示（func 签名行，剔除指引）+ 通道 A 零命中假安全失效模式（workorderaction_service 全仓 0 包限定构造点）+ &Deps 指针形态覆盖声明；admin-gateway 三对象复测计数逐项对账（delaymsg 7+6、workorderaction 0+2真实/3过报）
+           时间: 2026-10-18T22:28:04.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/5429c3684d227f99dde1bb4cd108f4f60b29b306
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, fix-checklist-ref, master
+       11. 4888cb2c  docs(governance): OPT-GOV-EXT-STATE-AUTHORITY Phase B——delivery-governance 增 §7 EXT 状态权威（活状态=ledger、镜像不翻转、收口不繁殖任务、Phase A 切换面留痕）
+           时间: 2026-10-18T22:25:58.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/4888cb2c3f719616b55d87a358fd54346f8820a9
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, fix-checklist-ref, master
+       12. c8ce82bb  docs(playbook): OPT-PLAYBOOK-EXEC-EFFICIENCY 评审建议返工——S-1 承载归位（checklist 属主面全文第 6 条 + SKILL.md 双槽位收敛短句）+ S-2 复盘归档 coordination/retrospectives + S-3 双检索通道 grep 形态修正（裸字面量通道正则修正并实测判别力 3/11）；附评审报告落盘
+           时间: 2026-10-18T22:13:20.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/c8ce82bb33cfed6573527185dfe02925aeb0180f
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, fix-checklist-ref, master
+       13. 793b4974  docs(playbook): OPT-PLAYBOOK-EXEC-EFFICIENCY 硬门禁 3 增两条执行效率条款（IL-M2-TL-TRANSFER-CARD-CORE 复盘驱动）——① 返工高发点自查增 Deps 构造点全集前置枚举（双槽位同文，P0-45 先例升格显式条目）② 门禁段增「全量验证一次付清，提交前不另跑预检全量轮」（预检/G3 同树冗余 6min 实测）；服务仓副本 DRIFT 为预期中间态，合入后同步轮核销
+           时间: 2026-10-18T21:54:49.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/793b4974842a64148c1ec28e240ac06cf0351780
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, fix-checklist-ref, master
+       14. 1033be3e  docs(coordination): 门禁副本面治理台账第 3 轮收口——五仓 MR 全部合入、副本面归零（含第 1 轮遗留）
+           时间: 2026-10-18T21:32:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/1033be3ecd07633d08445fe4609f3da3dc92bb14
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, fix-checklist-ref, master
+       15. c816fc76  docs(coordination): 门禁副本面治理台账第 3 轮登记——规则面剥离 + 锚定豁免两任务欠账合并同步
+           时间: 2026-10-18T21:25:46.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/c816fc76affa2ec87df0e864e5665668b44389ba
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, fix-checklist-ref, master
+       16. c56bc7bc  docs(coordination): 台账收口——五仓同步轮批量评审 PASS（0 阻塞/1 建议中/5 备忘）+ S-1 已修（R2 浓缩「三端会签」订正五仓追加提交），待用户合入五 MR
+           时间: 2026-10-18T21:20:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/c56bc7bc7fe698a5fcee4b6c29fcd6fa93ba56c4
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, fix-checklist-ref, master
+       17. c4d23389  docs(coordination): 台账更新——!435 合入核实（5ed22072）+ SYNC-COPIES-2026-10-17 五仓同步轮在途登记（!313/!131/!292/!45/!113 评审中）
+           时间: 2026-10-18T21:20:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/c4d23389687f211a738c3bcaaf269985e2678e56
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, fix-checklist-ref, master
+       18. 7deb8d05  docs(coordination): 台账补登——「管理类过程信息不写入」编写约束暂缓执行登记（用户 2026-10-17 裁定后续添加；含现状盘点、候选落点与条款要点）
+           时间: 2026-10-18T21:20:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/7deb8d059a4fb7e6eebdbd6d72488ad3bf040c34
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, fix-checklist-ref, master
+       19. d413c11e  docs(coordination): 台账更新——批 2 !435 评审 PASS（0 阻塞/2 建议均低/4 备忘）待用户合入；S-1 已修、S-2 B_PATTERNS 扩充与三仓 R1 副本既有欠账登记
+           时间: 2026-10-18T21:20:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/d413c11e89e5ed2b61984d5363d35f8f2be1224d
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, fix-checklist-ref, master
+       20. bad4c980  docs(coordination): 台账更新——!433 合入核实（4944aa04）+ 批 2 RULES-PROCESS-WORDING !435 评审中；四仓 apply 轮与姊妹任务前置已解锁登记
+           时间: 2026-10-18T21:20:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/bad4c98095f32f373d7777402110ef3818f14aef
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, fix-checklist-ref, master
+       21. 05b6f98e  docs(coordination): 台账更新——去过程化批 1 完成（!433 内自产自清 08367582）+ 批 2 RULES-PROCESS-WORDING 待办登记（存量 7+4 处清理清单与保留面）
+           时间: 2026-10-18T21:20:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/05b6f98e157d31e3954c2f1754ef09b9f8bd4554
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, fix-checklist-ref, master
+       22. 3b59f956  docs(coordination): OPT-DOCS-TOOLS-HOMING 台账收口——S-1 已修（644740fe）+ rebase 同步完成（067bf54d 全绿锚定 a2f48cdb），待用户合入 !433
+           时间: 2026-10-18T21:20:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/3b59f956af2d36a3b54753f131012b1fdbf6c0ed
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, fix-checklist-ref, master
+       23. ee15164d  docs(coordination): OPT-DOCS-TOOLS-HOMING 台账更新——评审 PASS（0 阻塞/2 建议/5 备忘）待用户合入；S-1/S-2 处置待办登记
+           时间: 2026-10-18T21:20:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/ee15164d6d0fc9b3e2c0c4d06d95cfbe330cf5b1
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, fix-checklist-ref, master
+       24. a5b148e4  docs(coordination): OPT-DOCS-TOOLS-HOMING 台账建档——docs 回迁 MR !433 评审中 + 调度仓姊妹任务（脚本删除/引用面订正/EXCLUDED 三处同批）待办登记
+           时间: 2026-10-18T21:20:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/a5b148e41b8216cb867c08f50ea3a50b0599d4e4
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, fix-checklist-ref, master
+       25. 0d1a072d  Merge branch 'feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules' into 'master'
+           时间: 2026-10-18T13:13:24.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/0d1a072deeeef43ce0974d7e5066f79b9e8ff6a0
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, fix-checklist-ref, master
+       26. 8f45f8f9  docs(gov): OPT-RULES-SPLIT-REVIEW 返工验证轮 M-2/M-3 处置——归档面补入不改写清单 + 欠账归属补注
+           时间: 2026-10-18T20:30:35.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/8f45f8f9ac2003bc71c434731656c0a659fce689
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master
+       27. 0ec6fdc4  docs(gov): OPT-RULES-SPLIT-REVIEW 第二段评审 B-1/B-2/S-1/S-3/M-1/M-2 处置
+           时间: 2026-10-18T20:10:47.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/0ec6fdc415b7d1cc0c0387ba898ba22a6fe4c8a4
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master
+       28. 067daff1  docs(gov): OPT-RULES-SPLIT-REVIEW 评审 B-1 姊妹项——根 CLAUDE.md 规则枚举补 R4 评审与门禁
+           时间: 2026-10-18T20:07:55.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/067daff16c00bc808c3b444c934ecf2a40d2f717
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master
+       29. 12da94c8  docs(gov): OPT-RULES-SPLIT-REVIEW 分发面加 R4 + 活面引用 R1 §6 → R4 收敛
+           时间: 2026-10-18T20:02:05.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/12da94c8619612194e60faa1b0c925baf1089775
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master
+       30. ec61ad4b  Merge branch 'feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption' into 'master'
+           时间: 2026-10-18T11:49:42.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/ec61ad4b7f236dd652a2b96afc7469b00ed81d83
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master
+       31. 82ed4120  fix(review): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL 验收轮 M-1/M-5 处置——编译指令行补 //export 与 //line
+           时间: 2026-10-18T19:43:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/82ed41203d464c3e67ffe3bcbca7a786e69dd3d8
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master
+       32. 4c2eb1de  fix(review): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL 第三轮复评 S-1~S-4/M-1~M-3 处置
+           时间: 2026-10-18T19:36:22.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/4c2eb1de5acf64a9de93988fb9cb93209c7821ff
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master
+       33. f9b663f5  docs(playbook): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL gates-and-commands 补 rebase 场景的 anchor_refresh 指针（复评 S-4 同批）
+           时间: 2026-10-18T19:23:02.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/f9b663f50039402fb5e4f16879697f51171c112d
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master
+       34. 3fadefef  fix(review): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL S-6 提示面收窄——只对非 .md 的工具链不读文件提示（.md 场景误触发会淹成噪音）
+           时间: 2026-10-18T18:55:25.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/3fadefefa87173e76199d68199f06731bf081866
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master
+       35. 03aff8f0  fix(review): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL docs 复评 S-1/S-2/S-3/S-6 处置（含 α 自由行 fail-open 收窄）
+           时间: 2026-10-18T18:54:56.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/03aff8f04768f6ff9ac56d2c6d4f666db20db455
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master
+       36. 781d8d9f  fix(gate): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL 复评建议项 S-1/S-2/S-4/S-5 处置
+           时间: 2026-10-18T18:52:53.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/781d8d9fda3345f97d067e37b134b6caedfa1aa7
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master
+       37. a249d878  docs(playbook): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL 拒绝面表述同步 go.work/vendor/.golangci 变体（制品声明行 + 命令模板）
+           时间: 2026-10-18T18:46:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/a249d8784847f2159c44b1e182a76ffe8806b36b
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master
+       38. 5f4bebbf  fix(review): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL 拒绝面补 go.work / vendor/ / .golangci.{toml,json}
+           时间: 2026-10-18T18:46:22.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/5f4bebbfacbcd43e9066a29a41cc80bf81498eed
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master
+       39. 25b5a692  feat(review): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL 锚定豁免判据由文件类型白名单改为工具链读取面黑名单
+           时间: 2026-10-18T18:37:47.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/25b5a69240092650f3b9be42e13a6ecdf76b8bf4
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master
+       40. d4aef698  fix(gate): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL 评审阻塞项 B-1 处置 + _diff_hunks 末 hunk 丢失修复 + S-2/S-3/S-4
+           时间: 2026-10-18T01:11:44.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/d4aef698cf82b98fbc4da03d02c2e486dbbc2987
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master
+       41. df400610  docs(playbook): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL 锚定豁免引用面同步（条款改名 + content-neutral 落地）
+           时间: 2026-10-18T01:03:36.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/df400610c03b35d5ea89d121276e3df6c501e9e9
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master
+       42. 90815c6d  feat(gate): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL gate.sh --anchor-mode=content-neutral 增量非行为型锚定豁免
+           时间: 2026-10-18T01:02:59.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/90815c6d340522485c31281ccacd100efd375335
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master
+       43. 80fb0976  coordination(ledger): A6 批量裁定登记与 WC 编号对齐两件合入收口——D-M2-253/WC 重编号远端核实回填（5059b05d/5ae73f10），ASSIGNEE/TRANSFER 锚点联动义务消解留痕
+           时间: 2026-10-18T00:56:25.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/80fb09766751ea035785644607add435eedc117d
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master
+       44. 75ecd0dd  feat(review): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL review_tier.py 抽行为中性判据单一事实源 + 锚定豁免判定入口
+           时间: 2026-10-18T00:54:32.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/75ecd0dd3cb63d46879433b9344ce57ab65248d2
+           分支: feature/FIX-REVIEWTIER-BASE-RESOLVE-base-resolve, feature/FIX-REVIEWTIER-QUOTEPATH-quotepath, feature/FIX-SH-BASH4-GUARD-bash4-guard, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-COORD-RETRO-DEDUP-dispatch-dedup, feature/OPT-G3-GATE-DISCIPLINE-test-exec-discipline, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-PLAYBOOK-EXEC-EFFICIENCY-exec-efficiency, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix-checklist-ref, master
+      MR记录（按时间倒序）：
+        1. MR#42 docs(playbook): OPT-PLAYBOOK-EXEC-EFFICIENCY 硬门禁 3 增两条执行效率条款（复盘驱动）
+           时间: 2026-10-18T13:54:56.313Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/merge_requests/42
+    • msdk/rispari/server/docs                      提交:  38  MR:  2  Commit评论:  0  MR评论:  0 分支:feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout, feature/BASE-M2-TL-BATCH-DECISIONS-REG-docs-closure, feature/BASE-M2-WC-REALIGN-wc-renumber, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-TL-REPLYSTATUS-CORE-h318-sort-comment, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2 (+1,418 / -183)
+      提交记录（按时间倒序）：
+        1. 27d88256  Merge branch 'feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority' into 'milestone/M2'
+           时间: 2026-10-18T14:39:29.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/27d88256b3ab59a7c51722005af4a24647fc24c6
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+        2. 01fa1459  docs(evidence): OPT-GOV-EXT-STATE-AUTHORITY Phase B——external-baseline.md 头部 EXT 活状态权威指针一次性注记（capability-gap.tsv 为 Gate 复算源不动）
+           时间: 2026-10-18T22:25:59.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/01fa1459e22466cf181ed03d178af3e6ed3675ef
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+        3. ccc3b709  Merge branch 'feature/IL-M2-TL-REPLYSTATUS-CORE-h318-sort-comment' into 'milestone/M2'
+           时间: 2026-10-18T13:17:42.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/ccc3b709c665faa7d72833dfd85860c96a897009
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+        4. 85bfe907  Merge branch 'feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules' into 'milestone/M2'
+           时间: 2026-10-18T13:13:04.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/85bfe907ce539d267b46ccf97a8d8bd7667352e1
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+        5. cdd5adb0  docs(rules): OPT-RULES-SPLIT-REVIEW 返工验证轮 S-B/S-C/S-D/M-4 处置
+           时间: 2026-10-18T20:30:36.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/cdd5adb062be03fea6db84b20e2f01661e62bebc
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+        6. 44ed3f76  docs(rules): OPT-RULES-SPLIT-REVIEW 评审 B-1/S-1/S-2 处置
+           时间: 2026-10-18T20:07:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/44ed3f764c3b93fd3f56354ee96627f0e1338b03
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+        7. 2609a435  docs(rules): OPT-RULES-SPLIT-REVIEW R2 内 5 处提交门禁引用改指 R4 §1（同批）
+           时间: 2026-10-18T20:02:09.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/2609a435b358daa10a013067856519a3541e8421
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+        8. 787e6b73  docs(rules): OPT-RULES-SPLIT-REVIEW 提交门禁与评审判据自 R1 剥离为 R4-评审rules
+           时间: 2026-10-18T19:59:29.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/787e6b7343d53fd41b09ff7ee31db59fc53ad2bd
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+        9. 1a1cfc4c  Merge branch 'feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption' into 'milestone/M2'
+           时间: 2026-10-18T11:48:30.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/1a1cfc4cd467bcad11594787b1661fefe4c011a2
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       10. 86d5c9aa  Merge branch 'feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout' into 'milestone/M2'
+           时间: 2026-10-18T11:41:59.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/86d5c9aa4e2fd8f7d7e7a43511694a9f121d3156
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       11. 32beccc9  docs(rules): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL 第三轮复评 S-1/S-2/S-3 处置
+           时间: 2026-10-18T19:36:22.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/32beccc9cb0d5c6db6f52d9cedace03d3d08dba6
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       12. a22890b6  evidence(m2): BASE-M2-EVAL-SIGNOFF-CLOSEOUT 门禁与证据落盘——precheck 八段全绿（66 行锚定 69a19494）+ review_tier L0/C 类（正面断言三条全过，免独立评审）+ selection-records 改动面逐处登记与 tsv/md 现值锚定
+           时间: 2026-10-18T19:30:23.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/a22890b6e58927c2f7b23f137762e3250d20bb81
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       13. 69a19494  evidence(m2): BASE-M2-EVAL-SIGNOFF-CLOSEOUT EXT-EVAL-CLIENT-SIGNOFF 用户确认收口留痕——capability-gap.tsv L6 翻转（maturity GAP→CONFIRMED + gap/close_evidence 收口叙述）+ external-baseline.md §1 总表 L29/L30 陈旧值改值（GAP/IMPLEMENTED_NOT_SIGNED→CONFIRMED，用户 2026-10-18 裁定改值对齐 tsv 权威态）+ §2.5 节尾收口注记（追加不回改，含 L143 先例分叉理由留痕）；领取基线漂移 5059b05d→5f68a26e（漂移面未触本件目标文件，两契约冻结 merge 8c396640/6d70f370 祖先链复核在位）
+           时间: 2026-10-18T19:29:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/69a19494a35e44702d7c2055487cff469e271f91
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       14. e64a8edb  docs(rules): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL 复评 S-4 二次处置——按场景区分制品处置并指向 anchor_refresh.py
+           时间: 2026-10-18T19:23:02.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/e64a8edbc3133bcbb1d6a73810dde2892c4f9b8d
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       15. 11bb7dfe  docs(contracts): IL-M2-TL-REPLYSTATUS-CORE H318 计数基准列切换语义落定回写 GetUnreadTicketCountReq.sort_by 注释
+           时间: 2026-10-18T19:10:26.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/11bb7dfe4d8c6c91726c925dfa3e3fa908467ee4
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/IL-M2-TL-REPLYSTATUS-CORE-h318-sort-comment, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       16. 5f68a26e  Merge branch 'feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge' into 'milestone/M2'
+           时间: 2026-10-18T10:56:31.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/5f68a26e0ea2a418e4e2783f71d5f5b0b3bae5c7
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout, feature/IL-M2-TL-REPLYSTATUS-CORE-h318-sort-comment, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       17. 60281e5b  docs(rules): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL 复评 S-4 处置——范围句补 precheck ② 交互
+           时间: 2026-10-18T18:54:56.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/60281e5b68bec451d895edc87be2be35f0975668
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       18. c6b62aa2  docs(rules): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL 拒绝面补编译期非 Go 输入（.s/.syso/cgo）——复评 S-1 同批
+           时间: 2026-10-18T18:52:53.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/c6b62aa275c25c1e1f812b887c88554cd4be17f4
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       19. e69e6155  docs(rules): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL 拒绝面补 go.work/vendor/.golangci 变体（防御性，存疑不豁免）
+           时间: 2026-10-18T18:46:34.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/e69e61551254fcd0f7c4d8b2171adfbe175a7491
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       20. 4c6aca15  docs(rules): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL 锚定豁免判据改按改动性质划（工具链读取面黑名单）
+           时间: 2026-10-18T18:37:53.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/4c6aca151986b4690ee8e390d1d855bac47f9947
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       21. 6c5d350b  evidence(m2): FIX-M2-ERRCODE-DECL-CONVERGE docs 首轮独立评审 PASS 入档（0 阻塞/2 建议/6 备忘，L2 档，锚定 f9ad6226）——检索断言/跨仓行为一致性/扩面正当性独立复核全过；S-2 采纳：SR §7 补「消费前按当前基线重核」提示（ERRCODE-WIRING 增补常量致矩阵审计时点断言过时）；S-1（CG/RG 幂等承载同类缺陷后续任务开立）随收口呈报呈报用户
+           时间: 2026-10-18T01:42:24.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/6c5d350b9e5522b18c802c6a8ac0ae6348e575ff
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-TL-REPLYSTATUS-CORE-h318-sort-comment, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       22. f9ad6226  evidence(m2): FIX-M2-ERRCODE-DECL-CONVERGE docs 合入前 rebase 锚定刷新——基线 f7464d25→5059b05d（WC-REALIGN/TL-TRANSFER-CARD 等 25 提交，未触订正面实质内容、无冲突），commit 映射 66c19cc7→432a6166 / bc7d1d5a→6d47f976 / fe8f177f→30b66f80；precheck 必跑面复跑全绿（101 行/8 段/锚定 30b66f80）+ tier 复判 L2/B·9 文件不变 + SR 锚定行同步
+           时间: 2026-10-18T01:16:47.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/f9ad6226d9528a55658d5f31d3e45e1a12de0197
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-TL-REPLYSTATUS-CORE-h318-sort-comment, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       23. 30b66f80  evidence(m2): FIX-M2-ERRCODE-DECL-CONVERGE docs 门禁与证据落盘——锚定 bc7d1d5a（precheck 必跑面全绿 95 行/8 段、tier L2/B 类 9 文件 +38/-36、check-pointer 不适用〔无 Backlog 条目〕、检索词断言 10/10 零残留+全命中；SR：逐条订正依据、扩面发现三处〔TFC http/design + chi:597〕、跨任务发现四处〔CG/RG 承载注记/TL rpc 陈旧指针/proto 镜像单侧订正/矩阵时点耦合〕）
+           时间: 2026-10-18T01:14:10.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/30b66f809b84037f12007ee8d97be84a65917e6d
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-TL-REPLYSTATUS-CORE-h318-sort-comment, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       24. 6d47f976  docs(m2): FIX-M2-ERRCODE-DECL-CONVERGE 订正补全——TFC design.md 幂等承载段同口径订正（模块内自洽，http.md §31 同形态）+ WOL rpc 游标注释补任务号锚点
+           时间: 2026-10-18T01:14:10.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/6d47f97677317abf627c62517f024cd990e181b5
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-TL-REPLYSTATUS-CORE-h318-sort-comment, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       25. 432a6166  docs(m2): FIX-M2-ERRCODE-DECL-CONVERGE 错误码 2013/2017 申报-实现收敛契约订正
+           时间: 2026-10-18T01:14:10.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/432a61663c92d3550eb4f505f4b453e1805ce4ab
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-TL-REPLYSTATUS-CORE-h318-sort-comment, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       26. edf3bb4d  docs(rules): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL 第二段评审 S-1 处置——改动面口径补记 evidence 剔除面
+           时间: 2026-10-18T01:11:49.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/edf3bb4d50c4c41bda7c24b89d29d5527f7774ad
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       27. 68c07078  docs(rules): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL 评审建议项 S-1/S-2 处置
+           时间: 2026-10-18T00:55:35.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/68c070786b826810f6061ef38fbc1669a77f98f2
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       28. 5059b05d  Merge branch 'feature/BASE-M2-TL-BATCH-DECISIONS-REG-docs-closure' into 'milestone/M2'
+           时间: 2026-10-17T16:47:42.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/5059b05d7c2cedcb7f3189cdac5193aef93db9fd
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-TL-REPLYSTATUS-CORE-h318-sort-comment, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       29. f1f174f0  evidence(m2): BASE-M2-TL-BATCH-DECISIONS-REG 门禁复跑全绿版落盘（precheck ② 锚定刷新后 0 FAIL，锚定 18f09d88 链内提交）
+           时间: 2026-10-18T00:43:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/f1f174f02fbf4a1715e135db4150fe44773c9624
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout, feature/BASE-M2-TL-BATCH-DECISIONS-REG-docs-closure, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-TL-REPLYSTATUS-CORE-h318-sort-comment, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       30. 18f09d88  evidence(m2): BASE-M2-TL-BATCH-DECISIONS-REG 合入前 rebase 撞车处置——上游 WC-REALIGN 合入致 .progress/current.md 同位追加冲突，加法型全保留（WC-REALIGN 行在前）；commit 映射 119ce7cb→4642ab7f / b172195d→17c6d940 / 6d22f41d→7eec9dc5；门禁复跑重落（tier 维持 L3 决策翻转）+ review-report 头部 rebase 映射说明 + SR §8 留痕
+           时间: 2026-10-18T00:43:23.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/18f09d886d2d50d8b4fbe3d38c1c5fc882589af8
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout, feature/BASE-M2-TL-BATCH-DECISIONS-REG-docs-closure, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-TL-REPLYSTATUS-CORE-h318-sort-comment, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       31. 7eec9dc5  evidence(m2): BASE-M2-TL-BATCH-DECISIONS-REG 首轮独立评审 PASS（0 阻塞/2 建议/6 备忘，L3 ⑦项口径）——评审报告入档（锚定 b172195d/上游 57ddadc）+ SR §7 处置留痕（S-1 采纳：报告副本随上游同目录落位；S-2 零动作：双锚点措辞分叉归协调方工作层）
+           时间: 2026-10-18T00:41:48.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/7eec9dc5abc281a4cca41ca62b5df8a3ea553292
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout, feature/BASE-M2-TL-BATCH-DECISIONS-REG-docs-closure, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-TL-REPLYSTATUS-CORE-h318-sort-comment, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       32. 17c6d940  evidence(m2): BASE-M2-TL-BATCH-DECISIONS-REG 门禁与档位制品——review_tier L3 判定输出（decisions.md 路径触发决策翻转模式）+ review-precheck 八段全绿（锚定 119ce7cb）+ SR §5 档位表述订正（L2 预判改机械判定 L3 实值）
+           时间: 2026-10-18T00:41:48.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/17c6d9400e4de6fa313ad084deb1c764300ffd3b
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout, feature/BASE-M2-TL-BATCH-DECISIONS-REG-docs-closure, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-TL-REPLYSTATUS-CORE-h318-sort-comment, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       33. 4642ab7f  docs(M2): BASE-M2-TL-BATCH-DECISIONS-REG A6 闭环 docs 侧收口——上游 D-M2-253 落盘锚点登记（修订记录行 + current.md 指针行 + 闭环 SR）
+           时间: 2026-10-18T00:41:48.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/4642ab7f25bcdc41cb84485efb959c6e0a47f4af
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout, feature/BASE-M2-TL-BATCH-DECISIONS-REG-docs-closure, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-TL-REPLYSTATUS-CORE-h318-sort-comment, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       34. 2d308648  docs(rules): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL R1 §6 锚定豁免判据由文件类型泛化为增量非行为型
+           时间: 2026-10-18T00:38:34.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/2d308648911ad3f8584ea75d079d61b6b09e668b
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       35. 5ae73f10  Merge branch 'feature/BASE-M2-WC-REALIGN-wc-renumber' into 'milestone/M2'
+           时间: 2026-10-17T16:26:43.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/5ae73f10f89c5eaa93de5d4191511b2b1d7f41ee
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout, feature/BASE-M2-TL-BATCH-DECISIONS-REG-docs-closure, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-TL-REPLYSTATUS-CORE-h318-sort-comment, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       36. 854344a6  evidence(m2): BASE-M2-WC-REALIGN 独立评审报告入档——L3 首轮 PASS（0 阻塞/0 建议/4 备忘，锚定 daae01f9）；核心复跑十项全过（全表映射 byte 级全等/双表比对 23 行逐字节一致强于验收/gen.sh 幂等复跑零漂移/契约形状零变化/旧号残余四类零计划外/⑦ 冻结流程四项）；备忘 4 条（表头时点陈旧/上游 WC-15 注记失义与 D-M2-244 增量归吸收轮/WC-19 锚点措辞分叉同轮/SR §3 连写隐含段计数口径差）零返工义务；评审方初轮补零脚本伪影已证伪留痕 §5
+           时间: 2026-10-18T00:18:49.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/854344a6d90d282af7e788d3e4fe5f5c81bb6292
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout, feature/BASE-M2-TL-BATCH-DECISIONS-REG-docs-closure, feature/BASE-M2-WC-REALIGN-wc-renumber, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-TL-REPLYSTATUS-CORE-h318-sort-comment, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       37. daae01f9  evidence(m2): BASE-M2-WC-REALIGN 门禁与证据落盘——review-precheck 必跑面①②⑧+⑦+触发面⑤⑥全绿（gofmt 零漂移/go build+vet PASS/contracttest 35 顶层全过/ledger check 结构健康/检索词自动覆盖 50）+ 档位 L3 + SR（映射双表行首比对复核/22 处自引用甄别含连写组/B 节 21 处意图判定/regen 仅注释行断言/旧号全仓检索零计划外残余/基线漂移 f7464d25→6f402737 留痕/与后续任务约定——上游吸收轮 WC-24 补行与协调方锚点义务消解）
+           时间: 2026-10-18T00:02:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/daae01f97194c94e1eefe851f172b206d614e350
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout, feature/BASE-M2-TL-BATCH-DECISIONS-REG-docs-closure, feature/BASE-M2-WC-REALIGN-wc-renumber, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-TL-REPLYSTATUS-CORE-h318-sort-comment, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+       38. f04db2ca  fix(m2): BASE-M2-WC-REALIGN wire-changes WC 编号分叉对齐——WC-13~24 段按上游体系重编号（用户 2026-10-17 三裁定：重编号回上游/契约注释随轮最小修订/保留缺号 WC-24）——行首改号 11 处 + 表内自引用 22 处（含连写组 7 组/漂移新增 WC-29/30 行 3 处/同源区 WC-12 行分叉引用 2 处恢复双表逐字一致）+ SystemEvent 行移位对齐上游行序（除行首号外字节级保真）+ 文头重编号说明段（双向映射表/时点记录解读指引/缺号说明）；M2/ 文档面 21 处逐处语义甄别（改写 13 + 零改动 8 指向复核）；契约注释 3 处改号 + gen.sh 重建注释镜像（regen diff 仅注释行、零契约形状变更、注释级不 bump）+ revisions 登记与 release-record 索引行；基线漂移 f7464d25→6f402737 留痕（ASSIGNEE/TRANSFER 已合入非在途，fallback 不触发）；SR + current.md 任务行
+           时间: 2026-10-18T00:01:29.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/f04db2ca3b8187243910f84c46f77331ae4f8472
+           分支: feature/BASE-M2-EVAL-E2E-DUE-PUSH-e2e-due-push, feature/BASE-M2-EVAL-E2E-EXPIRE-e2e-expire, feature/BASE-M2-EVAL-SIGNOFF-CLOSEOUT-signoff-closeout, feature/BASE-M2-TL-BATCH-DECISIONS-REG-docs-closure, feature/BASE-M2-WC-REALIGN-wc-renumber, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/IL-M2-TL-REPLYSTATUS-CORE-h318-sort-comment, feature/OPT-ANCHOR-EXEMPT-NONBEHAVIORAL-anchor-exemption, feature/OPT-GOV-EXT-STATE-AUTHORITY-ext-ledger-authority, feature/OPT-R4-G3-EXEC-SPLIT-g3-daily-fullgate, feature/OPT-RULES-SPLIT-REVIEW-extract-review-rules, fix/FIX-M2-TL-SORTBY-FIXTURE-WORDING-invalid03-message, milestone/M2
+      MR记录（按时间倒序）：
+        1. MR#457 evidence(m2): BASE-M2-EVAL-SIGNOFF-CLOSEOUT EXT-EVAL-CLIENT-SIGNOFF 用户确认收口留痕
+           时间: 2026-10-18T11:31:15.662Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/457
+        2. MR#456 docs(contracts): IL-M2-TL-REPLYSTATUS-CORE H318 计数基准列切换语义落定（GetUnreadTicketCountReq.sort_by 注释回写）
+           时间: 2026-10-18T11:10:31.198Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/456
+    • msdk/rispari/server/admin-gateway             提交:  18  MR:  1  Commit评论:  0  MR评论:  0 分支:develop, feature/AG-M2-EVAL-READ-PROJECTION-eval-read, feature/AG-M2-TL-ASSIGNEE-TRANSFER-CARD-API-ag-merged, feature/AG-M2-TL-REPLYSTATUS-API-replystatus-dto, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, fix/FIX-M2-TL-SORTBY-FIXTURE-REVERT-EXEMPT-invalid03-readback, milestone/M2 (+5,074 / -1,579)
+      提交记录（按时间倒序）：
+        1. 9037bd03  Merge branch 'milestone/M2' into 'develop'
+           时间: 2026-10-17T17:09:46.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/9037bd035d10d3643bf8d0b780dc7dad42d3a855
+           分支: develop
+        2. b5a2adfe  Merge branch 'feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies' into 'milestone/M2'
+           时间: 2026-10-18T13:30:22.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/b5a2adfedde83e338130a4d5b65be41f8b87ed71
+           分支: feature/AG-M2-EVAL-READ-PROJECTION-eval-read, feature/AG-M2-TL-REPLYSTATUS-API-replystatus-dto, fix/FIX-M2-TL-SORTBY-FIXTURE-REVERT-EXEMPT-invalid03-readback, milestone/M2
+        3. f5ff25de  chore(sync): SYNC-OPT-RULES-SPLIT-REVIEW 副本分发——R4-评审rules 新增 + R1-go 变更 + 前序欠账核销
+           时间: 2026-10-18T21:24:14.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/f5ff25de9c89db3101dda4745bf0d3f1da6cb814
+           分支: feature/AG-M2-EVAL-READ-PROJECTION-eval-read, feature/AG-M2-TL-REPLYSTATUS-API-replystatus-dto, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, fix/FIX-M2-TL-SORTBY-FIXTURE-REVERT-EXEMPT-invalid03-readback, milestone/M2
+        4. b5269fae  Merge branch 'feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge' into 'milestone/M2'
+           时间: 2026-10-18T10:56:34.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/b5269fae8c156137dcdbb10ea827764129843891
+           分支: feature/AG-M2-EVAL-READ-PROJECTION-eval-read, feature/AG-M2-TL-REPLYSTATUS-API-replystatus-dto, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, fix/FIX-M2-TL-SORTBY-FIXTURE-REVERT-EXEMPT-invalid03-readback, milestone/M2
+        5. fdd74b10  Merge branch 'feature/AG-M2-TL-ASSIGNEE-TRANSFER-CARD-API-ag-merged' into 'milestone/M2'
+           时间: 2026-10-18T10:49:05.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/fdd74b103cb4bac5af9f743336843270d0bad663
+           分支: feature/AG-M2-EVAL-READ-PROJECTION-eval-read, feature/AG-M2-TL-REPLYSTATUS-API-replystatus-dto, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, fix/FIX-M2-TL-SORTBY-FIXTURE-REVERT-EXEMPT-invalid03-readback, milestone/M2
+        6. 494444d2  docs(workbench): R1 §13 备注收敛轮——H308 Run doc 补 assignee_scope bullet + 三处行尾/组装点注释收敛为属主引用式
+           时间: 2026-10-18T18:44:56.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/494444d2600024bb94d221b1acfba2a310cd8c88
+           分支: feature/AG-M2-EVAL-READ-PROJECTION-eval-read, feature/AG-M2-TL-ASSIGNEE-TRANSFER-CARD-API-ag-merged, feature/AG-M2-TL-REPLYSTATUS-API-replystatus-dto, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, fix/FIX-M2-TL-SORTBY-FIXTURE-REVERT-EXEMPT-invalid03-readback, milestone/M2
+        7. 37ce1f17  docs(evidence): AG-M2-TL-ASSIGNEE-TRANSFER-CARD-API 评审报告与建议项处置留痕 + gate 复跑锚定 deb167d
+           时间: 2026-10-18T01:49:37.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/37ce1f17f851cc68e186494e6c92962eee0b5a11
+           分支: feature/AG-M2-EVAL-READ-PROJECTION-eval-read, feature/AG-M2-TL-ASSIGNEE-TRANSFER-CARD-API-ag-merged, feature/AG-M2-TL-REPLYSTATUS-API-replystatus-dto, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, fix/FIX-M2-TL-SORTBY-FIXTURE-REVERT-EXEMPT-invalid03-readback, milestone/M2
+        8. deb167d2  style(workbench): contractenum gofmt 归一
+           时间: 2026-10-18T01:48:11.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/deb167d2c92bb813450b87eb74c6c657c5dfd026
+           分支: feature/AG-M2-EVAL-READ-PROJECTION-eval-read, feature/AG-M2-TL-ASSIGNEE-TRANSFER-CARD-API-ag-merged, feature/AG-M2-TL-REPLYSTATUS-API-replystatus-dto, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, fix/FIX-M2-TL-SORTBY-FIXTURE-REVERT-EXEMPT-invalid03-readback, milestone/M2
+        9. 1096871a  refactor(workbench): 评审建议项处置——contractenum doc comment 去开发过程编号（godoc 面）+ resolveAssigneeScope 投影失败补观测日志（对齐批量面）
+           时间: 2026-10-18T01:48:02.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/1096871a4242b2afa83a974619f89eaf3e1d999a
+           分支: feature/AG-M2-EVAL-READ-PROJECTION-eval-read, feature/AG-M2-TL-ASSIGNEE-TRANSFER-CARD-API-ag-merged, feature/AG-M2-TL-REPLYSTATUS-API-replystatus-dto, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, fix/FIX-M2-TL-SORTBY-FIXTURE-REVERT-EXEMPT-invalid03-readback, milestone/M2
+       10. 4b9f32a6  evidence(m2): FIX-M2-ERRCODE-DECL-CONVERGE AG 首轮独立评审 PASS 入档（0 阻塞/1 建议/6 备忘，L2 档，锚定 4cb3e52）——B-1/B-2 行为变更正确性/双轴零残留/跨仓三面口径独立复验全过；S-1【中】（R1 §13 doc comment 出处与复述边界，生产 5+测试 4 处）不阻塞、评审明示本 MR 无需返工，归后续 R1 §13 收敛轮跨仓统一处置
+           时间: 2026-10-18T01:42:26.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/4b9f32a6e1107ca995915c0252f02c739b8bfee4
+           分支: feature/AG-M2-EVAL-READ-PROJECTION-eval-read, feature/AG-M2-TL-REPLYSTATUS-API-replystatus-dto, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, fix/FIX-M2-TL-SORTBY-FIXTURE-REVERT-EXEMPT-invalid03-readback, milestone/M2
+       11. 191ec90f  docs(evidence): AG-M2-TL-ASSIGNEE-TRANSFER-CARD-API 证据落盘（gate/review_tier/SR 双件分节）+ tasks.md 双行登记
+           时间: 2026-10-18T01:40:53.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/191ec90f54e4ba57c97fb712cb942382bd486286
+           分支: feature/AG-M2-EVAL-READ-PROJECTION-eval-read, feature/AG-M2-TL-ASSIGNEE-TRANSFER-CARD-API-ag-merged, feature/AG-M2-TL-REPLYSTATUS-API-replystatus-dto, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, fix/FIX-M2-TL-SORTBY-FIXTURE-REVERT-EXEMPT-invalid03-readback, milestone/M2
+       12. ebceb232  test(workbench): AG-M2-TL-ASSIGNEE-TRANSFER-CARD-API 契约测试（scope 七例+转接卡两形态+service 矩阵）+ WC-28 两键局部豁免落地
+           时间: 2026-10-18T01:37:25.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/ebceb2324a61ab07430538173e2b58b282dbe8e5
+           分支: feature/AG-M2-EVAL-READ-PROJECTION-eval-read, feature/AG-M2-TL-ASSIGNEE-TRANSFER-CARD-API-ag-merged, feature/AG-M2-TL-REPLYSTATUS-API-replystatus-dto, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, fix/FIX-M2-TL-SORTBY-FIXTURE-REVERT-EXEMPT-invalid03-readback, milestone/M2
+       13. 30d41a27  feat(workbench): AG-M2-TL-ASSIGNEE-TRANSFER-CARD-API 件A 归属筛选七处开口 + my_groups 网关展开 + mine 注入；件B H319 转接卡 DTO 透出
+           时间: 2026-10-18T01:29:19.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/30d41a27fd8cac6625231c24064c33d0d45f58f8
+           分支: feature/AG-M2-EVAL-READ-PROJECTION-eval-read, feature/AG-M2-TL-ASSIGNEE-TRANSFER-CARD-API-ag-merged, feature/AG-M2-TL-REPLYSTATUS-API-replystatus-dto, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, fix/FIX-M2-TL-SORTBY-FIXTURE-REVERT-EXEMPT-invalid03-readback, milestone/M2
+       14. f91e8e32  feat(contracts): AG-M2-TL-ASSIGNEE-TRANSFER-CARD-API 件0 契约副本三链合并同步（WC-28+29+30 proto 面 + fixtures 十六份 + INDEX/README 登记）
+           时间: 2026-10-18T01:21:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/f91e8e329c24bd32fd60f452d10f7991b184e0f6
+           分支: feature/AG-M2-EVAL-READ-PROJECTION-eval-read, feature/AG-M2-TL-ASSIGNEE-TRANSFER-CARD-API-ag-merged, feature/AG-M2-TL-REPLYSTATUS-API-replystatus-dto, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, fix/FIX-M2-TL-SORTBY-FIXTURE-REVERT-EXEMPT-invalid03-readback, milestone/M2
+       15. 4cb3e52c  evidence(m2): FIX-M2-ERRCODE-DECL-CONVERGE AG 合入前 rebase 锚定刷新——基线 d01dfe8→cd4a088（SYNC-* 副本同步等 6 提交，未触业务文件、无冲突），commit 映射 0ea6957→c374421 / 5febffd→e225f0c；g3 门禁复跑 PASS（214 行/锚定 e225f0c/merge-base cd4a088）+ tier 复判 L2/A·11 文件不变 + SR 锚定行同步
+           时间: 2026-10-18T01:16:49.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/4cb3e52c913019f2acd838efb710faae02ba3d4e
+           分支: feature/AG-M2-EVAL-READ-PROJECTION-eval-read, feature/AG-M2-TL-REPLYSTATUS-API-replystatus-dto, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, fix/FIX-M2-TL-SORTBY-FIXTURE-REVERT-EXEMPT-invalid03-readback, milestone/M2
+       16. e225f0c3  evidence(m2): FIX-M2-ERRCODE-DECL-CONVERGE g3 门禁与证据落盘——锚定 0ea6957（g3 PASS 214 行、go build/test 全绿、tier L2/A 类 11 文件 +55/-58；SR：清理前零发射 grep、行为变更 B-1/B-2 显式留痕、A4-5 五文件逐项核实含④⑤字面量陷阱、悬空注释清理面、生成代码 2017 注释跨任务发现）
+           时间: 2026-10-18T01:14:13.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/e225f0c36189a229558252dcdf9cc921d462f63d
+           分支: feature/AG-M2-EVAL-READ-PROJECTION-eval-read, feature/AG-M2-TL-REPLYSTATUS-API-replystatus-dto, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, fix/FIX-M2-TL-SORTBY-FIXTURE-REVERT-EXEMPT-invalid03-readback, milestone/M2
+       17. c374421d  fix(m2): FIX-M2-ERRCODE-DECL-CONVERGE 错误码 2013/2017 常量清理与 2017 两发射点降 1004
+           时间: 2026-10-18T01:14:13.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/c374421d3bc969b5eb0a8088bf3c787d0605da6b
+           分支: feature/AG-M2-EVAL-READ-PROJECTION-eval-read, feature/AG-M2-TL-REPLYSTATUS-API-replystatus-dto, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, fix/FIX-M2-TL-SORTBY-FIXTURE-REVERT-EXEMPT-invalid03-readback, milestone/M2
+       18. 284eb6d0  docs(evidence): SR §8 登记派发模板措辞与 S-4 裁定冲突（review_tier 全文贴描述 → 一句话级 + evidence 指针），呈报协调方
+           时间: 2026-10-18T18:56:44.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/284eb6d09cb5e01fd0e987712a4a5a33cfc0f236
+           分支: feature/AG-M2-TL-ASSIGNEE-TRANSFER-CARD-API-ag-merged
+      MR记录（按时间倒序）：
+        1. MR#311 feat(workbench): 归属筛选七处开口+my_groups 网关展开+H319 转接卡透出（AG-M2-TL-ASSIGNEE-TRANSFER-CARD-API）
+           时间: 2026-10-17T17:41:16.523Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/311
+    • msdk/rispari/server/player-gateway            提交:  14  MR:  1  Commit评论:  0  MR评论:  0 分支:develop, feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/PG-M2-EVAL-CARD-READ-card-read, feature/PG-M2-EVAL-DETAIL-eval-projection, feature/PG-M2-EVAL-H107-REGRESSION-h107-regression, feature/PG-M2-EVAL-SUBMIT-API-eval-h01, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2 (+6,195 / -992)
+      提交记录（按时间倒序）：
+        1. 22c8171f  Merge branch 'milestone/M2' into 'develop'
+           时间: 2026-10-17T17:09:55.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/22c8171fc87f60f52e30d8c634a2f500341321cd
+           分支: develop
+        2. f46fc00c  evidence(m2): FIX-M2-ERRCODE-DECL-CONVERGE PG 首轮独立评审 PASS 入档（0 阻塞/1 建议/5 备忘，L2 档，锚定 4a69800）——零残留/无行为变更/契约与跨仓一致独立复验全过；S-1【低】（R1 §13 doc comment 出处边界）不阻塞、归后续收敛轮（与 AG S-1 同类跨仓统一处置）
+           时间: 2026-10-18T01:42:31.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/f46fc00c16d9b48031094ea521fd3ae530182636
+           分支: feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/PG-M2-EVAL-CARD-READ-card-read, feature/PG-M2-EVAL-DETAIL-eval-projection, feature/PG-M2-EVAL-H107-REGRESSION-h107-regression, feature/PG-M2-EVAL-SUBMIT-API-eval-h01, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+        3. 4a698000  evidence(m2): FIX-M2-ERRCODE-DECL-CONVERGE PG g3 门禁与证据落盘——锚定 546894c（g3 PASS 103 行、go build/test 全绿 31 包、tier L2/A 类 4 文件 +17/-11；SR：清理前零发射 grep、无行为变更声明〔PG 零发射点〕、无字面量断言陷阱实测确认、悬空注释清理面、rebase 锚定映射 989ca5e→546894c）
+           时间: 2026-10-18T01:19:56.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/4a698000f2e74f86fec376c51edb4728fcd58b37
+           分支: feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/PG-M2-EVAL-CARD-READ-card-read, feature/PG-M2-EVAL-DETAIL-eval-projection, feature/PG-M2-EVAL-H107-REGRESSION-h107-regression, feature/PG-M2-EVAL-SUBMIT-API-eval-h01, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+        4. 546894cf  fix(m2): FIX-M2-ERRCODE-DECL-CONVERGE 错误码 2017 常量清理——type.go 常量行+response.go 别名/switch 成员移除（前置核实零业务发射）、组注释三处同步（四码→三码+清理痕迹）、list_player_workorder_messages 与 service_test 的 2017 缺口注释订正为裁定后口径（统一 1004，不再称缺口）；PG 无 2013 面、码值与语义定义不动（契约订正随 docs 仓同批 MR）
+           时间: 2026-10-18T01:17:09.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/546894cf700f08db8885225540484319fcc38137
+           分支: feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge, feature/PG-M2-EVAL-CARD-READ-card-read, feature/PG-M2-EVAL-DETAIL-eval-projection, feature/PG-M2-EVAL-H107-REGRESSION-h107-regression, feature/PG-M2-EVAL-SUBMIT-API-eval-h01, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+        5. 1f225e13  feat(workorder): PG-M2-EVAL-CARD-READ WOM-H04 读取面接纳 SATISFACTION_CARD——playerMessageTypeName false 锚翻转（第四可见短名，AGENT_ONLY/UNSPECIFIED/越界仍 fail closed）+ SatisfactionData DTO 嵌套挂载（仅卡片条目，逐字段直透零状态计算零时间换算，毫秒与信封秒分族）+ playerMessageData 返回 dropReason（空载体/四类未知枚举成因）+ fail-closed 路径计数指标 im_wom_timeline_entries_dropped_total（注释登记义务兑现，读取面 skip 与写响应面兜底共用）；表驱动三态 PENDING/SUBMITTED/EXPIRED 直透断言 + docs rpc fixture success-02 契约锚点测试 + 非卡片条目 IL 违约挂载防御断言 + mapping_test 旧 false 锚断言同步翻转
+           时间: 2026-10-18T23:57:24.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/1f225e13fadbae9f2df64032943307afde6d8a31
+           分支: feature/PG-M2-EVAL-CARD-READ-card-read, feature/PG-M2-EVAL-DETAIL-eval-projection, feature/PG-M2-EVAL-SUBMIT-API-eval-h01, milestone/M2
+        6. c691a35e  feat(contracts): PG-M2-EVAL-CARD-READ 契约副本同步——docs @27d88256（BASE-M2-EVAL-CONTRACT-READ-PROJECTION 冻结）重建 logic/v1/{logic,workorder_message,workorder_lifecycle}.pb.go + kitex_gen 再生成：SatisfactionProjection 统一投影（logic.proto）+ PlayerWorkorderMessageProjection.satisfaction=13 only-add + workorder_lifecycle satisfaction=38/13 挂载；同文件不可分割携入 SubmitWorkorderSatisfaction 写面两 message 与 ImLogicInternal scheduler 两方法（ExpireWorkorderSatisfactions 等，本件零接线）；edge.pb.go 顺带吸收 BASE-M2-GAMMA-WS-ABSORB 注释订正（随下次契约消费任务顺带同步义务，H314 先例 SR §4）；rpc fixture ListPlayerWorkorderMessages.json 同步（success-02 SATISFACTION_CARD 投影 case，blob e6c44f1b 与 docs 逐字节一致）
+           时间: 2026-10-18T23:51:37.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/c691a35e115335107ced8e4b7e21059408fbb86a
+           分支: feature/PG-M2-EVAL-CARD-READ-card-read, feature/PG-M2-EVAL-DETAIL-eval-projection, feature/PG-M2-EVAL-SUBMIT-API-eval-h01, milestone/M2
+        7. c97e95cb  Merge branch 'feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies' into 'milestone/M2'
+           时间: 2026-10-18T13:30:16.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/c97e95cb4d9fc63c4323626160056484be0137f5
+           分支: feature/PG-M2-EVAL-CARD-READ-card-read, feature/PG-M2-EVAL-DETAIL-eval-projection, feature/PG-M2-EVAL-SUBMIT-API-eval-h01, milestone/M2
+        8. 9ee98648  chore(sync): SYNC-OPT-RULES-SPLIT-REVIEW 副本分发——R4-评审rules 新增 + R1-go 变更 + 前序欠账核销
+           时间: 2026-10-18T21:24:13.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/9ee98648e9cbd8a0d5b6f3f8326f5a24803fda32
+           分支: feature/PG-M2-EVAL-CARD-READ-card-read, feature/PG-M2-EVAL-DETAIL-eval-projection, feature/PG-M2-EVAL-SUBMIT-API-eval-h01, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+        9. 017b3eed  Merge branch 'feature/PG-M2-EVAL-H107-REGRESSION-h107-regression' into 'milestone/M2'
+           时间: 2026-10-18T11:45:13.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/017b3eedce86da52b5e528309ed14c12511b36c8
+           分支: feature/PG-M2-EVAL-CARD-READ-card-read, feature/PG-M2-EVAL-DETAIL-eval-projection, feature/PG-M2-EVAL-SUBMIT-API-eval-h01, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+       10. 79a8a0a0  docs(progress): PG-M2-EVAL-H107-REGRESSION 独立评审报告
+           时间: 2026-10-18T19:42:02.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/79a8a0a0e860544469b1f128438e56e90cad75fa
+           分支: feature/PG-M2-EVAL-CARD-READ-card-read, feature/PG-M2-EVAL-DETAIL-eval-projection, feature/PG-M2-EVAL-H107-REGRESSION-h107-regression, feature/PG-M2-EVAL-SUBMIT-API-eval-h01, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+       11. 8eedbd57  docs(progress): gate-output 补最终联合 diff 档位复判段
+           时间: 2026-10-18T19:35:24.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/8eedbd57052aa142fec8b85ce77d02fda97b4ae5
+           分支: feature/PG-M2-EVAL-CARD-READ-card-read, feature/PG-M2-EVAL-DETAIL-eval-projection, feature/PG-M2-EVAL-H107-REGRESSION-h107-regression, feature/PG-M2-EVAL-SUBMIT-API-eval-h01, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+       12. 23de9951  docs(progress): PG-M2-EVAL-H107-REGRESSION 任务勾选与证据收口
+           时间: 2026-10-18T19:35:09.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/23de99514e037933ee54e358df7bf05607eeb055
+           分支: feature/PG-M2-EVAL-CARD-READ-card-read, feature/PG-M2-EVAL-DETAIL-eval-projection, feature/PG-M2-EVAL-H107-REGRESSION-h107-regression, feature/PG-M2-EVAL-SUBMIT-API-eval-h01, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+       13. e421856b  test(conversation): PG-M2-EVAL-H107-REGRESSION 吸收 H107-success-04 双源聚合 fixture
+           时间: 2026-10-18T19:29:55.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/e421856b4b40bd730417847a6404c74b48369880
+           分支: feature/PG-M2-EVAL-CARD-READ-card-read, feature/PG-M2-EVAL-DETAIL-eval-projection, feature/PG-M2-EVAL-H107-REGRESSION-h107-regression, feature/PG-M2-EVAL-SUBMIT-API-eval-h01, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+       14. ac7e30c4  Merge branch 'feature/FIX-M2-ERRCODE-DECL-CONVERGE-decl-converge' into 'milestone/M2'
+           时间: 2026-10-18T10:56:36.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/ac7e30c44d6e7e370cbfcd55c972deb8160254ee
+           分支: feature/PG-M2-EVAL-CARD-READ-card-read, feature/PG-M2-EVAL-DETAIL-eval-projection, feature/PG-M2-EVAL-H107-REGRESSION-h107-regression, feature/PG-M2-EVAL-SUBMIT-API-eval-h01, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+      MR记录（按时间倒序）：
+        1. MR#139 test(conversation): H107 双源聚合 fixture 吸收与回归验证 (PG-M2-EVAL-H107-REGRESSION)
+           时间: 2026-10-18T11:35:50.935Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/merge_requests/139
+    • msdk/rispari/server/admin-ws-gateway          提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:develop, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2 (+548 / -89)
+      提交记录（按时间倒序）：
+        1. a439c599  Merge branch 'milestone/M2' into 'develop'
+           时间: 2026-10-17T17:10:04.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/a439c5999cc23c0a49261e34992c2f619d0f4427
+           分支: develop
+        2. f6c6ac53  chore(sync): SYNC-OPT-RULES-SPLIT-REVIEW 副本分发——R4-评审rules 新增 + R1-go 变更 + 前序欠账核销
+           时间: 2026-10-18T21:24:14.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/f6c6ac53bc4643bd8f0407d5bdb3c30f7a9a3281
+           分支: feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+        3. 7fc17d2f  Merge branch 'feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies' into 'milestone/M2'
+           时间: 2026-10-18T13:30:31.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/7fc17d2f0f0bcc93a1b5b167491cdab15961ca77
+           分支: milestone/M2
+    • msdk/rispari/server/im-scheduler              提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:develop, feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2 (+548 / -89)
+      提交记录（按时间倒序）：
+        1. eb1a4663  Merge branch 'milestone/M2' into 'develop'
+           时间: 2026-10-17T17:10:13.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/eb1a466346dafe9f4460e835147852a847c6682a
+           分支: develop
+        2. 7cc8f168  chore(sync): SYNC-OPT-RULES-SPLIT-REVIEW 副本分发——R4-评审rules 新增 + R1-go 变更 + 前序欠账核销
+           时间: 2026-10-18T21:24:14.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/7cc8f1688c3b16eca217430936bf34e90ae59fe1
+           分支: feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies, milestone/M2
+        3. 8bc2a4ff  Merge branch 'feature/SYNC-OPT-RULES-SPLIT-REVIEW-copies' into 'milestone/M2'
+           时间: 2026-10-18T13:30:38.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/8bc2a4ffb600ddb4780002bfe8c51e4c0ae57768
+           分支: milestone/M2
+
+用户: code-development
+  识别: group_508_bot8@moonton.com
+  出现过的名字: code-development
+  总提交    : 0 次
+  总新增/删除: +0 / -0
+  Merge Requests: 25 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 25
+  按项目分布:
+    • msdk/rispari/server/docs                      提交:   0  MR:  6  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#459 OPT-GOV-EXT-STATE-AUTHORITY Phase B：external-baseline.md EXT 活状态权威指针注记
+           时间: 2026-10-18T14:28:15.826Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/459
+        2. MR#458 docs(rules): OPT-RULES-SPLIT-REVIEW 提交门禁与评审判据自 R1 剥离为 R4-评审rules
+           时间: 2026-10-18T12:02:43.528Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/458
+        3. MR#455 fix(m2): 错误码 2013/2017 申报-实现收敛契约订正 (FIX-M2-ERRCODE-DECL-CONVERGE)
+           时间: 2026-10-17T17:32:16.088Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/455
+        4. MR#454 docs(rules): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL R1 §6 锚定豁免判据由文件类型泛化为增量非行为型
+           时间: 2026-10-17T16:52:15.995Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/454
+        5. MR#453 docs(M2): BASE-M2-TL-BATCH-DECISIONS-REG A6 闭环 docs 侧收口（D-M2-253 上游落盘锚点登记）
+           时间: 2026-10-17T16:11:02.283Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/453
+        6. MR#452 sync milestone/M2: feature/BASE-M2-WC-REALIGN-wc-renumber -> milestone/M2 (2026-10-18)
+           时间: 2026-10-17T16:03:21.718Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/452
+    • msdk/rispari/server/im-logic                  提交:   0  MR:  5  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#332 chore(sync): SYNC-OPT-RULES-SPLIT-REVIEW 副本分发（R4-评审rules 新增 + R1-go 变更 + 前序欠账核销）
+           时间: 2026-10-18T13:24:46.436Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/332
+        2. MR#329 feat(evaluation): IL-M2-EVAL-TICKET-QUALIFICATION 客诉关闭链评价资格迁移（W4 首件）
+           时间: 2026-10-17T18:14:40.963Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/329
+        3. MR#328 feat(conversation): IL-M2-EVAL-PENDING-COUNT H107 待评价计数扩展双源聚合（有效 ticket + 可见 workorder）
+           时间: 2026-10-17T17:47:32.624Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/328
+        4. MR#327 docs(m2): 「2017 归 W4 网关」注释订正 (FIX-M2-ERRCODE-DECL-CONVERGE)
+           时间: 2026-10-17T17:32:29.200Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/327
+        5. MR#326 sync develop: milestone/M2 -> develop (M2 发布 dev · 2026-10-18)
+           时间: 2026-10-17T16:58:53.328Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/326
+    • msdk/rispari/tools/server-coordination        提交:   0  MR:  4  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#44 fix(playbook): SKILL.md services 槽位构造点条目自含化——消除 checklist 第 6 条悬空引用（服务仓为自治 fork/缺失）
+           时间: 2026-10-18T15:03:01.221Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/merge_requests/44
+        2. MR#43 OPT-GOV-EXT-STATE-AUTHORITY Phase B：delivery-governance 增 §7 EXT 状态权威
+           时间: 2026-10-18T14:28:48.047Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/merge_requests/43
+        3. MR#41 docs(gov): OPT-RULES-SPLIT-REVIEW 分发面加 R4 + 活面引用 R1 §6 → R4 收敛
+           时间: 2026-10-18T12:02:48.580Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/merge_requests/41
+        4. MR#40 feat(gate): OPT-ANCHOR-EXEMPT-NONBEHAVIORAL 锚定豁免判据工具承载（gate.sh content-neutral + review_tier 判据单一事实源 + 引用面同步）
+           时间: 2026-10-17T17:04:21.292Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/merge_requests/40
+    • msdk/rispari/server/admin-gateway             提交:   0  MR:  3  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#312 chore(sync): SYNC-OPT-RULES-SPLIT-REVIEW 副本分发（R4-评审rules 新增 + R1-go 变更 + 前序欠账核销）
+           时间: 2026-10-18T13:24:47.098Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/312
+        2. MR#310 fix(m2): 错误码 2017 两发射点降 1004 与 2013/2017 常量清理 (FIX-M2-ERRCODE-DECL-CONVERGE)
+           时间: 2026-10-17T17:32:22.674Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/310
+        3. MR#309 sync develop: milestone/M2 -> develop (M2 发布 dev · 2026-10-18)
+           时间: 2026-10-17T16:58:54.153Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/309
+    • msdk/rispari/server/player-gateway            提交:   0  MR:  3  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#140 chore(sync): SYNC-OPT-RULES-SPLIT-REVIEW 副本分发（R4-评审rules 新增 + R1-go 变更 + 前序欠账核销）
+           时间: 2026-10-18T13:24:46.707Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/merge_requests/140
+        2. MR#138 fix(m2): 错误码 2017 常量清理 (FIX-M2-ERRCODE-DECL-CONVERGE)
+           时间: 2026-10-17T17:32:25.416Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/merge_requests/138
+        3. MR#137 sync develop: milestone/M2 -> develop (M2 发布 dev · 2026-10-18)
+           时间: 2026-10-17T16:58:53.848Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/merge_requests/137
+    • msdk/rispari/server/admin-ws-gateway          提交:   0  MR:  2  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#52 chore(sync): SYNC-OPT-RULES-SPLIT-REVIEW 副本分发（R4-评审rules 新增 + R1-go 变更 + 前序欠账核销）
+           时间: 2026-10-18T13:24:47.327Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/merge_requests/52
+        2. MR#51 sync develop: milestone/M2 -> develop (M2 发布 dev · 2026-10-18)
+           时间: 2026-10-17T16:58:54.608Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/merge_requests/51
+    • msdk/rispari/server/im-scheduler              提交:   0  MR:  2  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#122 chore(sync): SYNC-OPT-RULES-SPLIT-REVIEW 副本分发（R4-评审rules 新增 + R1-go 变更 + 前序欠账核销）
+           时间: 2026-10-18T13:24:47.566Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/merge_requests/122
+        2. MR#121 sync develop: milestone/M2 -> develop (M2 发布 dev · 2026-10-18)
+           时间: 2026-10-17T16:58:55.673Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/merge_requests/121
+
+用户: kurokyma
+  识别: kurokyma@moonton.com
+  出现过的名字: kurokyma
+  总提交    : 2 次
+  总新增/删除: +2,273 / -155
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • msdk/rispari/sdk/iOS                          提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/feature-token-changes (+2,273 / -155)
+      提交记录（按时间倒序）：
+        1. a5e2f342  适配客户端工单评价和客诉文件消息并修复回归问题
+           时间: 2026-10-18T14:29:13.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/iOS/-/commit/a5e2f342a55301a1b42743b2d0b5bc19229a2a18
+           分支: codex/feature-token-changes
+        2. 1a6640f3  统一工单 PDF 选择按钮样式
+           时间: 2026-10-18T00:10:35.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/iOS/-/commit/1a6640f344ac18c314a100aab3bb483b1522b121
+           分支: codex/feature-token-changes
+
+----------------------------------------------------------------------------------------------------
+共统计到 3 位活跃用户
