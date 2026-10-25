@@ -1,0 +1,427 @@
+
+====================================================================================================
+最近 24 小时用户活动统计（不使用强制别名映射）
+====================================================================================================
+
+用户: 李铭骏(Mingjun)
+  识别: mingjunli@moonton.com
+  出现过的名字: mingjunli, 李铭骏(Mingjun)
+  总提交    : 80 次
+  总新增/删除: +20,445 / -1,318
+  Merge Requests: 8 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 88
+  按项目分布:
+    • msdk/rispari/server/admin-gateway             提交:  59  MR:  8  Commit评论:  0  MR评论:  0 分支:fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-LIKE-ESCAPE-like-escape, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, fix/AG-FIX-M2-VALIDATION-MSG-BATCH-validation-msg, fix/AG-FIX-M2-WT-ERRMSG-wt-errmsg, milestone/M2 (+7,915 / -1,234)
+      提交记录（按时间倒序）：
+        1. 1879066c  docs(evidence): AG-FIX-M2-ANN-REVOKE-MSG 独立评审报告与返工处置
+           时间: 2026-10-24T23:45:04.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/1879066c960b3fe137566d73b1a14bf1faa4923a
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, milestone/M2
+        2. d99186ac  test(announcement): AG-FIX-M2-ANN-REVOKE-MSG 补编辑重读分流的上下文断言
+           时间: 2026-10-24T23:43:24.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/d99186ace3be15351821c1d76100c106f0091e5d
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, milestone/M2
+        3. 751a7f2d  docs(evidence): AG-FIX-M2-ANN-REVOKE-MSG 复现定位与门禁制品
+           时间: 2026-10-24T23:36:11.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/751a7f2dbd582f7f9c4cc023dc59e270d5717617
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, milestone/M2
+        4. cf6daf2f  fix(announcement): AG-FIX-M2-ANN-REVOKE-MSG 状态冲突提示语中文精确化
+           时间: 2026-10-24T23:33:56.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/cf6daf2fa5b00e31fef27615d854b58013f20d28
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, milestone/M2
+        5. 37bb4af8  Merge branch 'fix/AG-FIX-M2-LIKE-ESCAPE-like-escape' into 'milestone/M2'
+           时间: 2026-10-24T15:27:12.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/37bb4af81e8fb400ec2414e770e922e096316166
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+        6. ef6ea722  Merge branch 'fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate' into 'milestone/M2'
+           时间: 2026-10-24T14:57:26.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/ef6ea72251bc612be2a37e99afef58bd09bde7b4
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+        7. 975e9d13  docs(evidence): 登记门② 修复任务指向 (AG-FIX-M2-RG-CG-GATE)
+           时间: 2026-10-24T22:49:07.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/975e9d13f8f1123bdc46384edb2dd5ea716c5ed4
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+        8. 3b2d1039  docs(evidence): 收紧公告范围表述并精确化门② 既有缺陷登记 (AG-FIX-M2-RG-CG-GATE)
+           时间: 2026-10-24T22:41:07.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/3b2d1039d64321feb48430fa0a5e008e51b79119
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+        9. 4a550bdc  Merge branch 'fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate' into 'milestone/M2'
+           时间: 2026-10-24T14:21:40.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/4a550bdc1fd300460f3a5806d3922d8498dbb5f1
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       10. 7f2e1332  docs(evidence): rebase 后门禁复跑制品锚定 (AG-FIX-M2-RG-CG-GATE)
+           时间: 2026-10-24T22:19:05.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/7f2e1332c1c61e6d7a912313820fc01f84fb1120
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       11. 4d47ee11  docs(evidence): 备注收敛后门禁制品锚定 (AG-FIX-M2-RG-CG-GATE)
+           时间: 2026-10-24T22:17:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/4d47ee1176c2ee137021c18a1e4fbd1a9e841b47
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       12. 31782013  docs(replyguideline): 按备注机制三原则收敛本批新增注释 (AG-FIX-M2-RG-CG-GATE)
+           时间: 2026-10-24T22:17:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/3178201383f67839fb729518bdbad828ba1ccc4f
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       13. e3c1dc31  docs(evidence): 建议处置后门禁复跑制品 (AG-FIX-M2-RG-CG-GATE)
+           时间: 2026-10-24T22:17:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/e3c1dc3157d4b40c5e553d3ebd9e1d84fbed04db
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       14. c4b92fb9  fix(replyguideline): 显式处置指标上报返回值 (AG-FIX-M2-RG-CG-GATE)
+           时间: 2026-10-24T22:17:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/c4b92fb94bfbaec07994becb3f62cbec750cdb4e
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       15. 5e91ebd4  fix(replyguideline): 按评审建议补强留痕可观测面与 fail-closed 分支 (AG-FIX-M2-RG-CG-GATE)
+           时间: 2026-10-24T22:17:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/5e91ebd4e2094b8e284db0b0f22af1cc9d8a5170
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       16. 43c24980  docs(evidence): 门禁制品锚定最终提交 (AG-FIX-M2-RG-CG-GATE)
+           时间: 2026-10-24T22:17:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/43c249801e60f3876094f727c74cf7a57aa8f5ef
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       17. e106fb79  test(replyguideline): 修正门① 派生用例静态检查告警 (AG-FIX-M2-RG-CG-GATE)
+           时间: 2026-10-24T22:17:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/e106fb79caaae8da07c8c424233aa48d5f77533f
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       18. 2576e155  fix(replyguideline): 口径创建/编辑/续期接入内容治理门① (AG-FIX-M2-RG-CG-GATE)
+           时间: 2026-10-24T22:17:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/2576e155e93516301a7c25fa07e68665ece19a8d
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       19. ac802ef7  Merge branch 'fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique' into 'milestone/M2'
+           时间: 2026-10-24T14:17:01.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/ac802ef75b7f2df07d7e97895aba2c996684c614
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       20. 97f17d08  docs(evidence): 备注收敛留痕与门禁复跑制品 (AG-FIX-M2-LIKE-ESCAPE)
+           时间: 2026-10-24T22:14:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/97f17d08f1c6e6d3b3c25e8ea1f866d69c6d14b3
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-LIKE-ESCAPE-like-escape, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       21. 27e35dd9  docs(dal): 按备注机制三原则收敛本批新增注释 (AG-FIX-M2-LIKE-ESCAPE)
+           时间: 2026-10-24T22:13:50.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/27e35dd9116bb4dd099bd2bb8b40203e0ddd9752
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-LIKE-ESCAPE-like-escape, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       22. 52740847  docs(evidence): 记二次 rebase 冲突解决与改动性质判定
+           时间: 2026-10-24T22:13:48.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/52740847ebc35904f4877b1075ee77a0841a1fbe
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       23. 6e820d29  docs(evidence): rebase 至 VALIDATION-MSG-BATCH 基线后门禁复跑落盘
+           时间: 2026-10-24T22:13:27.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/6e820d294377a79942811b068bc70fe5984df137
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       24. 77b5b63e  docs(evidence): 记门禁复跑锚定链与 rebase 同步事实
+           时间: 2026-10-24T22:11:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/77b5b63e9c80ade384ae6e4c16f8025455250ed2
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       25. 99c7e014  docs(evidence): rebase 后闭包门禁复跑落盘
+           时间: 2026-10-24T22:11:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/99c7e014a7202f6345f5b1a1352f75f80d24cd58
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       26. 2eb031d4  docs(evidence): 备注优化后闭包门禁复跑落盘
+           时间: 2026-10-24T22:11:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/2eb031d4414ea6e4a3ce9507df774ac7474c6761
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       27. 319e811d  docs(agentgroup): 按 R1 §13 收敛本 MR 文件备注（包注释归位/口径单一权威源）
+           时间: 2026-10-24T22:11:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/319e811d7e46aeb111fb4eeb8a1994404b1d0fc2
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       28. 2ecf5de7  docs(evidence): B-1 修复后闭包门禁复跑落盘
+           时间: 2026-10-24T22:11:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/2ecf5de75cbdae43f0fdd6f15bd992af790f9c9f
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       29. b50102e5  fix(agentgroup): 预置槽预检消除建库路径索引序依赖（评审 B-1）
+           时间: 2026-10-24T22:11:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/b50102e5e182eaaf1cb752b5ff9c1dab5f4f4c80
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       30. 9dd2a295  docs(evidence): A+ 迁移面后闭包门禁复跑落盘
+           时间: 2026-10-24T22:11:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/9dd2a29565c21b7a3fc517a45e978306c6c4a873
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       31. 66769295  feat(agentgroup): 补分组名称物理唯一键 uk_app_name 与 1062 兜底（用户裁定 A+）
+           时间: 2026-10-24T22:11:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/66769295d0d09f98ebf8bf2c73de1b8ec1c8de7f
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       32. bfc0d3dd  docs(evidence): 返工后闭包门禁复跑落盘
+           时间: 2026-10-24T22:11:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/bfc0d3ddc95977ef878aa5c95975817002f41cb8
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       33. 21ded894  fix(agentgroup): 收敛名称校验助手并兼容存量重名行（评审 B-1/S-1/S-2）
+           时间: 2026-10-24T22:11:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/21ded89462b85e77823e1b0f5f5037b3e6ad7cd0
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       34. c4df62cc  docs(evidence): AG-FIX-M2-GROUP-NAME-UNIQUE 盘点/裁定/门禁归因留痕
+           时间: 2026-10-24T22:11:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/c4df62cc53903c58ed7391b24d269a9b028f66a9
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       35. 634a45e5  fix(agentgroup): AG-FIX-M2-GROUP-NAME-UNIQUE 分组名称同 app 全局唯一校验
+           时间: 2026-10-24T22:11:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/634a45e530c5ff517d193b2c1d5c458eed69f432
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       36. 47c4f42f  Merge branch 'fix/AG-FIX-M2-VALIDATION-MSG-BATCH-validation-msg' into 'milestone/M2'
+           时间: 2026-10-24T13:41:31.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/47c4f42f77ccf6bb9186f5a4f05dd80ead45bdbd
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       37. f0e4d923  docs(AG-FIX-M2-VALIDATION-MSG-BATCH): 同步细分哨兵清单
+           时间: 2026-10-24T21:21:59.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/f0e4d9231755cf93ce644e5ea66ffe820a0f49ed
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, fix/AG-FIX-M2-VALIDATION-MSG-BATCH-validation-msg, milestone/M2
+       38. c63cb65e  docs(AG-FIX-M2-VALIDATION-MSG-BATCH): 门禁复跑与评审建议处置
+           时间: 2026-10-24T21:21:54.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/c63cb65edf0515aa238df1b60d60d88fe12ff12f
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, fix/AG-FIX-M2-VALIDATION-MSG-BATCH-validation-msg, milestone/M2
+       39. 98de37e7  fix(AG-FIX-M2-VALIDATION-MSG-BATCH): 按评审建议拆分多因哨兵并补齐查询参数口径
+           时间: 2026-10-24T21:20:35.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/98de37e728472ec6cfdc04e69473bffaf1649177
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, fix/AG-FIX-M2-VALIDATION-MSG-BATCH-validation-msg, milestone/M2
+       40. 130cc221  docs(AG-FIX-M2-VALIDATION-MSG-BATCH): 门禁与取证记录
+           时间: 2026-10-24T21:14:36.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/130cc221e8abd381f0d6130e3af4a09916b2fb65
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, fix/AG-FIX-M2-VALIDATION-MSG-BATCH-validation-msg, milestone/M2
+       41. 7bc929da  fix(AG-FIX-M2-VALIDATION-MSG-BATCH): 管理面表单校验失败提示细分与中文化
+           时间: 2026-10-24T21:12:51.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/7bc929dafe88430377e0a9890bebf2c9b412d711
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, fix/AG-FIX-M2-VALIDATION-MSG-BATCH-validation-msg, milestone/M2
+       42. e4fdcbfc  Merge branch 'fix/AG-FIX-M2-WT-ERRMSG-wt-errmsg' into 'milestone/M2'
+           时间: 2026-10-24T12:48:06.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/e4fdcbfc54cecd63ce9103b7857c468b1c10d0f7
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, fix/AG-FIX-M2-VALIDATION-MSG-BATCH-validation-msg, milestone/M2
+       43. 86d06e04  docs(evidence): 独立评审报告与建议处置留痕 (AG-FIX-M2-LIKE-ESCAPE)
+           时间: 2026-10-24T20:04:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/86d06e042d7fc492628df611e29421436949263e
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-LIKE-ESCAPE-like-escape, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       44. 56fbda5a  docs(dal): 修正原因库关键字匹配语义备注 (AG-FIX-M2-LIKE-ESCAPE)
+           时间: 2026-10-24T20:03:04.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/56fbda5a5234c79444d1fb2233a9364bb4a6e5d3
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-LIKE-ESCAPE-like-escape, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       45. f635081b  docs(AG-FIX-M2-WT-ERRMSG): 独立评审报告
+           时间: 2026-10-24T19:58:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/f635081b75a96bbd21a23bad5f4f322be99c1af9
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, fix/AG-FIX-M2-VALIDATION-MSG-BATCH-validation-msg, fix/AG-FIX-M2-WT-ERRMSG-wt-errmsg, milestone/M2
+       46. c13567a3  docs(evidence): 复现/根因/门禁与缺口登记 (AG-FIX-M2-LIKE-ESCAPE)
+           时间: 2026-10-24T19:54:40.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/c13567a39ba993103b6687a59ceac3cc75f2b1a1
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-LIKE-ESCAPE-like-escape, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       47. b6581020  test(dal): 屏蔽词跨项目对照行改落独立段 (AG-FIX-M2-LIKE-ESCAPE)
+           时间: 2026-10-24T19:52:46.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/b6581020511810abbffcbbbd0605b02d19bca996
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-LIKE-ESCAPE-like-escape, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       48. 6f825bfc  docs(AG-FIX-M2-WT-ERRMSG): 门禁与复现取证
+           时间: 2026-10-24T19:50:07.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/6f825bfcd7fff16d13f1c10e6d67e675387089bb
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, fix/AG-FIX-M2-VALIDATION-MSG-BATCH-validation-msg, fix/AG-FIX-M2-WT-ERRMSG-wt-errmsg, milestone/M2
+       49. 55d86a85  fix(dal): 列表 keyword 的 LIKE 通配符按字面量转义 (AG-FIX-M2-LIKE-ESCAPE)
+           时间: 2026-10-24T19:47:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/55d86a8503d3bd856e6fecb908e7d007b33629be
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-LIKE-ESCAPE-like-escape, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       50. 3f037127  fix(AG-FIX-M2-WT-ERRMSG): 细分工单模板校验失败提示
+           时间: 2026-10-24T19:35:34.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/3f03712770bcc57a1410cc8ab2f347fc1a08edd9
+           分支: fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG, fix/AG-FIX-M2-GROUP-NAME-UNIQUE-group-name-unique, fix/AG-FIX-M2-RG-CG-GATE-rg-cg-gate, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, fix/AG-FIX-M2-VALIDATION-MSG-BATCH-validation-msg, fix/AG-FIX-M2-WT-ERRMSG-wt-errmsg, milestone/M2
+       51. 022c6d71  docs(cg): rebase 同步后复跑门禁并更新锚定
+           时间: 2026-10-24T23:28:43.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/022c6d71932ddf1c39faffd3b91627e027f1cbd7
+           分支: fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG
+       52. 3c2f56c2  docs(cg): 登记评审结论与返工后门禁制品
+           时间: 2026-10-24T23:28:07.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/3c2f56c2b824ef2d8d72197d1ba54accb671423c
+           分支: fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG
+       53. de18b328  fix(cg): 采纳评审建议补全留痕失败观测与注释口径
+           时间: 2026-10-24T23:28:07.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/de18b328ca9a19ee514c7af35d7d29608bdc2953
+           分支: fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG
+       54. 13f22272  docs(cg): 登记门② 多语言留痕修复门禁与选择记录
+           时间: 2026-10-24T23:28:07.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/13f22272bbb1b81fcfd2b95fd64733d93cbb18bb
+           分支: fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG
+       55. 42bdef71  fix(cg): 门② 多语言命中合并为单条消息级留痕
+           时间: 2026-10-24T23:28:07.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/42bdef7109b8c2ae35a848b2439d266976562114
+           分支: fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG
+       56. 6e365aac  docs(evidence): 评审报告与返工后门禁复跑留痕
+           时间: 2026-10-24T23:47:36.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/6e365aac6d57638486109a887ececcc4be2027c7
+           分支: fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       57. 094f7eed  fix(replyguideline): 按 L2 评审建议收敛注释与 keyword 长度校验
+           时间: 2026-10-24T23:46:10.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/094f7eed9ed6b07fbbd22747de0b92cc0d4efdc8
+           分支: fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       58. abf9ed94  docs(evidence): AG-FIX-M2-RG-KEYWORD-API 门禁与选择记录
+           时间: 2026-10-24T23:38:27.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/abf9ed948ce67e10e103cde3447d2013e3deeff1
+           分支: fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+       59. f113d965  fix(replyguideline): 列表 keyword 贯通标题与正文检索
+           时间: 2026-10-24T23:36:04.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/f113d9653cf56c411a9f53ed065c4dc5f1667f56
+           分支: fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+      MR记录（按时间倒序）：
+        1. MR#412 fix(replyguideline): 列表 keyword 贯通标题与正文检索 (AG-FIX-M2-RG-KEYWORD-API)
+           时间: 2026-10-24T15:38:39.677Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/412
+        2. MR#410 fix(cg): 门② 多语言命中合并为单条消息级留痕
+           时间: 2026-10-24T15:21:05.812Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/410
+        3. MR#409 Fix/ag fix m2 rg cg gate rg cg gate
+           时间: 2026-10-24T14:57:19.447Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/409
+        4. MR#408 fix(AG-FIX-M2-VALIDATION-MSG-BATCH): 管理面表单校验失败提示细分与中文化
+           时间: 2026-10-24T13:14:41.482Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/408
+        5. MR#407 fix(replyguideline): 口径创建/编辑/续期接入内容治理门① (AG-FIX-M2-RG-CG-GATE)
+           时间: 2026-10-24T12:03:45.672Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/407
+        6. MR#406 fix(dal): 列表 keyword LIKE 通配符按字面量转义 (AG-FIX-M2-LIKE-ESCAPE)
+           时间: 2026-10-24T11:54:58.687Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/406
+        7. MR#405 fix(agentgroup): AG-FIX-M2-GROUP-NAME-UNIQUE 分组名称同 app 全局唯一校验
+           时间: 2026-10-24T11:54:51.406Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/405
+        8. MR#404 fix(AG-FIX-M2-WT-ERRMSG): 工单模板校验失败提示细分与中文化
+           时间: 2026-10-24T11:50:20.122Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/404
+    • msdk/rispari/tools/server-coordination        提交:  15  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/OPT-DISPATCH-GATE-LINE-gate-line, feature/REQ-bug-workflow-skill, master (+12,176 / -31)
+      提交记录（按时间倒序）：
+        1. a008ab7c  docs(im-coordination): 评审返工——G3 判据改短语级并收敛收口例外口径 (OPT-DISPATCH-GATE-LINE)
+           时间: 2026-10-24T10:43:49.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/a008ab7cf5522499b8a7a830d1e9c83ab23c9f43
+           分支: feature/OPT-DISPATCH-GATE-LINE-gate-line, feature/REQ-bug-workflow-skill, master
+        2. a6183c9b  docs(im-coordination): 派发模板与快评清单固化 G3 执行面闭包口径 (OPT-DISPATCH-GATE-LINE)
+           时间: 2026-10-24T10:40:26.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/a6183c9be3e58a09b071726d6fae1df984bec1d2
+           分支: feature/OPT-DISPATCH-GATE-LINE-gate-line, feature/REQ-bug-workflow-skill, master
+        3. 528c0155  feat(skill): 状态机叠加阶段与关注度派生层（I9/I10 守卫）
+           时间: 2026-10-24T23:43:21.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/528c0155b5275ac9e11b72e13448dbdefdb09e0c
+           分支: feature/REQ-bug-workflow-skill, master
+        4. 5366e427  feat(skill): 台账八条不变式校验脚本与用例
+           时间: 2026-10-24T23:33:19.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/5366e4271121b65b077ff92e41d4b677e57af97e
+           分支: feature/REQ-bug-workflow-skill, master
+        5. 753363b7  feat(skill): 根因分类表与横向检索面
+           时间: 2026-10-24T23:31:57.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/753363b71b9ff0b97728791fa02185ee9bbef13c
+           分支: feature/REQ-bug-workflow-skill, master
+        6. 8b7932ca  feat(skill): 台账字段、巡检流程与八条不变式
+           时间: 2026-10-24T23:31:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/8b7932ca4d84f17081b356daeb66c5b251b82264
+           分支: feature/REQ-bug-workflow-skill, master
+        7. b13b45ac  refactor(skill): 收编 meego-bug-workflow 为平台适配件并删除旧目录
+           时间: 2026-10-24T23:31:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/b13b45ac35f5485f677d094db8eea07ea794cb94
+           分支: feature/REQ-bug-workflow-skill, master
+        8. fe4c6c8d  feat(skill): 14 步生命周期操作面
+           时间: 2026-10-24T23:30:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/fe4c6c8d755129fc5e6fb266cc23a6941cb95f75
+           分支: feature/REQ-bug-workflow-skill, master
+        9. 91c03a62  feat(skill): 状态机权威件（17 态 + 转移表 + 推送回读）
+           时间: 2026-10-24T23:30:21.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/91c03a627afdcb46f22de587337137a72fd4ed3d
+           分支: feature/REQ-bug-workflow-skill, master
+       10. 0834b9d3  feat(skill): rispari-bug-workflow 主干与档位门禁定义
+           时间: 2026-10-24T23:30:07.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/0834b9d3c2b6908628572520efa44bd774acae58
+           分支: feature/REQ-bug-workflow-skill, master
+       11. db452be9  Merge branch 'feature/OPT-DISPATCH-GATE-LINE-gate-line' into 'master'
+           时间: 2026-10-24T11:09:19.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/db452be931dd0470c5e0b5e19ce38e6c859029f1
+           分支: feature/REQ-bug-workflow-skill, master
+       12. 113ebb6e  Merge branch 'feature/OPT-PROMPT-REVIEW-LESSONS-prompt-review-lessons' into 'master'
+           时间: 2026-10-24T11:08:08.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/113ebb6ec27c6eff3e998e24bb3bad739c7d8aa1
+           分支: feature/REQ-bug-workflow-skill, master
+       13. a032a138  docs(dispatch): 未执行 prompt 补 G3 执行面闭包口径
+           时间: 2026-10-24T10:50:14.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/a032a138fbdc0a1cd1250418d4a58fd858ddcb10
+           分支: feature/REQ-bug-workflow-skill, master
+       14. 39c07137  update
+           时间: 2026-10-24T01:02:34.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/39c0713722ce00bc57679ce297e697f596c45039
+           分支: feature/REQ-bug-workflow-skill, master
+       15. 6cf0c69b  Merge branch 'feature/REQ-bug-workflow-skill' into 'master'
+           时间: 2026-10-24T15:48:14.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/6cf0c69b51ec38dc783ff97203647bd6b625d715
+           分支: master
+    • msdk/rispari/server/docs                      提交:   6  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/BASE-FIX-M2-RG-KEYWORD-CONTRACT-rg-keyword, master, milestone/M2 (+354 / -53)
+      提交记录（按时间倒序）：
+        1. 170db917  docs(evidence): BASE-FIX-M2-RG-KEYWORD-CONTRACT 返工后 precheck 复跑制品（锚定 26ce97b5）
+           时间: 2026-10-24T20:09:09.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/170db9170745c44ee172a2a5c9c3c321bb093673
+           分支: feature/BASE-FIX-M2-RG-KEYWORD-CONTRACT-rg-keyword, milestone/M2
+        2. 26ce97b5  docs(contracts): RG-H01 keyword 评审返工——trim 匹配语义与上游回填登记（BASE-FIX-M2-RG-KEYWORD-CONTRACT）
+           时间: 2026-10-24T20:08:56.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/26ce97b50ccbe3d6438caef85fdd02118ab3f77f
+           分支: feature/BASE-FIX-M2-RG-KEYWORD-CONTRACT-rg-keyword, milestone/M2
+        3. 3a38b995  docs(evidence): BASE-FIX-M2-RG-KEYWORD-CONTRACT 门禁与检索断言留痕
+           时间: 2026-10-24T20:02:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/3a38b99545277fdfc9e3e5c5bc6114e11927afde
+           分支: feature/BASE-FIX-M2-RG-KEYWORD-CONTRACT-rg-keyword, milestone/M2
+        4. c7b95fb4  docs(contracts): RG-H01 新增 keyword 查询参数（BASE-FIX-M2-RG-KEYWORD-CONTRACT）
+           时间: 2026-10-24T20:01:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/c7b95fb4d0bd22790d65520f485ccda50811db06
+           分支: feature/BASE-FIX-M2-RG-KEYWORD-CONTRACT-rg-keyword, milestone/M2
+        5. 4c75c154  Merge branch 'milestone/M2' into 'master'
+           时间: 2026-10-24T11:06:28.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/4c75c1543d449a24780ec3754555ef94bc65d9e9
+           分支: master
+        6. a25a69a8  Merge branch 'feature/BASE-FIX-M2-RG-KEYWORD-CONTRACT-rg-keyword' into 'milestone/M2'
+           时间: 2026-10-24T12:16:39.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/a25a69a8133720d8d0a24b79976228892380e8c9
+           分支: milestone/M2
+
+用户: code-development
+  识别: group_508_bot8@moonton.com
+  出现过的名字: code-development
+  总提交    : 0 次
+  总新增/删除: +0 / -0
+  Merge Requests: 4 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 4
+  按项目分布:
+    • msdk/rispari/tools/server-coordination        提交:   0  MR:  2  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#60 feat(skill): rispari-bug-workflow bug 单全生命周期技能
+           时间: 2026-10-24T15:35:50.400Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/merge_requests/60
+        2. MR#59 docs(im-coordination): 派发模板与快评清单固化 G3 执行面闭包口径 (OPT-DISPATCH-GATE-LINE)
+           时间: 2026-10-24T02:40:42.349Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/merge_requests/59
+    • msdk/rispari/server/admin-gateway             提交:   0  MR:  1  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#411 fix(announcement): AG-FIX-M2-ANN-REVOKE-MSG 公告状态冲突提示语中文精确化
+           时间: 2026-10-24T15:38:31.715Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/411
+    • msdk/rispari/server/docs                      提交:   0  MR:  1  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#527 docs(contracts): RG-H01 新增 keyword 查询参数（BASE-FIX-M2-RG-KEYWORD-CONTRACT）
+           时间: 2026-10-24T12:02:45.432Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/527
+
+用户: kurokyma
+  识别: kurokyma@moonton.com
+  出现过的名字: kurokyma
+  总提交    : 1 次
+  总新增/删除: +4,964 / -3,662
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • msdk/rispari/sdk/iOS                          提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/m1-m2-combine (+4,964 / -3,662)
+      提交记录（按时间倒序）：
+        1. 2ddf1caa  拆分服务记录控制器并修复回归验证
+           时间: 2026-10-24T01:12:22.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/iOS/-/commit/2ddf1caa9017911ae22de516c4df47049ed7fdf6
+           分支: codex/m1-m2-combine
+
+----------------------------------------------------------------------------------------------------
+共统计到 3 位活跃用户
