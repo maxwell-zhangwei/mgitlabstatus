@@ -1,0 +1,147 @@
+
+====================================================================================================
+最近 24 小时用户活动统计（不使用强制别名映射）
+====================================================================================================
+
+用户: 李铭骏(Mingjun)
+  识别: mingjunli@moonton.com
+  出现过的名字: 李铭骏(Mingjun)
+  总提交    : 17 次
+  总新增/删除: +9,833 / -3,045
+  Merge Requests: 3 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 20
+  按项目分布:
+    • msdk/rispari/server/admin-gateway             提交:   8  MR:  1  Commit评论:  0  MR评论:  0 分支:feature/TWS-ES-HTTP, fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2 (+5,880 / -2,418)
+      提交记录（按时间倒序）：
+        1. 0e118da5  feat(search): 新增客诉/工单列表 ES 并行端点
+           时间: 2026-10-25T21:16:32.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/0e118da5af8d4984bca1b64f9c315350ea694cac
+           分支: feature/TWS-ES-HTTP
+        2. b8a46e7a  Merge branch 'fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg' into 'milestone/M2'
+           时间: 2026-10-24T16:12:56.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/b8a46e7aa45bf6094286506c0ef579f44a2f5703
+           分支: feature/TWS-ES-HTTP, milestone/M2
+        3. 7da81b8a  Merge branch 'fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword' into 'milestone/M2'
+           时间: 2026-10-24T16:12:24.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/7da81b8abad86c49b3cbca922182d04a41fb10a7
+           分支: feature/TWS-ES-HTTP, milestone/M2
+        4. d04f1708  docs(evidence): 补记备注收敛处置与门禁复跑
+           时间: 2026-10-25T00:08:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/d04f170895843930ed4a644d47ccd380406a17d3
+           分支: feature/TWS-ES-HTTP, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+        5. 07d3513f  docs(replyguideline): 按备注三原则收敛 keyword 相关注释
+           时间: 2026-10-25T00:07:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/07d3513f94225cbcf906779f29c057e418d1553c
+           分支: feature/TWS-ES-HTTP, fix/AG-FIX-M2-RG-KEYWORD-API-rg-keyword, milestone/M2
+        6. b7eee590  docs(evidence): AG-FIX-M2-ANN-REVOKE-MSG 备注优化轮处置与门禁复跑
+           时间: 2026-10-25T00:07:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/b7eee5909c4d801ccf4c2b0750fb30f8ccf76352
+           分支: feature/TWS-ES-HTTP, fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, milestone/M2
+        7. efac927d  docs(announcement): AG-FIX-M2-ANN-REVOKE-MSG 按备注三原则收敛本批注释
+           时间: 2026-10-25T00:05:15.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/efac927dca97b6d3e0104e9362acd69265576acb
+           分支: feature/TWS-ES-HTTP, fix/AG-FIX-M2-ANN-REVOKE-MSG-ann-revoke-msg, milestone/M2
+        8. a4770cb3  Merge branch 'fix/AG-FIX-M2-CG-OUTBOUND-HIT-MULTILANG' into 'milestone/M2'
+           时间: 2026-10-25T12:44:13.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/a4770cb3cadd08a3349d4db1e5b4ba678e7fa83b
+           分支: milestone/M2
+      MR记录（按时间倒序）：
+        1. MR#413 feat(search): 新增客诉/工单列表 ES 并行端点（/es，M2 ticket-workorder-search 一阶段）
+           时间: 2026-10-25T14:53:32.944Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/413
+    • msdk/rispari/server/im-logic                  提交:   5  MR:  1  Commit评论:  0  MR评论:  0 分支:feature/IL-FIX-M2-WOL-SORT-DIRECTION-GUARD-sort-direction, feature/TWS-ES-QUERY, milestone/M2 (+3,387 / -460)
+      提交记录（按时间倒序）：
+        1. 4b927b8c  test(workorder): IL-FIX-M2-WOL-SORT-DIRECTION-GUARD 排序子句方向回归矩阵
+           时间: 2026-10-25T23:07:49.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/4b927b8cdf632722661215c9bf1f6858b7d04168
+           分支: feature/IL-FIX-M2-WOL-SORT-DIRECTION-GUARD-sort-direction, milestone/M2
+        2. e2a540de  fix(M2): 工单 ES 排序方向对齐 SQL（SLA_PRIORITY DESC=rank 升序、LONGEST_WAITING DESC=created_at 正序）
+           时间: 2026-10-25T22:44:58.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/e2a540de777875fd8942d9c9c471ef647862608f
+           分支: feature/TWS-ES-QUERY
+        3. d99cad49  fix(search): ES 连接修正为 9200 + 支持自签 CA
+           时间: 2026-10-25T22:26:36.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/d99cad499fac7bbcbf146f8246cee1732d30182c
+           分支: feature/TWS-ES-QUERY
+        4. 8d6d857a  feat(search): 客诉/工单列表 ES 并行面查询链
+           时间: 2026-10-25T21:16:29.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/8d6d857affc953153962f0d4b4c2d0701a73c64b
+           分支: feature/TWS-ES-QUERY
+        5. 9ea6f33d  Merge branch 'feature/IL-FIX-M2-WOL-SORT-DIRECTION-GUARD-sort-direction' into 'milestone/M2'
+           时间: 2026-10-25T15:39:34.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/9ea6f33d1b186a02aa76e6329049ada7e3a7dd9a
+           分支: milestone/M2
+      MR记录（按时间倒序）：
+        1. MR#384 feat(search): 客诉/工单列表 ES 并行面查询链（M2 ticket-workorder-search 一阶段）
+           时间: 2026-10-25T14:53:27.285Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/384
+    • msdk/rispari/server/docs                      提交:   4  MR:  1  Commit评论:  0  MR评论:  0 分支:feature/OPT-R7-DATA-ACCESS-POINTER-pointer, feature/OPT-SQL-DATA-ACCESS-STANDARD-sql-standard, feature/TWS-ES-CONTRACT, milestone/M2 (+566 / -167)
+      提交记录（按时间倒序）：
+        1. 4c035b22  Merge branch 'feature/OPT-SQL-DATA-ACCESS-STANDARD-sql-standard' into 'milestone/M2'
+           时间: 2026-10-25T15:59:22.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/4c035b2283635508226919e6a7466b4395d993d1
+           分支: feature/OPT-R7-DATA-ACCESS-POINTER-pointer, milestone/M2
+        2. ae1a6e3c  docs(rules): OPT-SQL-DATA-ACCESS-STANDARD 评审 B-1/B-2/B-3 与 S-1~S-8 处置
+           时间: 2026-10-25T23:30:34.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/ae1a6e3c7c60ca692b776f540d85065b3cc81525
+           分支: feature/OPT-R7-DATA-ACCESS-POINTER-pointer, feature/OPT-SQL-DATA-ACCESS-STANDARD-sql-standard, milestone/M2
+        3. b1268a7f  docs(rules): OPT-SQL-DATA-ACCESS-STANDARD 新增 R7 数据访问规则与 R1 §10 摘要
+           时间: 2026-10-25T23:17:20.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/b1268a7f31db24025dfc4b9de50501578513528a
+           分支: feature/OPT-R7-DATA-ACCESS-POINTER-pointer, feature/OPT-SQL-DATA-ACCESS-STANDARD-sql-standard, milestone/M2
+        4. a46a4fc9  contracts(M2): 新增客诉列表 ES 并行面 RPC 与 fixture
+           时间: 2026-10-25T21:19:27.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/a46a4fc9544a0e686dad865ea8e1c03b7130ba14
+           分支: feature/TWS-ES-CONTRACT
+      MR记录（按时间倒序）：
+        1. MR#528 contracts(M2): 新增客诉列表 ES 并行面 RPC 与 fixture（M2 ticket-workorder-search 一阶段）
+           时间: 2026-10-25T14:53:36.309Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/528
+
+用户: code-development
+  识别: group_508_bot8@moonton.com
+  出现过的名字: code-development
+  总提交    : 0 次
+  总新增/删除: +0 / -0
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • msdk/rispari/server/im-logic                  提交:   0  MR:  1  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#385 test(workorder): IL-FIX-M2-WOL-SORT-DIRECTION-GUARD 排序子句方向回归矩阵
+           时间: 2026-10-25T15:08:11.307Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/385
+    • msdk/rispari/server/docs                      提交:   0  MR:  1  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#529 docs(rules): OPT-SQL-DATA-ACCESS-STANDARD 新增 R7 数据访问规则与 R1 §10 摘要
+           时间: 2026-10-25T15:19:34.776Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/529
+
+用户: ivanren
+  识别: ivanren@moonton.com
+  出现过的名字: ivanren
+  总提交    : 1 次
+  总新增/删除: +226 / -14
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • mfw/mfwgo                                     提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:fix/config-slice-numeric-range-20261023 (+226 / -14)
+      提交记录（按时间倒序）：
+        1. d9a2f01c  fix: 拒绝越界配置数值并保留有效高位
+           时间: 2026-10-25T22:33:03.000+08:00
+           链接: http://lf.git.oa.mt/mfw/mfwgo/-/commit/d9a2f01c64d14c3b3a527aad701a3f01d4a4dc52
+           分支: fix/config-slice-numeric-range-20261023
+
+----------------------------------------------------------------------------------------------------
+共统计到 3 位活跃用户
