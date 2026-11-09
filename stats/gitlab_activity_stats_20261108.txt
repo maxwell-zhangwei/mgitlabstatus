@@ -1,0 +1,268 @@
+
+====================================================================================================
+最近 24 小时用户活动统计（不使用强制别名映射）
+====================================================================================================
+
+用户: 李铭骏(Mingjun)
+  识别: mingjunli@moonton.com
+  出现过的名字: 李铭骏(Mingjun)
+  总提交    : 25 次
+  总新增/删除: +647 / -99
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 27
+  按项目分布:
+    • msdk/rispari/server/docs                      提交:   7  MR:  2  Commit评论:  0  MR评论:  0 分支:feature/OPT-CONTRACT-CURRENT-STATE-GOV-current-state, feature/OPT-DESIGN-CATALOG-VALIDATION, feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync, master, opt/docs_summary (+359 / -31)
+      提交记录（按时间倒序）：
+        1. db30a4b2  docs(governance): define cross-period contract current state
+           时间: 2026-11-08T18:16:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/db30a4b2f96051364e981b133f98b3bbb4b33435
+           分支: feature/OPT-CONTRACT-CURRENT-STATE-GOV-current-state
+        2. 66ededa1  Merge branch 'feature/OPT-DESIGN-CATALOG-VALIDATION' into 'opt/docs_summary'
+           时间: 2026-11-08T03:03:50.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/66ededa18a45ff4522f2459cc1eda9917689b06c
+           分支: feature/OPT-CONTRACT-CURRENT-STATE-GOV-current-state, opt/docs_summary
+        3. 0c145074  docs: validate design catalog navigation
+           时间: 2026-11-08T11:00:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/0c145074d50688461db4d861d5b948bd98df1d2d
+           分支: feature/OPT-CONTRACT-CURRENT-STATE-GOV-current-state, feature/OPT-DESIGN-CATALOG-VALIDATION, opt/docs_summary
+        4. 8fa729c3  docs(rules): CLAUDE.md 联邦根检出改为占位符表述 (OPT-RULES-WORKTREE-RELATIVE)
+           时间: 2026-11-08T00:24:06.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/8fa729c3fdb4abcf6565b6d876ebeec851784fd0
+           分支: feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync, master
+        5. fb9ce05c  docs(rules): 新增 docs 仓 R2 浓缩注入版并在判据表登记 (OPT-RULES-WORKTREE-RELATIVE)
+           时间: 2026-11-08T00:16:27.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/fb9ce05c2962793724873710a19c07f5f9bb4458
+           分支: feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync, master
+        6. 210ad379  docs(rules): worktree 目录改相对路径 ../.worktrees (OPT-RULES-WORKTREE-RELATIVE)
+           时间: 2026-11-08T00:16:27.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/210ad379226869bf172ccb2c1d37b06271a3bcf1
+           分支: feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync, master
+        7. a0f87148  Merge branch 'feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync' into 'master'
+           时间: 2026-11-08T02:51:23.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/a0f871484e915120c9434206835c48d18edb34cc
+           分支: master
+      MR记录（按时间倒序）：
+        1. MR#641 docs: validate design catalog navigation
+           时间: 2026-11-08T03:00:23.383Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/641
+        2. MR#639 Opt/docs summary
+           时间: 2026-11-07T16:01:35.013Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/639
+    • msdk/rispari/server/im-logic                  提交:   7  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync, fix/FIX-IL-PROTOC-PATH-protoc-fallback, milestone/M2-search (+281 / -61)
+      提交记录（按时间倒序）：
+        1. 009fcf9f  fix(contracts): 联邦根推导收敛为共用模块并补 docs 路径自比对校验 (OPT-RULES-WORKTREE-RELATIVE)
+           时间: 2026-11-08T10:33:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/009fcf9f03273802b277ccd04430b980625b10b3
+           分支: feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync, fix/FIX-IL-PROTOC-PATH-protoc-fallback, milestone/M2-search
+        2. 618c7e49  refactor(contracts): 契约脚本 docs 仓路径改为从 git 检出反推，去硬编码盘符 (OPT-RULES-WORKTREE-RELATIVE)
+           时间: 2026-11-08T00:24:05.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/618c7e492add8ef90a48d99080d93d2d04b31ad6
+           分支: feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync, fix/FIX-IL-PROTOC-PATH-protoc-fallback, milestone/M2-search
+        3. c2e16684  docs(rules): R2 浓缩副本 worktree 目录改相对路径 ../.worktrees (OPT-RULES-WORKTREE-RELATIVE)
+           时间: 2026-11-08T00:16:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c2e166847122f227713f036f3e2cd59488174c22
+           分支: feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync, fix/FIX-IL-PROTOC-PATH-protoc-fallback, milestone/M2-search
+        4. 8388e946  fix(contracts): protoc 工具链改为钉死优先/PATH 兜底并补跨平台布局 (FIX-IL-PROTOC-PATH)
+           时间: 2026-11-08T11:06:58.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/8388e9462c51d7a6e59116aa0ee8c2900e640488
+           分支: fix/FIX-IL-PROTOC-PATH-protoc-fallback, milestone/M2-search
+        5. 923e784e  fix(contracts): protoc 默认路径改为 PATH 优先、本机目录回落 (FIX-IL-PROTOC-PATH)
+           时间: 2026-11-08T10:56:48.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/923e784ee9366f3917b87250892f51cf243f93dd
+           分支: fix/FIX-IL-PROTOC-PATH-protoc-fallback, milestone/M2-search
+        6. dcb513e1  Merge branch 'feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync' into 'milestone/M2-search'
+           时间: 2026-11-08T02:51:20.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/dcb513e167a243277cc3b25e16db22dc6a9d8f94
+           分支: fix/FIX-IL-PROTOC-PATH-protoc-fallback, milestone/M2-search
+        7. b12ba830  Merge branch 'fix/FIX-IL-PROTOC-PATH-protoc-fallback' into 'milestone/M2-search'
+           时间: 2026-11-08T03:41:43.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/b12ba8303b980368eb7273f77c0cd488f0e53a99
+           分支: milestone/M2-search
+    • msdk/rispari/server/admin-gateway             提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync, milestone/M2-search (+2 / -2)
+      提交记录（按时间倒序）：
+        1. 6f3f637c  docs(architecture): 基座来源改为 hertz-demo 线上地址 (OPT-RULES-WORKTREE-RELATIVE)
+           时间: 2026-11-08T00:27:06.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/6f3f637c2b49ce8f02b49b4dbe6ea232b93ba9ee
+           分支: feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync, milestone/M2-search
+        2. bc8dfb43  docs(rules): R2 浓缩副本 worktree 目录改相对路径 ../.worktrees (OPT-RULES-WORKTREE-RELATIVE)
+           时间: 2026-11-08T00:16:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/bc8dfb438f440a37c74b1a181ff5dd5d42ace2f2
+           分支: feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync, milestone/M2-search
+        3. 1e2339f6  Merge branch 'feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync' into 'milestone/M2-search'
+           时间: 2026-11-08T02:51:14.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/1e2339f6d1f59900d0a09e9ef28f742e414e7cb9
+           分支: milestone/M2-search
+    • msdk/rispari/server/player-gateway            提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync, milestone/M2-search (+2 / -2)
+      提交记录（按时间倒序）：
+        1. cd069a05  docs(architecture): 基座来源改为 hertz-demo 线上地址 (OPT-RULES-WORKTREE-RELATIVE)
+           时间: 2026-11-08T00:27:06.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/cd069a05d646d414c80a1d1b45777c8a1b2356e4
+           分支: feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync, milestone/M2-search
+        2. 6461debe  docs(rules): R2 浓缩副本 worktree 目录改相对路径 ../.worktrees (OPT-RULES-WORKTREE-RELATIVE)
+           时间: 2026-11-08T00:16:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/6461debe0ff0f03fe5a54a309dfed925b4e9fa2f
+           分支: feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync, milestone/M2-search
+        3. 12bdc1f9  Merge branch 'feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync' into 'milestone/M2-search'
+           时间: 2026-11-08T02:51:16.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/12bdc1f9a6fe14664f5f9c1ca7979c8541ad2033
+           分支: milestone/M2-search
+    • msdk/rispari/server/im-scheduler              提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync, milestone/M2-search (+2 / -2)
+      提交记录（按时间倒序）：
+        1. fa12cc47  docs(rules): CLAUDE.md round-1 归档路径去硬编码 (OPT-RULES-WORKTREE-RELATIVE)
+           时间: 2026-11-08T00:27:06.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/fa12cc4724c439103971d8939958436364464558
+           分支: feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync, milestone/M2-search
+        2. 3d4e7368  docs(rules): R2 浓缩副本 worktree 目录改相对路径 ../.worktrees (OPT-RULES-WORKTREE-RELATIVE)
+           时间: 2026-11-08T00:16:31.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/3d4e7368d9a2564d0cc31428184f156f6f99cdd9
+           分支: feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync, milestone/M2-search
+        3. 641d9883  Merge branch 'feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync' into 'milestone/M2-search'
+           时间: 2026-11-08T02:51:06.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/commit/641d9883759d3f5ef7e20b6d85b8b9610eb03602
+           分支: milestone/M2-search
+    • msdk/rispari/server/admin-ws-gateway          提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync, milestone/M2-search (+1 / -1)
+      提交记录（按时间倒序）：
+        1. ef1697ad  docs(rules): R2 浓缩副本 worktree 目录改相对路径 ../.worktrees (OPT-RULES-WORKTREE-RELATIVE)
+           时间: 2026-11-08T00:16:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/ef1697addf5c825fd7a134694f90ea2ed6081774
+           分支: feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync, milestone/M2-search
+        2. aeb0d75e  Merge branch 'feature/OPT-RULES-WORKTREE-RELATIVE-rule-sync' into 'milestone/M2-search'
+           时间: 2026-11-08T02:51:09.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/commit/aeb0d75e0574b8feaad74c89882fb6180e4cd6d9
+           分支: milestone/M2-search
+
+用户: 吴超伟(Chaowei)
+  识别: chaoweiwu@moonton.com
+  出现过的名字: 吴超伟(Chaowei)
+  总提交    : 10 次
+  总新增/删除: +1,246 / -1,292
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 10
+  按项目分布:
+    • publish_platform/mt_publish_crawler           提交:  10  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+1,246 / -1,292)
+      提交记录（按时间倒序）：
+        1. ebca93df  m-7144241416 materials: 修复千分位结果数导致页数截断失效
+           时间: 2026-11-08T18:17:04.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/mt_publish_crawler/-/commit/ebca93df1888494e39e56366de3d14fd70a66d62
+           分支: master
+        2. 374a043d  m-7144241416 materials: 抓取窗口天数收敛为单一常量 + 周调度默认分区改为当天
+           时间: 2026-11-08T18:05:06.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/mt_publish_crawler/-/commit/374a043d726b6ed346b53878e9e526f4e94a9298
+           分支: master
+        3. 072a98ca  m-7144241416 materials: 抓取提速——页数动态截断 + 频控下调 + 已入库素材免开详情 tab
+           时间: 2026-11-08T17:36:53.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/mt_publish_crawler/-/commit/072a98ca63d4ef1466142978b5dc15edc6b7fc8f
+           分支: master
+        4. 33c80ca8  m-7144241416 materials: 频控从保守档下调到接近人类操作下限
+           时间: 2026-11-08T15:00:33.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/mt_publish_crawler/-/commit/33c80ca83fb38931503b8263bf293d46f058ed52
+           分支: master
+        5. b2021073  m-7144241416 materials: 去掉模式开关，统一为「已入库素材刷元数据 + 新素材下载」
+           时间: 2026-11-08T14:55:13.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/mt_publish_crawler/-/commit/b20210736e511a5caebe1b119f87a7ed7ba3cca8
+           分支: master
+        6. bab6bb90  m-7144241416 materials: crawl_date 改为取抓取日 + 刷新素材被过滤时显式告警
+           时间: 2026-11-08T14:33:30.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/mt_publish_crawler/-/commit/bab6bb9007a78d8df5bee8b73912012bfbe5278a
+           分支: master
+        7. ad7627ef  m-7144241416 materials: 统一日志格式，不改日志内容
+           时间: 2026-11-08T13:49:07.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/mt_publish_crawler/-/commit/ad7627efe93b2d848c49003d1551d593cd81f3f4
+           分支: master
+        8. 846ceb0d  m-7144241416 materials: 停刷 MLBB(仅保留 HOK) + 刷新模式限制前 5 页并对同素材批内去重 + 修复刷新模式下新素材不上传 S3 导致 s3_url_list 永久为空 + 补 5 个单测
+           时间: 2026-11-08T13:35:56.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/mt_publish_crawler/-/commit/846ceb0d1e6117b4fcaf267da221c76721ccf443
+           分支: master
+        9. 6c7fe53f  m-7144241416 materials: s3_url_list 改为上传后从 S3 回填(不再依赖本地磁盘) + 上传日志打印 s3a 路径 + 新增历史批次 JSON 清理(素材文件永不删) + 关键异常补 traceback + 新增 3 个单测
+           时间: 2026-11-08T12:37:11.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/mt_publish_crawler/-/commit/6c7fe53f03e911d24c215419c19b4f14068abf54
+           分支: master
+       10. 0761e5b5  m-7144241416 materials 降复杂度目录整理：与抓数无关的算法提案/历史报表/旧诊断脚本/测试统一收进 legacy/(生产链路只保留 weekly_pipeline、youcloud、analysis.analyze_materials、creative_reference、tools、tests、sql、output) + 新增 legacy/README.md 说明 + 同步 .gitignore/ARCHITECTURE.md + run_weekly.sh 自动从 one_sight_incre/keys.md 注入 Kyuubi 凭证
+           时间: 2026-11-08T11:27:33.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/mt_publish_crawler/-/commit/0761e5b5d9eb55aa60bb48a98bfff1e0d85089cc
+           分支: master
+
+用户: code-development
+  识别: group_508_bot8@moonton.com
+  出现过的名字: code-development
+  总提交    : 0 次
+  总新增/删除: +0 / -0
+  Merge Requests: 8 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 8
+  按项目分布:
+    • msdk/rispari/server/im-logic                  提交:   0  MR:  2  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#494 fix(contracts): protoc 默认路径改为 PATH 优先、本机目录回落 (FIX-IL-PROTOC-PATH)
+           时间: 2026-11-08T02:56:58.823Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/494
+        2. MR#493 docs(rules): R2 浓缩副本 worktree 目录改相对路径 ../.worktrees (OPT-RULES-WORKTREE-RELATIVE)
+           时间: 2026-11-07T16:17:48.498Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/493
+    • msdk/rispari/server/docs                      提交:   0  MR:  2  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#642 docs(governance): define cross-period contract current state
+           时间: 2026-11-08T10:17:17.816Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/642
+        2. MR#640 docs(rules): worktree 目录改相对路径并新增 docs 仓 R2 注入版 (OPT-RULES-WORKTREE-RELATIVE)
+           时间: 2026-11-07T16:17:58.150Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/640
+    • msdk/rispari/server/admin-ws-gateway          提交:   0  MR:  1  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#85 docs(rules): R2 浓缩副本 worktree 目录改相对路径 ../.worktrees (OPT-RULES-WORKTREE-RELATIVE)
+           时间: 2026-11-07T16:17:49.722Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-ws-gateway/-/merge_requests/85
+    • msdk/rispari/server/admin-gateway             提交:   0  MR:  1  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#539 docs(rules): R2 浓缩副本 worktree 目录改相对路径 ../.worktrees (OPT-RULES-WORKTREE-RELATIVE)
+           时间: 2026-11-07T16:17:49.375Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/merge_requests/539
+    • msdk/rispari/server/player-gateway            提交:   0  MR:  1  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#186 docs(rules): R2 浓缩副本 worktree 目录改相对路径 ../.worktrees (OPT-RULES-WORKTREE-RELATIVE)
+           时间: 2026-11-07T16:17:49.104Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/merge_requests/186
+    • msdk/rispari/server/im-scheduler              提交:   0  MR:  1  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#167 docs(rules): R2 浓缩副本 worktree 目录改相对路径 ../.worktrees (OPT-RULES-WORKTREE-RELATIVE)
+           时间: 2026-11-07T16:17:49.948Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-scheduler/-/merge_requests/167
+
+用户: suzyzeng
+  识别: suzyzeng@moonton.com
+  出现过的名字: suzyzeng
+  总提交    : 2 次
+  总新增/删除: +514 / -154
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/ad_bi/gms_ad_bi_cn           提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/m-7135951413_rule_dimPackage (+514 / -154)
+      提交记录（按时间倒序）：
+        1. 159098e6  m-7135951413，三个维度统一纯 ID，账户不再拼 (名称) 后缀
+           时间: 2026-11-08T18:38:01.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/159098e6d951c499d8d402301232351f950090fe
+           分支: feature/m-7135951413_rule_dimPackage
+        2. 5e1caa2b  m-7135951413，add rule/indicator/type 接口
+           时间: 2026-11-08T18:22:18.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/5e1caa2bf1230b71c1279ab9439f0356459d17df
+           分支: feature/m-7135951413_rule_dimPackage
+
+----------------------------------------------------------------------------------------------------
+共统计到 4 位活跃用户
