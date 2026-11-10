@@ -1,0 +1,1838 @@
+
+====================================================================================================
+最近 24 小时用户活动统计（不使用强制别名映射）
+====================================================================================================
+
+用户: 丁江(jiang)
+  识别: jiangding@moonton.com
+  出现过的名字: jiangding, 丁江(jiang)
+  总提交    : 82 次
+  总新增/删除: +14,254 / -3,216
+  Merge Requests: 30 个
+  Commit 评论  : 0 条
+  MR 评论      : 1 条
+  总活动量   : 113
+  按项目分布:
+    • msdk/rispari/server/im-logic                  提交:  41  MR: 13  Commit评论:  0  MR评论:  0 分支:chore/IL-M3-GC-NOTIFY-comment-align, chore/IL-M3-GC-TASKS-BACKFILL, feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, feature/IL-M3-GC-NOTIFY-result-code-msg, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-bigdata-fix, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-ml-error-classify, m3-game-complaint-m-7147764319-il-gc-report-event-name-align, m3-game-complaint-m-7147764319-il-gc-status-doc (+11,570 / -1,291)
+      提交记录（按时间倒序）：
+        1. 8707d505  m-7147764319, fix(IL-M3-GC-NOTIFY): 对局列表上游失败补齐 fail_detail 归因
+           时间: 2026-11-09T16:45:31.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/8707d505dee332cf3f4a17a0cf27abcf0f4691e2
+           分支: chore/IL-M3-GC-NOTIFY-comment-align, chore/IL-M3-GC-TASKS-BACKFILL, feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-report-event-name-align, m3-game-complaint-m-7147764319-il-gc-status-doc
+        2. 0e6c83c7  m-7147764319, chore(IL-M3-GC-NOTIFY): 注释口径同步 no_data
+           时间: 2026-11-09T16:34:51.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/0e6c83c7620d85d8d3ea4219cab533f41f67910b
+           分支: chore/IL-M3-GC-NOTIFY-comment-align, chore/IL-M3-GC-TASKS-BACKFILL, feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-report-event-name-align, m3-game-complaint-m-7147764319-il-gc-status-doc
+        3. 103727ba  Merge branch 'feature/IL-M3-GC-NOTIFY-result-code-msg' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T08:30:04.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/103727ba1f0e8b841f2b44f948557f35d31b0912
+           分支: chore/IL-M3-GC-NOTIFY-comment-align, chore/IL-M3-GC-TASKS-BACKFILL, feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-bigdata-fix, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-report-event-name-align, m3-game-complaint-m-7147764319-il-gc-status-doc
+        4. b459939a  m-7147764319, feat(IL-M3-GC-NOTIFY): 通知载荷拆分为 result_code/result_msg 并对接 JSON
+           时间: 2026-11-09T15:29:59.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/b459939aaaabc6ed1ba4b5d0a8d0782ea8979d19
+           分支: chore/IL-M3-GC-NOTIFY-comment-align, chore/IL-M3-GC-TASKS-BACKFILL, feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, feature/IL-M3-GC-NOTIFY-result-code-msg, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-bigdata-fix, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-report-event-name-align, m3-game-complaint-m-7147764319-il-gc-status-doc
+        5. af78d724  m-7147764319, merge: IL-M3-GC-DATA-ML 联调修补合入集成分支（返回码分类/配置放宽，连接信息脱敏）
+           时间: 2026-11-09T15:14:09.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/af78d724fdd0e498176f6a3be7670a375e04a367
+           分支: chore/IL-M3-GC-NOTIFY-comment-align, chore/IL-M3-GC-TASKS-BACKFILL, feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, feature/IL-M3-GC-NOTIFY-result-code-msg, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-bigdata-fix, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-report-event-name-align, m3-game-complaint-m-7147764319-il-gc-status-doc
+        6. 767d4a17  m-7147764319, docs(IL-M3-GC-DATA-ML): 沉淀 ML 联调返回码修补结论
+           时间: 2026-11-09T15:12:27.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/767d4a175444bcb0aa0dd1c8b08b59383bed2fae
+           分支: chore/IL-M3-GC-NOTIFY-comment-align, chore/IL-M3-GC-TASKS-BACKFILL, feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, feature/IL-M3-GC-NOTIFY-result-code-msg, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-bigdata-fix, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-ml-error-classify, m3-game-complaint-m-7147764319-il-gc-report-event-name-align, m3-game-complaint-m-7147764319-il-gc-status-doc
+        7. ebd8e0cb  m-7147764319, chore(IL-M3-GC-ML): 承载合并请求的占位提交
+           时间: 2026-11-09T15:10:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/ebd8e0cb7dc82b2c1986106ebd7a720624a36e6b
+           分支: chore/IL-M3-GC-NOTIFY-comment-align, chore/IL-M3-GC-TASKS-BACKFILL, feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, feature/IL-M3-GC-NOTIFY-result-code-msg, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-bigdata-fix, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-ml-error-classify, m3-game-complaint-m-7147764319-il-gc-report-event-name-align, m3-game-complaint-m-7147764319-il-gc-status-doc
+        8. 197ed148  m-7147764319, feat(IL-M3-GC-ML): 上游返回码分类、default 兜底与上报归因
+           时间: 2026-11-09T15:10:20.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/197ed148e0643a8d10376097ced30ac029941f67
+           分支: chore/IL-M3-GC-NOTIFY-comment-align, chore/IL-M3-GC-TASKS-BACKFILL, feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, feature/IL-M3-GC-NOTIFY-result-code-msg, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-bigdata-fix, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-ml-error-classify, m3-game-complaint-m-7147764319-il-gc-report-event-name-align, m3-game-complaint-m-7147764319-il-gc-status-doc
+        9. f1ecf86e  m-7147764319, feat(IL-M3-GC-ML): ML 下游配置支持空 token 与直连对象名
+           时间: 2026-11-09T15:10:15.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/f1ecf86e9d41d4a6b6ed3ebaace022f06d027914
+           分支: chore/IL-M3-GC-NOTIFY-comment-align, chore/IL-M3-GC-TASKS-BACKFILL, feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, feature/IL-M3-GC-NOTIFY-result-code-msg, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-bigdata-fix, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-ml-error-classify, m3-game-complaint-m-7147764319-il-gc-report-event-name-align, m3-game-complaint-m-7147764319-il-gc-status-doc
+       10. 1bcd818d  m-7147764319, feat(IL-M3-GC-CORE): 举报核心链路批量实现（T3~T7）
+           时间: 2026-11-09T13:02:51.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/1bcd818d4e620897d66e673552a9bc85c7fd0d7a
+           分支: chore/IL-M3-GC-NOTIFY-comment-align, chore/IL-M3-GC-TASKS-BACKFILL, feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, feature/IL-M3-GC-NOTIFY-result-code-msg, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-bigdata-fix, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-ml-error-classify, m3-game-complaint-m-7147764319-il-gc-report-event-name-align, m3-game-complaint-m-7147764319-il-gc-status-doc
+       11. 44181861  m-7147764319, docs(IL-M3-GC-TASKS): 回填 T3~T7 与 T17 完成状态
+           时间: 2026-11-09T16:52:27.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/44181861289a99b64650a45fc42defa3812dadce
+           分支: chore/IL-M3-GC-TASKS-BACKFILL, feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-report-event-name-align, m3-game-complaint-m-7147764319-il-gc-status-doc
+       12. 608a2571  Merge branch 'chore/IL-M3-GC-NOTIFY-comment-align' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T08:46:28.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/608a2571dfebb81b14e14ad1d2a6452b18f16fb9
+           分支: chore/IL-M3-GC-TASKS-BACKFILL, feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-report-event-name-align, m3-game-complaint-m-7147764319-il-gc-status-doc
+       13. 82dfa74b  docs(IL-M3-GC-ADVERSARIAL-TESTS): 刷新门禁制品锚定（含 imlogic seed）
+           时间: 2026-11-09T23:44:11.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/82dfa74b4306339892b7668c89636c15a057e2ec
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319
+       14. 38acc160  test(IL-M3-GC-ADVERSARIAL-TESTS): 补错误映射信息泄露对抗测试
+           时间: 2026-11-09T23:43:43.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/38acc16092ce6f930053d9484871a8e71b039f7d
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319
+       15. a8f9e340  docs(IL-M3-GC-ADVERSARIAL-TESTS): rebase 后刷新门禁制品锚定
+           时间: 2026-11-09T20:25:19.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/a8f9e340f98d6420d9a348112097dca54b368f77
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319
+       16. a6436fca  docs(IL-M3-GC-ADVERSARIAL-TESTS): 落盘 G2 闭包门禁制品并回填阶段上下文
+           时间: 2026-11-09T20:11:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/a6436fcaff5421be6dd45787f1920602ae9e8c99
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319
+       17. 768c6c52  test(IL-M3-GC-ADVERSARIAL-TESTS): 补举报链路参数边界、时间窗与幂等并发对抗测试
+           时间: 2026-11-09T20:10:56.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/768c6c52f65d4d6f52e27b5d839c019ff03abc49
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319
+       18. 4b8b783d  Merge branch 'm3-game-complaint-m-7147764319-il-gc-status-doc' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T10:47:33.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/4b8b783d841feb8523b3f742f453071b1a1df245
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319
+       19. 23444bf4  m-7147764319, docs(m3-game-complaint): 沉淀举报全链路对接状态与 notify 接入说明
+           时间: 2026-11-09T18:47:11.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/23444bf4d77e72dde7a024b05ef4e7d62f827b16
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-status-doc
+       20. 56a3bf19  Merge branch 'm3-game-complaint-m-7147764319-il-gc-core-rework' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T10:45:52.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/56a3bf19b1c434ee36717d8f71356c9d315b72d0
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-status-doc
+       21. 46a9a2a2  m-7147764319, docs(IL-M3-GC-CORE): 收尾对齐任务证据与遗留工作区核实结论
+           时间: 2026-11-09T18:44:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/46a9a2a21f5b423ccf13b0dd8fe48cf2cd566db7
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-status-doc
+       22. 307fcc20  m-7147764319, docs(IL-M3-GC-CORE): 回填 T3~T7 评审与返工证据并更新阶段上下文
+           时间: 2026-11-09T18:40:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/307fcc201cdf819f8a46e84fc0216a0cf6b66d13
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-status-doc
+       23. c54612eb  m-7147764319, docs(IL-M3-GC-CORE): 沉淀返工复核报告
+           时间: 2026-11-09T18:39:54.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c54612eb0a97420b6b59e39430b308c6fa6a3a8a
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-status-doc
+       24. fe4e13c9  m-7147764319, docs(IL-M3-GC-CORE): 沉淀返工门禁证据与摘要
+           时间: 2026-11-09T18:39:54.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/fe4e13c96a908d7c3c7b53be522353a3533faa96
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-status-doc
+       25. 3714b5de  m-7147764319, fix(IL-M3-GC-CORE): 修复独立评审阻塞项 B1/B2 与建议项 S1
+           时间: 2026-11-09T18:39:54.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/3714b5deb631c542e17e075d25cd8eeb211a891d
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-status-doc
+       26. c295d66b  Merge branch 'm3-game-complaint-m-7147764319-il-gc-config-align-followup' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T10:34:30.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c295d66bac40190ec8e639fcc8e6c7db25707d2e
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-status-doc
+       27. 49a04835  m-7147764319, docs(IL-M3-GC-CONFIG-ALIGN): 处置独立评审建议并补闭包门禁证据
+           时间: 2026-11-09T18:33:53.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/49a04835a76cb3ebab5faf039f4d22bbb01b43cd
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-status-doc
+       28. 5128d716  m-7147764319, fix(IL-M3-GC-CONFIG-ALIGN): 处置评审建议——修正默认超时注释并补默认批量上限断言
+           时间: 2026-11-09T18:25:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/5128d7162d72ab7a60786cc7190cfccb88028192
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-status-doc
+       29. 75e835aa  Merge branch 'm3-game-complaint-m-7147764319-il-gc-config-align' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T10:19:58.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/75e835aa03ba97e6184d2a91e613102c33d42f52
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-status-doc
+       30. fbff65c6  m-7147764319, docs(IL-M3-GC-CONFIG-ALIGN): 沉淀配置对齐证据与进度上下文
+           时间: 2026-11-09T18:17:32.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/fbff65c6b5ecef7fd959bde13e0f40e3660a6955
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-status-doc
+       31. c40c1fda  m-7147764319, chore(IL-M3-GC-CONFIG-ALIGN): 对齐 game_data 与 report 配置口径
+           时间: 2026-11-09T18:16:11.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c40c1fda2146e1764a3a66a4cb32c52e6ed2caa6
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-status-doc
+       32. f858d9ce  m-7147764319, add-ml-cnf
+           时间: 2026-11-09T18:02:55.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/f858d9ce33b3a000f6c700ac43e31ad98e2f57d0
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-status-doc
+       33. 786a2e71  Merge branch 'm3-game-complaint-m-7147764319-il-gc-evidence-backfill' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T09:32:49.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/786a2e713b161286621ec365802d321ab80c488b
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-status-doc
+       34. 30f2e252  m-7147764319, docs(IL-M3-GC-EVIDENCE-BACKFILL): 补齐 T3~T7 evidence 制品与完成证据字段
+           时间: 2026-11-09T17:32:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/30f2e2527289726e4e7854808411221779f1751c
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-status-doc
+       35. c33ec307  Merge branch 'm3-game-complaint-m-7147764319-il-gc-report-event-name-align' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T09:14:42.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c33ec30713dca412fb020a2a0f99c86215c8c125
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-status-doc
+       36. 5b5a7e4c  m-7147764319, fix(IL-M3-GC-REPORT-EVENT-NAME): 事件名注释与测试数据对齐 game_complaint_event
+           时间: 2026-11-09T17:14:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/5b5a7e4ca9719496c583442b425d38fed528a0dc
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-report-event-name-align, m3-game-complaint-m-7147764319-il-gc-status-doc
+       37. 05922313  Merge branch 'm3-game-complaint-m-7147764319-il-gc-bigdata-fix' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T09:01:13.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/05922313182060ddc9863aeaa5441c8a19cd768b
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-report-event-name-align, m3-game-complaint-m-7147764319-il-gc-status-doc
+       38. 5b81ab75  Merge branch 'chore/IL-M3-GC-TASKS-BACKFILL' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T09:01:06.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/5b81ab75d6dbd984667c5caf4561dc54d50dcb0d
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-report-event-name-align, m3-game-complaint-m-7147764319-il-gc-status-doc
+       39. c0571038  m-7147764319, docs(IL-M3-GC-DATA-ML): 回填返回码实测结论与联调证据
+           时间: 2026-11-09T16:55:48.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c0571038fb53a0cde87d288d81f31bed8a2243fb
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-bigdata-fix, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-report-event-name-align, m3-game-complaint-m-7147764319-il-gc-status-doc
+       40. 47e9d1ae  m-7147764319, fix(IL-M3-GC-DATA-BIGDATA): 请求参数名改为 account_id
+           时间: 2026-11-09T16:55:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/47e9d1aeaad892a80510830ad19362cdd14fe489
+           分支: feature/IL-M3-GC-ADVERSARIAL-TESTS, feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-il-gc-bigdata-fix, m3-game-complaint-m-7147764319-il-gc-config-align, m3-game-complaint-m-7147764319-il-gc-config-align-followup, m3-game-complaint-m-7147764319-il-gc-core-rework, m3-game-complaint-m-7147764319-il-gc-evidence-backfill, m3-game-complaint-m-7147764319-il-gc-report-event-name-align, m3-game-complaint-m-7147764319-il-gc-status-doc
+       41. ab47c0e7  Merge branch 'feature/IL-M3-GC-ADVERSARIAL-TESTS' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T15:48:28.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/ab47c0e79bfb5d40b3f6a5ffd28cb44679486b8f
+           分支: feature/IL-M3-GC-NOTIFY-OBS, fix/IL-M3-GC-ADVERSARIAL-COUNT, fix/IL-M3-GC-NOTIFY-OBS-PTR, m3-game-complaint-m-7147764319
+      MR记录（按时间倒序）：
+        1. MR#512 m-7147764319, fix(IL-M3-GC-ADVERSARIAL): 举报链路对抗加固与半真实闭环取证
+           时间: 2026-11-09T15:42:42.058Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/512
+        2. MR#511 test(IL-M3-GC-ADVERSARIAL-TESTS): 举报链路对抗测试补强（参数边界/时间窗/幂等并发）
+           时间: 2026-11-09T12:10:39.377Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/511
+        3. MR#508 docs(M3-GC): 沉淀举报全链路对接状态与 notify 接入说明
+           时间: 2026-11-09T10:45:57.955Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/508
+        4. MR#506 m-7147764319 IL-M3-GC-CORE: 修复独立评审阻塞项 B1/B2 与建议项 S1
+           时间: 2026-11-09T10:35:49.867Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/506
+        5. MR#505 m-7147764319, fix(IL-M3-GC-CONFIG-ALIGN): 处置独立评审建议并补齐 G3 闭包门禁证据
+           时间: 2026-11-09T10:34:03.389Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/505
+        6. MR#504 m-7147764319, chore(IL-M3-GC-CONFIG-ALIGN): 对齐 game_data 与 report 配置口径
+           时间: 2026-11-09T10:17:43.167Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/504
+        7. MR#501 IL-M3-GC-EVIDENCE-BACKFILL: 补齐 T3~T7 evidence 制品与完成证据字段
+           时间: 2026-11-09T09:32:36.994Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/501
+        8. MR#500 IL-M3-GC-REPORT-EVENT-NAME: 事件名注释与测试数据对齐 game_complaint_event
+           时间: 2026-11-09T09:14:18.422Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/500
+        9. MR#499 m-7147764319 IL-M3-GC：大数据请求字段名修复 + 返回码实测回填
+           时间: 2026-11-09T08:55:53.819Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/499
+       10. MR#498 m-7147764319, docs(IL-M3-GC-TASKS): 回填 T3~T7 与 T17 完成状态
+           时间: 2026-11-09T08:52:30.973Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/498
+       11. MR#497 m-7147764319, chore(IL-M3-GC-NOTIFY): 注释口径同步 no_data
+           时间: 2026-11-09T08:34:58.030Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/497
+       12. MR#496 m-7147764319, feat(IL-M3-GC-NOTIFY): 通知载荷拆分为 result_code/result_msg 并对接 JSON
+           时间: 2026-11-09T07:26:21.105Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/496
+       13. MR#495 m-7147764319 IL-M3-GC-ML：ML 返回码分类兜底与配置放宽
+           时间: 2026-11-09T07:10:40.871Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/495
+    • msdk/rispari/server/docs                      提交:  24  MR:  9  Commit评论:  0  MR评论:  0 分支:docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-contract-terminal-artifacts, m3-game-complaint-m-7147764319-base-gc-contract-terminal-artifacts-closeout, m3-game-complaint-m-7147764319-base-gc-ledger-backfill, m3-game-complaint-m-7147764319-base-gc-notify-result-code-msg, m3-game-complaint-m-7147764319-base-gc-stage-context-sync, m3-game-complaint-m-7147764319-base-gc-status-realign, m3-game-complaint-m-7147764319-base-gc-w0-status-backfill (+829 / -346)
+      提交记录（按时间倒序）：
+        1. dfb2b00e  docs(BASE-M3-GC-T0H-BACKFILL): 落盘门禁预检制品
+           时间: 2026-11-09T19:25:26.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/dfb2b00e464d19b585505006b6d123d8bc1eaea8
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319
+        2. aa6912f6  docs(BASE-M3-GC-T0H-BACKFILL): T0h 背景行终态命名对齐 D-M3-18（empty_data→no_data）
+           时间: 2026-11-09T19:24:47.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/aa6912f6bb2fd3ace6af4b605524fb0d4ed1063d
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319
+        3. 217c8b44  Merge branch 'm3-game-complaint-m-7147764319-base-gc-ledger-backfill' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T09:33:54.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/217c8b449765c3dd663f5b57dc8a0ba6faad03ba
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319
+        4. 18cd2c64  m-7147764319, docs(BASE-M3-GC-LEDGER-BACKFILL): 父台账按子仓状态与证据回填
+           时间: 2026-11-09T17:33:27.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/18cd2c64eec1ba6387548bd95f44f4082ba6ac9b
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-ledger-backfill
+        5. 083119b9  Merge branch 'm3-game-complaint-m-7147764319-base-gc-status-realign' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T09:16:04.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/083119b9279c1797998c47d9099ef7d40e0ee67b
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319
+        6. 91785c69  m-7147764319, docs(BASE-M3-GC-STATUS-REALIGN): 阶段上下文对齐四仓最新状态与事件名修复
+           时间: 2026-11-09T17:15:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/91785c69d0fd7b9ad57e4ac74d58a487021b7b1a
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-ledger-backfill, m3-game-complaint-m-7147764319-base-gc-status-realign
+        7. cf49f8e1  Merge branch 'm3-game-complaint-m-7147764319-base-gc-notify-result-code-msg' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T08:45:26.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/cf49f8e14fa72f35c87f1846b1bb394a13fa81a7
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-ledger-backfill, m3-game-complaint-m-7147764319-base-gc-status-realign
+        8. ab2103a1  m-7147764319, docs(BASE-M3-GC-NOTIFY): 契约对齐 no_data 与 result_code/result_msg
+           时间: 2026-11-09T16:36:21.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/ab2103a1b63dcc5bd9b92d806cf2c5f6b8ccc5de
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-ledger-backfill, m3-game-complaint-m-7147764319-base-gc-notify-result-code-msg, m3-game-complaint-m-7147764319-base-gc-status-realign
+        9. 76baffcb  m-7147764319, merge: BASE-M3-GC-W0-STATUS-BACKFILL 最新收口提交合入集成分支
+           时间: 2026-11-09T15:14:58.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/76baffcb16bf17a0f51c88eb7145370cfd1d3e78
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-ledger-backfill, m3-game-complaint-m-7147764319-base-gc-notify-result-code-msg, m3-game-complaint-m-7147764319-base-gc-status-realign
+       10. c4303a86  m-7147764319, docs(BASE-M3-GC-W0-STATUS-BACKFILL): 证据基线同步至 rebase 后合入点
+           时间: 2026-11-09T15:14:00.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/c4303a865ee77454361c6678179da8a15be53d40
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-ledger-backfill, m3-game-complaint-m-7147764319-base-gc-notify-result-code-msg, m3-game-complaint-m-7147764319-base-gc-status-realign, m3-game-complaint-m-7147764319-base-gc-w0-status-backfill
+       11. e4b36b18  m-7147764319, docs(BASE-M3-GC-W0-STATUS-BACKFILL): 预检制品按 rebase 后锚点更新
+           时间: 2026-11-09T15:13:26.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/e4b36b1826217ffd59e0e8fa602ca08751e70c67
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-ledger-backfill, m3-game-complaint-m-7147764319-base-gc-notify-result-code-msg, m3-game-complaint-m-7147764319-base-gc-status-realign, m3-game-complaint-m-7147764319-base-gc-w0-status-backfill
+       12. 1eb0284d  m-7147764319, docs(BASE-M3-GC-W0-STATUS-BACKFILL): 评审处置留痕与跨仓状态对齐
+           时间: 2026-11-09T15:13:08.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/1eb0284dab21d39a5a3ee21b6d40085d685a570c
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-ledger-backfill, m3-game-complaint-m-7147764319-base-gc-notify-result-code-msg, m3-game-complaint-m-7147764319-base-gc-status-realign, m3-game-complaint-m-7147764319-base-gc-w0-status-backfill
+       13. 8af80020  m-7147764319, docs(BASE-M3-GC-W0-STATUS-BACKFILL): 纳入预检制品
+           时间: 2026-11-09T15:13:07.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/8af80020ccedb6fc9b21affa083a8974efa73eb4
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-ledger-backfill, m3-game-complaint-m-7147764319-base-gc-notify-result-code-msg, m3-game-complaint-m-7147764319-base-gc-status-realign, m3-game-complaint-m-7147764319-base-gc-w0-status-backfill
+       14. 46fa60b0  m-7147764319, docs(BASE-M3-GC-W0-STATUS-BACKFILL): 波次 0 状态回填与 T0 编号对齐
+           时间: 2026-11-09T15:13:05.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/46fa60b0602396ef48f9a7943a0dc2ab37e04dc5
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-ledger-backfill, m3-game-complaint-m-7147764319-base-gc-notify-result-code-msg, m3-game-complaint-m-7147764319-base-gc-status-realign, m3-game-complaint-m-7147764319-base-gc-w0-status-backfill
+       15. 21d8323d  m-7147764319, merge: BASE-M3-GC-W0-STATUS-BACKFILL 合入集成分支（波次 0 状态回填）
+           时间: 2026-11-09T15:11:59.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/21d8323d0c3378457b165568efd08ce868b9b364
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-ledger-backfill, m3-game-complaint-m-7147764319-base-gc-notify-result-code-msg, m3-game-complaint-m-7147764319-base-gc-status-realign, m3-game-complaint-m-7147764319-base-gc-w0-status-backfill
+       16. 116e0f89  Merge branch 'm3-game-complaint-m-7147764319-base-gc-stage-context-sync' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T07:10:33.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/116e0f89f899ed858ec7d7daa0add18917998929
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-ledger-backfill, m3-game-complaint-m-7147764319-base-gc-notify-result-code-msg, m3-game-complaint-m-7147764319-base-gc-status-realign, m3-game-complaint-m-7147764319-base-gc-w0-status-backfill
+       17. 9cab31e4  m-7147764319, docs(m3-game-complaint): 阶段上下文同步 player-gateway 收口态
+           时间: 2026-11-09T15:06:38.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/9cab31e468e452024f4ecdf96e5e5db9dfb89e74
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-ledger-backfill, m3-game-complaint-m-7147764319-base-gc-notify-result-code-msg, m3-game-complaint-m-7147764319-base-gc-stage-context-sync, m3-game-complaint-m-7147764319-base-gc-status-realign, m3-game-complaint-m-7147764319-base-gc-w0-status-backfill
+       18. ced3c1f7  m-7147764319, docs(BASE-M3-GC-W0-STATUS-BACKFILL): 波次 0 状态回填与 T0 编号对齐
+           时间: 2026-11-09T15:06:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/ced3c1f7eb454f7bbd93918cac84abc00c300d82
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-ledger-backfill, m3-game-complaint-m-7147764319-base-gc-notify-result-code-msg, m3-game-complaint-m-7147764319-base-gc-status-realign, m3-game-complaint-m-7147764319-base-gc-w0-status-backfill
+       19. 916ddbce  Merge branch 'm3-game-complaint-m-7147764319-base-gc-contract-terminal-artifacts-closeout' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T04:47:25.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/916ddbceddbcfe2bf5154e71568018f1b1d6fc79
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-ledger-backfill, m3-game-complaint-m-7147764319-base-gc-notify-result-code-msg, m3-game-complaint-m-7147764319-base-gc-stage-context-sync, m3-game-complaint-m-7147764319-base-gc-status-realign, m3-game-complaint-m-7147764319-base-gc-w0-status-backfill
+       20. f4c67f95  m-7147764319, docs(BASE-M3-GC-CONTRACT-TERMINAL-ARTIFACTS): 合入后收口——T0h 状态回填与阶段上下文更新
+           时间: 2026-11-09T11:23:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/f4c67f9519227daa9b35510ed6ea49d39ef23286
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-contract-terminal-artifacts-closeout, m3-game-complaint-m-7147764319-base-gc-ledger-backfill, m3-game-complaint-m-7147764319-base-gc-notify-result-code-msg, m3-game-complaint-m-7147764319-base-gc-stage-context-sync, m3-game-complaint-m-7147764319-base-gc-status-realign, m3-game-complaint-m-7147764319-base-gc-w0-status-backfill
+       21. 313e99f5  Merge branch 'm3-game-complaint-m-7147764319-base-gc-contract-terminal-artifacts' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T03:21:03.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/313e99f552da4577712069f253dbc76d93a10c41
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-contract-terminal-artifacts-closeout, m3-game-complaint-m-7147764319-base-gc-ledger-backfill, m3-game-complaint-m-7147764319-base-gc-notify-result-code-msg, m3-game-complaint-m-7147764319-base-gc-stage-context-sync, m3-game-complaint-m-7147764319-base-gc-status-realign, m3-game-complaint-m-7147764319-base-gc-w0-status-backfill
+       22. f9ab293b  m-7147764319, docs(BASE-M3-GC-CONTRACT-TERMINAL-ARTIFACTS): 补门禁与跨仓交接证据
+           时间: 2026-11-09T11:08:20.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/f9ab293b85ec3c6cb35b8d62d912f197cd6fc79b
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-contract-terminal-artifacts, m3-game-complaint-m-7147764319-base-gc-contract-terminal-artifacts-closeout, m3-game-complaint-m-7147764319-base-gc-ledger-backfill, m3-game-complaint-m-7147764319-base-gc-notify-result-code-msg, m3-game-complaint-m-7147764319-base-gc-stage-context-sync, m3-game-complaint-m-7147764319-base-gc-status-realign, m3-game-complaint-m-7147764319-base-gc-w0-status-backfill
+       23. f5e97e47  m-7147764319, docs(BASE-M3-GC-CONTRACT-TERMINAL-ARTIFACTS): 终态与通知存储口径契约制品落地（D-M3-14~17）
+           时间: 2026-11-09T11:04:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/f5e97e47b2084ebdd2c5b2ebeb5f8a0d03a17485
+           分支: docs/BASE-M3-GC-T0H-BACKFILL, m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-contract-terminal-artifacts, m3-game-complaint-m-7147764319-base-gc-contract-terminal-artifacts-closeout, m3-game-complaint-m-7147764319-base-gc-ledger-backfill, m3-game-complaint-m-7147764319-base-gc-notify-result-code-msg, m3-game-complaint-m-7147764319-base-gc-stage-context-sync, m3-game-complaint-m-7147764319-base-gc-status-realign, m3-game-complaint-m-7147764319-base-gc-w0-status-backfill
+       24. 3c15f704  Merge branch 'docs/BASE-M3-GC-T0H-BACKFILL' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T15:47:59.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/3c15f704d919cee120753a7e205214c67f1fc3a9
+           分支: m3-game-complaint-m-7147764319
+      MR记录（按时间倒序）：
+        1. MR#652 docs(BASE-M3-GC-T0H-BACKFILL): T0h 背景行终态命名对齐 D-M3-18
+           时间: 2026-11-09T11:25:34.191Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/652
+        2. MR#651 BASE-M3-GC-LEDGER-BACKFILL: 父台账按子仓状态与证据回填
+           时间: 2026-11-09T09:33:36.541Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/651
+        3. MR#650 BASE-M3-GC-STATUS-REALIGN: 阶段上下文对齐四仓最新状态
+           时间: 2026-11-09T09:15:30.008Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/650
+        4. MR#648 m-7147764319, docs(BASE-M3-GC-NOTIFY): 契约对齐 no_data 与 result_code/result_msg
+           时间: 2026-11-09T08:36:26.773Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/648
+        5. MR#647 Draft: M3 game complaint m 7147764319 base gc w0 status backfill
+           时间: 2026-11-09T08:11:48.510Z
+           状态: closed
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/647
+        6. MR#646 docs(m3-game-complaint): 波次 0 状态回填与 T0 编号对齐 (BASE-M3-GC-W0-STATUS-BACKFILL)
+           时间: 2026-11-09T07:06:57.811Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/646
+        7. MR#645 BASE-M3-GC-STAGE-CONTEXT-SYNC: docs 阶段上下文同步 player-gateway 收口态
+           时间: 2026-11-09T07:06:46.495Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/645
+        8. MR#644 BASE-M3-GC-CONTRACT-TERMINAL-ARTIFACTS: 合入后收口（T0h 状态回填）
+           时间: 2026-11-09T03:23:43.069Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/644
+        9. MR#643 BASE-M3-GC-CONTRACT-TERMINAL-ARTIFACTS: 终态与通知存储口径契约制品落地
+           时间: 2026-11-09T03:04:34.120Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/643
+    • msdk/rispari/server/report                    提交:   9  MR:  5  Commit评论:  0  MR评论:  1 分支:m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-contract-terminal-artifacts, m3-game-complaint-m-7147764319-rp-gc-event-name-align, m3-game-complaint-m-7147764319-rp-gc-event-name-fix, m3-game-complaint-m-7147764319-rp-gc-event-name-guard, m3-game-complaint-m-7147764319-rp-gc-ledger-realign (+246 / -39)
+      提交记录（按时间倒序）：
+        1. 6cad6759  Merge branch 'm3-game-complaint-m-7147764319-rp-gc-event-name-guard' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T09:17:29.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/report/-/commit/6cad6759ab3c9fb1fd44900dd525645723622e62
+           分支: m3-game-complaint-m-7147764319
+        2. 9ea397fd  m-7147764319, fix(RP-M3-GC-EVENT-NAME-ALIGN): 上报事件名运行时对齐 D-M3-14
+           时间: 2026-11-09T17:16:59.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/report/-/commit/9ea397fd0773385b9222b2e4221694e6771c29b5
+           分支: m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-rp-gc-event-name-guard
+        3. a67254b0  Merge branch 'm3-game-complaint-m-7147764319-rp-gc-event-name-fix' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T09:13:23.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/report/-/commit/a67254b0af796dc16d0c3f9d26ebc8654a24489a
+           分支: m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-rp-gc-event-name-guard
+        4. 97d9629c  m-7147764319, fix(RP-M3-GC-EVENT-NAME): 事件名对齐 game_complaint_event（D-M3-14）
+           时间: 2026-11-09T17:11:33.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/report/-/commit/97d9629cb772f9d26aee33adac39c890c18ea5e3
+           分支: m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-rp-gc-event-name-fix, m3-game-complaint-m-7147764319-rp-gc-event-name-guard
+        5. 8af969ee  Merge branch 'm3-game-complaint-m-7147764319-rp-gc-ledger-realign' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T09:07:48.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/report/-/commit/8af969ee8670ac0ee32599a3417f0d33e30078e1
+           分支: m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-rp-gc-event-name-align, m3-game-complaint-m-7147764319-rp-gc-event-name-fix, m3-game-complaint-m-7147764319-rp-gc-event-name-guard
+        6. 685f627b  m-7147764319, docs(RP-M3-GC-LEDGER): 台账与本仓现状对齐
+           时间: 2026-11-09T17:05:22.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/report/-/commit/685f627b8fcaad7dd93c67e93298ca2e95bd04a5
+           分支: m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-rp-gc-event-name-align, m3-game-complaint-m-7147764319-rp-gc-event-name-fix, m3-game-complaint-m-7147764319-rp-gc-event-name-guard, m3-game-complaint-m-7147764319-rp-gc-ledger-realign
+        7. b064ab8a  Merge branch 'm3-game-complaint-m-7147764319-base-gc-contract-terminal-artifacts' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T04:50:12.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/report/-/commit/b064ab8a7b8a58dfdc0be24602b3d7e8c8c20a7b
+           分支: m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-rp-gc-event-name-align, m3-game-complaint-m-7147764319-rp-gc-event-name-fix, m3-game-complaint-m-7147764319-rp-gc-event-name-guard, m3-game-complaint-m-7147764319-rp-gc-ledger-realign
+        8. cc46832b  m-7147764319, docs(BASE-M3-GC-CONTRACT-TERMINAL-ARTIFACTS): 上报事件名注释对齐 game_complaint_event（D-M3-14）
+           时间: 2026-11-09T11:06:24.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/report/-/commit/cc46832b970e75fc1f7e853bed437661b83a25ff
+           分支: m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-base-gc-contract-terminal-artifacts, m3-game-complaint-m-7147764319-rp-gc-event-name-align, m3-game-complaint-m-7147764319-rp-gc-event-name-fix, m3-game-complaint-m-7147764319-rp-gc-event-name-guard, m3-game-complaint-m-7147764319-rp-gc-ledger-realign
+        9. 159aefd0  m-7147764319, fix(RP-M3-GC-EVENT-NAME-ALIGN): 上报事件名运行时对齐 D-M3-14
+           时间: 2026-11-09T17:12:00.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/report/-/commit/159aefd00b38e0b966e25a9c4ba586479601a3ff
+           分支: m3-game-complaint-m-7147764319-rp-gc-event-name-align
+      MR记录（按时间倒序）：
+        1. MR#44 RP-M3-GC-EVENT-NAME-ALIGN: 补契约事件名防回归守卫与证据
+           时间: 2026-11-09T09:17:16.897Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/report/-/merge_requests/44
+        2. MR#43 m-7147764319, fix(RP-M3-GC-EVENT-NAME-ALIGN): 上报事件名运行时对齐 D-M3-14
+           时间: 2026-11-09T09:14:34.459Z
+           状态: closed
+           链接: http://lf.git.oa.mt/msdk/rispari/server/report/-/merge_requests/43
+        3. MR#42 RP-M3-GC-EVENT-NAME: 上报事件名对齐 game_complaint_event（修复上报被拒收）
+           时间: 2026-11-09T09:11:39.581Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/report/-/merge_requests/42
+        4. MR#41 m-7147764319, docs(RP-M3-GC-LEDGER): 台账与本仓现状对齐
+           时间: 2026-11-09T09:07:20.191Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/report/-/merge_requests/41
+        5. MR#40 BASE-M3-GC-CONTRACT-TERMINAL-ARTIFACTS: 上报事件名注释对齐 game_complaint_event
+           时间: 2026-11-09T03:06:30.022Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/report/-/merge_requests/40
+      MR评论记录：
+        1. 丁江(jiang): 冲突已处理完毕，说明如下：
+
+1. 本 MR 的修复内容已由 !42（事件名常量与映射修正，merge a67254b）+ !44（防回归守卫测试、evidence、台账登记，merge 6cad6759）先后合入集成分支。
+2. 冲突根因：本分支基于旧集成分支；!42 先行合入了相同的常量修改。
+3. 已在本地将本分支 rebase 到最新集成分支并解决 biz/consts/consts.go...
+           MR#: 43 (m-7147764319, fix(RP-M3-GC-EVENT-NAME-ALIGN): 上报事件名运行时对齐 D-M3-14)
+           时间: 2026-11-09T09:19:16.225Z
+           链接: 
+    • msdk/rispari/server/player-gateway            提交:   5  MR:  2  Commit评论:  0  MR评论:  0 分支:m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-pg-gc-contract-terminal-sync, m3-game-complaint-m-7147764319-pg-gc-ledger-closeout (+1,583 / -1,512)
+      提交记录（按时间倒序）：
+        1. aed64add  Merge branch 'm3-game-complaint-m-7147764319-pg-gc-ledger-closeout' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T07:10:16.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/aed64add6d9587a1ab43f834f12f4e59f6894a1a
+           分支: m3-game-complaint-m-7147764319
+        2. c92cfe00  m-7147764319, docs(PG-M3-GC-CONTRACT-TERMINAL-SYNC): 合入收口——台账勾选与阶段上下文对齐
+           时间: 2026-11-09T15:05:57.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/c92cfe00e87c77a27caeb3d8f18343fdd16a418f
+           分支: m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-pg-gc-ledger-closeout
+        3. 538bb403  Merge branch 'm3-game-complaint-m-7147764319-pg-gc-contract-terminal-sync' into 'm3-game-complaint-m-7147764319'
+           时间: 2026-11-09T04:49:19.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/538bb4037ed2da72e52fa5c4bb824478eece4f2e
+           分支: m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-pg-gc-ledger-closeout
+        4. f5a90ea7  m-7147764319, docs(PG-M3-GC-CONTRACT-TERMINAL-SYNC): 补门禁与闭包外观察证据
+           时间: 2026-11-09T12:13:55.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/f5a90ea71d0b61d2466d0e8fc9e27afdc129bae7
+           分支: m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-pg-gc-contract-terminal-sync, m3-game-complaint-m-7147764319-pg-gc-ledger-closeout
+        5. 06b22535  m-7147764319, feat(PG-M3-GC-CONTRACT-TERMINAL-SYNC): 举报契约副本完整同步（D-M3-07~17）
+           时间: 2026-11-09T12:13:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/commit/06b225357ac71eddefd5cc450f1b6f702b0521eb
+           分支: m3-game-complaint-m-7147764319, m3-game-complaint-m-7147764319-pg-gc-contract-terminal-sync, m3-game-complaint-m-7147764319-pg-gc-ledger-closeout
+      MR记录（按时间倒序）：
+        1. MR#188 PG-M3-GC-CONTRACT-TERMINAL-SYNC: 合入收口——台账勾选与阶段上下文对齐
+           时间: 2026-11-09T07:06:07.655Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/merge_requests/188
+        2. MR#187 PG-M3-GC-CONTRACT-TERMINAL-SYNC: 举报契约副本完整同步（D-M3-07~17）
+           时间: 2026-11-09T04:13:47.237Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/player-gateway/-/merge_requests/187
+    • msdk/rispari/server/vip                       提交:   3  MR:  1  Commit评论:  0  MR评论:  0 分支:test, v3-optimize-m-7150983974-20261102 (+26 / -28)
+      提交记录（按时间倒序）：
+        1. d4ec46e4  Merge branch 'v3-optimize-m-7150983974-20261102' into 'test'
+           时间: 2026-11-09T08:20:33.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/d4ec46e4a3244d4e5679f5d16cd603a6cf90c5c4
+           分支: test
+        2. d2afb844  m-7150983974, estimate 台账回填（merge origin/master 到 v3（redis 单机客户端修复）：预估 26min / 实际 7min）
+           时间: 2026-11-09T15:14:43.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/d2afb84471e7238c6af5dc29f013808ffcb5d066
+           分支: test, v3-optimize-m-7150983974-20261102
+        3. e8902399  m-7150983974, merge origin/master（redis 单机客户端修复 83d42b44）
+           时间: 2026-11-09T15:13:00.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/commit/e8902399c9621b13d2223a51257309d7719ad612
+           分支: test, v3-optimize-m-7150983974-20261102
+      MR记录（按时间倒序）：
+        1. MR#45 V3 optimize m 7150983974 20261102
+           时间: 2026-11-09T08:20:16.121Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/vip/-/merge_requests/45
+
+用户: 曾凡单(Suzy)
+  识别: suzyzeng@moonton.com
+  出现过的名字: suzyzeng, 曾凡单(Suzy)
+  总提交    : 22 次
+  总新增/删除: +1,670 / -638
+  Merge Requests: 8 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 30
+  按项目分布:
+    • publish_platform/ad_bi/gms_ad_bi_cn           提交:  22  MR:  8  Commit评论:  0  MR评论:  0 分支:feature/m-7135951413_rule_dimPackage, m-7160725531-安全改造, main (+1,670 / -638)
+      提交记录（按时间倒序）：
+        1. 4a49832f  m-7135951413，执行日志详情中 columns 加上 indicatorID
+           时间: 2026-11-09T20:56:21.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/4a49832fbb25d6330f8aa2d91cc8242a881d73cf
+           分支: feature/m-7135951413_rule_dimPackage, main
+        2. 02d04b97  Merge branch 'main' into feature/m-7135951413_rule_dimPackage
+           时间: 2026-11-09T20:21:08.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/02d04b9726e9a109ad6a867d82b9d20194ca8381
+           分支: feature/m-7135951413_rule_dimPackage, main
+        3. fcbf4046  m-7135951413，修复自定义维度预警的初始化；恢复规则详情的指标由前端来format
+           时间: 2026-11-09T20:19:34.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/fcbf4046757c6338e8584c41d857f0530fbf123f
+           分支: feature/m-7135951413_rule_dimPackage, main
+        4. b40f5892  Merge branch 'feature/m-7135951413_rule_dimPackage' into 'main'
+           时间: 2026-11-09T09:39:08.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/b40f5892409054dcfaa98040696837804e78e39b
+           分支: feature/m-7135951413_rule_dimPackage, main
+        5. 63fd2a14  Merge branch 'main' into feature/m-7135951413_rule_dimPackage
+           时间: 2026-11-09T17:37:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/63fd2a14a12476e90fecb6018bc76f89486e0fdd
+           分支: feature/m-7135951413_rule_dimPackage, main
+        6. c22bbcb9  m-7135951413，调整存量预警初始化的过程；监控周期选择按小时的时候，monitorVal 返回''
+           时间: 2026-11-09T17:37:00.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/c22bbcb9bcf9e52d1075d07ab1d1405ccc0437e3
+           分支: feature/m-7135951413_rule_dimPackage, main
+        7. 89087cb5  m-7135951413，调整存量预警初始化的过程；监控周期选择按小时的时候，monitorVal 返回''
+           时间: 2026-11-09T17:24:27.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/89087cb56da36f34fb1c91954dccbad61094c059
+           分支: feature/m-7135951413_rule_dimPackage, main
+        8. 64c10753  Merge branch 'feature/m-7135951413_rule_dimPackage' into 'main'
+           时间: 2026-11-09T07:48:22.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/64c10753766e8c9e0474771136b4f921a271badc
+           分支: feature/m-7135951413_rule_dimPackage, main
+        9. 22c6f536  m-7135951413，没有打包的数据集，纯bi预警，不需要过滤 ocean 账户
+           时间: 2026-11-09T15:47:55.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/22c6f53605e04126632bd0449b2afd0e5e3d95b4
+           分支: feature/m-7135951413_rule_dimPackage, main
+       10. 891a3df2  Merge branch 'main' into feature/m-7135951413_rule_dimPackage
+           时间: 2026-11-09T15:15:53.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/891a3df24559f34b889532192bebe5de4613b16a
+           分支: feature/m-7135951413_rule_dimPackage, main
+       11. e214d861  m-7135951413，go build 去掉用完的一次性工具
+           时间: 2026-11-09T15:08:52.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/e214d861a29aae7dca5674030004a52001d35953
+           分支: feature/m-7135951413_rule_dimPackage, main
+       12. b7acc41c  Merge branch 'feature/m-7135951413_rule_dimPackage' into 'main'
+           时间: 2026-11-09T07:06:59.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/b7acc41cde5a64126db26305b94566dc197344aa
+           分支: feature/m-7135951413_rule_dimPackage, main
+       13. 68874c11  m-7135951413，go build 去掉用完的一次性工具
+           时间: 2026-11-09T15:06:32.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/68874c1157d40b1af116abf082e04cb20eb38a51
+           分支: feature/m-7135951413_rule_dimPackage, main
+       14. 4d21f7e1  Merge branch 'feature/m-7135951413_rule_dimPackage' into 'main'
+           时间: 2026-11-09T07:02:16.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/4d21f7e1a684d13500bca55cf0d80a6985acc0cd
+           分支: feature/m-7135951413_rule_dimPackage, main
+       15. f1bd6d3c  Merge branch 'main' into feature/m-7135951413_rule_dimPackage
+           时间: 2026-11-09T15:01:35.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/f1bd6d3c778f37db300a0399a0f07e7380b4e5b5
+           分支: feature/m-7135951413_rule_dimPackage, main
+       16. 43d06702  m-7135951413，go build 去掉用完的一次性工具
+           时间: 2026-11-09T15:01:11.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/43d06702b1bc10c1a49031cd09d6eec49af632e5
+           分支: feature/m-7135951413_rule_dimPackage, main
+       17. 0d43440a  Merge branch 'feature/m-7135951413_rule_dimPackage' into 'main'
+           时间: 2026-11-09T06:15:12.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/0d43440a6746caedb54dc22ce46e177ae291137c
+           分支: feature/m-7135951413_rule_dimPackage, m-7160725531-安全改造, main
+       18. 566e4ed7  m-7135951413，go build 去掉用完的一次性工具
+           时间: 2026-11-09T13:43:09.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/566e4ed70ed025896468486125df194a63f6566d
+           分支: feature/m-7135951413_rule_dimPackage, m-7160725531-安全改造, main
+       19. ea05c321  Merge branch 'feature/m-7135951413_rule_dimPackage' into 'main'
+           时间: 2026-11-09T02:49:40.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/ea05c32190efa85ab8fd408788baf0f9c84e4cb7
+           分支: feature/m-7135951413_rule_dimPackage, m-7160725531-安全改造, main
+       20. 5badab0b  m-7135951413，应用对象列为{对应的应用对象}（打包组）。如：广告账户（打包组）
+           时间: 2026-11-09T10:20:36.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/5badab0b82539973c09ce7b388b8d55605bd2401
+           分支: feature/m-7135951413_rule_dimPackage, m-7160725531-安全改造, main
+       21. c2481b9f  Merge branch 'feature/m-7135951413_rule_dimPackage' into 'main'
+           时间: 2026-11-09T12:57:24.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/c2481b9f76c5789645acdace7b3144e3acd74fe1
+           分支: main
+       22. 5db01439  Merge branch 'feature/m-7135951413_rule_dimPackage' into 'main'
+           时间: 2026-11-09T12:22:03.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/5db014399bf665067b784b50ebd3027276e458bc
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#146 m-7135951413，执行日志详情中 columns 加上 indicatorID
+           时间: 2026-11-09T12:57:18.116Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/merge_requests/146
+        2. MR#145 m-7135951413，修复自定义维度预警的初始化；恢复规则详情的指标由前端来format
+           时间: 2026-11-09T12:21:56.695Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/merge_requests/145
+        3. MR#144 m-7135951413，调整存量预警初始化的过程；监控周期选择按小时的时候，monitorVal 返回''； 初始化存量预警规则
+           时间: 2026-11-09T09:39:02.437Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/merge_requests/144
+        4. MR#143 m-7135951413，没有打包的数据集，纯bi预警，不需要过滤 ocean 账户
+           时间: 2026-11-09T07:48:17.109Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/merge_requests/143
+        5. MR#142 m-7135951413，go build 去掉用完的一次性工具
+           时间: 2026-11-09T07:06:50.753Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/merge_requests/142
+        6. MR#141 m-7135951413，go build 去掉用完的一次性工具
+           时间: 2026-11-09T07:02:11.558Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/merge_requests/141
+        7. MR#140 m-7135951413，go build 去掉用完的一次性工具
+           时间: 2026-11-09T06:15:09.753Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/merge_requests/140
+        8. MR#139 m-7135951413，应用对象列为{对应的应用对象}（打包组）。如：广告账户（打包组）
+           时间: 2026-11-09T02:40:09.821Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/merge_requests/139
+
+用户: 李铭骏(Mingjun)
+  识别: mingjunli@moonton.com
+  出现过的名字: mingjunli, 李铭骏(Mingjun)
+  总提交    : 30 次
+  总新增/删除: +4,103 / -1,492
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 30
+  按项目分布:
+    • msdk/rispari/server/docs                      提交:  15  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/BASE-FIX-M2-H318-CREATED-COUNT-created-count, feature/OPT-CONTRACT-COVERAGE-INDEX, feature/OPT-DESIGN-CATALOG-STATE-VERIFY-state, feature/OPT-R8-CROSS-PERIOD-CHECK, feature/OPT-SCHEMA-CURRENT-STATE, feature/access_config_m-7148222718, feature/auto-ticket-m-7147952375, master, opt/docs_summary (+2,046 / -651)
+      提交记录（按时间倒序）：
+        1. 9ac04b6b  docs(progress): BASE-FIX-M2-H318-CREATED-COUNT 证据制品入仓
+           时间: 2026-11-09T17:04:32.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/9ac04b6b48c110cbdcfb6fdf1ddbff4990743e49
+           分支: feature/BASE-FIX-M2-H318-CREATED-COUNT-created-count, feature/access_config_m-7148222718, feature/auto-ticket-m-7147952375, master
+        2. a28087bd  fix(contracts): H318/TWS-H03 未拉取计数恒比较 created_at（BASE-FIX-M2-H318-CREATED-COUNT）
+           时间: 2026-11-09T17:03:21.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/a28087bd98da2a4a624bb7bf3e0be2c19fbedbca
+           分支: feature/BASE-FIX-M2-H318-CREATED-COUNT-created-count, feature/access_config_m-7148222718, feature/auto-ticket-m-7147952375, master
+        3. f48a8a8d  docs(design): OPT-CONTRACT-COVERAGE-INDEX 评审返工
+           时间: 2026-11-09T23:10:08.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/f48a8a8d0a0ed5cc7817dfa9741883e5de921a4c
+           分支: feature/OPT-CONTRACT-COVERAGE-INDEX
+        4. 4810ba1b  docs(design): OPT-CONTRACT-COVERAGE-INDEX 新增契约归属索引
+           时间: 2026-11-09T23:04:09.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/4810ba1b0e232d51df7cf9b9aba495a0e27ff272
+           分支: feature/OPT-CONTRACT-COVERAGE-INDEX
+        5. b4e92683  Merge branch 'feature/OPT-CONTRACT-CURRENT-STATE-GOV-current-state' into 'opt/docs_summary'
+           时间: 2026-11-09T14:36:37.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/b4e926836ff2fdd5e5a13bd1776dac42708f20cb
+           分支: feature/OPT-CONTRACT-COVERAGE-INDEX, feature/OPT-DESIGN-CATALOG-STATE-VERIFY-state, feature/OPT-R8-CROSS-PERIOD-CHECK, feature/OPT-SCHEMA-CURRENT-STATE, opt/docs_summary
+        6. b2baee0d  docs(design): 设计状态登记面评审返工
+           时间: 2026-11-09T23:54:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/b2baee0d793d5f52367d43e56e9e0d841bac8517
+           分支: feature/OPT-DESIGN-CATALOG-STATE-VERIFY-state
+        7. acfc9234  docs(design): 建立 M2 设计状态登记面并据此收口目录
+           时间: 2026-11-09T23:49:52.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/acfc9234ca1b192f661cf419e4ed76c619dfb496
+           分支: feature/OPT-DESIGN-CATALOG-STATE-VERIFY-state
+        8. 9bbf6a30  docs(M2): 消除三处指向仓外 status.yaml 的状态委托
+           时间: 2026-11-09T23:42:23.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/9bbf6a309c06f565a3c01047d7efa530b193f3cd
+           分支: feature/OPT-DESIGN-CATALOG-STATE-VERIFY-state
+        9. 860cfe8d  docs(design): OPT-DESIGN-CATALOG-STATE-VERIFY 撤回外部依赖，改为仓内事实订正
+           时间: 2026-11-09T23:35:35.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/860cfe8d5878683f038a836d27299b0a7778d164
+           分支: feature/OPT-DESIGN-CATALOG-STATE-VERIFY-state
+       10. 6998b55f  docs(design): OPT-DESIGN-CATALOG-STATE-VERIFY 评审返工
+           时间: 2026-11-09T22:56:41.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/6998b55f527e2312020dbe1dc7d9c62bc9c04fe4
+           分支: feature/OPT-DESIGN-CATALOG-STATE-VERIFY-state
+       11. 6c9f7dc4  docs(design): OPT-DESIGN-CATALOG-STATE-VERIFY 逐领域核实目录状态
+           时间: 2026-11-09T22:49:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/6c9f7dc49af4175f52fe1fa0b91442e115fea2dc
+           分支: feature/OPT-DESIGN-CATALOG-STATE-VERIFY-state
+       12. d96eae21  docs(rules): OPT-R8-CROSS-PERIOD-CHECK 评审返工
+           时间: 2026-11-09T23:18:19.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/d96eae210788ead8a0a8b86439016f4cfbf8da47
+           分支: feature/OPT-R8-CROSS-PERIOD-CHECK
+       13. c7819ea1  docs(rules): OPT-R8-CROSS-PERIOD-CHECK 落地 R8 跨期闭环机械检查
+           时间: 2026-11-09T23:13:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/c7819ea135a63c13dc41ff6e5316f7e851835bca
+           分支: feature/OPT-R8-CROSS-PERIOD-CHECK
+       14. 7dc093a4  docs(design): OPT-SCHEMA-CURRENT-STATE 评审返工
+           时间: 2026-11-09T23:29:32.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/7dc093a4c419fb30b5c804a03fb9bdd9ec061e0e
+           分支: feature/OPT-SCHEMA-CURRENT-STATE
+       15. b66a34e2  docs(design): OPT-SCHEMA-CURRENT-STATE 新增 Schema 当前态指针表
+           时间: 2026-11-09T23:24:07.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/b66a34e2a558f56cca82b2c4c6fb31e8ab366918
+           分支: feature/OPT-SCHEMA-CURRENT-STATE
+    • msdk/rispari/server/im-logic                  提交:   9  MR:  0  Commit评论:  0  MR评论:  0 分支:develop, feature/FIX-AT-RUNBOOK-DTS-ES-MAPPING-runbook, feature/OPT-M2-SEARCH-DTS-ES-MAPPING-rule, feature/auto-ticket-m-7147952375, fix/IL-FIX-M2-H318-CREATED-COUNT-created-count, milestone/M2-search, test (+1,073 / -674)
+      提交记录（按时间倒序）：
+        1. b8092a28  docs(evidence): H318 评审返工记录与门禁复跑
+           时间: 2026-11-09T18:00:14.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/b8092a28ede7b4882ef66d62dda7f2a338c61259
+           分支: develop, feature/OPT-M2-SEARCH-DTS-ES-MAPPING-rule, feature/auto-ticket-m-7147952375, fix/IL-FIX-M2-H318-CREATED-COUNT-created-count, milestone/M2-search, test
+        2. 4411592c  fix(h318): 恢复 kitex_gen 生成态 tag 并清理陈旧注释
+           时间: 2026-11-09T17:55:01.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/4411592c722a5eb48bab55bbf85f039510844e90
+           分支: develop, feature/OPT-M2-SEARCH-DTS-ES-MAPPING-rule, feature/auto-ticket-m-7147952375, fix/IL-FIX-M2-H318-CREATED-COUNT-created-count, milestone/M2-search, test
+        3. dc4342c4  docs(evidence): H318 未拉取计数修复门禁与验收证据
+           时间: 2026-11-09T17:45:23.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/dc4342c4661b53e3bd63dd15a3bf206c19ccfc64
+           分支: develop, feature/OPT-M2-SEARCH-DTS-ES-MAPPING-rule, feature/auto-ticket-m-7147952375, fix/IL-FIX-M2-H318-CREATED-COUNT-created-count, milestone/M2-search, test
+        4. e655c98b  test(ticket-unread): 对齐不变量对偶面固定 created_at 排序
+           时间: 2026-11-09T17:38:24.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/e655c98bde9c322f35a82ec1aa34e76472cbc5f6
+           分支: develop, feature/OPT-M2-SEARCH-DTS-ES-MAPPING-rule, feature/auto-ticket-m-7147952375, fix/IL-FIX-M2-H318-CREATED-COUNT-created-count, milestone/M2-search, test
+        5. ea788186  fix(ticket-unread): 未拉取计数改为基准之后新建客诉数
+           时间: 2026-11-09T17:27:19.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/ea788186bb81efa6e54588e79f4c7077e6852f83
+           分支: develop, feature/OPT-M2-SEARCH-DTS-ES-MAPPING-rule, feature/auto-ticket-m-7147952375, fix/IL-FIX-M2-H318-CREATED-COUNT-created-count, milestone/M2-search, test
+        6. 8d300a46  docs(auto-ticket): 按评审意见收敛 DTS/ES 前置条款（FIX-AT-RUNBOOK-DTS-ES-MAPPING）
+           时间: 2026-11-09T20:20:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/8d300a464b9f21eeb7102f33a6ef832bbe6e4926
+           分支: feature/FIX-AT-RUNBOOK-DTS-ES-MAPPING-runbook
+        7. f0abe4ae  docs(auto-ticket): 补 056/058 执行前的 DTS 与 ES mapping 前置（FIX-AT-RUNBOOK-DTS-ES-MAPPING）
+           时间: 2026-11-09T20:07:03.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/f0abe4ae00b9f32efdef2d65572cd0da7f52276b
+           分支: feature/FIX-AT-RUNBOOK-DTS-ES-MAPPING-runbook
+        8. 89b1bdf4  docs(im-task-playbook): 按评审意见收敛 DTS 前置条款（OPT-M2-SEARCH-DTS-ES-MAPPING）
+           时间: 2026-11-09T20:15:53.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/89b1bdf467b043b106958cdeceb1f0bdea84b633
+           分支: feature/OPT-M2-SEARCH-DTS-ES-MAPPING-rule
+        9. c5b73810  docs(im-task-playbook): 补 DTS 关联表改字段前先同步 ES mapping 的前置要求（OPT-M2-SEARCH-DTS-ES-MAPPING）
+           时间: 2026-11-09T20:07:02.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/c5b73810c519b75b6bbc424a23222528cc6a8294
+           分支: feature/OPT-M2-SEARCH-DTS-ES-MAPPING-rule
+    • msdk/rispari/tools/server-coordination        提交:   4  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/OPT-BUGWF-RESOLVED-COMMENT-STRUCTURE, master (+73 / -11)
+      提交记录（按时间倒序）：
+        1. 59ff3946  docs(bugwf): 评审返工——修正转端单豁免条件、指针与平台事实
+           时间: 2026-11-09T21:20:24.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/59ff39468f21a882ccc269572f13d23a5cccc883
+           分支: feature/OPT-BUGWF-RESOLVED-COMMENT-STRUCTURE, master
+        2. 6c53ad13  docs(bugwf): 固化「已解决」回写的四段结构（OPT-BUGWF-RESOLVED-COMMENT-STRUCTURE）
+           时间: 2026-11-09T21:13:50.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/6c53ad13754c17035fe30702535584c2d12f9f9b
+           分支: feature/OPT-BUGWF-RESOLVED-COMMENT-STRUCTURE, master
+        3. 08de3c89  docs(coordination): 登记 dev ES 停同步事故与 DTS/ES mapping 规则补齐裁定
+           时间: 2026-11-09T20:11:45.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/08de3c896647fd1c4a8bab765449f8b42973862e
+           分支: feature/OPT-BUGWF-RESOLVED-COMMENT-STRUCTURE, master
+        4. abd19e07  Merge branch 'feature/OPT-BUGWF-RESOLVED-COMMENT-STRUCTURE' into 'master'
+           时间: 2026-11-09T13:31:34.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/commit/abd19e07475d880449586a47e564877cf1bc6965
+           分支: master
+    • msdk/rispari/tools/server-loop                提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/LOOP-MR-MERGE-REAL, master (+911 / -156)
+      提交记录（按时间倒序）：
+        1. d41d7ab5  feat(mr-card): 合并按钮真实生效，窗口 MR 卡补齐合并按钮
+           时间: 2026-11-09T21:11:29.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-loop/-/commit/d41d7ab5b8b8d1c462af0e9b14e1d26d6d01e78e
+           分支: feature/LOOP-MR-MERGE-REAL, master
+        2. 167071f3  Merge branch 'feature/LOOP-MR-MERGE-REAL' into 'master'
+           时间: 2026-11-09T13:17:21.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-loop/-/commit/167071f3e1e457e715c0db5f0d2b4fb16ad25760
+           分支: master
+
+用户: 黄锦(jin)
+  识别: jinhuang01@moonton.com
+  出现过的名字: 黄锦, 黄锦(jin)
+  总提交    : 19 次
+  总新增/删除: +1,626 / -527
+  Merge Requests: 9 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 28
+  按项目分布:
+    • publish_platform/web/theta                    提交:  19  MR:  9  Commit评论:  0  MR评论:  0 分支:f-7143810024-df-async-1109, f-7143810024-tagging-retry-1109, m-7143810024-phase-6-1103, m-7156283212-new-feature-1106, test (+1,626 / -527)
+      提交记录（按时间倒序）：
+        1. 221a918e  fix: 保留自动广告会话任务标题 f-7143810024
+           时间: 2026-11-09T19:49:12.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/221a918e6eed28ec3eb51c42f0c1126f22c2e8cd
+           分支: f-7143810024-df-async-1109, test
+        2. 11d6ffd9  fix: 将DF执行改为后台任务并支持手动刷新结果 f-7143810024
+           时间: 2026-11-09T18:13:51.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/11d6ffd984ec01727ebfd31bcd6abb606dec580a
+           分支: f-7143810024-df-async-1109, test
+        3. 3c618dd6  fix: 创建打标重试任务时补查队列并优化查询 f-7143810024
+           时间: 2026-11-09T15:51:32.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/3c618dd609e7acaaef27eb1e82f8e170864da0d0
+           分支: f-7143810024-tagging-retry-1109, test
+        4. dc378d89  fix: 补齐待传区原素材快照命名来源 f-7143810024
+           时间: 2026-11-09T17:52:13.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/dc378d89edc0e82545c41b1d89b645f727e0e358
+           分支: m-7143810024-phase-6-1103, test
+        5. 485d1678  fix: 修复直推待传区图片命名 f-7143810024
+           时间: 2026-11-09T17:38:13.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/485d1678914e5df3a9022eda95880b492c3a6dd3
+           分支: m-7143810024-phase-6-1103, test
+        6. e439b696  fix: 图片缺少语言尺寸时保留原名称 f-7143810024
+           时间: 2026-11-09T16:39:42.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/e439b69659330c4b233916ff0aa318643f6b7f7d
+           分支: m-7143810024-phase-6-1103, test
+        7. 1fb5997c  feat: 独立待传区命名映射并调整迭代提示 m-7143810024
+           时间: 2026-11-09T15:47:46.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/1fb5997c4bf358e1bd3d0d95148e62c262f9522b
+           分支: m-7143810024-phase-6-1103, test
+        8. c21aaadb  feat: 优化排版选择、比例裁剪与迭代参数 m-7143810024
+           时间: 2026-11-09T14:57:50.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/c21aaadbd3bad0f564aa79acf1ce184ebf518dfa
+           分支: m-7143810024-phase-6-1103, test
+        9. 78dcbf0b  fix: 修复高光源语言恢复与详情标签 f-7156283212
+           时间: 2026-11-09T18:41:33.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/78dcbf0beb00ca5f48e50caf149faa6b880cbe89
+           分支: m-7156283212-new-feature-1106, test
+       10. b82fef64  fix: 高光工作流独立并将平台留空 f-7156283212
+           时间: 2026-11-09T15:45:20.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/b82fef64e401276c781fa19a0a90f2c207d00c27
+           分支: m-7156283212-new-feature-1106, test
+       11. c80781fe  Merge branch 'f-7143810024-df-async-1109' into 'test'
+           时间: 2026-11-09T11:51:10.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/c80781fe14bb83a92f34fdc6f80f475e41a58025
+           分支: test
+       12. 03b101de  Merge branch 'm-7156283212-new-feature-1106' into test
+           时间: 2026-11-09T19:01:57.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/03b101ded63eaf1bc184f02416e11d89d24dfe27
+           分支: test
+       13. e1e699e8  Merge branch 'f-7143810024-df-async-1109' into 'test'
+           时间: 2026-11-09T10:34:20.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/e1e699e89e139aecdd333ff8e817c40407807950
+           分支: test
+       14. 7ac4deb8  Merge branch 'm-7156283212-new-feature-1106' into test
+           时间: 2026-11-09T18:18:17.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/7ac4deb8db8f050ff67c6103055c2975df458c37
+           分支: test
+       15. f9f7c32b  Merge branch 'm-7143810024-phase-6-1103' into 'test'
+           时间: 2026-11-09T09:54:31.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/f9f7c32b63a34534d618deb1fabb4a1ae6a53d8b
+           分支: test
+       16. 2816abd8  Merge branch 'm-7143810024-phase-6-1103' into 'test'
+           时间: 2026-11-09T09:40:02.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/2816abd851b477be775d11e01cc4107037a20599
+           分支: test
+       17. 73b1b36c  Merge branch 'f-7143810024-tagging-retry-1109' into 'test'
+           时间: 2026-11-09T09:13:47.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/73b1b36cc72ee70a2aabd38518ee5e4cf67a3bff
+           分支: test
+       18. 754845c3  Merge branch 'm-7143810024-phase-6-1103' into 'test'
+           时间: 2026-11-09T08:54:31.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/754845c3d69b1810f05e594cf07da63f809fbadf
+           分支: test
+       19. 16df34e6  Merge branch 'm-7143810024-phase-6-1103' into 'test'
+           时间: 2026-11-09T08:08:11.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/commit/16df34e683021e948a6d7d7c92d38fae5314690e
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#287 fix: 保留自动广告会话任务标题 f-7143810024
+           时间: 2026-11-09T11:51:00.703Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/merge_requests/287
+        2. MR#286 fix: 修复高光源语言恢复与详情标签 f-7156283212
+           时间: 2026-11-09T10:57:15.237Z
+           状态: closed
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/merge_requests/286
+        3. MR#285 fix: 将DF执行改为后台任务并支持手动刷新结果 f-7143810024
+           时间: 2026-11-09T10:34:12.695Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/merge_requests/285
+        4. MR#284 fix: 高光工作流独立并将平台留空 f-7156283212
+           时间: 2026-11-09T10:14:37.000Z
+           状态: closed
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/merge_requests/284
+        5. MR#283 fix: 补齐待传区原素材快照命名来源 f-7143810024
+           时间: 2026-11-09T09:54:28.462Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/merge_requests/283
+        6. MR#282 fix: 修复直推待传区图片命名 f-7143810024
+           时间: 2026-11-09T09:39:56.899Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/merge_requests/282
+        7. MR#281 fix: 创建打标重试任务时补查队列并优化查询 f-7143810024
+           时间: 2026-11-09T09:13:27.288Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/merge_requests/281
+        8. MR#280 fix: 图片缺少语言尺寸时保留原名称 f-7143810024
+           时间: 2026-11-09T08:54:15.356Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/merge_requests/280
+        9. MR#279 feat: 独立待传区命名映射并调整迭代提示 m-7143810024
+           时间: 2026-11-09T08:07:53.756Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/theta/-/merge_requests/279
+
+用户: 徐腾飞(Tengfei)
+  识别: tengfeixu@moonton.com
+  出现过的名字: tengfeixu, 徐腾飞(Tengfei)
+  总提交    : 18 次
+  总新增/删除: +64,900 / -2,419
+  Merge Requests: 5 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 23
+  按项目分布:
+    • msdk/rispari/server/docs                      提交:   7  MR:  1  Commit评论:  0  MR评论:  0 分支:feature/auto-ticket-m-7147952375 (+5,636 / -74)
+      提交记录（按时间倒序）：
+        1. a5a62447  merge: integrate master into auto-ticket branch
+           时间: 2026-11-09T20:21:35.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/a5a62447a8cb9fdfcc3a161ce56ad0af3aac2a98
+           分支: feature/auto-ticket-m-7147952375
+        2. 46c7ac3b  docs: add AI policy RPC and snapshot design
+           时间: 2026-11-09T20:19:47.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/46c7ac3bfe7032598eca7d354f73e88e15277c93
+           分支: feature/auto-ticket-m-7147952375
+        3. e880b761  docs(auto-ticket): record async commit design and load test evidence
+           时间: 2026-11-09T17:58:42.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/e880b76154f499fd3215fc89840d3c575b79b5a1
+           分支: feature/auto-ticket-m-7147952375
+        4. 9f5f5162  docs(auto-ticket): document AG completion deduplication window
+           时间: 2026-11-09T16:50:58.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/9f5f5162e56ea7df030aa0c8e86f98d44b318822
+           分支: feature/auto-ticket-m-7147952375
+        5. 9e18715f  docs(auto-ticket): document explicit dispatch request integration
+           时间: 2026-11-09T16:35:12.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/9e18715f7ba170d0b0e2426064598e8916469d40
+           分支: feature/auto-ticket-m-7147952375
+        6. 5e5d9dc4  docs(auto-ticket): record pool sizing validation and Redis assessment
+           时间: 2026-11-09T15:53:13.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/5e5d9dc4ea527c25104d51188f0c23b77b3c6830
+           分支: feature/auto-ticket-m-7147952375
+        7. c710bdec  Merge branch 'master' into feature/auto-ticket-m-7147952375
+           时间: 2026-11-09T10:42:00.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/c710bdecd9d06e92f7501268c69faff3266ff33c
+           分支: feature/auto-ticket-m-7147952375
+      MR记录（按时间倒序）：
+        1. MR#653 docs(auto-ticket): sync IL hooks and 4010 validation evidence
+           时间: 2026-11-09T12:29:21.326Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/653
+    • publish_platform/kol                          提交:   3  MR:  2  Commit评论:  0  MR评论:  0 分支:dev, feat/tos-m-7142351232, test 
+      提交记录（按时间倒序）：
+        1. 1df9b222  Merge branch 'feat/tos-m-7142351232' into 'dev'
+           时间: 2026-11-09T07:26:04.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/1df9b2225d2330f09792e672a298432aeae5c90f
+           分支: dev
+        2. 3d2413a0  Merge branch 'fix/sql-injection-m-7150794845' into feat/tos-m-7142351232
+           时间: 2026-11-09T15:23:37.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/3d2413a05f8602c8843fa9260df5d82ac2e4a602
+           分支: dev, feat/tos-m-7142351232, test
+        3. 540a66de  Merge branch 'feat/tos-m-7142351232' into 'test'
+           时间: 2026-11-09T07:31:51.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/commit/540a66ded59695a19713b73bae0fb0f02ad39225
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#2532 Feat/tos m 7142351232
+           时间: 2026-11-09T07:26:23.091Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/merge_requests/2532
+        2. MR#2531 Feat/tos m 7142351232
+           时间: 2026-11-09T07:24:16.234Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/kol/-/merge_requests/2531
+    • publish_platform/kappa                        提交:   2  MR:  2  Commit评论:  0  MR评论:  0 分支:develop, test 
+      提交记录（按时间倒序）：
+        1. b2bd3f72  Merge branch 'feat/migrate-m-7142351232' into 'develop'
+           时间: 2026-11-09T07:32:05.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/kappa/-/commit/b2bd3f72e66c130f5d622f983ffbc85d08089a9e
+           分支: develop
+        2. 7fd47c91  Merge branch 'feat/migrate-m-7142351232' into 'test'
+           时间: 2026-11-09T07:34:45.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/kappa/-/commit/7fd47c9135832efbf23233dad1ff0758216745b8
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#346 feat: support AWS S3 and TOS through configurable object storage
+           时间: 2026-11-09T07:34:25.451Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/kappa/-/merge_requests/346
+        2. MR#345 feat: support AWS S3 and TOS through configurable object storage
+           时间: 2026-11-09T07:29:14.878Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/kappa/-/merge_requests/345
+    • msdk/rispari/server/admin-gateway             提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/auto-ticket-m-7147952375 (+28,037 / -1,273)
+      提交记录（按时间倒序）：
+        1. fdbd6829  merge: integrate M2-search while preserving ticket dispatch
+           时间: 2026-11-09T20:30:07.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/fdbd6829950e181d35239cce85194219ffc164ae
+           分支: feature/auto-ticket-m-7147952375
+        2. 815da1c2  perf(ticketdispatch): move offset commits off claim scheduler
+           时间: 2026-11-09T17:58:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/815da1c228582388a1ae3149363abd5263d4b39d
+           分支: feature/auto-ticket-m-7147952375
+        3. 02ae50e7  perf(ticket-dispatch): deduplicate completed tickets for 30 seconds
+           时间: 2026-11-09T16:50:49.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/admin-gateway/-/commit/02ae50e7db11fb9be98d887f036810e305818cdb
+           分支: feature/auto-ticket-m-7147952375
+    • msdk/rispari/server/im-logic                  提交:   3  MR:  0  Commit评论:  0  MR评论:  0 分支:feature/FIX-AT-RUNBOOK-DTS-ES-MAPPING-runbook, feature/auto-ticket-m-7147952375 (+31,227 / -1,072)
+      提交记录（按时间倒序）：
+        1. 25eef2fa  refactor(ticket-dispatch): expose explicit business dispatch request
+           时间: 2026-11-09T16:35:59.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/25eef2fac2fb8a7a4dd693f61238c9300a476f15
+           分支: feature/FIX-AT-RUNBOOK-DTS-ES-MAPPING-runbook, feature/auto-ticket-m-7147952375
+        2. bda1dcd6  perf(mysql): increase IL connection pool to 50
+           时间: 2026-11-09T15:53:10.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/bda1dcd612949a8e9752b6ac17126174bcddcd2c
+           分支: feature/FIX-AT-RUNBOOK-DTS-ES-MAPPING-runbook, feature/auto-ticket-m-7147952375
+        3. aaebc27f  merge: integrate M2-search while preserving IL ticket dispatch
+           时间: 2026-11-09T20:39:16.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/aaebc27f34e7a4d752655544acf04009557050c5
+           分支: feature/auto-ticket-m-7147952375
+
+用户: 李孔权(Levir)
+  识别: levirli@moonton.com
+  出现过的名字: likongquan, 李孔权(Levir)
+  总提交    : 14 次
+  总新增/删除: +3,861 / -758
+  Merge Requests: 5 个
+  Commit 评论  : 0 条
+  MR 评论      : 1 条
+  总活动量   : 20
+  按项目分布:
+    • msdk/account                                  提交:   7  MR:  3  Commit评论:  0  MR评论:  1 分支:develop, feat/did_log_report_m-7158914990, feat/xredis_v9, test (+3,400 / -567)
+      提交记录（按时间倒序）：
+        1. 66643f73  Merge branch 'feat/xredis_v9' into 'develop'
+           时间: 2026-11-09T05:12:50.000+00:00
+           链接: http://lf.git.oa.mt/msdk/account/-/commit/66643f734e1415f802c964393195a26f81a3887c
+           分支: develop
+        2. 3a3ddb51  [xredis_v9] 升级 xredis 至 v1.1.0 并迁移 go-redis 至 v9
+           时间: 2026-11-09T13:08:29.000+08:00
+           链接: http://lf.git.oa.mt/msdk/account/-/commit/3a3ddb513996af0040ccaae2f4a1dc3dffbe752d
+           分支: develop, feat/xredis_v9, test
+        3. 5b82a147  [did_log_report] 合并 DID 日志 HTTP 上报功能到 develop m-7158914990
+           时间: 2026-11-09T11:07:34.000+08:00
+           链接: http://lf.git.oa.mt/msdk/account/-/commit/5b82a14731b0d71bdc69d77ae248c5712b31bffa
+           分支: develop
+        4. bb471b6f  [did_log_report] 修复退出时中断在途上报与确认 m-7158914990
+           时间: 2026-11-09T10:57:57.000+08:00
+           链接: http://lf.git.oa.mt/msdk/account/-/commit/bb471b6fd60dfa009cb94fbcab971604e706e3b2
+           分支: develop, feat/did_log_report_m-7158914990, test
+        5. 90527d36  [did_log_report] 本地 CLI 配置新增 DidInfoReport m-7158914990
+           时间: 2026-11-09T10:23:47.000+08:00
+           链接: http://lf.git.oa.mt/msdk/account/-/commit/90527d3687fd5881980ac51a563ce1eeeea7f2a7
+           分支: develop, feat/did_log_report_m-7158914990, test
+        6. 2b8f4f2d  Merge branch 'feat/xredis_v9' into 'test'
+           时间: 2026-11-09T06:21:57.000+00:00
+           链接: http://lf.git.oa.mt/msdk/account/-/commit/2b8f4f2d624733af364e694ff3d88062be42caf4
+           分支: test
+        7. eb61ac1c  Merge branch 'feat/did_log_report_m-7158914990' into 'test'
+           时间: 2026-11-09T06:13:27.000+00:00
+           链接: http://lf.git.oa.mt/msdk/account/-/commit/eb61ac1c6937e5f726032f42ad2e89cc74d52ca6
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#1791 [xredis_v9] 升级 xredis 至 v1.1.0 并迁移 go-redis 至 v9
+           时间: 2026-11-09T05:13:14.538Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/account/-/merge_requests/1791
+        2. MR#1790 [xredis_v9] 升级 xredis 至 v1.1.0 并迁移 go-redis 至 v9
+           时间: 2026-11-09T05:11:06.077Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/account/-/merge_requests/1790
+        3. MR#1789 Feat/did log report m 7158914990
+           时间: 2026-11-09T03:01:44.878Z
+           状态: closed
+           链接: http://lf.git.oa.mt/msdk/account/-/merge_requests/1789
+      MR评论记录：
+        1. 李孔权(Levir): 语义一致，v9里面的setEx已经Deprecated, Use Set with expiration instead as of Redis 2.6.12.
+           MR#: 1791 ([xredis_v9] 升级 xredis 至 v1.1.0 并迁移 go-redis 至 v9)
+           时间: 2026-11-09T06:18:25.576Z
+           链接: 
+    • msdk/report                                   提交:   5  MR:  1  Commit评论:  0  MR评论:  0 分支:develop, feat/event_err_log_m-7158914990, pre, test (+321 / -10)
+      提交记录（按时间倒序）：
+        1. eaa22659  Merge branch 'feat/event_err_log_m-7158914990' into 'develop'
+           时间: 2026-11-09T03:04:45.000+00:00
+           链接: http://lf.git.oa.mt/msdk/report/-/commit/eaa22659ad7c4eacdd370728fe75a9d39967e9ae
+           分支: develop
+        2. 52161fb7  fix(event-error-log): 修复逐项批次刷新与处理预算约束 m-7158914990
+           时间: 2026-11-09T10:57:22.000+08:00
+           链接: http://lf.git.oa.mt/msdk/report/-/commit/52161fb7930ff5d036904197dbc51d05ec9125df
+           分支: develop, feat/event_err_log_m-7158914990, test
+        3. e8ed36e9  chore(config): 本地运行配置新增 EventErrorLogReport 配置段
+           时间: 2026-11-09T10:24:57.000+08:00
+           链接: http://lf.git.oa.mt/msdk/report/-/commit/e8ed36e9127ae040814b8a62b58f1b12f7503328
+           分支: develop, feat/event_err_log_m-7158914990, test
+        4. 9c30624a  Merge branch 'feat/volcengine_m-7143659130' into 'pre'
+           时间: 2026-11-09T15:53:47.000+00:00
+           链接: http://lf.git.oa.mt/msdk/report/-/commit/9c30624a52e664fc3047f69b601f41870d2a1f28
+           分支: pre
+        5. c82da037  Merge branch 'feat/event_err_log_m-7158914990' into 'test'
+           时间: 2026-11-09T06:14:04.000+00:00
+           链接: http://lf.git.oa.mt/msdk/report/-/commit/c82da0379de42d0d96dad907d11541257072ea1b
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#337 feat(event-error-log): 错误日志改为 HTTP 上报并移除 S3 导出
+           时间: 2026-11-09T03:04:22.544Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/report/-/merge_requests/337
+    • go-component/xredis                           提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:feat/go-redis_v9, master (+140 / -181)
+      提交记录（按时间倒序）：
+        1. ecc282c4  升级 xredis 依赖 go-redis v8.11.5 到 v9.18.0
+           时间: 2026-11-09T12:06:23.000+08:00
+           链接: http://lf.git.oa.mt/go-component/xredis/-/commit/ecc282c432089958eb4bdc04b1c3ada5f4abbb29
+           分支: feat/go-redis_v9, master
+        2. e6b896b8  Merge branch 'feat/go-redis_v9' into 'master'
+           时间: 2026-11-09T04:47:04.000+00:00
+           链接: http://lf.git.oa.mt/go-component/xredis/-/commit/e6b896b82c57908af1d59a80679fc2e12bf585a7
+           分支: master
+      MR记录（按时间倒序）：
+        1. MR#10 升级 xredis 依赖 go-redis v8.11.5 到 v9.18.0
+           时间: 2026-11-09T04:06:56.195Z
+           状态: merged
+           链接: http://lf.git.oa.mt/go-component/xredis/-/merge_requests/10
+
+用户: code-development
+  识别: group508_bot8@noreply.lf.git.oa.mt
+  出现过的名字: code-development
+  总提交    : 4 次
+  总新增/删除: +0 / -0
+  Merge Requests: 12 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 16
+  按项目分布:
+    • msdk/rispari/server/im-logic                  提交:   3  MR:  5  Commit评论:  0  MR评论:  0 分支:develop, feature/OPT-M2-SEARCH-DTS-ES-MAPPING-rule, feature/auto-ticket-m-7147952375, milestone/M2-search, test 
+      提交记录（按时间倒序）：
+        1. 1b40617e  Merge branch 'milestone/M2-search' into 'develop'
+           时间: 2026-11-09T10:06:40.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/1b40617e196c477108287e4ddb5a3e316fbb184f
+           分支: develop
+        2. 65194f66  Merge branch 'fix/IL-FIX-M2-H318-CREATED-COUNT-created-count' into 'milestone/M2-search'
+           时间: 2026-11-09T10:06:16.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/65194f66ae03367f4fa518177d1963c9269d415e
+           分支: develop, feature/OPT-M2-SEARCH-DTS-ES-MAPPING-rule, feature/auto-ticket-m-7147952375, milestone/M2-search, test
+        3. 8ef7414d  Merge branch 'milestone/M2-search' into 'test'
+           时间: 2026-11-09T10:39:58.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/commit/8ef7414dded70863dfc3b775bafe30bca021488c
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#510 docs(auto-ticket): 补 056/058 执行前的 DTS 与 ES mapping 前置（FIX-AT-RUNBOOK-DTS-ES-MAPPING）
+           时间: 2026-11-09T12:07:40.780Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/510
+        2. MR#509 docs(im-task-playbook): 补 DTS 关联表改字段前先同步 ES mapping 前置（OPT-M2-SEARCH-DTS-ES-MAPPING）
+           时间: 2026-11-09T12:07:33.925Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/509
+        3. MR#507 发布 test · 7163130268（未拉取计数改为基准后新建客诉数）· im-logic
+           时间: 2026-11-09T10:39:42.447Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/507
+        4. MR#503 发布 dev · 7163130268（未拉取计数改为基准后新建客诉数）· im-logic
+           时间: 2026-11-09T10:06:28.245Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/503
+        5. MR#502 [LOOP-TASK T-7163130268-2] fix(h318): 未拉取计数改为基准之后新建客诉数（IL-FIX-M2-H318-CREATED-COUNT）
+           时间: 2026-11-09T09:45:40.270Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/im-logic/-/merge_requests/502
+    • msdk/rispari/server/docs                      提交:   1  MR:  5  Commit评论:  0  MR评论:  0 分支:feature/access_config_m-7148222718, feature/auto-ticket-m-7147952375, master 
+      提交记录（按时间倒序）：
+        1. 5e81f65b  Merge branch 'feature/BASE-FIX-M2-H318-CREATED-COUNT-created-count' into 'master'
+           时间: 2026-11-09T09:14:42.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/commit/5e81f65b03b6cc2aab81a3179c6b1e647074ab03
+           分支: feature/access_config_m-7148222718, feature/auto-ticket-m-7147952375, master
+      MR记录（按时间倒序）：
+        1. MR#657 docs(design): 新增 Schema 当前态指针表
+           时间: 2026-11-09T15:24:27.369Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/657
+        2. MR#656 docs(rules): 落地 R8 跨期闭环机械检查
+           时间: 2026-11-09T15:13:13.575Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/656
+        3. MR#655 docs(design): 新增契约归属索引（分册 → canonical 覆盖）
+           时间: 2026-11-09T15:04:21.408Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/655
+        4. MR#654 docs(design): 按设计状态载体核实目录 current 判定
+           时间: 2026-11-09T14:49:50.209Z
+           状态: opened
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/654
+        5. MR#649 [LOOP-TASK T-7163130268-1] fix(contracts): H318/TWS-H03 未拉取计数恒比较 created_at（BASE-FIX-M2-H318-CREATED-COUNT）
+           时间: 2026-11-09T09:05:52.544Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/server/docs/-/merge_requests/649
+    • msdk/rispari/tools/server-loop                提交:   0  MR:  1  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#43 feat(mr-card): 合并按钮真实生效，窗口 MR 卡补齐合并按钮
+           时间: 2026-11-09T13:11:44.864Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-loop/-/merge_requests/43
+    • msdk/rispari/tools/server-coordination        提交:   0  MR:  1  Commit评论:  0  MR评论:  0 
+      MR记录（按时间倒序）：
+        1. MR#139 docs(bugwf): 固化「已解决」回写的四段结构 [OPT-BUGWF-RESOLVED-COMMENT-STRUCTURE]
+           时间: 2026-11-09T13:14:00.759Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/tools/server-coordination/-/merge_requests/139
+
+用户: kedoury
+  识别: 70516964+kedoury@users.noreply.github.com
+  出现过的名字: kedoury
+  总提交    : 15 次
+  总新增/删除: +7,061 / -2,795
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 15
+  按项目分布:
+    • publish_tools/nanana2                         提交:  15  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/company-followup-20261109, codex/company-pi-family-20261106, codex/gpt-image-backup-recovery, master (+7,061 / -2,795)
+      提交记录（按时间倒序）：
+        1. a2eeea3c  test(company): align original input contracts and release recovery fixtures
+           时间: 2026-11-09T16:33:53.000+08:00
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/commit/a2eeea3ca6d5d2cef9d3bb2c00b57892f584316b
+           分支: codex/company-followup-20261109, master
+        2. 63070a52  fix(company): preserve original upload rejection and refresh merged indexes
+           时间: 2026-11-09T16:05:19.000+08:00
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/commit/63070a52146cfa2c064b8c439f31b7d4e0404020
+           分支: codex/company-followup-20261109, master
+        3. cf7a707a  merge(company): integrate lane C output and original image services
+           时间: 2026-11-09T15:58:29.000+08:00
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/commit/cf7a707a52e14616fba791dd232810af004541bb
+           分支: codex/company-followup-20261109, master
+        4. bcb6890b  merge(company): integrate lane B storyboard video services
+           时间: 2026-11-09T15:58:29.000+08:00
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/commit/bcb6890be1472938c0531de8f5257dfc3ebf023e
+           分支: codex/company-followup-20261109, master
+        5. 71621714  feat(company): append shared original image admission wiring
+           时间: 2026-11-09T15:55:01.000+08:00
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/commit/71621714c8bd0277491d258d78ba790d4e9b6ae6
+           分支: codex/company-followup-20261109, master
+        6. 23db75a6  feat(company): preserve larger owned image originals
+           时间: 2026-11-09T15:55:01.000+08:00
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/commit/23db75a6aa461f7933f107abc007a82a50f9d592
+           分支: codex/company-followup-20261109, master
+        7. d959790c  feat(company): execute and recover audited storyboard videos
+           时间: 2026-11-09T15:32:30.000+08:00
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/commit/d959790ced45997974f5d9caf65be5f381fa1d73
+           分支: codex/company-followup-20261109, master
+        8. e695aa47  feat(company): add storyboard video request contract
+           时间: 2026-11-09T15:32:30.000+08:00
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/commit/e695aa47d1d6bdf90cbf6a93c7763e0229a6bb1e
+           分支: codex/company-followup-20261109, master
+        9. 8376718c  fix(company): validate Seedance extended and QuickTime outputs
+           时间: 2026-11-09T15:29:51.000+08:00
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/commit/8376718c0e4f1b424c48913523f0230237f056de
+           分支: codex/company-followup-20261109, master
+       10. 8858044f  fix(company): project Pi versions only for admitted models
+           时间: 2026-11-09T14:51:13.000+08:00
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/commit/8858044f62816c0c64ec3d42fb6eb3def27792e6
+           分支: codex/company-followup-20261109, master
+       11. f44fb798  fix(company): preserve frozen H3 quotes across delayed steps
+           时间: 2026-11-09T14:46:38.000+08:00
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/commit/f44fb798079be802f4525460d5d26b901b9febad
+           分支: codex/company-followup-20261109, master
+       12. d7fc7cb8  feat(company): exclude tool translation from employee billing
+           时间: 2026-11-09T13:56:29.000+08:00
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/commit/d7fc7cb8d2c6187f3931a45ede555f5d86632094
+           分支: codex/company-followup-20261109, master
+       13. fb43b939  fix(company): bound Seedance pricing media analysis
+           时间: 2026-11-09T13:38:28.000+08:00
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/commit/fb43b939164eba10be792c921e1d1d6646a548ce
+           分支: codex/company-followup-20261109, master
+       14. cba83a9b  fix(company): block unpriced search and recover screenplay WAL
+           时间: 2026-11-09T13:20:40.000+08:00
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/commit/cba83a9ba9c99977436640c1b2526adc5449ef90
+           分支: codex/company-followup-20261109, codex/company-pi-family-20261106, master
+       15. 072661dc  grok提醒
+           时间: 2026-11-09T18:43:22.000+08:00
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/commit/072661dc9a4733b30fd63ece85ab0f7b0ca739fe
+           分支: codex/gpt-image-backup-recovery
+
+用户: 万映(leo)
+  识别: leowan@moonton.com
+  出现过的名字: leowan, 万映(leo)
+  总提交    : 9 次
+  总新增/删除: +649 / -449
+  Merge Requests: 5 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 14
+  按项目分布:
+    • msdk/rispari/web/im-agent                     提交:   9  MR:  5  Commit评论:  0  MR评论:  0 分支:main-vip-improve, main-vip-v2 (+649 / -449)
+      提交记录（按时间倒序）：
+        1. e017b3c5  docs(vip): 记录媒体查询宽度设计与后续实施计划 m-7150983974
+           时间: 2026-11-09T19:50:26.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/e017b3c51c1d0f6becbbd53cfdbf2c15b247ce10
+           分支: main-vip-improve, main-vip-v2
+        2. c1f97e97  fix(vip): 使用媒体查询适配任务和VIP列表宽度 m-7150983974
+           时间: 2026-11-09T19:25:48.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/c1f97e972b527a89f0fba99550212308be05caad
+           分支: main-vip-improve, main-vip-v2
+        3. de69268a  Merge branch 'main-vip-improve' into 'main-vip-v2'
+           时间: 2026-11-09T03:39:31.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/de69268af70335ef44d2676af9c6ff8eeebb4092
+           分支: main-vip-improve, main-vip-v2
+        4. a81422a5  Merge branch 'main-vip-improve' into 'main-vip-v2'
+           时间: 2026-11-09T11:50:53.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/a81422a5c86ca01f988607a11136fcc747c41dd1
+           分支: main-vip-v2
+        5. 06c19cb1  revert(vip): 将代码回退至 de69268 m-7150983974
+           时间: 2026-11-09T19:42:17.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/06c19cb1bfe22a45920391ac8b5c022107d10e70
+           分支: main-vip-v2
+        6. bbfb8db8  Merge branch 'main-vip-improve' into 'main-vip-v2'
+           时间: 2026-11-09T09:38:22.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/bbfb8db85b34057763cf830f330ddab8d60bbeff
+           分支: main-vip-v2
+        7. ff63d0b0  fix(vip): 保持任务筛选单行并对齐导航宽度上限 m-7150983974
+           时间: 2026-11-09T17:36:36.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/ff63d0b0c820ce5f97a59f465b016709edaaf898
+           分支: main-vip-v2
+        8. 0a0e9eaa  Merge branch 'main-vip-improve' into 'main-vip-v2'
+           时间: 2026-11-09T09:07:01.000+00:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/0a0e9eaa506d2b9233954607ffc33a98423447da
+           分支: main-vip-v2
+        9. 86a1fa2e  fix(vip): 调整监控列表自适应宽度和拖拽下限 m-7150983974
+           时间: 2026-11-09T17:04:39.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/86a1fa2e7316738729849992e51af01c7cbdb8de
+           分支: main-vip-v2
+      MR记录（按时间倒序）：
+        1. MR#125 fix(vip): 使用媒体查询适配任务和VIP列表宽度 m-7150983974
+           时间: 2026-11-09T11:50:48.976Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/merge_requests/125
+        2. MR#124 fix(vip): 使用媒体查询适配任务和VIP列表宽度 m-7150983974
+           时间: 2026-11-09T11:27:36.792Z
+           状态: closed
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/merge_requests/124
+        3. MR#123 fix(vip): 保持任务筛选单行并对齐导航宽度上限 m-7150983974
+           时间: 2026-11-09T09:38:16.557Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/merge_requests/123
+        4. MR#122 fix(vip): 调整监控列表自适应宽度和拖拽下限 m-7150983974
+           时间: 2026-11-09T09:06:53.693Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/merge_requests/122
+        5. MR#121 fix(vip): 让列表筛选框按内容自适应宽度 m-7150983974
+           时间: 2026-11-09T03:39:25.184Z
+           状态: merged
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/merge_requests/121
+
+用户: 解薇(cheryl)
+  识别: cherylxie@moonton.com
+  出现过的名字: cherylxie, 解薇(cheryl)
+  总提交    : 8 次
+  总新增/删除: +553 / -38
+  Merge Requests: 3 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 11
+  按项目分布:
+    • publish_platform/ad_bi/nuwa_alg_server        提交:   8  MR:  3  Commit评论:  0  MR评论:  0 分支:feat/s3-tos-dual-write, master (+553 / -38)
+      提交记录（按时间倒序）：
+        1. b28db9b6  Merge branch 'fix/video-highlight-optional-platform' into 'master'
+           时间: 2026-11-09T11:14:22.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/b28db9b633bef87655f6fb2ff2f24500f3794595
+           分支: feat/s3-tos-dual-write, master
+        2. b265e957  m-7156144419, fix(image): 高光帧允许不传出图平台
+           时间: 2026-11-09T19:11:06.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/b265e957d742945c0bf7afc16fe4479b7889cf37
+           分支: feat/s3-tos-dual-write, master
+        3. 3096c7b3  Merge branch 'fix/gpt-delivery-size' into 'master'
+           时间: 2026-11-09T08:38:33.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/3096c7b34767ea3e5ec4a61b7adfed5158994832
+           分支: feat/s3-tos-dual-write, master
+        4. f7d3663d  m-7156144419, fix(image): nano 不开审核时直接交付正式图并保留原图
+           时间: 2026-11-09T16:36:52.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/f7d3663d4821809bc64567abd36cccd364ab4bb4
+           分支: feat/s3-tos-dual-write, master
+        5. 520cb48d  Merge branch 'fix/gpt-delivery-size' into 'master'
+           时间: 2026-11-09T08:06:19.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/520cb48d17cd1424a5cc818ced6b67f598d7e587
+           分支: feat/s3-tos-dual-write, master
+        6. 7452903c  m-7156144419, fix(image): nano banana 按比例交付，横图不拉到 628
+           时间: 2026-11-09T16:04:03.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/7452903c519c20fe50a827201948838a703ab302
+           分支: feat/s3-tos-dual-write, master
+        7. c3f7f582  m-7156144419, Merge remote-tracking branch 'origin/master' into fix/gpt-delivery-size
+           时间: 2026-11-09T15:28:58.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/c3f7f5822be9dc8932cf1c92457c6838d2ef08ad
+           分支: feat/s3-tos-dual-write, master
+        8. a462b311  m-7156144419, fix(image): 修正 GPT 投放尺寸并保留原图
+           时间: 2026-11-09T15:28:23.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/a462b31155057ec61f59e5b3812a5b858350b962
+           分支: feat/s3-tos-dual-write, master
+      MR记录（按时间倒序）：
+        1. MR#200 m-7156144419, fix(image): 高光帧允许不传出图平台
+           时间: 2026-11-09T11:14:16.366Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/merge_requests/200
+        2. MR#199 m-7156144419, fix(image): nano 不开审核时直接交付正式图并保留原图
+           时间: 2026-11-09T08:38:08.443Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/merge_requests/199
+        3. MR#198 m-7156144419, fix(image): 修正 GPT 投放尺寸并保留原图
+           时间: 2026-11-09T08:05:39.179Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/merge_requests/198
+
+用户: 田雪健(Storm)
+  识别: stormtian@moonton.com
+  出现过的名字: 田雪健(Storm)
+  总提交    : 6 次
+  总新增/删除: +187 / -54
+  Merge Requests: 4 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 10
+  按项目分布:
+    • publish_platform/gateway                      提交:   5  MR:  3  Commit评论:  0  MR评论:  0 分支:codex/gateway-operation-rule-schema, codex/gateway-operation-table-prefix, dev, test (+187 / -54)
+      提交记录（按时间倒序）：
+        1. 31470309  revert(operation): 恢复规则表使用 LogDB 默认库
+           时间: 2026-11-09T22:07:15.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/gateway/-/commit/3147030994794d1b291375295f5d809982d866c4
+           分支: codex/gateway-operation-rule-schema
+        2. 1ab7f4d0  fix(operation): 从 mt_operate_log 读取操作规则
+           时间: 2026-11-09T21:57:49.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/gateway/-/commit/1ab7f4d0122d9d66cb8092a03809e98ffab699a3
+           分支: codex/gateway-operation-rule-schema
+        3. e856e2ed  fix(operation): 从 YAML 配置读取日志月表前缀
+           时间: 2026-11-09T22:29:49.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/gateway/-/commit/e856e2edb622b0a8ece3dec59a0a705539006c89
+           分支: codex/gateway-operation-table-prefix, dev, test
+        4. 03621ff8  Merge branch 'codex/gateway-operation-table-prefix' into 'dev'
+           时间: 2026-11-09T14:36:24.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/gateway/-/commit/03621ff84e5d3f8831ffa4a668c1f9d553e759ec
+           分支: dev, test
+        5. a0811d67  Merge branch 'dev' into 'test'
+           时间: 2026-11-09T14:36:57.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/gateway/-/commit/a0811d67300178bc2cb645767a5bf7f54a74f47d
+           分支: test
+      MR记录（按时间倒序）：
+        1. MR#352 fix(operation): 从 YAML 配置读取日志月表前缀
+           时间: 2026-11-09T14:36:48.074Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/gateway/-/merge_requests/352
+        2. MR#351 fix(operation): 从 YAML 配置读取日志月表前缀
+           时间: 2026-11-09T14:30:38.123Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/gateway/-/merge_requests/351
+        3. MR#350 已取消：改由 MY test logDSN 配置日志库
+           时间: 2026-11-09T13:58:44.692Z
+           状态: closed
+           链接: http://lf.git.oa.mt/publish_platform/gateway/-/merge_requests/350
+    • publish_platform/ad_bi/ada                    提交:   1  MR:  1  Commit评论:  0  MR评论:  0 分支:main 
+      提交记录（按时间倒序）：
+        1. 78937f9a  Merge branch 'test' into 'main'
+           时间: 2026-11-09T08:57:47.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/ada/-/commit/78937f9acfc9550fe77bd280061db4841e838d6a
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#79 fix(lark-auth): 合入 device_code 长度修复（test → main）
+           时间: 2026-11-09T08:54:41.383Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/ada/-/merge_requests/79
+
+用户: tito
+  识别: titoxu@moonton.com
+  出现过的名字: tito
+  总提交    : 8 次
+  总新增/删除: +3,488 / -1,097
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 8
+  按项目分布:
+    • msdk/rispari/web/im-agent                     提交:   8  MR:  0  Commit评论:  0  MR评论:  0 分支:feat/custom-views_m-7147756326, feat/m3-ticket-readonly_m-7147756326, release/m3 (+3,488 / -1,097)
+      提交记录（按时间倒序）：
+        1. ac406fc2  fix(cs): 保持列表刷新中的文案为品牌蓝色 m-7147756326
+           时间: 2026-11-09T16:37:51.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/ac406fc244e6f7defe2db1b13fbb80146deda6f1
+           分支: feat/custom-views_m-7147756326, release/m3
+        2. 37db512b  feat:迭代版本号
+           时间: 2026-11-09T16:26:27.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/37db512ba55c9b16b163cde70cf52e402af8389f
+           分支: feat/custom-views_m-7147756326, release/m3
+        3. 8e3b61c9  fix(cs): 补齐工单列表刷新和加载提示 m-7147756326
+           时间: 2026-11-09T16:22:59.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/8e3b61c90af640de43289200a7101a6776acb470
+           分支: feat/custom-views_m-7147756326, release/m3
+        4. 7e3f9b8f  fix(cs): 修复客诉列表刷新和排序并调整加载提示 m-7147756326
+           时间: 2026-11-09T16:15:32.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/7e3f9b8fa7bc81e6d4c3f350970bf148f2cfa207
+           分支: feat/custom-views_m-7147756326, release/m3
+        5. ad428872  feat(cs): 接入机器人接待详情只读门控 m-7147756326
+           时间: 2026-11-09T11:50:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/ad428872600171cabd5019cd65e9e380f0c627d5
+           分支: feat/m3-ticket-readonly_m-7147756326
+        6. 8ac6fd99  feat(cs): 增加机器人接待只读与批量动作规则 m-7147756326
+           时间: 2026-11-09T11:46:30.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/8ac6fd9998fe9083c1af7b8700238bc950843dd8
+           分支: feat/m3-ticket-readonly_m-7147756326
+        7. 62f834ae  merge(cs): 将自定义视图合入 M3 发布分支 m-7147756326
+           时间: 2026-11-09T11:46:29.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/62f834ae34ab4fdfdc64a8f9fd4c7b75ca84a017
+           分支: feat/m3-ticket-readonly_m-7147756326, release/m3
+        8. fc580263  Merge branch 'feat/custom-views_m-7147756326' into release/m3
+           时间: 2026-11-09T17:41:41.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/web/im-agent/-/commit/fc5802634c13d7ad762d8fd65cf7d76a723990fc
+           分支: release/m3
+
+用户: 孙鹏
+  识别: v_sunpeng@moonton.com
+  出现过的名字: 孙鹏
+  总提交    : 6 次
+  总新增/删除: +1,245 / -256
+  Merge Requests: 2 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 8
+  按项目分布:
+    • publish_platform/web/gams_ad_bi_in            提交:   6  MR:  2  Commit评论:  0  MR评论:  0 分支:feat/m-7135951413, main (+1,245 / -256)
+      提交记录（按时间倒序）：
+        1. 26e06208  feat: 修复ts类型错误 m-7135951413
+           时间: 2026-11-09T21:42:21.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/26e06208af101ea6cc8f748fa8a8932bb92ac96f
+           分支: feat/m-7135951413, main
+        2. 00d8bbee  feat: 恢复config.js配置 m-7135951413
+           时间: 2026-11-09T21:31:01.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/00d8bbee2f15862724156175025b564b215662cb
+           分支: feat/m-7135951413, main
+        3. de352839  feat: 打包组筛选条件上限100、修复通知指标联动逻辑 m-7135951413
+           时间: 2026-11-09T21:27:55.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/de352839e1852c7ea54fea0cb469c7b916018381
+           分支: feat/m-7135951413, main
+        4. 1cdabc7e  Merge branch 'feat/m-7135951413' into 'main'
+           时间: 2026-11-09T06:35:50.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/1cdabc7ecb202e4f00b588040ed534ba4ae57111
+           分支: feat/m-7135951413, main
+        5. 35ab5de4  feat: 锚点样式调整、更换预警类型接口 m-7135951413
+           时间: 2026-11-09T14:31:08.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/35ab5de4fe14c8cfddcdc447d932fa7bace06dd5
+           分支: feat/m-7135951413, main
+        6. db7df35f  Merge branch 'feat/m-7135951413' into 'main'
+           时间: 2026-11-09T13:45:06.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/commit/db7df35f147ef8aa0c2560610ef60c26251614a9
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#650 Feat/m 7135951413
+           时间: 2026-11-09T13:33:38.887Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/merge_requests/650
+        2. MR#649 feat: 锚点样式调整、更换预警类型接口 m-7135951413
+           时间: 2026-11-09T06:32:04.189Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_bi_in/-/merge_requests/649
+
+用户: 叶明(Ming)
+  识别: mingye@moonton.com
+  出现过的名字: 叶明(Ming)
+  总提交    : 5 次
+  总新增/删除: +2,759 / -300
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 6
+  按项目分布:
+    • publish_platform/ad_bi/data                   提交:   5  MR:  1  Commit评论:  0  MR评论:  0 分支:feature-code-opt-mingye-20261015-m-7152558741 (+2,759 / -300)
+      提交记录（按时间倒序）：
+        1. aeb60c0e  Merge branch 'master' into feature-code-opt-mingye-20261015-m-7152558741
+           时间: 2026-11-09T17:35:32.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/aeb60c0e975faf6e391bd44f29ddd6c41317ed44
+           分支: feature-code-opt-mingye-20261015-m-7152558741
+        2. 25cc2046  ✨ feat: 新增 adbi.app_sdk_back_ad_stats_df 表以支持金额字段类型为 double, m-7152558741
+           时间: 2026-11-09T17:32:26.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/25cc2046ddcf9cf5247fae2e65b6dcd8b6a20176
+           分支: feature-code-opt-mingye-20261015-m-7152558741
+        3. 94e46504  ✨ feat: 修改金额字段类型以支持不取整, m-7152558741
+           时间: 2026-11-09T16:05:07.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/94e46504901a609100882815b256a834f336675f
+           分支: feature-code-opt-mingye-20261015-m-7152558741
+        4. 3c51e1f5  ✨ feat: 同步代码, m-7152558741
+           时间: 2026-11-09T12:46:57.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/3c51e1f572e6a1bc214d616016f65b4f9199077d
+           分支: feature-code-opt-mingye-20261015-m-7152558741
+        5. 9f7fed98  ✨ feat: 同步代码, m-7152558741
+           时间: 2026-11-09T12:00:43.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/9f7fed9834e5963553944ece4f7e77e92894f152
+           分支: feature-code-opt-mingye-20261015-m-7152558741
+      MR记录（按时间倒序）：
+        1. MR#636 代码性能优化&驾驶舱新增指标需求，m-7152558741
+           时间: 2026-11-09T09:34:07.597Z
+           状态: opened
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/merge_requests/636
+
+用户: 黄奎元(Kedour)
+  识别: kedourhuang@moonton.com
+  出现过的名字: 黄奎元(Kedour)
+  总提交    : 2 次
+  总新增/删除: +0 / -0
+  Merge Requests: 3 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 5
+  按项目分布:
+    • publish_tools/nanana2                         提交:   2  MR:  3  Commit评论:  0  MR评论:  0 分支:master 
+      提交记录（按时间倒序）：
+        1. da674ca1  Merge branch 'codex/company-followup-20261109' into 'master'
+           时间: 2026-11-09T09:47:24.000+00:00
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/commit/da674ca1628e6870f7d69c618a558aa184bb6132
+           分支: master
+        2. 234295a3  Merge branch 'codex/company-pi-family-20261106' into 'master'
+           时间: 2026-11-09T09:15:56.000+00:00
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/commit/234295a3bd7e9658e938aa91d33a60744be1a66d
+           分支: master
+      MR记录（按时间倒序）：
+        1. MR#245 grok提醒
+           时间: 2026-11-09T10:49:40.017Z
+           状态: opened
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/merge_requests/245
+        2. MR#244 公司版后续集成：分镜视频、原件容量与恢复修复
+           时间: 2026-11-09T08:54:57.890Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/merge_requests/244
+        3. MR#243 公司版后续能力接线与 11-09 复核修补（新能力默认关闭）
+           时间: 2026-11-09T05:36:37.671Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_tools/nanana2/-/merge_requests/243
+
+用户: kurokyma
+  识别: kurokyma@moonton.com
+  出现过的名字: kurokyma
+  总提交    : 4 次
+  总新增/删除: +1,696 / -4,064
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 4
+  按项目分布:
+    • msdk/rispari/sdk/iOS                          提交:   4  MR:  0  Commit评论:  0  MR评论:  0 分支:codex/ios-m2-dual-package-plan (+1,696 / -4,064)
+      提交记录（按时间倒序）：
+        1. 7fe23a20  补充测试维护与覆盖管理原则
+           时间: 2026-11-09T20:30:18.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/iOS/-/commit/7fe23a20e6f7dc32d897c1922b398ca386d992e1
+           分支: codex/ios-m2-dual-package-plan
+        2. 0393954a  清理冗余测试并更新本地化断言
+           时间: 2026-11-09T20:17:40.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/iOS/-/commit/0393954a291c6762f3f93bab95d797eaa4b37e57
+           分支: codex/ios-m2-dual-package-plan
+        3. 82e8a4cb  清理 Web 外壳本地化依赖及无用资源
+           时间: 2026-11-09T20:12:26.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/iOS/-/commit/82e8a4cb5962911ac05134a8bace3d543ae99aa8
+           分支: codex/ios-m2-dual-package-plan
+        4. 7d9f3f61  改为运行时读取 SDK 自有本地化资源
+           时间: 2026-11-09T19:12:48.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/iOS/-/commit/7d9f3f612a2219c0be021cf60578087579e3b879
+           分支: codex/ios-m2-dual-package-plan
+
+用户: rambohu1
+  识别: rambohu1@moonton.com
+  出现过的名字: rambohu1
+  总提交    : 4 次
+  总新增/删除: +3,223 / -889
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 4
+  按项目分布:
+    • msdk/rispari/sdk/Android                      提交:   4  MR:  0  Commit评论:  0  MR评论:  0 分支:m3-workroder-ai (+3,223 / -889)
+      提交记录（按时间倒序）：
+        1. ac122c18  feat: 新增常驻问题菜单并适配新客诉状态 -m 7106923210
+           时间: 2026-11-09T18:46:57.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/Android/-/commit/ac122c187dfbc2324bd0636174440a6beb1ed740
+           分支: m3-workroder-ai
+        2. b9ea4f67  feat: 实现 M3 网页桥接回调与能力声明 -m 7106923210
+           时间: 2026-11-09T17:39:51.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/Android/-/commit/b9ea4f675e3462a887b07c1a24bf3f8e27d28f13
+           分支: m3-workroder-ai
+        3. 2a717c4f  fix: 修复关闭客服首次点击并居中显示确认框 -m 7106923210
+           时间: 2026-11-09T11:24:46.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/Android/-/commit/2a717c4f34b82fffde42399eba145a242d2185b4
+           分支: m3-workroder-ai
+        4. d865745f  merge: 同步 M2 Web 入口与打包修正到 M3 -m 7106923210
+           时间: 2026-11-09T10:55:32.000+08:00
+           链接: http://lf.git.oa.mt/msdk/rispari/sdk/Android/-/commit/d865745fff44a65d7cde7ef5ce7ae91edf0768f1
+           分支: m3-workroder-ai
+
+用户: 田元林(Candy)
+  识别: candytian@moonton.com
+  出现过的名字: candytian, 田元林(Candy)
+  总提交    : 2 次
+  总新增/删除: +1 / -1
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 3
+  按项目分布:
+    • publish_platform/web/cockpit                  提交:   2  MR:  1  Commit评论:  0  MR评论:  0 分支:feat/m-7152558741, main (+1 / -1)
+      提交记录（按时间倒序）：
+        1. b5289e5e  feat:m-7152558741 update version
+           时间: 2026-11-09T16:28:40.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/b5289e5eafbe7fb4cc33679fd767ab87ebf10989
+           分支: feat/m-7152558741, main
+        2. efb7f80d  Merge branch 'feat/m-7152558741' into 'main'
+           时间: 2026-11-09T08:29:24.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/commit/efb7f80dba5093edbd5fc036270be36536136024
+           分支: main
+      MR记录（按时间倒序）：
+        1. MR#843 feat:m-7152558741 update version
+           时间: 2026-11-09T08:29:16.584Z
+           状态: merged
+           链接: http://lf.git.oa.mt/publish_platform/web/cockpit/-/merge_requests/843
+
+用户: kaisun@moonton.com
+  识别: kaisun@moonton.com
+  出现过的名字: kaisun@moonton.com
+  总提交    : 2 次
+  总新增/删除: +1,552 / -180
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/ad_bi/gms_ad_bi_cn           提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:m-7160725531-安全改造 (+1,366 / -180)
+      提交记录（按时间倒序）：
+        1. 59fb0381  m-7160725531-安全改造
+           时间: 2026-11-09T20:02:12.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/gms_ad_bi_cn/-/commit/59fb038177dc9a8513bbf482ca295fefa8fdd2bf
+           分支: m-7160725531-安全改造
+    • publish_platform/attribution-service          提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:m-7160725531-安全改造 (+186 / -0)
+      提交记录（按时间倒序）：
+        1. 84ff4a68  m-7160725531-安全改造
+           时间: 2026-11-09T15:51:52.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/attribution-service/-/commit/84ff4a68ffb1ed15a256d41741583477509d4d65
+           分支: m-7160725531-安全改造
+
+用户: 刘松林(Nelson)
+  识别: nelsonliu@moonton.com
+  出现过的名字: nelsonliu, 刘松林(Nelson)
+  总提交    : 1 次
+  总新增/删除: +1,472 / -134
+  Merge Requests: 1 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/ad_bi/nuwa_alg_server        提交:   1  MR:  1  Commit评论:  0  MR评论:  0 分支:feat/s3-tos-dual-write (+1,472 / -134)
+      提交记录（按时间倒序）：
+        1. 508cdf3c  feat(storage): add configurable S3 and TOS dual writes
+           时间: 2026-11-09T19:44:50.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/commit/508cdf3cf4dee6f7b2fcd983986792ebebecb6cb
+           分支: feat/s3-tos-dual-write
+      MR记录（按时间倒序）：
+        1. MR#201 Draft: feat(storage): 图片、视频及 Workflow 的 S3/TOS 双写
+           时间: 2026-11-09T11:45:41.695Z
+           状态: opened
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/nuwa_alg_server/-/merge_requests/201
+
+用户: 郑淼(Miao)
+  识别: user:miaozheng
+  出现过的名字: 郑淼(Miao)
+  总提交    : 0 次
+  总新增/删除: +0 / -0
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 2 条
+  总活动量   : 2
+  按项目分布:
+    • msdk/account                                  提交:   0  MR:  0  Commit评论:  0  MR评论:  2 
+      MR评论记录：
+        1. 郑淼(Miao): 语义跟原来一致吗
+           MR#: 1791 ([xredis_v9] 升级 xredis 至 v1.1.0 并迁移 go-redis 至 v9)
+           时间: 2026-11-09T06:05:28.332Z
+           链接: 
+        2. 郑淼(Miao): 语义跟原来一致吗
+           MR#: 1791 ([xredis_v9] 升级 xredis 至 v1.1.0 并迁移 go-redis 至 v9)
+           时间: 2026-11-09T06:05:15.525Z
+           链接: 
+
+用户: wangYK
+  识别: yuankangwang@moonton.com
+  出现过的名字: wangYK
+  总提交    : 2 次
+  总新增/删除: +1,311 / -75
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/fuxi                         提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:m-7137633720-ocean-zhiqing (+1,311 / -75)
+      提交记录（按时间倒序）：
+        1. d38572f9  feat: 智擎优化 ddl
+           时间: 2026-11-09T18:54:45.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/d38572f902f1dc7a0800e6c02098e1b8139f3f5f
+           分支: m-7137633720-ocean-zhiqing
+        2. 50f458ba  feat: 智擎广告批量创建 上传素材优化
+           时间: 2026-11-09T17:09:55.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/50f458babd532bbf88a9555d547fb1afe1202fe5
+           分支: m-7137633720-ocean-zhiqing
+
+用户: 覃亮(Daniel)
+  识别: danielqin@moonton.com
+  出现过的名字: danielqin, 覃亮(Daniel)
+  总提交    : 2 次
+  总新增/删除: +8 / -4
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 2
+  按项目分布:
+    • publish_platform/fuxi                         提交:   2  MR:  0  Commit评论:  0  MR评论:  0 分支:master (+8 / -4)
+      提交记录（按时间倒序）：
+        1. d51ee824  Merge branch 'm-7142622151-auto-push-retarget-ql-1103' into 'master'
+           时间: 2026-11-09T03:31:25.000+00:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/d51ee824a3e064f2b9453c5a70edf32edf85cc8f
+           分支: master
+        2. 485c0e97  m-7142622151 【国服】广告平台 创建广告自动推送人群包
+           时间: 2026-11-09T11:30:40.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/fuxi/-/commit/485c0e978a611d7dde8caa543b15239de36d2f64
+           分支: master
+
+用户: Dylan
+  识别: dylandu@moonton.com
+  出现过的名字: Dylan
+  总提交    : 1 次
+  总新增/删除: +55 / -47
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • publish_platform/ad_bi/data                   提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:feature_cn_zgame_juliang_m-7158996612 (+55 / -47)
+      提交记录（按时间倒序）：
+        1. 3b2a1ab3  m-7158996612: add offline juliang api
+           时间: 2026-11-09T10:22:46.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/ad_bi/data/-/commit/3b2a1ab31e80627eee805de0f9351f1b44e1976d
+           分支: feature_cn_zgame_juliang_m-7158996612
+
+用户: jiangcheng
+  识别: chengjiang@moonton.com
+  出现过的名字: jiangcheng
+  总提交    : 1 次
+  总新增/删除: +1,422 / -191
+  Merge Requests: 0 个
+  Commit 评论  : 0 条
+  MR 评论      : 0 条
+  总活动量   : 1
+  按项目分布:
+    • publish_platform/web/gams_ad_in               提交:   1  MR:  0  Commit评论:  0  MR评论:  0 分支:1.7.0_7137633720 (+1,422 / -191)
+      提交记录（按时间倒序）：
+        1. 18383ed5  m-7137633720 feat(batchQing): 智擎一期 创意组分维度建模与素材抽屉
+           时间: 2026-11-09T11:17:15.000+08:00
+           链接: http://lf.git.oa.mt/publish_platform/web/gams_ad_in/-/commit/18383ed5a1133a2ffb6d79039ed752ff800b59b6
+           分支: 1.7.0_7137633720
+
+----------------------------------------------------------------------------------------------------
+共统计到 25 位活跃用户
